@@ -1217,19 +1217,65 @@
 
     function buildLessonSixteenGuide() {
       const vocabRows = LESSON_16_VOCAB.map((v, i) => `<div style="padding:9px;border-bottom:1px solid #F3DCE4;"><strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br><span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br><span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span></div>`).join('');
+      const question = (prompt, choices, note) => `<div style="margin:14px 0;padding:14px;background:#FFF9FA;border-radius:14px;"><strong>${prompt}</strong><div style="display:grid;gap:7px;margin-top:10px;">${choices.map(c => `<button class="quiz-opt-btn" data-correct="${c.ok}" onclick="checkGuideChoice(this)">${c.text}</button>`).join('')}</div><p class="guide-feedback" style="display:none;margin:10px 0 0;color:var(--text-muted);line-height:1.45;">${note}</p></div>`;
       return `
         <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 16 Complete Guide 📘</h2>
         <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Study sequential verbs (て-form connection), adjective connections, and attribute descriptions.</p>
+        
         <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">1. Full vocabulary reference (${LESSON_16_VOCAB.length} cards)</summary><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 14px;background:#FFF9FA;padding:8px 14px;border-radius:14px;">${vocabRows}</div></details>
+        
         <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">2. Grammar focus</summary>
           <div style="display:grid;gap:12px;margin-top:12px;">
-            <div class="example-sentence"><strong>① Verb-て, Verb-て ... Verb (Sequential Actions)</strong><br>Connect actions in order. Tense is set by the final verb.<br><em>朝ジョギングをして、シャワーを浴びて、会社へ行きます。</em><br>I jog, take a shower, and go to work.</div>
-            <div class="example-sentence"><strong>② Verb-てから, Verb (After doing...)</strong><br>Emphasizes that action 2 happens after action 1 is complete.<br><em>お金を下ろしてから、買い物に行きました。</em><br>After withdrawing money, I went shopping.</div>
-            <div class="example-sentence"><strong>③ Adjective & Noun Connection</strong><br>い-adj (～くて), な-adj (～で), Noun (～で).<br><em>この部屋は広くて、明るいです。</em></div>
-            <div class="example-sentence"><strong>④ Noun 1 は Noun 2 が Adjective</strong><br>Describing an attribute or body part.<br><em>マリアさんは髪が長くて、背が高いです。</em></div>
+            <div class="example-sentence"><strong>① Sentence 1 (て-form)、Sentence 2 (Connecting Verbs)</strong><br>Connect full sentences by ending the preceding verb in the -te form. Tense is only marked by the final verb.<br><em>スーパーに行って、牛乳を買って、家に帰りました。</em><br>I went to the supermarket, bought milk, and went home.</div>
+            <div class="example-sentence"><strong>② Verb-て から、Sentence 2 (Sequence)</strong><br>Emphasizes that Action 1 is completed first before Action 2 takes place.<br><em>お金を下ろしてから、買い物に行きました。</em><br>I first withdrew money, and then went shopping.</div>
+            <div class="example-sentence"><strong>③ い-adj (～くて) / な-adj (～で) / Noun (～で)</strong><br>Connect descriptions of the same polarity.<br><em>私の町は小さくて、静かです。</em><br>My town is small and quiet.</div>
+            <div class="example-sentence"><strong>④ Adjective Contrast: ～が / ～けど (Positive vs Negative)</strong><br>Use ga or kedo (but) when connecting contrasting traits.<br><em>この料理は美味しいですが、高いです。</em><br>This dish is delicious, but it is expensive.</div>
+            <div class="example-sentence"><strong>⑤ Noun 1 は Noun 2 が [Adjective] です (Describing Features)</strong><br>Describe a specific attribute or body part of a subject.<br><em>彼女は髪が長いです。</em><br>She has long hair.</div>
+            <div class="example-sentence"><strong>⑥ どうやって vs. どう (Asking 'How')</strong><br>どうやって asks for concrete methods/routes. どう asks for opinions or conditions.<br><em>大阪からどうやって行きますか。</em><br>How do you get there from Osaka?</div>
+            <div class="example-sentence"><strong>⑦ どれ / どの vs. どちら / どっち (Asking 'Which')</strong><br>どれ/どの for 3+ options; どちら/どっち for strictly 2 options.<br><em>どちらの国が勝ちましたか。</em></div>
           </div>
+        </details>
+
+        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">3. Reading: 京都への行き方と週末の旅行 (Trip to Kyoto)</summary>
+          <div style="margin-top:12px;background:#FFF9FA;border-left:4px solid var(--pink-primary);padding:16px;border-radius:12px;line-height:1.8;">
+            <strong>マルコ:</strong> さくらさん、今週の土曜日に京都へ行きたいですが、大阪からどうやって行きますか。<br>
+            <strong>さくら:</strong> 大阪駅からJRの新快速に乗って、京都駅で降ります。30分で行きますよ。<br>
+            <strong>マルコ:</strong> そうですか。京都駅に着いてから、どこへ行ったらいいですか。<br>
+            <strong>さくら:</strong> 駅前から16番の市バスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。<br>
+            <strong>マルコ:</strong> いいですね。京都は食べ物も美味しいですか。<br>
+            <strong>さくら:</strong> ええ、京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ。<br>
+            <strong>マルコ:</strong> 楽しみです。親切に教えてくれてありがとうございます。
+          </div>
+          <p style="color:var(--text-muted);font-size:.9rem;line-height:1.5;">Translation: Marco wants to visit Kyoto this Saturday and asks Sakura how to get there from Osaka. Sakura explains that he can take the JR Special Rapid train from Osaka Station and get off at Kyoto Station in about 30 minutes. She advises that after arriving at Kyoto Station, he should take city bus number 16 to visit Kinkaku-ji temple, which is quiet and beautiful. She also notes that Kyoto has abundant greenery and delicious matcha ice cream.</p>
+          ${question('1. How does Sakura recommend traveling from Osaka Station to Kyoto Station?', [{text:'Walk for 30 minutes',ok:false},{text:'Ride the JR Special Rapid train and get off at Kyoto Station',ok:true},{text:'Change trains at Akihabara Station',ok:false},{text:'Take city bus number 16 directly from Osaka',ok:false}], 'Sakura instructs Marco to board the JR Special Rapid train at Osaka Station and disembark at Kyoto Station.')}
+          ${question('2. What should Marco do after arriving at Kyoto Station?', [{text:'Withdraw money from the ATM and return home',ok:false},{text:'Take bus number 16 to visit Kinkaku-ji temple',ok:true},{text:'Go straight to a restaurant because it is dark',ok:false},{text:'Observe a factory tour',ok:false}], 'Sakura tells him to take bus number 16 from the station to visit Kinkaku-ji.')}
+          ${question('3. How does Sakura describe Kyoto\'s environment and food?', [{text:'It has a lot of greenery and delicious matcha ice cream.',ok:true},{text:'It is small and dark, and the service is bad.',ok:false},{text:'It is very expensive, but the days are short.',ok:false},{text:'The temples are far and hard of hearing.',ok:false}], 'Sakura states: 京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ。')}
+        </details>
+
+        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">4. Practice Exercises</summary>
+          <div style="display:grid;gap:12px;margin-top:12px;">
+            ${question('1. Choose the correct meaning of 乗り換えます.', [{text:'Please get off the train',ok:false},{text:'Please change / transfer trains',ok:true},{text:'Please withdraw money',ok:false},{text:'Please push the button',ok:false}], '乗り換えます means to transfer or change vehicles.')}
+            ${question('2. Connect sequential morning actions: "I went jogging, took a shower, and came to work."', [{text:'して、浴びて',ok:true},{text:'します、浴びます',ok:false},{text:'して、浴びてから',ok:false},{text:'した、浴びた',ok:false}], 'Actions in chronological sequence are chained using the て-form.')}
+            ${question('3. Choose the correct form to say: "I first withdrew money, and then went shopping."', [{text:'てから',ok:true},{text:'て',ok:false},{text:'たり',ok:false},{text:'ながら',ok:false}], 'Verb (て-form) + から explicitly emphasizes that the first action is completed first.')}
+            ${question('4. Choose the natural connector for contrasting qualities (positive + negative): "This dish is delicious, but expensive."', [{text:'くて',ok:false},{text:'ですが',ok:true},{text:'で',ok:false},{text:'と',ok:false}], 'Use が or ですが (but) when linking contrasting traits.')}
+            ${question('5. Choose the correct particle to mark the specific feature being described: "She has long hair."', [{text:'は',ok:false},{text:'が',ok:true},{text:'を',ok:false},{text:'で',ok:false}], 'In N1 は N2 が Adj です, N2 is the specific attribute marked by が.')}
+            ${question('6. Choose the correct question word to ask for an opinion: "What do you think about this?"', [{text:'どう',ok:true},{text:'どうやって',ok:false},{text:'どれ',ok:false},{text:'どの',ok:false}], 'Use どう to ask for opinions and impressions.')}
+            ${question('7. A soccer match between two countries: "Which country won?"', [{text:'どの国が勝ちましたか？',ok:false},{text:'どちらの国が勝ちましたか？',ok:true},{text:'どれ国が勝ちましたか？',ok:false},{text:'どうやって国が勝ちましたか？',ok:false}], 'For strictly two options, use どちらの + Noun.')}
+            ${question('8. Join two noun predicates describing the same subject: "He is my colleague and my friend."', [{text:'と',ok:false},{text:'で',ok:true},{text:'くて',ok:false},{text:'に',ok:false}], 'Use で to connect noun predicate sentences.')}
+          </div>
+        </details>
+
+        <details open><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">5. Write and practice your sentences</summary>
+          <p style="color:var(--text-muted);line-height:1.5;">Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then describe a friend or city using connected adjectives and the N1 は N2 が [Adjective] pattern.</p>
+          <textarea id="lesson16-writing" oninput="saveLessonSixteenWriting()" placeholder="朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。" style="width:100%;min-height:150px;border:2px solid var(--pink-light);border-radius:14px;padding:14px;font:inherit;line-height:1.6;resize:vertical;"></textarea>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;"><button class="btn-cute btn-mint" onclick="saveLessonSixteenWriting()">💾 Save on this device</button><button class="btn-cute btn-lavender" onclick="toggleLessonSixteenModel()">👀 Show model answer</button><button class="btn-cute" onclick="clearLessonSixteenWriting()">Clear</button></div>
+          <div id="lesson16-model" style="display:none;margin-top:12px;padding:13px;background:var(--mint-light);border-radius:12px;line-height:1.6;"><strong>Model:</strong><br>毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。<br><span style="color:var(--text-muted);font-size:.88rem;">Adapt this to your own daily routine and descriptions!</span></div>
         </details>`;
     }
+
+    function saveLessonSixteenWriting() { localStorage.setItem('minna_lesson_16_writing', document.getElementById('lesson16-writing').value); }
+    function clearLessonSixteenWriting() { document.getElementById('lesson16-writing').value = ''; localStorage.removeItem('minna_lesson_16_writing'); }
+    function toggleLessonSixteenModel() { const model = document.getElementById('lesson16-model'); model.style.display = model.style.display === 'none' ? 'block' : 'none'; }
 
     function buildLessonOneGuide() {
       const vocabRows = LESSON_1_VOCAB.map((v, i) => `<div style="padding:9px;border-bottom:1px solid #F3DCE4;"><strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br><span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br><span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span></div>`).join('');
