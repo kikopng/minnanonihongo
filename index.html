@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Minna Study Path</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">MINNA NO NIHONGO · SELF STUDY</p>
+      <h1>Japanese, one lesson at a time.</h1>
+      <p class="lede">Vocabulary, grammar, example sentences, and original practice for Lessons 1–25.</p>
+      <div class="progress-wrap"><span id="course-progress">0 / 25 ready</span><div class="progress"><i id="course-bar"></i></div></div>
+    </header>
+    <section aria-labelledby="lessons-heading">
+      <div class="section-heading"><h2 id="lessons-heading">Course map</h2><p>Tap any available lesson to study on your phone.</p></div>
+      <div id="lesson-grid" class="lesson-grid" aria-live="polite"></div>
+    </section>
+    <aside class="next-step"><strong>Adding a lesson:</strong> copy <code>lessons/lesson-template.json</code>, name it <code>lesson-02.json</code>, then change its content. The shared page automatically displays it.</aside>
+  </main>
+  <script src="assets/home.js"></script>
+</body>
+</html>

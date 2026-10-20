@@ -1,0 +1,17 @@
+{
+  "lesson": 2,
+  "title": "Replace with the lesson title",
+  "overview": "Write a short original overview of what the learner can do after this lesson.",
+  "vocabulary": [
+    {"japanese":"日本語","reading":"にほんご・nihongo","meaning":"Japanese language"}
+  ],
+  "grammar": [
+    {"pattern":"Pattern here","explanation":"Explain the meaning and when to use it in your own words.","example":"日本語の例文です。","translation":"An English translation."}
+  ],
+  "sentences": [
+    {"japanese":"日本語の例文です。","reading":"Nihongo no reibun desu.","translation":"This is a Japanese example sentence."}
+  ],
+  "exercises": [
+    {"question":"Your question","options":["Option A","Option B","Option C","Option D"],"answer":0,"explanation":"Explain why the correct answer is correct."}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "lesson": 1,
+  "title": "Introductions",
+  "overview": "Introduce yourself, say what you do, and ask someone for their name. Explanations and practice here are original study material.",
+  "vocabulary": [
+    {"japanese":"わたし","reading":"watashi","meaning":"I; me"},
+    {"japanese":"わたしたち","reading":"watashitachi","meaning":"we; us"},
+    {"japanese":"あなた","reading":"anata","meaning":"you (use carefully; names are often more natural)"},
+    {"japanese":"がくせい","reading":"学生・gakusei","meaning":"student"},
+    {"japanese":"せんせい","reading":"先生・sensei","meaning":"teacher; instructor"},
+    {"japanese":"かいしゃいん","reading":"会社員・kaishain","meaning":"company employee"},
+    {"japanese":"エンジニア","reading":"enjinia","meaning":"engineer"},
+    {"japanese":"いしゃ","reading":"医者・isha","meaning":"doctor"},
+    {"japanese":"だいがく","reading":"大学・daigaku","meaning":"university"},
+    {"japanese":"ぎんこう","reading":"銀行・ginkō","meaning":"bank"},
+    {"japanese":"にほん","reading":"日本・Nihon","meaning":"Japan"},
+    {"japanese":"フィリピン","reading":"Firipin","meaning":"the Philippines"},
+    {"japanese":"～さい","reading":"～歳・~sai","meaning":"~ years old"},
+    {"japanese":"なんさい","reading":"何歳・nansai","meaning":"how old"},
+    {"japanese":"おなまえは？","reading":"お名前は？・onamae wa?","meaning":"What is your name?"},
+    {"japanese":"はじめまして","reading":"hajimemashite","meaning":"Nice to meet you (first meeting)"},
+    {"japanese":"どうぞよろしく","reading":"dōzo yoroshiku","meaning":"Pleased to meet you; I look forward to knowing you"},
+    {"japanese":"こちらは","reading":"kochira wa","meaning":"This is… (polite introduction)"}
+  ],
+  "grammar": [
+    {"pattern":"Noun は Noun です","explanation":"Use は (pronounced wa) to mark the topic, then identify it politely with です.","example":"わたしは 学生です。","translation":"I am a student."},
+    {"pattern":"Noun は Noun じゃありません","explanation":"This is a polite, everyday way to say that the topic is not something.","example":"マリアさんは 先生じゃありません。","translation":"Maria is not a teacher."},
+    {"pattern":"Noun は Noun ですか","explanation":"Add か to make a polite yes/no question. Japanese normally does not reverse word order.","example":"キムさんは エンジニアですか。","translation":"Is Kim an engineer?"},
+    {"pattern":"Noun も Noun です","explanation":"も means “also” or “too” and replaces は when the same statement is true for another person or thing.","example":"わたしは 学生です。アナさんも 学生です。","translation":"I am a student. Ana is also a student."},
+    {"pattern":"Noun の Noun","explanation":"の connects nouns. Here it shows affiliation, like “of” or an apostrophe-s in English.","example":"わたしは さくら大学の 学生です。","translation":"I am a student at Sakura University."}
+  ],
+  "sentences": [
+    {"japanese":"はじめまして。わたしは ジェイです。","reading":"Hajimemashite. Watashi wa Jei desu.","translation":"Nice to meet you. I am Jay."},
+    {"japanese":"わたしは フィリピンじんです。","reading":"Watashi wa Firipin-jin desu.","translation":"I am Filipino."},
+    {"japanese":"ミカさんは かいしゃいんですか。","reading":"Mika-san wa kaishain desu ka.","translation":"Is Mika a company employee?"},
+    {"japanese":"いいえ、かいしゃいんじゃありません。学生です。","reading":"Iie, kaishain ja arimasen. Gakusei desu.","translation":"No, she is not a company employee. She is a student."},
+    {"japanese":"こちらは たなかさんです。せんせいです。","reading":"Kochira wa Tanaka-san desu. Sensei desu.","translation":"This is Mr./Ms. Tanaka. They are a teacher."},
+    {"japanese":"わたしも にほんごの 学生です。","reading":"Watashi mo nihongo no gakusei desu.","translation":"I am also a Japanese-language student."}
+  ],
+  "exercises": [
+    {"question":"Choose the best meaning of も in 「アナさんも 学生です」.","options":["but","also / too","from","not"],"answer":1,"explanation":"も means “also” here. It replaces は after アナさん."},
+    {"question":"Complete: 「わたしは エンジニア ___。」","options":["です","か","の","も"],"answer":0,"explanation":"A polite affirmative nominal sentence ends with です."},
+    {"question":"Which sentence asks “Is Mr. Sato a doctor?”","options":["さとうさんは 医者です。","さとうさんは 医者じゃありません。","さとうさんは 医者ですか。","さとうさんも 医者です。"],"answer":2,"explanation":"Add か to the end to make a polite yes/no question."},
+    {"question":"Choose the natural negative sentence.","options":["わたしは 学生ですか。","わたしは 学生じゃありません。","わたしも 学生の。","わたしは 学生も。"],"answer":1,"explanation":"じゃありません is the polite everyday negative of a noun sentence."}
+  ]
+}
