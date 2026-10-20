@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "meta": {"number": 15, "title": "Permission and prohibition", "edition": "Minna no Nihongo I · 2nd edition", "level": "Beginner / N5", "objective": "Review Lesson 15 vocabulary and use polite permission and prohibition expressions."},
+  "vocabulary": [
+    {"id":"okimasu","kanji":"置きます","kana":"おきます","romaji":"okimasu","meaning":"put; place","category":"verb","example":{"kanji":"ここに荷物を置いてもいいですか。","kana":"ここに にもつを おいても いいですか。","translation":"May I put my luggage here?"}},
+    {"id":"tsukurimasu","kanji":"作ります","kana":"つくります","romaji":"tsukurimasu","meaning":"make; produce","category":"verb","example":{"kanji":"日本の会社は車を作っています。","kana":"にほんの かいしゃは くるまを つくっています。","translation":"A Japanese company makes cars."}},
+    {"id":"urimasu","kanji":"売ります","kana":"うります","romaji":"urimasu","meaning":"sell","category":"verb","example":{"kanji":"あの店で古い本を売っています。","kana":"あの みせで ふるい ほんを うっています。","translation":"They sell old books at that shop."}},
+    {"id":"shirimasu","kanji":"知ります","kana":"しります","romaji":"shirimasu","meaning":"get to know; learn","category":"verb","example":{"kanji":"そのニュースを知りました。","kana":"その ニュースを しりました。","translation":"I learned that news."}},
+    {"id":"shitte-imasu","kanji":"知っています","kana":"しっています","romaji":"shitte imasu","meaning":"know","category":"verb","example":{"kanji":"市役所の電話番号を知っていますか。","kana":"しやくしょの でんわばんごうを しっていますか。","translation":"Do you know city hall’s phone number?"}},
+    {"id":"sumimasu","kanji":"住みます","kana":"すみます","romaji":"sumimasu","meaning":"live; reside","category":"verb","example":{"kanji":"来年東京に住みます。","kana":"らいねん とうきょうに すみます。","translation":"I will live in Tokyo next year."}},
+    {"id":"sunde-imasu","kanji":"住んでいます","kana":"すんでいます","romaji":"sunde imasu","meaning":"live; be living","category":"verb","example":{"kanji":"私は大阪に住んでいます。","kana":"わたしは おおさかに すんでいます。","translation":"I live in Osaka."}},
+    {"id":"kenkyu","kanji":"研究します","kana":"けんきゅうします","romaji":"kenkyu shimasu","meaning":"do research","category":"verb","example":{"kanji":"大学で経済を研究しています。","kana":"だいがくで けいざいを けんきゅうしています。","translation":"I study economics at university."}},
+    {"id":"shiryo","kanji":"資料","kana":"しりょう","romaji":"shiryo","meaning":"materials; data","category":"noun","example":{"kanji":"会議の資料を読みます。","kana":"かいぎの しりょうを よみます。","translation":"I read the meeting materials."}},
+    {"id":"catalog","kanji":"カタログ","kana":"カタログ","romaji":"katarogu","meaning":"catalogue","category":"noun","example":{"kanji":"新しい製品のカタログを見ます。","kana":"あたらしい せいひんの カタログを みます。","translation":"I look at the new product catalogue."}},
+    {"id":"jikokuhyo","kanji":"時刻表","kana":"じこくひょう","romaji":"jikokuhyo","meaning":"timetable","category":"noun","example":{"kanji":"新幹線の時刻表を調べます。","kana":"しんかんせんの じこくひょうを しらべます。","translation":"I check the Shinkansen timetable."}},
+    {"id":"fuku","kanji":"服","kana":"ふく","romaji":"fuku","meaning":"clothes","category":"noun","example":{"kanji":"デパートで服を買いました。","kana":"デパートで ふくを かいました。","translation":"I bought clothes at a department store."}},
+    {"id":"seihin","kanji":"製品","kana":"せいひん","romaji":"seihin","meaning":"product; goods","category":"noun","example":{"kanji":"これは電気の製品です。","kana":"これは でんきの せいひんです。","translation":"This is an electrical product."}},
+    {"id":"software","kanji":"ソフト","kana":"ソフト","romaji":"sofuto","meaning":"software","category":"noun","example":{"kanji":"ゲームのソフトを作ります。","kana":"ゲームの ソフトを つくります。","translation":"I make game software."}},
+    {"id":"senmon","kanji":"専門","kana":"せんもん","romaji":"senmon","meaning":"specialty; field","category":"noun","example":{"kanji":"私の専門はコンピューターです。","kana":"わたしの せんもんは コンピューターです。","translation":"My field is computers."}},
+    {"id":"haisha","kanji":"歯医者","kana":"はいしゃ","romaji":"haisha","meaning":"dentist","category":"noun","example":{"kanji":"歯が痛いので歯医者へ行きます。","kana":"はが いたいので はいしゃへ いきます。","translation":"My tooth hurts, so I will go to the dentist."}},
+    {"id":"tokoya","kanji":"床屋","kana":"とこや","romaji":"tokoya","meaning":"barber; barbershop","category":"noun","example":{"kanji":"日曜日に床屋へ行きました。","kana":"にちようびに とこやへ いきました。","translation":"I went to the barber on Sunday."}},
+    {"id":"playguide","kanji":"プレイガイド","kana":"プレイガイド","romaji":"pureigaido","meaning":"ticket agency","category":"noun","example":{"kanji":"プレイガイドでチケットを買いました。","kana":"プレイガイドで チケットを かいました。","translation":"I bought tickets at a ticket agency."}},
+    {"id":"dokushin","kanji":"独身","kana":"どくしん","romaji":"dokushin","meaning":"single; unmarried","category":"noun","example":{"kanji":"ミラーさんは独身です。","kana":"ミラーさんは どくしんです。","translation":"Mr. Miller is single."}},
+    {"id":"tokuni","kanji":"特に","kana":"とくに","romaji":"tokuni","meaning":"especially","category":"adverb","example":{"kanji":"日本料理、特に寿司が好きです。","kana":"にほんりょうり、とくに すしが すきです。","translation":"I like Japanese food, especially sushi."}},
+    {"id":"omoidasu","kanji":"思い出します","kana":"おもいだします","romaji":"omoidasu","meaning":"remember; recall","category":"verb","example":{"kanji":"国の家族を思い出します。","kana":"くにの かぞくを おもいだします。","translation":"I remember my family back home."}},
+    {"id":"gokazoku","kanji":"ご家族","kana":"ごかぞく","romaji":"gokazoku","meaning":"your family (polite)","category":"noun","example":{"kanji":"ご家族はどこに住んでいますか。","kana":"ごかぞくは どこに すんでいますか。","translation":"Where does your family live?"}},
+    {"id":"irasshaimasu","kanji":"いらっしゃいます","kana":"いらっしゃいます","romaji":"irasshaimasu","meaning":"be; go; come (honorific)","category":"verb","example":{"kanji":"先生は教室にいらっしゃいます。","kana":"せんせいは きょうしつに いらっしゃいます。","translation":"The teacher is in the classroom."}},
+    {"id":"koko","kanji":"高校","kana":"こうこう","romaji":"koko","meaning":"senior high school","category":"noun","example":{"kanji":"妹は高校生です。","kana":"いもうとは こうこうせいです。","translation":"My younger sister is a high-school student."}}
+  ],
+  "grammar": [
+    {"pattern":"Verb て-form もいいです","explanation":"Use this to ask or give permission politely.","examples":[{"kanji":"ここに荷物を置いてもいいですか。","kana":"ここに にもつを おいても いいですか。","translation":"May I put my luggage here?"},{"kanji":"はい、いいです。","kana":"はい、いいです。","translation":"Yes, that is fine."}]},
+    {"pattern":"Verb て-form はいけません","explanation":"Use this to say an action is not allowed.","examples":[{"kanji":"ここで写真を撮ってはいけません。","kana":"ここで しゃしんを とっては いけません。","translation":"You must not take photos here."},{"kanji":"この部屋でたばこを吸ってはいけません。","kana":"この へやで たばこを すっては いけません。","translation":"You must not smoke in this room."}]}
+  ],
+  "reading": {"title":"At the office","lines":[{"speaker":"サントス","kanji":"すみません。この資料をここに置いてもいいですか。","kana":"すみません。この しりょうを ここに おいても いいですか。"},{"speaker":"田中","kanji":"はい、いいです。でも、ここで写真を撮ってはいけません。","kana":"はい、いいです。でも、ここで しゃしんを とっては いけません。"},{"speaker":"サントス","kanji":"はい、わかりました。","kana":"はい、わかりました。"}],"translation":"Santos asks permission to put materials somewhere. Tanaka says yes, but says photographs are not allowed there.","questions":[{"question":"What may Santos do?","options":["Take photos","Put the materials there","Smoke in the room","Leave the office"],"answer":1,"explanation":"田中 says 「はい、いいです」 to the request about the materials."},{"question":"What is prohibited?","options":["Putting materials down","Taking photos","Speaking Japanese","Reading materials"],"answer":1,"explanation":"「写真を撮ってはいけません」 means taking photos is not allowed."}]},
+  "exercises": [
+    {"question":"Choose the meaning.","prompt":{"kanji":"資料","kana":"しりょう"},"options":["materials; data","clothes","timetable","software"],"answer":0,"explanation":"資料 means materials or documents."},
+    {"question":"Choose the best ending for a permission request.","prompt":{"kanji":"ここに置い___。","kana":"ここに おい___。"},"options":["てもいいですか","てはいけません","ています","ました"],"answer":0,"explanation":"て-form + もいいですか asks permission."},
+    {"question":"Choose the sentence that means “You must not smoke here.”","options":["ここでたばこを吸ってもいいです。","ここでたばこを吸ってはいけません。","ここでたばこを吸っています。","ここでたばこを吸いませんか。"],"answer":1,"explanation":"て-form + はいけません expresses prohibition."},
+    {"question":"Choose the meaning.","prompt":{"kanji":"特に","kana":"とくに"},"options":["especially","single","researcher","dentist"],"answer":0,"explanation":"特に means especially or particularly."}
+  ],
+  "writing": {"title":"Permission sign practice","prompt":"Write one sentence asking permission and one sentence saying something is not allowed.","placeholder":"ここで ______ ても いいですか。\nここで ______ ては いけません。","modelAnswer":"ここで写真を撮ってもいいですか。\nここでたばこを吸ってはいけません。"}
+}

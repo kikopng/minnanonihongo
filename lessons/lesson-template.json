@@ -1,17 +1,55 @@
 {
-  "lesson": 2,
-  "title": "Replace with the lesson title",
-  "overview": "Write a short original overview of what the learner can do after this lesson.",
+  "schemaVersion": 2,
+  "meta": {
+    "number": 2,
+    "title": "Replace with lesson title",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Write one learner-centered outcome."
+  },
   "vocabulary": [
-    {"japanese":"日本語","reading":"にほんご・nihongo","meaning":"Japanese language"}
+    {
+      "id": "unique-lowercase-id",
+      "kanji": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "meaning": "student",
+      "category": "noun",
+      "example": {"kanji": "私は学生です。", "kana": "わたしは がくせいです。", "translation": "I am a student."}
+    }
   ],
   "grammar": [
-    {"pattern":"Pattern here","explanation":"Explain the meaning and when to use it in your own words.","example":"日本語の例文です。","translation":"An English translation."}
+    {
+      "pattern": "Noun は Noun です",
+      "explanation": "Explain the form, meaning, and when learners use it.",
+      "examples": [
+        {"kanji": "私は学生です。", "kana": "わたしは がくせいです。", "translation": "I am a student."}
+      ]
+    }
   ],
-  "sentences": [
-    {"japanese":"日本語の例文です。","reading":"Nihongo no reibun desu.","translation":"This is a Japanese example sentence."}
-  ],
+  "reading": {
+    "title": "A short, original reading",
+    "lines": [
+      {"speaker": "A", "kanji": "日本語の文です。", "kana": "にほんごの ぶんです。"}
+    ],
+    "translation": "An English summary or translation.",
+    "questions": [
+      {"question": "Question text", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "Why A is correct."}
+    ]
+  },
   "exercises": [
-    {"question":"Your question","options":["Option A","Option B","Option C","Option D"],"answer":0,"explanation":"Explain why the correct answer is correct."}
-  ]
+    {
+      "question": "Choose the meaning.",
+      "prompt": {"kanji": "学生", "kana": "がくせい"},
+      "options": ["student", "teacher", "doctor", "engineer"],
+      "answer": 0,
+      "explanation": "学生 means student."
+    }
+  ],
+  "writing": {
+    "title": "Short production practice",
+    "prompt": "Tell the learner exactly what to write.",
+    "placeholder": "A helpful sentence frame",
+    "modelAnswer": "A short original model answer."
+  }
 }

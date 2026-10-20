@@ -5,9 +5,11 @@ A static, mobile-friendly study site for a Minna no Nihongo–aligned course. It
 ## What is ready
 
 - `index.html` is the course map for Lessons 1–25.
-- Lesson 1 is a complete interactive arcade: 42 vocabulary cards, five games, a detailed grammar guide, original reading/comprehension practice, and a private on-device writing area.
-- `Exercise.htm` is retained unchanged as the existing Lesson 15 arcade and linked from the course map.
-- `lesson.html` and `lessons/lesson-template.json` remain a lightweight viewer/template for ordinary study notes. The arcade is currently used by Lessons 1 and 15.
+- Lessons 1 and 15 now use the same reusable lesson application at `lesson.html`.
+- Every published lesson is loaded only from its own `lessons/lesson-XX.json` data file.
+- Lesson 1 includes 41 vocabulary cards, grammar, original reading/comprehension practice, exercises, and a private on-device writing area.
+- `Exercise.htm` is retained only as a legacy backup; it is no longer linked from the course map.
+- `lessons/SCHEMA.md` documents the data contract used by all lessons.
 
 ## Add Lesson 2 (or any new lesson)
 
@@ -20,7 +22,7 @@ Use two digits in filenames: `lesson-01.json` through `lesson-25.json`.
 
 ## Give this prompt to another AI
 
-> Create only `lessons/lesson-XX.json` for Minna Study Path. Copy the exact keys and array structure from `lessons/lesson-template.json`. Write original explanations, sentences, and exercises; do not change `index.html`, `lesson.html`, `assets/`, `course.json`, or other lesson files. Include at least 15 vocabulary items, 3 grammar points, 5 original example sentences, and 5 four-choice exercises. Keep all JSON valid.
+> Create only `lessons/lesson-XX.json` for Minna Study Path. Copy the exact keys and array structure from `lessons/lesson-template.json` and obey `lessons/SCHEMA.md`. Use the Minna no Nihongo I second edition topic sequence. Write original explanations, readings, examples, and exercises; do not change `index.html`, `lesson.html`, `assets/`, `course.json`, or another lesson file. Use kanji and kana in their separate fields; romaji is optional and must not be required to learn the lesson. Keep the JSON valid.
 
 ## Publish to GitHub Pages
 

@@ -1,8 +1,30 @@
-{"lessons":[
-  {"id":1,"title":"Introductions","status":"ready"},
-  {"id":2,"title":"This / That","status":"planned"},{"id":3,"title":"Places & things","status":"planned"},{"id":4,"title":"Time & routines","status":"planned"},{"id":5,"title":"Going places","status":"planned"},
-  {"id":6,"title":"Actions & invitations","status":"planned"},{"id":7,"title":"Giving & receiving","status":"planned"},{"id":8,"title":"Adjectives","status":"planned"},{"id":9,"title":"Likes & skills","status":"planned"},{"id":10,"title":"Locations","status":"planned"},
-  {"id":11,"title":"Counters","status":"planned"},{"id":12,"title":"Adjectives: past","status":"planned"},{"id":13,"title":"Wants & requests","status":"planned"},{"id":14,"title":"Te-form","status":"planned"},{"id":15,"title":"Permission & prohibition","status":"ready","legacy":true},
-  {"id":16,"title":"Connecting actions","status":"planned"},{"id":17,"title":"Must / need not","status":"planned"},{"id":18,"title":"Dictionary form","status":"planned"},{"id":19,"title":"Plain form","status":"planned"},{"id":20,"title":"Casual style","status":"planned"},
-  {"id":21,"title":"Plain form practice","status":"planned"},{"id":22,"title":"Relative clauses","status":"planned"},{"id":23,"title":"When / before","status":"planned"},{"id":24,"title":"Giving reasons","status":"planned"},{"id":25,"title":"Conditionals","status":"planned"}
-]}
+{
+  "course": {"title":"Minna Study Path","edition":"Minna no Nihongo I, 2nd edition","schemaVersion":2},
+  "lessons": [
+    {"id":1,"title":"Introductions","status":"ready"},
+    {"id":2,"title":"This / That","status":"planned"},
+    {"id":3,"title":"Places and things","status":"planned"},
+    {"id":4,"title":"Time and routines","status":"planned"},
+    {"id":5,"title":"Going places","status":"planned"},
+    {"id":6,"title":"Actions and invitations","status":"planned"},
+    {"id":7,"title":"Giving and receiving","status":"planned"},
+    {"id":8,"title":"Adjectives","status":"planned"},
+    {"id":9,"title":"Likes and skills","status":"planned"},
+    {"id":10,"title":"Locations","status":"planned"},
+    {"id":11,"title":"Counters","status":"planned"},
+    {"id":12,"title":"Adjectives: past","status":"planned"},
+    {"id":13,"title":"Wants and requests","status":"planned"},
+    {"id":14,"title":"Te-form","status":"planned"},
+    {"id":15,"title":"Permission and prohibition","status":"ready"},
+    {"id":16,"title":"Connecting actions","status":"planned"},
+    {"id":17,"title":"Must / need not","status":"planned"},
+    {"id":18,"title":"Dictionary form","status":"planned"},
+    {"id":19,"title":"Plain form","status":"planned"},
+    {"id":20,"title":"Casual style","status":"planned"},
+    {"id":21,"title":"Plain form practice","status":"planned"},
+    {"id":22,"title":"Relative clauses","status":"planned"},
+    {"id":23,"title":"When / before","status":"planned"},
+    {"id":24,"title":"Giving reasons","status":"planned"},
+    {"id":25,"title":"Conditionals","status":"planned"}
+  ]
+}
