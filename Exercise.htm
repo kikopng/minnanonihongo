@@ -878,8 +878,8 @@
       </div>
 
       <div class="title-group">
-        <h1>第15課 Vocab Arcade</h1>
-        <p>Minna no Nihongo Lesson 15 • Japanese Vocab Games</p>
+        <h1 id="lesson-title">第15課 Vocab Arcade</h1>
+        <p id="lesson-subtitle">Minna no Nihongo Lesson 15 • Japanese Vocab Games</p>
       </div>
     </div>
 
@@ -889,6 +889,7 @@
       <button class="tab-btn" data-tab="quiz" onclick="switchTab('quiz', this)">🍱 Bento Rush</button>
       <button class="tab-btn" data-tab="catcher" onclick="switchTab('catcher', this)">🌸 Star Catch</button>
       <button class="tab-btn" data-tab="scramble" onclick="switchTab('scramble', this)">🍣 Kana Sushi</button>
+      <button class="tab-btn" id="guide-tab" data-tab="guide" onclick="switchTab('guide', this)" style="display:none;">📘 Lesson Guide</button>
     </nav>
   </header>
 
@@ -896,7 +897,7 @@
     <!-- TAB 1: FLASHCARDS -->
     <section id="tab-cards" class="game-section active">
       <div class="kawaii-box">
-        <div class="filter-tags">
+        <div class="filter-tags" id="filter-tags">
           <button class="tag-btn active" onclick="filterCards('all', this)">All (24)</button>
           <button class="tag-btn" onclick="filterCards('verb', this)">Verbs (9)</button>
           <button class="tag-btn" onclick="filterCards('noun', this)">Nouns & Others (15)</button>
@@ -936,6 +937,10 @@
           <div class="progress-fill" id="card-progress"></div>
         </div>
       </div>
+    </section>
+
+    <section id="tab-guide" class="game-section">
+      <div class="kawaii-box" id="lesson-guide"></div>
     </section>
 
     <!-- TAB 2: MOCHI MATCH -->
@@ -1042,7 +1047,7 @@
     /* =========================================================
        1. VOCABULARY DATABASE (MINNA NO NIHONGO LESSON 15)
     ========================================================== */
-    const LESSON_15_VOCAB = [
+    let LESSON_15_VOCAB = [
       { kanji: "置きます", kana: "おきます", romaji: "okimasu", en: "put, place", type: "verb", icon: "📦", example: "ここに 荷物を 置いても いいですか。" },
       { kanji: "作ります", kana: "つくります", romaji: "tsukurimasu", en: "make, produce", type: "verb", icon: "🛠️", example: "日本の 会社は 車を 作っています。" },
       { kanji: "売ります", kana: "うります", romaji: "urimasu", en: "sell", type: "verb", icon: "🏷️", example: "あの 店で 古い 本を 売っています。" },
@@ -1068,6 +1073,78 @@
       { kanji: "いらっしゃいます", kana: "いらっしゃいます", romaji: "irasshaimasu", en: "be (honorific of います)", type: "verb", icon: "✨", example: "先生は 教室に いらっしゃいます。" },
       { kanji: "高校", kana: "こうこう", romaji: "koukou", en: "senior high school", type: "noun", icon: "🏫", example: "妹は 高校生です。" }
     ];
+
+    // Lesson 1 uses the same arcade engine as Lesson 15. These are original
+    // study cards and examples, kept separate so later lessons can be added
+    // without changing the games.
+    const LESSON_1_VOCAB = [
+      {kanji:'私',kana:'わたし',romaji:'watashi',en:'I; me',type:'people',icon:'🙋',example:'私は ジェイです。'},
+      {kanji:'私たち',kana:'わたしたち',romaji:'watashitachi',en:'we; us',type:'people',icon:'👥',example:'私たちは 学生です。'},
+      {kanji:'あなた',kana:'あなた',romaji:'anata',en:'you',type:'people',icon:'👉',example:'あなたは 学生ですか。'},
+      {kanji:'あの人',kana:'あのひと',romaji:'ano hito',en:'that person',type:'people',icon:'👤',example:'あの人は 先生です。'},
+      {kanji:'皆さん',kana:'みなさん',romaji:'minasan',en:'everyone; everyone (polite)',type:'people',icon:'🧑‍🤝‍🧑',example:'皆さんは 学生です。'},
+      {kanji:'～さん',kana:'～さん',romaji:'~san',en:'polite name suffix',type:'people',icon:'🏷️',example:'田中さんは 日本人です。'},
+      {kanji:'～ちゃん',kana:'～ちゃん',romaji:'~chan',en:'affectionate name suffix',type:'people',icon:'🌸',example:'ゆきちゃんは 学生です。'},
+      {kanji:'～君',kana:'～くん',romaji:'~kun',en:'suffix often used for boys/young men',type:'people',icon:'⭐',example:'木村君は 会社員です。'},
+      {kanji:'～人',kana:'～じん',romaji:'~jin',en:'person from; nationality suffix',type:'people',icon:'🌍',example:'私は フィリピン人です。'},
+      {kanji:'先生',kana:'せんせい',romaji:'sensei',en:'teacher; instructor',type:'people',icon:'👩‍🏫',example:'山田先生は 日本語の 先生です。'},
+      {kanji:'教師',kana:'きょうし',romaji:'kyoushi',en:'teacher (occupation)',type:'people',icon:'📚',example:'父は 教師です。'},
+      {kanji:'学生',kana:'がくせい',romaji:'gakusei',en:'student',type:'people',icon:'🎓',example:'私は 大学の 学生です。'},
+      {kanji:'会社員',kana:'かいしゃいん',romaji:'kaishain',en:'company employee',type:'people',icon:'💼',example:'兄は 会社員です。'},
+      {kanji:'社員',kana:'しゃいん',romaji:'shain',en:'employee; staff member',type:'people',icon:'🪪',example:'私は さくら会社の 社員です。'},
+      {kanji:'銀行員',kana:'ぎんこういん',romaji:'ginkouin',en:'bank employee',type:'people',icon:'🏦',example:'母は 銀行員です。'},
+      {kanji:'医者',kana:'いしゃ',romaji:'isha',en:'doctor',type:'people',icon:'🩺',example:'あの人は 医者です。'},
+      {kanji:'研究者',kana:'けんきゅうしゃ',romaji:'kenkyuusha',en:'researcher',type:'people',icon:'🔬',example:'リーさんは 研究者です。'},
+      {kanji:'エンジニア',kana:'エンジニア',romaji:'enjinia',en:'engineer',type:'people',icon:'💻',example:'姉は エンジニアです。'},
+      {kanji:'大学',kana:'だいがく',romaji:'daigaku',en:'university',type:'places',icon:'🏫',example:'ここは みどり大学です。'},
+      {kanji:'病院',kana:'びょういん',romaji:'byouin',en:'hospital',type:'places',icon:'🏥',example:'あそこは 病院です。'},
+      {kanji:'電気',kana:'でんき',romaji:'denki',en:'electricity; electric',type:'places',icon:'⚡',example:'父は 電気会社の 社員です。'},
+      {kanji:'日本',kana:'にほん',romaji:'Nihon',en:'Japan',type:'places',icon:'🗾',example:'日本は きれいな 国です。'},
+      {kanji:'アメリカ',kana:'アメリカ',romaji:'Amerika',en:'the United States',type:'places',icon:'🇺🇸',example:'アンナさんは アメリカ人です。'},
+      {kanji:'イギリス',kana:'イギリス',romaji:'Igirisu',en:'the United Kingdom',type:'places',icon:'🇬🇧',example:'ジョンさんは イギリス人です。'},
+      {kanji:'インド',kana:'インド',romaji:'Indo',en:'India',type:'places',icon:'🇮🇳',example:'ラジさんは インド人です。'},
+      {kanji:'インドネシア',kana:'インドネシア',romaji:'Indoneshia',en:'Indonesia',type:'places',icon:'🇮🇩',example:'リナさんは インドネシア人です。'},
+      {kanji:'韓国',kana:'かんこく',romaji:'Kankoku',en:'Korea',type:'places',icon:'🇰🇷',example:'キムさんは 韓国人です。'},
+      {kanji:'タイ',kana:'タイ',romaji:'Tai',en:'Thailand',type:'places',icon:'🇹🇭',example:'ナリさんは タイ人です。'},
+      {kanji:'中国',kana:'ちゅうごく',romaji:'Chuugoku',en:'China',type:'places',icon:'🇨🇳',example:'ワンさんは 中国人です。'},
+      {kanji:'ドイツ',kana:'ドイツ',romaji:'Doitsu',en:'Germany',type:'places',icon:'🇩🇪',example:'ミュラーさんは ドイツ人です。'},
+      {kanji:'～歳',kana:'～さい',romaji:'~sai',en:'~ years old',type:'useful',icon:'🎂',example:'私は 二十歳です。'},
+      {kanji:'何歳',kana:'なんさい',romaji:'nansai',en:'how old',type:'useful',icon:'❓',example:'おいくつですか。'},
+      {kanji:'はい',kana:'はい',romaji:'hai',en:'yes',type:'useful',icon:'✅',example:'はい、学生です。'},
+      {kanji:'いいえ',kana:'いいえ',romaji:'iie',en:'no',type:'useful',icon:'❌',example:'いいえ、学生じゃありません。'},
+      {kanji:'失礼ですが',kana:'しつれいですが',romaji:'shitsurei desu ga',en:'excuse me, but…',type:'useful',icon:'🙇',example:'失礼ですが、お名前は？'},
+      {kanji:'お名前は？',kana:'おなまえは',romaji:'onamae wa',en:'what is your name?',type:'useful',icon:'📝',example:'お名前は？'},
+      {kanji:'初めまして',kana:'はじめまして',romaji:'hajimemashite',en:'nice to meet you (first meeting)',type:'useful',icon:'🤝',example:'初めまして。私は アミです。'},
+      {kanji:'どうぞよろしく',kana:'どうぞよろしく',romaji:'douzo yoroshiku',en:'pleased to meet you',type:'useful',icon:'🌟',example:'どうぞよろしく お願いします。'},
+      {kanji:'こちらは～さんです',kana:'こちらは～さんです',romaji:'kochira wa ~san desu',en:'this is Mr./Ms. …',type:'useful',icon:'👋',example:'こちらは 田中さんです。'}
+    ];
+
+    const arcadeLesson = new URLSearchParams(window.location.search).get('lesson');
+    const isLessonOne = arcadeLesson === '1';
+    if (isLessonOne) {
+      LESSON_15_VOCAB = LESSON_1_VOCAB;
+      document.title = 'みんなの日本語 第1課 | Kawaii Vocab Arcade 🌸';
+      document.getElementById('lesson-title').textContent = '第1課 Vocab Arcade';
+      document.getElementById('lesson-subtitle').textContent = 'Minna no Nihongo Lesson 1 • Complete Study Arcade';
+      document.getElementById('filter-tags').innerHTML = `
+        <button class="tag-btn active" onclick="filterCards('all', this)">All (${LESSON_1_VOCAB.length})</button>
+        <button class="tag-btn" onclick="filterCards('people', this)">People & jobs (${LESSON_1_VOCAB.filter(v => v.type === 'people').length})</button>
+        <button class="tag-btn" onclick="filterCards('places', this)">Places & countries (${LESSON_1_VOCAB.filter(v => v.type === 'places').length})</button>
+        <button class="tag-btn" onclick="filterCards('useful', this)">Useful phrases (${LESSON_1_VOCAB.filter(v => v.type === 'useful').length})</button>`;
+      document.getElementById('guide-tab').style.display = 'flex';
+      document.getElementById('lesson-guide').innerHTML = `
+        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 1 Complete Guide 📘</h2>
+        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Use the five games to master the 39 vocabulary cards, then use this guide for grammar, speaking, and written practice.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;">
+          <div class="example-sentence"><strong>1. Noun は Noun です</strong><br>Polite identification: “A is B.”<br><br>私は 学生です。<br><em>I am a student.</em></div>
+          <div class="example-sentence"><strong>2. Noun は Noun じゃありません</strong><br>Polite everyday negative: “A is not B.”<br><br>私は 先生じゃありません。<br><em>I am not a teacher.</em></div>
+          <div class="example-sentence"><strong>3. Noun は Noun ですか</strong><br>Add か to make a yes/no question.<br><br>リーさんは 医者ですか。<br><em>Is Lee a doctor?</em></div>
+          <div class="example-sentence"><strong>4. Noun も Noun です</strong><br>も means “also/too” and replaces は.<br><br>アナさんも 学生です。<br><em>Ana is also a student.</em></div>
+          <div class="example-sentence"><strong>5. Noun の Noun</strong><br>の links nouns: affiliation or “of.”<br><br>私は さくら大学の 学生です。<br><em>I am a student at Sakura University.</em></div>
+          <div class="example-sentence"><strong>Speaking mission</strong><br>Say this aloud with your own details:<br><br>初めまして。私は [name] です。 [country] 人です。どうぞよろしく。</div>
+        </div>
+        <div style="margin-top:18px;padding:14px;border-radius:14px;background:var(--mint-light);color:#155d3b;line-height:1.6;"><strong>Writing check:</strong> Write three lines: (1) who you are, (2) a job or student status, and (3) one sentence using も. Example: 私は 学生です。アナさんも 学生です。</div>`;
+    }
 
     /* =========================================================
        2. MOBILE-COMPATIBLE SOUND & SPEECH SYNTHESIZER
