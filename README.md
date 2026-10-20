@@ -5,7 +5,7 @@ A static, mobile-friendly study site for a Minna no Nihongo–aligned course. It
 ## What is ready
 
 - `index.html` is the course map for Lessons 1–25.
-- Lesson 1 is a complete interactive arcade: 39 vocabulary cards, five games, a grammar guide, original examples, and a speaking/writing mission.
+- Lesson 1 is a complete interactive arcade: 42 vocabulary cards, five games, a detailed grammar guide, original reading/comprehension practice, and a private on-device writing area.
 - `Exercise.htm` is retained unchanged as the existing Lesson 15 arcade and linked from the course map.
 - `lesson.html` and `lessons/lesson-template.json` remain a lightweight viewer/template for ordinary study notes. The arcade is currently used by Lessons 1 and 15.
 

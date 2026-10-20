@@ -1082,6 +1082,7 @@
       {kanji:'私たち',kana:'わたしたち',romaji:'watashitachi',en:'we; us',type:'people',icon:'👥',example:'私たちは 学生です。'},
       {kanji:'あなた',kana:'あなた',romaji:'anata',en:'you',type:'people',icon:'👉',example:'あなたは 学生ですか。'},
       {kanji:'あの人',kana:'あのひと',romaji:'ano hito',en:'that person',type:'people',icon:'👤',example:'あの人は 先生です。'},
+      {kanji:'あの方',kana:'あのかた',romaji:'ano kata',en:'that person (polite)',type:'people',icon:'🙇',example:'あの方は どなたですか。'},
       {kanji:'皆さん',kana:'みなさん',romaji:'minasan',en:'everyone; everyone (polite)',type:'people',icon:'🧑‍🤝‍🧑',example:'皆さんは 学生です。'},
       {kanji:'～さん',kana:'～さん',romaji:'~san',en:'polite name suffix',type:'people',icon:'🏷️',example:'田中さんは 日本人です。'},
       {kanji:'～ちゃん',kana:'～ちゃん',romaji:'~chan',en:'affectionate name suffix',type:'people',icon:'🌸',example:'ゆきちゃんは 学生です。'},
@@ -1110,13 +1111,15 @@
       {kanji:'ドイツ',kana:'ドイツ',romaji:'Doitsu',en:'Germany',type:'places',icon:'🇩🇪',example:'ミュラーさんは ドイツ人です。'},
       {kanji:'～歳',kana:'～さい',romaji:'~sai',en:'~ years old',type:'useful',icon:'🎂',example:'私は 二十歳です。'},
       {kanji:'何歳',kana:'なんさい',romaji:'nansai',en:'how old',type:'useful',icon:'❓',example:'おいくつですか。'},
+      {kanji:'どなた',kana:'どなた',romaji:'donata',en:'who (polite)',type:'useful',icon:'❔',example:'あの方は どなたですか。'},
       {kanji:'はい',kana:'はい',romaji:'hai',en:'yes',type:'useful',icon:'✅',example:'はい、学生です。'},
       {kanji:'いいえ',kana:'いいえ',romaji:'iie',en:'no',type:'useful',icon:'❌',example:'いいえ、学生じゃありません。'},
       {kanji:'失礼ですが',kana:'しつれいですが',romaji:'shitsurei desu ga',en:'excuse me, but…',type:'useful',icon:'🙇',example:'失礼ですが、お名前は？'},
       {kanji:'お名前は？',kana:'おなまえは',romaji:'onamae wa',en:'what is your name?',type:'useful',icon:'📝',example:'お名前は？'},
       {kanji:'初めまして',kana:'はじめまして',romaji:'hajimemashite',en:'nice to meet you (first meeting)',type:'useful',icon:'🤝',example:'初めまして。私は アミです。'},
       {kanji:'どうぞよろしく',kana:'どうぞよろしく',romaji:'douzo yoroshiku',en:'pleased to meet you',type:'useful',icon:'🌟',example:'どうぞよろしく お願いします。'},
-      {kanji:'こちらは～さんです',kana:'こちらは～さんです',romaji:'kochira wa ~san desu',en:'this is Mr./Ms. …',type:'useful',icon:'👋',example:'こちらは 田中さんです。'}
+      {kanji:'こちらは～さんです',kana:'こちらは～さんです',romaji:'kochira wa ~san desu',en:'this is Mr./Ms. …',type:'useful',icon:'👋',example:'こちらは 田中さんです。'},
+      {kanji:'～から来ました',kana:'～から きました',romaji:'~ kara kimashita',en:'came from ~',type:'useful',icon:'✈️',example:'私は フィリピンから 来ました。'}
     ];
 
     const arcadeLesson = new URLSearchParams(window.location.search).get('lesson');
@@ -1132,19 +1135,54 @@
         <button class="tag-btn" onclick="filterCards('places', this)">Places & countries (${LESSON_1_VOCAB.filter(v => v.type === 'places').length})</button>
         <button class="tag-btn" onclick="filterCards('useful', this)">Useful phrases (${LESSON_1_VOCAB.filter(v => v.type === 'useful').length})</button>`;
       document.getElementById('guide-tab').style.display = 'flex';
-      document.getElementById('lesson-guide').innerHTML = `
-        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 1 Complete Guide 📘</h2>
-        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Use the five games to master the 39 vocabulary cards, then use this guide for grammar, speaking, and written practice.</p>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;">
-          <div class="example-sentence"><strong>1. Noun は Noun です</strong><br>Polite identification: “A is B.”<br><br>私は 学生です。<br><em>I am a student.</em></div>
-          <div class="example-sentence"><strong>2. Noun は Noun じゃありません</strong><br>Polite everyday negative: “A is not B.”<br><br>私は 先生じゃありません。<br><em>I am not a teacher.</em></div>
-          <div class="example-sentence"><strong>3. Noun は Noun ですか</strong><br>Add か to make a yes/no question.<br><br>リーさんは 医者ですか。<br><em>Is Lee a doctor?</em></div>
-          <div class="example-sentence"><strong>4. Noun も Noun です</strong><br>も means “also/too” and replaces は.<br><br>アナさんも 学生です。<br><em>Ana is also a student.</em></div>
-          <div class="example-sentence"><strong>5. Noun の Noun</strong><br>の links nouns: affiliation or “of.”<br><br>私は さくら大学の 学生です。<br><em>I am a student at Sakura University.</em></div>
-          <div class="example-sentence"><strong>Speaking mission</strong><br>Say this aloud with your own details:<br><br>初めまして。私は [name] です。 [country] 人です。どうぞよろしく。</div>
-        </div>
-        <div style="margin-top:18px;padding:14px;border-radius:14px;background:var(--mint-light);color:#155d3b;line-height:1.6;"><strong>Writing check:</strong> Write three lines: (1) who you are, (2) a job or student status, and (3) one sentence using も. Example: 私は 学生です。アナさんも 学生です。</div>`;
+      document.getElementById('lesson-guide').innerHTML = buildLessonOneGuide();
     }
+
+    function buildLessonOneGuide() {
+      const vocabRows = LESSON_1_VOCAB.map((v, i) => `<div style="padding:9px;border-bottom:1px solid #F3DCE4;"><strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br><span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br><span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span></div>`).join('');
+      const question = (prompt, choices, note) => `<div style="margin:14px 0;padding:14px;background:#FFF9FA;border-radius:14px;"><strong>${prompt}</strong><div style="display:grid;gap:7px;margin-top:10px;">${choices.map(c => `<button class="quiz-opt-btn" data-correct="${c.ok}" onclick="checkGuideChoice(this)">${c.text}</button>`).join('')}</div><p class="guide-feedback" style="display:none;margin:10px 0 0;color:var(--text-muted);line-height:1.45;">${note}</p></div>`;
+      return `
+        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 1 Complete Guide 📘</h2>
+        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Study the guide in this order: learn the words, read the grammar slowly, complete the reading, then write your own introduction. The five arcade games are your vocabulary review.</p>
+
+        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">1. Full vocabulary reference (${LESSON_1_VOCAB.length} cards)</summary><p style="color:var(--text-muted);line-height:1.45;">This is the complete set used by the games for this Lesson 1 study page. Tap a card in Flashcards to hear its Japanese pronunciation.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 14px;background:#FFF9FA;padding:8px 14px;border-radius:14px;">${vocabRows}</div></details>
+
+        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">2. Grammar, explained with examples</summary>
+          <div style="display:grid;gap:12px;margin-top:12px;">
+            <div class="example-sentence"><strong>① Noun は Noun です — “A is B.”</strong><br><br><strong>は</strong> marks what you are talking about. In this pattern, it is pronounced <em>wa</em>, not <em>ha</em>. <strong>です</strong> makes the sentence polite.<br><br>私は 学生です。<br><em>I am a student.</em><br><br>ミラーさんは エンジニアです。<br><em>Mr. Miller is an engineer.</em></div>
+            <div class="example-sentence"><strong>② Noun は Noun じゃありません — “A is not B.”</strong><br><br>Replace です with <strong>じゃありません</strong> for a polite everyday negative. Do not add です after じゃありません.<br><br>私は 先生じゃありません。<br><em>I am not a teacher.</em><br><br>田中さんは 医者じゃありません。会社員です。<br><em>Ms. Tanaka is not a doctor. She is a company employee.</em></div>
+            <div class="example-sentence"><strong>③ Noun は Noun ですか — polite yes/no questions</strong><br><br>Add <strong>か</strong> at the end. Japanese keeps normal word order; your voice does not need to rise as much as in English.<br><br>サントスさんは 学生ですか。<br><em>Is Mr. Santos a student?</em><br><br>はい、学生です。／いいえ、学生じゃありません。<br><em>Yes, he is. / No, he is not.</em></div>
+            <div class="example-sentence"><strong>④ Noun も Noun です — “A is also B.”</strong><br><br><strong>も</strong> means “also” or “too.” It replaces は; do not use はも together here.<br><br>私は フィリピン人です。アナさんも フィリピン人です。<br><em>I am Filipino. Ana is also Filipino.</em><br><br>リーさんは 学生です。キムさんも 学生です。<br><em>Lee is a student. Kim is also a student.</em></div>
+            <div class="example-sentence"><strong>⑤ Noun の Noun — connection / belonging</strong><br><br><strong>の</strong> joins two nouns. It can show a group, workplace, school, or “of.” Think: the second noun is the main thing.<br><br>私は さくら大学の 学生です。<br><em>I am a student of Sakura University.</em><br><br>私は 富士銀行の 社員です。<br><em>I am an employee of Fuji Bank.</em></div>
+            <div class="example-sentence"><strong>⑥ Asking politely: だれ／どなた, 何歳／おいくつ</strong><br><br>Use <strong>だれ</strong> for “who?” and the more polite <strong>どなた</strong> for “who?” when speaking respectfully. <strong>何歳</strong> asks a child’s age; <strong>おいくつ</strong> is more polite for adults.<br><br>あの方は どなたですか。<br><em>Who is that person?</em><br><br>おいくつですか。<br><em>How old are you? (polite)</em></div>
+          </div>
+        </details>
+
+        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">3. Reading: first-day introductions</summary>
+          <div style="margin-top:12px;background:#FFF9FA;border-left:4px solid var(--pink-primary);padding:16px;border-radius:12px;line-height:1.8;"><strong>あい:</strong> 初めまして。私は あいです。フィリピンから 来ました。さくら大学の 学生です。<br><strong>キム:</strong> 初めまして。私は キムです。韓国人です。私も さくら大学の 学生です。<br><strong>あい:</strong> そうですか。どうぞよろしく。<br><strong>キム:</strong> こちらこそ、どうぞよろしく。</div>
+          <p style="color:var(--text-muted);font-size:.9rem;line-height:1.5;">Translation: Ai is from the Philippines and studies at Sakura University. Kim is Korean and is also a Sakura University student. They greet each other for the first time.</p>
+          ${question('1. Where does Ai come from?', [{text:'Japan',ok:false},{text:'The Philippines',ok:true},{text:'Korea',ok:false},{text:'Thailand',ok:false}], '「フィリピンから 来ました」 means “I came from the Philippines.”')}
+          ${question('2. What do Ai and Kim have in common?', [{text:'They are doctors.',ok:false},{text:'They are both Sakura University students.',ok:true},{text:'They are both teachers.',ok:false},{text:'They are both engineers.',ok:false}], 'も in 「私も さくら大学の 学生です」 tells us Kim is also a Sakura University student.')}
+          ${question('3. Which phrase is appropriate when meeting someone for the first time?', [{text:'初めまして',ok:true},{text:'いいえ',ok:false},{text:'病院',ok:false},{text:'何歳',ok:false}], '初めまして is the standard opening greeting for a first meeting.')}
+        </details>
+
+        <details open><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">4. Write and speak your own introduction</summary>
+          <p style="color:var(--text-muted);line-height:1.5;">Fill this in with your real information. It saves only in this browser on this device; it is not sent anywhere. Use the model only as support, then say your version aloud.</p>
+          <textarea id="lesson1-writing" oninput="saveLessonOneWriting()" placeholder="初めまして。私は ______ です。\n______ 人です。\n______ です。\nどうぞよろしく。" style="width:100%;min-height:150px;border:2px solid var(--pink-light);border-radius:14px;padding:14px;font:inherit;line-height:1.6;resize:vertical;"></textarea>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;"><button class="btn-cute btn-mint" onclick="saveLessonOneWriting()">💾 Save on this device</button><button class="btn-cute btn-lavender" onclick="toggleLessonOneModel()">👀 Show model answer</button><button class="btn-cute" onclick="clearLessonOneWriting()">Clear</button></div>
+          <div id="lesson1-model" style="display:none;margin-top:12px;padding:13px;background:var(--mint-light);border-radius:12px;line-height:1.6;"><strong>Model:</strong><br>初めまして。私は ジェイです。フィリピン人です。大学の 学生です。どうぞよろしく。<br><span style="color:var(--text-muted);font-size:.88rem;">Change the name, country, and role so this becomes your introduction.</span></div>
+        </details>`;
+    }
+
+    function checkGuideChoice(button) {
+      const parent = button.parentElement;
+      parent.querySelectorAll('button').forEach(b => { b.disabled = true; b.classList.add(b.dataset.correct === 'true' ? 'correct' : 'wrong'); });
+      parent.parentElement.querySelector('.guide-feedback').style.display = 'block';
+      if (button.dataset.correct === 'true') sound.correct(); else sound.wrong();
+    }
+    function saveLessonOneWriting() { localStorage.setItem('minna_lesson_01_writing', document.getElementById('lesson1-writing').value); }
+    function clearLessonOneWriting() { document.getElementById('lesson1-writing').value = ''; localStorage.removeItem('minna_lesson_01_writing'); }
+    function toggleLessonOneModel() { const model = document.getElementById('lesson1-model'); model.style.display = model.style.display === 'none' ? 'block' : 'none'; }
 
     /* =========================================================
        2. MOBILE-COMPATIBLE SOUND & SPEECH SYNTHESIZER
@@ -1968,6 +2006,10 @@
 
     window.addEventListener('DOMContentLoaded', () => {
       renderCard();
+      if (isLessonOne) {
+        const savedWriting = localStorage.getItem('minna_lesson_01_writing');
+        if (savedWriting) document.getElementById('lesson1-writing').value = savedWriting;
+      }
     });
   </script>
 </body>
