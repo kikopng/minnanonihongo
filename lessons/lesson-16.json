@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "meta": {
     "number": 16,
-    "title": "Sequential Actions and Describing Attributes",
+    "title": "Sequential Actions, Descriptions, and Methods",
     "edition": "Minna no Nihongo I · 2nd edition",
     "level": "Beginner / N5",
-    "objective": "Describe daily routines in sequential order, explain routes and methods, and describe physical appearances and features of people and places."
+    "objective": "Master chaining actions chronologically with the て-form and ～てから, connecting adjectives and nouns, describing attributes with 『N1 は N2 が Adj』, and asking 'how' (どうやって) and 'which' (どれ/どの vs. どちら/どっち)."
   },
   "vocabulary": [
     {
@@ -29,9 +29,9 @@
       "meaning": "to get off [a train, bus, etc.]",
       "category": "verb",
       "example": {
-        "kanji": "新宿駅で電車を降ります。",
-        "kana": "しんじゅくえきで でんしゃを おります。",
-        "translation": "I get off the train at Shinjuku Station."
+        "kanji": "バスを降ります。",
+        "kana": "バスを おります。",
+        "translation": "I get off the bus."
       }
     },
     {
@@ -39,12 +39,12 @@
       "kanji": "乗り換えます",
       "kana": "のりかえます",
       "romaji": "norikaemasu",
-      "meaning": "to transfer; to change [trains, etc.]",
+      "meaning": "to transfer; to change [trains, buses, etc.]",
       "category": "verb",
       "example": {
-        "kanji": "東京駅で地下鉄に乗り換えます。",
-        "kana": "とうきょうえきで ちかてつに のりかえます。",
-        "translation": "I transfer to the subway at Tokyo Station."
+        "kanji": "秋葉原駅で乗り換えてください。",
+        "kana": "あきはばらえきで のりかえて ください。",
+        "translation": "Please change trains at Akihabara Station."
       }
     },
     {
@@ -55,9 +55,9 @@
       "meaning": "to take [a shower]; to bathe in",
       "category": "verb",
       "example": {
-        "kanji": "毎朝シャワーを浴びます。",
-        "kana": "まいあさ シャワーを あびます。",
-        "translation": "I take a shower every morning."
+        "kanji": "シャワーを浴びます。",
+        "kana": "シャワーを あびます。",
+        "translation": "I take a shower."
       }
     },
     {
@@ -68,9 +68,9 @@
       "meaning": "to put in; to insert",
       "category": "verb",
       "example": {
-        "kanji": "ここにお金を入れてください。",
-        "kana": "ここに おかねを いれて ください。",
-        "translation": "Please put the money in here."
+        "kanji": "お金を入れてください。",
+        "kana": "おかねを いれて ください。",
+        "translation": "Please insert money."
       }
     },
     {
@@ -81,9 +81,9 @@
       "meaning": "to take out; to hand in; to submit",
       "category": "verb",
       "example": {
-        "kanji": "宿題を出しました。",
-        "kana": "しゅくだいを だしました。",
-        "translation": "I submitted my homework."
+        "kanji": "ゴミを出します。宿題を出します。",
+        "kana": "ゴミを だします。しゅくだいを だします。",
+        "translation": "I take out the trash. I submit my homework."
       }
     },
     {
@@ -91,12 +91,12 @@
       "kanji": "下ろします",
       "kana": "おろします",
       "romaji": "oroshimasu",
-      "meaning": "to withdraw [money]",
+      "meaning": "to withdraw [money]; to lower",
       "category": "verb",
       "example": {
-        "kanji": "銀行でお金を下ろします。",
-        "kana": "ぎんこうで おかねを おろします。",
-        "translation": "I withdraw money at the bank."
+        "kanji": "ATMからお金を下ろしました。",
+        "kana": "ATMから おかねを おろしました。",
+        "translation": "I withdrew money from the ATM."
       }
     },
     {
@@ -107,9 +107,9 @@
       "meaning": "to enter; to enroll in [university]",
       "category": "verb",
       "example": {
-        "kanji": "来年大学に入ります。",
-        "kana": "らいねん だいがくに はいります。",
-        "translation": "I will enter university next year."
+        "kanji": "大学に入ります。",
+        "kana": "だいがくに はいります。",
+        "translation": "I will enter university."
       }
     },
     {
@@ -117,12 +117,12 @@
       "kanji": "出ます",
       "kana": "でます",
       "romaji": "demasu",
-      "meaning": "to graduate from [university]; to leave",
+      "meaning": "to leave; to get out; to graduate from",
       "category": "verb",
       "example": {
-        "kanji": "去年大学を出ました。",
-        "kana": "きょねん だいがくを でました。",
-        "translation": "I graduated from university last year."
+        "kanji": "8時に家を出ました。",
+        "kana": "はちじに いえを でました。",
+        "translation": "I left my house at 8:00."
       }
     },
     {
@@ -133,9 +133,22 @@
       "meaning": "to push; to press",
       "category": "verb",
       "example": {
-        "kanji": "このボタンを押してください。",
-        "kana": "この ボタンを おして ください。",
-        "translation": "Please press this button."
+        "kanji": "ボタンを押してください。",
+        "kana": "ボタンを おして ください。",
+        "translation": "Please push the button."
+      }
+    },
+    {
+      "id": "hajimemasu",
+      "kanji": "始めます",
+      "kana": "はじめます",
+      "romaji": "hajimemasu",
+      "meaning": "to start; to begin",
+      "category": "verb",
+      "example": {
+        "kanji": "じゃあ、始めましょう。",
+        "kana": "じゃあ、はじめましょう。",
+        "translation": "All right, let's start."
       }
     },
     {
@@ -152,6 +165,32 @@
       }
     },
     {
+      "id": "kengaku",
+      "kanji": "見学",
+      "kana": "けんがく",
+      "romaji": "kengaku",
+      "meaning": "field trip; inspection tour; study by observation",
+      "category": "noun",
+      "example": {
+        "kanji": "工場を見学します。",
+        "kana": "こうじょうを けんがくします。",
+        "translation": "I tour a factory."
+      }
+    },
+    {
+      "id": "denwa",
+      "kanji": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "meaning": "telephone; phone call",
+      "category": "noun",
+      "example": {
+        "kanji": "母に電話します。",
+        "kana": "ははに でんわします。",
+        "translation": "I will call my mother."
+      }
+    },
+    {
       "id": "wakai",
       "kanji": "若い",
       "kana": "わかい",
@@ -159,9 +198,9 @@
       "meaning": "young",
       "category": "adjective",
       "example": {
-        "kanji": "あの先生は若いです。",
-        "kana": "あの せんせいは わかいです。",
-        "translation": "That teacher is young."
+        "kanji": "私はもう若くないです。",
+        "kana": "わたしは もう わかくないです。",
+        "translation": "I am not young anymore."
       }
     },
     {
@@ -172,9 +211,9 @@
       "meaning": "long",
       "category": "adjective",
       "example": {
-        "kanji": "マリアさんは髪が長いです。",
-        "kana": "マリアさんは かみが ながいです。",
-        "translation": "Maria has long hair."
+        "kanji": "象の鼻は長いです。今日は長い1日でした。",
+        "kana": "ぞうの はなは ながいです。きょうは ながい いちにちでした。",
+        "translation": "Elephants have long trunks. Today was a long day."
       }
     },
     {
@@ -185,9 +224,9 @@
       "meaning": "short (length)",
       "category": "adjective",
       "example": {
-        "kanji": "夏休みは短かったです。",
-        "kana": "なつやすみは みじかかったです。",
-        "translation": "Summer vacation was short."
+        "kanji": "冬は1日が短いです。",
+        "kana": "ふゆは いちにちが みじかいです。",
+        "translation": "A day is short in the winter."
       }
     },
     {
@@ -195,12 +234,12 @@
       "kanji": "明るい",
       "kana": "あかるい",
       "romaji": "akarui",
-      "meaning": "bright; cheerful",
+      "meaning": "bright; light; cheerful",
       "category": "adjective",
       "example": {
-        "kanji": "この部屋は広くて明るいです。",
-        "kana": "この へやは ひろくて あかるいです。",
-        "translation": "This room is spacious and bright."
+        "kanji": "外はまだ明るいです。彼は明るい人です。",
+        "kana": "そとは まだ あかるいです。かれは あかるい ひとです。",
+        "translation": "It is still light out. He is a cheerful person."
       }
     },
     {
@@ -208,12 +247,12 @@
       "kanji": "暗い",
       "kana": "くらい",
       "romaji": "kurai",
-      "meaning": "dark; dim; gloomy",
+      "meaning": "dark; gloomy; somber",
       "category": "adjective",
       "example": {
-        "kanji": "図書館は静かで暗いです。",
-        "kana": "としょかんは しずかで くらいです。",
-        "translation": "The library is quiet and dim."
+        "kanji": "外はもう暗いです。彼は暗い人です。",
+        "kana": "そとは もう くらいです。かれは くらい ひとです。",
+        "translation": "It is already dark outside. He is a gloomy person."
       }
     },
     {
@@ -224,9 +263,9 @@
       "meaning": "tall (stature)",
       "category": "adjective",
       "example": {
-        "kanji": "ミラーさんは背が高いです。",
-        "kana": "ミラーさんは せが たかいです。",
-        "translation": "Mr. Miller is tall."
+        "kanji": "彼女は背が高いです。",
+        "kana": "かのじょは せが たかいです。",
+        "translation": "She is tall."
       }
     },
     {
@@ -234,12 +273,12 @@
       "kanji": "頭がいい",
       "kana": "あたまがいい",
       "romaji": "atama ga ii",
-      "meaning": "smart; clever",
+      "meaning": "smart; clever; intelligent",
       "category": "adjective",
       "example": {
-        "kanji": "あの学生は頭がいいです。",
-        "kana": "あの がくせいは あたまが いいです。",
-        "translation": "That student is smart."
+        "kanji": "彼は頭がいいです。",
+        "kana": "かれは あたまが いいです。",
+        "translation": "He is smart."
       }
     },
     {
@@ -250,9 +289,9 @@
       "meaning": "body; health",
       "category": "body",
       "example": {
-        "kanji": "ジョギングは体にいいです。",
-        "kana": "ジョギングは からだに いいです。",
-        "translation": "Jogging is good for the body."
+        "kanji": "体にいい食べ物を食べます。",
+        "kana": "からだに いい たべものを たべます。",
+        "translation": "I eat food that is good for the body."
       }
     },
     {
@@ -260,12 +299,12 @@
       "kanji": "頭",
       "kana": "あたま",
       "romaji": "atama",
-      "meaning": "head",
+      "meaning": "head; brain",
       "category": "body",
       "example": {
-        "kanji": "今日は少し頭が痛いです。",
-        "kana": "きょうは すこし あたまが いたいです。",
-        "translation": "My head hurts a little today."
+        "kanji": "頭が痛いです。",
+        "kana": "あたまが いたいです。",
+        "translation": "My head hurts (I have a headache)."
       }
     },
     {
@@ -276,9 +315,9 @@
       "meaning": "hair",
       "category": "body",
       "example": {
-        "kanji": "田中さんは髪が黒いです。",
-        "kana": "たなかさんは かみが くろいです。",
-        "translation": "Ms. Tanaka has black hair."
+        "kanji": "髪を切りましたか？",
+        "kana": "かみを きりましたか？",
+        "translation": "Did you get a haircut?"
       }
     },
     {
@@ -289,9 +328,9 @@
       "meaning": "face",
       "category": "body",
       "example": {
-        "kanji": "朝顔を洗います。",
-        "kana": "あさ かおを あらいます。",
-        "translation": "I wash my face in the morning."
+        "kanji": "顔に何か付いてますよ。",
+        "kana": "かおに なにか ついてますよ。",
+        "translation": "You have something on your face."
       }
     },
     {
@@ -302,9 +341,9 @@
       "meaning": "eye",
       "category": "body",
       "example": {
-        "kanji": "あの猫は目が青いです。",
-        "kana": "あの ねこは めが あおいです。",
-        "translation": "That cat has blue eyes."
+        "kanji": "私は目がいいです。私は目が悪いです。",
+        "kana": "わたしは めが いいです。わたしは めが わるいです。",
+        "translation": "I have good eyesight. I have bad eyesight."
       }
     },
     {
@@ -315,9 +354,9 @@
       "meaning": "ear",
       "category": "body",
       "example": {
-        "kanji": "うさぎは耳が長いです。",
-        "kana": "うさぎは みみが ながいです。",
-        "translation": "Rabbits have long ears."
+        "kanji": "彼は耳が遠いです。",
+        "kana": "かれは みみが とおいです。",
+        "translation": "He is hard of hearing (his ears are poor)."
       }
     },
     {
@@ -328,9 +367,9 @@
       "meaning": "nose",
       "category": "body",
       "example": {
-        "kanji": "ぞうは鼻が長いです。",
-        "kana": "ぞうは はなが ながいです。",
-        "translation": "Elephants have long trunks (noses)."
+        "kanji": "鼻が詰まっています。",
+        "kana": "はなが つまっています。",
+        "translation": "My nose is stuffy."
       }
     },
     {
@@ -341,9 +380,9 @@
       "meaning": "mouth",
       "category": "body",
       "example": {
-        "kanji": "口を大きく開けてください。",
-        "kana": "くちを おおきく あけて ください。",
-        "translation": "Please open your mouth wide."
+        "kanji": "彼女は口だけです。",
+        "kana": "かのじょは くちだけです。",
+        "translation": "She is all talk (literally: she is just mouth)."
       }
     },
     {
@@ -354,9 +393,9 @@
       "meaning": "tooth; teeth",
       "category": "body",
       "example": {
-        "kanji": "毎晩歯を磨きます。",
-        "kana": "まいばん はを みがきます。",
-        "translation": "I brush my teeth every night."
+        "kanji": "歯が痛いです。",
+        "kana": "はが いたいです。",
+        "translation": "I have a toothache."
       }
     },
     {
@@ -367,9 +406,9 @@
       "meaning": "stomach; belly",
       "category": "body",
       "example": {
-        "kanji": "お腹がすきました。",
-        "kana": "おなかが すきました。",
-        "translation": "I have gotten hungry."
+        "kanji": "お腹が空いています。お腹がいっぱいです。",
+        "kana": "おなかが すいています。おなかが いっぱいです。",
+        "translation": "I am hungry. I am full."
       }
     },
     {
@@ -377,12 +416,12 @@
       "kanji": "足",
       "kana": "あし",
       "romaji": "ashi",
-      "meaning": "leg; foot",
+      "meaning": "foot; leg",
       "category": "body",
       "example": {
-        "kanji": "サントスさんは足が長いです。",
-        "kana": "サントスさんは あしが ながいです。",
-        "translation": "Mr. Santos has long legs."
+        "kanji": "彼は足が速いです。",
+        "kana": "かれは あしが はやいです。",
+        "translation": "He can run fast (literally: his legs are fast)."
       }
     },
     {
@@ -393,9 +432,9 @@
       "meaning": "height; stature",
       "category": "body",
       "example": {
-        "kanji": "弟は背が高いです。",
-        "kana": "おとうとは せが たかいです。",
-        "translation": "My younger brother is tall."
+        "kanji": "彼は背が低いです。",
+        "kana": "かれは せが ひくいです。",
+        "translation": "He is short in stature."
       }
     },
     {
@@ -406,9 +445,9 @@
       "meaning": "service",
       "category": "noun",
       "example": {
-        "kanji": "あのレストランはサービスがいいです。",
-        "kana": "あの レストランは サービスが いいです。",
-        "translation": "That restaurant has good service."
+        "kanji": "このレストランのサービスはいいです。",
+        "kana": "この レストランの サービスは いいです。",
+        "translation": "This restaurant has good service."
       }
     },
     {
@@ -419,9 +458,9 @@
       "meaning": "jogging",
       "category": "noun",
       "example": {
-        "kanji": "朝公園でジョギングをします。",
-        "kana": "あさ こうえんで ジョギングを します。",
-        "translation": "I jog in the park in the morning."
+        "kanji": "毎朝ジョギングしています。",
+        "kana": "まいあさ ジョギング しています。",
+        "translation": "I go jogging every morning."
       }
     },
     {
@@ -432,9 +471,9 @@
       "meaning": "shower",
       "category": "noun",
       "example": {
-        "kanji": "起きてからシャワーを浴びます。",
-        "kana": "おきてから シャワーを あびます。",
-        "translation": "After waking up, I take a shower."
+        "kanji": "シャワーを浴びてから、仕事に来ました。",
+        "kana": "シャワーを あびてから、しごとに きました。",
+        "translation": "After taking a shower, I came to work."
       }
     },
     {
@@ -445,9 +484,9 @@
       "meaning": "green; greenery",
       "category": "noun",
       "example": {
-        "kanji": "この町は緑が多いです。",
-        "kana": "この まちは みどりが おおいです。",
-        "translation": "This town has a lot of greenery."
+        "kanji": "このエリアは緑が多いです。",
+        "kana": "この エリアは みどりが おおいです。",
+        "translation": "There is a lot of greenery in this area."
       }
     },
     {
@@ -477,24 +516,11 @@
       }
     },
     {
-      "id": "ryugakusei",
-      "kanji": "留学生",
-      "kana": "りゅうがくせい",
-      "romaji": "ryugakusei",
-      "meaning": "international student",
-      "category": "noun",
-      "example": {
-        "kanji": "彼はベトナムからの留学生です。",
-        "kana": "かれは ベトナムからの りゅうがくせいです。",
-        "translation": "He is an international student from Vietnam."
-      }
-    },
-    {
       "id": "ban",
       "kanji": "～番",
       "kana": "～ばん",
       "romaji": "~ban",
-      "meaning": "number ",
+      "meaning": "number ~",
       "category": "expression",
       "example": {
         "kanji": "16番のバスに乗ってください。",
@@ -507,25 +533,12 @@
       "kanji": "どうやって",
       "kana": "どうやって",
       "romaji": "doyatte",
-      "meaning": "how; in what way",
+      "meaning": "how; in what way (process / method)",
       "category": "expression",
       "example": {
-        "kanji": "大学までどうやって行きますか。",
-        "kana": "だいがくまで どうやって いきますか。",
-        "translation": "How do you get to the university?"
-      }
-    },
-    {
-      "id": "dono",
-      "kanji": "どの～",
-      "kana": "どの～",
-      "romaji": "dono",
-      "meaning": "which ~ (out of three or more)",
-      "category": "expression",
-      "example": {
-        "kanji": "カリナさんの傘はどの傘ですか。",
-        "kana": "カリナさんの かさは どの かさですか。",
-        "translation": "Which umbrella is Karina's?"
+        "kanji": "どうやって日本語を勉強しましたか？",
+        "kana": "どうやって にほんごを べんきょうしましたか？",
+        "translation": "How did you study Japanese?"
       }
     },
     {
@@ -533,133 +546,192 @@
       "kanji": "どれ",
       "kana": "どれ",
       "romaji": "dore",
-      "meaning": "which one (out of three or more)",
+      "meaning": "which one (of three or more options)",
       "category": "expression",
       "example": {
-        "kanji": "あなたの自転車はどれですか。",
-        "kana": "あなたの じてんしゃは どれですか。",
-        "translation": "Which one is your bicycle?"
+        "kanji": "たかしさんの傘はどれですか？",
+        "kana": "たかしさんの かさは どれですか？",
+        "translation": "Which one is Takashi's umbrella?"
       }
     },
     {
-      "id": "madamada-desu",
-      "kanji": "まだまだです",
-      "kana": "まだまだです",
-      "romaji": "madamada desu",
-      "meaning": "not yet; I still have a long way to go",
+      "id": "dono",
+      "kanji": "どの～",
+      "kana": "どの～",
+      "romaji": "dono~",
+      "meaning": "which ~ (of three or more options)",
       "category": "expression",
       "example": {
-        "kanji": "日本語がお上手ですね。いいえ、まだまだです。",
-        "kana": "にほんごが おじょうずですね。いいえ、まだまだです。",
-        "translation": "Your Japanese is very good! No, I still have a long way to go."
+        "kanji": "どの映画を見ましょうか？",
+        "kana": "どの えいがを みましょうか？",
+        "translation": "Which movie shall we watch?"
+      }
+    },
+    {
+      "id": "dochira",
+      "kanji": "どちら / どっち",
+      "kana": "どちら / どっち",
+      "romaji": "dochira / docchi",
+      "meaning": "which one (of strictly two options)",
+      "category": "expression",
+      "example": {
+        "kanji": "お肉と魚と、どちらがいいですか？",
+        "kana": "おにくと さかなと、どちらが いいですか？",
+        "translation": "Which one would you like, meat or fish?"
       }
     }
   ],
   "grammar": [
     {
-      "pattern": "Verb-て、Verb-て、... Verb",
-      "explanation": "Use the て-form of verbs to connect two or more actions in chronological order. The tense of the entire sentence is determined solely by the final verb.",
+      "pattern": "Sentence 1 (て-form)、Sentence 2 [Connecting Verb Sentences]",
+      "explanation": "To connect full sentences in Japanese, you MUST end the preceding sentence in the て-form. While the particle と connects nouns (お肉と野菜), it CANNOT connect sentences. Key rules: (1) When the subject is the same, omit the repeated subject in Sentence 2. (2) You can chain multiple actions in chronological sequence without limit (Action 1 → Action 2 → Action 3). (3) The て-form itself has NO past tense—only the final verb carries the tense of the entire sentence.",
       "examples": [
         {
-          "kanji": "朝ジョギングをして、シャワーを浴びて、会社へ行きます。",
-          "kana": "あさ ジョギングを して、シャワーを あびて、かいしゃへ いきます。",
-          "translation": "In the morning, I jog, take a shower, and go to work."
+          "kanji": "スーパーに行って、牛乳を買います。",
+          "kana": "スーパーに いって、ぎゅうにゅうを かいます。",
+          "translation": "I will go to the supermarket and buy milk."
         },
         {
-          "kanji": "神戸へ行って、映画を見て、友達とお茶を飲みました。",
-          "kana": "こうべへ いって、えいがを みて、ともだちと おちゃを のみました。",
-          "translation": "I went to Kobe, watched a movie, and had tea with a friend."
+          "kanji": "スーパーに行って、牛乳を買って、家に帰りました。",
+          "kana": "スーパーに いって、ぎゅうにゅうを かって、いえに かえりました。",
+          "translation": "I went to the supermarket, bought milk, and went home."
+        },
+        {
+          "kanji": "今朝ジョギングをして、シャワーを浴びて、仕事に来ました。",
+          "kana": "けさ ジョギングを して、シャワーを あびて、しごとに きました。",
+          "translation": "This morning I went jogging, took a shower, and came to work."
         }
       ]
     },
     {
-      "pattern": "Verb-て から、Verb",
-      "explanation": "Attach から to a verb's て-form to mean 'after doing Verb 1, do Verb 2.' This emphasizes that the second action begins only after the first action is fully completed.",
+      "pattern": "Verb-て から、Sentence 2 [Sequence / Since]",
+      "explanation": "から marks a starting point ('from'). Attached to a verb's て-form, it explicitly emphasizes that Action 1 is completed FIRST before Action 2 takes place ('after doing V1, V2' or 'first do V1, then V2'). When followed by a continuous state in the ～ています form, it means 'since' (e.g., working somewhere since graduating).",
       "examples": [
-        {
-          "kanji": "国へ帰ってから、父の会社で働きます。",
-          "kana": "くにへ かえってから、ちちの かいしゃで はたらきます。",
-          "translation": "After returning to my home country, I will work at my father's company."
-        },
         {
           "kanji": "お金を下ろしてから、買い物に行きました。",
           "kana": "おかねを おろしてから、かいものに いきました。",
-          "translation": "After withdrawing money, I went shopping."
+          "translation": "I first withdrew money, and then went shopping."
+        },
+        {
+          "kanji": "ボタンを押してから、お金を入れてください。",
+          "kana": "ボタンを おしてから、おかねを いれて ください。",
+          "translation": "Please push the button first, and then insert money."
+        },
+        {
+          "kanji": "大学を卒業してから、今の会社で働いています。",
+          "kana": "だいがくを そつぎょうしてから、いまの かいしゃで はたらいて います。",
+          "translation": "Since I graduated from university, I have been working at my current company."
         }
       ]
     },
     {
-      "pattern": "い-adjective (～くて) / な-adjective (～で) / Noun (～で)",
-      "explanation": "Use these forms to connect two or more descriptions together. For い-adjectives, replace final い with くて (いい becomes よくて). For な-adjectives, drop な and attach で. For nouns, add で. Both qualities should share the same positive or negative sentiment.",
+      "pattern": "い-adj (～くて) / な-adj (～で) / Noun (～で) [Connecting Descriptions]",
+      "explanation": "To chain adjective or noun predicate sentences: (1) い-adjectives: drop final い and add くて (小さい → 小さくて; note: いい becomes よくて). (2) な-adjectives: add で to the base word (静か → 静かで). (3) Noun sentences: add で to the noun (同僚 → 同僚で). Note: Say 『彼は同僚で、友達です』 instead of 『同僚と友達です』 because you are joining two predicate statements describing the same person, not listing separate items.",
       "examples": [
         {
-          "kanji": "この部屋は広くて、明るいです。",
-          "kana": "この へやは ひろくて、あかるいです。",
-          "translation": "This room is spacious and bright."
+          "kanji": "私の町は小さくて、静かです。",
+          "kana": "わたしの まちは ちいさくて、しずかです。",
+          "translation": "My town is small and quiet."
         },
         {
-          "kanji": "奈良は静かで、きれいな町です。",
-          "kana": "ならは しずかで、きれいな まちです。",
-          "translation": "Nara is a quiet and beautiful town."
+          "kanji": "ホテルは安くて、サービスが良かったです。",
+          "kana": "ホテルは やすくて、サービスが よかったです。",
+          "translation": "The hotel was inexpensive and the service was good."
         },
         {
-          "kanji": "カリナさんは留学生で、富士大学の学生です。",
-          "kana": "カリナさんは りゅうがくせいで、ふじだいがくの がくせいです。",
-          "translation": "Karina is an international student and a student at Fuji University."
+          "kanji": "彼は私の同僚で、友達です。",
+          "kana": "かれは わたしの どうりょうで、ともだちです。",
+          "translation": "He is my colleague and my friend."
+        },
+        {
+          "kanji": "彼は31歳で、独身です。",
+          "kana": "かれは さんじゅういっさいで、どくしんです。",
+          "translation": "He is 31 years old and single."
         }
       ]
     },
     {
-      "pattern": "Noun 1 は Noun 2 が Adjective です",
-      "explanation": "Use this structure to describe a specific attribute, body part, or feature (Noun 2) of a person, animal, or place (Noun 1). Noun 1 is marked with は as the topic, while the specific feature is marked with が.",
+      "pattern": "Adjective Contrast: ～が / ～けど [Positive vs. Negative Polarity]",
+      "explanation": "CRITICAL RULE: The て-form can ONLY connect traits that share the same polarity (positive + positive: 美味しくて安いです; negative + negative: 狭くて暗いです). When linking contrasting traits (positive + negative), using the て-form (✕ 美味しくて、高いです) sounds unnatural. Instead, you MUST use が (polite/formal) or けど (conversational) meaning 'but'.",
       "examples": [
         {
-          "kanji": "マリアさんは髪が長くて、背が高いです。",
-          "kana": "マリアさんは かみが ながくて、せが たかいです。",
-          "translation": "Maria has long hair and is tall."
+          "kanji": "この料理は美味しいですが、高いです。",
+          "kana": "この りょうりは おいしいですが、たかいです。",
+          "translation": "This dish is delicious, but it is expensive."
+        },
+        {
+          "kanji": "美味しいですけど、高いです。",
+          "kana": "おいしいですけど、たかいです。",
+          "translation": "It is delicious, but it's expensive (conversational)."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 は Noun 2 が [Adjective] です [Describing Features & Attributes]",
+      "explanation": "Use this structure to describe a specific attribute, body part, or feature (Noun 2) of a subject (Noun 1). Nuance distinction: 『彼女の髪は長いです』 sets her hair as the topic (used when discussing her hair). 『彼女は髪が長いです』 sets the person as the topic and marks her hair with が as a defining feature (used when the person herself is the focus).",
+      "examples": [
+        {
+          "kanji": "彼女は髪が長いです。",
+          "kana": "かのじょは かみが ながいです。",
+          "translation": "She has long hair (As for her, her hair is long)."
         },
         {
           "kanji": "大阪は食べ物が美味しいです。",
           "kana": "おおさかは たべものが おいしいです。",
-          "translation": "Osaka has delicious food."
+          "translation": "Osaka has delicious food (As for Osaka, the food is good)."
+        },
+        {
+          "kanji": "象は鼻が長いです。",
+          "kana": "ぞうは はなが ながいです。",
+          "translation": "Elephants have long trunks (noses)."
         }
       ]
     },
     {
-      "pattern": "どうやって + Verb か",
-      "explanation": "Use どうやって to ask how to do something or what method or route to take to reach a destination. Answers typically list steps in order using the Verb-て form.",
+      "pattern": "どうやって vs. どう [Asking 'How']",
+      "explanation": "どうやって is formed from どう (how) + やって (て-form of やる, 'to do'), literally meaning 'doing how?'. It inquires strictly about the concrete method, process, or route used to complete an action. In contrast, どう is used for opinions (どう思いますか？; NEVER ✕どうやって思いますか), impressions/conditions (日本の生活はどうですか？), and offers (コーヒーはどうですか？).",
       "examples": [
         {
-          "kanji": "大学までどうやって行きますか。",
-          "kana": "だいがくまで どうやって いきますか。",
-          "translation": "How do you get to the university?"
+          "kanji": "今日はどうやってここに来ましたか？",
+          "kana": "きょうは どうやって ここに きましたか？",
+          "translation": "How did you get here today?"
         },
         {
-          "kanji": "東京駅からJRに乗って、新宿駅で地下鉄に乗り換えます。",
-          "kana": "とうきょうえきから ジェイアールに のって、しんじゅくえきで ちかてつに のりかえます。",
-          "translation": "Take the JR line from Tokyo Station and transfer to the subway at Shinjuku Station."
+          "kanji": "「McDonald's」は日本語でどうやって言いますか？",
+          "kana": "「McDonald's」は にほんごで どうやって いいますか？",
+          "translation": "How do you say 'McDonald's' in Japanese? (Answer: マクドナルド)"
+        },
+        {
+          "kanji": "映画についてどう思いますか？",
+          "kana": "えいがについて どう おもいますか？",
+          "translation": "What do you think about the movie? (Opinion: use どう, not どうやって)"
         }
       ]
     },
     {
-      "pattern": "どの Noun / どれ",
-      "explanation": "Use どれ ('which one') and どの + Noun ('which [noun]') when asking someone to select or identify one specific item out of three or more choices.",
+      "pattern": "どれ / どの Noun vs. どちら / どっち [Asking 'Which']",
+      "explanation": "For 3 or more options, use どれ ('which one' as a pronoun) or どの + Noun ('which [noun]'). For strictly 2 options, use どちら (polite) or どっち (casual) / どちらの + Noun. Particle rule: When identifying the unknown item or answering, the specific choice receives が (e.g., 赤い傘がたかしさんの傘です → どれがたかしさんの傘ですか？).",
       "examples": [
         {
-          "kanji": "ミラーさんの傘はどれですか。",
-          "kana": "ミラーさんの かさは どれですか。",
-          "translation": "Which one is Mr. Miller's umbrella?"
+          "kanji": "たかしさんの傘はどれですか？ / どれがたかしさんの傘ですか？",
+          "kana": "たかしさんの かさは どれですか？ / どれが たかしさんの かさですか？",
+          "translation": "Which one is Takashi's umbrella? (Out of 3+ umbrellas)"
         },
         {
-          "kanji": "サントスさんはどの人ですか。",
-          "kana": "サントスさんは どの ひとですか。",
-          "translation": "Which person is Mr. Santos?"
+          "kanji": "どの国が勝ちましたか？",
+          "kana": "どの くにが かちましたか？",
+          "translation": "Which country won? (Marathon with many participating countries)"
+        },
+        {
+          "kanji": "どちらの国が勝ちましたか？",
+          "kana": "どちらの くにが かちましたか？",
+          "translation": "Which country won? (Soccer match with strictly 2 competing countries)"
         }
       ]
     }
   ],
   "reading": {
-    "title": "京都への行き方と観光",
+    "title": "京都への行き方と週末の旅行",
     "lines": [
       {
         "speaker": "マルコ",
@@ -678,8 +750,8 @@
       },
       {
         "speaker": "さくら",
-        "kanji": "駅前から16番のバスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。",
-        "kana": "えきまえから じゅうろくばんの バスに のって、きんかくじへ いって ください。きんかくじは しずかで、きれいな おてらです。"
+        "kanji": "駅前から16番の市バスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。",
+        "kana": "えきまえから じゅうろくばんの しバスに のって、きんかくじへ いって ください。きんかくじは しずかで、きれいな おてらです。"
       },
       {
         "speaker": "マルコ",
@@ -693,102 +765,169 @@
       },
       {
         "speaker": "マルコ",
-        "kanji": "わかりました。いろいろ教えてくれてありがとうございます。",
-        "kana": "わかりました。いろいろ おしえて くれて ありがとうございます。"
+        "kanji": "楽しみです。親切に教えてくれてありがとうございます。",
+        "kana": "たのしみです。しんせつに おしえて くれて ありがとうございます。"
       }
     ],
-    "translation": "Marco wants to visit Kyoto this Saturday and asks Sakura for travel advice. Sakura explains that he can take the JR Special Rapid train from Osaka Station and get off at Kyoto Station in about 30 minutes. She suggests taking bus number 16 from the station to visit Kinkaku-ji temple, which is quiet and beautiful. She also adds that Kyoto has abundant greenery and delicious matcha ice cream.",
+    "translation": "Marco wants to visit Kyoto this Saturday and asks Sakura how to get there from Osaka. Sakura explains that he can take the JR Special Rapid train from Osaka Station and get off at Kyoto Station in about 30 minutes. She advises that after arriving at Kyoto Station, he should take city bus number 16 to visit Kinkaku-ji temple, which is quiet and beautiful. She also notes that Kyoto has abundant greenery and delicious matcha ice cream.",
     "questions": [
       {
-        "question": "How does Marco travel from Osaka Station to Kyoto Station?",
+        "question": "How does Sakura recommend traveling from Osaka Station to Kyoto Station?",
         "options": [
-          "By walking for 30 minutes",
-          "By riding the JR Special Rapid train to Kyoto Station",
-          "By changing to the subway at Shinjuku",
-          "By taking bus number 16 directly from Osaka"
+          "Walk for 30 minutes",
+          "Ride the JR Special Rapid train and get off at Kyoto Station",
+          "Change trains at Akihabara Station",
+          "Take city bus number 16 directly from Osaka"
         ],
         "answer": 1,
-        "explanation": "Sakura says to take the JR Special Rapid train from Osaka Station and get off at Kyoto Station (JRの新快速に乗って、京都駅で降ります)."
+        "explanation": "Sakura instructs Marco to board the JR Special Rapid train at Osaka Station and disembark at Kyoto Station (JRの新快速に乗って、京都駅で降ります)."
       },
       {
-        "question": "According to Sakura, what is Kinkaku-ji like?",
+        "question": "What should Marco do after arriving at Kyoto Station?",
         "options": [
-          "It is a quiet and beautiful temple.",
-          "It is a new and crowded university.",
-          "It is dark and small.",
-          "It is far away and difficult to reach."
+          "Withdraw money from the ATM and return home",
+          "Take bus number 16 to visit Kinkaku-ji temple",
+          "Go straight to a restaurant because it is dark",
+          "Observe a factory tour"
+        ],
+        "answer": 1,
+        "explanation": "Sakura tells him to take bus number 16 from the station to visit Kinkaku-ji (駅前から16番の市バスに乗って、金閣寺へ行ってください)."
+      },
+      {
+        "question": "How does Sakura describe Kyoto's environment and food?",
+        "options": [
+          "It has a lot of greenery and delicious matcha ice cream.",
+          "It is small and dark, and the service is bad.",
+          "It is very expensive, but the days are short.",
+          "The temples are far and hard of hearing."
         ],
         "answer": 0,
-        "explanation": "Sakura describes Kinkaku-ji as quiet and beautiful (静かで、きれいなお寺です)."
+        "explanation": "Sakura states: 京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ (Kyoto has a lot of greenery and very delicious matcha ice cream)."
       }
     ]
   },
   "exercises": [
     {
-      "question": "Choose the meaning.",
+      "question": "Choose the correct meaning of 乗り換えます.",
       "prompt": {
-        "kanji": "乗り換えます",
-        "kana": "のりかえます"
+        "kanji": "秋葉原駅で乗り換えてください。",
+        "kana": "あきはばらえきで のりかえて ください。"
       },
       "options": [
-        "to get on",
-        "to get off",
-        "to transfer / change trains",
-        "to withdraw money"
+        "Please get off the train",
+        "Please change / transfer trains",
+        "Please withdraw money",
+        "Please push the button"
       ],
-      "answer": 2,
-      "explanation": "乗り換えます (のりかえます) means to change or transfer between trains, buses, or other transport."
+      "answer": 1,
+      "explanation": "乗り換えます (のりかえます) means to transfer or change vehicles (trains, buses, etc.)."
     },
     {
-      "question": "Choose the correct verb forms to connect these morning routines in chronological order.",
+      "question": "Connect the sequential morning actions in chronological order: 'I went jogging, took a shower, and came to work.'",
       "prompt": {
-        "kanji": "毎朝ジョギングを___、シャワーを___、会社へ行きます。",
-        "kana": "まいあさ ジョギングを___、シャワーを___、かいしゃへ いきます。"
+        "kanji": "今朝ジョギングを___、シャワーを___、仕事に来ました。",
+        "kana": "けさ ジョギングを___、シャワーを___、しごとに きました。"
       },
       "options": [
         "して、浴びて",
         "します、浴びます",
-        "した、浴びた",
-        "してから、浴びます"
+        "して、浴びてから",
+        "した、浴びた"
       ],
       "answer": 0,
-      "explanation": "The て-form (して, 浴びて) is used to connect a series of actions performed in chronological order."
+      "explanation": "Actions in chronological sequence are chained using the て-form (して、浴びて). The past tense is only indicated by the final verb (来ました)."
     },
     {
-      "question": "Choose the correct form to connect the adjectives: 'This apartment is quiet and clean.'",
+      "question": "Choose the correct form to say: 'I first withdrew money, and then went shopping.'",
       "prompt": {
-        "kanji": "このアパートは静か___、きれいです。",
-        "kana": "この アパートは しずか___、きれいです。"
+        "kanji": "お金を下ろし___、買い物に行きました。",
+        "kana": "おかねを おろし___、かいものに いきました。"
+      },
+      "options": [
+        "てから",
+        "て",
+        "たり",
+        "ながら"
+      ],
+      "answer": 0,
+      "explanation": "Verb (て-form) + から explicitly emphasizes that the first action is completed first before moving on to the next action."
+    },
+    {
+      "question": "Choose the natural connector for contrasting qualities (positive + negative): 'This dish is delicious, but expensive.'",
+      "prompt": {
+        "kanji": "この料理は美味しい___、高いです。",
+        "kana": "この りょうりは おいしい___、たかいです。"
       },
       "options": [
         "くて",
+        "ですが",
         "で",
-        "に",
-        "い"
+        "と"
       ],
       "answer": 1,
-      "explanation": "For な-adjectives, drop な and attach で (静か → 静かで) to connect with another adjective."
+      "explanation": "The て-form (美味しくて) cannot connect positive and negative polarities. Use が (or けど) meaning 'but' when linking contrasting traits."
     },
     {
-      "question": "Choose the correct particle to describe a person's feature.",
+      "question": "Choose the correct particle to mark the specific feature being described: 'She has long hair.'",
       "prompt": {
-        "kanji": "マリアさんは髪___長いです。",
-        "kana": "マリアさんは かみ___ ながいです。"
+        "kanji": "彼女は髪___長いです。",
+        "kana": "かのじょは かみ___ ながいです。"
       },
       "options": [
         "は",
         "が",
         "を",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "In the pattern 『N1 は N2 が [Adjective] です』, N1 is the main topic (彼女) and N2 is the specific attribute or body part marked by が (髪が長いです)."
+    },
+    {
+      "question": "Choose the correct question word to ask for an opinion: 'What do you think about this?'",
+      "prompt": {
+        "kanji": "これについて___思いますか？",
+        "kana": "これについて___おもいますか？"
+      },
+      "options": [
+        "どう",
+        "どうやって",
+        "どれ",
+        "どの"
+      ],
+      "answer": 0,
+      "explanation": "Use どう to ask for opinions and impressions (どう思いますか？). どうやって asks strictly for physical methods or procedures and is ungrammatical here."
+    },
+    {
+      "question": "A soccer match is played between two countries (e.g., France vs. Argentina). Choose the correct question: 'Which country won?'",
+      "options": [
+        "どの国が勝ちましたか？",
+        "どちらの国が勝ちましたか？",
+        "どれ国が勝ちましたか？",
+        "どうやって国が勝ちましたか？"
+      ],
+      "answer": 1,
+      "explanation": "When choosing between strictly two options, use どちらの + Noun (or casual どっちの). どの + Noun is reserved for three or more options."
+    },
+    {
+      "question": "Choose the correct way to join two noun predicates describing the same subject: 'He is my colleague and my friend.'",
+      "prompt": {
+        "kanji": "彼は私の同僚___、友達です。",
+        "kana": "かれは わたしの どうりょう___、ともだちです。"
+      },
+      "options": [
+        "と",
+        "で",
+        "くて",
         "に"
       ],
       "answer": 1,
-      "explanation": "In the pattern 『Noun 1 は Noun 2 が Adjective です』, が marks the specific body part or attribute (髪) belonging to the topic."
+      "explanation": "Use で to connect noun predicate sentences (同僚で、友達です). と can only list separate objects or people, not join predicates describing the same subject."
     }
   ],
   "writing": {
-    "title": "Describe your routine and surroundings",
-    "prompt": "Write 3–4 sentences describing your daily routine using sequential verbs (て-form or ～てから), and describe your room, city, or a friend using connected adjectives and attribute descriptions (N1 は N2 が...).",
-    "placeholder": "毎朝 ______ をして、______ を浴びてから ______ へ行きます。\n私の部屋は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。",
-    "modelAnswer": "毎朝ジョギングをして、シャワーを浴びてから大学へ行きます。私の部屋は静かで、明るいです。私の友達は背が高くて、髪が長いです。"
+    "title": "Daily Routine and Describing a Friend or City",
+    "prompt": "Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then, describe a friend's physical features or your city using connected adjectives and the 『N1 は N2 が [Adjective]』 pattern.",
+    "placeholder": "朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。",
+    "modelAnswer": "毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。"
   }
 }
