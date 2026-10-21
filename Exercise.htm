@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>みんなの日本語 第15課 | Kawaii Vocab Arcade 🌸</title>
+  <title>みんなの日本語 | Complete Study Arcade 🌸</title>
   <style>
     :root {
       --bg-cream: #FFF7F9;
@@ -72,7 +72,9 @@
       font-weight: 800;
       font-size: 0.88rem;
       box-shadow: 0 5px 14px rgba(255, 142, 170, 0.16);
+      transition: transform 0.15s;
     }
+    .course-back:hover { transform: translateY(-2px); }
     .course-back:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
 
     .top-bar {
@@ -109,9 +111,7 @@
       box-shadow: var(--shadow);
       transition: all 0.2s;
     }
-    .audio-toggle-btn:active {
-      transform: scale(0.96);
-    }
+    .audio-toggle-btn:active { transform: scale(0.96); }
 
     .header-content {
       display: flex;
@@ -128,9 +128,7 @@
       transition: transform 0.2s;
       flex-shrink: 0;
     }
-    .mascot-container:active {
-      transform: scale(1.15) rotate(6deg);
-    }
+    .mascot-container:active { transform: scale(1.15) rotate(6deg); }
 
     @keyframes float {
       0%, 100% { transform: translateY(0px); }
@@ -202,9 +200,7 @@
       display: none;
       animation: fadeIn 0.25s ease-out forwards;
     }
-    .game-section.active {
-      display: block;
-    }
+    .game-section.active { display: block; }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(6px); }
@@ -271,9 +267,7 @@
       box-shadow: 0 12px 30px rgba(255, 158, 181, 0.25);
     }
 
-    .flashcard-wrapper.flipped .flashcard-inner {
-      transform: rotateY(180deg);
-    }
+    .flashcard-wrapper.flipped .flashcard-inner { transform: rotateY(180deg); }
 
     .card-face {
       position: absolute;
@@ -298,36 +292,11 @@
       border-color: var(--yellow);
     }
 
-    .card-face .card-icon {
-      font-size: 2.8rem;
-      margin-bottom: 4px;
-    }
-
-    .card-face .kanji-text {
-      font-size: 2.2rem;
-      font-weight: 900;
-      color: var(--text-main);
-    }
-
-    .card-face .kana-text {
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: var(--pink-deep);
-      margin-top: 2px;
-    }
-
-    .card-face .romaji-text {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
-    .card-face .english-text {
-      font-size: 1.6rem;
-      font-weight: 900;
-      color: var(--pink-deep);
-      margin-bottom: 10px;
-    }
+    .card-face .card-icon { font-size: 2.8rem; margin-bottom: 4px; }
+    .card-face .kanji-text { font-size: 2.2rem; font-weight: 900; color: var(--text-main); }
+    .card-face .kana-text { font-size: 1.3rem; font-weight: 700; color: var(--pink-deep); margin-top: 2px; }
+    .card-face .romaji-text { font-size: 0.95rem; color: var(--text-muted); margin-top: 2px; }
+    .card-face .english-text { font-size: 1.5rem; font-weight: 900; color: var(--pink-deep); margin-bottom: 10px; }
 
     .example-sentence {
       background: #FFF0F5;
@@ -338,6 +307,7 @@
       border-left: 4px solid var(--pink-primary);
       text-align: left;
       width: 100%;
+      line-height: 1.45;
     }
 
     .card-controls {
@@ -391,6 +361,7 @@
       font-weight: 700;
       color: var(--text-muted);
       cursor: pointer;
+      text-transform: capitalize;
     }
     .tag-btn.active {
       background: var(--pink-light);
@@ -407,10 +378,7 @@
       color: var(--text-muted);
       font-size: 0.95rem;
     }
-    .memory-stats span {
-      color: var(--pink-deep);
-      font-size: 1.15rem;
-    }
+    .memory-stats span { color: var(--pink-deep); font-size: 1.15rem; }
 
     .memory-grid {
       display: grid;
@@ -419,9 +387,7 @@
     }
 
     @media (max-width: 600px) {
-      .memory-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
+      .memory-grid { grid-template-columns: repeat(3, 1fr); }
     }
 
     .memory-card {
@@ -486,7 +452,6 @@
       font-weight: 700;
     }
 
-    /* Fixed matched state */
     .memory-card.matched {
       pointer-events: none;
       cursor: default;
@@ -498,9 +463,7 @@
       box-shadow: 0 4px 12px rgba(61, 184, 133, 0.35);
     }
 
-    .memory-card.matched .sub {
-      color: var(--mint-dark);
-    }
+    .memory-card.matched .sub { color: var(--mint-dark); }
 
     .matched-badge {
       position: absolute;
@@ -617,9 +580,7 @@
       flex-shrink: 0;
     }
 
-    .quiz-opt-btn:active {
-      transform: scale(0.98);
-    }
+    .quiz-opt-btn:active { transform: scale(0.98); }
 
     .quiz-opt-btn.correct {
       background: var(--mint) !important;
@@ -765,9 +726,7 @@
       cursor: pointer;
       transition: all 0.15s;
     }
-    .slot-box:active {
-      background: #FFE2EB;
-    }
+    .slot-box:active { background: #FFE2EB; }
 
     .scramble-tiles {
       display: flex;
@@ -793,9 +752,7 @@
       box-shadow: 0 4px 10px rgba(255, 142, 170, 0.15);
       transition: all 0.15s;
     }
-    .kana-tile:active {
-      transform: scale(0.92);
-    }
+    .kana-tile:active { transform: scale(0.92); }
 
     .kana-tile.used {
       opacity: 0.2;
@@ -894,8 +851,8 @@
       </div>
 
       <div class="title-group">
-        <h1 id="lesson-title">第15課 Vocab Arcade</h1>
-        <p id="lesson-subtitle">Minna no Nihongo Lesson 15 • Japanese Vocab Games</p>
+        <h1 id="lesson-title">Loading Lesson...</h1>
+        <p id="lesson-subtitle">Minna no Nihongo Study Arcade</p>
       </div>
     </div>
 
@@ -914,25 +871,23 @@
     <section id="tab-cards" class="game-section active">
       <div class="kawaii-box">
         <div class="filter-tags" id="filter-tags">
-          <button class="tag-btn active" onclick="filterCards('all', this)">All (24)</button>
-          <button class="tag-btn" onclick="filterCards('verb', this)">Verbs (9)</button>
-          <button class="tag-btn" onclick="filterCards('noun', this)">Nouns & Others (15)</button>
+          <button class="tag-btn active" onclick="filterCards('all', this)">All</button>
         </div>
 
         <div class="flashcard-wrapper" onclick="flipCard()">
           <div class="flashcard-inner" id="flashcard-inner">
             <div class="card-face card-front">
-              <div class="card-icon" id="fc-icon">📦</div>
-              <div class="kanji-text" id="fc-kanji">置きます</div>
-              <div class="kana-text" id="fc-kana">おきます</div>
-              <div class="romaji-text" id="fc-romaji">okimasu</div>
+              <div class="card-icon" id="fc-icon">🌸</div>
+              <div class="kanji-text" id="fc-kanji">Loading...</div>
+              <div class="kana-text" id="fc-kana">...</div>
+              <div class="romaji-text" id="fc-romaji">...</div>
               <small style="margin-top: 14px; color: var(--text-muted);">✨ Tap or Press [Space] to flip ✨</small>
             </div>
             <div class="card-face card-back">
-              <div class="card-icon" id="fc-icon-back">📦</div>
-              <div class="english-text" id="fc-en">put, place</div>
-              <div class="example-sentence" id="fc-example">ここに 荷物を 置いても いいです。</div>
-              <small style="margin-top: 12px; color: var(--text-muted);">Grammar point: 〜てもいいです</small>
+              <div class="card-icon" id="fc-icon-back">🌸</div>
+              <div class="english-text" id="fc-en">...</div>
+              <div class="example-sentence" id="fc-example">...</div>
+              <small style="margin-top: 12px; color: var(--text-muted);" id="fc-sub-example">Example sentence</small>
             </div>
           </div>
         </div>
@@ -945,7 +900,7 @@
         </div>
 
         <div class="card-meta-bar">
-          <span id="fc-counter">Card 1 of 24</span>
+          <span id="fc-counter">Card 1 of 1</span>
           <span style="font-size: 0.78rem; opacity: 0.8;">Keys: [←][→] Next/Prev | [Space] Flip | [S] Speak</span>
         </div>
 
@@ -955,6 +910,7 @@
       </div>
     </section>
 
+    <!-- TAB: LESSON GUIDE -->
     <section id="tab-guide" class="game-section">
       <div class="kawaii-box" id="lesson-guide"></div>
     </section>
@@ -989,8 +945,8 @@
 
         <div class="quiz-question-box">
           <div class="quiz-prompt-label">Select the correct English translation:</div>
-          <div class="quiz-prompt-word" id="quiz-prompt">歯医者</div>
-          <div class="quiz-prompt-sub" id="quiz-prompt-sub">はいしゃ</div>
+          <div class="quiz-prompt-word" id="quiz-prompt">...</div>
+          <div class="quiz-prompt-sub" id="quiz-prompt-sub">...</div>
         </div>
 
         <div class="quiz-options-grid" id="quiz-options"></div>
@@ -1016,7 +972,7 @@
           </div>
 
           <div class="falling-star" id="active-star" style="display:none; top: 0; left: 50%;">
-            ⭐ <span id="star-text">服</span>
+            ⭐ <span id="star-text">...</span>
           </div>
 
           <div class="star-basket-zone" id="catcher-baskets"></div>
@@ -1031,9 +987,9 @@
     <section id="tab-scramble" class="game-section">
       <div class="kawaii-box">
         <div class="scramble-target">
-          <div style="font-size: 2.3rem;" id="scramble-icon">👗</div>
-          <div class="scramble-en" id="scramble-en">clothes</div>
-          <div class="scramble-kanji" id="scramble-kanji">Kanji: 服</div>
+          <div style="font-size: 2.3rem;" id="scramble-icon">🍣</div>
+          <div class="scramble-en" id="scramble-en">...</div>
+          <div class="scramble-kanji" id="scramble-kanji">Kanji: ...</div>
           <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Tap any placed letter below to remove it!</div>
         </div>
 
@@ -1049,7 +1005,7 @@
     </section>
   </main>
 
-  <!-- MODAL -->
+  <!-- WIN MODAL -->
   <div class="modal-overlay" id="win-modal">
     <div class="modal-card">
       <div style="font-size: 3.2rem; margin-bottom: 6px;">🎉🌸</div>
@@ -1061,267 +1017,308 @@
 
   <script>
     /* =========================================================
-       1. VOCABULARY DATABASE (MINNA NO NIHONGO LESSON 15)
+       1. UNIVERSAL ENGINE: DYNAMIC SUBFOLDER DATA LOADER
     ========================================================== */
-    let LESSON_15_VOCAB = [
-      { kanji: "置きます", kana: "おきます", romaji: "okimasu", en: "put, place", type: "verb", icon: "📦", example: "ここに 荷物を 置いても いいですか。" },
-      { kanji: "作ります", kana: "つくります", romaji: "tsukurimasu", en: "make, produce", type: "verb", icon: "🛠️", example: "日本の 会社は 車を 作っています。" },
-      { kanji: "売ります", kana: "うります", romaji: "urimasu", en: "sell", type: "verb", icon: "🏷️", example: "あの 店で 古い 本を 売っています。" },
-      { kanji: "知ります", kana: "しります", romaji: "shirimasu", en: "get to know", type: "verb", icon: "💡", example: "その ニュースを 知りました。" },
-      { kanji: "知っています", kana: "しっています", romaji: "shitte imasu", en: "know", type: "verb", icon: "🧠", example: "市役所の 電話番号を 知っていますか。" },
-      { kanji: "住みます", kana: "すみます", romaji: "sumimasu", en: "to live, reside", type: "verb", icon: "🏡", example: "来年 東京に 住みます。" },
-      { kanji: "住んでいます", kana: "すんでいます", romaji: "sunde imasu", en: "living (in)", type: "verb", icon: "🏘️", example: "私は 大阪に 住んでいます。" },
-      { kanji: "研究します", kana: "けんきゅうします", romaji: "kenkyuu shimasu", en: "do research", type: "verb", icon: "🔬", example: "大学で 経済を 研究しています。" },
-      { kanji: "資料", kana: "しりょう", romaji: "shiryou", en: "materials, data", type: "noun", icon: "📑", example: "会議の 資料を 読みます。" },
-      { kanji: "カタログ", kana: "カタログ", romaji: "katarogu", en: "catalogue", type: "noun", icon: "📖", example: "新しい 製品の カタログを 見ます。" },
-      { kanji: "時刻表", kana: "じこくひょう", romaji: "jikokuhyou", en: "timetable", type: "noun", icon: "🕒", example: "新幹線の 時刻表を 調べます。" },
-      { kanji: "服", kana: "ふく", romaji: "fuku", en: "clothes", type: "noun", icon: "👗", example: "デパートで 服を 買いました。" },
-      { kanji: "製品", kana: "せいひん", romaji: "seihin", en: "products, goods", type: "noun", icon: "📱", example: "これは 電気の 製品です。" },
-      { kanji: "ソフト", kana: "ソフト", romaji: "sofuto", en: "software", type: "noun", icon: "💾", example: "ゲームの ソフトを 作ります。" },
-      { kanji: "専門", kana: "せんもん", romaji: "senmon", en: "specialty, field", type: "noun", icon: "🎓", example: "私の 専門は コンピューターです。" },
-      { kanji: "歯医者", kana: "はいしゃ", romaji: "haisha", en: "dentist", type: "noun", icon: "🦷", example: "歯が 痛いので 歯医者へ 行きます。" },
-      { kanji: "床屋", kana: "とこや", romaji: "tokoya", en: "barber, barbershop", type: "noun", icon: "💈", example: "日曜日に 床屋へ 行きました。" },
-      { kanji: "プレイガイド", kana: "プレイガイド", romaji: "pureigaido", en: "theater ticket agency", type: "noun", icon: "🎟️", example: "プレイガイドで チケットを 買いました。" },
-      { kanji: "独身", kana: "どくしん", romaji: "dokushin", en: "single, unmarried", type: "noun", icon: "👤", example: "ミラーさんは 独身です。" },
-      { kanji: "特に", kana: "とくに", romaji: "tokuni", en: "especially", type: "noun", icon: "⭐", example: "日本料理、特に 寿司が 好きです。" },
-      { kanji: "思い出します", kana: "おもいだします", romaji: "omoidashimasu", en: "remember, recall", type: "verb", icon: "💭", example: "国の 家族を 思い出します。" },
-      { kanji: "ご家族", kana: "ごかぞく", romaji: "gokazoku", en: "your family (polite)", type: "noun", icon: "👨‍👩‍👧‍👦", example: "ご家族は どこに 住んでいますか。" },
-      { kanji: "いらっしゃいます", kana: "いらっしゃいます", romaji: "irasshaimasu", en: "be (honorific of います)", type: "verb", icon: "✨", example: "先生は 教室に いらっしゃいます。" },
-      { kanji: "高校", kana: "こうこう", romaji: "koukou", en: "senior high school", type: "noun", icon: "🏫", example: "妹は 高校生です。" }
-    ];
+    let ACTIVE_VOCAB = [];
+    let cardList = [];
+    let ACTIVE_LESSON_DATA = null;
 
-    // Lesson 1 uses the same arcade engine as Lesson 15. These are original
-    // study cards and examples, kept separate so later lessons can be added
-    // without changing the games.
-    const LESSON_1_VOCAB = [
-      {kanji:'私',kana:'わたし',romaji:'watashi',en:'I; me',type:'people',icon:'🙋',example:'私は ジェイです。'},
-      {kanji:'私たち',kana:'わたしたち',romaji:'watashitachi',en:'we; us',type:'people',icon:'👥',example:'私たちは 学生です。'},
-      {kanji:'あなた',kana:'あなた',romaji:'anata',en:'you',type:'people',icon:'👉',example:'あなたは 学生ですか。'},
-      {kanji:'あの人',kana:'あのひと',romaji:'ano hito',en:'that person',type:'people',icon:'👤',example:'あの人は 先生です。'},
-      {kanji:'あの方',kana:'あのかた',romaji:'ano kata',en:'that person (polite)',type:'people',icon:'🙇',example:'あの方は どなたですか。'},
-      {kanji:'皆さん',kana:'みなさん',romaji:'minasan',en:'everyone; everyone (polite)',type:'people',icon:'🧑‍🤝‍🧑',example:'皆さんは 学生です。'},
-      {kanji:'～さん',kana:'～さん',romaji:'~san',en:'polite name suffix',type:'people',icon:'🏷️',example:'田中さんは 日本人です。'},
-      {kanji:'～ちゃん',kana:'～ちゃん',romaji:'~chan',en:'affectionate name suffix',type:'people',icon:'🌸',example:'ゆきちゃんは 学生です。'},
-      {kanji:'～君',kana:'～くん',romaji:'~kun',en:'suffix often used for boys/young men',type:'people',icon:'⭐',example:'木村君は 会社員です。'},
-      {kanji:'～人',kana:'～じん',romaji:'~jin',en:'person from; nationality suffix',type:'people',icon:'🌍',example:'私は フィリピン人です。'},
-      {kanji:'先生',kana:'せんせい',romaji:'sensei',en:'teacher; instructor',type:'people',icon:'👩‍🏫',example:'山田先生は 日本語の 先生です。'},
-      {kanji:'教師',kana:'きょうし',romaji:'kyoushi',en:'teacher (occupation)',type:'people',icon:'📚',example:'父は 教師です。'},
-      {kanji:'学生',kana:'がくせい',romaji:'gakusei',en:'student',type:'people',icon:'🎓',example:'私は 大学の 学生です。'},
-      {kanji:'会社員',kana:'かいしゃいん',romaji:'kaishain',en:'company employee',type:'people',icon:'💼',example:'兄は 会社員です。'},
-      {kanji:'社員',kana:'しゃいん',romaji:'shain',en:'employee; staff member',type:'people',icon:'🪪',example:'私は さくら会社の 社員です。'},
-      {kanji:'銀行員',kana:'ぎんこういん',romaji:'ginkouin',en:'bank employee',type:'people',icon:'🏦',example:'母は 銀行員です。'},
-      {kanji:'医者',kana:'いしゃ',romaji:'isha',en:'doctor',type:'people',icon:'🩺',example:'あの人は 医者です。'},
-      {kanji:'研究者',kana:'けんきゅうしゃ',romaji:'kenkyuusha',en:'researcher',type:'people',icon:'🔬',example:'リーさんは 研究者です。'},
-      {kanji:'エンジニア',kana:'エンジニア',romaji:'enjinia',en:'engineer',type:'people',icon:'💻',example:'姉は エンジニアです。'},
-      {kanji:'大学',kana:'だいがく',romaji:'daigaku',en:'university',type:'places',icon:'🏫',example:'ここは みどり大学です。'},
-      {kanji:'病院',kana:'びょういん',romaji:'byouin',en:'hospital',type:'places',icon:'🏥',example:'あそこは 病院です。'},
-      {kanji:'電気',kana:'でんき',romaji:'denki',en:'electricity; electric',type:'places',icon:'⚡',example:'父は 電気会社の 社員です。'},
-      {kanji:'日本',kana:'にほん',romaji:'Nihon',en:'Japan',type:'places',icon:'🗾',example:'日本は きれいな 国です。'},
-      {kanji:'アメリカ',kana:'アメリカ',romaji:'Amerika',en:'the United States',type:'places',icon:'🇺🇸',example:'アンナさんは アメリカ人です。'},
-      {kanji:'イギリス',kana:'イギリス',romaji:'Igirisu',en:'the United Kingdom',type:'places',icon:'🇬🇧',example:'ジョンさんは イギリス人です。'},
-      {kanji:'インド',kana:'インド',romaji:'Indo',en:'India',type:'places',icon:'🇮🇳',example:'ラジさんは インド人です。'},
-      {kanji:'インドネシア',kana:'インドネシア',romaji:'Indoneshia',en:'Indonesia',type:'places',icon:'🇮🇩',example:'リナさんは インドネシア人です。'},
-      {kanji:'韓国',kana:'かんこく',romaji:'Kankoku',en:'Korea',type:'places',icon:'🇰🇷',example:'キムさんは 韓国人です。'},
-      {kanji:'タイ',kana:'タイ',romaji:'Tai',en:'Thailand',type:'places',icon:'🇹🇭',example:'ナリさんは タイ人です。'},
-      {kanji:'中国',kana:'ちゅうごく',romaji:'Chuugoku',en:'China',type:'places',icon:'🇨🇳',example:'ワンさんは 中国人です。'},
-      {kanji:'ドイツ',kana:'ドイツ',romaji:'Doitsu',en:'Germany',type:'places',icon:'🇩🇪',example:'ミュラーさんは ドイツ人です。'},
-      {kanji:'～歳',kana:'～さい',romaji:'~sai',en:'~ years old',type:'useful',icon:'🎂',example:'私は 二十歳です。'},
-      {kanji:'何歳',kana:'なんさい',romaji:'nansai',en:'how old',type:'useful',icon:'❓',example:'おいくつですか。'},
-      {kanji:'どなた',kana:'どなた',romaji:'donata',en:'who (polite)',type:'useful',icon:'❔',example:'あの方は どなたですか。'},
-      {kanji:'はい',kana:'はい',romaji:'hai',en:'yes',type:'useful',icon:'✅',example:'はい、学生です。'},
-      {kanji:'いいえ',kana:'いいえ',romaji:'iie',en:'no',type:'useful',icon:'❌',example:'いいえ、学生じゃありません。'},
-      {kanji:'失礼ですが',kana:'しつれいですが',romaji:'shitsurei desu ga',en:'excuse me, but…',type:'useful',icon:'🙇',example:'失礼ですが、お名前は？'},
-      {kanji:'お名前は？',kana:'おなまえは',romaji:'onamae wa',en:'what is your name?',type:'useful',icon:'📝',example:'お名前は？'},
-      {kanji:'初めまして',kana:'はじめまして',romaji:'hajimemashite',en:'nice to meet you (first meeting)',type:'useful',icon:'🤝',example:'初めまして。私は アミです。'},
-      {kanji:'どうぞよろしく',kana:'どうぞよろしく',romaji:'douzo yoroshiku',en:'pleased to meet you',type:'useful',icon:'🌟',example:'どうぞよろしく お願いします。'},
-      {kanji:'こちらは～さんです',kana:'こちらは～さんです',romaji:'kochira wa ~san desu',en:'this is Mr./Ms. …',type:'useful',icon:'👋',example:'こちらは 田中さんです。'},
-      {kanji:'～から来ました',kana:'～から きました',romaji:'~ kara kimashita',en:'came from ~',type:'useful',icon:'✈️',example:'私は フィリピンから 来ました。'}
-    ];
+    // Detect lesson ID from URL (?lesson=16, ?lesson=1, defaults to 16)
+    const urlParams = new URLSearchParams(window.location.search);
+    const rawLessonParam = urlParams.get('lesson') || '16';
+    const lessonNumberPadded = String(rawLessonParam).padStart(2, '0');
 
-    const LESSON_16_VOCAB = [
-      {kanji:'乗ります',kana:'のります',romaji:'norimasu',en:'to ride; to get on',type:'verb',icon:'🚆',example:'電車に乗ります。'},
-      {kanji:'降ります',kana:'おります',romaji:'orimasu',en:'to get off',type:'verb',icon:'🚪',example:'新宿駅で電車を降ります。'},
-      {kanji:'乗り換えます',kana:'のりかえます',romaji:'norikaemasu',en:'to transfer; to change',type:'verb',icon:'🔀',example:'東京駅で地下鉄に乗り換えます。'},
-      {kanji:'浴びます',kana:'あびます',romaji:'abimasu',en:'to take a shower',type:'verb',icon:'🚿',example:'毎朝シャワーを浴びます。'},
-      {kanji:'入れます',kana:'いれます',romaji:'iremasu',en:'to put in; to insert',type:'verb',icon:'📥',example:'ここにお金を入れてください。'},
-      {kanji:'出します',kana:'だします',romaji:'dashimasu',en:'to take out; to submit',type:'verb',icon:'📤',example:'宿題を出しました。'},
-      {kanji:'下ろします',kana:'おろします',romaji:'oroshimasu',en:'to withdraw money',type:'verb',icon:'🏧',example:'銀行でお金を下ろします。'},
-      {kanji:'入ります',kana:'はいります',romaji:'hairimasu',en:'to enter',type:'verb',icon:'🚪',example:'来年大学に入ります。'},
-      {kanji:'出ます',kana:'でます',romaji:'demasu',en:'to graduate; to leave',type:'verb',icon:'🎓',example:'去年大学を出ました。'},
-      {kanji:'押します',kana:'おします',romaji:'oshimasu',en:'to push; to press',type:'verb',icon:'🖲️',example:'このボタンを押してください。'},
-      {kanji:'やめます',kana:'やめます',romaji:'yamemasu',en:'to quit; to stop',type:'verb',icon:'🛑',example:'先月会社をやめました。'},
-      {kanji:'若い',kana:'わかい',romaji:'wakai',en:'young',type:'adjective',icon:'🧑',example:'あの先生は若いです。'},
-      {kanji:'長い',kana:'ながい',romaji:'nagai',en:'long',type:'adjective',icon:'📏',example:'マリアさんは髪が長いです。'},
-      {kanji:'短い',kana:'みじかい',romaji:'mijikai',en:'short (length)',type:'adjective',icon:'✂️',example:'夏休みは短かったです。'},
-      {kanji:'明るい',kana:'あかるい',romaji:'akarui',en:'bright; cheerful',type:'adjective',icon:'☀️',example:'この部屋は広くて明るいです。'},
-      {kanji:'暗い',kana:'くらい',romaji:'kurai',en:'dark; dim',type:'adjective',icon:'🌙',example:'図書館は静かで暗いです。'},
-      {kanji:'背が高い',kana:'せがたかい',romaji:'se ga takai',en:'tall (stature)',type:'adjective',icon:'🦒',example:'ミラーさんは背が高いです。'},
-      {kanji:'頭がいい',kana:'あたまがいい',romaji:'atama ga ii',en:'smart; clever',type:'adjective',icon:'💡',example:'あの学生は頭がいいです。'},
-      {kanji:'体',kana:'からだ',romaji:'karada',en:'body; health',type:'body',icon:'💪',example:'ジョギングは体にいいです。'},
-      {kanji:'頭',kana:'あたま',romaji:'atama',en:'head',type:'body',icon:'🗣️',example:'今日は少し頭が痛いです。'},
-      {kanji:'髪',kana:'かみ',romaji:'kami',en:'hair',type:'body',icon:'💇',example:'田中さんは髪が黒いです。'},
-      {kanji:'顔',kana:'かお',romaji:'kao',en:'face',type:'body',icon:'😊',example:'朝顔を洗います。'},
-      {kanji:'目',kana:'め',romaji:'me',en:'eye',type:'body',icon:'👀',example:'あの猫は目が青いです。'},
-      {kanji:'耳',kana:'みみ',romaji:'mimi',en:'ear',type:'body',icon:'👂',example:'うさぎは耳が長いです。'},
-      {kanji:'鼻',kana:'はな',romaji:'hana',en:'nose',type:'body',icon:'👃',example:'ぞうは鼻が長いです。'},
-      {kanji:'口',kana:'くち',romaji:'kuchi',en:'mouth',type:'body',icon:'👄',example:'口を大きく開けてください。'},
-      {kanji:'歯',kana:'は',romaji:'ha',en:'tooth; teeth',type:'body',icon:'🦷',example:'毎晩歯を磨きます。'},
-      {kanji:'お腹',kana:'おなか',romaji:'onaka',en:'stomach; belly',type:'body',icon:'🍔',example:'お腹がすきました。'},
-      {kanji:'足',kana:'あし',romaji:'ashi',en:'leg; foot',type:'body',icon:'🦵',example:'サントスさんは足が長いです。'},
-      {kanji:'背',kana:'せ',romaji:'se',en:'height; stature',type:'body',icon:'🧍',example:'弟は背が高いです。'},
-      {kanji:'サービス',kana:'サービス',romaji:'saabisu',en:'service',type:'noun',icon:'🛎️',example:'あのレストランはサービスがいいです。'},
-      {kanji:'ジョギング',kana:'ジョギング',romaji:'jogingu',en:'jogging',type:'noun',icon:'🏃',example:'朝公園でジョギングをします。'},
-      {kanji:'シャワー',kana:'シャワー',romaji:'shawaa',en:'shower',type:'noun',icon:'🚿',example:'起きてからシャワーを浴びます。'},
-      {kanji:'緑',kana:'みどり',romaji:'midori',en:'green; greenery',type:'noun',icon:'🌳',example:'この町は緑が多いです。'},
-      {kanji:'お寺',kana:'おてら',romaji:'otera',en:'Buddhist temple',type:'places',icon:'⛩️',example:'京都でお寺を見学しました。'},
-      {kanji:'神社',kana:'じんじゃ',romaji:'jinja',en:'Shinto shrine',type:'places',icon:'⛩️',example:'日曜日に神社へ行きました。'},
-      {kanji:'留学生',kana:'りゅうがくせい',romaji:'ryugakusei',en:'international student',type:'noun',icon:'🎒',example:'彼はベトナムからの留学生です。'},
-      {kanji:'～番',kana:'～ばん',romaji:'~ban',en:'number',type:'useful',icon:'🔢',example:'16番のバスに乗ってください。'},
-      {kanji:'どうやって',kana:'どうやって',romaji:'doyatte',en:'how; in what way',type:'useful',icon:'❓',example:'大学までどうやって行きますか。'},
-      {kanji:'どの～',kana:'どの～',romaji:'dono',en:'which ~',type:'useful',icon:'🔍',example:'カリナさんの傘はどの傘ですか。'},
-      {kanji:'どれ',kana:'どれ',romaji:'dore',en:'which one',type:'useful',icon:'🔍',example:'あなたの自転車はどれですか。'},
-      {kanji:'まだまだです',kana:'まだまだです',romaji:'madamada desu',en:'not yet; I still have a long way to go',type:'useful',icon:'🌸',example:'日本語がお上手ですね。いいえ、まだまだです。'}
-    ];
-
-    const arcadeLesson = new URLSearchParams(window.location.search).get('lesson');
-    const isLessonOne = arcadeLesson === '1';
-    if (isLessonOne) {
-      LESSON_15_VOCAB = LESSON_1_VOCAB;
-      document.title = 'みんなの日本語 第1課 | Kawaii Vocab Arcade 🌸';
-      document.getElementById('lesson-title').textContent = '第1課 Vocab Arcade';
-      document.getElementById('lesson-subtitle').textContent = 'Minna no Nihongo Lesson 1 • Complete Study Arcade';
-      document.getElementById('filter-tags').innerHTML = `
-        <button class="tag-btn active" onclick="filterCards('all', this)">All (${LESSON_1_VOCAB.length})</button>
-        <button class="tag-btn" onclick="filterCards('people', this)">People & jobs (${LESSON_1_VOCAB.filter(v => v.type === 'people').length})</button>
-        <button class="tag-btn" onclick="filterCards('places', this)">Places & countries (${LESSON_1_VOCAB.filter(v => v.type === 'places').length})</button>
-        <button class="tag-btn" onclick="filterCards('useful', this)">Useful phrases (${LESSON_1_VOCAB.filter(v => v.type === 'useful').length})</button>`;
-      document.getElementById('guide-tab').style.display = 'flex';
-      document.getElementById('lesson-guide').innerHTML = buildLessonOneGuide();
+    // Emoji icon assigner based on meaning & category
+    function getWordIcon(item) {
+      if (item.icon) return item.icon;
+      const cat = (item.category || item.type || '').toLowerCase();
+      const m = (item.meaning || item.en || '').toLowerCase();
+      
+      if (cat.includes('verb') || m.startsWith('to ') || m.includes('ride') || m.includes('go')) {
+        if (m.includes('ride') || m.includes('train')) return '🚆';
+        if (m.includes('shower') || m.includes('bath')) return '🚿';
+        if (m.includes('money') || m.includes('withdraw')) return '🏧';
+        if (m.includes('quit') || m.includes('stop')) return '🛑';
+        if (m.includes('put') || m.includes('insert')) return '📥';
+        if (m.includes('enter')) return '🚪';
+        return '⚡';
+      }
+      if (cat.includes('body') || m.includes('hair') || m.includes('eye') || m.includes('tooth') || m.includes('head')) {
+        if (m.includes('hair')) return '💇';
+        if (m.includes('eye')) return '👀';
+        if (m.includes('head')) return '🗣️';
+        if (m.includes('tooth') || m.includes('teeth')) return '🦷';
+        if (m.includes('stomach') || m.includes('belly')) return '🍔';
+        if (m.includes('leg') || m.includes('foot')) return '🦵';
+        return '💪';
+      }
+      if (cat.includes('place') || cat.includes('country') || m.includes('temple') || m.includes('shrine')) return '⛩️';
+      if (cat.includes('person') || cat.includes('people') || cat.includes('job') || m.includes('student')) return '👤';
+      if (cat.includes('adj') || m.includes('tall') || m.includes('young') || m.includes('bright')) return '✨';
+      return '🌸';
     }
 
-    const isLessonSixteen = arcadeLesson === '16';
-    if (isLessonSixteen) {
-      LESSON_15_VOCAB = LESSON_16_VOCAB;
-      document.title = 'みんなの日本語 第16課 | Kawaii Vocab Arcade 🌸';
-      document.getElementById('lesson-title').textContent = '第16課 Vocab Arcade';
-      document.getElementById('lesson-subtitle').textContent = 'Minna no Nihongo Lesson 16 • Complete Study Arcade';
-      document.getElementById('filter-tags').innerHTML = `
-        <button class="tag-btn active" onclick="filterCards('all', this)">All (${LESSON_16_VOCAB.length})</button>
-        <button class="tag-btn" onclick="filterCards('verb', this)">Verbs (${LESSON_16_VOCAB.filter(v => v.type === 'verb').length})</button>
-        <button class="tag-btn" onclick="filterCards('adjective', this)">Adjectives (${LESSON_16_VOCAB.filter(v => v.type === 'adjective').length})</button>
-        <button class="tag-btn" onclick="filterCards('body', this)">Body parts (${LESSON_16_VOCAB.filter(v => v.type === 'body').length})</button>
-        <button class="tag-btn" onclick="filterCards('noun', this)">Nouns & places (${LESSON_16_VOCAB.filter(v => v.type === 'noun' || v.type === 'places' || v.type === 'useful').length})</button>`;
-      document.getElementById('guide-tab').style.display = 'flex';
-      document.getElementById('lesson-guide').innerHTML = buildLessonSixteenGuide();
+    // Convert JSON vocabulary cards to Arcade game format
+    function mapVocabForArcade(vocabList) {
+      return vocabList.map((v, i) => {
+        let exText = '';
+        let exTranslation = '';
+        if (v.example) {
+          if (typeof v.example === 'string') {
+            exText = v.example;
+          } else {
+            exText = v.example.kanji || v.example.kana || '';
+            exTranslation = v.example.translation || '';
+          }
+        }
+        return {
+          id: v.id || `vocab-${i}`,
+          kanji: v.kanji || '',
+          kana: v.kana || '',
+          romaji: v.romaji || '',
+          en: v.meaning || v.en || '',
+          type: (v.category || v.type || 'general').toLowerCase(),
+          icon: getWordIcon(v),
+          example: exText,
+          exampleEn: exTranslation
+        };
+      });
     }
 
-    function buildLessonSixteenGuide() {
-      const vocabRows = LESSON_16_VOCAB.map((v, i) => `<div style="padding:9px;border-bottom:1px solid #F3DCE4;"><strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br><span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br><span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span></div>`).join('');
-      const question = (prompt, choices, note) => `<div style="margin:14px 0;padding:14px;background:#FFF9FA;border-radius:14px;"><strong>${prompt}</strong><div style="display:grid;gap:7px;margin-top:10px;">${choices.map(c => `<button class="quiz-opt-btn" data-correct="${c.ok}" onclick="checkGuideChoice(this)">${c.text}</button>`).join('')}</div><p class="guide-feedback" style="display:none;margin:10px 0 0;color:var(--text-muted);line-height:1.45;">${note}</p></div>`;
+    // Fetch JSON from subfolder `lessons/`
+    async function loadArcadeLesson() {
+      try {
+        // Try two-digit format first (lesson-16.json), fallback to raw format
+        let res = await fetch(`lessons/lesson-${lessonNumberPadded}.json`);
+        if (!res.ok) {
+          res = await fetch(`lessons/lesson-${rawLessonParam}.json`);
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        const data = await res.json();
+        ACTIVE_LESSON_DATA = data;
+        ACTIVE_VOCAB = mapVocabForArcade(data.vocabulary || []);
+        cardList = [...ACTIVE_VOCAB];
+
+        // Update titles
+        const lessonNum = data.meta ? data.meta.number : rawLessonParam;
+        const lessonTitle = data.meta ? data.meta.title : `Lesson ${lessonNum}`;
+        document.title = `みんなの日本語 第${lessonNum}課 | Kawaii Vocab Arcade 🌸`;
+        document.getElementById('lesson-title').textContent = `第${lessonNum}課 Vocab Arcade`;
+        document.getElementById('lesson-subtitle').textContent = `Minna no Nihongo Lesson ${lessonNum} • ${lessonTitle}`;
+
+        // Build category buttons
+        buildFilterButtons(ACTIVE_VOCAB);
+
+        // Build complete Lesson Guide tab
+        const guideTabBtn = document.getElementById('guide-tab');
+        if (guideTabBtn) guideTabBtn.style.display = 'flex';
+        document.getElementById('lesson-guide').innerHTML = buildUniversalGuide(data);
+
+        // Initialize flashcard
+        cardIndex = 0;
+        renderCard();
+
+      } catch (err) {
+        console.error("Could not load lesson data:", err);
+        document.getElementById('lesson-title').textContent = `Lesson ${rawLessonParam}`;
+        document.getElementById('lesson-subtitle').textContent = `Error loading lessons/lesson-${lessonNumberPadded}.json`;
+        document.getElementById('lesson-guide').innerHTML = `
+          <div style="padding:24px;text-align:center;color:#b52957;line-height:1.6;">
+            <h3>⚠️ Could not load: lessons/lesson-${lessonNumberPadded}.json</h3>
+            <p>Please ensure your JSON file is located in the <strong>lessons/</strong> subfolder next to Exercise.htm.</p>
+          </div>`;
+      }
+    }
+
+    // Category filter builder
+    function buildFilterButtons(vocab) {
+      const container = document.getElementById('filter-tags');
+      if (!container) return;
+
+      const categories = [...new Set(vocab.map(v => v.type))].filter(Boolean);
+      let html = `<button class="tag-btn active" onclick="filterCards('all', this)">All (${vocab.length})</button>`;
+      
+      categories.forEach(cat => {
+        const count = vocab.filter(v => v.type === cat).length;
+        html += `<button class="tag-btn" onclick="filterCards('${cat}', this)">${cat} (${count})</button>`;
+      });
+
+      container.innerHTML = html;
+    }
+
+    // Dynamic Lesson Guide builder
+    function buildUniversalGuide(data) {
+      const vocabRows = ACTIVE_VOCAB.map((v, i) => `
+        <div style="padding:9px;border-bottom:1px solid #F3DCE4;">
+          <strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br>
+          <span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br>
+          <span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span>
+        </div>
+      `).join('');
+
+      let guideHtml = `
+        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson ${data.meta ? data.meta.number : rawLessonParam} Complete Guide 📘</h2>
+        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">
+          ${data.meta && data.meta.objective ? data.meta.objective : 'Master this lesson with deep grammar notes, dialogue reading, self-checks, and exercises.'}
+        </p>
+
+        <!-- 1. Full Vocabulary Reference -->
+        <details open style="margin-bottom:16px;">
+          <summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">1. Full Vocabulary Reference (${ACTIVE_VOCAB.length} cards)</summary>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 14px;background:#FFF9FA;padding:8px 14px;border-radius:14px;margin-top:10px;">
+            ${vocabRows}
+          </div>
+        </details>
+      `;
+
+      // 2. Grammar Focus (All patterns & all examples)
+      if (data.grammar && data.grammar.length) {
+        guideHtml += `
+          <details open style="margin-bottom:16px;">
+            <summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">2. Grammar Focus (${data.grammar.length} In-Depth Patterns)</summary>
+            <div style="display:grid;gap:14px;margin-top:12px;">
+              ${data.grammar.map((g, idx) => `
+                <div class="example-sentence" style="border-left: 4px solid var(--pink-primary); padding: 14px; background: #FFF9FA; border-radius: 12px;">
+                  <strong style="color:var(--pink-deep); font-size:1.02rem;">Pattern ${idx + 1}: ${escapeHtml(g.pattern)}</strong>
+                  <p style="margin:6px 0 10px; color:#5b4f60; font-size:0.92rem; line-height:1.55;">${escapeHtml(g.explanation)}</p>
+                  <div style="display:grid; gap:8px;">
+                    ${(g.examples || []).map(ex => `
+                      <div style="background:#ffffff; border:1px dashed #ffd1df; border-radius:8px; padding:8px 12px;">
+                        <div style="font-weight:700; color:#b52957;">${escapeHtml(ex.kanji)}</div>
+                        <div style="font-size:0.82rem; color:#8c7f91;">${escapeHtml(ex.kana)}</div>
+                        <div style="font-size:0.86rem; color:#4a3e4e;">${escapeHtml(ex.translation)}</div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </details>
+        `;
+      }
+
+      // 3. Reading & Dialogue Section
+      if (data.reading) {
+        guideHtml += `
+          <details open style="margin-bottom:16px;">
+            <summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">3. Reading & Dialogue: ${escapeHtml(data.reading.title)}</summary>
+            <div style="margin-top:12px;background:#FFF9FA;border-left:4px solid var(--pink-primary);padding:16px;border-radius:12px;line-height:1.8;">
+              ${(data.reading.lines || []).map(line => `
+                <div style="margin-bottom:8px;">
+                  <strong style="color:var(--pink-deep);">${escapeHtml(line.speaker)}:</strong> ${escapeHtml(line.kanji)}
+                  <div style="font-size:0.82rem; color:#888; margin-left:16px;">${escapeHtml(line.kana)}</div>
+                </div>
+              `).join('')}
+            </div>
+            <p style="color:var(--text-muted);font-size:.9rem;line-height:1.55;margin-top:10px;background:#fff2f6;padding:10px 14px;border-radius:10px;">
+              <strong>Translation:</strong> ${escapeHtml(data.reading.translation)}
+            </p>
+
+            <h4 style="margin:14px 0 8px; color:var(--pink-deep);">Comprehension Questions:</h4>
+            ${(data.reading.questions || []).map(q => renderQuizItem(q)).join('')}
+          </details>
+        `;
+      }
+
+      // 4. Practice Exercises
+      if (data.exercises && data.exercises.length) {
+        guideHtml += `
+          <details open style="margin-bottom:16px;">
+            <summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">4. Self-Check Practice (${data.exercises.length} Questions)</summary>
+            <div style="display:grid;gap:12px;margin-top:12px;">
+              ${data.exercises.map(ex => renderQuizItem(ex)).join('')}
+            </div>
+          </details>
+        `;
+      }
+
+      // 5. Writing Section
+      if (data.writing) {
+        guideHtml += `
+          <details open>
+            <summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">5. Writing Practice: ${escapeHtml(data.writing.title)}</summary>
+            <p style="color:var(--text-muted);line-height:1.5;margin:8px 0;">${escapeHtml(data.writing.prompt)}</p>
+            <textarea id="lesson-writing-input" placeholder="${escapeHtml(data.writing.placeholder || '')}" oninput="saveWriting()" style="width:100%;min-height:140px;border:2px solid var(--pink-light);border-radius:14px;padding:14px;font:inherit;line-height:1.6;resize:vertical;"></textarea>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">
+              <button class="btn-cute btn-mint" onclick="saveWriting()">💾 Save on this device</button>
+              <button class="btn-cute btn-lavender" onclick="toggleModelAnswer()">👀 Show Model Answer</button>
+              <button class="btn-cute" onclick="clearWriting()">Clear</button>
+            </div>
+            <div id="lesson-model-box" style="display:none;margin-top:12px;padding:14px;background:var(--mint-light);border:1px solid var(--mint);border-radius:12px;line-height:1.6;">
+              <strong>Model Answer:</strong><br>${escapeHtml(data.writing.modelAnswer || '').replace(/\n/g, '<br>')}
+            </div>
+          </details>
+        `;
+      }
+
+      return guideHtml;
+    }
+
+    function renderQuizItem(q) {
+      let promptHtml = '';
+      if (q.prompt) {
+        promptHtml = `
+          <div style="color:var(--pink-deep);font-weight:700;margin:4px 0 8px;">
+            ${escapeHtml(q.prompt.kanji)} 
+            ${q.prompt.kana ? `<span style="font-weight:normal;color:#888;font-size:0.85rem;">(${escapeHtml(q.prompt.kana)})</span>` : ''}
+          </div>`;
+      }
+      const choices = (q.options || []).map((opt, i) => `
+        <button class="quiz-opt-btn" data-correct="${i === q.answer}" onclick="checkGuideChoice(this)">
+          ${escapeHtml(opt)}
+        </button>
+      `).join('');
+
       return `
-        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 16 Complete Guide 📘</h2>
-        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Study sequential verbs (て-form connection), adjective connections, and attribute descriptions.</p>
-        
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">1. Full vocabulary reference (${LESSON_16_VOCAB.length} cards)</summary><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 14px;background:#FFF9FA;padding:8px 14px;border-radius:14px;">${vocabRows}</div></details>
-        
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">2. Grammar focus</summary>
-          <div style="display:grid;gap:12px;margin-top:12px;">
-            <div class="example-sentence"><strong>① Sentence 1 (て-form)、Sentence 2 (Connecting Verbs)</strong><br>Connect full sentences by ending the preceding verb in the -te form. Tense is only marked by the final verb.<br><em>スーパーに行って、牛乳を買って、家に帰りました。</em><br>I went to the supermarket, bought milk, and went home.</div>
-            <div class="example-sentence"><strong>② Verb-て から、Sentence 2 (Sequence)</strong><br>Emphasizes that Action 1 is completed first before Action 2 takes place.<br><em>お金を下ろしてから、買い物に行きました。</em><br>I first withdrew money, and then went shopping.</div>
-            <div class="example-sentence"><strong>③ い-adj (～くて) / な-adj (～で) / Noun (～で)</strong><br>Connect descriptions of the same polarity.<br><em>私の町は小さくて、静かです。</em><br>My town is small and quiet.</div>
-            <div class="example-sentence"><strong>④ Adjective Contrast: ～が / ～けど (Positive vs Negative)</strong><br>Use ga or kedo (but) when connecting contrasting traits.<br><em>この料理は美味しいですが、高いです。</em><br>This dish is delicious, but it is expensive.</div>
-            <div class="example-sentence"><strong>⑤ Noun 1 は Noun 2 が [Adjective] です (Describing Features)</strong><br>Describe a specific attribute or body part of a subject.<br><em>彼女は髪が長いです。</em><br>She has long hair.</div>
-            <div class="example-sentence"><strong>⑥ どうやって vs. どう (Asking 'How')</strong><br>どうやって asks for concrete methods/routes. どう asks for opinions or conditions.<br><em>大阪からどうやって行きますか。</em><br>How do you get there from Osaka?</div>
-            <div class="example-sentence"><strong>⑦ どれ / どの vs. どちら / どっち (Asking 'Which')</strong><br>どれ/どの for 3+ options; どちら/どっち for strictly 2 options.<br><em>どちらの国が勝ちましたか。</em></div>
-          </div>
-        </details>
-
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">3. Reading: 京都への行き方と週末の旅行 (Trip to Kyoto)</summary>
-          <div style="margin-top:12px;background:#FFF9FA;border-left:4px solid var(--pink-primary);padding:16px;border-radius:12px;line-height:1.8;">
-            <strong>マルコ:</strong> さくらさん、今週の土曜日に京都へ行きたいですが、大阪からどうやって行きますか。<br>
-            <strong>さくら:</strong> 大阪駅からJRの新快速に乗って、京都駅で降ります。30分で行きますよ。<br>
-            <strong>マルコ:</strong> そうですか。京都駅に着いてから、どこへ行ったらいいですか。<br>
-            <strong>さくら:</strong> 駅前から16番の市バスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。<br>
-            <strong>マルコ:</strong> いいですね。京都は食べ物も美味しいですか。<br>
-            <strong>さくら:</strong> ええ、京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ。<br>
-            <strong>マルコ:</strong> 楽しみです。親切に教えてくれてありがとうございます。
-          </div>
-          <p style="color:var(--text-muted);font-size:.9rem;line-height:1.5;">Translation: Marco wants to visit Kyoto this Saturday and asks Sakura how to get there from Osaka. Sakura explains that he can take the JR Special Rapid train from Osaka Station and get off at Kyoto Station in about 30 minutes. She advises that after arriving at Kyoto Station, he should take city bus number 16 to visit Kinkaku-ji temple, which is quiet and beautiful. She also notes that Kyoto has abundant greenery and delicious matcha ice cream.</p>
-          ${question('1. How does Sakura recommend traveling from Osaka Station to Kyoto Station?', [{text:'Walk for 30 minutes',ok:false},{text:'Ride the JR Special Rapid train and get off at Kyoto Station',ok:true},{text:'Change trains at Akihabara Station',ok:false},{text:'Take city bus number 16 directly from Osaka',ok:false}], 'Sakura instructs Marco to board the JR Special Rapid train at Osaka Station and disembark at Kyoto Station.')}
-          ${question('2. What should Marco do after arriving at Kyoto Station?', [{text:'Withdraw money from the ATM and return home',ok:false},{text:'Take bus number 16 to visit Kinkaku-ji temple',ok:true},{text:'Go straight to a restaurant because it is dark',ok:false},{text:'Observe a factory tour',ok:false}], 'Sakura tells him to take bus number 16 from the station to visit Kinkaku-ji.')}
-          ${question('3. How does Sakura describe Kyoto\'s environment and food?', [{text:'It has a lot of greenery and delicious matcha ice cream.',ok:true},{text:'It is small and dark, and the service is bad.',ok:false},{text:'It is very expensive, but the days are short.',ok:false},{text:'The temples are far and hard of hearing.',ok:false}], 'Sakura states: 京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ。')}
-        </details>
-
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">4. Practice Exercises</summary>
-          <div style="display:grid;gap:12px;margin-top:12px;">
-            ${question('1. Choose the correct meaning of 乗り換えます.', [{text:'Please get off the train',ok:false},{text:'Please change / transfer trains',ok:true},{text:'Please withdraw money',ok:false},{text:'Please push the button',ok:false}], '乗り換えます means to transfer or change vehicles.')}
-            ${question('2. Connect sequential morning actions: "I went jogging, took a shower, and came to work."', [{text:'して、浴びて',ok:true},{text:'します、浴びます',ok:false},{text:'して、浴びてから',ok:false},{text:'した、浴びた',ok:false}], 'Actions in chronological sequence are chained using the て-form.')}
-            ${question('3. Choose the correct form to say: "I first withdrew money, and then went shopping."', [{text:'てから',ok:true},{text:'て',ok:false},{text:'たり',ok:false},{text:'ながら',ok:false}], 'Verb (て-form) + から explicitly emphasizes that the first action is completed first.')}
-            ${question('4. Choose the natural connector for contrasting qualities (positive + negative): "This dish is delicious, but expensive."', [{text:'くて',ok:false},{text:'ですが',ok:true},{text:'で',ok:false},{text:'と',ok:false}], 'Use が or ですが (but) when linking contrasting traits.')}
-            ${question('5. Choose the correct particle to mark the specific feature being described: "She has long hair."', [{text:'は',ok:false},{text:'が',ok:true},{text:'を',ok:false},{text:'で',ok:false}], 'In N1 は N2 が Adj です, N2 is the specific attribute marked by が.')}
-            ${question('6. Choose the correct question word to ask for an opinion: "What do you think about this?"', [{text:'どう',ok:true},{text:'どうやって',ok:false},{text:'どれ',ok:false},{text:'どの',ok:false}], 'Use どう to ask for opinions and impressions.')}
-            ${question('7. A soccer match between two countries: "Which country won?"', [{text:'どの国が勝ちましたか？',ok:false},{text:'どちらの国が勝ちましたか？',ok:true},{text:'どれ国が勝ちましたか？',ok:false},{text:'どうやって国が勝ちましたか？',ok:false}], 'For strictly two options, use どちらの + Noun.')}
-            ${question('8. Join two noun predicates describing the same subject: "He is my colleague and my friend."', [{text:'と',ok:false},{text:'で',ok:true},{text:'くて',ok:false},{text:'に',ok:false}], 'Use で to connect noun predicate sentences.')}
-          </div>
-        </details>
-
-        <details open><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">5. Write and practice your sentences</summary>
-          <p style="color:var(--text-muted);line-height:1.5;">Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then describe a friend or city using connected adjectives and the N1 は N2 が [Adjective] pattern.</p>
-          <textarea id="lesson16-writing" oninput="saveLessonSixteenWriting()" placeholder="朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。" style="width:100%;min-height:150px;border:2px solid var(--pink-light);border-radius:14px;padding:14px;font:inherit;line-height:1.6;resize:vertical;"></textarea>
-          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;"><button class="btn-cute btn-mint" onclick="saveLessonSixteenWriting()">💾 Save on this device</button><button class="btn-cute btn-lavender" onclick="toggleLessonSixteenModel()">👀 Show model answer</button><button class="btn-cute" onclick="clearLessonSixteenWriting()">Clear</button></div>
-          <div id="lesson16-model" style="display:none;margin-top:12px;padding:13px;background:var(--mint-light);border-radius:12px;line-height:1.6;"><strong>Model:</strong><br>毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。<br><span style="color:var(--text-muted);font-size:.88rem;">Adapt this to your own daily routine and descriptions!</span></div>
-        </details>`;
-    }
-
-    function saveLessonSixteenWriting() { localStorage.setItem('minna_lesson_16_writing', document.getElementById('lesson16-writing').value); }
-    function clearLessonSixteenWriting() { document.getElementById('lesson16-writing').value = ''; localStorage.removeItem('minna_lesson_16_writing'); }
-    function toggleLessonSixteenModel() { const model = document.getElementById('lesson16-model'); model.style.display = model.style.display === 'none' ? 'block' : 'none'; }
-
-    function buildLessonOneGuide() {
-      const vocabRows = LESSON_1_VOCAB.map((v, i) => `<div style="padding:9px;border-bottom:1px solid #F3DCE4;"><strong>${i + 1}. ${v.icon} ${v.kanji}</strong><br><span style="color:var(--pink-deep);font-size:.88rem;">${v.kana} · ${v.romaji}</span><br><span style="color:var(--text-muted);font-size:.88rem;">${v.en}</span></div>`).join('');
-      const question = (prompt, choices, note) => `<div style="margin:14px 0;padding:14px;background:#FFF9FA;border-radius:14px;"><strong>${prompt}</strong><div style="display:grid;gap:7px;margin-top:10px;">${choices.map(c => `<button class="quiz-opt-btn" data-correct="${c.ok}" onclick="checkGuideChoice(this)">${c.text}</button>`).join('')}</div><p class="guide-feedback" style="display:none;margin:10px 0 0;color:var(--text-muted);line-height:1.45;">${note}</p></div>`;
-      return `
-        <h2 style="color:var(--pink-deep);margin-bottom:8px;">Lesson 1 Complete Guide 📘</h2>
-        <p style="color:var(--text-muted);line-height:1.55;margin-bottom:18px;">Study the guide in this order: learn the words, read the grammar slowly, complete the reading, then write your own introduction. The five arcade games are your vocabulary review.</p>
-
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">1. Full vocabulary reference (${LESSON_1_VOCAB.length} cards)</summary><p style="color:var(--text-muted);line-height:1.45;">This is the complete set used by the games for this Lesson 1 study page. Tap a card in Flashcards to hear its Japanese pronunciation.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 14px;background:#FFF9FA;padding:8px 14px;border-radius:14px;">${vocabRows}</div></details>
-
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">2. Grammar, explained with examples</summary>
-          <div style="display:grid;gap:12px;margin-top:12px;">
-            <div class="example-sentence"><strong>① Noun は Noun です — “A is B.”</strong><br><br><strong>は</strong> marks what you are talking about. In this pattern, it is pronounced <em>wa</em>, not <em>ha</em>. <strong>です</strong> makes the sentence polite.<br><br>私は 学生です。<br><em>I am a student.</em><br><br>ミラーさんは エンジニアです。<br><em>Mr. Miller is an engineer.</em></div>
-            <div class="example-sentence"><strong>② Noun は Noun じゃありません — “A is not B.”</strong><br><br>Replace です with <strong>じゃありません</strong> for a polite everyday negative. Do not add です after じゃありません.<br><br>私は 先生じゃありません。<br><em>I am not a teacher.</em><br><br>田中さんは 医者じゃありません。会社員です。<br><em>Ms. Tanaka is not a doctor. She is a company employee.</em></div>
-            <div class="example-sentence"><strong>③ Noun は Noun ですか — polite yes/no questions</strong><br><br>Add <strong>か</strong> at the end. Japanese keeps normal word order; your voice does not need to rise as much as in English.<br><br>サントスさんは 学生ですか。<br><em>Is Mr. Santos a student?</em><br><br>はい、学生です。／いいえ、学生じゃありません。<br><em>Yes, he is. / No, he is not.</em></div>
-            <div class="example-sentence"><strong>④ Noun も Noun です — “A is also B.”</strong><br><br><strong>も</strong> means “also” or “too.” It replaces は; do not use はも together here.<br><br>私は フィリピン人です。アナさんも フィリピン人です。<br><em>I am Filipino. Ana is also Filipino.</em><br><br>リーさんは 学生です。キムさんも 学生です。<br><em>Lee is a student. Kim is also a student.</em></div>
-            <div class="example-sentence"><strong>⑤ Noun の Noun — connection / belonging</strong><br><br><strong>の</strong> joins two nouns. It can show a group, workplace, school, or “of.” Think: the second noun is the main thing.<br><br>私は さくら大学の 学生です。<br><em>I am a student of Sakura University.</em><br><br>私は 富士銀行の 社員です。<br><em>I am an employee of Fuji Bank.</em></div>
-            <div class="example-sentence"><strong>⑥ Asking politely: だれ／どなた, 何歳／おいくつ</strong><br><br>Use <strong>だれ</strong> for “who?” and the more polite <strong>どなた</strong> for “who?” when speaking respectfully. <strong>何歳</strong> asks a child’s age; <strong>おいくつ</strong> is more polite for adults.<br><br>あの方は どなたですか。<br><em>Who is that person?</em><br><br>おいくつですか。<br><em>How old are you? (polite)</em></div>
-          </div>
-        </details>
-
-        <details open style="margin-bottom:16px;"><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">3. Reading: first-day introductions</summary>
-          <div style="margin-top:12px;background:#FFF9FA;border-left:4px solid var(--pink-primary);padding:16px;border-radius:12px;line-height:1.8;"><strong>あい:</strong> 初めまして。私は あいです。フィリピンから 来ました。さくら大学の 学生です。<br><strong>キム:</strong> 初めまして。私は キムです。韓国人です。私も さくら大学の 学生です。<br><strong>あい:</strong> そうですか。どうぞよろしく。<br><strong>キム:</strong> こちらこそ、どうぞよろしく。</div>
-          <p style="color:var(--text-muted);font-size:.9rem;line-height:1.5;">Translation: Ai is from the Philippines and studies at Sakura University. Kim is Korean and is also a Sakura University student. They greet each other for the first time.</p>
-          ${question('1. Where does Ai come from?', [{text:'Japan',ok:false},{text:'The Philippines',ok:true},{text:'Korea',ok:false},{text:'Thailand',ok:false}], '「フィリピンから 来ました」 means “I came from the Philippines.”')}
-          ${question('2. What do Ai and Kim have in common?', [{text:'They are doctors.',ok:false},{text:'They are both Sakura University students.',ok:true},{text:'They are both teachers.',ok:false},{text:'They are both engineers.',ok:false}], 'も in 「私も さくら大学の 学生です」 tells us Kim is also a Sakura University student.')}
-          ${question('3. Which phrase is appropriate when meeting someone for the first time?', [{text:'初めまして',ok:true},{text:'いいえ',ok:false},{text:'病院',ok:false},{text:'何歳',ok:false}], '初めまして is the standard opening greeting for a first meeting.')}
-        </details>
-
-        <details open><summary style="cursor:pointer;font-weight:900;color:var(--pink-deep);font-size:1.08rem;">4. Write and speak your own introduction</summary>
-          <p style="color:var(--text-muted);line-height:1.5;">Fill this in with your real information. It saves only in this browser on this device; it is not sent anywhere. Use the model only as support, then say your version aloud.</p>
-          <textarea id="lesson1-writing" oninput="saveLessonOneWriting()" placeholder="初めまして。私は ______ です。\n______ 人です。\n______ です。\nどうぞよろしく。" style="width:100%;min-height:150px;border:2px solid var(--pink-light);border-radius:14px;padding:14px;font:inherit;line-height:1.6;resize:vertical;"></textarea>
-          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;"><button class="btn-cute btn-mint" onclick="saveLessonOneWriting()">💾 Save on this device</button><button class="btn-cute btn-lavender" onclick="toggleLessonOneModel()">👀 Show model answer</button><button class="btn-cute" onclick="clearLessonOneWriting()">Clear</button></div>
-          <div id="lesson1-model" style="display:none;margin-top:12px;padding:13px;background:var(--mint-light);border-radius:12px;line-height:1.6;"><strong>Model:</strong><br>初めまして。私は ジェイです。フィリピン人です。大学の 学生です。どうぞよろしく。<br><span style="color:var(--text-muted);font-size:.88rem;">Change the name, country, and role so this becomes your introduction.</span></div>
-        </details>`;
+        <div style="margin:12px 0;padding:14px;background:#FFF9FA;border-radius:14px;border:1px solid #ffd8e4;">
+          <strong>${escapeHtml(q.question)}</strong>
+          ${promptHtml}
+          <div style="display:grid;gap:7px;margin-top:10px;">${choices}</div>
+          <p class="guide-feedback" style="display:none;margin:10px 0 0;color:var(--text-muted);line-height:1.45;background:#ffffff;padding:8px 12px;border-radius:8px;">
+            💡 ${escapeHtml(q.explanation)}
+          </p>
+        </div>
+      `;
     }
 
     function checkGuideChoice(button) {
       const parent = button.parentElement;
-      parent.querySelectorAll('button').forEach(b => { b.disabled = true; b.classList.add(b.dataset.correct === 'true' ? 'correct' : 'wrong'); });
-      parent.parentElement.querySelector('.guide-feedback').style.display = 'block';
-      if (button.dataset.correct === 'true') sound.correct(); else sound.wrong();
+      const isCorrect = button.dataset.correct === 'true';
+      parent.querySelectorAll('button').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.correct === 'true') {
+          b.classList.add('correct');
+        } else if (b === button) {
+          b.classList.add('wrong');
+        }
+      });
+      const feedback = parent.parentElement.querySelector('.guide-feedback');
+      if (feedback) feedback.style.display = 'block';
+      if (isCorrect) sound.correct(); else sound.wrong();
     }
-    function saveLessonOneWriting() { localStorage.setItem('minna_lesson_01_writing', document.getElementById('lesson1-writing').value); }
-    function clearLessonOneWriting() { document.getElementById('lesson1-writing').value = ''; localStorage.removeItem('minna_lesson_01_writing'); }
-    function toggleLessonOneModel() { const model = document.getElementById('lesson1-model'); model.style.display = model.style.display === 'none' ? 'block' : 'none'; }
+
+    function saveWriting() {
+      localStorage.setItem(`minna_lesson_${lessonNumberPadded}_writing`, document.getElementById('lesson-writing-input').value);
+    }
+    function clearWriting() {
+      document.getElementById('lesson-writing-input').value = '';
+      localStorage.removeItem(`minna_lesson_${lessonNumberPadded}_writing`);
+    }
+    function toggleModelAnswer() {
+      const box = document.getElementById('lesson-model-box');
+      box.style.display = box.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function escapeHtml(str) {
+      if (!str) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
 
     /* =========================================================
        2. MOBILE-COMPATIBLE SOUND & SPEECH SYNTHESIZER
@@ -1336,16 +1333,13 @@
       init() {
         if (!this.ctx) {
           const AudioContext = window.AudioContext || window.webkitAudioContext;
-          if (AudioContext) {
-            this.ctx = new AudioContext();
-          }
+          if (AudioContext) this.ctx = new AudioContext();
         }
         if (this.ctx && this.ctx.state === 'suspended') {
           this.ctx.resume();
         }
       }
 
-      // Mobile iOS/Android Unlock
       unlock() {
         if (this.unlocked) return;
         this.init();
@@ -1356,13 +1350,10 @@
             source.buffer = buffer;
             source.connect(this.ctx.destination);
             source.start(0);
-            if (this.ctx.state === 'suspended') {
-              this.ctx.resume();
-            }
+            if (this.ctx.state === 'suspended') this.ctx.resume();
             this.unlocked = true;
           } catch (e) {}
         }
-
         if ('speechSynthesis' in window) {
           try {
             const emptyUtter = new SpeechSynthesisUtterance('');
@@ -1457,8 +1448,6 @@
     }
 
     const sound = new RetroAudio();
-
-    // Universal gesture unlock
     ['touchstart', 'touchend', 'pointerdown', 'click'].forEach(evt => {
       document.addEventListener(evt, () => sound.unlock(), { once: true, passive: true });
     });
@@ -1470,7 +1459,6 @@
       if (sound.enabled) sound.pop();
     }
 
-    // Japanese Voice Loader
     let jpVoice = null;
     function loadVoices() {
       if (!('speechSynthesis' in window)) return;
@@ -1495,7 +1483,7 @@
     }
 
     /* =========================================================
-       3. GLOBAL APP STATE & TAB SWITCH CONTROLLER
+       3. GLOBAL STATE & TAB SWITCH CONTROLLER
     ========================================================== */
     let playerXP = 0;
     let currentTab = 'cards';
@@ -1512,16 +1500,13 @@
     }
 
     function pauseOrStopActiveGames() {
-      // 1. Pause Quiz timer
       if (quizTimer) {
         clearInterval(quizTimer);
         quizTimer = null;
       }
-      // 2. Pause Star Catcher
       if (catcherActive && !catcherPaused) {
         pauseCatcher();
       }
-      // 3. Cancel Speech
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
@@ -1557,10 +1542,10 @@
     /* =========================================================
        TAB 1: FLASHCARDS
     ========================================================== */
-    let cardList = [...LESSON_15_VOCAB];
     let cardIndex = 0;
 
     function renderCard() {
+      if (!cardList || cardList.length === 0) return;
       const item = cardList[cardIndex];
       document.getElementById('fc-icon').innerText = item.icon;
       document.getElementById('fc-kanji').innerText = item.kanji;
@@ -1568,7 +1553,8 @@
       document.getElementById('fc-romaji').innerText = item.romaji;
       document.getElementById('fc-icon-back').innerText = item.icon;
       document.getElementById('fc-en').innerText = item.en;
-      document.getElementById('fc-example').innerText = item.example;
+      document.getElementById('fc-example').innerText = item.example || item.en;
+      document.getElementById('fc-sub-example').innerText = item.exampleEn ? item.exampleEn : 'Tap to listen: [S]';
       document.getElementById('fc-counter').innerText = `Card ${cardIndex + 1} of ${cardList.length}`;
 
       const progress = ((cardIndex + 1) / cardList.length) * 100;
@@ -1602,8 +1588,9 @@
     }
 
     function speakCurrentCard() {
+      if (!cardList[cardIndex]) return;
       const item = cardList[cardIndex];
-      speakJapanese(item.kana);
+      speakJapanese(item.kana || item.kanji);
     }
 
     function filterCards(type, btn) {
@@ -1611,29 +1598,30 @@
       document.querySelectorAll('.filter-tags .tag-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      if (type === 'all') cardList = [...LESSON_15_VOCAB];
-      else cardList = LESSON_15_VOCAB.filter(v => v.type === type);
+      if (type === 'all') cardList = [...ACTIVE_VOCAB];
+      else cardList = ACTIVE_VOCAB.filter(v => v.type === type);
 
       cardIndex = 0;
       renderCard();
     }
 
     /* =========================================================
-       TAB 2: MOCHI MATCH (PERMANENT MATCH VISIBILITY)
+       TAB 2: MOCHI MATCH (MEMORY)
     ========================================================== */
     let memoryCards = [];
     let flippedCards = [];
     let memoryMoves = 0;
     let pairsLeft = 0;
-    let memoryBest = localStorage.getItem('minna15_mochi_best') || '-';
+    let memoryBest = localStorage.getItem('minna_mochi_best') || '-';
 
     function initMemoryGame() {
+      if (!ACTIVE_VOCAB || ACTIVE_VOCAB.length === 0) return;
       document.getElementById('memory-best').innerText = memoryBest;
       memoryMoves = 0;
       document.getElementById('memory-moves').innerText = memoryMoves;
       flippedCards = [];
 
-      const picked = [...LESSON_15_VOCAB].sort(() => Math.random() - 0.5).slice(0, 8);
+      const picked = [...ACTIVE_VOCAB].sort(() => Math.random() - 0.5).slice(0, 8);
       pairsLeft = picked.length;
       document.getElementById('memory-left').innerText = pairsLeft;
 
@@ -1683,7 +1671,6 @@
         const c2 = memoryCards[second.idx];
 
         if (c1.id === c2.id) {
-          // Correct: remain permanently open and green
           sound.correct();
           first.cardEl.classList.add('matched');
           second.cardEl.classList.add('matched');
@@ -1704,14 +1691,13 @@
             fireConfetti(100);
             if (memoryBest === '-' || memoryMoves < parseInt(memoryBest, 10)) {
               memoryBest = memoryMoves;
-              localStorage.setItem('minna15_mochi_best', memoryBest);
+              localStorage.setItem('minna_mochi_best', memoryBest);
               document.getElementById('memory-best').innerText = memoryBest;
             }
             showModal('Omedetou! 🍡', `All pairs matched in ${memoryMoves} moves! +100 XP`);
             addXP(100);
           }
         } else {
-          // Wrong: close only these two
           sound.wrong();
           setTimeout(() => {
             first.cardEl.classList.remove('flipped');
@@ -1736,6 +1722,7 @@
     let quizLock = false;
 
     function startQuiz() {
+      if (!ACTIVE_VOCAB || ACTIVE_VOCAB.length === 0) return;
       quizStarted = true;
       quizCurrentNum = 0;
       quizScore = 0;
@@ -1779,13 +1766,13 @@
       quizCurrentNum++;
       document.getElementById('quiz-curr').innerText = quizCurrentNum;
 
-      quizCurrentItem = LESSON_15_VOCAB[Math.floor(Math.random() * LESSON_15_VOCAB.length)];
+      quizCurrentItem = ACTIVE_VOCAB[Math.floor(Math.random() * ACTIVE_VOCAB.length)];
       document.getElementById('quiz-prompt').innerText = quizCurrentItem.kanji;
       document.getElementById('quiz-prompt-sub').innerText = quizCurrentItem.kana;
       speakJapanese(quizCurrentItem.kana);
 
-      const distractors = LESSON_15_VOCAB.filter(v => v.kanji !== quizCurrentItem.kanji).sort(() => Math.random() - 0.5);
-      const choices = [quizCurrentItem, distractors[0], distractors[1], distractors[2]].sort(() => Math.random() - 0.5);
+      const distractors = ACTIVE_VOCAB.filter(v => v.kanji !== quizCurrentItem.kanji).sort(() => Math.random() - 0.5);
+      const choices = [quizCurrentItem, distractors[0], distractors[1], distractors[2]].filter(Boolean).sort(() => Math.random() - 0.5);
 
       const container = document.getElementById('quiz-options');
       container.innerHTML = '';
@@ -1849,6 +1836,7 @@
     let currentStarItem = null;
 
     function startCatcherGame() {
+      if (!ACTIVE_VOCAB || ACTIVE_VOCAB.length === 0) return;
       catcherScore = 0;
       catcherLives = 3;
       catcherActive = true;
@@ -1882,11 +1870,11 @@
       star.style.top = currentStarY + 'px';
       star.style.left = (25 + Math.random() * 50) + '%';
 
-      currentStarItem = LESSON_15_VOCAB[Math.floor(Math.random() * LESSON_15_VOCAB.length)];
+      currentStarItem = ACTIVE_VOCAB[Math.floor(Math.random() * ACTIVE_VOCAB.length)];
       document.getElementById('star-text').innerText = `${currentStarItem.kanji} (${currentStarItem.kana})`;
 
-      const distractors = LESSON_15_VOCAB.filter(v => v.kanji !== currentStarItem.kanji).sort(() => Math.random() - 0.5);
-      const basketChoices = [currentStarItem, distractors[0], distractors[1]].sort(() => Math.random() - 0.5);
+      const distractors = ACTIVE_VOCAB.filter(v => v.kanji !== currentStarItem.kanji).sort(() => Math.random() - 0.5);
+      const basketChoices = [currentStarItem, distractors[0], distractors[1]].filter(Boolean).sort(() => Math.random() - 0.5);
 
       const zone = document.getElementById('catcher-baskets');
       zone.innerHTML = '';
@@ -1952,14 +1940,22 @@
     }
 
     /* =========================================================
-       TAB 5: SUSHI KANA SCRAMBLE (WITH SLOT UNDO)
+       TAB 5: SUSHI KANA SCRAMBLE
     ========================================================== */
     let scrambleIndex = 0;
     let currentScramble = null;
     let placedLetters = [];
 
+    // Filter words that make sense for letter-tile unscrambling
+    function getScrambleEligibleVocab() {
+      return ACTIVE_VOCAB.filter(v => v.kana && !v.kana.includes('～') && !v.kana.includes(' ') && v.kana.length >= 2 && v.kana.length <= 8);
+    }
+
     function initScrambleWord() {
-      currentScramble = LESSON_15_VOCAB[scrambleIndex];
+      const eligible = getScrambleEligibleVocab();
+      if (!eligible || eligible.length === 0) return;
+
+      currentScramble = eligible[scrambleIndex % eligible.length];
       document.getElementById('scramble-icon').innerText = currentScramble.icon;
       document.getElementById('scramble-en').innerText = currentScramble.en;
       document.getElementById('scramble-kanji').innerText = `Kanji: ${currentScramble.kanji}`;
@@ -2048,7 +2044,9 @@
     }
 
     function nextScrambleWord() {
-      scrambleIndex = (scrambleIndex + 1) % LESSON_15_VOCAB.length;
+      const eligible = getScrambleEligibleVocab();
+      if (!eligible.length) return;
+      scrambleIndex = (scrambleIndex + 1) % eligible.length;
       initScrambleWord();
     }
 
@@ -2143,12 +2141,13 @@
     }
     requestAnimationFrame(updateConfetti);
 
+    // Initial load
     window.addEventListener('DOMContentLoaded', () => {
-      renderCard();
-      if (isLessonOne) {
-        const savedWriting = localStorage.getItem('minna_lesson_01_writing');
-        if (savedWriting) document.getElementById('lesson1-writing').value = savedWriting;
-      }
+      loadArcadeLesson().then(() => {
+        const savedWriting = localStorage.getItem(`minna_lesson_${lessonNumberPadded}_writing`);
+        const writingInput = document.getElementById('lesson-writing-input');
+        if (savedWriting && writingInput) writingInput.value = savedWriting;
+      });
     });
   </script>
 </body>
