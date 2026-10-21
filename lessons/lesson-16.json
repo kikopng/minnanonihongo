@@ -927,7 +927,185 @@
   "writing": {
     "title": "Daily Routine and Describing a Friend or City",
     "prompt": "Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then, describe a friend's physical features or your city using connected adjectives and the 『N1 は N2 が [Adjective]』 pattern.",
-    "placeholder": "朝起きてから、______ をして、______ を浴びます。\\n私の町は ______ くて、______ です。\\n私の友達は背が ______ くて、髪が ______ です。",
+    "placeholder": "朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。",
     "modelAnswer": "毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "This morning I jogged, took a shower, and came to work.",
+        "chunks": ["今朝ジョギングをして、", "シャワーを浴びて、", "仕事に来ました。"]
+      },
+      {
+        "en": "After withdrawing money, I went shopping.",
+        "chunks": ["お金を下ろしてから、", "買い物に", "行きました。"]
+      },
+      {
+        "en": "Kinkaku-ji is quiet and a beautiful temple.",
+        "chunks": ["金閣寺は", "静かで、", "きれいな", "お寺です。"]
+      },
+      {
+        "en": "She has long hair and is tall in height.",
+        "chunks": ["彼女は", "髪が長くて、", "背が高いです。"]
+      },
+      {
+        "en": "Take the Special Rapid train and get off at Kyoto Station.",
+        "chunks": ["新快速に乗って、", "京都駅で", "降ります。"]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "乗ります (のります)",
+        "form": "て-form",
+        "answer": "のって",
+        "options": ["のって", "のりて", "のいで"],
+        "hint": "Group 1: -り changes to -って"
+      },
+      {
+        "prompt": "降ります (おります)",
+        "form": "て-form",
+        "answer": "おりて",
+        "options": ["おりて", "おって", "おりいで"],
+        "hint": "Group 2 verb: replace -ます with -て"
+      },
+      {
+        "prompt": "浴びます (あびます)",
+        "form": "て-form",
+        "answer": "あびて",
+        "options": ["あびて", "あって", "あびいで"],
+        "hint": "Group 2 verb: replace -ます with -て"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "て-form",
+        "answer": "いって",
+        "options": ["いって", "いきて", "いいて"],
+        "hint": "Special irregular Group 1: 行きます becomes 行って"
+      },
+      {
+        "prompt": "出します (だします)",
+        "form": "て-form",
+        "answer": "だして",
+        "options": ["だして", "だって", "だしいて"],
+        "hint": "Group 1: -し changes to -して"
+      },
+      {
+        "prompt": "明るい (あかるい)",
+        "form": "Connecting (〜くて)",
+        "answer": "あかるくて",
+        "options": ["あかるくて", "あかるいで", "あかるくと"],
+        "hint": "い-adjective: drop -い and add -くて"
+      },
+      {
+        "prompt": "静か (しずか)",
+        "form": "Connecting (〜で)",
+        "answer": "しずかで",
+        "options": ["しずかで", "しずかくて", "しずかに"],
+        "hint": "な-adjective: add -で"
+      },
+      {
+        "prompt": "いい (Good)",
+        "form": "Connecting (〜くて)",
+        "answer": "よくて",
+        "options": ["よくて", "いくて", "いいで"],
+        "hint": "Irregular adjective: いい always conjugates from よい (よくて)"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "大阪駅から新快速 [ ? ] 乗ります。",
+        "answer": "に",
+        "options": ["に", "を", "で", "へ"],
+        "hint": "Boarding a vehicle uses particle に (電車に乗ります)."
+      },
+      {
+        "sentence": "京都駅でバス [ ? ] 降ります。",
+        "answer": "を",
+        "options": ["を", "に", "で", "から"],
+        "hint": "Disembarking or leaving a vehicle uses particle を."
+      },
+      {
+        "sentence": "秋葉原駅 [ ? ] 電車を乗り換えます。",
+        "answer": "で",
+        "options": ["で", "に", "を", "へ"],
+        "hint": "The station where you do the action (transfer) takes で."
+      },
+      {
+        "sentence": "京都まで30分 [ ? ] 行きますよ。",
+        "answer": "で",
+        "options": ["で", "に", "を", "まで"],
+        "hint": "Time duration or limit to complete an action takes で."
+      },
+      {
+        "sentence": "象は鼻 [ ? ] 長いです。",
+        "answer": "が",
+        "options": ["が", "は", "を", "に"],
+        "hint": "In 『N1 は N2 が Adj』, the specific body feature takes が."
+      },
+      {
+        "sentence": "彼は私の同僚 [ ? ]、友達です。",
+        "answer": "で",
+        "options": ["で", "と", "に", "を"],
+        "hint": "Joining two noun descriptions for the same person uses で."
+      },
+      {
+        "sentence": "ATM [ ? ] お金を下ろしました。",
+        "answer": "から",
+        "options": ["から", "で", "に", "まで"],
+        "hint": "Starting point / withdrawal source uses から."
+      },
+      {
+        "sentence": "お肉と魚と、どちら [ ? ] いいですか。",
+        "answer": "が",
+        "options": ["が", "は", "を", "で"],
+        "hint": "Question words like どちら / どれ take the subject marker が."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Tourist asking for directions",
+        "speaker": "マルコ",
+        "prompt": "京都へどうやって行きますか？",
+        "options": [
+          { "text": "新快速に乗って、京都駅で降りますよ。", "correct": true },
+          { "text": "新快速に乗るで、京都駅を行きます。", "correct": false },
+          { "text": "京都は抹茶が美味しいです。", "correct": false }
+        ],
+        "tip": "Chain actions sequentially using the て-form: 乗って、降ります."
+      },
+      {
+        "situation": "Introducing your friend",
+        "speaker": "同僚",
+        "prompt": "田中さんはどんな人ですか？",
+        "options": [
+          { "text": "背が高くて、明るい人です。", "correct": true },
+          { "text": "背が高いで、暗い人です。", "correct": false },
+          { "text": "背が高いと、明るいです。", "correct": false }
+        ],
+        "tip": "Connect い-adjectives with 〜くて (背が高くて、明るい人)."
+      },
+      {
+        "situation": "Ordering at a restaurant",
+        "speaker": "店員",
+        "prompt": "コーヒーとお茶と、どちらがいいですか？",
+        "options": [
+          { "text": "コーヒーがいいです。", "correct": true },
+          { "text": "コーヒーがどうやってです。", "correct": false },
+          { "text": "どれがいいです。", "correct": false }
+        ],
+        "tip": "When choosing from 2 options, respond with [Choice] が いいです."
+      },
+      {
+        "situation": "At the ticket machine",
+        "speaker": "友達",
+        "prompt": "切符はどうやって買いますか？",
+        "options": [
+          { "text": "ボタンを押してから、お金を入れてください。", "correct": true },
+          { "text": "ボタンを押してと、お金を入れるです。", "correct": false },
+          { "text": "お金を引きます。", "correct": false }
+        ],
+        "tip": "Emphasize doing Action 1 first using 〜てから (押してから)."
+      }
+    ]
   }
 }
