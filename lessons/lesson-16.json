@@ -9,6 +9,20 @@
   },
   "vocabulary": [
     {
+      "id": "aina",
+      "kanji": "愛菜",
+      "kana": "あいな",
+      "romaji": "Aina",
+      "meaning": "love vegetable (Aina)",
+      "category": "person",
+      "icon": "🥦🥬",
+      "example": {
+        "kanji": "愛菜さんは野菜が好きです。",
+        "kana": "あいなさんは やさいが すきです。",
+        "translation": "Aina loves vegetables."
+      }
+    },
+    {
       "id": "norimasu",
       "kanji": "乗ります",
       "kana": "のります",
