@@ -9,20 +9,6 @@
   },
   "vocabulary": [
     {
-      "id": "aina",
-      "kanji": "愛菜",
-      "kana": "あいな",
-      "romaji": "Aina",
-      "meaning": "love vegetable (Aina)",
-      "category": "person",
-      "icon": "🥦🥬",
-      "example": {
-        "kanji": "愛菜さんは野菜が好きです。",
-        "kana": "あいなさんは やさいが すきです。",
-        "translation": "Aina loves vegetables."
-      }
-    },
-    {
       "id": "norimasu",
       "kanji": "乗ります",
       "kana": "のります",
@@ -598,7 +584,7 @@
   "grammar": [
     {
       "pattern": "Sentence 1 (て-form)、Sentence 2 [Connecting Verb Sentences]",
-      "explanation": "To connect full sentences in Japanese, you MUST end the preceding sentence in the て-form. While the particle と connects nouns (お肉と野菜), it CANNOT connect sentences. Key rules: (1) When the subject is the same, omit the repeated subject in Sentence 2. (2) You can chain multiple actions in chronological sequence without limit (Action 1 → Action 2 → Action 3). (3) The て-form itself has NO past tense—only the final verb carries the tense of the entire sentence.",
+      "explanation": "To connect full sentences in Japanese, you MUST end the preceding sentence in the て-form. While the particle と connects nouns (お肉と野菜), it CANNOT connect sentences. Key rules: (1) When the subject is the same, omit the repeated subject in Sentence 2. (2) You can chain multiple actions in chronological sequence without limit (Action 1 → Action 2 → Action 3). (3) Theて-form itself has NO past tense—only the final verb carries the tense of the entire sentence.",
       "examples": [
         {
           "kanji": "スーパーに行って、牛乳を買います。",
@@ -941,7 +927,7 @@
   "writing": {
     "title": "Daily Routine and Describing a Friend or City",
     "prompt": "Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then, describe a friend's physical features or your city using connected adjectives and the 『N1 は N2 が [Adjective]』 pattern.",
-    "placeholder": "朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。",
+    "placeholder": "朝起きてから、______ をして、______ を浴びます。\\n私の町は ______ くて、______ です。\\n私の友達は背が ______ くて、髪が ______ です。",
     "modelAnswer": "毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。"
   }
 }
