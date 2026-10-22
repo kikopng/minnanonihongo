@@ -1,0 +1,397 @@
+DRAFT: Minna no Nihongo Lesson 18 Study Notes
+
+1. Overview & Core Objectives
+
+Lesson 18 introduces fundamental structures for expressing personal abilities,
+possibilities, personal interests/hobbies, and temporal sequencing using the
+plain non-past form (commonly called the Dictionary Form or 辞書形 - jishokei).
+
+By working through these notes, you will master:
+
+  - Converting Group 1, Group 2, and Group 3 verbs into their Dictionary Form.
+  - Nominalizing action verbs using the formal noun こと (koto) to allow verbs to
+    occupy noun slots.
+  - Expressing inherent abilities and circumstantial possibilities using 〜ができます
+    (*~ ga dekimasu*) and 〜ことができます (*~ koto ga dekimasu*).
+  - Describing hobbies and professions using nominalized verb clauses.
+  - Sequencing actions and identifying elapsed time using 〜前に (*~ mae ni*).
+  - Understanding key pragmatic differences between capability, asking
+    permission, and making requests.
+
+2. Core Vocabulary & Detailed Nuances
+
+Verbs
+
+  - できます [できる] (dekimasu / dekiru) — Group 2
+      - Meaning: can do; be able to do; be ready.
+      - Grammar Note: Although it ends in an [-i] sound preceding masu, this is
+        an irregular/Group 2 verb. Its dictionary form is できる (dekiru).
+      - Particle Usage: Takes the particle が (ga) for the skill or object of
+        ability (e.g., 日本語ができます).
+  - 洗います [洗う] (araimasu / arau) — Group 1
+      - Meaning: to wash.
+      - Example: 食事の前に、手を洗います (Shokuji no mae ni, te o araimasu - I wash my
+        hands before meals).
+  - 弾きます [弾く] (hikimasu / hiku) — Group 1
+      - Meaning: to play (a stringed or keyboard instrument, e.g., piano,
+        guitar, violin).
+      - Instrument Note: Japanese uses different verbs for musical instruments:
+          - 弾きます (hikimasu): string instruments & keyboards (piano, guitar).
+          - 吹きます (fukimasu): wind/brass instruments (flute, trumpet).
+          - 叩きます (tatakimasu): percussion instruments (drums).
+  - 歌います [歌う] (utaimasu / utau) — Group 1
+      - Meaning: to sing.
+      - Example: 日本の歌を歌います (Nihon no uta o utaimasu - I sing Japanese songs).
+  - 集めます [集める] (atsumemasu / atsumeru) — Group 2
+      - Meaning: to collect; to gather together.
+      - Example: ポケモンカードを集めています (Pokemon kādo o atsumete imasu - I collect /
+        have been collecting Pokémon cards).
+  - 捨てます [捨てる] (sutemasu / suteru) — Group 2
+      - Meaning: to throw away; to discard.
+      - Example: ごみを捨てます (Gomi o sutemasu - I throw away the trash).
+  - 換えます [換える] (kaemasu / kaeru) — Group 2
+      - Meaning: to exchange; to convert; to swap.
+      - Kanji Nuance: 換える refers specifically to bartering, exchanging currency,
+        or swapping one item for another of equal value (e.g., currency
+        exchange: 円をドルに換える). Do not confuse with 変える (kaeru - to alter/change
+        status) or 替える (kaeru - to replace a worn-out component).
+  - 運転します [運転する] (untenshimasu / unten suru) — Group 3
+      - Meaning: to drive (a vehicle/machinery).
+      - Noun form: 運転 (unten - driving).
+  - 予約します [予約する] (yoyakushimasu / yoyaku suru) — Group 3
+      - Meaning: to reserve; to book.
+      - Noun form: 予約 (yoyaku - reservation/booking).
+      - Example: たかしで予約があります (Takashi de yoyaku ga arimasu - I have a
+        reservation under the name Takashi).
+  - お祈りします [お祈りする] (oinorishimasu / oinori suru) — Group 3
+      - Meaning: to pray.
+      - Noun form: お祈り (oinori - prayer).
+      - Example: 教会でお祈りします (Kyōkai de oinorishimasu - I pray at church).
+
+Nouns
+
+  - ピアノ (piano) — piano.
+  - 〜メートル (*~ mētoru*) — ~ meter(s) (counter/unit).
+  - 現金 (genkin) — cash.
+      - Collocation: 現金のみ (genkin nomi - cash only).
+  - 趣味 (shumi) — hobby; personal pastime.
+  - 日記 (nikki) — diary; journal.
+      - Collocation: 日記を書きます (nikki o kakimasu - to write in a diary).
+  - 社長 (shachō) — company president; CEO.
+  - 動物 (dōbutsu) — animal (literally "moving thing").
+  - 馬 (uma) — horse.
+  - インターネット (intānetto) — the Internet.
+      - Common abbreviation: ネット (netto).
+
+Adverbs, Conjunctions & Set Phrases
+
+  - 特に (tokuni) — especially; particularly.
+      - Positive usage: 日本料理の中で特にそばが好きです (Nihon ryōri no naka de tokuni soba ga
+        suki desu - Among Japanese foods, I especially like soba).
+      - Negative usage: 今日は特に何もしませんでした (Kyō wa tokuni nanimo shimasen deshita -
+        Today I didn't do anything in particular).
+  - 是非 [ぜひ] (zehi) — by all means; definitely; certainly.
+      - Used to express strong desire, enthusiasm, or to reinforce a polite
+        invitation or request.
+      - Example: また遊びましょう。→ はい、ぜひ！ (Mata asobimashō. -> Hai, zehi! - Let's hang
+        out again. -> Yes, absolutely!).
+  - なかなか (nakanaka) — quite / not easily.
+      - With Affirmative: means "more than expected" or "quite good/tasty".
+          - Cultural Caution: Saying これはなかなかおいしいです (Kore wa nakanaka oishii
+            desu) to someone who cooked for you can sound unintentionally rude
+            or patronizing, as it implies: "This is surprisingly good (even
+            though I didn't expect much)."
+      - With Negative: means "not easily," "hard to accomplish," or "by no
+        means."
+          - Example: 日本ではなかなかメキシコ料理を食べることができません (Nihon de wa nakanaka Mekishiko
+            ryōri o taberu koto ga dekimasen - In Japan, you cannot easily
+            find/eat Mexican food).
+  - 本当ですか (hontō desu ka) — Really? / Is that true?
+
+3. Verb Morphology: The Dictionary Form (辞書形)
+
+What is the Dictionary Form?
+
+The Dictionary Form (辞書形 - jishokei) is the citation form of a verb used in
+dictionaries. Linguistically, it represents the plain (informal) non-past
+affirmative form:
+
+  - Polite style (丁寧語 - teineigo): 行きます (ikimasu)
+  - Plain style (普通形 - futsūkei): 行く (iku)
+
+Beyond casual speech with close friends, the dictionary form serves as an
+essential building block inside complex clauses (such as nominalization,
+expressing capability, expressing intentions, and setting chronological order).
+
+Verb Categorization & Conversion Rules
+
+  - Group 3: Irregular Verbs (不規則動詞)
+
+      - します (shimasu - to do) → する (suru)
+          - Applies to all noun compound verbs: 運転します → 運転する, 勉強します → 勉強する.
+      - 来ます (kimasu - to come) → 来る (kuru)
+          - Pronunciation Change Warning: Note that the kanji reading changes
+            from ki- to ku-.
+
+  - Group 2: Ichidan Verbs (一段動詞)
+
+      - Verbs ending in the [-e] vowel sound before masu, plus a small set of
+        single-mora or exception verbs ending in [-i] sound before masu.
+      - Conversion Rule: Drop 〜ます (~masu) and attach 〜る (~ru).
+          - 食べます (tabemasu) → 食べる (taberu)
+          - 教えます (oshiemasu) → 教える (oshieru)
+          - あげます (agemasu) → あげる (ageru)
+          - 見ます (mimasu) → 見る (miru)
+          - できます (dekimasu) → できる (dekiru)
+
+  - Group 1: Godan Verbs (五段動詞)
+
+      - Verbs ending in the [-i] vowel sound immediately preceding masu.
+      - Conversion Rule: Shift the final syllable from the い-line (-i) to the
+        corresponding う-line (-u) on the kana chart, and drop masu.
+          - [-ki] → [-ku]: 行きます (ikimasu) → 行く (iku)
+          - [-ki] → [-ku]: 弾きます (hikimasu) → 弾く (hiku)
+          - [-gi] → [-gu]: 泳ぎます (oyogimasu) → 泳ぐ (oyogu)
+          - [-shi] → [-su]: 話します (hanashimasu) → 話す (hanasu)
+          - [-chi] → [-tsu]: 立ちます (tachimasu) → 立つ (tatsu)
+          - [-ni] → [-nu]: 死にます (shinimasu) → 死ぬ (shinu)
+          - [-bi] → [-bu]: 遊びます (asobimasu) → 遊ぶ (asobu)
+          - [-mi] → [-mu]: 飲みます (nomimasu) → 飲む (nomu)
+          - [-ri] → [-ru]: 取ります (torimasu) → 取る (toru)
+          - [-i] → [-u]: 買います (kaimasu) → 買う (kau)
+          - [-i] → [-u]: 歌います (utaimasu) → 歌う (utau)
+
+4. Nominalization with こと (Verb [Dict] + こと)
+
+The Role of こと (koto)
+
+In Japanese, verbs cannot be directly attached to case particles like が (ga), を
+(o), or standard copular structures like 〜は [X] です (*~ wa [X] desu*) if [X]
+requires a noun.
+
+To convert an entire action phrase into an abstract noun clause ("the act of
+doing..."), attach the formal noun こと (koto) directly to the Dictionary Form of
+the verb:
+
+  - Verb (Dictionary form) + こと = Noun Phrase
+  - 食べます (tabemasu / to eat) → 食べる (taberu) → 食べること (taberu koto / eating; the
+    act of eating).
+
+Common Sentence Patterns Using Nominalization
+
+1. Expressing Likes and Dislikes
+
+  - Structure: [Action clause: Verb (Dict) + こと] が 好きです / 嫌いです
+  - Plain noun: お寿司が好きです (Sushi ga suki desu - I like sushi).
+  - Nominalized verb: お寿司を食べることが、好きです (Sushi o taberu koto ga, suki desu - I
+    like eating sushi).
+  - Dislike example: コーヒーを飲むことが、嫌いです (Kōhī o nomu koto ga, kirai desu - I
+    dislike drinking coffee).
+
+2. Defining One's Occupation / Duty
+
+  - Structure: 私の仕事は [Verb (Dict) + こと] です
+  - Example A: 私の仕事は、英語を教えることです (Watashi no shigoto wa, Eigo o oshieru koto desu
+    - My job is teaching English).
+  - Example B: 私の仕事は、家を売ることです (Watashi no shigoto wa, ie o uru koto desu - My
+    job is selling houses).
+
+3. Describing One's Hobby
+
+  - Structure: 私の趣味は [Verb (Dict) + こと] です
+  - Example A: 私の趣味は、アニメを見ることです (Watashi no shumi wa, anime o miru koto desu -
+    My hobby is watching anime).
+  - Example B: 私の趣味は、写真を撮ることです (Watashi no shumi wa, shashin o toru koto desu -
+    My hobby is taking photographs).
+  - Example C: 母の趣味は、ピアノを弾くことです (Haha no shumi wa, piano o hiku koto desu - My
+    mother's hobby is playing the piano).
+
+5. Expressing Ability and Possibility: 〜ができます
+
+A. Pattern 1: Noun + が できます
+
+Used when a noun inherently contains an activity, skill, language, or sport.
+
+  - Structure: [Noun] が できます (negative: が できません)
+  - Particle Rule: The object of ability marks with が, not を.
+  - Examples:
+      - 私は日本語ができます (Watashi wa Nihongo ga dekimasu - I can do/speak Japanese).
+      - 料理ができます (Ryōri ga dekimasu - I can cook).
+      - ここでサッカーができません (Koko de sakkā ga dekimasen - You cannot play soccer
+        here).
+
+B. Pattern 2: Verb (Dict) + こと + が できます
+
+Used when expressing specific actions or longer verb phrases.
+
+  - Structure: [Verb Phrase (Dictionary form)] + ことが できます
+  - Inherent Ability Examples:
+      - 私は泳ぐことができます (Watashi wa oyogu koto ga dekimasu - I can swim).
+      - 車を運転することができます (Kuruma o unten suru koto ga dekimasu - I can drive a
+        car).
+      - 色々な日本料理を作ることができます (Iroirona Nihon ryōri o tsukuru koto ga dekimasu - I
+        can make various kinds of Japanese dishes).
+      - お酒を飲むことができません (Osake o nomu koto ga dekimasen - I cannot drink alcohol).
+  - Circumstantial Possibility Examples (actions possible under certain external
+    conditions/locations):
+      - このホテルでインターネットを使うことができます (Kono hoteru de intānetto o tsukau koto ga
+        dekimasu - You can use the internet at this hotel).
+      - カードで払うことができます (Kādo de harau koto ga dekimasu - You can pay by card).
+
+C. Asking Questions & Replying
+
+  - Question: 英語を話すことができますか (Eigo o hanasu koto ga dekimasu ka - Can you speak
+    English?)
+      - Affirmative Reply:
+          - はい、話すことができます (Hai, hanasu koto ga dekimasu - Yes, I can speak it).
+          - はい、できます (Hai, dekimasu - Yes, I can).
+      - Negative Reply:
+          - いいえ、話すことができません (Iie, hanasu koto ga dekimasen - No, I cannot speak
+            it).
+          - いいえ、できません (Iie, dekimasen - No, I cannot).
+  - Wh- Questions:
+      - 何語を話すことができますか (Nanigo o hanasu koto ga dekimasu ka - What languages can
+        you speak?)
+      - どこで着物を買うことができますか (Doko de kimono o kau koto ga dekimasu ka - Where can I
+        buy a kimono?)
+
+D. Critical Pragmatic Nuances & Common Errors
+
+  - Grammar Distinction (Preview of Lesson 27):
+
+      - Japanese has two primary ways to express "can":
+        1.  Verb (Dict) + ことができます (Introduced here in Lesson 18).
+        2.  Potential Form verbs (e.g., 食べられる, 話せる — Introduced in Lesson 27).
+      - Note: The verb できます itself is historically the potential form of the
+        verb します.
+
+  - WARNING: Do NOT use 〜ことができますか to ask for permission!
+
+      - Incorrect: 質問することができますか？ (Shitsumon suru koto ga dekimasu ka?)
+          - Why it's wrong: This asks about intellectual or physical capability
+            ("Do I possess the capacity to formulate and utter a question?").
+      - Correct: 質問してもいいですか？ (Shitsumon shite mo ii desu ka? - May I ask a
+        question? / Using the 〜てもいいですか permission pattern from Lesson 15).
+
+  - WARNING: Do NOT use 〜ことができますか to ask someone to do something!
+
+      - Incorrect: お塩を取ることができますか？ (O-shio o toru koto ga dekimasu ka?)
+          - Why it's wrong: This literally asks if the person is physically
+            capable of reaching the salt, not whether they are willing to pass
+            it.
+      - Correct:
+          - お塩を取ってください (O-shio o totte kudasai - Please pass the salt
+            [Lesson 14]).
+          - お塩を取っていただけませんか (O-shio o totte itadakemasen ka - Could you please
+            pass the salt? [Polite request, Lesson 26]).
+
+6. Temporal Sequence and Elapsed Time: 〜前に (まえに)
+
+The phrase 前に (mae ni) expresses that an action or event occurs prior to another
+point in time, or that a specific amount of time has elapsed since an event.
+
+Pattern 1: Action Noun + の 前に
+
+  - Structure: [Noun] + の前に、[Main Clause]
+  - Requirement: The noun must represent an activity or event that inherently
+    has a duration (e.g., 食事, 会議, 旅行, 仕事).
+  - Examples:
+      - 食事の前に、手を洗います (Shokuji no mae ni, te o araimasu - I wash my hands before
+        meals).
+      - 毎朝、仕事の前に、運動します (Maiasa, shigoto no mae ni, undō shimasu - Every morning,
+        I exercise before work).
+      - 日本旅行の前に、新しいかばんを買いたいです (Nihon ryokō no mae ni, atarashii kaban o kaitai
+        desu - Before the trip to Japan, I want to buy a new bag).
+
+Pattern 2: Verb (Dictionary Form) + 前に
+
+  - Structure: [Verb 1 (Dictionary Form)] + 前に、[Verb 2 (Main Clause)]
+  - Meaning: Before doing Verb 1, do Verb 2.
+  - Examples:
+      - ご飯を食べる前に、手を洗います (Gohan o taberu mae ni, te o araimasu - Before eating a
+        meal, I wash my hands).
+      - 寝る前に、この薬を飲んでください (Neru mae ni, kono kusuri o nonde kudasai - Please take
+        this medicine before going to bed).
+      - 私にキスする前に、歯を磨いてください (Watashi ni kisu suru mae ni, ha o migaite kudasai -
+        Please brush your teeth before kissing me).
+
+The Tense Consistency Rule (CRUCIAL)
+
+  - In the structure [Verb 1] 前に、[Verb 2], Verb 1 ALWAYS remains in the non-past
+    Dictionary Form, regardless of whether the entire sentence happened in the
+    past or will happen in the future.
+  - The tense of the sentence is determined only by the final predicate verb
+    (Verb 2).
+      - Present/Future: ご飯を食べる前に、手を洗います (Taberu mae ni, te o araimasu - Before I
+        eat, I will wash my hands).
+      - Past: ご飯を食べる前に、手を洗いました (Taberu mae ni, te o araimashita - Before I ate,
+        I washed my hands).
+      - Error to Avoid: Never say 食べた前に (tabeta mae ni). This is ungrammatical
+        in standard Japanese.
+
+Pattern 3: Elapsed Time Period + 前に
+
+  - Structure: [Time Period / Duration] + 前に、[Main Clause]
+  - Meaning: [Time Period] ago.
+  - Crucial Particle Distinction: Do NOT place the particle の between the time
+    quantity and 前に.
+  - Examples:
+      - 15分前に、手を洗いました (Jūgo-fun mae ni, te o araimashita - I washed my hands 15
+        minutes ago).
+      - 3年前に、この車を買いました (San-nen mae ni, kono kuruma o kaimashita - I bought this
+        car 3 years ago).
+      - 1ヶ月前に、初めて日本へ行きました (Ikkagetsu mae ni, hajimete Nihon e ikimashita - One
+        month ago, I went to Japan for the first time).
+
+7. Comparative Summary of Key Structures
+
+Nominalizer Structures
+
+  - Verb (Dict) + こと: Converts an action clause into an abstract noun phrase.
+  - [Verb clause] ことが好きです: Identifies an action that one enjoys doing.
+  - [Verb clause] ことが嫌いです: Identifies an action that one dislikes doing.
+  - 私の趣味は [Verb clause] ことです: Defines one's hobby as an active pastime.
+  - 私の仕事は [Verb clause] ことです: Defines one's occupation by the core duty
+    performed.
+
+Ability / Possibility Structures
+
+  - [Noun] ができます: Expresses ability in a broad subject, language, or sport.
+  - [Verb (Dict)] ことができます: Expresses ability or situational feasibility to
+    perform a specific action.
+  - Particle Warning: The object of the potential structure takes が; inside the
+    sub-clause, the verb maintains its normal case particle (e.g., 本を読むこと が
+    できます).
+
+Temporal Sequencing with 前に
+
+  - Noun + の 前に: Used with action/event nouns (e.g., 会議の前に). Requires の.
+  - Verb (Dict) + 前に: Used with action verbs. The verb is always Dictionary
+    form, never past tense (e.g., 出かける前に).
+  - Time Period + 前に: Indicates time elapsed (e.g., 2日前に). Does not take の.
+
+8. Practice Drills & Draft Scratchpad
+
+Use this scratchpad to test your comprehension by translating the following
+English sentences into natural Japanese using Lesson 18 patterns:
+
+1.  I like driving cars.
+      - Japanese: 車を運転することが好きです。(Kuruma o unten suru koto ga suki desu.)
+2.  My hobby is taking photographs.
+      - Japanese: 私の趣味は写真を撮ることです。(Watashi no shumi wa shashin o toru koto desu.)
+3.  My job is selling houses.
+      - Japanese: 私の仕事は家を売ることです。(Watashi no shigoto wa ie o uru koto desu.)
+4.  Can you speak Japanese? / Yes, I can.
+      - Japanese: 日本語を話すことができますか。はい、できます。(Nihongo o hanasu koto ga dekimasu ka.
+        Hai, dekimasu.)
+5.  Where can I exchange US dollars?
+      - Japanese: どこでアメリカドルを換えることができますか。(Doko de Amerika-doru o kaeru koto ga
+        dekimasu ka.)
+6.  Before taking this medicine, please eat a meal.
+      - Japanese: この薬を飲む前に、食事をしてください / ご飯を食べてください。(Kono kusuri o nomu mae ni,
+        shokuji o shite kudasai / gohan o tabete kudasai.)
+7.  I met Tanaka-san three days ago.
+      - Japanese: 3日前に田中さんに会いました。(Mikka mae ni Tanaka-san ni aimashita.)
+8.  In Japan, you cannot easily see wild horses.
+      - Japanese: 日本ではなかなか野生の馬を見ることができません。(Nihon de wa nakanaka yasei no uma o
+        miru koto ga dekimasen.)

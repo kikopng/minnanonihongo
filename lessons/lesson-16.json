@@ -584,7 +584,7 @@
   "grammar": [
     {
       "pattern": "Sentence 1 (て-form)、Sentence 2 [Connecting Verb Sentences]",
-      "explanation": "To connect full sentences in Japanese, you MUST end the preceding sentence in the て-form. While the particle と connects nouns (お肉と野菜), it CANNOT connect sentences. Key rules: (1) When the subject is the same, omit the repeated subject in Sentence 2. (2) You can chain multiple actions in chronological sequence without limit (Action 1 → Action 2 → Action 3). (3) Theて-form itself has NO past tense—only the final verb carries the tense of the entire sentence.",
+      "explanation": "To connect full sentences in Japanese, you MUST end the preceding sentence in the て-form. While the particle と connects nouns (お肉と野菜), it CANNOT connect sentences. Key rules: (1) When the subject is the same, omit the repeated subject in Sentence 2. (2) You can chain multiple actions in chronological sequence without limit (Action 1 → Action 2 → Action 3). (3) The て-form itself has NO tense—only the final verb carries the tense of the whole sentence (…て、…ました = past; …て、…ます = present/future). (4) The final verb can also be a request: …て、…てください. (5) Chain in the order the actions actually happen.",
       "examples": [
         {
           "kanji": "スーパーに行って、牛乳を買います。",
@@ -600,12 +600,37 @@
           "kanji": "今朝ジョギングをして、シャワーを浴びて、仕事に来ました。",
           "kana": "けさ ジョギングを して、シャワーを あびて、しごとに きました。",
           "translation": "This morning I went jogging, took a shower, and came to work."
+        },
+        {
+          "kanji": "毎朝6時に起きて、朝ご飯を食べて、会社へ行きます。",
+          "kana": "まいあさ ろくじに おきて、あさごはんを たべて、かいしゃへ いきます。",
+          "translation": "Every morning I get up at six, eat breakfast, and go to the company."
+        },
+        {
+          "kanji": "昨日は友達に会って、映画を見て、晩ご飯を食べました。",
+          "kana": "きのうは ともだちに あって、えいがを みて、ばんごはんを たべました。",
+          "translation": "Yesterday I met a friend, watched a movie, and had dinner."
+        },
+        {
+          "kanji": "郵便局で切手を買って、手紙を出しました。",
+          "kana": "ゆうびんきょくで きってを かって、てがみを だしました。",
+          "translation": "I bought stamps at the post office and mailed a letter."
+        },
+        {
+          "kanji": "日曜日は図書館へ行って、本を借りて、うちへ帰りました。",
+          "kana": "にちようびは としょかんへ いって、ほんを かりて、うちへ かえりました。",
+          "translation": "On Sunday I went to the library, borrowed a book, and went home."
+        },
+        {
+          "kanji": "ここで電車に乗って、秋葉原駅で乗り換えてください。",
+          "kana": "ここで でんしゃに のって、あきはばらえきで のりかえて ください。",
+          "translation": "Please get on the train here and change at Akihabara Station."
         }
       ]
     },
     {
       "pattern": "Verb-て から、Sentence 2 [Sequence / Since]",
-      "explanation": "から marks a starting point ('from'). Attached to a verb's て-form, it explicitly emphasizes that Action 1 is completed FIRST before Action 2 takes place ('after doing V1, V2' or 'first do V1, then V2'). When followed by a continuous state in the ～ています form, it means 'since' (e.g., working somewhere since graduating).",
+      "explanation": "から marks a starting point ('from'). Attached to a verb's て-form, it explicitly emphasizes that Action 1 is completed FIRST before Action 2 takes place ('after doing V1, V2'). Compare: 食べて、行きます (neutral sequence) vs 食べてから、行きます (stresses 'only after eating'). When followed by a continuous state in the ～ています form, it means 'since' (e.g., living or working somewhere since a certain event).",
       "examples": [
         {
           "kanji": "お金を下ろしてから、買い物に行きました。",
@@ -618,15 +643,35 @@
           "translation": "Please push the button first, and then insert money."
         },
         {
-          "kanji": "大学を卒業してから、今の会社で働いています。",
-          "kana": "だいがくを そつぎょうしてから、いまの かいしゃで はたらいて います。",
-          "translation": "Since I graduated from university, I have been working at my current company."
+          "kanji": "大学を出てから、今の会社で働いています。",
+          "kana": "だいがくを でてから、いまの かいしゃで はたらいて います。",
+          "translation": "Since I left university, I have been working at my current company."
+        },
+        {
+          "kanji": "仕事が終わってから、友達に会います。",
+          "kana": "しごとが おわってから、ともだちに あいます。",
+          "translation": "After work finishes, I will meet a friend."
+        },
+        {
+          "kanji": "宿題をしてから、テレビを見ます。",
+          "kana": "しゅくだいを してから、テレビを みます。",
+          "translation": "I do my homework first, and then watch TV."
+        },
+        {
+          "kanji": "日本へ来てから、毎日日本語を勉強しています。",
+          "kana": "にほんへ きてから、まいにち にほんごを べんきょうして います。",
+          "translation": "Since coming to Japan, I have been studying Japanese every day."
+        },
+        {
+          "kanji": "昼ご飯を食べてから、散歩しませんか。",
+          "kana": "ひるごはんを たべてから、さんぽしませんか。",
+          "translation": "Shall we take a walk after lunch?"
         }
       ]
     },
     {
       "pattern": "い-adj (～くて) / な-adj (～で) / Noun (～で) [Connecting Descriptions]",
-      "explanation": "To chain adjective or noun predicate sentences: (1) い-adjectives: drop final い and add くて (小さい → 小さくて; note: いい becomes よくて). (2) な-adjectives: add で to the base word (静か → 静かで). (3) Noun sentences: add で to the noun (同僚 → 同僚で). Note: Say 『彼は同僚で、友達です』 instead of 『同僚と友達です』 because you are joining two predicate statements describing the same person, not listing separate items.",
+      "explanation": "To chain adjective or noun predicate sentences: (1) い-adjectives: drop final い and add くて (小さい → 小さくて; note: いい becomes よくて). (2) な-adjectives: add で to the base word (静か → 静かで). (3) Noun sentences: add で to the noun (先生 → 先生で). You can chain more than two (小さくて、軽くて、便利です). Note: say 『彼は会社員で、私の友達です』 instead of 『会社員と私の友達です』 because you are joining two predicate statements about the same person, not listing separate items.",
       "examples": [
         {
           "kanji": "私の町は小さくて、静かです。",
@@ -639,20 +684,50 @@
           "translation": "The hotel was inexpensive and the service was good."
         },
         {
-          "kanji": "彼は私の同僚で、友達です。",
-          "kana": "かれは わたしの どうりょうで、ともだちです。",
-          "translation": "He is my colleague and my friend."
+          "kanji": "彼は私の友達で、会社員です。",
+          "kana": "かれは わたしの ともだちで、かいしゃいんです。",
+          "translation": "He is my friend and a company employee."
         },
         {
-          "kanji": "彼は31歳で、独身です。",
-          "kana": "かれは さんじゅういっさいで、どくしんです。",
-          "translation": "He is 31 years old and single."
+          "kanji": "彼は31歳で、会社員です。",
+          "kana": "かれは さんじゅういっさいで、かいしゃいんです。",
+          "translation": "He is 31 years old and a company employee."
+        },
+        {
+          "kanji": "ミラーさんは背が高くて、ハンサムです。",
+          "kana": "ミラーさんは せが たかくて、ハンサムです。",
+          "translation": "Mr. Miller is tall and handsome."
+        },
+        {
+          "kanji": "この電車は速くて、便利です。",
+          "kana": "この でんしゃは はやくて、べんりです。",
+          "translation": "This train is fast and convenient."
+        },
+        {
+          "kanji": "田中さんはハンサムで、親切です。",
+          "kana": "たなかさんは ハンサムで、しんせつです。",
+          "translation": "Mr. Tanaka is handsome and kind."
+        },
+        {
+          "kanji": "こちらは山田さんで、会社員です。",
+          "kana": "こちらは やまださんで、かいしゃいんです。",
+          "translation": "This is Ms. Yamada; she is a company employee."
+        },
+        {
+          "kanji": "昨日は天気がよくて、暖かかったです。",
+          "kana": "きのうは てんきが よくて、あたたかかったです。",
+          "translation": "Yesterday the weather was good and warm."
+        },
+        {
+          "kanji": "この辞書は小さくて、軽くて、便利です。",
+          "kana": "この じしょは ちいさくて、かるくて、べんりです。",
+          "translation": "This dictionary is small, light, and convenient."
         }
       ]
     },
     {
       "pattern": "Adjective Contrast: ～が / ～けど [Positive vs. Negative Polarity]",
-      "explanation": "CRITICAL RULE: The て-form can ONLY connect traits that share the same polarity (positive + positive: 美味しくて安いです; negative + negative: 狭くて暗いです). When linking contrasting traits (positive + negative), using the て-form (✕ 美味しくて、高いです) sounds unnatural. Instead, you MUST use が (polite/formal) or けど (conversational) meaning 'but'.",
+      "explanation": "RULE OF THUMB: The て-form normally connects traits that share the same polarity (positive + positive: 美味しくて安いです; negative + negative: 小さくて暗いです). When linking contrasting traits (positive + negative), using the て-form (✕ 美味しくて、高いです) sounds unnatural. Instead, use が (polite/formal) or けど (conversational) meaning 'but'.",
       "examples": [
         {
           "kanji": "この料理は美味しいですが、高いです。",
@@ -663,6 +738,21 @@
           "kanji": "美味しいですけど、高いです。",
           "kana": "おいしいですけど、たかいです。",
           "translation": "It is delicious, but it's expensive (conversational)."
+        },
+        {
+          "kanji": "日本語はおもしろいですが、難しいです。",
+          "kana": "にほんごは おもしろいですが、むずかしいです。",
+          "translation": "Japanese is interesting, but it is difficult."
+        },
+        {
+          "kanji": "京都はきれいですが、人が多いです。",
+          "kana": "きょうとは きれいですが、ひとが おおいです。",
+          "translation": "Kyoto is beautiful, but there are many people."
+        },
+        {
+          "kanji": "この車は小さいけど、速いです。",
+          "kana": "この くるまは ちいさいけど、はやいです。",
+          "translation": "This car is small, but it's fast (conversational)."
         }
       ]
     },
@@ -684,12 +774,42 @@
           "kanji": "象は鼻が長いです。",
           "kana": "ぞうは はなが ながいです。",
           "translation": "Elephants have long trunks (noses)."
+        },
+        {
+          "kanji": "マリアさんは髪が短いです。",
+          "kana": "マリアさんは かみが みじかいです。",
+          "translation": "Maria has short hair."
+        },
+        {
+          "kanji": "田中さんは頭がいいです。",
+          "kana": "たなかさんは あたまが いいです。",
+          "translation": "Mr. Tanaka is smart (his head is good)."
+        },
+        {
+          "kanji": "ミラーさんは目が大きいです。",
+          "kana": "ミラーさんは めが おおきいです。",
+          "translation": "Mr. Miller has big eyes."
+        },
+        {
+          "kanji": "この町は緑が多いです。",
+          "kana": "この まちは みどりが おおいです。",
+          "translation": "This town has a lot of greenery."
+        },
+        {
+          "kanji": "日本は山が多いです。",
+          "kana": "にほんは やまが おおいです。",
+          "translation": "Japan has many mountains."
+        },
+        {
+          "kanji": "ワンさんは背が高くて、頭がいいです。",
+          "kana": "ワンさんは せが たかくて、あたまが いいです。",
+          "translation": "Mr. Wang is tall and smart. (combining patterns)"
         }
       ]
     },
     {
       "pattern": "どうやって vs. どう [Asking 'How']",
-      "explanation": "どうやって is formed from どう (how) + やって (て-form of やる, 'to do'), literally meaning 'doing how?'. It inquires strictly about the concrete method, process, or route used to complete an action. In contrast, どう is used for opinions (どう思いますか？; NEVER ✕どうやって思いますか), impressions/conditions (日本の生活はどうですか？), and offers (コーヒーはどうですか？).",
+      "explanation": "どうやって is formed from どう (how) + やって (て-form of やる, 'to do'), literally 'doing how?'. It asks strictly about the concrete method, process, or route used to complete an action; answer with a て-form chain (電車に乗って、…で降ります). In contrast, どう is used for impressions/conditions (日本の生活はどうですか？ — answer with adjectives), for how something was (映画はどうでしたか？), and for offers (コーヒーはどうですか？). ✕ 日本の生活はどうやってですか。",
       "examples": [
         {
           "kanji": "今日はどうやってここに来ましたか？",
@@ -697,20 +817,35 @@
           "translation": "How did you get here today?"
         },
         {
-          "kanji": "「McDonald's」は日本語でどうやって言いますか？",
-          "kana": "「McDonald's」は にほんごで どうやって いいますか？",
-          "translation": "How do you say 'McDonald's' in Japanese? (Answer: マクドナルド)"
+          "kanji": "駅から大学までどうやって行きますか？",
+          "kana": "えきから だいがくまで どうやって いきますか？",
+          "translation": "How do you get from the station to the university? (Answer: バスに乗って、大学の前で降ります。)"
         },
         {
-          "kanji": "映画についてどう思いますか？",
-          "kana": "えいがについて どう おもいますか？",
-          "translation": "What do you think about the movie? (Opinion: use どう, not どうやって)"
+          "kanji": "ATMはどうやって使いますか？",
+          "kana": "ATMは どうやって つかいますか？",
+          "translation": "How do you use the ATM? (Answer: お金を入れて、ボタンを押してください。)"
+        },
+        {
+          "kanji": "日本の生活はどうですか？",
+          "kana": "にほんの せいかつは どうですか？",
+          "translation": "How is life in Japan? (Impression: use どう, not どうやって)"
+        },
+        {
+          "kanji": "昨日の映画はどうでしたか？",
+          "kana": "きのうの えいがは どうでしたか？",
+          "translation": "How was yesterday's movie? (Answer: おもしろかったです。)"
+        },
+        {
+          "kanji": "コーヒーはどうですか？",
+          "kana": "コーヒーは どうですか？",
+          "translation": "How about some coffee? (Offer: use どう)"
         }
       ]
     },
     {
       "pattern": "どれ / どの Noun vs. どちら / どっち [Asking 'Which']",
-      "explanation": "For 3 or more options, use どれ ('which one' as a pronoun) or どの + Noun ('which [noun]'). For strictly 2 options, use どちら (polite) or どっち (casual) / どちらの + Noun. Particle rule: When identifying the unknown item or answering, the specific choice receives が (e.g., 赤い傘がたかしさんの傘です → どれがたかしさんの傘ですか？).",
+      "explanation": "For 3 or more options, use どれ ('which one' as a pronoun) or どの + Noun ('which [noun]'). For strictly 2 options, use どちら (polite) or どっち (casual) / どちらの + Noun. Particle rule: When identifying the unknown item or answering, the specific choice receives が (e.g., 赤い傘がたかしさんの傘です → どれがたかしさんの傘ですか？). Remember: どれ stands alone (どれですか); どの ALWAYS needs a noun right after it (どの かさ — ✕ どのが). For comparing two things, use the pattern A と B と、どちらが ～ですか (Lesson 12).",
       "examples": [
         {
           "kanji": "たかしさんの傘はどれですか？ / どれがたかしさんの傘ですか？",
@@ -726,6 +861,109 @@
           "kanji": "どちらの国が勝ちましたか？",
           "kana": "どちらの くにが かちましたか？",
           "translation": "Which country won? (Soccer match with strictly 2 competing countries)"
+        },
+        {
+          "kanji": "あなたのかばんはどれですか？",
+          "kana": "あなたの かばんは どれですか？",
+          "translation": "Which one is your bag? (Several bags)"
+        },
+        {
+          "kanji": "どの人がミラーさんですか？",
+          "kana": "どの ひとが ミラーさんですか？",
+          "translation": "Which person is Mr. Miller? (Many people)"
+        },
+        {
+          "kanji": "夏と冬と、どちらが好きですか？",
+          "kana": "なつと ふゆと、どちらが すきですか？",
+          "translation": "Which do you like better, summer or winter?"
+        },
+        {
+          "kanji": "バスと電車と、どっちが速いですか？",
+          "kana": "バスと でんしゃと、どっちが はやいですか？",
+          "translation": "Which is faster, the bus or the train? (casual)"
+        },
+        {
+          "kanji": "この3つの中で、どれがいちばん好きですか？",
+          "kana": "この みっつの なかで、どれが いちばん すきですか？",
+          "translation": "Of these three, which do you like the most?"
+        }
+      ]
+    },
+    {
+      "pattern": "て-form Conjugation Review [Lesson 14 recap you need for Lesson 16]",
+      "explanation": "Group 1 (u-verbs): い・ち・り → って (買います→買って, 待ちます→待って, 乗ります→乗って); み・び・に → んで (飲みます→飲んで, 遊びます→遊んで); き → いて (書きます→書いて); ぎ → いで (泳ぎます→泳いで); し → して (押します→押して, 出します→出して). EXCEPTION: 行きます → 行って. Group 2 (る-verbs): drop ます, add て (食べます→食べて, 降ります→降りて, 浴びます→浴びて, 乗り換えます→乗り換えて). Group 3 (irregular): します→して, 来ます→来て. Watch out: 帰ります (かえります) and 入ります (はいります) LOOK like Group 2 but are Group 1 → 帰って, 入って.",
+      "examples": [
+        {
+          "kanji": "手紙を出して、買い物に行きました。",
+          "kana": "てがみを だして、かいものに いきました。",
+          "translation": "I mailed a letter and went shopping. (出します → 出して)"
+        },
+        {
+          "kanji": "コーヒーを飲んで、新聞を読みます。",
+          "kana": "コーヒーを のんで、しんぶんを よみます。",
+          "translation": "I drink coffee and read the newspaper. (飲みます → 飲んで)"
+        },
+        {
+          "kanji": "うちへ帰って、シャワーを浴びます。",
+          "kana": "うちへ かえって、シャワーを あびます。",
+          "translation": "I go home and take a shower. (帰ります → 帰って: Group 1!)"
+        },
+        {
+          "kanji": "9時に会社に来て、仕事を始めます。",
+          "kana": "くじに かいしゃに きて、しごとを はじめます。",
+          "translation": "I come to the office at 9 and start work. (来ます → 来て)"
+        }
+      ]
+    },
+    {
+      "pattern": "Particles with Lesson 16 Verbs [Getting on/off, entering/leaving, putting in]",
+      "explanation": "Vehicle/place you get ON or INTO takes に: 電車に乗ります, 大学に入ります. Thing you get OFF or LEAVE takes を: バスを降ります, 家を出ます, 大学を出ます. The place where the action happens takes で: 新宿で乗り換えます (change AT Shinjuku); the vehicle you change TO takes に: 地下鉄に乗り換えます. Objects take を: お金を入れます / 下ろします, ボタンを押します, 手紙を出します. Source of money takes から: ATMからお金を下ろします.",
+      "examples": [
+        {
+          "kanji": "新宿で地下鉄に乗り換えます。",
+          "kana": "しんじゅくで ちかてつに のりかえます。",
+          "translation": "I change to the subway at Shinjuku."
+        },
+        {
+          "kanji": "バスを降りて、駅へ行きます。",
+          "kana": "バスを おりて、えきへ いきます。",
+          "translation": "I get off the bus and go to the station."
+        },
+        {
+          "kanji": "8時に家を出て、会社に行きます。",
+          "kana": "はちじに いえを でて、かいしゃに いきます。",
+          "translation": "I leave home at 8 and go to the company."
+        },
+        {
+          "kanji": "ATMからお金を下ろして、財布に入れます。",
+          "kana": "ATMから おかねを おろして、さいふに いれます。",
+          "translation": "I withdraw money from the ATM and put it in my wallet."
+        }
+      ]
+    },
+    {
+      "pattern": "～は どんな ～ですか [Asking for a description — putting Lesson 16 together]",
+      "explanation": "Ask about a person or place with どんな (Lesson 8) and answer by chaining adjectives with くて/で and using 『N1 は N2 が Adj』. Keep the same polarity when chaining with て, and switch to が/けど for contrasts.",
+      "examples": [
+        {
+          "kanji": "田中さんはどんな人ですか？ — 背が高くて、頭がいいです。",
+          "kana": "たなかさんは どんな ひとですか？ — せが たかくて、あたまが いいです。",
+          "translation": "What kind of person is Mr. Tanaka? — He is tall and smart."
+        },
+        {
+          "kanji": "京都はどんな町ですか？ — 静かで、緑が多いです。",
+          "kana": "きょうとは どんな まちですか？ — しずかで、みどりが おおいです。",
+          "translation": "What kind of town is Kyoto? — It is quiet and has lots of greenery."
+        },
+        {
+          "kanji": "大阪はどんな町ですか？ — にぎやかで、食べ物がおいしいです。",
+          "kana": "おおさかは どんな まちですか？ — にぎやかで、たべものが おいしいです。",
+          "translation": "What kind of town is Osaka? — It is lively and the food is delicious."
+        },
+        {
+          "kanji": "そのホテルはどうですか？ — 安いですが、少し暗いです。",
+          "kana": "その ホテルは どうですか？ — やすいですが、すこし くらいです。",
+          "translation": "How is that hotel? — It is cheap, but a little dark."
         }
       ]
     }
@@ -745,31 +983,56 @@
       },
       {
         "speaker": "マルコ",
-        "kanji": "そうですか。京都駅に着いてから、どこへ行ったらいいですか。",
-        "kana": "そうですか。きょうとえきに ついてから、どこへ いったら いいですか。"
+        "kanji": "そうですか。京都駅で降りてから、どこへ行きますか。",
+        "kana": "そうですか。きょうとえきで おりてから、どこへ いきますか。"
       },
       {
         "speaker": "さくら",
-        "kanji": "駅前から16番の市バスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。",
-        "kana": "えきまえから じゅうろくばんの しバスに のって、きんかくじへ いって ください。きんかくじは しずかで、きれいな おてらです。"
+        "kanji": "駅の前から16番のバスに乗って、金閣寺へ行ってください。金閣寺は静かで、きれいなお寺です。",
+        "kana": "えきの まえから じゅうろくばんの バスに のって、きんかくじへ いって ください。きんかくじは しずかで、きれいな おてらです。"
       },
       {
         "speaker": "マルコ",
-        "kanji": "いいですね。京都は食べ物も美味しいですか。",
+        "kanji": "いいですね。京都は食べ物もおいしいですか。",
         "kana": "いいですね。きょうとは たべものも おいしいですか。"
       },
       {
         "speaker": "さくら",
-        "kanji": "ええ、京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ。",
+        "kanji": "ええ、京都は緑が多くて、抹茶のアイスクリームがとてもおいしいですよ。",
         "kana": "ええ、きょうとは みどりが おおくて、まっちゃの アイスクリームが とても おいしいですよ。"
       },
       {
         "speaker": "マルコ",
-        "kanji": "楽しみです。親切に教えてくれてありがとうございます。",
-        "kana": "たのしみです。しんせつに おしえて くれて ありがとうございます。"
+        "kanji": "いいですね。お寺を見て、抹茶のアイスクリームを食べたいです。",
+        "kana": "いいですね。おてらを みて、まっちゃの アイスクリームを たべたいです。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "じゃあ、写真もたくさん撮ってくださいね。",
+        "kana": "じゃあ、しゃしんも たくさん とって くださいね。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "はい。さくらさんも一緒に行きませんか。",
+        "kana": "はい。さくらさんも いっしょに いきませんか。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "すみません、土曜日は友達に会いますから…。",
+        "kana": "すみません、どようびは ともだちに あいますから…。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "そうですか。じゃあ、一人で行って、おみやげを買って、帰ってから、見せます。",
+        "kana": "そうですか。じゃあ、ひとりで いって、おみやげを かって、かえってから、みせます。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "いいですね。じゃあ、日曜日に京都の写真を見せてください。",
+        "kana": "いいですね。じゃあ、にちようびに きょうとの しゃしんを みせて ください。"
       }
     ],
-    "translation": "Marco wants to visit Kyoto this Saturday and asks Sakura how to get there from Osaka. Sakura explains that he can take the JR Special Rapid train from Osaka Station and get off at Kyoto Station in about 30 minutes. She advises that after arriving at Kyoto Station, he should take city bus number 16 to visit Kinkaku-ji temple, which is quiet and beautiful. She also notes that Kyoto has abundant greenery and delicious matcha ice cream.",
+    "translation": "Marco wants to go to Kyoto this Saturday and asks Sakura how to get there from Osaka. She tells him to take the JR Special Rapid from Osaka Station and get off at Kyoto Station (30 minutes). After getting off, he should take bus number 16 from in front of the station to Kinkaku-ji, a quiet and beautiful temple. Kyoto has lots of greenery and delicious matcha ice cream. Marco says he wants to see the temple and eat matcha ice cream, and asks Sakura to come along, but she has plans with a friend on Saturday. Marco will go alone, buy souvenirs, and show her after he comes back; Sakura asks to see the photos on Sunday.",
     "questions": [
       {
         "question": "How does Sakura recommend traveling from Osaka Station to Kyoto Station?",
@@ -780,18 +1043,18 @@
           "Take city bus number 16 directly from Osaka"
         ],
         "answer": 1,
-        "explanation": "Sakura instructs Marco to board the JR Special Rapid train at Osaka Station and disembark at Kyoto Station (JRの新快速に乗って、京都駅で降ります)."
+        "explanation": "Sakura says: JRの新快速に乗って、京都駅で降ります (take the JR Special Rapid and get off at Kyoto Station)."
       },
       {
-        "question": "What should Marco do after arriving at Kyoto Station?",
+        "question": "What should Marco do after getting off at Kyoto Station?",
         "options": [
-          "Withdraw money from the ATM and return home",
-          "Take bus number 16 to visit Kinkaku-ji temple",
-          "Go straight to a restaurant because it is dark",
-          "Observe a factory tour"
+          "Withdraw money from the ATM and go home",
+          "Take bus number 16 to Kinkaku-ji",
+          "Go straight to a restaurant",
+          "Take a factory tour"
         ],
         "answer": 1,
-        "explanation": "Sakura tells him to take bus number 16 from the station to visit Kinkaku-ji (駅前から16番の市バスに乗って、金閣寺へ行ってください)."
+        "explanation": "Sakura tells him to take bus 16 from in front of the station to Kinkaku-ji (16番のバスに乗って、金閣寺へ行ってください)."
       },
       {
         "question": "How does Sakura describe Kyoto's environment and food?",
@@ -799,10 +1062,65 @@
           "It has a lot of greenery and delicious matcha ice cream.",
           "It is small and dark, and the service is bad.",
           "It is very expensive, but the days are short.",
-          "The temples are far and hard of hearing."
+          "The temples are far and the food is not good."
         ],
         "answer": 0,
-        "explanation": "Sakura states: 京都は緑が多くて、抹茶のアイスクリームがとても美味しいですよ (Kyoto has a lot of greenery and very delicious matcha ice cream)."
+        "explanation": "京都は緑が多くて、抹茶のアイスクリームがとてもおいしいですよ。"
+      },
+      {
+        "question": "How does Sakura describe Kinkaku-ji?",
+        "options": [
+          "Old and dark",
+          "Quiet and beautiful",
+          "Noisy and big",
+          "Cheap and delicious"
+        ],
+        "answer": 1,
+        "explanation": "金閣寺は静かで、きれいなお寺です — two adjectives joined with で (な-adjective connecting form)."
+      },
+      {
+        "question": "What does Marco want to do in Kyoto?",
+        "options": [
+          "See a temple and eat matcha ice cream",
+          "Take a shower and go jogging",
+          "Quit his company",
+          "Study at the university"
+        ],
+        "answer": 0,
+        "explanation": "お寺を見て、抹茶のアイスクリームを食べたいです — two actions chained with て-form + たい."
+      },
+      {
+        "question": "Why can't Sakura go with Marco?",
+        "options": [
+          "She has to go to the ATM",
+          "She is meeting a friend on Saturday",
+          "She doesn't like temples",
+          "She is going to Tokyo"
+        ],
+        "answer": 1,
+        "explanation": "土曜日は友達に会いますから… (I'm meeting a friend on Saturday)."
+      },
+      {
+        "question": "Which sentence from the dialogue uses ～てから to stress order?",
+        "options": [
+          "京都駅で降りてから、どこへ行きますか。",
+          "新快速に乗って、京都駅で降ります。",
+          "京都は緑が多くて、…",
+          "お寺を見て、…"
+        ],
+        "answer": 0,
+        "explanation": "降りてから emphasizes 'after getting off (first), where will I go?'"
+      },
+      {
+        "question": "In 『京都は緑が多くて』, which pattern is used?",
+        "options": [
+          "N1 は N2 が Adj (N1 = Kyoto, N2 = greenery)",
+          "N1 を N2 が Adj",
+          "Noun で Noun",
+          "どの + Noun"
+        ],
+        "answer": 0,
+        "explanation": "京都は(N1) 緑が(N2) 多い(Adj) — then 多い becomes 多くて to connect to the next clause."
       }
     ]
   },
@@ -883,10 +1201,10 @@
       "explanation": "In the pattern 『N1 は N2 が [Adjective] です』, N1 is the main topic (彼女) and N2 is the specific attribute or body part marked by が (髪が長いです)."
     },
     {
-      "question": "Choose the correct question word to ask for an opinion: 'What do you think about this?'",
+      "question": "Choose the correct question word to ask for an impression: 'How is life in Japan?'",
       "prompt": {
-        "kanji": "これについて___思いますか？",
-        "kana": "これについて___おもいますか？"
+        "kanji": "日本の生活は___ですか？",
+        "kana": "にほんの せいかつは ___ですか？"
       },
       "options": [
         "どう",
@@ -895,7 +1213,7 @@
         "どの"
       ],
       "answer": 0,
-      "explanation": "Use どう to ask for opinions and impressions (どう思いますか？). どうやって asks strictly for physical methods or procedures and is ungrammatical here."
+      "explanation": "Use どう to ask for impressions and conditions (日本の生活はどうですか？). どうやって asks only for a method or procedure."
     },
     {
       "question": "A soccer match is played between two countries (e.g., France vs. Argentina). Choose the correct question: 'Which country won?'",
@@ -909,10 +1227,10 @@
       "explanation": "When choosing between strictly two options, use どちらの + Noun (or casual どっちの). どの + Noun is reserved for three or more options."
     },
     {
-      "question": "Choose the correct way to join two noun predicates describing the same subject: 'He is my colleague and my friend.'",
+      "question": "Choose the correct way to join two noun predicates describing the same subject: 'Mr. Tanaka is a company employee and 31 years old.'",
       "prompt": {
-        "kanji": "彼は私の同僚___、友達です。",
-        "kana": "かれは わたしの どうりょう___、ともだちです。"
+        "kanji": "田中さんは会社員___、31歳です。",
+        "kana": "たなかさんは かいしゃいん___、さんじゅういっさいです。"
       },
       "options": [
         "と",
@@ -921,36 +1239,675 @@
         "に"
       ],
       "answer": 1,
-      "explanation": "Use で to connect noun predicate sentences (同僚で、友達です). と can only list separate objects or people, not join predicates describing the same subject."
+      "explanation": "Use で to connect noun predicate sentences (会社員で、31歳です). と can only list separate things, not join predicates about the same subject."
+    },
+    {
+      "question": "Choose the correct meaning of 降ります.",
+      "prompt": {
+        "kanji": "バスを降ります。",
+        "kana": "バスを おります。"
+      },
+      "options": [
+        "to get off",
+        "to get on",
+        "to withdraw money",
+        "to enter"
+      ],
+      "answer": 0,
+      "explanation": "降ります (おります) = to get off a vehicle: バスを降ります."
+    },
+    {
+      "question": "Choose the correct meaning of 下ろします.",
+      "prompt": {
+        "kanji": "ATMからお金を下ろします。",
+        "kana": "ATMから おかねを おろします。"
+      },
+      "options": [
+        "to withdraw [money]",
+        "to mail",
+        "to insert",
+        "to quit"
+      ],
+      "answer": 0,
+      "explanation": "お金を下ろします = to withdraw money (e.g. from the ATM)."
+    },
+    {
+      "question": "Choose the correct verb: 'I will enter university.'",
+      "prompt": {
+        "kanji": "大学に___。",
+        "kana": "だいがくに ___。"
+      },
+      "options": [
+        "入ります",
+        "出ます",
+        "降ります",
+        "乗ります"
+      ],
+      "answer": 0,
+      "explanation": "大学に入ります = enter (enroll in) university; 大学を出ます = graduate/leave."
+    },
+    {
+      "question": "Choose the correct verb: 'I mailed a letter.'",
+      "prompt": {
+        "kanji": "手紙を___。",
+        "kana": "てがみを ___。"
+      },
+      "options": [
+        "出しました",
+        "下ろしました",
+        "押しました",
+        "乗りました"
+      ],
+      "answer": 0,
+      "explanation": "手紙を出します = to mail a letter (出します also means to take out / hand in)."
+    },
+    {
+      "question": "What does 田中さんは頭がいいです mean?",
+      "options": [
+        "Mr. Tanaka is smart",
+        "Mr. Tanaka has a big head",
+        "Mr. Tanaka is tall",
+        "Mr. Tanaka has long hair"
+      ],
+      "answer": 0,
+      "explanation": "頭がいい (あたまがいい) = smart, clever."
+    },
+    {
+      "question": "Which word means 'ear'?",
+      "options": [
+        "目 (め)",
+        "耳 (みみ)",
+        "鼻 (はな)",
+        "口 (くち)"
+      ],
+      "answer": 1,
+      "explanation": "耳 = みみ (ear), 目 = eye, 鼻 = nose, 口 = mouth."
+    },
+    {
+      "question": "Choose the opposite of 長い (ながい).",
+      "options": [
+        "短い (みじかい)",
+        "若い (わかい)",
+        "暗い (くらい)",
+        "明るい (あかるい)"
+      ],
+      "answer": 0,
+      "explanation": "長い ↔ 短い. Also remember 明るい ↔ 暗い."
+    },
+    {
+      "question": "Choose the opposite of 明るい (あかるい).",
+      "options": [
+        "暗い (くらい)",
+        "短い (みじかい)",
+        "若い (わかい)",
+        "長い (ながい)"
+      ],
+      "answer": 0,
+      "explanation": "明るい (bright/cheerful) ↔ 暗い (dark/gloomy)."
+    },
+    {
+      "question": "Choose the correct て-form: 'I get up at six and eat breakfast.'",
+      "prompt": {
+        "kanji": "6時に___、朝ご飯を食べます。",
+        "kana": "ろくじに ___、あさごはんを たべます。"
+      },
+      "options": [
+        "起きて",
+        "起きって",
+        "起いて",
+        "起きで"
+      ],
+      "answer": 0,
+      "explanation": "起きます is Group 2 (drop ます, add て) → 起きて."
+    },
+    {
+      "question": "Choose the correct て-form: 'I met a friend and watched a movie.'",
+      "prompt": {
+        "kanji": "友達に___、映画を見ました。",
+        "kana": "ともだちに ___、えいがを みました。"
+      },
+      "options": [
+        "会って",
+        "会いて",
+        "会んで",
+        "会して"
+      ],
+      "answer": 0,
+      "explanation": "会います is Group 1 (い → って) → 会って."
+    },
+    {
+      "question": "Choose the correct て-form: 'I read a book and go to bed.'",
+      "prompt": {
+        "kanji": "本を___、寝ます。",
+        "kana": "ほんを ___、ねます。"
+      },
+      "options": [
+        "読んで",
+        "読って",
+        "読いて",
+        "読みて"
+      ],
+      "answer": 0,
+      "explanation": "読みます (み → んで) → 読んで."
+    },
+    {
+      "question": "Choose the correct て-form: 'Press the button and put in money.'",
+      "prompt": {
+        "kanji": "ボタンを___、お金を入れてください。",
+        "kana": "ボタンを ___、おかねを いれて ください。"
+      },
+      "options": [
+        "押して",
+        "押って",
+        "押いて",
+        "押んで"
+      ],
+      "answer": 0,
+      "explanation": "押します (し → して) → 押して."
+    },
+    {
+      "question": "Choose the correct sentence: 'I went to the library, borrowed a book, and went home.'",
+      "options": [
+        "図書館へ行って、本を借りて、うちへ帰りました。",
+        "図書館へ行きました、本を借りました、うちへ帰ります。",
+        "図書館へ行って、本を借ります、うちへ帰りました。",
+        "図書館へ行ったて、本を借りたて、うちへ帰りました。"
+      ],
+      "answer": 0,
+      "explanation": "Chain with plain て-forms; only the final verb (帰りました) shows past tense."
+    },
+    {
+      "question": "Which sentence is INCORRECT?",
+      "options": [
+        "シャワーを浴びて、寝ます。",
+        "ジョギングをして、シャワーを浴びます。",
+        "お金を下ろしてから、買い物に行きます。",
+        "朝ご飯を食べるて、学校へ行きます。"
+      ],
+      "answer": 3,
+      "explanation": "食べる cannot take て. Correct: 朝ご飯を食べて、学校へ行きます (Group 2: 食べます → 食べて)."
+    },
+    {
+      "question": "Which sentence means 'After eating dinner, I watch TV'?",
+      "options": [
+        "晩ご飯を食べてから、テレビを見ます。",
+        "テレビを見てから、晩ご飯を食べます。",
+        "晩ご飯を食べて、テレビを見ません。",
+        "晩ご飯とテレビを見ます。"
+      ],
+      "answer": 0,
+      "explanation": "V1てから、V2 = after V1, V2. The first action is the one with てから."
+    },
+    {
+      "question": "Choose the pattern that stresses 'only after finishing work' ('After work ends, I will meet a friend').",
+      "prompt": {
+        "kanji": "仕事が終わっ___、友達に会います。",
+        "kana": "しごとが おわっ___、ともだちに あいます。"
+      },
+      "options": [
+        "てから",
+        "て",
+        "と",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "終わってから stresses that meeting a friend happens after work is over."
+    },
+    {
+      "question": "Which sentence means 'Since I came to Japan, I have been studying Japanese'?",
+      "options": [
+        "日本へ来てから、日本語を勉強しています。",
+        "日本へ来て、日本語を勉強しません。",
+        "日本へ来ますから、日本語を勉強しました。",
+        "日本へ来てと、日本語を勉強しています。"
+      ],
+      "answer": 0,
+      "explanation": "V てから + ています = 'since doing V (and still continuing)'."
+    },
+    {
+      "question": "Choose the correct sentence: 'Please do your homework first, then watch TV.'",
+      "options": [
+        "宿題をしてから、テレビを見てください。",
+        "宿題をしてと、テレビを見てください。",
+        "宿題をするから、テレビを見てください。",
+        "宿題をしたから、テレビを見てください。"
+      ],
+      "answer": 0,
+      "explanation": "Use て-form + から to say 'first … then …'."
+    },
+    {
+      "question": "Choose the correct form: 'This town is small and pretty.' (い-adjective connecting)",
+      "prompt": {
+        "kanji": "この町は小さ___、きれいです。",
+        "kana": "この まちは ちいさ___、きれいです。"
+      },
+      "options": [
+        "くて",
+        "で",
+        "いで",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "小さい → 小さくて (drop い, add くて)."
+    },
+    {
+      "question": "Choose the correct connector for a な-adjective: 'This town is quiet and beautiful.'",
+      "prompt": {
+        "kanji": "この町は静か___、きれいです。",
+        "kana": "この まちは しずか___、きれいです。"
+      },
+      "options": [
+        "で",
+        "くて",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives use で: 静かで、きれいです."
+    },
+    {
+      "question": "Choose the correct form of いい: 'The service is good and it is cheap.'",
+      "prompt": {
+        "kanji": "このホテルはサービスが___、安いです。",
+        "kana": "この ホテルは サービスが ___、やすいです。"
+      },
+      "options": [
+        "よくて",
+        "いくて",
+        "いいで",
+        "よいで"
+      ],
+      "answer": 0,
+      "explanation": "いい is irregular: よくて."
+    },
+    {
+      "question": "Choose the most natural sentence.",
+      "options": [
+        "あの店は安くて、おいしいです。",
+        "あの店はおいしくて、高いです。",
+        "あの店はおいしいで、安いです。",
+        "あの店はおいしいと、安いです。"
+      ],
+      "answer": 0,
+      "explanation": "安くて、おいしい = positive + positive. 'Delicious but expensive' needs が/けど."
+    },
+    {
+      "question": "Choose the correct connector: 'This camera is small, but heavy.'",
+      "prompt": {
+        "kanji": "このカメラは小さい___、重いです。",
+        "kana": "この カメラは ちいさい___、おもいです。"
+      },
+      "options": [
+        "ですが",
+        "くて",
+        "で",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Small (neutral/positive) and heavy (negative) contrast → ですが / けど."
+    },
+    {
+      "question": "Choose the correct connector: 'Mr. Miller is handsome and kind.'",
+      "prompt": {
+        "kanji": "ミラーさんはハンサム___、親切です。",
+        "kana": "ミラーさんは ハンサム___、しんせつです。"
+      },
+      "options": [
+        "で",
+        "くて",
+        "と",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "ハンサム is a な-adjective → ハンサムで、親切です."
+    },
+    {
+      "question": "Choose the correct sentence: 'This dictionary is small, light, and convenient.'",
+      "options": [
+        "この辞書は小さくて、軽くて、便利です。",
+        "この辞書は小さいで、軽いで、便利です。",
+        "この辞書は小さくて、軽くて、便利くてです。",
+        "この辞書は小さいと、軽いと、便利です。"
+      ],
+      "answer": 0,
+      "explanation": "Chain い-adjectives with くて, and the final な-adjective just ends the sentence."
+    },
+    {
+      "question": "Choose the correct sentence: 'Mr. Tanaka is smart.'",
+      "options": [
+        "田中さんは頭がいいです。",
+        "田中さんは頭をいいです。",
+        "田中さんが頭はいいです。",
+        "田中さんは頭にいいです。"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2 が Adj: 田中さんは(N1) 頭が(N2) いい."
+    },
+    {
+      "question": "Choose the correct sentence: 'Kyoto has lots of greenery.'",
+      "options": [
+        "京都は緑が多いです。",
+        "京都は緑を多いです。",
+        "京都で緑が多いです。",
+        "京都を緑が多いです。"
+      ],
+      "answer": 0,
+      "explanation": "京都は + 緑が + 多いです."
+    },
+    {
+      "question": "Choose the correct sentence: 'Maria is tall and has short hair.'",
+      "options": [
+        "マリアさんは背が高くて、髪が短いです。",
+        "マリアさんは背が高いで、髪が短いです。",
+        "マリアさんは背が高くて、髪を短いです。",
+        "マリアさんが背は高くて、髪が短いです。"
+      ],
+      "answer": 0,
+      "explanation": "背が高くて (い-adj → くて) then 髪が短いです."
+    },
+    {
+      "question": "Which sentence is best when HAIR is the topic of conversation?",
+      "options": [
+        "彼女の髪は長いです。",
+        "彼女は髪が長いです。",
+        "彼女は髪に長いです。",
+        "彼女を髪が長いです。"
+      ],
+      "answer": 0,
+      "explanation": "彼女の髪は… makes the hair the topic; 彼女は髪が… makes the person the topic."
+    },
+    {
+      "question": "Choose the correct question word: 'How do you buy a ticket?'",
+      "prompt": {
+        "kanji": "切符は___買いますか？",
+        "kana": "きっぷは ___ かいますか？"
+      },
+      "options": [
+        "どうやって",
+        "どう",
+        "どれ",
+        "どの"
+      ],
+      "answer": 0,
+      "explanation": "Asking for a method/procedure → どうやって."
+    },
+    {
+      "question": "Choose the best question to ask about the method: 'How do you get to the station?'",
+      "options": [
+        "駅までどうやって行きますか。",
+        "駅までどうですか。",
+        "駅までどれ行きますか。",
+        "駅までどの行きますか。"
+      ],
+      "answer": 0,
+      "explanation": "Method of travel → どうやって + 行きますか."
+    },
+    {
+      "question": "Choose the correct question word: 'How was yesterday's movie?'",
+      "prompt": {
+        "kanji": "昨日の映画は___でしたか？",
+        "kana": "きのうの えいがは ___でしたか？"
+      },
+      "options": [
+        "どう",
+        "どうやって",
+        "どれ",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "Impression → どう: 映画はどうでしたか。"
+    },
+    {
+      "question": "Choose the correct word: 'Which bag is Mr. Miller's?' (many bags)",
+      "prompt": {
+        "kanji": "___かばんがミラーさんのですか？",
+        "kana": "___ かばんが ミラーさんのですか？"
+      },
+      "options": [
+        "どの",
+        "どれ",
+        "どう",
+        "どうやって"
+      ],
+      "answer": 0,
+      "explanation": "どの must be followed by a noun (どのかばん)."
+    },
+    {
+      "question": "Choose the correct word: 'Which one is Mr. Miller's umbrella?' (three or more)",
+      "prompt": {
+        "kanji": "ミラーさんのかさは___ですか？",
+        "kana": "ミラーさんの かさは ___ですか？"
+      },
+      "options": [
+        "どれ",
+        "どうやって",
+        "どう",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "どれ = which one (3+ choices), used without a noun."
+    },
+    {
+      "question": "Choose the correct word: 'Which do you want, coffee or tea?' (two choices)",
+      "prompt": {
+        "kanji": "コーヒーとお茶と、___がいいですか？",
+        "kana": "コーヒーと おちゃと、___が いいですか？"
+      },
+      "options": [
+        "どちら",
+        "どれ",
+        "どの",
+        "どうやって"
+      ],
+      "answer": 0,
+      "explanation": "Two choices → どちら (どっち in casual speech)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "電車___乗ります。",
+        "kana": "でんしゃ___ のります。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The vehicle you board takes に: 電車に乗ります."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "バス___降ります。",
+        "kana": "バス___ おります。"
+      },
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The vehicle you get off takes を: バスを降ります."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "新宿で地下鉄___乗り換えます。",
+        "kana": "しんじゅくで ちかてつ___ のりかえます。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The vehicle you transfer TO takes に: 地下鉄に乗り換えます."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "8時に家___出ます。",
+        "kana": "はちじに いえ___ でます。"
+      },
+      "options": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "You leave (get out of) a place with を: 家を出ます."
     }
   ],
   "writing": {
-    "title": "Daily Routine and Describing a Friend or City",
-    "prompt": "Write 3–4 sentences describing your daily routine in sequence using the て-form and ～てから. Then, describe a friend's physical features or your city using connected adjectives and the 『N1 は N2 が [Adjective]』 pattern.",
-    "placeholder": "朝起きてから、______ をして、______ を浴びます。\n私の町は ______ くて、______ です。\n私の友達は背が ______ くて、髪が ______ です。",
-    "modelAnswer": "毎朝起きてから、ジョギングをして、シャワーを浴びて、大学へ行きます。私の町は静かで、緑が多いです。私の友達は背が高くて、髪が長いです。"
+    "title": "Daily Routine, Describing a Friend, and Giving Directions",
+    "prompt": "Write 6–8 sentences in Japanese. (1) Describe your daily routine in order using the て-form and ～てから (3 actions or more). (2) Describe a friend's appearance/personality using connected adjectives and 『N1 は N2 が [Adjective]』 (e.g. 髪が長い, 背が高い, 頭がいい). (3) Describe your city or town using くて / で, and use が/けど for one contrast (good but bad). (4) Tell someone how to get to a place using どうやって-style directions with 乗って / 降りて / 乗り換えて.",
+    "placeholder": "朝起きてから、______ をして、______ を浴びます。\n私の友達は背が ______ くて、髪が ______ です。\n私の町は ______ で、______ が多いです。______ ですが、______ です。\n駅から ______ まで、______ に乗って、______ で降ります。",
+    "modelAnswer": "毎朝6時に起きて、ジョギングをして、シャワーを浴びてから、朝ご飯を食べます。それから、電車に乗って、会社へ行きます。私の友達のマリアさんは背が高くて、髪が長いです。そして、頭がよくて、親切です。私の町は静かで、緑が多いです。食べ物はおいしいですが、ちょっと遠いです。駅から大学まで、バスに乗って、大学の前で降りてください。"
   },
   "grammarDrills": {
     "sentences": [
       {
         "en": "This morning I jogged, took a shower, and came to work.",
-        "chunks": ["今朝ジョギングをして、", "シャワーを浴びて、", "仕事に来ました。"]
+        "chunks": [
+          "今朝ジョギングをして、",
+          "シャワーを浴びて、",
+          "仕事に来ました。"
+        ]
       },
       {
         "en": "After withdrawing money, I went shopping.",
-        "chunks": ["お金を下ろしてから、", "買い物に", "行きました。"]
+        "chunks": [
+          "お金を下ろしてから、",
+          "買い物に",
+          "行きました。"
+        ]
       },
       {
         "en": "Kinkaku-ji is quiet and a beautiful temple.",
-        "chunks": ["金閣寺は", "静かで、", "きれいな", "お寺です。"]
+        "chunks": [
+          "金閣寺は",
+          "静かで、",
+          "きれいな",
+          "お寺です。"
+        ]
       },
       {
         "en": "She has long hair and is tall in height.",
-        "chunks": ["彼女は", "髪が長くて、", "背が高いです。"]
+        "chunks": [
+          "彼女は",
+          "髪が長くて、",
+          "背が高いです。"
+        ]
       },
       {
         "en": "Take the Special Rapid train and get off at Kyoto Station.",
-        "chunks": ["新快速に乗って、", "京都駅で", "降ります。"]
+        "chunks": [
+          "新快速に乗って、",
+          "京都駅で",
+          "降ります。"
+        ]
+      },
+      {
+        "en": "I get up at six, eat breakfast, and go to the company.",
+        "chunks": [
+          "6時に起きて、",
+          "朝ご飯を食べて、",
+          "会社へ行きます。"
+        ]
+      },
+      {
+        "en": "After work finishes, I will meet a friend.",
+        "chunks": [
+          "仕事が終わってから、",
+          "友達に",
+          "会います。"
+        ]
+      },
+      {
+        "en": "Please push the button and then insert money.",
+        "chunks": [
+          "ボタンを押してから、",
+          "お金を",
+          "入れてください。"
+        ]
+      },
+      {
+        "en": "My town is bright and lively.",
+        "chunks": [
+          "私の町は",
+          "明るくて、",
+          "にぎやかです。"
+        ]
+      },
+      {
+        "en": "Mr. Miller is tall and handsome.",
+        "chunks": [
+          "ミラーさんは",
+          "背が高くて、",
+          "ハンサムです。"
+        ]
+      },
+      {
+        "en": "Maria has short hair and big eyes.",
+        "chunks": [
+          "マリアさんは",
+          "髪が短くて、",
+          "目が大きいです。"
+        ]
+      },
+      {
+        "en": "Which one is Takashi's umbrella?",
+        "chunks": [
+          "どれが",
+          "たかしさんの",
+          "かさですか。"
+        ]
+      },
+      {
+        "en": "How do you get from here to the station?",
+        "chunks": [
+          "ここから",
+          "駅まで",
+          "どうやって",
+          "行きますか。"
+        ]
+      },
+      {
+        "en": "Which is better, meat or fish?",
+        "chunks": [
+          "お肉と魚と、",
+          "どちらが",
+          "いいですか。"
+        ]
+      },
+      {
+        "en": "After taking out the trash, I go to the supermarket.",
+        "chunks": [
+          "ゴミを出してから、",
+          "スーパーへ",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "I get off the bus and transfer to the subway.",
+        "chunks": [
+          "バスを降りて、",
+          "地下鉄に",
+          "乗り換えます。"
+        ]
+      },
+      {
+        "en": "Japan has many mountains, and Kyoto has lots of greenery.",
+        "chunks": [
+          "日本は山が多くて、",
+          "京都は",
+          "緑が多いです。"
+        ]
       }
     ],
     "conjugations": [
@@ -958,107 +1915,586 @@
         "prompt": "乗ります (のります)",
         "form": "て-form",
         "answer": "のって",
-        "options": ["のって", "のりて", "のいで"],
+        "options": [
+          "のって",
+          "のりて",
+          "のいで"
+        ],
         "hint": "Group 1: -り changes to -って"
       },
       {
         "prompt": "降ります (おります)",
         "form": "て-form",
         "answer": "おりて",
-        "options": ["おりて", "おって", "おりいで"],
+        "options": [
+          "おりて",
+          "おって",
+          "おりいで"
+        ],
         "hint": "Group 2 verb: replace -ます with -て"
       },
       {
         "prompt": "浴びます (あびます)",
         "form": "て-form",
         "answer": "あびて",
-        "options": ["あびて", "あって", "あびいで"],
+        "options": [
+          "あびて",
+          "あって",
+          "あびいで"
+        ],
         "hint": "Group 2 verb: replace -ます with -て"
       },
       {
         "prompt": "行きます (いきます)",
         "form": "て-form",
         "answer": "いって",
-        "options": ["いって", "いきて", "いいて"],
+        "options": [
+          "いって",
+          "いきて",
+          "いいて"
+        ],
         "hint": "Special irregular Group 1: 行きます becomes 行って"
       },
       {
         "prompt": "出します (だします)",
         "form": "て-form",
         "answer": "だして",
-        "options": ["だして", "だって", "だしいて"],
+        "options": [
+          "だして",
+          "だって",
+          "だしいて"
+        ],
         "hint": "Group 1: -し changes to -して"
       },
       {
         "prompt": "明るい (あかるい)",
         "form": "Connecting (〜くて)",
         "answer": "あかるくて",
-        "options": ["あかるくて", "あかるいで", "あかるくと"],
+        "options": [
+          "あかるくて",
+          "あかるいで",
+          "あかるくと"
+        ],
         "hint": "い-adjective: drop -い and add -くて"
       },
       {
         "prompt": "静か (しずか)",
         "form": "Connecting (〜で)",
         "answer": "しずかで",
-        "options": ["しずかで", "しずかくて", "しずかに"],
+        "options": [
+          "しずかで",
+          "しずかくて",
+          "しずかに"
+        ],
         "hint": "な-adjective: add -で"
       },
       {
         "prompt": "いい (Good)",
         "form": "Connecting (〜くて)",
         "answer": "よくて",
-        "options": ["よくて", "いくて", "いいで"],
+        "options": [
+          "よくて",
+          "いくて",
+          "いいで"
+        ],
         "hint": "Irregular adjective: いい always conjugates from よい (よくて)"
+      },
+      {
+        "prompt": "買います (かいます)",
+        "form": "て-form",
+        "answer": "かって",
+        "options": [
+          "かって",
+          "かんで",
+          "かいて"
+        ],
+        "hint": "Group 1: い → って"
+      },
+      {
+        "prompt": "待ちます (まちます)",
+        "form": "て-form",
+        "answer": "まって",
+        "options": [
+          "まって",
+          "まちて",
+          "まんで"
+        ],
+        "hint": "Group 1: ち → って"
+      },
+      {
+        "prompt": "飲みます (のみます)",
+        "form": "て-form",
+        "answer": "のんで",
+        "options": [
+          "のんで",
+          "のって",
+          "のみて"
+        ],
+        "hint": "Group 1: み → んで"
+      },
+      {
+        "prompt": "遊びます (あそびます)",
+        "form": "て-form",
+        "answer": "あそんで",
+        "options": [
+          "あそんで",
+          "あそって",
+          "あそびて"
+        ],
+        "hint": "Group 1: び → んで"
+      },
+      {
+        "prompt": "書きます (かきます)",
+        "form": "て-form",
+        "answer": "かいて",
+        "options": [
+          "かいて",
+          "かって",
+          "かきて"
+        ],
+        "hint": "Group 1: き → いて"
+      },
+      {
+        "prompt": "泳ぎます (およぎます)",
+        "form": "て-form",
+        "answer": "およいで",
+        "options": [
+          "およいで",
+          "およいて",
+          "およって"
+        ],
+        "hint": "Group 1: ぎ → いで (voiced)"
+      },
+      {
+        "prompt": "話します (はなします)",
+        "form": "て-form",
+        "answer": "はなして",
+        "options": [
+          "はなして",
+          "はなんで",
+          "はないて"
+        ],
+        "hint": "Group 1: し → して"
+      },
+      {
+        "prompt": "帰ります (かえります)",
+        "form": "て-form",
+        "answer": "かえって",
+        "options": [
+          "かえって",
+          "かえて",
+          "かえりて"
+        ],
+        "hint": "Looks like Group 2 but it is Group 1: り → って"
+      },
+      {
+        "prompt": "入ります (はいります)",
+        "form": "て-form",
+        "answer": "はいって",
+        "options": [
+          "はいって",
+          "はいて",
+          "はいりて"
+        ],
+        "hint": "Group 1 (not Group 2): り → って"
+      },
+      {
+        "prompt": "見ます (みます)",
+        "form": "て-form",
+        "answer": "みて",
+        "options": [
+          "みて",
+          "みって",
+          "みんで"
+        ],
+        "hint": "Group 2: ます → て"
+      },
+      {
+        "prompt": "食べます (たべます)",
+        "form": "て-form",
+        "answer": "たべて",
+        "options": [
+          "たべて",
+          "たべって",
+          "たべんで"
+        ],
+        "hint": "Group 2: ます → て"
+      },
+      {
+        "prompt": "起きます (おきます)",
+        "form": "て-form",
+        "answer": "おきて",
+        "options": [
+          "おきて",
+          "おいて",
+          "おきって"
+        ],
+        "hint": "Group 2: ます → て"
+      },
+      {
+        "prompt": "入れます (いれます)",
+        "form": "て-form",
+        "answer": "いれて",
+        "options": [
+          "いれて",
+          "いれって",
+          "いれんで"
+        ],
+        "hint": "Group 2: ます → て"
+      },
+      {
+        "prompt": "乗り換えます (のりかえます)",
+        "form": "て-form",
+        "answer": "のりかえて",
+        "options": [
+          "のりかえて",
+          "のりかえって",
+          "のりかえんで"
+        ],
+        "hint": "Group 2: ます → て"
+      },
+      {
+        "prompt": "押します (おします)",
+        "form": "て-form",
+        "answer": "おして",
+        "options": [
+          "おして",
+          "おって",
+          "おいて"
+        ],
+        "hint": "Group 1: し → して"
+      },
+      {
+        "prompt": "下ろします (おろします)",
+        "form": "て-form",
+        "answer": "おろして",
+        "options": [
+          "おろして",
+          "おろって",
+          "おろいて"
+        ],
+        "hint": "Group 1: し → して"
+      },
+      {
+        "prompt": "します",
+        "form": "て-form",
+        "answer": "して",
+        "options": [
+          "して",
+          "しって",
+          "しんで"
+        ],
+        "hint": "Group 3 irregular"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "て-form",
+        "answer": "きて",
+        "options": [
+          "きて",
+          "きって",
+          "こて"
+        ],
+        "hint": "Group 3 irregular"
+      },
+      {
+        "prompt": "長い (ながい)",
+        "form": "Connecting (〜くて)",
+        "answer": "ながくて",
+        "options": [
+          "ながくて",
+          "ながいで",
+          "ながくと"
+        ],
+        "hint": "い-adjective: drop い, add くて"
+      },
+      {
+        "prompt": "短い (みじかい)",
+        "form": "Connecting (〜くて)",
+        "answer": "みじかくて",
+        "options": [
+          "みじかくて",
+          "みじかいで",
+          "みじかくと"
+        ],
+        "hint": "い-adjective: drop い, add くて"
+      },
+      {
+        "prompt": "暗い (くらい)",
+        "form": "Connecting (〜くて)",
+        "answer": "くらくて",
+        "options": [
+          "くらくて",
+          "くらいで",
+          "くらくと"
+        ],
+        "hint": "い-adjective: drop い, add くて"
+      },
+      {
+        "prompt": "若い (わかい)",
+        "form": "Connecting (〜くて)",
+        "answer": "わかくて",
+        "options": [
+          "わかくて",
+          "わかいで",
+          "わかくと"
+        ],
+        "hint": "い-adjective: drop い, add くて"
+      },
+      {
+        "prompt": "親切 (しんせつ)",
+        "form": "Connecting (〜で)",
+        "answer": "しんせつで",
+        "options": [
+          "しんせつで",
+          "しんせつくて",
+          "しんせつに"
+        ],
+        "hint": "な-adjective: add で"
+      },
+      {
+        "prompt": "有名 (ゆうめい)",
+        "form": "Connecting (〜で)",
+        "answer": "ゆうめいで",
+        "options": [
+          "ゆうめいで",
+          "ゆうめいくて",
+          "ゆうめいと"
+        ],
+        "hint": "な-adjective: add で"
+      },
+      {
+        "prompt": "学生 (がくせい)",
+        "form": "Connecting (Noun 〜で)",
+        "answer": "がくせいで",
+        "options": [
+          "がくせいで",
+          "がくせいくて",
+          "がくせいと"
+        ],
+        "hint": "Noun: add で to join two noun predicates"
       }
     ],
     "particles": [
       {
         "sentence": "大阪駅から新快速 [ ? ] 乗ります。",
         "answer": "に",
-        "options": ["に", "を", "で", "へ"],
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
         "hint": "Boarding a vehicle uses particle に (電車に乗ります)."
       },
       {
         "sentence": "京都駅でバス [ ? ] 降ります。",
         "answer": "を",
-        "options": ["を", "に", "で", "から"],
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
         "hint": "Disembarking or leaving a vehicle uses particle を."
       },
       {
         "sentence": "秋葉原駅 [ ? ] 電車を乗り換えます。",
         "answer": "で",
-        "options": ["で", "に", "を", "へ"],
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
         "hint": "The station where you do the action (transfer) takes で."
       },
       {
         "sentence": "京都まで30分 [ ? ] 行きますよ。",
         "answer": "で",
-        "options": ["で", "に", "を", "まで"],
+        "options": [
+          "で",
+          "に",
+          "を",
+          "まで"
+        ],
         "hint": "Time duration or limit to complete an action takes で."
       },
       {
         "sentence": "象は鼻 [ ? ] 長いです。",
         "answer": "が",
-        "options": ["が", "は", "を", "に"],
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
         "hint": "In 『N1 は N2 が Adj』, the specific body feature takes が."
       },
       {
         "sentence": "彼は私の同僚 [ ? ]、友達です。",
         "answer": "で",
-        "options": ["で", "と", "に", "を"],
+        "options": [
+          "で",
+          "と",
+          "に",
+          "を"
+        ],
         "hint": "Joining two noun descriptions for the same person uses で."
       },
       {
         "sentence": "ATM [ ? ] お金を下ろしました。",
         "answer": "から",
-        "options": ["から", "で", "に", "まで"],
+        "options": [
+          "から",
+          "で",
+          "に",
+          "まで"
+        ],
         "hint": "Starting point / withdrawal source uses から."
       },
       {
         "sentence": "お肉と魚と、どちら [ ? ] いいですか。",
         "answer": "が",
-        "options": ["が", "は", "を", "で"],
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
         "hint": "Question words like どちら / どれ take the subject marker が."
+      },
+      {
+        "sentence": "友達 [ ? ] 会ってから、映画を見ます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "と"
+        ],
+        "hint": "会います takes に (the person you meet)."
+      },
+      {
+        "sentence": "大学 [ ? ] 入ります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Entering a place/school takes に."
+      },
+      {
+        "sentence": "8時に家 [ ? ] 出ます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
+        "hint": "Leaving a place takes を."
+      },
+      {
+        "sentence": "ボタン [ ? ] 押してから、お金を入れます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object of 押します takes を."
+      },
+      {
+        "sentence": "手紙 [ ? ] 出してから、買い物に行きます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object of 出します takes を."
+      },
+      {
+        "sentence": "新宿で地下鉄 [ ? ] 乗り換えます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The vehicle you transfer TO takes に."
+      },
+      {
+        "sentence": "銀行 [ ? ] お金を下ろします。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "The place where the action happens takes で."
+      },
+      {
+        "sentence": "マリアさんは髪 [ ? ] 短いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "N1 は N2 が Adj: the feature takes が."
+      },
+      {
+        "sentence": "京都は食べ物 [ ? ] おいしいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "N1 は N2 が Adj."
+      },
+      {
+        "sentence": "どれ [ ? ] ミラーさんのかさですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Question words as the subject take が."
+      },
+      {
+        "sentence": "会社 [ ? ] やめました。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "やめます takes を (the thing you quit)."
+      },
+      {
+        "sentence": "大阪 [ ? ] 京都まで電車で30分です。",
+        "answer": "から",
+        "options": [
+          "から",
+          "で",
+          "に",
+          "を"
+        ],
+        "hint": "Starting point of a route → から."
       }
     ],
     "dialogues": [
@@ -1067,9 +2503,18 @@
         "speaker": "マルコ",
         "prompt": "京都へどうやって行きますか？",
         "options": [
-          { "text": "新快速に乗って、京都駅で降りますよ。", "correct": true },
-          { "text": "新快速に乗るで、京都駅を行きます。", "correct": false },
-          { "text": "京都は抹茶が美味しいです。", "correct": false }
+          {
+            "text": "新快速に乗って、京都駅で降りますよ。",
+            "correct": true
+          },
+          {
+            "text": "新快速に乗るで、京都駅を行きます。",
+            "correct": false
+          },
+          {
+            "text": "京都は抹茶が美味しいです。",
+            "correct": false
+          }
         ],
         "tip": "Chain actions sequentially using the て-form: 乗って、降ります."
       },
@@ -1078,9 +2523,18 @@
         "speaker": "同僚",
         "prompt": "田中さんはどんな人ですか？",
         "options": [
-          { "text": "背が高くて、明るい人です。", "correct": true },
-          { "text": "背が高いで、暗い人です。", "correct": false },
-          { "text": "背が高いと、明るいです。", "correct": false }
+          {
+            "text": "背が高くて、明るい人です。",
+            "correct": true
+          },
+          {
+            "text": "背が高いで、暗い人です。",
+            "correct": false
+          },
+          {
+            "text": "背が高いと、明るいです。",
+            "correct": false
+          }
         ],
         "tip": "Connect い-adjectives with 〜くて (背が高くて、明るい人)."
       },
@@ -1089,9 +2543,18 @@
         "speaker": "店員",
         "prompt": "コーヒーとお茶と、どちらがいいですか？",
         "options": [
-          { "text": "コーヒーがいいです。", "correct": true },
-          { "text": "コーヒーがどうやってです。", "correct": false },
-          { "text": "どれがいいです。", "correct": false }
+          {
+            "text": "コーヒーがいいです。",
+            "correct": true
+          },
+          {
+            "text": "コーヒーがどうやってです。",
+            "correct": false
+          },
+          {
+            "text": "どれがいいです。",
+            "correct": false
+          }
         ],
         "tip": "When choosing from 2 options, respond with [Choice] が いいです."
       },
@@ -1100,11 +2563,200 @@
         "speaker": "友達",
         "prompt": "切符はどうやって買いますか？",
         "options": [
-          { "text": "ボタンを押してから、お金を入れてください。", "correct": true },
-          { "text": "ボタンを押してと、お金を入れるです。", "correct": false },
-          { "text": "お金を引きます。", "correct": false }
+          {
+            "text": "ボタンを押してから、お金を入れてください。",
+            "correct": true
+          },
+          {
+            "text": "ボタンを押してと、お金を入れるです。",
+            "correct": false
+          },
+          {
+            "text": "お金を引きます。",
+            "correct": false
+          }
         ],
         "tip": "Emphasize doing Action 1 first using 〜てから (押してから)."
+      },
+      {
+        "situation": "Asking what a person is like",
+        "speaker": "同僚",
+        "prompt": "ミラーさんはどんな人ですか？",
+        "options": [
+          {
+            "text": "親切で、頭がいいです。",
+            "correct": true
+          },
+          {
+            "text": "親切くて、頭がいいです。",
+            "correct": false
+          },
+          {
+            "text": "親切と、頭がいいです。",
+            "correct": false
+          }
+        ],
+        "tip": "な-adjective: 親切 + で → 親切で."
+      },
+      {
+        "situation": "Talking about yesterday",
+        "speaker": "友達",
+        "prompt": "昨日は何をしましたか？",
+        "options": [
+          {
+            "text": "銀行でお金を下ろしてから、買い物に行きました。",
+            "correct": true
+          },
+          {
+            "text": "お金を下ろすから、買い物に行きました。",
+            "correct": false
+          },
+          {
+            "text": "お金を下ろしてと、買い物に行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Use V てから for 'first … then …'."
+      },
+      {
+        "situation": "Finding an umbrella",
+        "speaker": "友達",
+        "prompt": "あなたのかさはどれですか？",
+        "options": [
+          {
+            "text": "あの青いかさです。",
+            "correct": true
+          },
+          {
+            "text": "あの青いかさがどうやってです。",
+            "correct": false
+          },
+          {
+            "text": "どちらですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer a どれ question by pointing to one of the choices."
+      },
+      {
+        "situation": "Comparing two people",
+        "speaker": "友達",
+        "prompt": "ミラーさんとワンさんと、どちらが背が高いですか？",
+        "options": [
+          {
+            "text": "ミラーさんのほうが高いです。",
+            "correct": true
+          },
+          {
+            "text": "ミラーさんがどれです。",
+            "correct": false
+          },
+          {
+            "text": "ミラーさんがどうやって高いです。",
+            "correct": false
+          }
+        ],
+        "tip": "Two options → どちら; answer with Aのほうが ～です."
+      },
+      {
+        "situation": "Going to Tokyo",
+        "speaker": "友達",
+        "prompt": "大阪から東京までどうやって行きますか？",
+        "options": [
+          {
+            "text": "新幹線に乗って、東京駅で降ります。",
+            "correct": true
+          },
+          {
+            "text": "新幹線を乗って、東京駅に降ります。",
+            "correct": false
+          },
+          {
+            "text": "新幹線に乗るて、東京駅で降ります。",
+            "correct": false
+          }
+        ],
+        "tip": "乗ります takes に; 降ります takes を (or place + で); chain with て."
+      },
+      {
+        "situation": "Talking about life in Japan",
+        "speaker": "先生",
+        "prompt": "日本の生活はどうですか？",
+        "options": [
+          {
+            "text": "おもしろいですが、ちょっと難しいです。",
+            "correct": true
+          },
+          {
+            "text": "おもしろくて、難しいです。",
+            "correct": false
+          },
+          {
+            "text": "おもしろいで、難しいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Positive + negative contrast → ですが / けど, not て."
+      },
+      {
+        "situation": "Daily routine",
+        "speaker": "友達",
+        "prompt": "毎朝何をしますか？",
+        "options": [
+          {
+            "text": "起きて、シャワーを浴びて、朝ご飯を食べます。",
+            "correct": true
+          },
+          {
+            "text": "起きるて、シャワーを浴びるて、朝ご飯を食べます。",
+            "correct": false
+          },
+          {
+            "text": "起きますて、シャワーを浴びますて、朝ご飯を食べます。",
+            "correct": false
+          }
+        ],
+        "tip": "Group 2 verbs: ます → て (起きて, 浴びて)."
+      },
+      {
+        "situation": "Asking for bus directions",
+        "speaker": "旅行者",
+        "prompt": "お寺へはどうやって行きますか？",
+        "options": [
+          {
+            "text": "16番のバスに乗って、お寺の前で降りてください。",
+            "correct": true
+          },
+          {
+            "text": "16番のバスを乗って、お寺の前に降りてください。",
+            "correct": false
+          },
+          {
+            "text": "16番のバスに乗るて、お寺の前で降ります。",
+            "correct": false
+          }
+        ],
+        "tip": "On: に乗って / off: で降りて (place + で) — chained with て."
+      },
+      {
+        "situation": "Finding a person at a party",
+        "speaker": "友達",
+        "prompt": "どの人が田中さんですか？",
+        "options": [
+          {
+            "text": "あの人です。",
+            "correct": true
+          },
+          {
+            "text": "あの人はどれですか。",
+            "correct": false
+          },
+          {
+            "text": "どちらですか。",
+            "correct": false
+          }
+        ],
+        "tip": "どの + Noun asks which person (3+ people); answer by identifying one."
       }
     ]
   }
