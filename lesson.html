@@ -5,12 +5,48 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Lesson | Minna Study Path</title>
   <link rel="stylesheet" href="assets/lesson-app.css">
+  <style>
+    .lesson-top-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+    .arcade-launch-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #FF7E9E, #E75480);
+      color: #FFF !important;
+      font-weight: 850;
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(231, 84, 128, 0.3);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .arcade-launch-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(231, 84, 128, 0.4);
+    }
+  </style>
 </head>
 <body>
   <main class="shell lesson-shell">
-    <a class="back-link" href="index.html">← All lessons</a>
+    <div class="lesson-top-actions">
+      <a class="back-link" href="index.html">← All lessons</a>
+      <a class="arcade-launch-btn" id="arcade-link" href="Exercise.htm">🌸 Play Arcade Mode ▶</a>
+    </div>
     <div id="lesson-app" aria-live="polite"><p class="loading">Loading lesson…</p></div>
   </main>
+  <script>
+    // Read the current lesson from the URL (defaults to 16 if none is specified)
+    const currentLesson = new URLSearchParams(window.location.search).get('lesson') || '16';
+    // Update the button so it opens Arcade with the EXACT same lesson number
+    document.getElementById('arcade-link').href = `Exercise.htm?lesson=${currentLesson}`;
+  </script>
   <script src="assets/lesson-app.js"></script>
 </body>
 </html>

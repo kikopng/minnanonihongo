@@ -1,0 +1,1951 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 25,
+    "title": "Conditionals (~たら), Concessions (~ても), and Hypothetical Reasoning",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master hypothetical and sequential conditions with ～たら and ～なかったら, certain future occurrences ('when/after'), contrasting sequence constraints with なら, concessive clauses with ～ても / ～でも and ～なくても, subordinate clause subject marking with が, and common conversational expressions for parting and job transfers."
+  },
+  "vocabulary": [
+    {
+      "id": "kangaemasu",
+      "kanji": "考えます",
+      "kana": "かんがえます",
+      "romaji": "kangaemasu",
+      "meaning": "to think; to consider; to use one's brain (logical reasoning)",
+      "category": "verb",
+      "example": {
+        "kanji": "もっとよく考えてください。",
+        "kana": "もっと よく かんがえて ください。",
+        "translation": "Please think harder / consider it more carefully."
+      }
+    },
+    {
+      "id": "tsukimasu",
+      "kanji": "着きます",
+      "kana": "つきます",
+      "romaji": "tsukimasu",
+      "meaning": "to arrive [at a place: に]",
+      "category": "verb",
+      "example": {
+        "kanji": "駅に着いたら、電話してください。",
+        "kana": "えきに ついたら、でんわして ください。",
+        "translation": "When you arrive at the station, please call me."
+      }
+    },
+    {
+      "id": "toshi-o-torimasu",
+      "kanji": "年を取ります",
+      "kana": "としをとります",
+      "romaji": "toshi o torimasu",
+      "meaning": "to grow old; to age",
+      "category": "verb",
+      "example": {
+        "kanji": "年を取ったら、田舎で暮らしたいです。",
+        "kana": "としを とったら、いなかで くらしたいです。",
+        "translation": "When I get older, I want to live in the countryside."
+      }
+    },
+    {
+      "id": "tarimasu",
+      "kanji": "足ります",
+      "kana": "たります",
+      "romaji": "tarimasu",
+      "meaning": "to be enough; to be sufficient [Group 2 verb despite ending in -imasu]",
+      "category": "verb",
+      "example": {
+        "kanji": "3つで足りると思いますか？",
+        "kana": "みっつで たりると おもいますか？",
+        "translation": "Do you think three will be enough?"
+      }
+    },
+    {
+      "id": "ganbarimasu",
+      "kanji": "頑張ります",
+      "kana": "がんばります",
+      "romaji": "ganbarimasu",
+      "meaning": "to do one's best; to persist; to hang in there",
+      "category": "verb",
+      "example": {
+        "kanji": "明日テストがありますから、頑張ります！",
+        "kana": "あした テストが ありますから、がんばります！",
+        "translation": "I have a test tomorrow, so I will do my best!"
+      }
+    },
+    {
+      "id": "tenkin-shimasu",
+      "kanji": "転勤します",
+      "kana": "てんきんします",
+      "romaji": "tenkin shimasu",
+      "meaning": "to transfer to another office/branch",
+      "category": "verb",
+      "example": {
+        "kanji": "来月東京支店に転勤します。",
+        "kana": "らいげつ とうきょうしてんに てんきんします。",
+        "translation": "Next month I will transfer to the Tokyo branch office."
+      }
+    },
+    {
+      "id": "ryuugaku-shimasu",
+      "kanji": "留学します",
+      "kana": "りゅうがくします",
+      "romaji": "ryuugaku shimasu",
+      "meaning": "to study abroad",
+      "category": "verb",
+      "example": {
+        "kanji": "大学を出たら、日本へ留学したいです。",
+        "kana": "だいがくを でたら、にほんへ りゅうがくしたいです。",
+        "translation": "After I graduate from university, I want to study abroad in Japan."
+      }
+    },
+    {
+      "id": "kurashimasu",
+      "kanji": "暮らします",
+      "kana": "くらします",
+      "romaji": "kurashimasu",
+      "meaning": "to live; to make a living; to spend one's days",
+      "category": "verb",
+      "example": {
+        "kanji": "静かな町で暮らしたいです。",
+        "kana": "しずかな まちで くらしたいです。",
+        "translation": "I want to live in a quiet town."
+      }
+    },
+    {
+      "id": "inaka",
+      "kanji": "田舎",
+      "kana": "いなか",
+      "romaji": "inaka",
+      "meaning": "countryside; rural area; hometown",
+      "category": "noun",
+      "example": {
+        "kanji": "田舎は緑が多くて、空気がきれいです。",
+        "kana": "いなかは みどりが おおくて、くうきが きれいです。",
+        "translation": "The countryside has plenty of greenery and fresh air."
+      }
+    },
+    {
+      "id": "tokai",
+      "kanji": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "meaning": "city; metropolis (antonym of 田舎)",
+      "category": "noun",
+      "example": {
+        "kanji": "都会は便利ですが、人が多いです。",
+        "kana": "とかいは べんりですが、ひとが おおいです。",
+        "translation": "Cities are convenient, but there are a lot of people."
+      }
+    },
+    {
+      "id": "chansu",
+      "kanji": "チャンス",
+      "kana": "チャンス",
+      "romaji": "chansu",
+      "meaning": "chance; opportunity",
+      "category": "noun",
+      "example": {
+        "kanji": "チャンスがあったら、外国で働きたいです。",
+        "kana": "チャンスが あったら、がいこくで はたらきたいです。",
+        "translation": "If I get the chance, I want to work in a foreign country."
+      }
+    },
+    {
+      "id": "oku",
+      "kanji": "億",
+      "kana": "おく",
+      "romaji": "oku",
+      "meaning": "hundred million (100,000,000)",
+      "category": "noun",
+      "example": {
+        "kanji": "1億円あったら、どうしますか？",
+        "kana": "いちおくえん あったら、どうしますか？",
+        "translation": "If you had 100 million yen, what would you do?"
+      }
+    },
+    {
+      "id": "imi",
+      "kanji": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "meaning": "meaning; significance",
+      "category": "noun",
+      "example": {
+        "kanji": "この言葉の意味が分かりますか？",
+        "kana": "この ことばの いみが わかりますか？",
+        "translation": "Do you understand the meaning of this word?"
+      }
+    },
+    {
+      "id": "tenkin",
+      "kanji": "転勤",
+      "kana": "てんきん",
+      "romaji": "tenkin",
+      "meaning": "job transfer; relocation for work",
+      "category": "noun",
+      "example": {
+        "kanji": "転勤が決まりました。",
+        "kana": "てんきんが きまりました。",
+        "translation": "My job transfer has been decided."
+      }
+    },
+    {
+      "id": "shiten",
+      "kanji": "支店",
+      "kana": "してん",
+      "romaji": "shiten",
+      "meaning": "branch office",
+      "category": "noun",
+      "example": {
+        "kanji": "大阪支店から東京支店へ行きます。",
+        "kana": "おおさかしてんから とうきょうしてんへ いきます。",
+        "translation": "I am going from the Osaka branch to the Tokyo branch."
+      }
+    },
+    {
+      "id": "koto",
+      "kanji": "こと",
+      "kana": "こと",
+      "romaji": "koto",
+      "meaning": "thing; matter; affair",
+      "category": "noun",
+      "example": {
+        "kanji": "将来のことをよく考えます。",
+        "kana": "しょうらいの ことを よく かんがえます。",
+        "translation": "I think carefully about matters concerning the future."
+      }
+    },
+    {
+      "id": "moshimoshi",
+      "kanji": "もしもし",
+      "kana": "もしもし",
+      "romaji": "moshimoshi",
+      "meaning": "hello (exclusively used on the phone)",
+      "category": "expression",
+      "example": {
+        "kanji": "もしもし、田中さんですか。",
+        "kana": "もしもし、たなかさんですか。",
+        "translation": "Hello, is this Mr. Tanaka?"
+      }
+    },
+    {
+      "id": "moshi",
+      "kanji": "もし",
+      "kana": "もし",
+      "romaji": "moshi",
+      "meaning": "if; supposing that... (adverb emphasizing hypothetical conditions)",
+      "category": "adverb",
+      "example": {
+        "kanji": "もし雨が降っても、出かけます。",
+        "kana": "もし あめが ふっても、でかけます。",
+        "translation": "Even if it rains, I will still head out."
+      }
+    },
+    {
+      "id": "kanashii",
+      "kanji": "悲しい",
+      "kana": "かなしい",
+      "romaji": "kanashii",
+      "meaning": "sad; sorrowful",
+      "category": "adjective",
+      "example": {
+        "kanji": "佐藤さんが辞めたら、私は悲しいです。",
+        "kana": "さとうさんが やめたら、わたしは かなしいです。",
+        "translation": "If Sato-san leaves the company, I will be sad."
+      }
+    },
+    {
+      "id": "suzushii",
+      "kanji": "涼しい",
+      "kana": "すずしい",
+      "romaji": "suzushii",
+      "meaning": "cool; pleasantly cool (temperature/breeze)",
+      "category": "adjective",
+      "example": {
+        "kanji": "エアコンを使わなくても、この部屋は涼しいです。",
+        "kana": "エアコンを つかわなくても、この へやは すずしいです。",
+        "translation": "Even if you do not use the AC, this room is cool."
+      }
+    },
+    {
+      "id": "heta",
+      "kanji": "下手",
+      "kana": "へた",
+      "romaji": "heta",
+      "meaning": "bad at; unskillful (な-adjective)",
+      "category": "adjective",
+      "example": {
+        "kanji": "歌が下手でも、カラオケは楽しいです。",
+        "kana": "うたが へたでも、カラオケは たのしいです。",
+        "translation": "Even if you are bad at singing, karaoke is fun."
+      }
+    },
+    {
+      "id": "osewaninarimashita",
+      "kanji": "お世話になりました",
+      "kana": "おせわになりました",
+      "romaji": "osewa ni narimashita",
+      "meaning": "thank you for everything you have done for me / thank you for your kind care",
+      "category": "expression",
+      "example": {
+        "kanji": "長い間、いろいろお世話になりました。",
+        "kana": "ながい あいだ、いろいろ おせわに なりました。",
+        "translation": "Thank you very much for taking care of me in so many ways for such a long time."
+      }
+    },
+    {
+      "id": "douzogengkide",
+      "kanji": "どうぞお元気で",
+      "kana": "どうぞおげんきで",
+      "romaji": "douzo o-genki de",
+      "meaning": "please take good care of yourself (said when parting for a long time)",
+      "category": "expression",
+      "example": {
+        "kanji": "東京へ行っても、どうぞお元気で。",
+        "kana": "とうきょうへ いっても、どうぞ おげんきで。",
+        "translation": "Even after you go to Tokyo, please take good care of yourself."
+      }
+    },
+    {
+      "id": "ippai-nomimashou",
+      "kanji": "一杯飲みましょう",
+      "kana": "いっぱいのみましょう",
+      "romaji": "ippai nomimashou",
+      "meaning": "let's have a drink together",
+      "category": "expression",
+      "example": {
+        "kanji": "今晩、一杯飲みましょうか。",
+        "kana": "こんばん、いっぱい のみましょうか。",
+        "translation": "Shall we grab a drink together tonight?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Condition [た-form] + ら、Outcome [Conditional 'If' / Most Versatile]",
+      "explanation": "Japanese has four primary conditional forms: と (Lesson 23), たら (Lesson 25), なら (Lesson 25/35), and ば (Lesson 35). Among them, ～たら is the most versatile and widely used. It is formed by taking the plain past affirmative (た-form) of verbs, adjectives, or nouns and appending ら. Crucial chronological rule: With ～たら, the condition MUST be fulfilled FIRST before the outcome can take place (Condition Fulfilled → Outcome Follows). Unlike と (which cannot take requests or volition), ～たら welcomes requests (～てください), invitations (～ましょう), desires (～たい), and opinions in the main clause.",
+      "examples": [
+        {
+          "kanji": "明日雨が降ったら、家で映画を見ます。",
+          "kana": "あした あめが ふったら、いえで えいがを みます。",
+          "translation": "If it rains tomorrow, I will watch a movie at home."
+        },
+        {
+          "kanji": "たくさんお金があったら、家を買います。",
+          "kana": "たくさん おかねが あったら、いえを かいます。",
+          "translation": "If I had a lot of money, I would buy a house."
+        },
+        {
+          "kanji": "暑かったら、エアコンをつけてください。",
+          "kana": "あつかったら、エアコンを つけて ください。",
+          "translation": "If it is hot, please turn on the air conditioner."
+        },
+        {
+          "kanji": "今週末暇だったら、遊びましょう。",
+          "kana": "こんしゅうまつ ひまだfilmったら、あそびましょう。",
+          "translation": "If you are free this weekend, let's hang out."
+        },
+        {
+          "kanji": "いい天気だったら、散歩しませんか。",
+          "kana": "いい てんきだったら、さんぽしませんか。",
+          "translation": "If the weather is nice, won't you take a walk with me?"
+        },
+        {
+          "kanji": "安かったら、そのパソコンを買いたいです。",
+          "kana": "やすかったら、その パソコンを かいたいです。",
+          "translation": "If it is cheap, I want to buy that personal computer."
+        }
+      ]
+    },
+    {
+      "pattern": "Negative Conditional: [～なかった] + ら [Conditional 'If ... not']",
+      "explanation": "To state 'if something does NOT happen' or 'if not [adjective/noun]', use the plain past negative (negative た-form) + ら. Because the negative suffix ない conjugates like an い-adjective (ない → なかった), simply add ら to create ～なかったら. (1) Verbs: 降らない → 降らなかったら; (2) い-adjectives: 忙しくない → 忙しくなかったら; (3) な-adjectives: 暇じゃない → 暇じゃなかったら; (4) Nouns: 雨じゃない → 雨じゃなかったら.",
+      "examples": [
+        {
+          "kanji": "明日雨が降らなかったら、ハイキングに行きましょう。",
+          "kana": "あした あめが ふらなかったら、ハイキングに いきましょう。",
+          "translation": "If it does not rain tomorrow, let's go hiking."
+        },
+        {
+          "kanji": "忙しくなかったら、パーティーに来てください。",
+          "kana": "いそがしくなかったら、パーティーに きて ください。",
+          "translation": "If you are not busy, please come to the party."
+        },
+        {
+          "kanji": "明日雨じゃなかったら、嬉しいです。",
+          "kana": "あした あめじゃなかったら、うれしいです。",
+          "translation": "If it's not rain tomorrow, I will be happy (I hope it doesn't rain)."
+        },
+        {
+          "kanji": "お金が足りなかったら、言ってください。",
+          "kana": "おかねが たりなかったら、いって ください。",
+          "translation": "If the money isn't enough, please tell me."
+        },
+        {
+          "kanji": "都合が悪くなかったら、明日会いましょう。",
+          "kana": "つごうが わるくなかったら、あした あいましょう。",
+          "translation": "If it's not inconvenient for you, let's meet tomorrow."
+        }
+      ]
+    },
+    {
+      "pattern": "Subordinate Clause Subject Rule: Always Use が (✕ は)",
+      "explanation": "GOLDEN RULE: Generally in Japanese, the topic marker は is NOT used inside a subordinate clause (such as clauses ending in ～たら, ～とき, ～と, ～まえに, or ～から). The subject performing the action inside the subordinate clause MUST be marked with が. For example, 'If Sato-san quits the company, I will be sad' must be 『佐藤さんが会社を辞めたら、私は悲しいです』. Saying 『佐藤さんは会社を辞めたら…』 sounds unnatural because it misplaces the sentence topic. The main topic (私) can be placed at the very front of the entire sentence (私は、佐藤さんが…), or omitted altogether if understood.",
+      "examples": [
+        {
+          "kanji": "佐藤さんが会社を辞めたら、私は悲しいです。",
+          "kana": "さとうさんが かいしゃを やめたら、わたしは かなしいです。",
+          "translation": "If Sato-san quits the company, I will be sad. (✕ 佐藤さんは…)"
+        },
+        {
+          "kanji": "私は、佐藤さんが会社を辞めたら、悲しいです。",
+          "kana": "わたしは、さとうさんが かいしゃを やめたら、かなしいです。",
+          "translation": "As for me, if Sato-san quits the company, I will be sad."
+        },
+        {
+          "kanji": "雨が降ったら、タクシーで行きます。",
+          "kana": "あめが ふったら、タクシーで いきます。",
+          "translation": "If rain falls, I will go by taxi. (Subordinate subject marked with が)"
+        },
+        {
+          "kanji": "友達が来たら、一緒にご飯を食べます。",
+          "kana": "ともだちが きたら、いっしょに ごはんを たべます。",
+          "translation": "When my friend comes over, we will eat a meal together."
+        }
+      ]
+    },
+    {
+      "pattern": "Definite Occurrence: [た-form] + ら ['When / Once / After']",
+      "explanation": "Because ～たら is formed from the past/completed た-form, when the condition is an absolute certainty to occur in the future (reaching a certain time, arriving at a destination, graduating, or aging), ～たら does NOT mean hypothetical 'if'. Instead, it functions as 'when', 'once', or 'after'. CRUCIAL NOTE: You CANNOT use the adverb もし when the event is certain to occur (✕ もし10時になったら).",
+      "examples": [
+        {
+          "kanji": "10時になったら、出かけましょう。",
+          "kana": "じゅうじに なったら、でかけましょう。",
+          "translation": "When/After it becomes 10:00, let's head out."
+        },
+        {
+          "kanji": "駅に着いたら、電話してください。",
+          "kana": "えきに ついたら、でんわして ください。",
+          "translation": "When/After you arrive at the station, please call me."
+        },
+        {
+          "kanji": "東京に着いたら、すぐ連絡します。",
+          "kana": "とうきょうに ついたら、すぐ れんらくします。",
+          "translation": "Once I arrive in Tokyo, I will contact you right away."
+        },
+        {
+          "kanji": "年を取ったら、田舎で暮らしたいです。",
+          "kana": "としを とったら、いなかで くらしたいです。",
+          "translation": "When I grow old, I want to live in the countryside."
+        },
+        {
+          "kanji": "仕事が終わったら、一杯飲みに行きましょう。",
+          "kana": "しごとが おわったら、いっぱい のみに いきましょう。",
+          "translation": "After work finishes, let's go have a drink."
+        }
+      ]
+    },
+    {
+      "pattern": "Chronological Sequence Limitation: ～たら vs. ～なら",
+      "explanation": "Because ～たら requires Condition A to be fulfilled FIRST before Action B happens (A completed → B occurs), you CANNOT use ～たら when the outcome action must occur BEFORE or in anticipation of the condition. TAKASHI'S WARNING: Saying 『明日死んだら、家族に会いに行きます』 implies visiting family as a ghost after dying! To express an action taken before the condition happens, you must use ～なら (Plain form + なら): 『明日死ぬなら、家族に会いに行きます』 ('If I am to die tomorrow, I will go see my family [first]'). Similarly: 『東京に行ったら、電車が便利です』 means 'once you get to Tokyo, taking trains is convenient to get around'; if you mean taking the train TO get to Tokyo, use 『東京に行くなら、新幹線が便利です』.",
+      "examples": [
+        {
+          "kanji": "明日死ぬなら、家族に会いに行きます。",
+          "kana": "あした しぬなら、かぞくに あいに いきます。",
+          "translation": "If I am to die tomorrow, I will go see my family. (Action occurs before dying → use なら, not たら!)"
+        },
+        {
+          "kanji": "東京に行くなら、新幹線が便利ですよ。",
+          "kana": "とうきょうに いくなら、しんかんせんが べんりですよ。",
+          "translation": "If you are going to Tokyo, the Shinkansen is convenient. (Advice on how to get there → use なら)"
+        },
+        {
+          "kanji": "東京に着いたら、地下鉄に乗ってください。",
+          "kana": "とうきょうに ついたら、ちかてつに のって ください。",
+          "translation": "Once you arrive in Tokyo, please take the subway. (Arrival happens first → use たら)"
+        },
+        {
+          "kanji": "パソコンを買うなら、秋葉原がいいですよ。",
+          "kana": "パソコンを かうなら、あきはばらが いいですよ。",
+          "translation": "If you plan to buy a computer, Akihabara is great. (Contextual suggestion → なら)"
+        }
+      ]
+    },
+    {
+      "pattern": "Adverb もし [Highlighting Hypothetical Conditions]",
+      "explanation": "もし is an adverb placed at the start of a conditional clause to clarify upfront that what follows is an imaginary, hypothetical, or low-probability scenario ('supposing that...', 'if by chance...'). While ～たら alone already means 'if', adding もし makes the hypothetical nuance explicit right from the opening word. RULE: While optional in imaginary sentences (e.g., winning the lottery or hypothetical death), もし is strictly FORBIDDEN in definite time or arrival statements where completion is guaranteed (✕ もし10時になったら).",
+      "examples": [
+        {
+          "kanji": "もし1億円あったら、世界旅行をしたいです。",
+          "kana": "もし いちおくえん あったら、せかいりょこうを したいです。",
+          "translation": "If (supposing) I had 100 million yen, I would want to travel around the world."
+        },
+        {
+          "kanji": "もしチャンスがあったら、外国で働きたいです。",
+          "kana": "もし チャンスが あったら、がいこくで はたらきたいです。",
+          "translation": "If I get the chance, I want to work overseas."
+        },
+        {
+          "kanji": "もし明日雨が降っても、試合はあります。",
+          "kana": "もし あした あめが ふっても、しあいは あります。",
+          "translation": "Even supposing that it rains tomorrow, the match will still take place."
+        },
+        {
+          "kanji": "もし時間があったら、お茶を飲みませんか。",
+          "kana": "もし じかんが あったら、おちゃを のみませんか。",
+          "translation": "If by chance you have some time, wouldn't you like to have tea?"
+        }
+      ]
+    },
+    {
+      "pattern": "Condition [て-form] + も、Outcome [Concession: 'Even if / Even though']",
+      "explanation": "～ても expresses that the outcome in the main clause takes place despite the condition, running counter to normal expectations ('even if X, Y' / 'even though X, Y'). Formation: (1) Verbs: て-form + も (降ります → 降って → 降っても; 読みます → 読んでも); (2) い-adjectives: drop い, add くても (高い → 高くても; note: いい → よくても); (3) な-adjectives: add でも (下手 → 下手でも; 静か → 静かでも); (4) Nouns: add でも (雨 → 雨でも; 日曜日 → 日曜日でも). You may optionally prepend もし for hypothetical emphasis (もし雨が降っても).",
+      "examples": [
+        {
+          "kanji": "明日雨が降っても、ハイキングに行きます。",
+          "kana": "あした あめが ふっても、ハイキングに いきます。",
+          "translation": "Even if it rains tomorrow, I will go hiking."
+        },
+        {
+          "kanji": "チケットが高くても、4月に日本に行きたいです。",
+          "kana": "チケットが たかくても、しがつに にほんに いきたいです。",
+          "translation": "Even if the ticket is expensive, I want to go to Japan in April."
+        },
+        {
+          "kanji": "歌が下手でも、カラオケは楽しいです。",
+          "kana": "うたが へたでも、カラオケは たのしいです。",
+          "translation": "Even if you are bad at singing, karaoke is fun."
+        },
+        {
+          "kanji": "日曜日でも、働かなければなりません。",
+          "kana": "にちようびでも、はたらかなければ なりません。",
+          "translation": "Even on Sunday, I must work."
+        },
+        {
+          "kanji": "いくら考えても、答えが分かりません。",
+          "kana": "いくら かんがえても、こたえが わかりません。",
+          "translation": "No matter how much I think about it, I don't know the answer."
+        },
+        {
+          "kanji": "眠くても、レポートを書きます。",
+          "kana": "ねむくても、レポートを かきます。",
+          "translation": "Even if I am sleepy, I will write the report."
+        }
+      ]
+    },
+    {
+      "pattern": "Negative Concession: [～なくて] + も [Concession: 'Even if ... not']",
+      "explanation": "To express 'even if someone does NOT do something' or 'even if it is NOT [adj/noun]', conjugate the negative base into its て-form (ない → なくて) and append も → ～なくても. (1) Verbs: 使わない → 使わなくて → 使わなくても; (2) い-adjectives: 暑くない → 暑くなくても; (3) な-adjectives: 暇じゃない → 暇じゃなくても; (4) Nouns: 今じゃない → 今じゃなくて → 今じゃなくても. In Lesson 17, this structure was introduced in the set pattern 『V-なくてもいいです』 ('it is fine even if you don't do... = you don't have to').",
+      "examples": [
+        {
+          "kanji": "エアコンを使わなくても、この部屋は涼しいです。",
+          "kana": "エアコンを つかわなくても、この へやは すずしいです。",
+          "translation": "Even if you do not use the AC, this room is cool."
+        },
+        {
+          "kanji": "エアコンを使わなくてもいいです。",
+          "kana": "エアコンを つかわなくても いいです。",
+          "translation": "You don't have to use the air conditioner (Even without using it, it's fine)."
+        },
+        {
+          "kanji": "今じゃなくてもいいです。",
+          "kana": "いまじゃなくても いいです。",
+          "translation": "It doesn't have to be right now (Even if it isn't now, it's fine)."
+        },
+        {
+          "kanji": "高くなくても、いいホテルがたくさんあります。",
+          "kana": "たかくなくても、いい ホテルが たくさん あります。",
+          "translation": "Even if they are not expensive, there are many good hotels."
+        },
+        {
+          "kanji": "無理をしなくてもいいですよ。",
+          "kana": "むりを しなくても いいですよ。",
+          "translation": "You don't have to push yourself too hard."
+        }
+      ]
+    },
+    {
+      "pattern": "Summary of Conditionals: と vs. たら vs. なら vs. ば",
+      "explanation": "A complete high-level roadmap of Japanese conditionals: (1) と (Lesson 23): Natural consequence, factual causation, mechanical instructions ('press button → machine operates'). Main clause CANNOT express request, invitation, volition, or permission. (2) たら (Lesson 25): Action 1 is completed FIRST before Action 2; most versatile conditional; freely takes requests, invitations, and desires in the main clause. (3) なら (Lesson 25/35): Follows a plain form noun or verb; used when Action 2 happens BEFORE Action 1, or to take up a topic/give advice based on context. (4) ば (Lesson 35): Hypothetical and general rule conditional focusing on the logical condition itself.",
+      "examples": [
+        {
+          "kanji": "ボタンを押すと、切符が出ます。",
+          "kana": "ボタンを おすと、きっぷが でます。",
+          "translation": "When you press the button, the ticket comes out. (Automatic/Natural result → と)"
+        },
+        {
+          "kanji": "駅に着いたら、電話してください。",
+          "kana": "えきに ついたら、でんわして ください。",
+          "translation": "When you arrive at the station, please call me. (Action 1 completed first + request → たら)"
+        },
+        {
+          "kanji": "日本へ行くなら、京都へ行ったほうがいいです。",
+          "kana": "にほんへ いくなら、きょうとへ いった ほうが いいです。",
+          "translation": "If you are going to Japan, you should go to Kyoto. (Advice given in response to topic → なら)"
+        }
+      ]
+    },
+    {
+      "pattern": "Conversational Phrases for Partings and Relocations",
+      "explanation": "Lesson 25 closes Minna no Nihongo Book 1 by introducing cultural rituals and phrases for farewells, job transfers (転勤), and new beginnings: (1) 『いろいろお世話になりました』 is said to colleagues and mentors to thank them for guidance and support; (2) 『どうぞお元気で』 is said when parting from someone who is moving away or whom you won't see for an extended period ('please take good care of yourself'); (3) 『一杯飲みましょう』 is an informal invitation to have a drink before departing.",
+      "examples": [
+        {
+          "kanji": "来週から東京支店に転勤します。いろいろお世話になりました。",
+          "kana": "らいしゅうから とうきょうしてんに てんきんします。いろいろ おせわに なりました。",
+          "translation": "Starting next week, I am transferring to the Tokyo branch. Thank you for everything."
+        },
+        {
+          "kanji": "寂しくなりますね。東京へ行っても、どうぞお元気で。",
+          "kana": "さびしく なりますね。とうきょうへ いっても、どうぞ おげんきで。",
+          "translation": "We will miss you. Even after you go to Tokyo, please take good care of yourself."
+        },
+        {
+          "kanji": "最後に今晩、みんなで一杯飲みましょう！",
+          "kana": "さいごに こんばん、みんなで いっぱい のみましょう！",
+          "translation": "One last time tonight, let's all have a drink together!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "佐藤さんの転勤と送別会",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "kanji": "佐藤さん、来月から東京支店に転勤するそうですね。",
+        "kana": "さとうさん、らいげつから とうきょうしてんに てんきんするそうですね。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "ええ、急に決まりました。ミラーさん、今まで本当にお世話になりました。",
+        "kana": "ええ、きゅうに きまりました。ミラーさん、いままです 本当に おせわに なりました。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "佐藤さんが辞めたら、会社は寂しくなりますよ。東京の仕事はどうですか。",
+        "kana": "さとうさんが やめたら、かいしゃは さびしく なりますよ。とうきょうの しごとは どうですか。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "新しい仕事ですから、大変だと思います。でも、チャンスがあったら、新しいことにチャレンジしたいです。",
+        "kana": "あたらしい しごとですから、たいへんだと おもいます。でも、チャンスが あったら、あたらしい ことに チャレンジしたいです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "素晴らしいですね。佐藤さんなら、東京でも頑張れると思います。",
+        "kana": "すばらしいですね。さとうさんなら、とうきょうでも がんばれると おもいます。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "ありがとうございます。東京に着いたら、すぐ連絡しますね。",
+        "kana": "ありがとうございます。とうきょうに ついたら、すぐ れんらくしますね。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、電話してください。もし東京へ行くなら、新幹線が一番速くて便利ですよ。",
+        "kana": "ええ、でんわして ください。もし とうきょうへ いくなら、しんかんせんが いちばん はやくて べんりですよ。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "はい、新幹線で行きます。チケットが高くても、速いほうがいいですから。",
+        "kana": "はい、しんかんせんで いきます。チケットが たかくても、はやい ほうが いいですから。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "今週末、忙しくなかったら、みんなで一杯飲みませんか。",
+        "kana": "こんしゅうまつ、いそがしくなかったら、みんなで いっぱい のみませんか。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいですね！もし雨が降っても、駅の近くの店なら大丈夫ですね。",
+        "kana": "いいですね！もし あめが ふっても、えきの ちかくの みせなら だいじょうぶですね。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "じゃあ、金曜日の仕事が終わったら、行きましょう。東京へ行っても、どうぞお元気で。",
+        "kana": "じゃあ、きんようびの しごとが おわったら、いきましょう。とうきょうへ いっても、どうぞ おげんきで。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "はい、ミラーさんもお元気で。金曜日を楽しみにしています。",
+        "kana": "はい、ミラーさんも おげんきで。きんようびを たのしみに しています。"
+      }
+    ],
+    "translation": "Mr. Miller talks to Ms. Sato, who is transferring to the Tokyo branch office next month. She expresses deep gratitude for all his support. Miller notes that the company will feel lonely after she leaves, and asks about her new job. Sato says she expects it to be tough, but wants to take on new challenges if given the chance. Miller praises her attitude and advises her that the Shinkansen is the fastest and most convenient way to travel to Tokyo. Sato agrees, saying that even if tickets are expensive, speed is preferred. She promises to call once she arrives in Tokyo. Miller invites her for a farewell drink this weekend if she isn't busy. Sato happily accepts, noting that even if it rains, a shop near the station will be fine. They agree to meet after work on Friday, and exchange warm wishes to stay healthy.",
+    "questions": [
+      {
+        "question": "Where is Sato-san transferring next month?",
+        "options": [
+          "To a foreign university",
+          "To the Tokyo branch office",
+          "To a rural countryside branch",
+          "She is quitting and staying at home"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: 来月から東京支店に転勤するそうですね (You are transferring to the Tokyo branch office next month)."
+      },
+      {
+        "question": "Which sentence correctly illustrates the subordinate clause subject rule used by Miller?",
+        "options": [
+          "佐藤さんは会社を辞めたら、寂しくなります。",
+          "佐藤さんが辞めたら、会社は寂しくなりますよ。",
+          "佐藤さんを辞めたら、寂しくなります。",
+          "佐藤さんに辞めたら、会社は寂しいです。"
+        ],
+        "answer": 1,
+        "explanation": "In subordinate clauses (marked here by たら), the subject must take が (佐藤さんが辞めたら), never は."
+      },
+      {
+        "question": "Why does Miller say 『東京へ行くなら、新幹線が一番速くて便利ですよ』 using なら instead of たら?",
+        "options": [
+          "Because taking the train happens before or during the journey to Tokyo, not after arriving.",
+          "Because なら is more formal than たら in all situations.",
+          "Because たら cannot be used with transportation.",
+          "Because Miller doesn't know where Tokyo is."
+        ],
+        "answer": 0,
+        "explanation": "なら is used when the outcome/advice applies prior to or for the purpose of achieving the condition. たら would mean after having already arrived in Tokyo."
+      },
+      {
+        "question": "Why does Sato-san choose the Shinkansen even though tickets might be expensive?",
+        "options": [
+          "Because the company pays for planes only.",
+          "Because even if it is expensive (高くても), faster travel is better.",
+          "Because the bus is completely booked.",
+          "Because she likes expensive things."
+        ],
+        "answer": 1,
+        "explanation": "Sato-san says: チケットが高くても、速いほうがいいですから (Even if the ticket is expensive, faster is better)."
+      },
+      {
+        "question": "What will Sato-san do when she arrives in Tokyo?",
+        "options": [
+          "Buy a house immediately",
+          "Contact Miller right away (東京に着いたら、すぐ連絡します)",
+          "Go to karaoke by herself",
+          "Quit her job"
+        ],
+        "answer": 1,
+        "explanation": "Sato-san says: 東京に着いたら、すぐ連絡しますね (Once I arrive in Tokyo, I will contact you right away)."
+      },
+      {
+        "question": "How does Miller invite Sato-san for a drink using a negative condition?",
+        "options": [
+          "今週末、忙しかったら、飲みませんか。",
+          "今週末、忙しくなかったら、みんなで一杯飲みませんか。",
+          "今週末、忙しいなら、飲みましょう。",
+          "今週末、忙しくても、飲まなければなりません。"
+        ],
+        "answer": 1,
+        "explanation": "Miller uses the negative condition of an い-adjective: 忙しくなかったら (if you are not busy)."
+      },
+      {
+        "question": "Which expression uses concessive ～ても in the dialogue?",
+        "options": [
+          "もし雨が降っても、駅の近くの店なら大丈夫ですね。",
+          "雨が降ったら、行きません。",
+          "雨が降るなら、傘を買います。",
+          "雨が降ると、涼しくなります。"
+        ],
+        "answer": 0,
+        "explanation": "もし雨が降っても means 'even if it rains'."
+      },
+      {
+        "question": "What farewell expression does Miller use to wish Sato-san well before her departure?",
+        "options": [
+          "どうぞお元気で",
+          "お腹がいっぱいです",
+          "どうやって行きますか",
+          "もしもし"
+        ],
+        "answer": 0,
+        "explanation": "どうぞお元気で is the standard polite farewell wishing someone good health when parting for a long time."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct meaning of 考えます (かんがえます).",
+      "prompt": {
+        "kanji": "もっとよく考えてください。",
+        "kana": "もっと よく かんがえて ください。"
+      },
+      "options": [
+        "Please listen carefully",
+        "Please think / consider more carefully",
+        "Please speak louder",
+        "Please arrive earlier"
+      ],
+      "answer": 1,
+      "explanation": "考えます (かんがえます) is a Group 2 verb meaning to think, consider, or use logical reasoning."
+    },
+    {
+      "question": "Choose the correct verb form: 'If it rains tomorrow, I will watch a movie at home.'",
+      "prompt": {
+        "kanji": "明日雨が___、家で映画を見ます。",
+        "kana": "あした あめが ___、いえで えいがを みます。"
+      },
+      "options": [
+        "降ったら",
+        "降るなら",
+        "降ると",
+        "降れば"
+      ],
+      "answer": 0,
+      "explanation": "降ります is Group 1 (り → った). Plain past + ら gives 降ったら (if it rains)."
+    },
+    {
+      "question": "Choose the correct particle for the subject inside the subordinate clause: 'If Sato-san quits the company, I will be sad.'",
+      "prompt": {
+        "kanji": "佐藤さん___会社を辞めたら、私は悲しいです。",
+        "kana": "さとうさん___ かいしゃを やめたら、わたしは かなしいです。"
+      },
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "In subordinate clauses (marked by たら, とき, まえに, etc.), the subject MUST be marked with が, not は."
+    },
+    {
+      "question": "Choose the correct form: 'If you are not busy, please come.'",
+      "prompt": {
+        "kanji": "忙しく___、来てください。",
+        "kana": "いそがしく___、きて ください。"
+      },
+      "options": [
+        "なかったら",
+        "ないなら",
+        "なくて",
+        "ないで"
+      ],
+      "answer": 0,
+      "explanation": "Negative conditional of an い-adjective: 忙しくない → 忙しくなかった → 忙しくなかったら."
+    },
+    {
+      "question": "Choose the correct word for hundred million: 'If I had 100 million yen, what would you do?'",
+      "prompt": {
+        "kanji": "1___円あったら、どうしますか？",
+        "kana": "いち___えん あったら、どうしますか？"
+      },
+      "options": [
+        "億",
+        "万",
+        "千",
+        "百"
+      ],
+      "answer": 0,
+      "explanation": "億 (おく) = hundred million (100,000,000). 1億円 = 100 million yen."
+    },
+    {
+      "question": "Choose the correct expression: 'When you arrive at the station, please call me.'",
+      "prompt": {
+        "kanji": "駅に___、電話してください。",
+        "kana": "えきに ___、でんわして ください。"
+      },
+      "options": [
+        "着いたら",
+        "着いたなら",
+        "着くと",
+        "着くなら"
+      ],
+      "answer": 0,
+      "explanation": "When an event is certain to happen first, use た-form + ら (着いたら = when/after you arrive)."
+    },
+    {
+      "question": "Why is 『もし10時になったら、出かけましょう』 INCORRECT?",
+      "options": [
+        "Because 10時 cannot take particle に",
+        "Because もし cannot be used when the condition is certain to happen",
+        "Because 出かけましょう is too casual",
+        "Because なったら must always be negative"
+      ],
+      "answer": 1,
+      "explanation": "もし emphasizes an uncertain or hypothetical situation. Time turning 10:00 is guaranteed, so もし is forbidden."
+    },
+    {
+      "question": "Choose the correct connector for an い-adjective concession: 'Even if the ticket is expensive, I want to go to Japan.'",
+      "prompt": {
+        "kanji": "チケットが高___、日本に行きたいです。",
+        "kana": "チケットが たか___、にほんに いきたいです。"
+      },
+      "options": [
+        "くても",
+        "いでも",
+        "くては",
+        "いなら"
+      ],
+      "answer": 0,
+      "explanation": "い-adjective concession: drop い, add くても (高い → 高くても)."
+    },
+    {
+      "question": "Choose the correct connector for a な-adjective concession: 'Even if you are bad at singing, karaoke is fun.'",
+      "prompt": {
+        "kanji": "歌が下手___、カラオケは楽しいです。",
+        "kana": "うたが へた___、カラオケは たのしいです。"
+      },
+      "options": [
+        "でも",
+        "くても",
+        "ても",
+        "なら"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives and nouns take でも for concession (下手で + も → 下手でも)."
+    },
+    {
+      "question": "Choose the correct form: 'Even if you do not use the AC, this room is cool.'",
+      "prompt": {
+        "kanji": "エアコンを___、この部屋は涼しいです。",
+        "kana": "エアコンを ___、この へやは すずしいです。"
+      },
+      "options": [
+        "使わなくても",
+        "使わなかったら",
+        "使わないでも",
+        "使わないなら"
+      ],
+      "answer": 0,
+      "explanation": "Negative concession: ない → なくて + も = 使わなくても (even without using)."
+    },
+    {
+      "question": "What is the meaning of the common saying: 『今じゃなくてもいいです』?",
+      "options": [
+        "It must be done right now",
+        "It doesn't have to be right now (it's fine even if not now)",
+        "Now is the worst time",
+        "I don't know what time it is"
+      ],
+      "answer": 1,
+      "explanation": "Noun negative concession + いいです: 今じゃなくてもいいです = It doesn't have to be right now."
+    },
+    {
+      "question": "Takashi warned that 『明日死んだら、家族に会いに行きます』 sounds bizarre because:",
+      "options": [
+        "Meeting family is forbidden on weekdays",
+        "たら implies Condition 1 finishes first, so you would visit family as a ghost after dying",
+        "死にます is an irregular Group 3 verb",
+        "It should use particle を instead of に"
+      ],
+      "answer": 1,
+      "explanation": "たら strictly means Action 2 happens after Action 1 is completed. To say 'before I die', you must use なら."
+    },
+    {
+      "question": "Choose the correct sentence to mean: 'If you are going to Tokyo, the Shinkansen is convenient.' (advice on how to get there)",
+      "options": [
+        "東京に行くなら、新幹線が便利です。",
+        "東京に行ったら、新幹線が便利です。",
+        "東京に行くと、新幹線が便利です。",
+        "東京に行けば、新幹線が便利です。"
+      ],
+      "answer": 0,
+      "explanation": "When the advice or outcome applies prior to reaching the destination, use plain form + なら."
+    },
+    {
+      "question": "Which verb group does 足ります (たります) belong to?",
+      "options": [
+        "Group 1 (Godan)",
+        "Group 2 (Ichidan)",
+        "Group 3 (Irregular)",
+        "It is an adjective"
+      ],
+      "answer": 1,
+      "explanation": "足ります (足りる) is an exception verb ending in -imasu that belongs to Group 2 (足りない, 足りて, 足りた)."
+    },
+    {
+      "question": "Choose the correct たら form of 足ります.",
+      "prompt": {
+        "kanji": "お金が___、言ってください。",
+        "kana": "おかねが ___、いって ください。"
+      },
+      "options": [
+        "足りたら",
+        "足ったら",
+        "足りったら",
+        "足いたら"
+      ],
+      "answer": 0,
+      "explanation": "Group 2 verb: drop ます, add たら → 足りたら."
+    },
+    {
+      "question": "Choose the antonym of 田舎 (いなか).",
+      "options": [
+        "都会 (とかい)",
+        "支店 (してん)",
+        "外国 (がいこく)",
+        "意味 (いみ)"
+      ],
+      "answer": 0,
+      "explanation": "田舎 (countryside) ↔ 都会 (city/metropolis)."
+    },
+    {
+      "question": "Choose the polite phrase to say goodbye to someone transferring away permanently:",
+      "options": [
+        "どうぞお元気で",
+        "お世話になります",
+        "どうやって行きますか",
+        "もしもし"
+      ],
+      "answer": 0,
+      "explanation": "どうぞお元気で means 'please take good care of yourself' when parting for a long time."
+    },
+    {
+      "question": "Choose the correct translation: 'Next month, I will transfer to the Tokyo branch.'",
+      "prompt": {
+        "kanji": "来月東京支店に___。",
+        "kana": "らいげつ とうきょうしてんに ___。"
+      },
+      "options": [
+        "転勤します",
+        "見学します",
+        "乗り換えます",
+        "下ろします"
+      ],
+      "answer": 0,
+      "explanation": "転勤します (てんきんします) = to transfer to a different office branch."
+    },
+    {
+      "question": "Choose the correct conditional form of いい (good): 'If the weather is good, let's go.'",
+      "prompt": {
+        "kanji": "天気が___、行きましょう。",
+        "kana": "てんきが ___、いきましょう。"
+      },
+      "options": [
+        "よかったら",
+        "いかったら",
+        "いいだったら",
+        "よいなら"
+      ],
+      "answer": 0,
+      "explanation": "いい conjugates from よい → plain past よかった → よかったら."
+    },
+    {
+      "question": "Choose the correct concessive form of いい (good): 'Even if the salary isn't good, I want to do this job.'",
+      "prompt": {
+        "kanji": "給料が___、この仕事がしたいです。",
+        "kana": "きゅうりょうが ___、この しごとが したいです。"
+      },
+      "options": [
+        "よくなくても",
+        "いくなくても",
+        "いいじゃなくても",
+        "よいくても"
+      ],
+      "answer": 0,
+      "explanation": "いい → negative よくない → negative て-form よくなくて + も = よくなくても."
+    },
+    {
+      "question": "Choose the correct form: 'If you grow old, what kind of place do you want to live in?'",
+      "prompt": {
+        "kanji": "年を___、どんな所に住みたいですか？",
+        "kana": "としを ___、どんな ところに すみたいですか？"
+      },
+      "options": [
+        "取ったら",
+        "取ると",
+        "取るなら",
+        "取れば"
+      ],
+      "answer": 0,
+      "explanation": "年を取ります (Group 1: り → った) + ら = 年を取ったら (when/after aging)."
+    },
+    {
+      "question": "Choose the correct expression: 'Even if it is Sunday tomorrow, I have to work.'",
+      "prompt": {
+        "kanji": "明日日曜日___、働かなければなりません。",
+        "kana": "あした にちようび___、はたらかなければ なりません。"
+      },
+      "options": [
+        "でも",
+        "ても",
+        "くても",
+        "なら"
+      ],
+      "answer": 0,
+      "explanation": "Nouns take でも for concession: 日曜日でも (even if it is Sunday)."
+    },
+    {
+      "question": "Which sentence means: 'No matter how much I think, I do not understand'?",
+      "options": [
+        "いくら考えても、分かりません。",
+        "もっと考えたら、分かります。",
+        "考えないと、分かりません。",
+        "考えれば、分かります。"
+      ],
+      "answer": 0,
+      "explanation": "いくら + V-ても expresses 'no matter how much...': いくら考えても (no matter how much I think)."
+    },
+    {
+      "question": "Choose the correct phone greeting in Japanese:",
+      "options": [
+        "もしもし",
+        "もし",
+        "どちら",
+        "どうやって"
+      ],
+      "answer": 0,
+      "explanation": "もしもし is used exclusively when speaking on the telephone."
+    },
+    {
+      "question": "Choose the correct adverb to reinforce an imaginary conditional: '___ I had a chance, I would go abroad.'",
+      "prompt": {
+        "kanji": "___チャンスがあったら、外国へ行きたいです。",
+        "kana": "___ チャンスが あったら、がいこくへ いきたいです。"
+      },
+      "options": [
+        "もし",
+        "もしもし",
+        "いくら",
+        "ぜひ"
+      ],
+      "answer": 0,
+      "explanation": "もし (adverb) highlights hypothetical situations ('if by chance')."
+    },
+    {
+      "question": "Choose the correct response to an invitation for a farewell drink: 'Shall we have a drink tonight?'",
+      "prompt": {
+        "kanji": "今晩、一杯___か。",
+        "kana": "こんばん、いっぱい ___か。"
+      },
+      "options": [
+        "飲みましょう",
+        "飲みます",
+        "飲んだら",
+        "飲んでも"
+      ],
+      "answer": 0,
+      "explanation": "一杯飲みましょうか = Shall we grab a drink together?"
+    },
+    {
+      "question": "Choose the correct translation: 'Even if I don't have money, I am happy.'",
+      "options": [
+        "お金がなくても、幸せです。",
+        "お金がなかったら、幸せです。",
+        "お金がないなら、幸せです。",
+        "お金がないと、幸せです。"
+      ],
+      "answer": 0,
+      "explanation": "Concession ('even if not'): ない → なくて + も = お金がなくても."
+    },
+    {
+      "question": "Choose the correct form of the verb 頑張ります in the request form: 'Please do your best!'",
+      "options": [
+        "頑張ってください",
+        "頑張りてください",
+        "頑張ってから",
+        "頑張るてください"
+      ],
+      "answer": 0,
+      "explanation": "頑張ります is Group 1 (り → って): 頑張ってください."
+    },
+    {
+      "question": "Choose the correct form for な-adjective conditional: 'If it is quiet, I can study.'",
+      "prompt": {
+        "kanji": "静か___、勉強できます。",
+        "kana": "しずか___、べんきょう できます。"
+      },
+      "options": [
+        "だったら",
+        "くて",
+        "ならで",
+        "たら"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives take だったら: 静かだったら (if it is quiet)."
+    },
+    {
+      "question": "Choose the correct form: 'If it is not quiet, I cannot sleep.'",
+      "prompt": {
+        "kanji": "静か___、寝られません。",
+        "kana": "しずか___、ねられません。"
+      },
+      "options": [
+        "じゃなかったら",
+        "くなかったら",
+        "じゃないなら",
+        "でなかったら"
+      ],
+      "answer": 0,
+      "explanation": "Negative な-adjective conditional: 静かじゃない → 静かじゃなかったら."
+    }
+  ],
+  "writing": {
+    "title": "Hypothetical Dreams, Weather Contingencies, and Future Plans",
+    "prompt": "Write 6–8 sentences in Japanese demonstrating mastery of Lesson 25 grammar: (1) State what you would do if you had 100 million yen or a big opportunity, using もし...たら. (2) Describe your weekend plans with a conditional (e.g., what you will do if it rains vs. if it doesn't rain). (3) Express one thing you will do regardless of an obstacle using ～ても or ～でも (e.g. even if tickets are expensive, or even if it rains). (4) State what you hope to do when you grow older using 年を取ったら. (5) Use a negative concession (～なくても or ～なくてもいいです) in your description.",
+    "placeholder": "もし1億円あったら、______ をしたいです。\n今週末、雨が降ったら ______。雨が降らなかったら、______ へ行きます。\nチケットが ______ くても、______ へ行きたいです。\nエアコンを使わなくても、______ です。\n年を取ったら、______ で暮らしたいです。",
+    "modelAnswer": "もし1億円あったら、世界中を旅行して、田舎に大きな家を買いたいです。今週末は、もし雨が降ったら、家で映画を見ます。雨が降らなかったら、友達と山へハイキングに行きます。飛行機のチケットが高くても、来年の春に日本へ行きたいです。私の部屋は風が入りますから、エアコンを使わなくても涼しいです。将来、年を取ったら、静かな田舎で家族とのんびり暮らしたいです。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "If it rains tomorrow, I will watch a movie at home.",
+        "chunks": [
+          "明日雨が降ったら、",
+          "家で",
+          "映画を見ます。"
+        ]
+      },
+      {
+        "en": "If I had a lot of money, I would buy a house.",
+        "chunks": [
+          "たくさんお金があったら、",
+          "家を",
+          "買います。"
+        ]
+      },
+      {
+        "en": "If Sato-san quits the company, I will be sad.",
+        "chunks": [
+          "佐藤さんが会社を辞めたら、",
+          "私は",
+          "悲しいです。"
+        ]
+      },
+      {
+        "en": "If it does not rain tomorrow, let's go hiking.",
+        "chunks": [
+          "明日雨が降らなかったら、",
+          "ハイキングに",
+          "行きましょう。"
+        ]
+      },
+      {
+        "en": "If it is hot, please turn on the air conditioner.",
+        "chunks": [
+          "暑かったら、",
+          "エアコンを",
+          "つけてください。"
+        ]
+      },
+      {
+        "en": "If you are not busy, please come.",
+        "chunks": [
+          "忙しくなかったら、",
+          "来てください。"
+        ]
+      },
+      {
+        "en": "If you are free this weekend, let's hang out.",
+        "chunks": [
+          "今週末暇だったら、",
+          "遊びましょう。"
+        ]
+      },
+      {
+        "en": "When/After it becomes 10:00, let's head out.",
+        "chunks": [
+          "10時になったら、",
+          "出かけましょう。"
+        ]
+      },
+      {
+        "en": "When you arrive at the station, please call me.",
+        "chunks": [
+          "駅に着いたら、",
+          "電話してください。"
+        ]
+      },
+      {
+        "en": "If you are going to Tokyo, the train is convenient.",
+        "chunks": [
+          "東京に行くなら、",
+          "電車が",
+          "便利です。"
+        ]
+      },
+      {
+        "en": "If I am to die tomorrow, I will go see my family.",
+        "chunks": [
+          "明日死ぬなら、",
+          "家族に",
+          "会いに行きます。"
+        ]
+      },
+      {
+        "en": "Even if it rains tomorrow, I will go hiking.",
+        "chunks": [
+          "明日雨が降っても、",
+          "ハイキングに",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "Even if the ticket is expensive, I want to go to Japan in April.",
+        "chunks": [
+          "チケットが高くても、",
+          "4月に日本に",
+          "行きたいです。"
+        ]
+      },
+      {
+        "en": "Even if you are bad at singing, karaoke is fun.",
+        "chunks": [
+          "歌が下手でも、",
+          "カラオケは",
+          "楽しいです。"
+        ]
+      },
+      {
+        "en": "Even if you do not use the AC, this room is cool.",
+        "chunks": [
+          "エアコンを使わなくても、",
+          "この部屋は",
+          "涼しいです。"
+        ]
+      },
+      {
+        "en": "When I grow old, I want to live in the countryside.",
+        "chunks": [
+          "年を取ったら、",
+          "田舎で",
+          "暮らしたいです。"
+        ]
+      },
+      {
+        "en": "If I had 100 million yen, what would you do?",
+        "chunks": [
+          "1億円あったら、",
+          "どうしますか。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "降ります (ふります)",
+        "form": "たら-form",
+        "answer": "ふったら",
+        "options": [
+          "ふったら",
+          "ふりたら",
+          "ふいたら"
+        ],
+        "hint": "Group 1: -り changes to -ったら"
+      },
+      {
+        "prompt": "降ります (ふります)",
+        "form": "Negative たら-form",
+        "answer": "ふらなかったら",
+        "options": [
+          "ふらなかったら",
+          "ふらないたら",
+          "ふりなかったら"
+        ],
+        "hint": "Negative: 降らない → 降らなかった → 降らなかったら"
+      },
+      {
+        "prompt": "降ります (ふります)",
+        "form": "ても-form",
+        "answer": "ふっても",
+        "options": [
+          "ふっても",
+          "ふりても",
+          "ふいでも"
+        ],
+        "hint": "Group 1: て-form is 降って + も"
+      },
+      {
+        "prompt": "あります",
+        "form": "たら-form",
+        "answer": "あったら",
+        "options": [
+          "あったら",
+          "ありたら",
+          "あいたら"
+        ],
+        "hint": "Group 1: あり → あった + ら"
+      },
+      {
+        "prompt": "辞めます (やめます)",
+        "form": "たら-form",
+        "answer": "やめたら",
+        "options": [
+          "やめたら",
+          "やめったら",
+          "やめいたら"
+        ],
+        "hint": "Group 2 verb: drop ます, add たら"
+      },
+      {
+        "prompt": "着きます (つきます)",
+        "form": "たら-form",
+        "answer": "ついたら",
+        "options": [
+          "ついたら",
+          "つきったら",
+          "ついたらら"
+        ],
+        "hint": "Group 1: き changes to いた → 着いたら"
+      },
+      {
+        "prompt": "足ります (たります)",
+        "form": "たら-form",
+        "answer": "たりたら",
+        "options": [
+          "たりたら",
+          "たったら",
+          "たりったら"
+        ],
+        "hint": "Group 2 verb (despite -imasu ending): drop ます, add たら"
+      },
+      {
+        "prompt": "足ります (たります)",
+        "form": "Negative たら-form",
+        "answer": "たりなかったら",
+        "options": [
+          "たりなかったら",
+          "たらなかったら",
+          "たりないたら"
+        ],
+        "hint": "Group 2: 足りない → 足りなかったら"
+      },
+      {
+        "prompt": "考えます (かんがえます)",
+        "form": "ても-form",
+        "answer": "かんがえても",
+        "options": [
+          "かんがえても",
+          "かんがえっても",
+          "かんがえてから"
+        ],
+        "hint": "Group 2: drop ます, add ても"
+      },
+      {
+        "prompt": "使います (つかいます)",
+        "form": "Negative ても-form",
+        "answer": "つかわなくても",
+        "options": [
+          "つかわなくても",
+          "つかわないても",
+          "つかわなかったら"
+        ],
+        "hint": "Negative: 使わない → 使わなくて + も"
+      },
+      {
+        "prompt": "暑い (あつい)",
+        "form": "たら-form",
+        "answer": "あつかったら",
+        "options": [
+          "あつかったら",
+          "あついかったら",
+          "あついだったら"
+        ],
+        "hint": "い-adjective: drop い, add かったら"
+      },
+      {
+        "prompt": "忙しい (いそがしい)",
+        "form": "Negative たら-form",
+        "answer": "いそがしくなかったら",
+        "options": [
+          "いそがしくなかったら",
+          "いそがしくないたら",
+          "いそがしくなかった"
+        ],
+        "hint": "Negative: 忙しくない → 忙しくなかったら"
+      },
+      {
+        "prompt": "高い (たかい)",
+        "form": "ても-form",
+        "answer": "たかくても",
+        "options": [
+          "たかくても",
+          "たかいでも",
+          "たかいくても"
+        ],
+        "hint": "い-adjective: drop い, add くても"
+      },
+      {
+        "prompt": "いい (Good)",
+        "form": "たら-form",
+        "answer": "よかったら",
+        "options": [
+          "よかったら",
+          "いかったら",
+          "いいだったら"
+        ],
+        "hint": "Irregular adjective: conjugates from よい → よかったら"
+      },
+      {
+        "prompt": "いい (Good)",
+        "form": "ても-form",
+        "answer": "よくても",
+        "options": [
+          "よくても",
+          "いくても",
+          "いいでも"
+        ],
+        "hint": "Conjugates from よい: よくても"
+      },
+      {
+        "prompt": "暇 (ひま)",
+        "form": "たら-form",
+        "answer": "ひまだfilmったら",
+        "options": [
+          "ひまだfilmったら",
+          "ひまかったら",
+          "ひまなら"
+        ],
+        "hint": "な-adjective: add だったら"
+      },
+      {
+        "prompt": "暇 (ひま)",
+        "form": "Negative たら-form",
+        "answer": "ひまじゃなかったら",
+        "options": [
+          "ひまじゃなかったら",
+          "ひまじゃなくて",
+          "ひまくないたら"
+        ],
+        "hint": "Negative: 暇じゃない → 暇じゃなかったら"
+      },
+      {
+        "prompt": "下手 (へた)",
+        "form": "ても-form",
+        "answer": "へたでも",
+        "options": [
+          "へたでも",
+          "へたくても",
+          "へたても"
+        ],
+        "hint": "な-adjective: add でも"
+      },
+      {
+        "prompt": "雨 (あめ)",
+        "form": "たら-form",
+        "answer": "あめだったら",
+        "options": [
+          "あめだったら",
+          "あめかったら",
+          "あめたら"
+        ],
+        "hint": "Noun: add だったら"
+      },
+      {
+        "prompt": "雨 (あめ)",
+        "form": "Negative たら-form",
+        "answer": "あめじゃなかったら",
+        "options": [
+          "あめじゃなかったら",
+          "あめくなかったら",
+          "あめじゃないたら"
+        ],
+        "hint": "Noun negative: 雨じゃない → 雨じゃなかったら"
+      },
+      {
+        "prompt": "日曜日 (にちようび)",
+        "form": "ても-form",
+        "answer": "にちようびでも",
+        "options": [
+          "にちようびでも",
+          "にちようびても",
+          "にちようびくても"
+        ],
+        "hint": "Noun: add でも"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "たら-form",
+        "answer": "きたら",
+        "options": [
+          "きたら",
+          "きったら",
+          "こたら"
+        ],
+        "hint": "Group 3 irregular: 来た + ら → 来たら"
+      },
+      {
+        "prompt": "します",
+        "form": "たら-form",
+        "answer": "したら",
+        "options": [
+          "したら",
+          "しったら",
+          "すたら"
+        ],
+        "hint": "Group 3: した + ら → したら"
+      },
+      {
+        "prompt": "死にます (しにます)",
+        "form": "たら-form",
+        "answer": "しんだら",
+        "options": [
+          "しんだら",
+          "しにたら",
+          "しったら"
+        ],
+        "hint": "Group 1: に changes to んだ → 死んだら"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "佐藤さん [ ? ] 会社を辞めたら、私は悲しいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "The subject of a subordinate clause (たら) must take が, not は."
+      },
+      {
+        "sentence": "明日雨 [ ? ] 降ったら、家で映画を見ます。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Natural precipitation subject inside conditional clause takes が."
+      },
+      {
+        "sentence": "駅 [ ? ] 着いたら、電話してください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Arriving at a destination takes particle に (着きます)."
+      },
+      {
+        "sentence": "来月東京支店 [ ? ] 転勤します。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The destination office of a transfer takes に."
+      },
+      {
+        "sentence": "3つ [ ? ] 足りると思いますか？",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "Quantity or quantity limit takes で."
+      },
+      {
+        "sentence": "年 [ ? ] 取ったら、田舎で暮らしたいです。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Fixed idiom: 年を取ります takes を."
+      },
+      {
+        "sentence": "チャンス [ ? ] あったら、外国で働きたいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Existence verb あります marks the subject with が."
+      },
+      {
+        "sentence": "この言葉 [ ? ] 意味が分かりますか？",
+        "answer": "の",
+        "options": [
+          "の",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "Connecting two nouns ('meaning of this word') uses の."
+      },
+      {
+        "sentence": "10時 [ ? ] なったら、出かけましょう。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Becoming a time/state takes に (なります)."
+      },
+      {
+        "sentence": "新幹線 [ ? ] 行くなら、速いですよ。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Means of transportation takes で."
+      },
+      {
+        "sentence": "日曜日 [ ? ]、会社へ行かなければなりません。",
+        "answer": "でも",
+        "options": [
+          "でも",
+          "ても",
+          "くても",
+          "なら"
+        ],
+        "hint": "Concession for nouns takes でも ('even on Sunday')."
+      },
+      {
+        "sentence": "将来の事 [ ? ] よく考えます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Object of 考えます takes を."
+      },
+      {
+        "sentence": "仕事 [ ? ] 終わったら、一杯飲みましょう。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "Subject of an intransitive verb in a subordinate clause takes が."
+      },
+      {
+        "sentence": "家族 [ ? ] 会いに行きます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "Person you meet (会います) takes に."
+      },
+      {
+        "sentence": "田舎 [ ? ] 暮らしたいです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Place where an active living/lifestyle takes place takes で."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Talking about an imaginary lottery win",
+        "speaker": "友達",
+        "prompt": "もし1億円あったら、どうしますか？",
+        "options": [
+          {
+            "text": "広い家を買って、世界旅行をしたいです。",
+            "correct": true
+          },
+          {
+            "text": "1億円があったら、どうやって行きますか。",
+            "correct": false
+          },
+          {
+            "text": "1億円を買いました。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to a hypothetical question with what you would do or want to do (～たいです)."
+      },
+      {
+        "situation": "A colleague is transferring to another branch",
+        "speaker": "佐藤",
+        "prompt": "来月から東京支店に転勤することになりました。",
+        "options": [
+          {
+            "text": "寂しくなりますね。東京へ行っても、どうぞお元気で。",
+            "correct": true
+          },
+          {
+            "text": "もしもし、佐藤さんですか。",
+            "correct": false
+          },
+          {
+            "text": "東京に行ったら、新幹線が便利です。",
+            "correct": false
+          }
+        ],
+        "tip": "Use the standard parting phrase 『どうぞお元気で』 for long-term relocations."
+      },
+      {
+        "situation": "Asking for travel advice before leaving",
+        "speaker": "旅行者",
+        "prompt": "東京へ行くなら、何で行ったほうがいいですか？",
+        "options": [
+          {
+            "text": "新幹線が一番速くて便利ですよ。",
+            "correct": true
+          },
+          {
+            "text": "東京に着いたら、新幹線に乗ってください。",
+            "correct": false
+          },
+          {
+            "text": "新幹線が高くても、行きませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "When giving advice prior to the trip, use なら; advise with the best means of travel."
+      },
+      {
+        "situation": "Discussing bad weather plans",
+        "speaker": "同僚",
+        "prompt": "明日雨が降ったら、どうしますか？",
+        "options": [
+          {
+            "text": "雨が降ったら、家で映画を見ます。",
+            "correct": true
+          },
+          {
+            "text": "雨が降るなら、映画を見ました。",
+            "correct": false
+          },
+          {
+            "text": "雨が降っても、映画を見ません。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer a conditional question with [Condition た-form] + ら + [Action]."
+      },
+      {
+        "situation": "Persisting despite rain",
+        "speaker": "友達",
+        "prompt": "明日雨ですよ。ハイキングはどうしますか？",
+        "options": [
+          {
+            "text": "雨が降っても、行きますよ！",
+            "correct": true
+          },
+          {
+            "text": "雨が降ったら、行きますよ。",
+            "correct": false
+          },
+          {
+            "text": "雨が降らなくても、行きません。",
+            "correct": false
+          }
+        ],
+        "tip": "Express determination despite obstacles using concessive ～ても."
+      },
+      {
+        "situation": "Checking in on arrival",
+        "speaker": "先輩",
+        "prompt": "駅に着いたら、どうすればいいですか？",
+        "options": [
+          {
+            "text": "駅に着いたら、電話してください。迎えに行きます。",
+            "correct": true
+          },
+          {
+            "text": "駅に着くなら、電話しました。",
+            "correct": false
+          },
+          {
+            "text": "もし駅に着いたら、電話します。",
+            "correct": false
+          }
+        ],
+        "tip": "Use ～たら for chronological sequence ('once you arrive, do X'); avoid もし for certain events."
+      },
+      {
+        "situation": "Answering the telephone",
+        "speaker": "電話の相手",
+        "prompt": "もしもし、木村さんのお宅ですか？",
+        "options": [
+          {
+            "text": "はい、木村です。いつもお世話になっております。",
+            "correct": true
+          },
+          {
+            "text": "もしもし、どうぞお元気で。",
+            "correct": false
+          },
+          {
+            "text": "もし雨が降ったら、木村です。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond politely to a phone call starting with はい、[Name]です."
+      },
+      {
+        "situation": "Inviting someone for a drink after work",
+        "speaker": "同僚",
+        "prompt": "今日の仕事が終わったら、一杯飲みませんか？",
+        "options": [
+          {
+            "text": "いいですね、ぜひ行きましょう！",
+            "correct": true
+          },
+          {
+            "text": "仕事が終わっても、行きません。",
+            "correct": false
+          },
+          {
+            "text": "今じゃなくてもいいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an invitation after a completed action condition with いいですね、行きましょう."
+      },
+      {
+        "situation": "Talking about room temperature without AC",
+        "speaker": "客",
+        "prompt": "エアコンをつけましょうか？",
+        "options": [
+          {
+            "text": "いいえ、エアコンを使わなくても涼しいですから、大丈夫です。",
+            "correct": true
+          },
+          {
+            "text": "はい、エアコンを使わなかったら涼しいです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、エアコンを使うなら涼しいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Negative concession: ～使わなくても涼しい (it's cool even without using it)."
+      },
+      {
+        "situation": "Saying farewell on someone's final work day",
+        "speaker": "同僚",
+        "prompt": "今日が最後の日ですね。今までありがとうございました。",
+        "options": [
+          {
+            "text": "こちらこそ、いろいろお世話になりました。どうぞお元気で。",
+            "correct": true
+          },
+          {
+            "text": "もし1億円あったら、お世話になりました。",
+            "correct": false
+          },
+          {
+            "text": "歌が下手でも、お世話になりました。",
+            "correct": false
+          }
+        ],
+        "tip": "Exchange 『お世話になりました』 and 『どうぞお元気で』 upon permanent departure."
+      }
+    ]
+  }
+}

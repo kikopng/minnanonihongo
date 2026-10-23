@@ -1,0 +1,2475 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 14,
+    "title": "Te-form Conjugation, Requests, Continuous Actions, and Offers",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master the Japanese verb groups (Group 1 godan, Group 2 ichidan, Group 3 irregular), conjugating into the て-form (from both ます-form and dictionary-form), making polite requests with ～てください, describing actions in progress with ～ています, offering assistance with ～ましょうか, and expressing methods with ～方."
+  },
+  "vocabulary": [
+    {
+      "id": "tsukemasu",
+      "kanji": "つけます",
+      "kana": "つけます",
+      "romaji": "tsukemasu",
+      "meaning": "to turn on [lights, appliances]",
+      "category": "verb",
+      "example": {
+        "kanji": "電気をつけます。",
+        "kana": "でんきを つけます。",
+        "translation": "I turn on the light."
+      }
+    },
+    {
+      "id": "keshimasu",
+      "kanji": "消します",
+      "kana": "けします",
+      "romaji": "keshimasu",
+      "meaning": "to turn off [lights, appliances]; to erase",
+      "category": "verb",
+      "example": {
+        "kanji": "エアコンを消します。",
+        "kana": "エアコンを けします。",
+        "translation": "I turn off the air conditioner."
+      }
+    },
+    {
+      "id": "akemasu",
+      "kanji": "開けます",
+      "kana": "あけます",
+      "romaji": "akemasu",
+      "meaning": "to open [doors, windows]",
+      "category": "verb",
+      "example": {
+        "kanji": "窓を開けます。",
+        "kana": "まどを あけます。",
+        "translation": "I open the window."
+      }
+    },
+    {
+      "id": "shimemasu",
+      "kanji": "閉めます",
+      "kana": "しめます",
+      "romaji": "shimemasu",
+      "meaning": "to close; to shut [doors, windows]",
+      "category": "verb",
+      "example": {
+        "kanji": "ドアを閉めます。",
+        "kana": "ドアを しめます。",
+        "translation": "I close the door."
+      }
+    },
+    {
+      "id": "isogimasu",
+      "kanji": "急ぎます",
+      "kana": "いそぎます",
+      "romaji": "isogimasu",
+      "meaning": "to hurry",
+      "category": "verb",
+      "example": {
+        "kanji": "急いでください。",
+        "kana": "いそいで ください。",
+        "translation": "Please hurry up."
+      }
+    },
+    {
+      "id": "machimasu",
+      "kanji": "待ちます",
+      "kana": "まちます",
+      "romaji": "machimasu",
+      "meaning": "to wait",
+      "category": "verb",
+      "example": {
+        "kanji": "ちょっと待ってください。",
+        "kana": "ちょっと まって ください。",
+        "translation": "Please wait a moment."
+      }
+    },
+    {
+      "id": "mochimasu",
+      "kanji": "持ちます",
+      "kana": "もちます",
+      "romaji": "mochimasu",
+      "meaning": "to hold; to carry; to have",
+      "category": "verb",
+      "example": {
+        "kanji": "荷物を持ちましょうか？",
+        "kana": "にもつを もちましょうか？",
+        "translation": "Shall I carry your luggage?"
+      }
+    },
+    {
+      "id": "torimasu",
+      "kanji": "取ります",
+      "kana": "とります",
+      "romaji": "torimasu",
+      "meaning": "to grab; to take; to pass [something to someone]",
+      "category": "verb",
+      "example": {
+        "kanji": "お塩を取ってください。",
+        "kana": "おしおを とって ください。",
+        "translation": "Please pass me the salt (grab the salt for me)."
+      }
+    },
+    {
+      "id": "tetsudaimasu",
+      "kanji": "手伝います",
+      "kana": "てつだいます",
+      "romaji": "tetsudaimasu",
+      "meaning": "to help; to assist",
+      "category": "verb",
+      "example": {
+        "kanji": "私の宿題を手伝ってください。",
+        "kana": "わたしの しゅくだいを てつだって ください。",
+        "translation": "Please help me with my homework."
+      }
+    },
+    {
+      "id": "yobimasu",
+      "kanji": "呼びます",
+      "kana": "よびます",
+      "romaji": "yobimasu",
+      "meaning": "to call; to summon",
+      "category": "verb",
+      "example": {
+        "kanji": "「たかし」と呼んでください。",
+        "kana": "「たかし」と よんで ください。",
+        "translation": "Please call me \"Takashi\"."
+      }
+    },
+    {
+      "id": "hanashimasu",
+      "kanji": "話します",
+      "kana": "はなします",
+      "romaji": "hanashimasu",
+      "meaning": "to speak; to talk",
+      "category": "verb",
+      "example": {
+        "kanji": "ゆっくり話してください。",
+        "kana": "ゆっくり はなして ください。",
+        "translation": "Please speak slowly."
+      }
+    },
+    {
+      "id": "tsukaimasu",
+      "kanji": "使います",
+      "kana": "つかいます",
+      "romaji": "tsukaimasu",
+      "meaning": "to use",
+      "category": "verb",
+      "example": {
+        "kanji": "これを使ってください。",
+        "kana": "これを つかって ください。",
+        "translation": "Please use this."
+      }
+    },
+    {
+      "id": "tomemasu",
+      "kanji": "止めます",
+      "kana": "とめます",
+      "romaji": "tomemasu",
+      "meaning": "to stop; to park [a car]",
+      "category": "verb",
+      "example": {
+        "kanji": "あそこに車をとめてください。",
+        "kana": "あそこに くるまを とめて ください。",
+        "translation": "Please park the car over there."
+      }
+    },
+    {
+      "id": "misemasu",
+      "kanji": "見せます",
+      "kana": "みせます",
+      "romaji": "misemasu",
+      "meaning": "to show",
+      "category": "verb",
+      "example": {
+        "kanji": "パスポートを見せてください。",
+        "kana": "パスポートを みせて ください。",
+        "translation": "Please show your passport."
+      }
+    },
+    {
+      "id": "oshiemasu",
+      "kanji": "教えます",
+      "kana": "おしえます",
+      "romaji": "oshiemasu",
+      "meaning": "to teach; to tell [information, address, etc.]",
+      "category": "verb",
+      "example": {
+        "kanji": "名前を教えてください。",
+        "kana": "なまえを おしえて ください。",
+        "translation": "Please tell me your name."
+      }
+    },
+    {
+      "id": "suwarimasu",
+      "kanji": "座ります",
+      "kana": "すわります",
+      "romaji": "suwarimasu",
+      "meaning": "to sit down",
+      "category": "verb",
+      "example": {
+        "kanji": "このソファに座ってください。",
+        "kana": "この ソファに すわって ください。",
+        "translation": "Please sit on this sofa."
+      }
+    },
+    {
+      "id": "tachimasu",
+      "kanji": "立ちます",
+      "kana": "たちます",
+      "romaji": "tachimasu",
+      "meaning": "to stand up",
+      "category": "verb",
+      "example": {
+        "kanji": "立ってください。",
+        "kana": "たって ください。",
+        "translation": "Please stand up."
+      }
+    },
+    {
+      "id": "hairimasu",
+      "kanji": "入ります",
+      "kana": "はいります",
+      "romaji": "hairimasu",
+      "meaning": "to enter [a room, cafe, etc.]",
+      "category": "verb",
+      "example": {
+        "kanji": "カフェに入ります。",
+        "kana": "カフェに はいります。",
+        "translation": "I enter a cafe."
+      }
+    },
+    {
+      "id": "demasu",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "to leave; to go out; to exit",
+      "category": "verb",
+      "example": {
+        "kanji": "カフェを出ます。",
+        "kana": "カフェを でます。",
+        "translation": "I leave a cafe."
+      }
+    },
+    {
+      "id": "furimasu",
+      "kanji": "降ります",
+      "kana": "ふります",
+      "romaji": "furimasu",
+      "meaning": "to fall; to come down [rain, snow]",
+      "category": "verb",
+      "example": {
+        "kanji": "雨が降ります。",
+        "kana": "あめが ふります。",
+        "translation": "Rain falls (It rains)."
+      }
+    },
+    {
+      "id": "kopii",
+      "kanji": "コピー",
+      "kana": "コピー",
+      "romaji": "kopii",
+      "meaning": "a copy; photocopy",
+      "category": "noun",
+      "example": {
+        "kanji": "これをコピーしてください。",
+        "kana": "これを コピーして ください。",
+        "translation": "Please make a copy of this."
+      }
+    },
+    {
+      "id": "kopiishimasu",
+      "kanji": "コピーします",
+      "kana": "コピーします",
+      "romaji": "kopiishimasu",
+      "meaning": "to make a copy; to photocopy",
+      "category": "verb",
+      "example": {
+        "kanji": "資料をコピーします。",
+        "kana": "しりょうを コピーします。",
+        "translation": "I copy the documents."
+      }
+    },
+    {
+      "id": "denki",
+      "kanji": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "meaning": "electricity; light",
+      "category": "noun",
+      "example": {
+        "kanji": "電気を消してください。",
+        "kana": "でんきを けして ください。",
+        "translation": "Please turn off the light."
+      }
+    },
+    {
+      "id": "eakon",
+      "kanji": "エアコン",
+      "kana": "エアコン",
+      "romaji": "eakon",
+      "meaning": "air conditioner",
+      "category": "noun",
+      "example": {
+        "kanji": "エアコンをつけましょうか？",
+        "kana": "エアコンを つけましょうか？",
+        "translation": "Shall I turn on the air conditioner?"
+      }
+    },
+    {
+      "id": "pasupooto",
+      "kanji": "パスポート",
+      "kana": "パスポート",
+      "romaji": "pasupooto",
+      "meaning": "passport",
+      "category": "noun",
+      "example": {
+        "kanji": "パスポートを見せてください。",
+        "kana": "パスポートを みせて ください。",
+        "translation": "Please show your passport."
+      }
+    },
+    {
+      "id": "namae",
+      "kanji": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "meaning": "name",
+      "category": "noun",
+      "example": {
+        "kanji": "ここに名前を書いてください。",
+        "kana": "ここに なまえを かいて ください。",
+        "translation": "Please write your name here."
+      }
+    },
+    {
+      "id": "juusho",
+      "kanji": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "meaning": "address",
+      "category": "noun",
+      "example": {
+        "kanji": "住所を教えてください。",
+        "kana": "じゅうしょを おしえて ください。",
+        "translation": "Please tell me your address."
+      }
+    },
+    {
+      "id": "chizu",
+      "kanji": "地図",
+      "kana": "ちず",
+      "romaji": "chizu",
+      "meaning": "map",
+      "category": "noun",
+      "example": {
+        "kanji": "地図を描きましょうか？",
+        "kana": "ちずを かきましょうか？",
+        "translation": "Shall I draw a map for you?"
+      }
+    },
+    {
+      "id": "shio",
+      "kanji": "塩",
+      "kana": "しお",
+      "romaji": "shio",
+      "meaning": "salt",
+      "category": "noun",
+      "example": {
+        "kanji": "塩を取ってください。",
+        "kana": "しおを とって ください。",
+        "translation": "Please pass the salt."
+      }
+    },
+    {
+      "id": "satou",
+      "kanji": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "meaning": "sugar",
+      "category": "noun",
+      "example": {
+        "kanji": "コーヒーに砂糖を入れます。",
+        "kana": "コーヒーに さとうを いれます。",
+        "translation": "I put sugar into the coffee."
+      }
+    },
+    {
+      "id": "mondai",
+      "kanji": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "meaning": "question (on a test/quiz); problem; trouble",
+      "category": "noun",
+      "example": {
+        "kanji": "テストの問題は難しかったです。",
+        "kana": "テストの もんだいは むずかしかったです。",
+        "translation": "The questions on the test were difficult."
+      }
+    },
+    {
+      "id": "shitsumon",
+      "kanji": "質問",
+      "kana": "しつもん",
+      "romaji": "shitsumon",
+      "meaning": "question (inquiry; asking something you want to know)",
+      "category": "noun",
+      "example": {
+        "kanji": "質問があります。",
+        "kana": "しつもんが あります。",
+        "translation": "I have a question."
+      }
+    },
+    {
+      "id": "kotae",
+      "kanji": "答え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "meaning": "answer; reply",
+      "category": "noun",
+      "example": {
+        "kanji": "この問題の答えは何ですか？",
+        "kana": "この もんだいの こたえは なんですか？",
+        "translation": "What is the answer to this question?"
+      }
+    },
+    {
+      "id": "otsuri",
+      "kanji": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "meaning": "change (money returned from a purchase)",
+      "category": "noun",
+      "example": {
+        "kanji": "300円のお釣りです。",
+        "kana": "さんびゃくえんの おつりです。",
+        "translation": "Your change is 300 yen."
+      }
+    },
+    {
+      "id": "kata",
+      "kanji": "～方",
+      "kana": "～かた",
+      "romaji": "~kata",
+      "meaning": "how to do ~; way of ~ing",
+      "category": "expression",
+      "example": {
+        "kanji": "この漢字の読み方を教えてください。",
+        "kana": "この かんじの よみかたを おしえて ください。",
+        "translation": "Please tell me how to read this kanji."
+      }
+    },
+    {
+      "id": "massugu",
+      "kanji": "まっすぐ",
+      "kana": "まっすぐ",
+      "romaji": "massugu",
+      "meaning": "straight; straight ahead",
+      "category": "expression",
+      "example": {
+        "kanji": "まっすぐ行ってください。",
+        "kana": "まっすぐ いって ください。",
+        "translation": "Please go straight."
+      }
+    },
+    {
+      "id": "yukkuri",
+      "kanji": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "meaning": "slowly; leisurely",
+      "category": "expression",
+      "example": {
+        "kanji": "ゆっくり話してください。",
+        "kana": "ゆっくり はなして ください。",
+        "translation": "Please speak slowly."
+      }
+    },
+    {
+      "id": "sugu",
+      "kanji": "すぐ",
+      "kana": "すぐ",
+      "romaji": "sugu",
+      "meaning": "immediately; right away",
+      "category": "expression",
+      "example": {
+        "kanji": "すぐ来てください。",
+        "kana": "すぐ きて ください。",
+        "translation": "Please come immediately."
+      }
+    },
+    {
+      "id": "mata",
+      "kanji": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "meaning": "again; also",
+      "category": "expression",
+      "example": {
+        "kanji": "また話しましょう。",
+        "kana": "また はなしましょう。",
+        "translation": "Let's talk again."
+      }
+    },
+    {
+      "id": "atode",
+      "kanji": "あとで",
+      "kana": "あとで",
+      "romaji": "atode",
+      "meaning": "later; afterwards",
+      "category": "expression",
+      "example": {
+        "kanji": "あとでそこに行きましょう。",
+        "kana": "あとで そこに いきましょう。",
+        "translation": "Let's go there later."
+      }
+    },
+    {
+      "id": "mou-sukoshi",
+      "kanji": "もう少し",
+      "kana": "もうすこし",
+      "romaji": "mou sukoshi",
+      "meaning": "a little more",
+      "category": "expression",
+      "example": {
+        "kanji": "もう少しゆっくり話してください。",
+        "kana": "もうすこし ゆっくり はなして ください。",
+        "translation": "Please speak a little more slowly."
+      }
+    },
+    {
+      "id": "mou-x",
+      "kanji": "もう～",
+      "kana": "もう～",
+      "romaji": "mou~",
+      "meaning": "~ more; another ~",
+      "category": "expression",
+      "example": {
+        "kanji": "もう1回お願いします。",
+        "kana": "もう いっかい おねがいします。",
+        "translation": "Could you please repeat that once more?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Verb Groups and Te-form Conjugation (ます-form & Dictionary-form)",
+      "explanation": "Japanese verbs fall into 3 groups:\n\n1. Group 3 (Irregular verbs):\n• します ('to do') → て-form: して (dictionary: する)\n• 来ます ('to come', きます) → て-form: 来て (きて, dictionary: くる)\n• Compound verbs (Noun + します) like 勉強します, コピーします also conjugate as して.\n\n2. Group 2 (Ichidan / ru-verbs):\n• From ます-form: Verbs whose syllable right before ます ends in the -e vowel sound (食べます, 教えます, 閉めます, 開けます, 止めます, 見せます). Exceptions that end in -iます: 見ます, 起きます, います, 借ります. Rule: Replace ます with て (食べます → 食べて; 見ます → 見て).\n• From dictionary-form: Verbs ending in -eru or -iru. Rule: Replace final る with て (食べる → 食べて; 起きる → 起きて).\n\n3. Group 1 (Godan / u-verbs):\n• From ます-form: Verbs whose syllable right before ます ends in the -i vowel sound (except the Group 2 exceptions above).\n• From dictionary-form: Verbs ending in -u, -tsu, -ru, -mu, -bu, -nu, -ku, -gu, -su.\n\nGroup 1 て-form rules:\n• い・ち・り / う・つ・る → って\n  - 買います (買う) → 買って\n  - 待ちます (待つ) → 待って\n  - 帰ります (帰る) → 帰って\n  - 座ります (座る) → 座って\n  - 取ります (取る) → 取って\n• み・び・に / む・ぶ・ぬ → んで\n  - 飲みます (飲む) → 飲んで\n  - 呼びます (呼ぶ) → 呼んで\n  - 死にます (死ぬ) → 死んで\n• き / く → いて\n  - 書きます (書く) → 書いて\n  - 聞きます (聞く) → 聞いて\n  ★ EXCEPTION: 行きます (行く, 'to go') → 行って (NOT いいて!)\n• ぎ / ぐ → いで\n  - 急ぎます (急ぐ) → 急いで\n  - 泳ぎます (泳ぐ) → 泳いで\n• し / す → して\n  - 貸します (貸す) → 貸して\n  - 話します (話す) → 話して\n  - 消します (消す) → 消して\n  - 出します (出す) → 出して\n\n★ Group 1 verbs that look like Group 2:\n帰ります (帰る - to return), 入ります (入る - to enter), 知ります (知る - to know), 切ります (切る - to cut) are all Group 1!",
+      "examples": [
+        {
+          "kanji": "急ぎます → 急いで / 行きます → 行って",
+          "kana": "いそぎます → いそいで / いきます → いって",
+          "translation": "isogimasu → isoide (Group 1: gi → ide) / ikimasu → itte (irregular exception!)"
+        },
+        {
+          "kanji": "食べます → 食べて / 見ます → 見て",
+          "kana": "たべます → たべて / みます → みて",
+          "translation": "tabemasu → tabete (Group 2: drop masu, add te) / mimasu → mite (Group 2 exception)"
+        },
+        {
+          "kanji": "勉強します → 勉強して / 来ます → 来て",
+          "kana": "べんきょうします → べんきょうして / きます → きて",
+          "translation": "benkyoushimasu → benkyoushite / kimasu → kite (Group 3 irregular)"
+        },
+        {
+          "kanji": "入ります → 入って / 待ちます → 待って",
+          "kana": "はいります → はいって / まちます → まって",
+          "translation": "hairimasu → haitte (Group 1: ri → tte) / machimasu → matte (Group 1: chi → tte)"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-て ください [Making Polite Requests]",
+      "explanation": "Attach ください to the verb's て-form to ask someone politely to do something ('Please do [verb]').\n• In casual speech among close friends or family, ください is often dropped, leaving just the て-form: 食べて！ (Eat!), 見て！ (Look!).\n• To make the request softer and more polite, preface the sentence with すみませんが、 ('Excuse me, but...').",
+      "examples": [
+        {
+          "kanji": "窓を開けてください。",
+          "kana": "まどを あけて ください。",
+          "translation": "Please open the window."
+        },
+        {
+          "kanji": "ちょっと待ってください。",
+          "kana": "ちょっと まって ください。",
+          "translation": "Please wait a moment."
+        },
+        {
+          "kanji": "ここに名前と住所を書いてください。",
+          "kana": "ここに なまえと じゅうしょを かいて ください。",
+          "translation": "Please write your name and address here."
+        },
+        {
+          "kanji": "すみませんが、もう少しゆっくり話してください。",
+          "kana": "すみませんが、もうすこし ゆっくり はなして ください。",
+          "translation": "Excuse me, but please speak a little more slowly."
+        },
+        {
+          "kanji": "これを使ってください。",
+          "kana": "これを つかって ください。",
+          "translation": "Please use this."
+        },
+        {
+          "kanji": "パスポートを見せてください。",
+          "kana": "パスポートを みせて ください。",
+          "translation": "Please show your passport."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-て います [Actions in Progress / Continuous State]",
+      "explanation": "Formed by attaching います to the verb's て-form. In Lesson 14, this indicates an action that is currently occurring right now ('be Verb-ing').\n\n• Present Affirmative: 食べています (I am eating)\n• Present Negative: 食べていません (I am not eating)\n• Past Affirmative: 食べていました (I was eating)\n• Past Negative: 食べていませんでした (I was not eating / wasn't listening)\n\nSpoken Japanese omission:\nIn casual conversations and informal messaging, the sound い in ています is very frequently dropped:\n• 食べています → 食べてます\n• 飲んでいます → 飲んでます\n• していません → してません",
+      "examples": [
+        {
+          "kanji": "今、何をしていますか？ — コーヒーを飲んでいます。",
+          "kana": "いま、なにを して いますか？ — コーヒーを のんで います。",
+          "translation": "What are you doing right now? — I am drinking coffee."
+        },
+        {
+          "kanji": "今、雨が降っています。",
+          "kana": "いま、あめが ふって います。",
+          "translation": "It is raining right now."
+        },
+        {
+          "kanji": "友達と遊んでいます。",
+          "kana": "ともだちと あそんで います。",
+          "translation": "I am hanging out with my friends."
+        },
+        {
+          "kanji": "父は川で釣りをしています。",
+          "kana": "ちちは かわで つりを して います。",
+          "translation": "My dad is fishing in the river."
+        },
+        {
+          "kanji": "昨日の夜は何をしていましたか？ — 11時まで本を読んでいました。",
+          "kana": "きのうの よるは なにを して いましたか？ — じゅういちじまで ほんを よんで いました。",
+          "translation": "What were you doing last night? — I was reading a book until 11:00."
+        },
+        {
+          "kanji": "すみません、聞いていませんでした。",
+          "kana": "すみません、きいて いませんでした。",
+          "translation": "I'm sorry, I was not listening."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-ます (stem) + ましょうか？ [Offering Assistance & Suggestions]",
+      "explanation": "Drop ます from the polite verb form and add ましょうか？. Depending on context, it serves two functions:\n1. Offering help ('Shall I do [verb] for you?'):\n   • ドアを閉めましょうか？ (Shall I close the door?)\n   • 荷物を持ちましょうか？ (Shall I carry your luggage?)\n   Responses to an offer of help:\n   - Accepting: はい、お願いします。 (Yes, please.)\n   - Declining politely: いいえ、結構です。 (No, thank you.) / いいえ、大丈夫です。 (No, it's okay.)\n2. Making a joint suggestion ('Shall we do [verb]?'):\n   • 渋谷駅で会いましょうか？ (Shall we meet at Shibuya station?)\n   Responses to a suggestion:\n   - Accepting: はい、会いましょう！ (Yes, let's meet!) / はい、そうしましょう！ (Yes, let's do that!)",
+      "examples": [
+        {
+          "kanji": "荷物を持ちましょうか？ — はい、お願いします。",
+          "kana": "にもつを もちましょうか？ — はい、おねがいします。",
+          "translation": "Shall I carry your luggage? — Yes, please."
+        },
+        {
+          "kanji": "エアコンをつけましょうか？ — いいえ、大丈夫です。",
+          "kana": "エアコンを つけましょうか？ — いいえ、だいじょうぶです。",
+          "translation": "Shall I turn on the air conditioner? — No, I'm fine."
+        },
+        {
+          "kanji": "地図を描きましょうか？ — はい、お願いします。",
+          "kana": "ちずを かきましょうか？ — はい、おねがいします。",
+          "translation": "Shall I draw a map for you? — Yes, please."
+        },
+        {
+          "kanji": "明日も来ましょうか？ — はい、午前10時に来てください。",
+          "kana": "あしたも きましょうか？ — はい、ごぜん じゅうじに きて ください。",
+          "translation": "Shall I come tomorrow again? — Yes, please come at 10:00 AM."
+        },
+        {
+          "kanji": "渋谷駅で会いましょうか？ — はい、そうしましょう！",
+          "kana": "しぶやえきで あいましょうか？ — はい、そうしましょう！",
+          "translation": "Shall we meet at Shibuya Station? — Yes, let's do that!"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-ます (stem) + 方 (かた) [Method / How to do]",
+      "explanation": "Attach 方 (かた) directly to the verb ます-stem to form a noun meaning 'how to do [verb]' or 'way of [verb]ing'.\n• When a verb takes an object with を, the particle changes to の before the verb-方 noun phrase:\n  - 漢字を読みます → 漢字の読み方 (how to read kanji)\n  - 東京駅へ行きます → 東京駅の行き方 (how to get to Tokyo Station)\n  - これを使います → これの使い方 (how to use this)",
+      "examples": [
+        {
+          "kanji": "この漢字の読み方を教えてください。",
+          "kana": "この かんじの よみかたを おしえて ください。",
+          "translation": "Please tell me how to read this kanji."
+        },
+        {
+          "kanji": "東京駅の行き方を教えてください。",
+          "kana": "とうきょうえきの いきかたを おしえて ください。",
+          "translation": "Please tell me how to go to Tokyo Station."
+        },
+        {
+          "kanji": "このコピー機の使い方を教えてください。",
+          "kana": "この コピーきの つかいかたを おしえて ください。",
+          "translation": "Please teach me how to use this copy machine."
+        }
+      ]
+    },
+    {
+      "pattern": "Adverbs of Manner and Degree: まっすぐ、ゆっくり、すぐ、あとで、もう少し、もう",
+      "explanation": "Lesson 14 introduces essential adverbs often paired with requests:\n• まっすぐ (straight): まっすぐ行ってください (Please go straight ahead).\n• ゆっくり (slowly): ゆっくり話してください (Please speak slowly).\n• すぐ (immediately / right away): すぐ来てください (Please come immediately).\n• あとで (later): あとで行きましょう (Let's go there later).\n• もう少し (a little more): もう少しゆっくり話してください (Please speak a little more slowly).\n• もう + Counter (more / another): もう1回お願いします (Once more, please); これをもう1つください (Please give me one more of this); もう3分待ってください (Please wait 3 more minutes).",
+      "examples": [
+        {
+          "kanji": "まっすぐ行って、右に曲がってください。",
+          "kana": "まっすぐ いって、みぎに まがって ください。",
+          "translation": "Please go straight and turn right."
+        },
+        {
+          "kanji": "すみませんが、もう1回言ってください。",
+          "kana": "すみませんが、もう いっかい いって ください。",
+          "translation": "Excuse me, but please say that once more."
+        },
+        {
+          "kanji": "あとで電話をかけます。",
+          "kana": "あとで でんわを かけます。",
+          "translation": "I will call you later."
+        },
+        {
+          "kanji": "すぐタクシーを呼びましょうか？",
+          "kana": "すぐ タクシーを よびましょうか？",
+          "translation": "Shall I call a taxi immediately?"
+        }
+      ]
+    },
+    {
+      "pattern": "Particles with Movement Verbs: 入ります (に) vs. 出ます (を)",
+      "explanation": "Pay close attention to particle selection with entering and exiting:\n• The place or container entered takes the destination/target particle に: カフェに入ります (enter a cafe), 部屋に入ります (enter a room).\n• The place, room, or vehicle departed takes the object/point-of-detachment particle を: カフェを出ます (leave a cafe), 部屋を出ます (leave a room).\n• The surface sat upon takes に: ソファに座ってください (Please sit on the sofa).",
+      "examples": [
+        {
+          "kanji": "寒いですから、カフェに入りましょう。",
+          "kana": "さむいですから、カフェに はいりましょう。",
+          "translation": "Because it is cold, let's enter a cafe."
+        },
+        {
+          "kanji": "雨が降っていますから、カフェを出ません。",
+          "kana": "あめが ふって いますから、カフェを でません。",
+          "translation": "Because it's raining, I won't leave the cafe."
+        },
+        {
+          "kanji": "この椅子に座ってください。",
+          "kana": "この いすに すわって ください。",
+          "translation": "Please sit on this chair."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "オフィスでの手伝いと東京駅への行き方",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "kanji": "佐藤さん、今、何をしていますか？",
+        "kana": "さとうさん、いま、なにを して いますか？"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "明日の会議の資料をコピーしています。",
+        "kana": "あしたの かいぎの しりょうを コピーして います。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "そうですか。大変ですね。手伝いましょうか？",
+        "kana": "そうですか。たいへんですね。てつだいましょうか？"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "ありがとうございます。じゃあ、これを10枚コピーしてください。",
+        "kana": "ありがとうございます。じゃあ、これを じゅうまい コピーして ください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "はい、分かりました。すぐやりますね。",
+        "kana": "はい、わかりました。すぐ やりますね。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "あ、ミラーさん、ちょっと部屋が暑いですね。エアコンをつけましょうか？",
+        "kana": "あ、ミラーさん、ちょっと へやが あついですね。エアコンを つけましょうか？"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "はい、お願いします。それから窓も少し開けてください。",
+        "kana": "はい、おねがいします。それから まども すこし あけて ください。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "はい、開けますね。ところで、ミラーさんは午後どこへ行きますか？",
+        "kana": "はい、あけますね。ところで、ミラーさんは ごご どこへ いきますか？"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "午後東京駅へ行きますが、行き方がよく分かりません。東京駅の行き方を教えてください。",
+        "kana": "ごご とうきょうえきへ いきますが、いきかたが よく わかりません。とうきょうえきの いきかたを おしえて ください。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいですよ。まず、会社の前の道をまっすぐ行ってください。それから、地下鉄の駅に入って、丸ノ内線に乗ってください。",
+        "kana": "いいですよ。まず、かいしゃの まえの みちを まっすぐ いって ください。それから、ちかてつの えきに はいって、まるのうちせんに のって ください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "すみませんが、地図を描きましょうか？",
+        "kana": "すみませんが、ちずを かきましょうか？"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいえ、私が地図を描きますよ。少々待ってください。",
+        "kana": "いいえ、わたしが ちずを かきますよ。しょうしょう まって ください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "すみません。ありがとうございます。とても助かります。",
+        "kana": "すみません。ありがとうございます。とても たすかります。"
+      }
+    ],
+    "translation": "Miller asks Sato what she is doing right now. Sato explains that she is currently photocopying documents for tomorrow's meeting. Seeing that it's a lot of work, Miller offers to help ('Shall I help?'). Sato gratefully accepts and asks him to copy 10 sheets of a handout. Next, noticing the room is hot, Sato offers to turn on the air conditioner ('Shall I turn on the AC?'). Miller accepts and asks her to also open the window a little. Later, Miller asks how to get to Tokyo Station because he doesn't know the way ('Please tell me how to get to Tokyo Station'). Sato explains to walk straight down the street in front of the company and take the Marunouchi subway line. When Miller asks if he should draw a map, Sato kindly offers to draw one for him and asks him to wait a moment.",
+    "questions": [
+      {
+        "question": "What is Sato doing when Miller speaks to her?",
+        "options": [
+          "She is eating lunch in the cafeteria.",
+          "She is currently photocopying documents for tomorrow's meeting.",
+          "She is drawing a map to Tokyo Station.",
+          "She is turning off the air conditioner."
+        ],
+        "answer": 1,
+        "explanation": "Sato answers: 明日の会議の資料をコピーしています (I am photocopying documents for tomorrow's meeting)."
+      },
+      {
+        "question": "How does Miller offer assistance to Sato?",
+        "options": [
+          "手伝いましょうか？",
+          "手伝ってください。",
+          "手伝っています。",
+          "手伝いましたか？"
+        ],
+        "answer": 0,
+        "explanation": "Miller uses the offer pattern ～ましょうか: 手伝いましょうか？ ('Shall I help?')."
+      },
+      {
+        "question": "What does Sato ask Miller to do to help her?",
+        "options": [
+          "Close all the windows.",
+          "Make 10 copies of the document.",
+          "Go straight to Tokyo Station.",
+          "Call a taxi immediately."
+        ],
+        "answer": 1,
+        "explanation": "Sato asks: これを10枚コピーしてください (Please copy 10 sheets of this)."
+      },
+      {
+        "question": "Why does Sato offer to turn on the air conditioner?",
+        "options": [
+          "Because it is raining outside.",
+          "Because the room is a bit hot.",
+          "Because the light is turned off.",
+          "Because she is leaving the office."
+        ],
+        "answer": 1,
+        "explanation": "Sato says: ちょっと部屋が暑いですね。エアコンをつけましょうか？ (The room is a bit hot. Shall I turn on the AC?)."
+      },
+      {
+        "question": "What additional request does Miller make when Sato turns on the AC?",
+        "options": [
+          "Turn off the lights.",
+          "Open the window a little.",
+          "Close the office door.",
+          "Drink coffee."
+        ],
+        "answer": 1,
+        "explanation": "Miller says: それから窓も少し開けてください (And please also open the window a little)."
+      },
+      {
+        "question": "How does Miller ask for directions to Tokyo Station?",
+        "options": [
+          "東京駅の行き方を教えてください。",
+          "東京駅へ行きましたか？",
+          "東京駅はどうですか？",
+          "東京駅で会いましょうか？"
+        ],
+        "answer": 0,
+        "explanation": "Miller uses the ～方 pattern: 東京駅の行き方を教えてください (Please tell me how to get to Tokyo Station)."
+      },
+      {
+        "question": "According to Sato, how should Miller get to the station entrance?",
+        "options": [
+          "Turn right immediately at the corner.",
+          "Go straight along the street in front of the company.",
+          "Call a taxi right away.",
+          "Wait for 10 minutes."
+        ],
+        "answer": 1,
+        "explanation": "Sato instructs: 会社の前の道をまっすぐ行ってください (Please go straight down the street in front of the company)."
+      },
+      {
+        "question": "Who will draw the map for Miller?",
+        "options": [
+          "Miller will draw it himself.",
+          "Sato will draw it for him.",
+          "The station staff will draw it.",
+          "Nobody draws a map."
+        ],
+        "answer": 1,
+        "explanation": "Sato says: いいえ、私が地図を描きますよ。少々待ってください (No, I will draw the map. Please wait a moment)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct verb group for 食べます (たべます).",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Irregular Group"
+      ],
+      "answer": 1,
+      "explanation": "食べます has the -e vowel sound before ます (ta-be-masu), so it belongs to Group 2 (ichidan verbs)."
+    },
+    {
+      "question": "Choose the correct verb group for 買います (かいます).",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "買います has the -i vowel sound before ます (ka-i-masu) and is not an exception, so it belongs to Group 1 (godan verbs)."
+    },
+    {
+      "question": "Choose the correct verb group for 起きます (おきます).",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Noun"
+      ],
+      "answer": 1,
+      "explanation": "Even though 起きます ends in -iます (o-ki-masu), it is one of the classic Group 2 exceptions (起きる/起きます)."
+    },
+    {
+      "question": "Choose the correct verb group for 勉強します (べんきょうします).",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Adjective"
+      ],
+      "answer": 2,
+      "explanation": "All verbs formed with [Noun] + します belong to Group 3 (irregular verbs)."
+    },
+    {
+      "question": "Choose the correct verb group for 入ります (はいります).",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Adverb"
+      ],
+      "answer": 0,
+      "explanation": "入ります (dictionary: 入る, はいる) is a special verb that ends in -iru but conjugates as a Group 1 verb (入って, 入ります)."
+    },
+    {
+      "question": "Choose the correct て-form of 行きます (いきます).",
+      "prompt": {
+        "kanji": "東京駅へ___ください。",
+        "kana": "とうきょうえきへ ___ ください。"
+      },
+      "options": [
+        "いいて",
+        "いって",
+        "いきって",
+        "いで"
+      ],
+      "answer": 1,
+      "explanation": "行きます is the famous Group 1 exception: き does not become いて; it becomes 行って (いって)."
+    },
+    {
+      "question": "Choose the correct て-form of 急ぎます (いそぎます).",
+      "prompt": {
+        "kanji": "時間に遅れますから、___ください。",
+        "kana": "じかんに おくれますから、___ ください。"
+      },
+      "options": [
+        "いそいで",
+        "いそいて",
+        "いそって",
+        "いそんで"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, verbs ending in ぎます change to いで: 急ぎます → 急いで."
+    },
+    {
+      "question": "Choose the correct て-form of 待ちます (まちます).",
+      "prompt": {
+        "kanji": "ここで少し___ください。",
+        "kana": "ここで すこし ___ ください。"
+      },
+      "options": [
+        "まって",
+        "まちて",
+        "まいで",
+        "まんで"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, verbs ending in ちます change to って: 待ちます → 待って."
+    },
+    {
+      "question": "Choose the correct て-form of 飲みます (のみます).",
+      "prompt": {
+        "kanji": "薬を___、寝てください。",
+        "kana": "くすりを ___、ねて ください。"
+      },
+      "options": [
+        "のんで",
+        "のって",
+        "のみて",
+        "のいて"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, verbs ending in みます change to んで: 飲みます → 飲んで."
+    },
+    {
+      "question": "Choose the correct て-form of 呼びます (よびます).",
+      "prompt": {
+        "kanji": "タクシーを___ください。",
+        "kana": "タクシーを ___ ください。"
+      },
+      "options": [
+        "よんで",
+        "よって",
+        "よびて",
+        "よいて"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, verbs ending in びます change to んで: 呼びます → 呼んで."
+    },
+    {
+      "question": "Choose the correct て-form of 話します (はなします).",
+      "prompt": {
+        "kanji": "日本語で___ください。",
+        "kana": "にほんごで ___ ください。"
+      },
+      "options": [
+        "はなして",
+        "はなって",
+        "はないて",
+        "はなんで"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, verbs ending in します change to して: 話します → 話して."
+    },
+    {
+      "question": "Choose the correct て-form of 閉めます (しめます).",
+      "prompt": {
+        "kanji": "寒いですから、ドアを___ください。",
+        "kana": "さむいですから、ドアを ___ ください。"
+      },
+      "options": [
+        "しめて",
+        "しんで",
+        "しめって",
+        "しみて"
+      ],
+      "answer": 0,
+      "explanation": "閉めます is a Group 2 verb (-eます). Drop ます and attach て: 閉めて."
+    },
+    {
+      "question": "Choose the correct て-form of 来ます (きます).",
+      "prompt": {
+        "kanji": "明日私のうちへ___ください。",
+        "kana": "あした わたしの うちへ ___ ください。"
+      },
+      "options": [
+        "きて",
+        "きいて",
+        "こて",
+        "きって"
+      ],
+      "answer": 0,
+      "explanation": "来ます (きます) is an irregular Group 3 verb. Its て-form is 来て (きて)."
+    },
+    {
+      "question": "Choose the correct request form: 'Please turn on the light.'",
+      "prompt": {
+        "kanji": "部屋が暗いですから、電気を___。",
+        "kana": "へやが くらいですから、でんきを ___。"
+      },
+      "options": [
+        "つけてください",
+        "つけますください",
+        "つくてください",
+        "つけてくださいました"
+      ],
+      "answer": 0,
+      "explanation": "つけます is Group 2 → つけて + ください = つけてください."
+    },
+    {
+      "question": "Choose the correct request form: 'Please show your passport.'",
+      "prompt": {
+        "kanji": "パスポートを___。",
+        "kana": "パスポートを ___。"
+      },
+      "options": [
+        "見せてください",
+        "見てください",
+        "見してくだい",
+        "見せってくだい"
+      ],
+      "answer": 0,
+      "explanation": "見せます (to show) is Group 2 → 見せてください. (Note: 見てください means 'please look')."
+    },
+    {
+      "question": "Choose the correct meaning of 取ります (とります) in: 『塩を取ってください』.",
+      "options": [
+        "Please buy some salt",
+        "Please pass the salt",
+        "Please throw away the salt",
+        "Please make salt"
+      ],
+      "answer": 1,
+      "explanation": "取ります literally means to grab or take, but when dining it politely means 'Please pass [the salt/sugar]'."
+    },
+    {
+      "question": "What is the difference between 質問 (しつもん) and 問題 (もんだい)?",
+      "options": [
+        "質問 is a question you ask because you want to know something; 問題 is a problem or test question.",
+        "問題 is an inquiry to a person; 質問 is a test question.",
+        "Both are completely interchangeable in every context.",
+        "問題 only means mathematical equations."
+      ],
+      "answer": 0,
+      "explanation": "As explained in the video: 質問 is a question you ask someone when seeking information (質問があります). 問題 refers to problems, trouble, or test/quiz questions."
+    },
+    {
+      "question": "Choose the correct sentence to express calling someone on the phone.",
+      "options": [
+        "田中さんを呼びます。",
+        "田中さんに電話をかけます。",
+        "田中さんを電話に呼びます。",
+        "田中さんに話します。"
+      ],
+      "answer": 1,
+      "explanation": "As noted in the video: 呼びます means to call out or summon. Making a phone call is 電話をかけます (or 電話をします)."
+    },
+    {
+      "question": "Choose the correct continuous form: 'What are you doing now?'",
+      "prompt": {
+        "kanji": "今、何を___か？",
+        "kana": "いま、なにを ___か？"
+      },
+      "options": [
+        "しています",
+        "します",
+        "してありました",
+        "していません"
+      ],
+      "answer": 0,
+      "explanation": "Action in progress right now is formed with Verb (て-form) + います: 何をしていますか？"
+    },
+    {
+      "question": "Choose the correct sentence: 'It is raining right now.'",
+      "options": [
+        "今、雨が降っています。",
+        "今、雨を降っています。",
+        "今、雨が降りますでした。",
+        "今、雨で降っています。"
+      ],
+      "answer": 0,
+      "explanation": "Natural phenomena (rain, snow) take the subject particle が: 雨が降っています."
+    },
+    {
+      "question": "Choose the correct response to decline an offer politely: 『荷物を持ちましょうか？』",
+      "options": [
+        "いいえ、持ちません。",
+        "いいえ、結構です。大丈夫です。",
+        "はい、持ちません。",
+        "いいえ、持ってください。"
+      ],
+      "answer": 1,
+      "explanation": "To decline an offer of help politely, use 『いいえ、結構です』 or 『いいえ、大丈夫です』."
+    },
+    {
+      "question": "Choose the correct response to accept an offer of help: 『エアコンをつけましょうか？』",
+      "options": [
+        "はい、お願いします。",
+        "いいえ、お願いします。",
+        "はい、つけましょう。",
+        "はい、結構です。"
+      ],
+      "answer": 0,
+      "explanation": "When accepting someone's offer to do something for you, respond with 『はい、お願いします』 ('Yes, please')."
+    },
+    {
+      "question": "Choose the correct sentence: 'Shall we meet at Shibuya Station?'",
+      "options": [
+        "渋谷駅で会いましょうか？",
+        "渋谷駅に会いましょうか？",
+        "渋谷駅で会ってくださいか？",
+        "渋谷駅を行きましょうか？"
+      ],
+      "answer": 0,
+      "explanation": "The place of an action takes で: 渋谷駅で会いましょうか？ (Shall we meet at Shibuya Station?)."
+    },
+    {
+      "question": "How do you form the noun meaning 'how to read this kanji'?",
+      "options": [
+        "この漢字の読み方",
+        "この漢字を読む方",
+        "この漢字の読んだ方",
+        "この漢字を読み方"
+      ],
+      "answer": 0,
+      "explanation": "The pattern is [Noun] の [Verb-stem]方: この漢字の読み方 (how to read this kanji)."
+    },
+    {
+      "question": "What does 東京駅の行き方 mean?",
+      "options": [
+        "The train that departs from Tokyo Station",
+        "How to get to Tokyo Station",
+        "The time Tokyo Station opens",
+        "Ticket prices at Tokyo Station"
+      ],
+      "answer": 1,
+      "explanation": "行き方 (いきかた) means 'how to go / the way to get there'."
+    },
+    {
+      "question": "Choose the adverb meaning 'straight ahead'.",
+      "prompt": {
+        "kanji": "この道を___行ってください。",
+        "kana": "この みちを ___ いって ください。"
+      },
+      "options": [
+        "まっすぐ",
+        "ゆっくり",
+        "すぐ",
+        "あとで"
+      ],
+      "answer": 0,
+      "explanation": "まっすぐ means 'straight / straight ahead'."
+    },
+    {
+      "question": "Choose the adverb meaning 'slowly'.",
+      "prompt": {
+        "kanji": "もう少し___話してください。",
+        "kana": "もうすこし ___ はなして ください。"
+      },
+      "options": [
+        "ゆっくり",
+        "すぐ",
+        "また",
+        "まっすぐ"
+      ],
+      "answer": 0,
+      "explanation": "ゆっくり means 'slowly / at a leisurely pace'."
+    },
+    {
+      "question": "Choose the phrase meaning 'Please wait 3 more minutes'.",
+      "options": [
+        "もう3分待ってください。",
+        "あと3分急いでください。",
+        "また3分休んでください。",
+        "もう少し3分待ってください。"
+      ],
+      "answer": 0,
+      "explanation": "もう + [Quantity] expresses '~ more': もう3分待ってください (Please wait 3 more minutes)."
+    },
+    {
+      "question": "Choose the phrase meaning 'Once more, please'.",
+      "options": [
+        "もう1回お願いします。",
+        "あと1回お願いします。",
+        "また1回教えます。",
+        "すぐ1回話します。"
+      ],
+      "answer": 0,
+      "explanation": "もう1回 (もう いっかい) お願いします = 'Once more, please / Could you repeat that once more?'"
+    },
+    {
+      "question": "Choose the correct past continuous negative sentence: 'I was not listening.'",
+      "options": [
+        "聞いていませんでした。",
+        "聞いていませんです。",
+        "聞きましたではありません。",
+        "聞いていません。"
+      ],
+      "answer": 0,
+      "explanation": "Past negative continuous is formed by ～ていませんでした: 聞いていませんでした."
+    },
+    {
+      "question": "In spoken conversational Japanese, what is often dropped from 食べています?",
+      "options": [
+        "The sound い (becoming 食べてます)",
+        "The sound て (becoming 食べいます)",
+        "The sound す (becoming 食べていま)",
+        "The sound ま (becoming 食べていす)"
+      ],
+      "answer": 0,
+      "explanation": "As highlighted in the video, in casual speech and informal text messages, the 'い' in '～ています' is often dropped, resulting in '～てます'."
+    },
+    {
+      "question": "Choose the correct particle: 'I enter the cafe.'",
+      "prompt": {
+        "kanji": "カフェ___入ります。",
+        "kana": "カフェ___ はいります。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The place entered takes に: カフェに入ります."
+    },
+    {
+      "question": "Choose the correct particle: 'I leave the cafe.'",
+      "prompt": {
+        "kanji": "カフェ___出ます。",
+        "kana": "カフェ___ でます。"
+      },
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The place left/exited takes を: カフェを出ます."
+    },
+    {
+      "question": "Choose the correct particle: 'Please sit on this sofa.'",
+      "prompt": {
+        "kanji": "このソファ___座ってください。",
+        "kana": "この ソファ___ すわって ください。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The surface where you position yourself to sit takes に: ソファに座ってください."
+    },
+    {
+      "question": "Choose the correct particle: 'My father is fishing in the river.'",
+      "prompt": {
+        "kanji": "父は川___釣りをしています。",
+        "kana": "ちちは かわ___ つりを して います。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The location where an active event takes place takes で: 川で釣りをしています."
+    },
+    {
+      "question": "What is the dictionary form of 急ぎます (いそぎます)?",
+      "options": [
+        "急ぐ (いそぐ)",
+        "急ぎる (いそぎる)",
+        "急ぐす (いそぐす)",
+        "急げる (いそげる)"
+      ],
+      "answer": 0,
+      "explanation": "Group 1 verb with -iます ending changes to -u: 急ぎます → 急ぐ."
+    },
+    {
+      "question": "What is the dictionary form of 閉めます (しめます)?",
+      "options": [
+        "閉める (しめる)",
+        "閉む (しむ)",
+        "閉まる (しまる)",
+        "閉まれる (しまれる)"
+      ],
+      "answer": 0,
+      "explanation": "Group 2 verb with -eます ending drops ます and adds る: 閉めます → 閉める."
+    },
+    {
+      "question": "What is the dictionary form of 待ちます (まちます)?",
+      "options": [
+        "待つ (まつ)",
+        "待る (まる)",
+        "待つる (まつる)",
+        "待ちる (まちる)"
+      ],
+      "answer": 0,
+      "explanation": "In Group 1, ちます corresponds to the dictionary ending つ: 待ちます → 待つ."
+    },
+    {
+      "question": "What is the dictionary form of します?",
+      "options": [
+        "する",
+        "す",
+        "しる",
+        "すれる"
+      ],
+      "answer": 0,
+      "explanation": "The dictionary form of the irregular verb します is する."
+    },
+    {
+      "question": "What is the dictionary form of 来ます (きます)?",
+      "options": [
+        "くる",
+        "きる",
+        "こる",
+        "きまる"
+      ],
+      "answer": 0,
+      "explanation": "The dictionary form of 来ます (きます) is 来る (くる)."
+    },
+    {
+      "question": "Choose the correct phrase: 'Please help me with my homework.'",
+      "options": [
+        "私の宿題を手伝ってください。",
+        "私の宿題を手伝いましょうか。",
+        "私の宿題を手伝っています。",
+        "私の宿題を手伝いました。"
+      ],
+      "answer": 0,
+      "explanation": "手伝います (Group 1: い → って) becomes 手伝ってください."
+    },
+    {
+      "question": "Choose the correct word: 'change from a purchase'.",
+      "options": [
+        "お釣り (おつり)",
+        "お金 (おかね)",
+        "財布 (さいふ)",
+        "切符 (きっぷ)"
+      ],
+      "answer": 0,
+      "explanation": "お釣り (おつり) is the change given back after paying."
+    },
+    {
+      "question": "Choose the correct phrase: 'Let's talk again later.'",
+      "options": [
+        "またあとで話しましょう。",
+        "すぐまっすぐ話します。",
+        "もう少しゆっくり話しました。",
+        "もう1回閉めましょう。"
+      ],
+      "answer": 0,
+      "explanation": "また (again) + あとで (later) + 話しましょう (let's talk) = またあとで話しましょう."
+    },
+    {
+      "question": "Choose the correct sentence: 'Shall I carry your luggage?'",
+      "options": [
+        "荷物を持ちましょうか？",
+        "荷物を持ってくださいか？",
+        "荷物を持っていますか？",
+        "荷物を持ちますか？"
+      ],
+      "answer": 0,
+      "explanation": "Offering assistance uses Verb ます-stem + ましょうか: 荷物を持ちましょうか？"
+    },
+    {
+      "question": "Choose the correct polite preface when asking a stranger for a favor.",
+      "options": [
+        "すみませんが、",
+        "どうやって、",
+        "じゃあ、",
+        "ですから、"
+      ],
+      "answer": 0,
+      "explanation": "すみませんが ('Excuse me, but...') is the standard polite opener before a request."
+    }
+  ],
+  "writing": {
+    "title": "Office Requests, Asking for Directions, and Offering Help",
+    "prompt": "Write 6–8 sentences in Japanese describing a busy day at work or school. (1) Describe what you and others are currently doing right now using ～ています. (2) Make at least two polite requests to a coworker or friend using すみませんが、～てください. (3) Offer to help someone with a task using ～ましょうか, and include the acceptance response (はい、お願いします). (4) Ask how to get somewhere or how to do something using ～方 (e.g. 行き方を教えてください). (5) Incorporate at least two adverbs (まっすぐ, ゆっくり, すぐ, or もう少し).",
+    "placeholder": "今、私は ______ をしています。友達は ______ をしています。\nすみませんが、______ を手伝ってください。そして、______ をコピーしてください。\n荷物が重いですね。______ を持ちましょうか？ — はい、お願いします。\nすみませんが、______ の行き方を教えてください。この道をまっすぐ ______。",
+    "modelAnswer": "今、私は会議室で資料を作っています。同僚の田中さんは横で書類をコピーしています。すみませんが、このパソコンの使い方を教えてください。そして、もう少しゆっくり話してください。荷物がたくさんありますね。荷物を持ちましょうか？ — はい、お願いします。すみませんが、郵便局の行き方を教えてください。あの道をまっすぐ行ってください。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Please turn on the light.",
+        "chunks": [
+          "電気を",
+          "つけて",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Please wait a moment.",
+        "chunks": [
+          "ちょっと",
+          "待って",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Please speak a little more slowly.",
+        "chunks": [
+          "もう少し",
+          "ゆっくり",
+          "話してください。"
+        ]
+      },
+      {
+        "en": "Shall I carry your luggage?",
+        "chunks": [
+          "荷物を",
+          "持ちましょうか？"
+        ]
+      },
+      {
+        "en": "Please pass me the salt.",
+        "chunks": [
+          "お塩を",
+          "取って",
+          "ください。"
+        ]
+      },
+      {
+        "en": "I am drinking coffee right now.",
+        "chunks": [
+          "今、",
+          "コーヒーを",
+          "飲んでいます。"
+        ]
+      },
+      {
+        "en": "It is raining outside now.",
+        "chunks": [
+          "今、",
+          "外で",
+          "雨が降っています。"
+        ]
+      },
+      {
+        "en": "What were you doing last night?",
+        "chunks": [
+          "昨日の夜は、",
+          "何を",
+          "していましたか？"
+        ]
+      },
+      {
+        "en": "I was reading a book until eleven o'clock.",
+        "chunks": [
+          "11時まで",
+          "本を",
+          "読んでいました。"
+        ]
+      },
+      {
+        "en": "I'm sorry, I was not listening.",
+        "chunks": [
+          "すみません、",
+          "聞いて",
+          "いませんでした。"
+        ]
+      },
+      {
+        "en": "Shall I close the door?",
+        "chunks": [
+          "ドアを",
+          "閉めましょうか？"
+        ]
+      },
+      {
+        "en": "Shall we meet at Shibuya Station?",
+        "chunks": [
+          "渋谷駅で",
+          "会いましょうか？"
+        ]
+      },
+      {
+        "en": "Please tell me how to get to Tokyo Station.",
+        "chunks": [
+          "東京駅の",
+          "行き方を",
+          "教えてください。"
+        ]
+      },
+      {
+        "en": "Please teach me how to read this kanji.",
+        "chunks": [
+          "この漢字の",
+          "読み方を",
+          "教えてください。"
+        ]
+      },
+      {
+        "en": "Please go straight down this street.",
+        "chunks": [
+          "この道を",
+          "まっすぐ",
+          "行ってください。"
+        ]
+      },
+      {
+        "en": "Could you please repeat that once more?",
+        "chunks": [
+          "もう1回",
+          "お願い",
+          "します。"
+        ]
+      },
+      {
+        "en": "Please wait three more minutes.",
+        "chunks": [
+          "もう3分",
+          "待って",
+          "ください。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "つけます (to turn on)",
+        "form": "て-form",
+        "answer": "つけて",
+        "options": [
+          "つけて",
+          "つきて",
+          "つけって"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "消します (けします - to turn off)",
+        "form": "て-form",
+        "answer": "けして",
+        "options": [
+          "けして",
+          "けって",
+          "けして"
+        ],
+        "hint": "Group 1: し → して"
+      },
+      {
+        "prompt": "開けます (あけます - to open)",
+        "form": "て-form",
+        "answer": "あけて",
+        "options": [
+          "あけて",
+          "あきって",
+          "あいて"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "閉めます (しめます - to close)",
+        "form": "て-form",
+        "answer": "しめて",
+        "options": [
+          "しめて",
+          "しめって",
+          "しんで"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "急ぎます (いそぎます - to hurry)",
+        "form": "て-form",
+        "answer": "いそいで",
+        "options": [
+          "いそいで",
+          "いそいて",
+          "いそって"
+        ],
+        "hint": "Group 1: ぎ → いで (voiced)"
+      },
+      {
+        "prompt": "待ちます (まちます - to wait)",
+        "form": "て-form",
+        "answer": "まって",
+        "options": [
+          "まって",
+          "まちて",
+          "まんで"
+        ],
+        "hint": "Group 1: ち → って"
+      },
+      {
+        "prompt": "持ちます (もちます - to hold)",
+        "form": "て-form",
+        "answer": "もって",
+        "options": [
+          "もって",
+          "もちて",
+          "もいで"
+        ],
+        "hint": "Group 1: ち → って"
+      },
+      {
+        "prompt": "取ります (とります - to take/pass)",
+        "form": "て-form",
+        "answer": "とって",
+        "options": [
+          "とって",
+          "とりて",
+          "とんで"
+        ],
+        "hint": "Group 1: り → って"
+      },
+      {
+        "prompt": "手伝います (てつだいます - to help)",
+        "form": "て-form",
+        "answer": "てつだって",
+        "options": [
+          "てつだって",
+          "てつだいて",
+          "てつだんで"
+        ],
+        "hint": "Group 1: い → って"
+      },
+      {
+        "prompt": "呼びます (よびます - to call)",
+        "form": "て-form",
+        "answer": "よんで",
+        "options": [
+          "よんで",
+          "よって",
+          "よびて"
+        ],
+        "hint": "Group 1: び → んで"
+      },
+      {
+        "prompt": "話します (はなします - to speak)",
+        "form": "て-form",
+        "answer": "はなして",
+        "options": [
+          "はなして",
+          "はなって",
+          "はないて"
+        ],
+        "hint": "Group 1: し → して"
+      },
+      {
+        "prompt": "使います (つかいます - to use)",
+        "form": "て-form",
+        "answer": "つかって",
+        "options": [
+          "つかって",
+          "つかいて",
+          "つかんで"
+        ],
+        "hint": "Group 1: い → って"
+      },
+      {
+        "prompt": "止めます (とめます - to stop/park)",
+        "form": "て-form",
+        "answer": "とめて",
+        "options": [
+          "とめて",
+          "とんで",
+          "とめって"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "見せます (みせます - to show)",
+        "form": "て-form",
+        "answer": "みせて",
+        "options": [
+          "みせて",
+          "みて",
+          "みせって"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "教えます (おしえます - to teach/tell)",
+        "form": "て-form",
+        "answer": "おしえて",
+        "options": [
+          "おしえて",
+          "おしえって",
+          "おしえんで"
+        ],
+        "hint": "Group 2 (-eます): drop ます, add て"
+      },
+      {
+        "prompt": "座ります (すわります - to sit)",
+        "form": "て-form",
+        "answer": "すわって",
+        "options": [
+          "すわって",
+          "すわりて",
+          "すわんで"
+        ],
+        "hint": "Group 1: り → って"
+      },
+      {
+        "prompt": "立ちます (たちます - to stand)",
+        "form": "て-form",
+        "answer": "たって",
+        "options": [
+          "たって",
+          "たちて",
+          "たいで"
+        ],
+        "hint": "Group 1: ち → って"
+      },
+      {
+        "prompt": "入ります (はいります - to enter)",
+        "form": "て-form",
+        "answer": "はいって",
+        "options": [
+          "はいって",
+          "はいて",
+          "はいりて"
+        ],
+        "hint": "Irregular-looking Group 1: り → って"
+      },
+      {
+        "prompt": "出ます (でます - to leave)",
+        "form": "て-form",
+        "answer": "でて",
+        "options": [
+          "でて",
+          "でって",
+          "でんで"
+        ],
+        "hint": "Group 2: drop ます, add て"
+      },
+      {
+        "prompt": "降ります (ふります - to rain/fall)",
+        "form": "て-form",
+        "answer": "ふって",
+        "options": [
+          "ふって",
+          "ふりて",
+          "ふいて"
+        ],
+        "hint": "Group 1: り → って"
+      },
+      {
+        "prompt": "行きます (いきます - to go)",
+        "form": "て-form",
+        "answer": "いって",
+        "options": [
+          "いって",
+          "いきて",
+          "いいて"
+        ],
+        "hint": "Special Group 1 exception: 行きます becomes 行って"
+      },
+      {
+        "prompt": "書きます (かきます - to write)",
+        "form": "て-form",
+        "answer": "かいて",
+        "options": [
+          "かいて",
+          "かって",
+          "かきて"
+        ],
+        "hint": "Group 1: き → いて"
+      },
+      {
+        "prompt": "見ます (みます - to look/watch)",
+        "form": "て-form",
+        "answer": "みて",
+        "options": [
+          "みて",
+          "みって",
+          "みいて"
+        ],
+        "hint": "Group 2 exception: drop ます, add て"
+      },
+      {
+        "prompt": "起きます (おきます - to wake up)",
+        "form": "て-form",
+        "answer": "おきて",
+        "options": [
+          "おきて",
+          "おいて",
+          "おきって"
+        ],
+        "hint": "Group 2 exception: drop ます, add て"
+      },
+      {
+        "prompt": "借ります (かります - to borrow)",
+        "form": "て-form",
+        "answer": "かりて",
+        "options": [
+          "かりて",
+          "かって",
+          "かりって"
+        ],
+        "hint": "Group 2 exception: drop ます, add て"
+      },
+      {
+        "prompt": "コピーします (to make a copy)",
+        "form": "て-form",
+        "answer": "コピーして",
+        "options": [
+          "コピーして",
+          "コピーしてって",
+          "コピーした"
+        ],
+        "hint": "Group 3 compound: します → して"
+      },
+      {
+        "prompt": "来ます (きます - to come)",
+        "form": "て-form",
+        "answer": "きて",
+        "options": [
+          "きて",
+          "きって",
+          "こて"
+        ],
+        "hint": "Group 3 irregular"
+      },
+      {
+        "prompt": "読みます (よみます - to read)",
+        "form": "How to (～方)",
+        "answer": "よみかた",
+        "options": [
+          "よみかた",
+          "よむかた",
+          "よんだかた"
+        ],
+        "hint": "Attach 方 directly to the ます-stem"
+      },
+      {
+        "prompt": "行きます (いきます - to go)",
+        "form": "How to (～方)",
+        "answer": "いきかた",
+        "options": [
+          "いきかた",
+          "いくかた",
+          "いったかた"
+        ],
+        "hint": "ます-stem (いき) + かた"
+      },
+      {
+        "prompt": "使います (つかいます - to use)",
+        "form": "How to (～方)",
+        "answer": "つかいかた",
+        "options": [
+          "つかいかた",
+          "つかうかた",
+          "つかってかた"
+        ],
+        "hint": "ます-stem (つかい) + かた"
+      },
+      {
+        "prompt": "急ぐ (いそぐ - dictionary form)",
+        "form": "て-form",
+        "answer": "いそいで",
+        "options": [
+          "いそいで",
+          "いそいて",
+          "いそって"
+        ],
+        "hint": "From dictionary form: ぐ → いで"
+      },
+      {
+        "prompt": "待つ (まつ - dictionary form)",
+        "form": "て-form",
+        "answer": "まって",
+        "options": [
+          "まって",
+          "まちて",
+          "まつて"
+        ],
+        "hint": "From dictionary form: つ → って"
+      },
+      {
+        "prompt": "食べる (たべる - dictionary form)",
+        "form": "て-form",
+        "answer": "たべて",
+        "options": [
+          "たべて",
+          "たべって",
+          "たべんで"
+        ],
+        "hint": "From dictionary form: Group 2 drops る and adds て"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "電気 [ ? ] つけてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The direct object of つけます takes を."
+      },
+      {
+        "sentence": "エアコン [ ? ] 消しましょうか？",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The appliance being turned off is marked with を."
+      },
+      {
+        "sentence": "窓 [ ? ] 開けてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object being opened takes を."
+      },
+      {
+        "sentence": "今、雨 [ ? ] 降っています。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Natural phenomena (rain, snow) use the subject particle が."
+      },
+      {
+        "sentence": "カフェ [ ? ] 入ります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Entering a location takes the target/destination particle に."
+      },
+      {
+        "sentence": "カフェ [ ? ] 出ます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
+        "hint": "Leaving or exiting an enclosed space takes を."
+      },
+      {
+        "sentence": "このソファ [ ? ] 座ってください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The surface where you sit takes に."
+      },
+      {
+        "sentence": "川 [ ? ] 釣りをしています。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "The location where an active event occurs takes で."
+      },
+      {
+        "sentence": "あそこに車 [ ? ] 止めてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The vehicle being parked is the direct object marked by を."
+      },
+      {
+        "sentence": "あそこ [ ? ] 車を止めてください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The spot where the vehicle comes to a halt/parked position takes に."
+      },
+      {
+        "sentence": "ここに名前 [ ? ] 書いてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object being written takes を."
+      },
+      {
+        "sentence": "ここ [ ? ] 名前を書いてください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The surface or blank area where information is recorded takes に."
+      },
+      {
+        "sentence": "パスポート [ ? ] 見せてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object shown takes を."
+      },
+      {
+        "sentence": "この漢字 [ ? ] 読み方を教えてください。",
+        "answer": "の",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Connect the noun and verb-stem noun with の (漢字の読み方)."
+      },
+      {
+        "sentence": "東京駅 [ ? ] 行き方を教えてください。",
+        "answer": "の",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "へ"
+        ],
+        "hint": "Connect destination to 行き方 with の (東京駅の行き方)."
+      },
+      {
+        "sentence": "今、友達 [ ? ] 遊んでいます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "に",
+          "を",
+          "で"
+        ],
+        "hint": "The companion you do an action with takes と ('with')."
+      },
+      {
+        "sentence": "質問 [ ? ] あります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Things that exist with あります take が."
+      },
+      {
+        "sentence": "300円 [ ? ] お釣りです。",
+        "answer": "の",
+        "options": [
+          "の",
+          "を",
+          "で",
+          "に"
+        ],
+        "hint": "Describing the amount of change uses の: 300円のお釣り."
+      },
+      {
+        "sentence": "会議室 [ ? ] 資料をコピーしています。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "The room where an active task takes place takes で."
+      },
+      {
+        "sentence": "日本語 [ ? ] 話してください。",
+        "answer": "で",
+        "options": [
+          "で",
+          "を",
+          "に",
+          "と"
+        ],
+        "hint": "The language or means used to communicate takes で."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "In a dark meeting room",
+        "speaker": "同僚",
+        "prompt": "部屋が暗いですね。",
+        "options": [
+          {
+            "text": "電気をつけましょうか？",
+            "correct": true
+          },
+          {
+            "text": "電気を消しましょうか？",
+            "correct": false
+          },
+          {
+            "text": "電気を開けてください。",
+            "correct": false
+          }
+        ],
+        "tip": "Offer to turn on the light with 電気をつけましょうか？"
+      },
+      {
+        "situation": "Someone speaking too quickly",
+        "speaker": "先生",
+        "prompt": "分かりましたか？",
+        "options": [
+          {
+            "text": "すみませんが、もう少しゆっくり話してください。",
+            "correct": true
+          },
+          {
+            "text": "すみませんが、すぐ話しましょうか？",
+            "correct": false
+          },
+          {
+            "text": "まっすぐ行ってください。",
+            "correct": false
+          }
+        ],
+        "tip": "Ask politely for slower speech: もう少しゆっくり話してください."
+      },
+      {
+        "situation": "At the dining table",
+        "speaker": "友人",
+        "prompt": "スープの味はどうですか？",
+        "options": [
+          {
+            "text": "ちょっと薄いです。お塩を取ってください。",
+            "correct": true
+          },
+          {
+            "text": "お塩を止めましょうか？",
+            "correct": false
+          },
+          {
+            "text": "お塩を待ってください。",
+            "correct": false
+          }
+        ],
+        "tip": "Request someone to pass an item with [Noun] を 取ってください."
+      },
+      {
+        "situation": "Offering help with heavy luggage",
+        "speaker": "旅行者",
+        "prompt": "この荷物はとても重いです…。",
+        "options": [
+          {
+            "text": "荷物を持ちましょうか？",
+            "correct": true
+          },
+          {
+            "text": "荷物を持ってください。",
+            "correct": false
+          },
+          {
+            "text": "荷物を開けましょうか？",
+            "correct": false
+          }
+        ],
+        "tip": "Offer to carry luggage with 荷物を持ちましょうか？"
+      },
+      {
+        "situation": "Accepting an offer of help",
+        "speaker": "同僚",
+        "prompt": "資料をコピーしましょうか？",
+        "options": [
+          {
+            "text": "はい、お願いします。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、お願いします。",
+            "correct": false
+          },
+          {
+            "text": "はい、コピーしてください。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an offer warmly with はい、お願いします."
+      },
+      {
+        "situation": "Declining an offer of help politely",
+        "speaker": "同僚",
+        "prompt": "手伝いましょうか？",
+        "options": [
+          {
+            "text": "いいえ、結構です。大丈夫ですよ。",
+            "correct": true
+          },
+          {
+            "text": "はい、結構です。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、手伝ってください。",
+            "correct": false
+          }
+        ],
+        "tip": "Decline an offer politely with いいえ、結構です / 大丈夫です."
+      },
+      {
+        "situation": "Asking what someone is doing",
+        "speaker": "母",
+        "prompt": "今、何をしているの？",
+        "options": [
+          {
+            "text": "宿題をしています。",
+            "correct": true
+          },
+          {
+            "text": "宿題をしましょうか？",
+            "correct": false
+          },
+          {
+            "text": "宿題をしてください。",
+            "correct": false
+          }
+        ],
+        "tip": "State an action in progress with ～ています: 宿題をしています."
+      },
+      {
+        "situation": "Asking for directions to a station",
+        "speaker": "観光客",
+        "prompt": "すみません、東京駅の行き方を教えてください。",
+        "options": [
+          {
+            "text": "この道をまっすぐ行ってください。",
+            "correct": true
+          },
+          {
+            "text": "東京駅を呼びましょうか？",
+            "correct": false
+          },
+          {
+            "text": "東京駅を開けてください。",
+            "correct": false
+          }
+        ],
+        "tip": "Direct someone straight down the road with この道をまっすぐ行ってください."
+      },
+      {
+        "situation": "Meeting up with a friend",
+        "speaker": "友達",
+        "prompt": "どこで会いましょうか？",
+        "options": [
+          {
+            "text": "ハチ公の前で会いましょう！",
+            "correct": true
+          },
+          {
+            "text": "ハチ公の前で会ってください。",
+            "correct": false
+          },
+          {
+            "text": "ハチ公の前で会っています。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to a joint suggestion with ～ましょう: 会いましょう！"
+      },
+      {
+        "situation": "At the hotel check-in desk",
+        "speaker": "フロント係",
+        "prompt": "いらっしゃいませ。ご宿泊のお客様ですね。",
+        "options": [
+          {
+            "text": "はい。パスポートを見せてくださいと言われました。",
+            "correct": false
+          },
+          {
+            "text": "はい。パスポートを見せてください。",
+            "correct": false
+          },
+          {
+            "text": "パスポートを見せてくださいと頼まれます。",
+            "correct": false
+          }
+        ],
+        "tip": "Staff say: パスポートを見せてください (Please show your passport)."
+      },
+      {
+        "situation": "At the reception desk",
+        "speaker": "受付",
+        "prompt": "こちらにお名前とご住所を書いてください。",
+        "options": [
+          {
+            "text": "はい、分かりました。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、結構です。",
+            "correct": false
+          },
+          {
+            "text": "名前を呼びましょうか？",
+            "correct": false
+          }
+        ],
+        "tip": "Acknowledge a polite request with はい、分かりました."
+      },
+      {
+        "situation": "When a room is stuffy",
+        "speaker": "同僚",
+        "prompt": "少し暑いですね。",
+        "options": [
+          {
+            "text": "窓を開けましょうか？",
+            "correct": true
+          },
+          {
+            "text": "窓を閉めましょうか？",
+            "correct": false
+          },
+          {
+            "text": "窓を消しましょうか？",
+            "correct": false
+          }
+        ],
+        "tip": "Offer to open the window with 窓を開けましょうか？"
+      },
+      {
+        "situation": "Asking someone to repeat",
+        "speaker": "店員",
+        "prompt": "ポイントカードはお持ちですか？",
+        "options": [
+          {
+            "text": "すみませんが、もう1回言ってください。",
+            "correct": true
+          },
+          {
+            "text": "もう3分待ってください。",
+            "correct": false
+          },
+          {
+            "text": "まっすぐ行ってください。",
+            "correct": false
+          }
+        ],
+        "tip": "Request a repetition with もう1回言ってください."
+      }
+    ]
+  }
+}

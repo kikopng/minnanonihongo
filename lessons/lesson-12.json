@@ -1,0 +1,2537 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 12,
+    "title": "Past Tense of Adjectives and Nouns, Comparisons, and Superlatives",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master past affirmative and past negative forms of い-adjectives, な-adjectives, and nouns; compare two items with 『N1 は N2 より Adj です』; ask and answer comparisons with 『N1 と N2 と どちらが Adj ですか』 and 『～の ほうが Adj です』; formulate superlatives using 『[Range] の中で ～が一番 Adj です』; and use the pronoun 『Adj + の』 to replace repetitive nouns."
+  },
+  "vocabulary": [
+    {
+      "id": "kantan",
+      "kanji": "簡単「な」",
+      "kana": "かんたん「な」",
+      "romaji": "kantan [na]",
+      "meaning": "easy; simple",
+      "category": "adjective",
+      "example": {
+        "kanji": "昨日の試験は簡単でした。",
+        "kana": "きのうの しけんは かんたんでした。",
+        "translation": "Yesterday's exam was easy."
+      }
+    },
+    {
+      "id": "chikai",
+      "kanji": "近い",
+      "kana": "ちかい",
+      "romaji": "chikai",
+      "meaning": "near; close",
+      "category": "adjective",
+      "example": {
+        "kanji": "私の家は駅から近いです。",
+        "kana": "わたしの いえは えきから ちかいです。",
+        "translation": "My house is close to the station."
+      }
+    },
+    {
+      "id": "tooi",
+      "kanji": "遠い",
+      "kana": "とおい",
+      "romaji": "tooi",
+      "meaning": "far; distant",
+      "category": "adjective",
+      "example": {
+        "kanji": "空港はここから遠いです。",
+        "kana": "くうこうは ここから とおいです。",
+        "translation": "The airport is far from here."
+      }
+    },
+    {
+      "id": "hayai",
+      "kanji": "速い、早い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "meaning": "fast; quick (速い) / early (早い)",
+      "category": "adjective",
+      "example": {
+        "kanji": "新幹線は速いです。今朝は早く起きました。",
+        "kana": "しんかんせんは はやいです。けさは はやく おきました。",
+        "translation": "The Shinkansen is fast. I woke up early this morning."
+      }
+    },
+    {
+      "id": "osoi",
+      "kanji": "遅い",
+      "kana": "おそい",
+      "romaji": "osoi",
+      "meaning": "slow; late",
+      "category": "adjective",
+      "example": {
+        "kanji": "バスは電車より遅いです。",
+        "kana": "バスは でんしゃより おそいです。",
+        "translation": "Buses are slower than trains."
+      }
+    },
+    {
+      "id": "ooi",
+      "kanji": "多い [人が多い]",
+      "kana": "おおい [ひとがおおい]",
+      "romaji": "ooi [hito ga ooi]",
+      "meaning": "many; much; numerous [people]",
+      "category": "adjective",
+      "example": {
+        "kanji": "東京は人が多いです。",
+        "kana": "とうきょうは ひとが おおいです。",
+        "translation": "There are many people in Tokyo."
+      }
+    },
+    {
+      "id": "sukunai",
+      "kanji": "少ない [人が少ない]",
+      "kana": "すくない [ひとがすくない]",
+      "romaji": "sukunai [hito ga sukunai]",
+      "meaning": "few; little; scarce [people]",
+      "category": "adjective",
+      "example": {
+        "kanji": "平日の昼は人が少ないです。",
+        "kana": "へいじつの ひるは ひとが すくないです。",
+        "translation": "There are few people on weekday afternoons."
+      }
+    },
+    {
+      "id": "atatakai_tenki",
+      "kanji": "暖かい",
+      "kana": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm (referring to weather or atmospheric temperature)",
+      "category": "adjective",
+      "example": {
+        "kanji": "今日は暖かいですね。",
+        "kana": "きょうは あたたかいですね。",
+        "translation": "It is warm today, isn't it?"
+      }
+    },
+    {
+      "id": "atatakai_mono",
+      "kanji": "温かい",
+      "kana": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm (referring to food, drinks, touch, or heartwarming personality)",
+      "category": "adjective",
+      "example": {
+        "kanji": "温かいお茶をどうぞ。",
+        "kana": "あたたかい おちゃを どうぞ。",
+        "translation": "Please have some warm tea."
+      }
+    },
+    {
+      "id": "suzushii",
+      "kanji": "涼しい",
+      "kana": "すずしい",
+      "romaji": "suzushii",
+      "meaning": "cool (referring to weather, refreshing air)",
+      "category": "adjective",
+      "example": {
+        "kanji": "北海道の夏は涼しいです。",
+        "kana": "ほっかいどうの なつは すずしいです。",
+        "translation": "Summer in Hokkaido is cool."
+      }
+    },
+    {
+      "id": "amai",
+      "kanji": "甘い",
+      "kana": "あまい",
+      "romaji": "amai",
+      "meaning": "sweet",
+      "category": "adjective",
+      "example": {
+        "kanji": "このりんごはとても甘いです。",
+        "kana": "この りんごは とても あまいです。",
+        "translation": "This apple is very sweet."
+      }
+    },
+    {
+      "id": "karai",
+      "kanji": "辛い",
+      "kana": "からい",
+      "romaji": "karai",
+      "meaning": "spicy; hot (taste)",
+      "category": "adjective",
+      "example": {
+        "kanji": "このカレーは辛くなかったです。",
+        "kana": "この カレーは からくなかったです。",
+        "translation": "This curry was not spicy."
+      }
+    },
+    {
+      "id": "omoi",
+      "kanji": "重い",
+      "kana": "おもい",
+      "romaji": "omoi",
+      "meaning": "heavy",
+      "category": "adjective",
+      "example": {
+        "kanji": "私の荷物は重かったです。",
+        "kana": "わたしの にもつは おもかったです。",
+        "translation": "My luggage was heavy."
+      }
+    },
+    {
+      "id": "karui",
+      "kanji": "軽い",
+      "kana": "かるい",
+      "romaji": "karui",
+      "meaning": "light (weight)",
+      "category": "adjective",
+      "example": {
+        "kanji": "このパソコンは軽くて便利です。",
+        "kana": "この パソコンは かるくて べんりです。",
+        "translation": "This laptop is light and convenient."
+      }
+    },
+    {
+      "id": "ii_prefer",
+      "kanji": "いい [コーヒーがいい]",
+      "kana": "いい [コーヒーがいい]",
+      "romaji": "ii [koohii ga ii]",
+      "meaning": "prefer [coffee]; to be preferable",
+      "category": "adjective",
+      "example": {
+        "kanji": "お茶とコーヒーと、どちらがいいですか。",
+        "kana": "おちゃと コーヒーと、どちらが いいですか。",
+        "translation": "Which do you prefer, tea or coffee?"
+      }
+    },
+    {
+      "id": "kisetsu",
+      "kanji": "季節",
+      "kana": "きせつ",
+      "romaji": "kisetsu",
+      "meaning": "season",
+      "category": "noun",
+      "example": {
+        "kanji": "どの季節が一番好きですか。",
+        "kana": "どの きせつが いちばん すきですか。",
+        "translation": "Which season do you like the best?"
+      }
+    },
+    {
+      "id": "haru",
+      "kanji": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "meaning": "spring",
+      "category": "noun",
+      "example": {
+        "kanji": "春は桜がきれいです。",
+        "kana": "はるは さくらが きれいです。",
+        "translation": "In spring, cherry blossoms are beautiful."
+      }
+    },
+    {
+      "id": "natsu",
+      "kanji": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "meaning": "summer",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の夏はとても暑いです。",
+        "kana": "にほんの なつは とても あついです。",
+        "translation": "Summer in Japan is very hot."
+      }
+    },
+    {
+      "id": "aki",
+      "kanji": "秋",
+      "kana": "あき",
+      "romaji": "aki",
+      "meaning": "autumn; fall",
+      "category": "noun",
+      "example": {
+        "kanji": "秋は紅葉が美しいです。",
+        "kana": "あきは もみじが うつくしいです。",
+        "translation": "Autumn has beautiful red autumn foliage."
+      }
+    },
+    {
+      "id": "fuyu",
+      "kanji": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "meaning": "winter",
+      "category": "noun",
+      "example": {
+        "kanji": "冬は雪がたくさん降ります。",
+        "kana": "ふゆは ゆきが たくさん ふります。",
+        "translation": "It snows a lot in winter."
+      }
+    },
+    {
+      "id": "tenki",
+      "kanji": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "meaning": "weather",
+      "category": "noun",
+      "example": {
+        "kanji": "昨日は天気がよかったです。",
+        "kana": "きのうは てんきが よかったです。",
+        "translation": "The weather was good yesterday."
+      }
+    },
+    {
+      "id": "ame",
+      "kanji": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "meaning": "rain; rainy weather",
+      "category": "noun",
+      "example": {
+        "kanji": "昨日は雨でした。",
+        "kana": "きのうは あめでし​​た。",
+        "translation": "Yesterday it was rainy."
+      }
+    },
+    {
+      "id": "yuki",
+      "kanji": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "meaning": "snow; snowy weather",
+      "category": "noun",
+      "example": {
+        "kanji": "昨日は雪でしたか。",
+        "kana": "きのうは ゆきでしたか。",
+        "translation": "Did it snow yesterday? / Was it snowy yesterday?"
+      }
+    },
+    {
+      "id": "kumori",
+      "kanji": "曇り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "meaning": "cloudy weather; cloudiness",
+      "category": "noun",
+      "example": {
+        "kanji": "日曜日は曇りでした。",
+        "kana": "にちようびは くもりでした。",
+        "translation": "Sunday was cloudy."
+      }
+    },
+    {
+      "id": "hoteru",
+      "kanji": "ホテル",
+      "kana": "ホテル",
+      "romaji": "hoteru",
+      "meaning": "hotel",
+      "category": "noun",
+      "example": {
+        "kanji": "あのホテルは静かでした。",
+        "kana": "あの ホテルは しずかでした。",
+        "translation": "That hotel was quiet."
+      }
+    },
+    {
+      "id": "kuukou",
+      "kanji": "空港",
+      "kana": "くうこう",
+      "romaji": "kuukou",
+      "meaning": "airport",
+      "category": "noun",
+      "example": {
+        "kanji": "成田空港までバスで行きました。",
+        "kana": "なりたくうこうまで バスで いきました。",
+        "translation": "I went to Narita Airport by bus."
+      }
+    },
+    {
+      "id": "umi",
+      "kanji": "海",
+      "kana": "うみ",
+      "romaji": "umi",
+      "meaning": "sea; ocean",
+      "category": "noun",
+      "example": {
+        "kanji": "夏休みに海へ行きました。",
+        "kana": "なつやすみに うみへ いきました。",
+        "translation": "I went to the sea during summer vacation."
+      }
+    },
+    {
+      "id": "sekai",
+      "kanji": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "meaning": "world",
+      "category": "noun",
+      "example": {
+        "kanji": "世界でどこが一番行きたいですか。",
+        "kana": "せかいで どこが いちばん いきたいですか。",
+        "translation": "Where in the world do you want to visit the most?"
+      }
+    },
+    {
+      "id": "paatii",
+      "kanji": "パーティー",
+      "kana": "パーティー",
+      "romaji": "paatii",
+      "meaning": "party",
+      "category": "noun",
+      "example": {
+        "kanji": "昨日のパーティーはとても楽しかったです。",
+        "kana": "きのうの パーティーは とても たのしかったです。",
+        "translation": "Yesterday's party was very fun."
+      }
+    },
+    {
+      "id": "matsuri",
+      "kanji": "お祭り / 祭り",
+      "kana": "おまつり / まつり",
+      "romaji": "omatsuri / matsuri",
+      "meaning": "festival",
+      "category": "noun",
+      "example": {
+        "kanji": "京都のお祭りは有名でした。",
+        "kana": "きょうとの おまつりは ゆうめいでした。",
+        "translation": "The festival in Kyoto was famous."
+      }
+    },
+    {
+      "id": "shiken",
+      "kanji": "試験",
+      "kana": "しけん",
+      "romaji": "shiken",
+      "meaning": "examination; test",
+      "category": "noun",
+      "example": {
+        "kanji": "先週の試験は難しかったです。",
+        "kana": "せんしゅうの しけんは むずかしかったです。",
+        "translation": "Last week's test was difficult."
+      }
+    },
+    {
+      "id": "sukiyaki",
+      "kanji": "すき焼き",
+      "kana": "すきやき",
+      "romaji": "sukiyaki",
+      "meaning": "sukiyaki (sliced beef & vegetable hotpot)",
+      "category": "food",
+      "example": {
+        "kanji": "すき焼きはおいしかったです。",
+        "kana": "すきやきは おいしかったです。",
+        "translation": "The sukiyaki was delicious."
+      }
+    },
+    {
+      "id": "sashimi",
+      "kanji": "刺身",
+      "kana": "さしみ",
+      "romaji": "sashimi",
+      "meaning": "sashimi (sliced raw fish)",
+      "category": "food",
+      "example": {
+        "kanji": "刺身と天ぷらと、どちらが好きですか。",
+        "kana": "さしみと てんぷらと、どちらが すきですか。",
+        "translation": "Which do you prefer, sashimi or tempura?"
+      }
+    },
+    {
+      "id": "sushi",
+      "kanji": "お寿司 / 寿司",
+      "kana": "おすし / すし",
+      "romaji": "osushi / sushi",
+      "meaning": "sushi",
+      "category": "food",
+      "example": {
+        "kanji": "日本料理の中でお寿司が一番好きです。",
+        "kana": "にほんりょうりの なかで おすしが いちばん すきです。",
+        "translation": "Among Japanese dishes, I like sushi the most."
+      }
+    },
+    {
+      "id": "tempura",
+      "kanji": "天ぷら",
+      "kana": "てんぷら",
+      "romaji": "tempura",
+      "meaning": "tempura (deep-fried seafood and vegetables)",
+      "category": "food",
+      "example": {
+        "kanji": "天ぷらはサクサクしておいしかったです。",
+        "kana": "てんぷらは サクサクして おいしかったです。",
+        "translation": "The tempura was crispy and delicious."
+      }
+    },
+    {
+      "id": "butaniku",
+      "kanji": "豚肉",
+      "kana": "ぶたにく",
+      "romaji": "butaniku",
+      "meaning": "pork",
+      "category": "food",
+      "example": {
+        "kanji": "豚肉と牛肉と、どちらが高いですか。",
+        "kana": "ぶたにくと ぎゅうにくと、どちらが たかいですか。",
+        "translation": "Which is more expensive, pork or beef?"
+      }
+    },
+    {
+      "id": "toriniku",
+      "kanji": "鶏肉",
+      "kana": "とりにく",
+      "romaji": "toriniku",
+      "meaning": "chicken (meat)",
+      "category": "food",
+      "example": {
+        "kanji": "鶏肉は牛肉より安いです。",
+        "kana": "とりにくは ぎゅうにくより やすいです。",
+        "translation": "Chicken is cheaper than beef."
+      }
+    },
+    {
+      "id": "gyuuniku",
+      "kanji": "牛肉",
+      "kana": "ぎゅうにく",
+      "romaji": "gyuuniku",
+      "meaning": "beef",
+      "category": "food",
+      "example": {
+        "kanji": "牛肉のほうがおいしいです。",
+        "kana": "ぎゅうにくの ほうが おいしいです。",
+        "translation": "Beef is more delicious."
+      }
+    },
+    {
+      "id": "remon",
+      "kanji": "レモン",
+      "kana": "レモン",
+      "romaji": "remon",
+      "meaning": "lemon",
+      "category": "food",
+      "example": {
+        "kanji": "レモンは酸っぱいです。",
+        "kana": "レモンは すっぱいです。",
+        "translation": "Lemons are sour."
+      }
+    },
+    {
+      "id": "ikebana",
+      "kanji": "生け花",
+      "kana": "いけばな",
+      "romaji": "ikebana",
+      "meaning": "flower arrangement",
+      "category": "noun",
+      "example": {
+        "kanji": "初めて生け花を習いました。",
+        "kana": "はじめて いけばなを ならいました。",
+        "translation": "I learned flower arrangement for the first time."
+      }
+    },
+    {
+      "id": "momiji",
+      "kanji": "紅葉",
+      "kana": "もみじ",
+      "romaji": "momiji",
+      "meaning": "maple; autumn foliage; red leaves",
+      "category": "noun",
+      "example": {
+        "kanji": "京都の紅葉はとてもきれいでした。",
+        "kana": "きょうとの もみじは とても きれいでした。",
+        "translation": "The autumn leaves in Kyoto were very beautiful."
+      }
+    },
+    {
+      "id": "dochira",
+      "kanji": "どちら",
+      "kana": "どちら",
+      "romaji": "dochira",
+      "meaning": "which one (between strictly two options)",
+      "category": "expression",
+      "example": {
+        "kanji": "肉と魚と、どちらがいいですか。",
+        "kana": "にくと さかなと、どちらが いいですか。",
+        "translation": "Which do you prefer, meat or fish?"
+      }
+    },
+    {
+      "id": "dochiramo",
+      "kanji": "どちらも",
+      "kana": "どちらも",
+      "romaji": "dochiramo",
+      "meaning": "both (of two items)",
+      "category": "expression",
+      "example": {
+        "kanji": "どちらもおいしいです。",
+        "kana": "どちらも おいしいです。",
+        "translation": "Both are delicious."
+      }
+    },
+    {
+      "id": "ichiban",
+      "kanji": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "meaning": "the most; number one; best",
+      "category": "expression",
+      "example": {
+        "kanji": "富士山が日本で一番高い山です。",
+        "kana": "ふじさんが にほんで いちばん たかい やまです。",
+        "translation": "Mt. Fuji is the highest mountain in Japan."
+      }
+    },
+    {
+      "id": "zutto",
+      "kanji": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "meaning": "by far; much more",
+      "category": "expression",
+      "example": {
+        "kanji": "新幹線はバスよりずっと速いです。",
+        "kana": "しんかんせんは バスより ずっと はやいです。",
+        "translation": "The Shinkansen is by far faster than the bus."
+      }
+    },
+    {
+      "id": "hajimete",
+      "kanji": "初めて",
+      "kana": "はじめて",
+      "romaji": "hajimete",
+      "meaning": "for the first time",
+      "category": "expression",
+      "example": {
+        "kanji": "昨日初めて刺身を食べました。",
+        "kana": "きのう はじめて さしみを行きました。",
+        "translation": "I ate sashimi for the first time yesterday."
+      }
+    },
+    {
+      "id": "tadaima",
+      "kanji": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "meaning": "I'm home! (said upon returning)",
+      "category": "expression",
+      "example": {
+        "kanji": "ただいま！疲れました。",
+        "kana": "ただいま！つかれました。",
+        "translation": "I'm home! I'm exhausted."
+      }
+    },
+    {
+      "id": "okaerinasai",
+      "kanji": "お帰りなさい",
+      "kana": "おかえりなさい",
+      "romaji": "okaerinasai",
+      "meaning": "Welcome home! (greeting to someone who just returned)",
+      "category": "expression",
+      "example": {
+        "kanji": "お帰りなさい。旅行はどうでしたか。",
+        "kana": "おかえりなさい。りょこうは どうでしたか。",
+        "translation": "Welcome home! How was your trip?"
+      }
+    },
+    {
+      "id": "sugoidesu_ne",
+      "kanji": "すごいですね",
+      "kana": "すごいですね",
+      "romaji": "sugoi desu ne",
+      "meaning": "That's incredible! / That's amazing!",
+      "category": "expression",
+      "example": {
+        "kanji": "3か国語が話せますか。すごいですね！",
+        "kana": "さんかこくごが はなせますか。すごいですね！",
+        "translation": "You speak three languages? That's amazing!"
+      }
+    },
+    {
+      "id": "tsukaremashita",
+      "kanji": "疲れました",
+      "kana": "つかれました",
+      "romaji": "tsukaremashita",
+      "meaning": "I am tired; I got exhausted",
+      "category": "expression",
+      "example": {
+        "kanji": "今日はたくさん歩いて、疲れました。",
+        "kana": "きょうは たくさん あるいて、つかれました。",
+        "translation": "I walked a lot today and got tired."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Past Tense of Nouns and な-adjectives: でした / じゃありませんでした",
+      "explanation": "Takashi emphasizes that Nouns and な-adjectives conjugate in the exact same way when functioning as predicates. In the present/future (non-past), they end with です (affirmative) and じゃありません (negative). In the past tense: (1) Affirmative becomes でした (e.g. 雨でした, 暇でした). (2) Negative becomes じゃありませんでした or polite ではありませんでした (e.g. 雨じゃありませんでした, 暇じゃありませんでした). Remember to drop the な when a な-adjective ends a sentence.",
+      "examples": [
+        {
+          "kanji": "昨日は雨でした。",
+          "kana": "きのうは あめでした。",
+          "translation": "Yesterday it was rainy."
+        },
+        {
+          "kanji": "昨日は仕事でした。",
+          "kana": "きのうは しごとでした。",
+          "translation": "Yesterday was a work day."
+        },
+        {
+          "kanji": "昨日は休みじゃありませんでした。",
+          "kana": "きのうは やすみじゃ ありませんでした。",
+          "translation": "Yesterday was not a day off."
+        },
+        {
+          "kanji": "去年の試験は簡単でした。",
+          "kana": "きょねんの しけんは かんたんでした。",
+          "translation": "Last year's exam was easy."
+        },
+        {
+          "kanji": "彼は去年は有名じゃありませんでした。",
+          "kana": "かれは きょねんは ゆうめいじゃ ありませんでした。",
+          "translation": "He was not famous last year."
+        },
+        {
+          "kanji": "奈良は静かで、きれいでした。",
+          "kana": "ならは しずかで、きれいでした。",
+          "translation": "Nara was quiet and beautiful."
+        }
+      ]
+    },
+    {
+      "pattern": "Past Tense of い-adjectives: ～かったです / ～くなかったです",
+      "explanation": "Unlike な-adjectives, い-adjectives conjugate by altering the adjective itself, not the です: (1) Past affirmative: drop the final い and append かったです (寒い → 寒かったです). (2) Past negative: drop the final い and append くなかったです or more formal くありませんでした (寒い → 寒くなかったです). Takashi's CRITICAL WARNING: The adjective いい (good) is irregular. Its non-past negative is よくありません / よくないです, its past affirmative is よかったです, and its past negative is よくなかったです. Never say ✕ いかったです or ✕ いくなかったです.",
+      "examples": [
+        {
+          "kanji": "昨日は寒かったです。",
+          "kana": "きのうは さむかったです。",
+          "translation": "Yesterday was cold."
+        },
+        {
+          "kanji": "先週のパーティーはとても楽しかったです。",
+          "kana": "せんしゅうの パーティーは とても たのしかったです。",
+          "translation": "Last week's party was very fun."
+        },
+        {
+          "kanji": "京都のホテルはあまり高くなかったです。",
+          "kana": "きょうとの ホテルは あまり たかくなかったです。",
+          "translation": "The hotel in Kyoto was not very expensive."
+        },
+        {
+          "kanji": "昨日は天気がよかったです。",
+          "kana": "きのうは てんきが よかったです。",
+          "translation": "The weather was good yesterday. (いい → よかったです)"
+        },
+        {
+          "kanji": "昨日の映画はあまりよくなかったです。",
+          "kana": "きのうの えいがは あまり よくなかったです。",
+          "translation": "Yesterday's movie was not very good. (いい → よくなかったです)"
+        },
+        {
+          "kanji": "このカレーは辛くなかったです。",
+          "kana": "この カレーは からくなかったです。",
+          "translation": "This curry was not spicy."
+        }
+      ]
+    },
+    {
+      "pattern": "Asking About Past Events and Experiences: 『～はどうでしたか』",
+      "explanation": "In Lesson 8, どうですか was introduced to ask for present impressions (日本の生活はどうですか). In Lesson 12, use the past tense form どうでしたか to ask about a completed trip, event, examination, or weather. Answer using the past affirmative or past negative form of adjectives or nouns.",
+      "examples": [
+        {
+          "kanji": "旅行はどうでしたか？ — とても楽しかったです。",
+          "kana": "りょこうは どうでしたか？ — とても たのしかったです。",
+          "translation": "How was your trip? — It was very fun."
+        },
+        {
+          "kanji": "昨日の天気はどうでしたか？ — 曇りでした。",
+          "kana": "きのうの てんきは どうでしたか？ — くもりでした。",
+          "translation": "How was the weather yesterday? — It was cloudy."
+        },
+        {
+          "kanji": "先週の試験はどうでしたか？ — 難しかったです。",
+          "kana": "せんしゅうの しけんは どうでしたか？ — むずかしかったです。",
+          "translation": "How was last week's exam? — It was difficult."
+        },
+        {
+          "kanji": "ホテルはどうでしたか？ — 部屋は狭かったですが、きれいでした。",
+          "kana": "ホテルは どうでしたか？ — へやは せまかったですが、きれいでした。",
+          "translation": "How was the hotel? — The room was small, but it was clean."
+        }
+      ]
+    },
+    {
+      "pattern": "Comparative: Noun 1 は Noun 2 より [Adjective] です [Two-Item Comparison]",
+      "explanation": "Use this sentence pattern to state that Noun 1 is more [Adjective] than Noun 2. より functions as 'than' and marks the reference point of comparison (Noun 2). Takashi's Tip: To emphasize a huge difference ('by far' or 'much more'), insert ずっと right before the adjective: 『N1 は N2 より ずっと Adj です』.",
+      "examples": [
+        {
+          "kanji": "新幹線は車より速いです。",
+          "kana": "しんかんせんは くるまより はやいです。",
+          "translation": "The Shinkansen is faster than cars."
+        },
+        {
+          "kanji": "北海道は東京よりずっと涼しいです。",
+          "kana": "ほっかいどうは とうきょうより ずっと すずしいです。",
+          "translation": "Hokkaido is much cooler than Tokyo."
+        },
+        {
+          "kanji": "中国は日本より広いです。",
+          "kana": "ちゅうごくは にほんより ひろいです。",
+          "translation": "China is larger than Japan."
+        },
+        {
+          "kanji": "飛行機はバスよりずっと高いです。",
+          "kana": "ひこうきは バスより ずっと たかいです。",
+          "translation": "Planes are by far more expensive than buses."
+        },
+        {
+          "kanji": "牛肉は豚肉より高いです。",
+          "kana": "ぎゅうにくは ぶたにくより たかいです。",
+          "translation": "Beef is more expensive than pork."
+        }
+      ]
+    },
+    {
+      "pattern": "Comparison Questions & Answers: 『N1 と N2 と どちらが [Adj] ですか』 & 『～の ほうが [Adj] です』",
+      "explanation": "When comparing strictly TWO alternatives, use the question pattern: 『N1 と N2 と どちらが [Adj] ですか』. In casual speech, どちら can be replaced with どっち. Answers: (1) To choose one: 『[Chosen Noun] の ほうが [Adj] です』 (literally: 'The side of [Noun] is [Adj]'). (2) If both possess the trait equally: 『どちらも [Adj] です』. (3) If neither does: 『どちらも [Negative Adj] です』.",
+      "examples": [
+        {
+          "kanji": "7月と8月と、どちらが暑いですか？ — 8月のほうが暑いです。",
+          "kana": "しちがつと はちがつと、どちらが あついですか？ — はちがつの ほうが あついです。",
+          "translation": "Which is hotter, July or August? — August is hotter."
+        },
+        {
+          "kanji": "今週末と来週末と、どちらが暇ですか？ — 今週末のほうが暇です。",
+          "kana": "こんしゅうまつと らいしゅうまつと、どちらが ひまですか？ — こんしゅうまつの ほうが ひまです。",
+          "translation": "Which are you freer, this weekend or next weekend? — I am freer this weekend."
+        },
+        {
+          "kanji": "お父さんとお母さんと、どちらが料理が上手ですか？ — 母のほうが上手です。",
+          "kana": "おとうさんと おかあさんと、どちらが りょうりが じょうずですか？ — ははの ほうが じょうずです。",
+          "translation": "Who is better at cooking, your father or mother? — My mother is better."
+        },
+        {
+          "kanji": "日本語と英語と、どちらが難しいですか？ — どちらも難しいです。",
+          "kana": "にほんごと えいごと、どちらが むずかしいですか？ — どちらも むずかしいです。",
+          "translation": "Which is more difficult, Japanese or English? — Both are difficult."
+        },
+        {
+          "kanji": "お茶とコーヒーと、どちらがいいですか？ — コーヒーがいいです。",
+          "kana": "おちゃと コーヒーと、どちらが いいですか？ — コーヒーが いいです。",
+          "translation": "Which would you prefer, tea or coffee? — I'd like coffee."
+        }
+      ]
+    },
+    {
+      "pattern": "Superlative: 『[Range / Category] の中で [Noun] が 一番 [Adj] です』",
+      "explanation": "Use this pattern to say that something is 'the most [Adj]' within a given category or range. 一番 (いちばん) means 'number one' or 'the most'. Takashi's Core Rule: In questions, the interrogative word depends strictly on the category being queried: (1) Objects/Food → 何 (なに) が一番～ (2) Places → どこ が一番～ (3) People → だれ が一番～ (4) Time/Seasons → いつ が一番～ or どの季節が一番～.",
+      "examples": [
+        {
+          "kanji": "日本料理の中で何が一番おいしいですか？ — お寿司が一番おいしいです。",
+          "kana": "にほんりょうりの なかで なにが いちばん おいしいですか？ — おすしが いちばん おいしいです。",
+          "translation": "Among Japanese food, what is the most delicious? — Sushi is the most delicious."
+        },
+        {
+          "kanji": "1年の中でいつが一番寒いですか？ — 2月が一番寒いです。",
+          "kana": "いちねんの なかで いつが いちばん さむいですか？ — にがつが いちばん さむいです。",
+          "translation": "In a year, when is it the coldest? — February is the coldest."
+        },
+        {
+          "kanji": "家族の中でだれが一番背が高いですか？ — 弟が一番背が高いです。",
+          "kana": "かぞくの なかで だれが いちばん せが たかいですか？ — おとうとが いちばん せが たかいです。",
+          "translation": "Who in your family is the tallest? — My younger brother is the tallest."
+        },
+        {
+          "kanji": "世界でどこが一番きれいですか？ — ハワイが一番きれいだと思います。",
+          "kana": "せかいで どこが いちばん きれいですか？ — ハワイが いちばん きれいだと おもいます。",
+          "translation": "Where in the world is the most beautiful? — I think Hawaii is the most beautiful."
+        },
+        {
+          "kanji": "季節の中でどの季節が一番好きですか？ — 秋が一番好きです。",
+          "kana": "きせつの なかで どの きせつが いちばん すきですか？ — あきが いちばん すきです。",
+          "translation": "Among the seasons, which season do you like the most? — I like autumn the most."
+        }
+      ]
+    },
+    {
+      "pattern": "Adjective + の: Pronoun Replacement ('The [Adjective] One')",
+      "explanation": "In Lesson 12, Takashi highlights how the particle の functions as an indefinite pronoun to avoid repeating an already understood noun: (1) い-adjective + の: 白いシャツ → 白いの (the white one), 小さいの (the small one). (2) な-adjective + な + の: 静かな部屋 → 静かなの (a quiet one). This corresponds to 'the [adjective] one' in English.",
+      "examples": [
+        {
+          "kanji": "どんなカバンが欲しいですか？ — 軽いのを買いたいです。",
+          "kana": "どんな カバンが ほしいですか？ — かるいのを かいたいです。",
+          "translation": "What kind of bag do you want? — I want to buy a light one."
+        },
+        {
+          "kanji": "大きいシャツと小さいシャツと、どちらがいいですか？ — 小さいのをください。",
+          "kana": "おおきい シャツと ちいさい シャツと、どちらが いいですか？ — ちいさいのを ください。",
+          "translation": "Which would you prefer, the big shirt or the small shirt? — Please give me the small one."
+        },
+        {
+          "kanji": "赤いペンがありませんから、黒いのを使います。",
+          "kana": "あかい ペンが ありませんから、くろいのを つかいます。",
+          "translation": "Because I don't have a red pen, I'll use the black one."
+        },
+        {
+          "kanji": "静かなホテルと便利なホテルと、どちらがいいですか？ — 静かなのがいいです。",
+          "kana": "しずかな ホテルと べんりな ホテルと、どちらが いいですか？ — しずかなのが いいです。",
+          "translation": "Which is better, a quiet hotel or a convenient hotel? — A quiet one is good."
+        }
+      ]
+    },
+    {
+      "pattern": "Special Nuance Notes: 『多い』/『少ない』, 『暖かい』 vs. 『温かい』, and 『すごいですね』",
+      "explanation": "Key pedagogical observations taught by Takashi: (1) 多い and 少ない CANNOT directly modify a noun in standard modern Japanese (✕ 多い人, ✕ 少ない人). Always say 『人が多いです』 / 『人が少ないです』 or use 『たくさんの人』. (2) 暖かい (air temperature/weather) vs. 温かい (tactile warmth, drinks, food, heartwarming emotions). (3) すごいですね expresses surprise at an extreme degree; it can be used for positive admiration ('Amazing!') or colloquial shock at something intense.",
+      "examples": [
+        {
+          "kanji": "東京は人が多いです。",
+          "kana": "とうきょうは ひとが おおいです。",
+          "translation": "Tokyo has many people. (Correct: 人が多い, NOT ✕ 多い人)"
+        },
+        {
+          "kanji": "今日は暖かいですね。温かいコーヒーを飲みましょう。",
+          "kana": "きょうは あたたかいですね。あたたかい コーヒーを のみましょう。",
+          "translation": "It is warm today, isn't it? Let's drink some warm coffee."
+        },
+        {
+          "kanji": "彼女は日本語と英語とスペイン語が話せます。— すごいですね！",
+          "kana": "かのじょは にほんごと えいごと スペインごが はなせます。— すごいですね！",
+          "translation": "She can speak Japanese, English, and Spanish. — That's amazing!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "旅行の思い出と季節の食べ物",
+    "lines": [
+      {
+        "speaker": "タカシ先生",
+        "kanji": "お帰りなさい、マルコさん！旅行はどうでしたか。",
+        "kana": "おかえりなさい、マルコさん！りょこうは どうでしたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "ただいま、タカシ先生！たくさん歩いて、ちょっと疲れましたが、とても楽しかったです。",
+        "kana": "ただいま、タカシせんせい！たくさん あるいて、ちょっと つかれましたが、とても たのしかったです。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "それはよかったです。北海道はどうでしたか。天気はどうでしたか。",
+        "kana": "それは よかったです。ほっかいどうは どうでしたか。てんきは どうでしたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "一昨日は少し雨でしたが、昨日は天気がよかったです。北海道は東京よりずっと涼しかったですよ。",
+        "kana": "おとといは すこし あめでしたが、きのうは てんきが よかったです。ほっかいどうは とうきょうより ずっと すずしかったですよ。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "そうですか。食べ物はおいしかったですか。寿司とラーメンと、どちらがおいしかったですか。",
+        "kana": "そうですか。たべものは おいしかったですか。すしと ラーメンと、どちらが おいしかったですか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "どちらもおいしかったです！でも、日本料理の中で刺身が一番おいしかったです。",
+        "kana": "どちらも おいしかったです！でも、にほんりょうりの なかで さしみが いちばん おいしかったです。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "いいですね！京都のホテルはどうでしたか。",
+        "kana": "いいですね！きょうとの ホテルは どうでしたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "静かで、きれいでした。でも、お寺は人が多かったです。",
+        "kana": "しずかで、きれいでした。でも、おてらは ひとが おおかったです。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "お土産は何を買いましたか。",
+        "kana": "おみやげは なにを かいましたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "お茶とお菓子を買いました。緑の箱のがお茶で、白いのがお菓子です。先生、どうぞ！",
+        "kana": "おちゃと おかしを かいました。みどりの はこのが おちゃで、しろいのが おかしです。せんせい、どうぞ！"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "わあ、すごいですね！ありがとうございます。私は季節の中で秋が一番好きですから、紅葉のお菓子はとても嬉しいです。",
+        "kana": "わあ、すごいですね！ありがとうございます。わたしは きせつの なかで あきが いちばん すきですから、もみじの おかしは とても うれしいです。"
+      }
+    ],
+    "translation": "Takashi-sensei welcomes Marco back from his trip. Marco says he walked a lot and got a bit tired, but it was very fun. Takashi asks how Hokkaido and the weather were. Marco explains that the day before yesterday was slightly rainy, but yesterday the weather was good, and Hokkaido was by far cooler than Tokyo. Takashi asks about the food and whether sushi or ramen was better; Marco replies that both were delicious, but sashimi was the most delicious among all Japanese dishes. Marco adds that his Kyoto hotel was quiet and beautiful, although the temples had many people. Finally, Marco gifts Takashi tea and sweets (identifying them using the 'noun + の' pattern: the green box one is tea, and the white one is sweets). Takashi praises the thoughtful gift and mentions that autumn is his favorite season, making the maple-shaped sweets a wonderful treat.",
+    "questions": [
+      {
+        "question": "How does Marco describe his physical state and his general impression of the trip?",
+        "options": [
+          "He was not tired at all and it was boring.",
+          "He got a little tired from walking a lot, but it was very fun.",
+          "He was very sick from the cold weather.",
+          "He was disappointed because the temples were closed."
+        ],
+        "answer": 1,
+        "explanation": "Marco states: たくさん歩いて、ちょっと疲れましたが、とても楽しかったです (I walked a lot and got a bit tired, but it was very fun)."
+      },
+      {
+        "question": "How was the climate of Hokkaido compared to Tokyo according to Marco?",
+        "options": [
+          "Tokyo was much cooler than Hokkaido.",
+          "Hokkaido was by far cooler than Tokyo.",
+          "Both were equally hot.",
+          "Hokkaido was much hotter than Tokyo."
+        ],
+        "answer": 1,
+        "explanation": "Marco uses the comparative structure with ずっと: 北海道は東京よりずっと涼しかったです."
+      },
+      {
+        "question": "What is the past tense form of 天気がいい used by Marco to describe yesterday's weather?",
+        "options": [
+          "天気がいかったです",
+          "天気がいくなかったです",
+          "天気がよかったです",
+          "天気がいいでした"
+        ],
+        "answer": 2,
+        "explanation": "いい is irregular and conjugates from よい in the past affirmative: よかったです."
+      },
+      {
+        "question": "When Takashi asks whether sushi or ramen was more delicious, what is Marco's initial response?",
+        "options": [
+          "どちらもおいしかったです (Both were delicious).",
+          "ラーメンのほうがおいしかったです (Ramen was better).",
+          "どちらもまずかったです (Neither was good).",
+          "すしのほうがよかったです (Sushi was better)."
+        ],
+        "answer": 0,
+        "explanation": "When comparing two options where both share the trait, the answer is どちらも: どちらもおいしかったです."
+      },
+      {
+        "question": "What food was the most delicious of all Japanese foods for Marco?",
+        "options": [
+          "Tempura",
+          "Sukiyaki",
+          "Sashimi",
+          "Ramen"
+        ],
+        "answer": 2,
+        "explanation": "Marco states: 日本料理の中で刺身が一番おいしかったです (Among Japanese cuisine, sashimi was the most delicious)."
+      },
+      {
+        "question": "How does Marco describe the temples in Kyoto?",
+        "options": [
+          "There were few people.",
+          "They were noisy and small.",
+          "There were many people (人が多かったです).",
+          "They were not beautiful."
+        ],
+        "answer": 2,
+        "explanation": "Marco says: でも、お寺は人が多かったです (However, the temples had many people)."
+      },
+      {
+        "question": "In 『白いのがお菓子です』, what grammatical role does 『の』 play?",
+        "options": [
+          "It marks the possessive 'my'.",
+          "It acts as a pronoun meaning 'the (white) one', replacing the word 箱 (box).",
+          "It marks the direct object of the verb.",
+          "It indicates a physical destination."
+        ],
+        "answer": 1,
+        "explanation": "As taught by Takashi, Adjective + の replaces an established noun to avoid repetition ('the white one')."
+      },
+      {
+        "question": "Which season does Takashi-sensei like the best?",
+        "options": [
+          "Spring (春)",
+          "Summer (夏)",
+          "Autumn (秋)",
+          "Winter (冬)"
+        ],
+        "answer": 2,
+        "explanation": "Takashi says: 私は季節の中で秋が一番好きですから (Because I like autumn the best among the seasons)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct past affirmative form for the noun predicate: 'Yesterday was rainy.'",
+      "prompt": {
+        "kanji": "昨日は雨___。",
+        "kana": "きのうは あめ___。"
+      },
+      "options": [
+        "でした",
+        "かったです",
+        "くなかったです",
+        "じゃありません"
+      ],
+      "answer": 0,
+      "explanation": "Nouns and な-adjectives take でした in the past affirmative (雨でした)."
+    },
+    {
+      "question": "Choose the correct past affirmative form for the い-adjective: 'Yesterday was cold.'",
+      "prompt": {
+        "kanji": "昨日は寒___。",
+        "kana": "きのうは さむ___。"
+      },
+      "options": [
+        "かったです",
+        "でした",
+        "いでした",
+        "くないでした"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives form the past affirmative by dropping い and adding かったです (寒い → 寒かったです)."
+    },
+    {
+      "question": "Choose the correct past affirmative form of the irregular adjective いい (good): 'The weather was good yesterday.'",
+      "prompt": {
+        "kanji": "昨日は天気が___。",
+        "kana": "きのうは てんきが ___。"
+      },
+      "options": [
+        "よかったです",
+        "いかったです",
+        "いいでした",
+        "よいでした"
+      ],
+      "answer": 0,
+      "explanation": "いい is irregular and conjugates from よい: past affirmative is よかったです. ✕ いかったです does not exist."
+    },
+    {
+      "question": "Choose the correct past negative form for the い-adjective: 'The curry was not spicy.'",
+      "prompt": {
+        "kanji": "カレーは___。",
+        "kana": "カレーは ___。"
+      },
+      "options": [
+        "辛くなかったです",
+        "辛いじゃありませんでした",
+        "辛くないでした",
+        "辛いでした"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives form the past negative by dropping い and adding くなかったです (辛い → 辛くなかったです)."
+    },
+    {
+      "question": "Choose the correct past negative form for the な-adjective: 'The exam was not easy.'",
+      "prompt": {
+        "kanji": "試験は___。",
+        "kana": "しけんは ___。"
+      },
+      "options": [
+        "簡単じゃありませんでした",
+        "簡単くなかったです",
+        "簡単くないでした",
+        "簡単でした"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives drop な and add じゃありませんでした (or ではありませんでした) for past negative."
+    },
+    {
+      "question": "Choose the particle that marks the reference standard in a comparison: 'The Shinkansen is faster than the car.'",
+      "prompt": {
+        "kanji": "新幹線は車___速いです。",
+        "kana": "しんかんせんは くるま___ はやいです。"
+      },
+      "options": [
+        "より",
+        "ほど",
+        "から",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "より marks the standard of comparison ('than'): 車より (than cars)."
+    },
+    {
+      "question": "Which word is inserted before an adjective to mean 'by far' or 'much more'?",
+      "prompt": {
+        "kanji": "北海道は東京より___涼しいです。",
+        "kana": "ほっかいどうは とうきょうより ___ すずしいです。"
+      },
+      "options": [
+        "ずっと",
+        "とても",
+        "あまり",
+        "もっとも"
+      ],
+      "answer": 0,
+      "explanation": "ずっと means 'by far' or 'much more' when used in comparative sentences."
+    },
+    {
+      "question": "Choose the correct question word when comparing strictly TWO choices: 'Which is faster, the bus or the train?'",
+      "prompt": {
+        "kanji": "バスと電車と、___が速いですか。",
+        "kana": "バスと でんしゃと、___が はやいですか。"
+      },
+      "options": [
+        "どちら",
+        "どれ",
+        "どの",
+        "何"
+      ],
+      "answer": 0,
+      "explanation": "When comparing strictly two options, use どちら (or casual どっち). どれ is for 3 or more options."
+    },
+    {
+      "question": "Choose the standard answer pattern to select one option in a two-item comparison: 'Between beef and pork, beef is more delicious.'",
+      "prompt": {
+        "kanji": "牛肉と豚肉とどちらがおいしいですか。— 牛肉___おいしいです。",
+        "kana": "ぎゅうにくと ぶたにくと どちらが おいしいですか。— ぎゅうにく___ おいしいです。"
+      },
+      "options": [
+        "の ほうが",
+        "より",
+        "が一番",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Use [Choice] の ほうが [Adj] です to declare one alternative superior in a comparison."
+    },
+    {
+      "question": "How do you say 'both are delicious' when answering a comparison question?",
+      "options": [
+        "どちらもおいしいです。",
+        "どれもおいしいです。",
+        "どちらのおいしいです。",
+        "どちらがおいしいです。"
+      ],
+      "answer": 0,
+      "explanation": "When both items share the quality, respond with どちらも (both)."
+    },
+    {
+      "question": "Choose the correct question word for asking about a food within a category: 'Among Japanese food, what is the most delicious?'",
+      "prompt": {
+        "kanji": "日本料理の中で___が一番おいしいですか。",
+        "kana": "にほんりょうりの なかで ___が いちばん おいしいですか。"
+      },
+      "options": [
+        "何",
+        "どこ",
+        "だれ",
+        "いつ"
+      ],
+      "answer": 0,
+      "explanation": "For foods or objects, the interrogative is 何 (なに)."
+    },
+    {
+      "question": "Choose the correct question word for asking about a place: 'Where in the world is the most beautiful?'",
+      "prompt": {
+        "kanji": "世界で___が一番きれいですか。",
+        "kana": "せかいで ___が いちばん きれいですか。"
+      },
+      "options": [
+        "どこ",
+        "何",
+        "だれ",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "For locations, the interrogative is どこ (where)."
+    },
+    {
+      "question": "Choose the correct question word for asking about time/seasons: 'When in the year is it the coldest?'",
+      "prompt": {
+        "kanji": "1年の中で___が一番寒いですか。",
+        "kana": "いちねんの なかで ___が いちばん さむいですか。"
+      },
+      "options": [
+        "いつ",
+        "どこ",
+        "何",
+        "だれ"
+      ],
+      "answer": 0,
+      "explanation": "For time or months, use いつ (when)."
+    },
+    {
+      "question": "Choose the correct pronoun replacement: 'I want to buy a light bag.' → 'I want to buy a light one.'",
+      "prompt": {
+        "kanji": "軽いカバンが欲しいです。— 私も___を買いたいです。",
+        "kana": "かるい カバンが ほしいです。— わたしも ___を かいたいです。"
+      },
+      "options": [
+        "軽いの",
+        "軽いな",
+        "軽いのこと",
+        "軽いもの"
+      ],
+      "answer": 0,
+      "explanation": "い-adjective + の replaces the repeated noun ('the light one')."
+    },
+    {
+      "question": "How do you attach the pronoun replacement の to a な-adjective like 静か?",
+      "prompt": {
+        "kanji": "静かなホテルがいいです。— 私も___がいいです。",
+        "kana": "しずかな ホテルが いいです。— わたしも ___が いいです。"
+      },
+      "options": [
+        "静かなの",
+        "静かの",
+        "静かでの",
+        "静かくての"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives retain な before the pronoun の: 静かなの (a quiet one)."
+    },
+    {
+      "question": "Which sentence correctly reflects natural Japanese usage as highlighted by Takashi?",
+      "options": [
+        "東京は人が多いです。",
+        "東京は多い人です。",
+        "東京は多いの人がいます。",
+        "東京は人がたくさん多いです。"
+      ],
+      "answer": 0,
+      "explanation": "多い cannot directly precede a noun in standard modern Japanese (✕ 多い人). Use 人が多いです."
+    },
+    {
+      "question": "Choose the correct kanji for 'warm weather': 'It is warm today.'",
+      "options": [
+        "暖かい",
+        "温かい",
+        "熱い",
+        "厚い"
+      ],
+      "answer": 0,
+      "explanation": "暖かい refers to climate, air temperature, and weather. 温かい refers to food, drinks, or warmth to the touch."
+    },
+    {
+      "question": "Choose the correct kanji for 'warm soup / drink'.",
+      "options": [
+        "温かいスープ",
+        "暖かいスープ",
+        "涼しいスープ",
+        "軽いスープ"
+      ],
+      "answer": 0,
+      "explanation": "Food and beverages use 温かい (温かいスープ)."
+    },
+    {
+      "question": "Choose the meaning of 涼しい (すずしい).",
+      "options": [
+        "cool (refreshing air/weather)",
+        "warm",
+        "heavy",
+        "spicy"
+      ],
+      "answer": 0,
+      "explanation": "涼しい = cool (referring to weather or breeze)."
+    },
+    {
+      "question": "Choose the opposite of 重い (おもい - heavy).",
+      "options": [
+        "軽い (かるい)",
+        "遅い (おそい)",
+        "近い (ちかい)",
+        "甘い (あまい)"
+      ],
+      "answer": 0,
+      "explanation": "重い (heavy) ↔ 軽い (light)."
+    },
+    {
+      "question": "Choose the opposite of 遠い (とおい - far).",
+      "options": [
+        "近い (ちかい)",
+        "速い (はやい)",
+        "遅い (おそい)",
+        "少ない (すくない)"
+      ],
+      "answer": 0,
+      "explanation": "遠い (far) ↔ 近い (near)."
+    },
+    {
+      "question": "Choose the opposite of 甘い (あまい - sweet).",
+      "options": [
+        "辛い (からい)",
+        "涼しい (すずしい)",
+        "重い (おもい)",
+        "温かい (あたたかい)"
+      ],
+      "answer": 0,
+      "explanation": "甘い (sweet) ↔ 辛い (spicy / hot taste)."
+    },
+    {
+      "question": "Choose the past negative form of いい (good): 'Yesterday's weather was not good.'",
+      "prompt": {
+        "kanji": "昨日は天気が___。",
+        "kana": "きのうは てんきが ___。"
+      },
+      "options": [
+        "よくなかったです",
+        "いくなかったです",
+        "いいじゃありませんでした",
+        "よくありませんでしたでした"
+      ],
+      "answer": 0,
+      "explanation": "いい conjugates from よい → past negative is よくなかったです (or よくありませんでした)."
+    },
+    {
+      "question": "How do you ask 'How was the trip?' in polite Japanese?",
+      "options": [
+        "旅行はどうでしたか。",
+        "旅行はどうやってでしたか。",
+        "旅行はどれでしたか。",
+        "旅行はどちらでしたか。"
+      ],
+      "answer": 0,
+      "explanation": "Use どうでしたか to ask about impressions of completed events or past experiences."
+    },
+    {
+      "question": "Choose the correct response: '昨日のパーティーはどうでしたか。'",
+      "options": [
+        "とても楽しかったです。",
+        "とても楽しいでした。",
+        "とても楽しかったじゃありません。",
+        "とても楽しくでした。"
+      ],
+      "answer": 0,
+      "explanation": "楽しい (い-adjective) in the past affirmative is 楽しかったです."
+    },
+    {
+      "question": "Choose the correct sentence: 'Last week was not free (busy).'",
+      "options": [
+        "先週は暇じゃありませんでした。",
+        "先週は暇くなかったです。",
+        "先週は暇くないでした。",
+        "先週は暇じゃないでした。"
+      ],
+      "answer": 0,
+      "explanation": "暇 is a な-adjective → past negative is 暇じゃありませんでした (or 暇ではありませんでした)."
+    },
+    {
+      "question": "Choose the sentence that correctly compares planes and trains: 'Planes are faster than trains.'",
+      "options": [
+        "飛行機は電車より速いです。",
+        "飛行機より電車は速いです。",
+        "飛行機は電車のほうが速いです。",
+        "飛行機は電車より速いでした。"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2 より [Adj] です: 飛行機は電車より速いです."
+    },
+    {
+      "question": "Choose the correct sentence: 'Who in your family is the tallest?'",
+      "options": [
+        "家族の中でだれが一番背が高いですか。",
+        "家族の中で何が一番背が高いですか。",
+        "家族の中でどこが一番背が高いですか。",
+        "家族の中でいつが一番背が高いですか。"
+      ],
+      "answer": 0,
+      "explanation": "When asking about family members (people), the interrogative is だれ (who)."
+    },
+    {
+      "question": "What does 紅葉 (もみじ) mean in Lesson 12?",
+      "options": [
+        "Maple / red autumn leaves",
+        "Cherry blossom petals",
+        "Flower arrangement",
+        "Snow festival"
+      ],
+      "answer": 0,
+      "explanation": "紅葉 (もみじ) refers to maple trees and vivid autumn foliage."
+    },
+    {
+      "question": "What do you say upon returning home in Japan?",
+      "options": [
+        "ただいま",
+        "お帰りなさい",
+        "いってきます",
+        "いってらっしゃい"
+      ],
+      "answer": 0,
+      "explanation": "The person returning says ただいま ('I'm home'). The person at home replies お帰りなさい."
+    },
+    {
+      "question": "What does the person at home say to someone who returns?",
+      "options": [
+        "お帰りなさい",
+        "ただいま",
+        "いってらっしゃい",
+        "ごちそうさまでした"
+      ],
+      "answer": 0,
+      "explanation": "お帰りなさい = 'Welcome home'."
+    },
+    {
+      "question": "Choose the correct translation: 'Summer is hot, but I like it the most.'",
+      "options": [
+        "夏は暑いですが、一番好きです。",
+        "夏は暑いでした、一番好きです。",
+        "夏は暑くて、一番好きです。",
+        "夏は暑いより、一番好きです。"
+      ],
+      "answer": 0,
+      "explanation": "Use ですが ('but') to connect contrasting clauses: 暑いですが、一番好きです."
+    },
+    {
+      "question": "Choose the correct sentence: 'Sunday was cloudy.'",
+      "options": [
+        "日曜日は曇りでした。",
+        "日曜日は曇りかったです。",
+        "日曜日は曇りいでした。",
+        "日曜日は曇りじゃありません。"
+      ],
+      "answer": 0,
+      "explanation": "曇り is a noun → past affirmative takes でした."
+    },
+    {
+      "question": "Choose the sentence with correct word order and particles.",
+      "options": [
+        "日本で富士山が一番高いです。",
+        "日本より富士山が一番高いです。",
+        "日本が富士山で一番高いです。",
+        "日本に富士山は一番高いです。"
+      ],
+      "answer": 0,
+      "explanation": "Within a geographical boundary, use [Place] で [Subject] が 一番 [Adj] です: 日本で富士山が一番高いです."
+    },
+    {
+      "question": "What is the past affirmative of 忙しい (いそがしい - busy)?",
+      "options": [
+        "忙しかったです",
+        "忙しいでした",
+        "忙しでした",
+        "忙しくでした"
+      ],
+      "answer": 0,
+      "explanation": "い-adjective past affirmative: drop い and add かったです → 忙しかったです."
+    },
+    {
+      "question": "What is the past affirmative of 有名「な」 (ゆうめい「な」 - famous)?",
+      "options": [
+        "有名でした",
+        "有名かったです",
+        "有名かったでした",
+        "有名いでした"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective past affirmative: drop な and add でした → 有名でした."
+    },
+    {
+      "question": "What is the past negative of 静か「な」 (しずか「な」 - quiet)?",
+      "options": [
+        "静かじゃありませんでした",
+        "静かくなかったです",
+        "静かないでした",
+        "静かでした"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective past negative: 静かじゃありませんでした (or 静かではありませんでした)."
+    },
+    {
+      "question": "Choose the sentence: 'Between chicken and pork, chicken is cheaper.'",
+      "options": [
+        "鶏肉と豚肉とどちらが安いですか。— 鶏肉のほうが安いです。",
+        "鶏肉と豚肉とどちらが安いですか。— 鶏肉より安いです。",
+        "鶏肉と豚肉とどちらが安いですか。— 鶏肉が一番安いです。",
+        "鶏肉と豚肉とどちらが安いですか。— 鶏肉は安いです。"
+      ],
+      "answer": 0,
+      "explanation": "Comparing 2 items: 鶏肉のほうが安いです."
+    },
+    {
+      "question": "Choose the correct phrase: 'Which is better, tea or coffee? — Coffee, please.'",
+      "options": [
+        "コーヒーがいいです。",
+        "コーヒーのほうがいいでした。",
+        "コーヒーが一番でした。",
+        "コーヒーよりいいです。"
+      ],
+      "answer": 0,
+      "explanation": "When asked which you prefer, [Item] が いいです is natural and polite."
+    },
+    {
+      "question": "Choose the correct sentence: 'I was very tired today.'",
+      "options": [
+        "今日はとても疲れました。",
+        "今日はとても疲れるでした。",
+        "今日はとても疲れたです。",
+        "今日はとても疲れじゃありませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "疲れました (past of 疲れます) expresses 'I got tired / I am tired'."
+    }
+  ],
+  "writing": {
+    "title": "Vacation Impressions, Comparisons, and Seasonal Favorites",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 12 grammar points. (1) Describe a recent weekend, vacation, or trip and evaluate the weather, hotel, and overall experience using past tense adjectives and nouns (でした, じゃありませんでした, かったです, くなかったです, and よかったです). (2) Compare two cities, transportation modes, or foods using 『N1 は N2 より [Adj] です』 (include ずっと for emphasis). (3) Formulate a question comparing two items and answer it with 『～の ほうが [Adj] です』 or 『どちらも [Adj] です』. (4) State your favorite thing within a category using 『[Range] の中で ～が一番 [Adj] です』. (5) Use 『[Adj] + の』 to replace a noun.",
+    "placeholder": "先週 ______ へ行きました。旅行はとても ______ かったです。\n天気は ______ でした。ホテルは ______ かったです。\n______ は ______ よりずっと ______ です。\n______ と ______ と、どちらが ______ ですか。______ のほうが ______ です。\n日本料理の中で ______ が一番好きです。小さい ______ を買いました。",
+    "modelAnswer": "先週北海道へ旅行に行きました。旅行はとても楽しかったです。一昨日は雨でしたが、昨日は天気がよかったです。北海道は東京よりずっと涼しかったです。寿司とラーメンと、どちらがおいしかったですか。どちらもおいしかったです。でも、日本料理の中で刺身が一番おいしかったです。お土産屋で大きいカバンと小さいカバンを見ました。軽くて小さいのを買いました。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Yesterday was rainy and it was cold.",
+        "chunks": [
+          "昨日は",
+          "雨でした。",
+          "そして、",
+          "寒かったです。"
+        ]
+      },
+      {
+        "en": "The Shinkansen is by far faster than the bus.",
+        "chunks": [
+          "新幹線は",
+          "バスより",
+          "ずっと",
+          "速いです。"
+        ]
+      },
+      {
+        "en": "Between July and August, which is hotter?",
+        "chunks": [
+          "7月と8月と、",
+          "どちらが",
+          "暑いですか。"
+        ]
+      },
+      {
+        "en": "August is hotter than July.",
+        "chunks": [
+          "8月の",
+          "ほうが",
+          "暑いです。"
+        ]
+      },
+      {
+        "en": "Among Japanese cuisine, sushi is the most delicious.",
+        "chunks": [
+          "日本料理の中で",
+          "お寿司が",
+          "一番",
+          "おいしいです。"
+        ]
+      },
+      {
+        "en": "Yesterday's test was not easy.",
+        "chunks": [
+          "昨日の",
+          "試験は",
+          "簡単じゃ",
+          "ありませんでした。"
+        ]
+      },
+      {
+        "en": "The weather was good yesterday.",
+        "chunks": [
+          "昨日は",
+          "天気が",
+          "よかったです。"
+        ]
+      },
+      {
+        "en": "Hokkaido is much cooler than Tokyo.",
+        "chunks": [
+          "北海道は",
+          "東京より",
+          "ずっと",
+          "涼しかったです。"
+        ]
+      },
+      {
+        "en": "Who in your family is the tallest?",
+        "chunks": [
+          "家族の中で",
+          "だれが",
+          "一番",
+          "背が高いですか。"
+        ]
+      },
+      {
+        "en": "My younger brother is the tallest.",
+        "chunks": [
+          "弟が",
+          "一番",
+          "背が高いです。"
+        ]
+      },
+      {
+        "en": "Where in the world do you want to visit the most?",
+        "chunks": [
+          "世界で",
+          "どこが",
+          "一番",
+          "行きたいですか。"
+        ]
+      },
+      {
+        "en": "Which season do you like the most?",
+        "chunks": [
+          "どの季節が",
+          "一番",
+          "好きですか。"
+        ]
+      },
+      {
+        "en": "I like autumn the most because the autumn leaves are beautiful.",
+        "chunks": [
+          "紅葉が",
+          "きれいですから、",
+          "秋が",
+          "一番好きです。"
+        ]
+      },
+      {
+        "en": "Both Japanese and English are difficult.",
+        "chunks": [
+          "日本語も英語も、",
+          "どちらも",
+          "難しいです。"
+        ]
+      },
+      {
+        "en": "I don't have a red pen, so I will use a black one.",
+        "chunks": [
+          "赤いペンが",
+          "ありませんから、",
+          "黒いのを",
+          "使います。"
+        ]
+      },
+      {
+        "en": "Between the big bag and the small bag, I bought the light one.",
+        "chunks": [
+          "大きいのと",
+          "小さいのの中で、",
+          "軽いのを",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "Yesterday was not a day off.",
+        "chunks": [
+          "昨日は",
+          "休みじゃ",
+          "ありませんでした。"
+        ]
+      },
+      {
+        "en": "How was last week's party?",
+        "chunks": [
+          "先週の",
+          "パーティーは",
+          "どうでしたか。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "寒い (さむい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "さむかった",
+        "options": [
+          "さむかった",
+          "さむいでした",
+          "さむかったでした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "寒い (さむい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "さむくなかった",
+        "options": [
+          "さむくなかった",
+          "さむいじゃなかった",
+          "さむくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかったです"
+      },
+      {
+        "prompt": "暑い (あつい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "あつかった",
+        "options": [
+          "あつかった",
+          "あついでした",
+          "あついででした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "暑い (あつい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "あつくなかった",
+        "options": [
+          "あつくなかった",
+          "あつくないでした",
+          "あついじゃありませんでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかったです"
+      },
+      {
+        "prompt": "いい (Good) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "よかった",
+        "options": [
+          "よかった",
+          "いかった",
+          "いいでした"
+        ],
+        "hint": "Irregular adjective: conjugates from よい (よかった)"
+      },
+      {
+        "prompt": "いい (Good) - Past Negative",
+        "form": "Past Negative",
+        "answer": "よくなかった",
+        "options": [
+          "よくなかった",
+          "いくなかった",
+          "いいじゃなかった"
+        ],
+        "hint": "Irregular adjective: conjugates from よい (よくなかった)"
+      },
+      {
+        "prompt": "高い (たかい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "たかかった",
+        "options": [
+          "たかかった",
+          "たかいでした",
+          "たかくでした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "高い (たかい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "たかくなかった",
+        "options": [
+          "たかくなかった",
+          "たかいじゃなかった",
+          "たかくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかったです"
+      },
+      {
+        "prompt": "おいしい - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "おいしかった",
+        "options": [
+          "おいしかった",
+          "おいしいでした",
+          "おいしくでした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "おいしい - Past Negative",
+        "form": "Past Negative",
+        "answer": "おいしくなかった",
+        "options": [
+          "おいしくなかった",
+          "おいしいじゃなかった",
+          "おいしくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかったです"
+      },
+      {
+        "prompt": "楽しい (たのしい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "たのしかった",
+        "options": [
+          "たのしかった",
+          "たのしいでした",
+          "たのしかったです"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "楽しい (たのしい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "たのしくなかった",
+        "options": [
+          "たのしくなかった",
+          "たのしいじゃなかった",
+          "たのしくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかった"
+      },
+      {
+        "prompt": "涼しい (すずしい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "すずしかった",
+        "options": [
+          "すずしかった",
+          "すずしいでした",
+          "すずしかったです"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "辛い (からい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "からくなかった",
+        "options": [
+          "からくなかった",
+          "からいじゃなかった",
+          "からくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかった"
+      },
+      {
+        "prompt": "重い (おもい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "おもかった",
+        "options": [
+          "おもかった",
+          "おもいでした",
+          "おもくでした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "軽い (かるい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "かるくなかった",
+        "options": [
+          "かるくなかった",
+          "かるいじゃなかった",
+          "かるくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかった"
+      },
+      {
+        "prompt": "速い (はやい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "はやかった",
+        "options": [
+          "はやかった",
+          "はやいでした",
+          "はやくでした"
+        ],
+        "hint": "い-adjective: drop い and add かったです"
+      },
+      {
+        "prompt": "遅い (おそい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "おそくなかった",
+        "options": [
+          "おそくなかった",
+          "おそいじゃなかった",
+          "おそくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかった"
+      },
+      {
+        "prompt": "暇「な」 (ひま「な」) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "ひまでした",
+        "options": [
+          "ひまでした",
+          "ひまかった",
+          "ひまなでした"
+        ],
+        "hint": "な-adjective: drop な and add でした"
+      },
+      {
+        "prompt": "暇「な」 (ひま「な」) - Past Negative",
+        "form": "Past Negative",
+        "answer": "ひまじゃありませんでした",
+        "options": [
+          "ひまじゃありませんでした",
+          "ひまくなかったです",
+          "ひまくないでした"
+        ],
+        "hint": "な-adjective: drop な and add じゃありませんでした"
+      },
+      {
+        "prompt": "簡単「な」 (かんたん「な」) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "かんたんでした",
+        "options": [
+          "かんたんでした",
+          "かんたんかった",
+          "かんたんなでした"
+        ],
+        "hint": "な-adjective: drop な and add でした"
+      },
+      {
+        "prompt": "簡単「な」 (かんたん「な」) - Past Negative",
+        "form": "Past Negative",
+        "answer": "かんたんじゃありませんでした",
+        "options": [
+          "かんたんじゃありませんでした",
+          "かんたんくなかったです",
+          "かんたんくないでした"
+        ],
+        "hint": "な-adjective: drop な and add じゃありませんでした"
+      },
+      {
+        "prompt": "静か「な」 (しずか「な」) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "しずかでした",
+        "options": [
+          "しずかでした",
+          "しずかかった",
+          "しずかだったです"
+        ],
+        "hint": "な-adjective: drop な and add でした"
+      },
+      {
+        "prompt": "静か「な」 (しずか「な」) - Past Negative",
+        "form": "Past Negative",
+        "answer": "しずかじゃありませんでした",
+        "options": [
+          "しずかじゃありませんでした",
+          "しずかくなかったです",
+          "しずかじゃないでした"
+        ],
+        "hint": "な-adjective: drop な and add じゃありませんでした"
+      },
+      {
+        "prompt": "有名「な」 (ゆうめい「な」) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "ゆうめいでした",
+        "options": [
+          "ゆうめいでした",
+          "ゆうめいかった",
+          "ゆうめいなでした"
+        ],
+        "hint": "Ends in い sound but it is a な-adjective → 有名でした"
+      },
+      {
+        "prompt": "有名「な」 (ゆうめい「な」) - Past Negative",
+        "form": "Past Negative",
+        "answer": "ゆうめいじゃありませんでした",
+        "options": [
+          "ゆうめいじゃありませんでした",
+          "ゆうめいくなかったです",
+          "ゆうめいじゃないでした"
+        ],
+        "hint": "な-adjective: drop な and add じゃありませんでした"
+      },
+      {
+        "prompt": "雨 (あめ - Noun) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "あめでした",
+        "options": [
+          "あめでした",
+          "あめかった",
+          "あめいでした"
+        ],
+        "hint": "Noun: add でした for past affirmative"
+      },
+      {
+        "prompt": "雨 (あめ - Noun) - Past Negative",
+        "form": "Past Negative",
+        "answer": "あめじゃありませんでした",
+        "options": [
+          "あめじゃありませんでした",
+          "あめくなかったです",
+          "あめくないでした"
+        ],
+        "hint": "Noun: add じゃありませんでした for past negative"
+      },
+      {
+        "prompt": "雪 (ゆき - Noun) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "ゆきでした",
+        "options": [
+          "ゆきでした",
+          "ゆきかった",
+          "ゆきいでした"
+        ],
+        "hint": "Noun: add でした"
+      },
+      {
+        "prompt": "休み (やすみ - Noun) - Past Negative",
+        "form": "Past Negative",
+        "answer": "やすみじゃありませんでした",
+        "options": [
+          "やすみじゃありませんでした",
+          "やすみくなかったです",
+          "やすみないでした"
+        ],
+        "hint": "Noun: add じゃありませんでした"
+      },
+      {
+        "prompt": "曇り (くもり - Noun) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "くもりでした",
+        "options": [
+          "くもりでした",
+          "くもりかった",
+          "くもりいでした"
+        ],
+        "hint": "Noun: add でした"
+      },
+      {
+        "prompt": "いい (Good) - Past Negative Formal",
+        "form": "Past Negative Formal",
+        "answer": "よくありませんでした",
+        "options": [
+          "よくありませんでした",
+          "いくありませんでした",
+          "いいじゃありませんでした"
+        ],
+        "hint": "Formal past negative of いい is よくありませんでした"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "新幹線は車 [ ? ] 速いです。",
+        "answer": "より",
+        "options": [
+          "より",
+          "ほど",
+          "から",
+          "で"
+        ],
+        "hint": "The standard of comparison ('than') is marked with より."
+      },
+      {
+        "sentence": "お肉 [ ? ] 魚と、どちらが好きですか。",
+        "answer": "と",
+        "options": [
+          "と",
+          "や",
+          "か",
+          "より"
+        ],
+        "hint": "In 『N1 と N2 と どちらが』, both items are linked with particle と."
+      },
+      {
+        "sentence": "お肉と魚 [ ? ]、どちらが好きですか。",
+        "answer": "と",
+        "options": [
+          "と",
+          "が",
+          "は",
+          "より"
+        ],
+        "hint": "In 『N1 と N2 と どちらが』, mark N2 with と as well."
+      },
+      {
+        "sentence": "お肉と魚と、どちら [ ? ] 好きですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Interrogative pronouns like どちら must be followed by が."
+      },
+      {
+        "sentence": "魚 [ ? ] ほうが好きです。",
+        "answer": "の",
+        "options": [
+          "の",
+          "が",
+          "は",
+          "より"
+        ],
+        "hint": "The selection pattern requires の: 『Noun の ほうが』."
+      },
+      {
+        "sentence": "日本料理 [ ? ] 中で何が一番おいしいですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Between the category and 中で, insert particle の: 『[Category] の中で』."
+      },
+      {
+        "sentence": "1年 [ ? ] 中でいつが一番寒いですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "で",
+          "から",
+          "に"
+        ],
+        "hint": "Time period + の中で: 『1年の中で』."
+      },
+      {
+        "sentence": "世界 [ ? ] どこが一番きれいですか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "の",
+          "に",
+          "から"
+        ],
+        "hint": "When specifying an entire location scope without 中で, use で (世界で)."
+      },
+      {
+        "sentence": "家族の中でだれ [ ? ] 一番背が高いですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "の"
+        ],
+        "hint": "Question words like だれ take the subject marker が."
+      },
+      {
+        "sentence": "日本料理の中 [ ? ] 刺身が一番好きです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "から",
+          "は"
+        ],
+        "hint": "Within the category scope: 『～の中で』."
+      },
+      {
+        "sentence": "昨日は天気 [ ? ] よかったです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "The attribute of weather takes が (天気がよかったです)."
+      },
+      {
+        "sentence": "東京は人 [ ? ] 多いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Say 人が多いです (never ✕ 多い人)."
+      },
+      {
+        "sentence": "平日、この店は客 [ ? ] 少ないです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "Attribute taking 少ない is marked with が."
+      },
+      {
+        "sentence": "昨日の試験 [ ? ] どうでしたか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "で"
+        ],
+        "hint": "The topic being asked about takes は (試験はどうでしたか)."
+      },
+      {
+        "sentence": "北海道は東京よりずっと涼しかった [ ? ]。",
+        "answer": "よ",
+        "options": [
+          "よ",
+          "ね",
+          "か",
+          "の"
+        ],
+        "hint": "Sharing new information with the listener uses sentence-ending particle よ."
+      },
+      {
+        "sentence": "今日は暖かいです [ ? ]。",
+        "answer": "ね",
+        "options": [
+          "ね",
+          "よ",
+          "か",
+          "わ"
+        ],
+        "hint": "Seeking agreement on shared weather conditions uses ね."
+      },
+      {
+        "sentence": "コーヒーとお茶と、どちら [ ? ] いいですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "Question word subject marker: どちらが."
+      },
+      {
+        "sentence": "コーヒー [ ? ] いいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "の"
+        ],
+        "hint": "Expressing preference: 『[Choice] が いいです』."
+      },
+      {
+        "sentence": "赤いペンがありませんから、黒い [ ? ] を使います。",
+        "answer": "の",
+        "options": [
+          "の",
+          "こと",
+          "もの",
+          "な"
+        ],
+        "hint": "Pronoun replacement for pen: 黒いの ('the black one')."
+      },
+      {
+        "sentence": "静か [ ? ] のが好きです。",
+        "answer": "な",
+        "options": [
+          "な",
+          "の",
+          "で",
+          "に"
+        ],
+        "hint": "な-adjectives retain な before the pronoun の: 『静かなの』."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Greeting a colleague back from a trip",
+        "speaker": "タカシ先生",
+        "prompt": "お帰りなさい！旅行はどうでしたか。",
+        "options": [
+          {
+            "text": "ただいま！ちょっと疲れましたが、とても楽しかったです。",
+            "correct": true
+          },
+          {
+            "text": "いってらっしゃい！楽しかったです。",
+            "correct": false
+          },
+          {
+            "text": "ただいま！とても楽しいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to お帰りなさい with ただいま, and use 楽しかったです (past affirmative)."
+      },
+      {
+        "situation": "Asking about the weather on a vacation",
+        "speaker": "同僚",
+        "prompt": "北海道の天気はどうでしたか。",
+        "options": [
+          {
+            "text": "一昨日は雨でしたが、昨日は天気がよかったです。",
+            "correct": true
+          },
+          {
+            "text": "一昨日は雨かったですが、昨日は天気がいかったです。",
+            "correct": false
+          },
+          {
+            "text": "一昨日は雨でしたから、昨日は天気がいいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Noun past is 雨でした; irregular past of いい is よかったです."
+      },
+      {
+        "situation": "Comparing two seasons",
+        "speaker": "友達",
+        "prompt": "夏と冬と、どちらが好きですか。",
+        "options": [
+          {
+            "text": "冬のほうが好きです。スノーボードができますから。",
+            "correct": true
+          },
+          {
+            "text": "冬より好きです。",
+            "correct": false
+          },
+          {
+            "text": "冬が一番好きですか。",
+            "correct": false
+          }
+        ],
+        "tip": "When choosing one of two options, use [Choice] の ほうが 好きです."
+      },
+      {
+        "situation": "When you like both equally",
+        "speaker": "店員",
+        "prompt": "すき焼きと天ぷらと、どちらがおいしいですか。",
+        "options": [
+          {
+            "text": "どちらもおいしいですよ！",
+            "correct": true
+          },
+          {
+            "text": "どれもおいしいですよ！",
+            "correct": false
+          },
+          {
+            "text": "どちらがおいしいですよ！",
+            "correct": false
+          }
+        ],
+        "tip": "Between two items, say どちらも ('both'). どれも is for three or more."
+      },
+      {
+        "situation": "Inquiring about someone's schedule",
+        "speaker": "同僚",
+        "prompt": "今週末と来週末と、どちらが暇ですか。",
+        "options": [
+          {
+            "text": "今週末のほうが暇です。来週は仕事があります。",
+            "correct": true
+          },
+          {
+            "text": "今週末より暇です。",
+            "correct": false
+          },
+          {
+            "text": "どちらが暇です。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer どちらが questions with [Choice] の ほうが [Adj] です."
+      },
+      {
+        "situation": "Superlative about Japanese food",
+        "speaker": "タカシ先生",
+        "prompt": "日本料理の中で何が一番好きですか。",
+        "options": [
+          {
+            "text": "お寿司が一番好きです。",
+            "correct": true
+          },
+          {
+            "text": "お寿司のほうが好きです。",
+            "correct": false
+          },
+          {
+            "text": "お寿司より好きです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer an 一番 question with [Noun] が 一番 [Adj] です."
+      },
+      {
+        "situation": "Shopping for a shirt",
+        "speaker": "店員",
+        "prompt": "どのシャツになさいますか。",
+        "options": [
+          {
+            "text": "あの白いのがいいです。試着できますか。",
+            "correct": true
+          },
+          {
+            "text": "あの白いいいのがいいです。",
+            "correct": false
+          },
+          {
+            "text": "あの白いなのがいいです。",
+            "correct": false
+          }
+        ],
+        "tip": "い-adjective + の acts as a pronoun meaning 'the [white] one'."
+      },
+      {
+        "situation": "Comparing two cities",
+        "speaker": "友達",
+        "prompt": "東京と京都と、どちらが人が多いですか。",
+        "options": [
+          {
+            "text": "東京のほうがずっと人が多いです。",
+            "correct": true
+          },
+          {
+            "text": "東京は多い人です。",
+            "correct": false
+          },
+          {
+            "text": "どちらも人が多い人です。",
+            "correct": false
+          }
+        ],
+        "tip": "Combine のほうが with ずっと and 人が多い for natural comparative speech."
+      },
+      {
+        "situation": "Asking how an exam went",
+        "speaker": "友達",
+        "prompt": "昨日の日本語の試験はどうでしたか。",
+        "options": [
+          {
+            "text": "漢字は難しかったですが、文法は簡単でした。",
+            "correct": true
+          },
+          {
+            "text": "難しかったでした、簡単でした。",
+            "correct": false
+          },
+          {
+            "text": "難しくないでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 難しかったです (い-adj) and 簡単でした (な-adj) linked with が ('but')."
+      },
+      {
+        "situation": "Offering a beverage choice",
+        "speaker": "タカシ先生",
+        "prompt": "温かいお茶と冷たいジュースと、どちらがいいですか。",
+        "options": [
+          {
+            "text": "温かいお茶がいいです。ありがとうございます。",
+            "correct": true
+          },
+          {
+            "text": "温かいお茶が一番でした。",
+            "correct": false
+          },
+          {
+            "text": "温かいお茶はどうやってですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Reply with [Choice] が いいです when choosing an offered drink."
+      },
+      {
+        "situation": "Asking about travel destinations",
+        "speaker": "友達",
+        "prompt": "1年の中でいつが一番旅行にいいですか。",
+        "options": [
+          {
+            "text": "秋が一番いいですよ。紅葉がとても美しいですから。",
+            "correct": true
+          },
+          {
+            "text": "秋のほうがいいですよ。",
+            "correct": false
+          },
+          {
+            "text": "秋よりいいですよ。",
+            "correct": false
+          }
+        ],
+        "tip": "When asked いつが一番, respond with [Time/Season] が 一番 いいです."
+      },
+      {
+        "situation": "Hearing impressive news",
+        "speaker": "友達",
+        "prompt": "昨日初めて生け花を習いました。先生に褒められましたよ！",
+        "options": [
+          {
+            "text": "わあ、すごいですね！写真を見せてください。",
+            "correct": true
+          },
+          {
+            "text": "ただいま、すごいですね。",
+            "correct": false
+          },
+          {
+            "text": "どちらもすごいですね。",
+            "correct": false
+          }
+        ],
+        "tip": "Use すごいですね to enthusiastically praise an impressive achievement."
+      }
+    ]
+  }
+}

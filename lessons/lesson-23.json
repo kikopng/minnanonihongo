@@ -1,0 +1,2269 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 23,
+    "title": "Time Clauses with ～とき, Inevitable Conditionals with ～と, and Giving Directions",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master subordinate time clauses using 『～とき』 across verbs, adjectives, and nouns in plain form; differentiate between 『Verb (Dictionary) + とき』 and 『Verb (た-form) + とき』 based on whether the action is completed before the main action; express natural conditions, habits, and mechanical operations with 『Verb (Plain Non-past) + と』; and navigate roads and give clear directions using the motion particle 『を』 with movement verbs (歩く、渡る、曲がる) and ordinal counters (～目)."
+  },
+  "vocabulary": [
+    {
+      "id": "hashi",
+      "kanji": "橋",
+      "kana": "はし",
+      "romaji": "hashi",
+      "meaning": "bridge",
+      "category": "place",
+      "example": {
+        "kanji": "この橋を渡ると、千葉県です。",
+        "kana": "この はしを わたると、ちばけんです。",
+        "translation": "If you cross this bridge, you will be in Chiba Prefecture."
+      }
+    },
+    {
+      "id": "oyu",
+      "kanji": "お湯",
+      "kana": "おゆ",
+      "romaji": "oyu",
+      "meaning": "hot water",
+      "category": "noun",
+      "example": {
+        "kanji": "このボタンを押すと、お湯が出ます。",
+        "kana": "この ボタンを おすと、おゆが でます。",
+        "translation": "If you press this button, hot water will come out."
+      }
+    },
+    {
+      "id": "oto",
+      "kanji": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "meaning": "sound; noise",
+      "category": "noun",
+      "example": {
+        "kanji": "これを回すと、音が小さくなります。",
+        "kana": "これを まわすと、おとが ちいさく なります。",
+        "translation": "If you turn this, the sound gets quieter."
+      }
+    },
+    {
+      "id": "saizu",
+      "kanji": "サイズ",
+      "kana": "サイズ",
+      "romaji": "saizu",
+      "meaning": "size",
+      "category": "noun",
+      "example": {
+        "kanji": "これのMサイズがありますか？",
+        "kana": "これの エムサイズが ありますか？",
+        "translation": "Do you have this in size M?"
+      }
+    },
+    {
+      "id": "michi",
+      "kanji": "道",
+      "kana": "みち",
+      "romaji": "michi",
+      "meaning": "road; street; way; route",
+      "category": "place",
+      "example": {
+        "kanji": "道が混んでいます。東京駅への道を教えてください。",
+        "kana": "みちが こんでいます。とうきょうえきへの みちを おしえて ください。",
+        "translation": "The road is crowded. Please tell me the way to Tokyo Station."
+      }
+    },
+    {
+      "id": "kousaten",
+      "kanji": "交差点",
+      "kana": "こうさてん",
+      "romaji": "kousaten",
+      "meaning": "intersection; crossroads",
+      "category": "place",
+      "example": {
+        "kanji": "あの交差点を左に曲がってください。",
+        "kana": "あの こうさてんを ひだりに まがって ください。",
+        "translation": "Please turn left at that intersection."
+      }
+    },
+    {
+      "id": "shingou",
+      "kanji": "信号",
+      "kana": "しんごう",
+      "romaji": "shingou",
+      "meaning": "traffic light; signal",
+      "category": "noun",
+      "example": {
+        "kanji": "信号が青くなりました。",
+        "kana": "しんごうが あおく なりました。",
+        "translation": "The traffic light has turned green (blue)."
+      }
+    },
+    {
+      "id": "kado",
+      "kanji": "角",
+      "kana": "かど",
+      "romaji": "kado",
+      "meaning": "corner",
+      "category": "place",
+      "example": {
+        "kanji": "部屋の角に机があります。",
+        "kana": "へやの かどに つくえが あります。",
+        "translation": "There is a desk in the corner of the room."
+      }
+    },
+    {
+      "id": "chuushajou",
+      "kanji": "駐車場",
+      "kana": "ちゅうしゃじょう",
+      "romaji": "chuushajou",
+      "meaning": "parking lot; car park",
+      "category": "place",
+      "example": {
+        "kanji": "建物の後ろに駐車場があります。",
+        "kana": "たてものの うしろに ちゅうしゃじょうが あります。",
+        "translation": "There is a parking lot behind the building."
+      }
+    },
+    {
+      "id": "tatemono",
+      "kanji": "建物",
+      "kana": "たてもの",
+      "romaji": "tatemono",
+      "meaning": "building",
+      "category": "place",
+      "example": {
+        "kanji": "あの白い建物は何ですか？",
+        "kana": "あの しろい たてものは なんですか？",
+        "translation": "What is that white building?"
+      }
+    },
+    {
+      "id": "kikimasu",
+      "kanji": "聞きます",
+      "kana": "ききます",
+      "romaji": "kikimasu",
+      "meaning": "to ask; to listen; to hear",
+      "category": "verb",
+      "example": {
+        "kanji": "質問があるとき、私に聞いてください。",
+        "kana": "しつもんが あるとき、わたしに きいて ください。",
+        "translation": "When you have a question, please ask me."
+      }
+    },
+    {
+      "id": "mawashimasu",
+      "kanji": "回します",
+      "kana": "まわします",
+      "romaji": "mawashimasu",
+      "meaning": "to turn; to spin; to twist",
+      "category": "verb",
+      "example": {
+        "kanji": "このノブを右へ回すと、音が大きくなります。",
+        "kana": "この ノブを みぎへ まわすと、おとが おおきく なります。",
+        "translation": "If you turn this knob to the right, the volume will increase."
+      }
+    },
+    {
+      "id": "hikimasu",
+      "kanji": "引きます",
+      "kana": "ひきます",
+      "romaji": "hikimasu",
+      "meaning": "to pull",
+      "category": "verb",
+      "example": {
+        "kanji": "このレバーを引くと、椅子が動きます。",
+        "kana": "この レバーを ひくと、いすが うごきます。",
+        "translation": "If you pull this lever, the chair moves."
+      }
+    },
+    {
+      "id": "kaemasu",
+      "kanji": "変えます",
+      "kana": "かえます",
+      "romaji": "kaemasu",
+      "meaning": "to change; to alter",
+      "category": "verb",
+      "example": {
+        "kanji": "リモコンの電池を変えなければなりません。",
+        "kana": "リモコンの でんちを かえなければ なりません。",
+        "translation": "I need to change the remote's batteries."
+      }
+    },
+    {
+      "id": "sawarimasu",
+      "kanji": "触ります",
+      "kana": "さわります",
+      "romaji": "sawarimasu",
+      "meaning": "to touch",
+      "category": "verb",
+      "example": {
+        "kanji": "私に触らないでください。",
+        "kana": "わたしに さわらないで ください。",
+        "translation": "Don't touch me. / No touchy."
+      }
+    },
+    {
+      "id": "demasu",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "to come out; to emerge",
+      "category": "verb",
+      "example": {
+        "kanji": "このボタンを押すと、お湯が出ます。",
+        "kana": "この ボタンを おすと、おゆが でます。",
+        "translation": "If you press this button, hot water will come out."
+      }
+    },
+    {
+      "id": "arukimasu",
+      "kanji": "歩きます",
+      "kana": "あるきます",
+      "romaji": "arukimasu",
+      "meaning": "to walk",
+      "category": "verb",
+      "example": {
+        "kanji": "この道をまっすぐ歩くと、コンビニがあります。",
+        "kana": "この みちを まっすぐ あるくと、コンビニが あります。",
+        "translation": "If you walk straight down this road, there is a convenience store."
+      }
+    },
+    {
+      "id": "watarimasu",
+      "kanji": "渡ります",
+      "kana": "わたります",
+      "romaji": "watarimasu",
+      "meaning": "to cross",
+      "category": "verb",
+      "example": {
+        "kanji": "この橋を渡ると、千葉県です。",
+        "kana": "この はしを わたると、ちばけんです。",
+        "translation": "If you cross this bridge, you will be in Chiba Prefecture."
+      }
+    },
+    {
+      "id": "magarimasu",
+      "kanji": "曲がります",
+      "kana": "まがります",
+      "romaji": "magarimasu",
+      "meaning": "to turn; to bend; to curve",
+      "category": "verb",
+      "example": {
+        "kanji": "あの交差点を左に曲がってください。",
+        "kana": "あの こうさてんを ひだりに まがって ください。",
+        "translation": "Please turn left at that intersection."
+      }
+    },
+    {
+      "id": "koshou",
+      "kanji": "故障",
+      "kana": "こしょう",
+      "romaji": "koshou",
+      "meaning": "breakdown; out of order",
+      "category": "noun",
+      "example": {
+        "kanji": "このエレベーターは故障しています。",
+        "kana": "この エレベーターは こしょう して います。",
+        "translation": "This elevator is out of order."
+      }
+    },
+    {
+      "id": "koshoushimasu",
+      "kanji": "故障します",
+      "kana": "こしょうします",
+      "romaji": "koshoushimasu",
+      "meaning": "to break down; to go out of order",
+      "category": "verb",
+      "example": {
+        "kanji": "洗濯機が故障しました。",
+        "kana": "せんたくきが こしょう しました。",
+        "translation": "The washing machine broke down."
+      }
+    },
+    {
+      "id": "sabishii",
+      "kanji": "寂しい",
+      "kana": "さびしい",
+      "romaji": "sabishii",
+      "meaning": "lonely",
+      "category": "adjective",
+      "example": {
+        "kanji": "寂しいとき、友達に電話します。",
+        "kana": "さびしいとき、ともだちに でんわします。",
+        "translation": "When I feel lonely, I call my friends."
+      }
+    },
+    {
+      "id": "nankaimo",
+      "kanji": "何回も",
+      "kana": "なんかいも",
+      "romaji": "nankaimo",
+      "meaning": "many times; repeatedly",
+      "category": "expression",
+      "example": {
+        "kanji": "日本に何回も行ったことがあります。",
+        "kana": "にほんに なんかいも いった ことが あります。",
+        "translation": "I have been to Japan many times."
+      }
+    },
+    {
+      "id": "me",
+      "kanji": "～目",
+      "kana": "～め",
+      "romaji": "~me",
+      "meaning": "the ～th (ordinal suffix)",
+      "category": "counter",
+      "example": {
+        "kanji": "1回目、3日目、2つ目の信号を右へ曲がります。",
+        "kana": "いっかいめ、みっかめ、ふたつめの しんごうを みぎへ まがります。",
+        "translation": "First time, third day, turn right at the second traffic light."
+      }
+    },
+    {
+      "id": "botan",
+      "kanji": "ボタン",
+      "kana": "ボタン",
+      "romaji": "botan",
+      "meaning": "button",
+      "category": "noun",
+      "example": {
+        "kanji": "このボタンを押さないと、お釣りが出ません。",
+        "kana": "この ボタンを おさないと、おつりが でません。",
+        "translation": "If you don't push this button, the change won't come out."
+      }
+    },
+    {
+      "id": "rebaa",
+      "kanji": "レバー",
+      "kana": "レバー",
+      "romaji": "rebaa",
+      "meaning": "lever",
+      "category": "noun",
+      "example": {
+        "kanji": "レバーを引いてください。",
+        "kana": "レバーを ひいて ください。",
+        "translation": "Please pull the lever."
+      }
+    },
+    {
+      "id": "otsuri",
+      "kanji": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "meaning": "change (money returned)",
+      "category": "noun",
+      "example": {
+        "kanji": "お釣りが出ません。",
+        "kana": "おつりが でません。",
+        "translation": "The change isn't coming out."
+      }
+    },
+    {
+      "id": "massugu",
+      "kanji": "まっすぐ",
+      "kana": "まっすぐ",
+      "romaji": "massugu",
+      "meaning": "straight (ahead)",
+      "category": "expression",
+      "example": {
+        "kanji": "この道をまっすぐ行ってください。",
+        "kana": "この みちを まっすぐ いって ください。",
+        "translation": "Please go straight down this road."
+      }
+    },
+    {
+      "id": "ugokimasu",
+      "kanji": "動きます",
+      "kana": "うごきます",
+      "romaji": "ugokimasu",
+      "meaning": "to move; to work / operate",
+      "category": "verb",
+      "example": {
+        "kanji": "時計が動きません。",
+        "kana": "とけいが うごきません。",
+        "translation": "The clock isn't working / moving."
+      }
+    },
+    {
+      "id": "denchi",
+      "kanji": "電池",
+      "kana": "でんち",
+      "romaji": "denchi",
+      "meaning": "battery",
+      "category": "noun",
+      "example": {
+        "kanji": "新しい電池を入れました。",
+        "kana": "あたらしい でんちを いれました。",
+        "translation": "I put in a new battery."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Verb / Adjective / Noun (Plain Form) + とき [When ～]",
+      "explanation": "とき literally means 'time'. Attached to a modifying clause, it forms a temporal 'when' clause. Essential rules taught by Takashi: (1) The clause modifying とき MUST be in plain form. (2) The subject inside the とき-clause is ALWAYS marked with 『が』, NEVER with 『は』 (夫が東京に行くとき、私は大阪に行きます). (3) When the subject of both clauses is identical (e.g. 私), omit 『私が』 from the とき-clause to sound natural: 『テニスをするとき、(私は)帽子をかぶります』. (4) You can also place the main subject at the very start of the sentence: 『私は夫が東京に行くとき、大阪に行きます』. (5) Adjective & noun plain forms before とき: い-adjectives drop です (痛いとき); な-adjectives replace です with な (暇なとき); nouns replace です with の (旅行のとき).",
+      "examples": [
+        {
+          "kanji": "夫が東京に行くとき、私は大阪に行きます。",
+          "kana": "おっとが とうきょうに いくとき、わたしは おおさかに いきます。",
+          "translation": "When my husband goes to Tokyo, I will go to Osaka."
+        },
+        {
+          "kanji": "テニスをするとき、帽子をかぶります。",
+          "kana": "テニスを するとき、ぼうしを かぶります。",
+          "translation": "When I play tennis, I wear a cap."
+        },
+        {
+          "kanji": "頭が痛いとき、薬を飲みます。",
+          "kana": "あたまが いたいとき、くすりを のみます。",
+          "translation": "When my head hurts, I take medicine."
+        },
+        {
+          "kanji": "鈴木さんが暇なとき、遊びましょう！",
+          "kana": "すずきさんが ひまなとき、あそびましょう！",
+          "translation": "When you (Suzuki-san) are free, let's hang out!"
+        },
+        {
+          "kanji": "旅行のとき、いつもお土産を買います。",
+          "kana": "りょこうのとき、いつも おみやげを かいます。",
+          "translation": "When it's a trip / when I travel, I always buy souvenirs."
+        },
+        {
+          "kanji": "質問があるとき、私に聞いてください。",
+          "kana": "しつもんが あるとき、わたしに きいて ください。",
+          "translation": "When you have a question, please ask me."
+        },
+        {
+          "kanji": "寂しいとき、友達に電話します。",
+          "kana": "さびしいとき、ともだちに でんわします。",
+          "translation": "When I feel lonely, I call my friends."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (Dictionary) とき vs. Verb (た-form) とき [Completion & Timeline Nuance]",
+      "explanation": "CRUCIAL DISTINCTION TAUGHT BY TAKASHI: Whether the verb before とき takes the dictionary form (non-past) or the た-form (past) depends entirely on COMPLETION relative to the main clause action—NOT on whether the entire sentence is about the past. (1) Use 『Verb (Dictionary) + とき』 if the action in the とき-clause is NOT yet completed when the main action takes place (actions happening simultaneously, beforehand, or in progress): 『テニスをするとき、帽子をかぶりました』 (I wore a cap while playing tennis; tennis was not finished yet!). (2) Use 『Verb (た-form) + とき』 if the action in the とき-clause WAS ALREADY COMPLETED before the main clause action occurs: 『家に帰ったとき、「ただいま」と言います』 (You say 'I'm home' ONLY AFTER returning home is completed). (3) Famous Quiz Contrast: 『日本に行くとき、このかばんを買いました』 = I bought this bag BEFORE coming to Japan (on the way / before departure). 『日本に行ったとき、このかばんを買いました』 = I bought this bag AFTER arriving in Japan (once already in Japan). (4) For adjectives and nouns describing an ongoing state (e.g. 悲しいとき、音楽を聴きます), keep them non-past because the emotional/physical state is still ongoing while you perform the main action.",
+      "examples": [
+        {
+          "kanji": "テニスをするとき、帽子をかぶりました。",
+          "kana": "テニスを するとき、ぼうしを かぶりま​した。",
+          "translation": "When I played tennis, I wore a cap. (tennis and wearing cap happen together; non-past before とき)"
+        },
+        {
+          "kanji": "家に帰ったとき、「ただいま」と言います。",
+          "kana": "いえに かえったとき、「ただいま」と いいます。",
+          "translation": "When we return home, we say 'I'm home'. (returning home is finished before saying it)"
+        },
+        {
+          "kanji": "日本に行くとき、このかばんを買いました。",
+          "kana": "にほんに いくとき、この かばんを かいました。",
+          "translation": "I bought this bag when I was going to Japan. (bought before arriving in Japan)"
+        },
+        {
+          "kanji": "日本に行ったとき、このかばんを買いました。",
+          "kana": "にほんに いったとき、この かばんを かいました。",
+          "translation": "I bought this bag when I went to Japan. (bought after arriving in Japan)"
+        },
+        {
+          "kanji": "悲しいとき、音楽を聴きます。",
+          "kana": "かなしいとき、おんがくを ききます。",
+          "translation": "When I am sad, I listen to music. (state of being sad is still ongoing)"
+        },
+        {
+          "kanji": "朝起きたとき、窓を開けます。",
+          "kana": "あさ おきたとき、まどを あけます。",
+          "translation": "When I wake up in the morning, I open the window. (waking up happens first)"
+        },
+        {
+          "kanji": "会社へ行くとき、駅で新聞を買います。",
+          "kana": "かいしゃへ いくとき、えきで しんぶんを かいます。",
+          "translation": "When going to the office, I buy a newspaper at the station. (bought on the way)"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (Plain-form Non-past) + と、Sentence 2 [Condition & Inevitable Outcome]",
+      "explanation": "Japanese has four main conditional structures: と (Lesson 23), たら (Lesson 25), なら (Lesson 35), and ば (Lesson 35). In Lesson 23, 『Condition と Outcome』 expresses that if a certain action or condition occurs, another action, situation, or phenomenon will INEVITABLY occur (often translated as 'if' or 'whenever/when'). Typical use cases: (1) Explaining how machines or devices operate: 『このボタンを押すと、水が出ます』. (2) Describing natural phenomena / laws of nature: 『春になると、桜が咲きます』. (3) Describing personal habits or bodily reactions: 『お酒を飲むと、顔が赤くなります』. (4) Giving road and route directions: 『あの交差点を右へ曲がると、郵便局があります』. STRICT GRAMMAR RESTRICTION: The condition before と MUST be plain-form non-past (dictionary form or ない-form). NEVER use polite forms (ます/です) and NEVER use past tense (た-form) before と! Furthermore, the main clause of a と conditional CANNOT express a speaker's request (～てください), invitation (～ましょう), or volition/will.",
+      "examples": [
+        {
+          "kanji": "このボタンを押すと、水が出ます。",
+          "kana": "この ボタンを おすと、みずが でます。",
+          "translation": "If you press this button, water comes out."
+        },
+        {
+          "kanji": "お酒を飲むと、顔が赤くなります。",
+          "kana": "おさけを のむと、かおが あかく なります。",
+          "translation": "If I drink alcohol, my face turns red."
+        },
+        {
+          "kanji": "春になると、桜が咲きます。",
+          "kana": "はるに なると、さくらが さきます。",
+          "translation": "When spring comes, cherry blossoms bloom."
+        },
+        {
+          "kanji": "あの交差点を右へ曲がると、郵便局があります。",
+          "kana": "あの こうさてんを みぎへ まがると、ゆうびんきょくが あります。",
+          "translation": "If you turn right at that intersection, there will be a post office."
+        },
+        {
+          "kanji": "このノブを右へ回すと、音が大きくなります。",
+          "kana": "この ノブを みぎへ まわすと、おとが おおきく なります。",
+          "translation": "If you turn this knob to the right, the volume will increase."
+        },
+        {
+          "kanji": "このボタンを押さないと、お釣りが出ません。",
+          "kana": "この ボタンを おさないと、おつりが でません。",
+          "translation": "If you don't push this button, the change won't come out."
+        },
+        {
+          "kanji": "これを回すと、音が小さくなります。",
+          "kana": "これを まわすと、おとが ちいさく なります。",
+          "translation": "If you turn this, the sound gets quieter."
+        },
+        {
+          "kanji": "このレバーを引くと、椅子が動きます。",
+          "kana": "この レバーを ひくと、いすが うごきます。",
+          "translation": "If you pull this lever, the chair moves."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun (Route / Path) を + Movement Verb [Traversing Space]",
+      "explanation": "The particle 『を』 is commonly known for marking direct objects, but with verbs of motion (歩きます, 渡ります, 曲がります, 散歩します, 走ります), 『を』 marks the SPACE, ROUTE, or POINT passed through, traversed, or turned at. Compare: (1) 『道を歩きます』 = walk ALONG / down the road. (2) 『橋を渡ります』 = cross OVER the bridge. (3) 『交差点を曲がります』 = turn AT the intersection. Direction of the turn takes に or へ (e.g. 『交差点を右へ曲がります』 or 『左に曲がります』).",
+      "examples": [
+        {
+          "kanji": "この道をまっすぐ歩くと、コンビニがあります。",
+          "kana": "この みちを まっすぐ あるくと、コンビニが あります。",
+          "translation": "If you walk straight down this road, there is a convenience store."
+        },
+        {
+          "kanji": "この橋を渡ると、千葉県です。",
+          "kana": "この はしを わたると、ちばけんです。",
+          "translation": "If you cross this bridge, you will be in Chiba Prefecture."
+        },
+        {
+          "kanji": "あの交差点を左に曲がってください。",
+          "kana": "あの こうさてんを ひだりに まがって ください。",
+          "translation": "Please turn left at that intersection."
+        },
+        {
+          "kanji": "毎朝公園を散歩します。",
+          "kana": "まいあさ こうえんを さんぽします。",
+          "translation": "I take a walk through the park every morning."
+        },
+        {
+          "kanji": "前の角を右へ曲がってください。",
+          "kana": "まえの かどを みぎへ まがって ください。",
+          "translation": "Please turn right at the corner ahead."
+        }
+      ]
+    },
+    {
+      "pattern": "～目 (～め) [Ordinal Numbers for Giving Directions]",
+      "explanation": "Adding the suffix 『～目 (～め)』 to a counter converts it into an ordinal number ('the ～th'). When giving directions, Japanese speakers frequently specify checkpoints using ordinals: (1) 『1つ目の信号』 = the first traffic light. (2) 『2つ目の角』 = the second corner. (3) 『3本目の道』 = the third street. (4) Also used for general order: 『1回目』 (first time), 『3日目』 (third day).",
+      "examples": [
+        {
+          "kanji": "2つ目の信号を右へ曲がってください。",
+          "kana": "ふたつめの しんごうを みぎへ まがって ください。",
+          "translation": "Please turn right at the second traffic light."
+        },
+        {
+          "kanji": "1つ目の角を左に曲がると、銀行があります。",
+          "kana": "ひとつめの かどを ひだりに まがると、ぎんこうが あります。",
+          "translation": "If you turn left at the first corner, there is a bank."
+        },
+        {
+          "kanji": "日本へ行くのはこれで3回目です。",
+          "kana": "にほんへ いくのは これで さんかいめです。",
+          "translation": "This is my third time going to Japan."
+        },
+        {
+          "kanji": "旅行の2日目に京都へ行きました。",
+          "kana": "りょこうの ふつかめに きょうとへ いきました。",
+          "translation": "I went to Kyoto on the second day of the trip."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "道案内とホテルの設備の使い方",
+    "lines": [
+      {
+        "speaker": "マルコ",
+        "kanji": "すみません、中央郵便局へ行きたいんですが、道を教えてくださいませんか。",
+        "kana": "すみません、ちゅうおうゆうびんきょくへ いきたいんですが、みちを おしえて くださいませんか。"
+      },
+      {
+        "speaker": "駅員",
+        "kanji": "はい。この道をまっすぐ歩いて、2つ目の信号を右へ曲がってください。",
+        "kana": "はい。この みちを まっすぐ あるいて、ふたつめの しんごうを みぎへ まがって ください。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "2つ目の信号ですね。",
+        "kana": "ふたつめの しんごうですね。"
+      },
+      {
+        "speaker": "駅員",
+        "kanji": "ええ。曲がると、大きな橋があります。その橋を渡ると、左に高い建物が見えますよ。その建物の1階が郵便局です。",
+        "kana": "ええ。まがると、おおきな はしが あります。その はしを わたると、ひだりに たかい たてものが みえますよ。その たてものの いっかいが ゆうびんきょくです。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "わかりました。橋を渡ると、すぐですね。ありがとうございます。",
+        "kana": "わかりました。はしを わたると、すぐですね。ありがとうございます。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "（夕方、ホテルで）すみません、フロントの方、お湯が出ないんですが、どうやって使いますか。",
+        "kana": "（ゆうがた、ホテルで）すみません、フロントのかた、おゆが でないんですが、どうやって つかいますか。"
+      },
+      {
+        "speaker": "フロント",
+        "kanji": "ああ、シャワーですね。この赤いレバーを引くと、お湯が出ますよ。温度を変えたいとき、このノブを左へ回してください。",
+        "kana": "ああ、シャワーですね。この あかい レバーを ひくと、おゆが でますよ。おんどを かえたいとき、この ノブを ひだりへ まわして ください。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "なるほど。レバーを引くと、お湯が出るんですね。もし故障したときは、どうすればいいですか。",
+        "kana": "なるほど。レバーを ひくと、おゆが でるんですね。もし こしょう したときは、どうすれば いいですか。"
+      },
+      {
+        "speaker": "フロント",
+        "kanji": "故障したときは、フロントに電話してください。すぐにスタッフが行きます。",
+        "kana": "こしょう したときは、フロントに でんわして ください。すぐに スタッフが いきます。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "ありがとうございます。日本に来たとき、このホテルを予約してよかったです。",
+        "kana": "ありがとうございます。にほんに きたとき、この ホテルを よやくして よかったです。"
+      }
+    ],
+    "translation": "Marco asks a station attendant for directions to the Central Post Office. The attendant instructs him to walk straight down this road, turn right at the second traffic light, cross a large bridge, and look for a tall building on the left where the post office is on the first floor. Later in the evening at his hotel, Marco asks the front desk clerk how to get hot water for the shower. The clerk explains that hot water comes out when you pull the red lever, and to adjust the temperature you turn the knob to the left. When Marco asks what to do if it breaks down, the clerk advises him to call the front desk and a staff member will come right away. Marco expresses relief that he booked this hotel after arriving in Japan.",
+    "questions": [
+      {
+        "question": "At which checkpoint should Marco turn right to reach the post office?",
+        "options": [
+          "At the first corner",
+          "At the second traffic light",
+          "Immediately before the bridge",
+          "At the hotel parking lot"
+        ],
+        "answer": 1,
+        "explanation": "The station attendant instructed: 『2つ目の信号を右へ曲がってください』 (turn right at the second traffic light)."
+      },
+      {
+        "question": "What happens after crossing the large bridge?",
+        "options": [
+          "You enter Chiba Prefecture immediately",
+          "A tall building with the post office on the first floor is visible on the left",
+          "You must take bus number 16",
+          "There is a broken elevator"
+        ],
+        "answer": 1,
+        "explanation": "『その橋を渡ると、左に高い建物が見えますよ。その建物の1階が郵便局です』."
+      },
+      {
+        "question": "How does hot water come out from the hotel shower?",
+        "options": [
+          "By pressing the blue button",
+          "By pulling the red lever",
+          "By inserting a 100-yen coin",
+          "By calling the front desk first"
+        ],
+        "answer": 1,
+        "explanation": "The hotel clerk explains: 『この赤いレバーを引くと、お湯が出ますよ』."
+      },
+      {
+        "question": "What should Marco do if he wants to adjust the water temperature?",
+        "options": [
+          "Turn the knob to the left",
+          "Push the lever up",
+          "Change the remote batteries",
+          "Wait for 30 minutes"
+        ],
+        "answer": 0,
+        "explanation": "『温度を変えたいとき、このノブを左へ回してください』."
+      },
+      {
+        "question": "Why does the hotel clerk use 『故障したときは』 with past tense した?",
+        "options": [
+          "Because the shower has already broken down yesterday",
+          "Because calling the front desk happens after the breakdown has already occurred (completion)",
+          "Because adjectives require past tense",
+          "Because と conditionals never use present tense"
+        ],
+        "answer": 1,
+        "explanation": "As Takashi taught, when the condition in the とき-clause is completed before the main action occurs, the た-form is used (after it has broken down, you call)."
+      },
+      {
+        "question": "In 『橋を渡ると、左に高い建物が見えます』, what does と indicate?",
+        "options": [
+          "Connecting two nouns (bridge and building)",
+          "An inevitable spatial outcome / consequence of crossing the bridge",
+          "A polite request to the listener",
+          "A past completed habit"
+        ],
+        "answer": 1,
+        "explanation": "The conditional と describes an inevitable result: crossing the bridge naturally brings the building into view."
+      },
+      {
+        "question": "What does Marco's closing sentence 『日本に来たとき、このホテルを予約してよかったです』 imply?",
+        "options": [
+          "He booked the hotel before departing from his home country",
+          "He booked the hotel after he had already arrived in Japan",
+          "He has never been to Japan before",
+          "He could not book a hotel in Japan"
+        ],
+        "answer": 1,
+        "explanation": "Because 来た is in the た-form before とき, the action of coming to Japan was completed before he booked the hotel (he booked it after arriving in Japan)."
+      },
+      {
+        "question": "Which particle correctly marks the path traversed in 『この道をまっすぐ歩いて』?",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "へ"
+        ],
+        "answer": 0,
+        "explanation": "Motion verbs like 歩く, 渡る, and 曲がる take を to mark the road or space passed through."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct meaning of 橋を渡ります.",
+      "prompt": {
+        "kanji": "この橋を渡ると、千葉県です。",
+        "kana": "この はしを わたると、ちばけんです。"
+      },
+      "options": [
+        "If you build this bridge",
+        "If you cross this bridge",
+        "If you turn at this bridge",
+        "If you break this bridge"
+      ],
+      "answer": 1,
+      "explanation": "橋 (はし) = bridge; 渡ります (わたります) = to cross."
+    },
+    {
+      "question": "Choose the correct form to say: 'When my head hurts, I take medicine.'",
+      "prompt": {
+        "kanji": "頭が___とき、薬を飲みます。",
+        "kana": "あたまが ___とき、くすりを のみます。"
+      },
+      "options": [
+        "痛い",
+        "痛くて",
+        "痛いだ",
+        "痛いな"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives directly modify とき in their plain non-past form by dropping です: 痛いとき."
+    },
+    {
+      "question": "Choose the correct connector for a な-adjective before とき: 'When Suzuki-san is free, let's hang out!'",
+      "prompt": {
+        "kanji": "鈴木さんが暇___とき、遊びましょう！",
+        "kana": "すずきさんが ひま___とき、あそびましょう！"
+      },
+      "options": [
+        "な",
+        "の",
+        "だ",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains, な-adjectives change だ/です to な when modifying とき: 暇なとき."
+    },
+    {
+      "question": "Choose the correct connector for a noun before とき: 'When it's a trip (when traveling), I always buy souvenirs.'",
+      "prompt": {
+        "kanji": "旅行___とき、いつもお土産を買います。",
+        "kana": "りょこう___とき、いつも おみやげを かいます。"
+      },
+      "options": [
+        "の",
+        "な",
+        "だ",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Nouns must take の to modify とき: 旅行のとき (literally 'at the time of a trip')."
+    },
+    {
+      "question": "You bought a bag BEFORE arriving in Japan (prior to departure). Which sentence is correct?",
+      "options": [
+        "日本に行くとき、このかばんを買いました。",
+        "日本に行ったとき、このかばんを買いました。",
+        "日本に行ってとき、このかばんを買いました。",
+        "日本に行くと、このかばんを買いました。"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's timeline rule: If the action in the とき-clause was NOT completed when the purchase happened, use the dictionary form (行くとき)."
+    },
+    {
+      "question": "You bought a bag AFTER arriving in Japan. Which sentence is correct?",
+      "options": [
+        "日本に行ったとき、このかばんを買いました。",
+        "日本に行くとき、このかばんを買いました。",
+        "日本に行っているとき、このかばんを買いました。",
+        "日本に行くと、このかばんを買いました。"
+      ],
+      "answer": 0,
+      "explanation": "If the action of going to Japan was already completed before buying the bag, use the た-form (行ったとき)."
+    },
+    {
+      "question": "Choose the correct form: 'When we return home, we say \"Tadaima\" (I'm home).'",
+      "prompt": {
+        "kanji": "家に___とき、「ただいま」と言います。",
+        "kana": "いえに ___とき、「ただいま」と いいます。"
+      },
+      "options": [
+        "帰った",
+        "帰る",
+        "帰って",
+        "帰ります"
+      ],
+      "answer": 0,
+      "explanation": "You only say 'Tadaima' AFTER you have arrived/returned home. Because returning is completed first, use the た-form: 帰ったとき."
+    },
+    {
+      "question": "Choose the correct particle for the subject inside the とき clause: 'When my husband goes to Tokyo, I will go to Osaka.'",
+      "prompt": {
+        "kanji": "夫___東京に行くとき、私は大阪に行きます。",
+        "kana": "おっと___ とうきょうに いくとき、わたしは おおさかに いきます。"
+      },
+      "options": [
+        "が",
+        "は",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "The subject of a subordinate modifying clause (like a とき-clause) is marked with が, not は."
+    },
+    {
+      "question": "Choose the natural sentence when both clauses share the subject 'I' (私).",
+      "options": [
+        "テニスをするとき、帽子をかぶります。",
+        "私がテニスをするとき、私は帽子をかぶります。",
+        "私はテニスをするときは、帽子をかぶります。",
+        "テニスをするのとき、帽子をかぶります。"
+      ],
+      "answer": 0,
+      "explanation": "When the subject of both clauses is 'I', omit 私が from the とき-clause to avoid unnatural redundancy."
+    },
+    {
+      "question": "Choose the correct verb form before と: 'If you turn this knob to the right, the volume will increase.'",
+      "prompt": {
+        "kanji": "このノブを右へ___と、音が大きくなります。",
+        "kana": "この ノブを みぎへ ___と、おとが おおきく なります。"
+      },
+      "options": [
+        "回す",
+        "回します",
+        "回した",
+        "回して"
+      ],
+      "answer": 0,
+      "explanation": "The condition clause before と MUST be in plain-form non-past (dictionary form: 回す). Never polite, never past."
+    },
+    {
+      "question": "Choose the negative plain form before と: 'If you don't push this button, the change won't come out.'",
+      "prompt": {
+        "kanji": "このボタンを___と、お釣りが出ません。",
+        "kana": "この ボタンを ___と、おつりが でません。"
+      },
+      "options": [
+        "押さない",
+        "押しません",
+        "押さなかった",
+        "押して"
+      ],
+      "answer": 0,
+      "explanation": "Negative conditions before と take the plain negative non-past (ない-form): 押さないと."
+    },
+    {
+      "question": "Choose the correct sentence to express an inevitable natural phenomenon.",
+      "options": [
+        "春になると、桜が咲きます。",
+        "春になりましたと、桜が咲きます。",
+        "春になりますと、桜が咲きます。",
+        "春になるたら、桜が咲きます。"
+      ],
+      "answer": 0,
+      "explanation": "Natural phenomena use 『Verb (dict) + と』: 春になると、桜が咲きます."
+    },
+    {
+      "question": "Which of the following CANNOT be used in the main clause of a と conditional?",
+      "options": [
+        "A request like 『～てください』 or volition like 『～ましょう』",
+        "A statement of fact like 『郵便局があります』",
+        "An automatic result like 『お湯が出ます』",
+        "A physical reaction like 『顔が赤くなります』"
+      ],
+      "answer": 0,
+      "explanation": "The main clause after と cannot express requests, commands, invitations, or volition. Use ～たら (Lesson 25) for requests."
+    },
+    {
+      "question": "Choose the correct particle for the path turned at: 'Please turn left at that intersection.'",
+      "prompt": {
+        "kanji": "あの交差点___左に曲がってください。",
+        "kana": "あの こうさてん___ ひだりに まがって ください。"
+      },
+      "options": [
+        "を",
+        "で",
+        "に",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Motion verbs like 曲がる, 渡る, and 歩く take を to indicate the location/route traversed or turned at."
+    },
+    {
+      "question": "Choose the correct phrase meaning 'at the second traffic light'.",
+      "prompt": {
+        "kanji": "___を右へ曲がってください。",
+        "kana": "___を みぎへ まがって ください。"
+      },
+      "options": [
+        "2つ目の信号",
+        "2番目の道",
+        "2目の交差点",
+        "2つの信号目"
+      ],
+      "answer": 0,
+      "explanation": "Counter + 目 (め) creates ordinals: 2つ目 (ふたつめ) の信号 = the second traffic light."
+    },
+    {
+      "question": "Choose the correct meaning of 故障 (こしょう).",
+      "prompt": {
+        "kanji": "このエレベーターは故障しています。",
+        "kana": "この エレベーターは こしょう して います。"
+      },
+      "options": [
+        "is out of order / broken down",
+        "is moving fast",
+        "is clean and quiet",
+        "is under construction"
+      ],
+      "answer": 0,
+      "explanation": "故障 (こしょう) = breakdown; 故障しています = is out of order."
+    },
+    {
+      "question": "Choose the correct sentence meaning: 'When I feel lonely, I call my friends.'",
+      "options": [
+        "寂しいとき、友達に電話します。",
+        "寂しいなとき、友達に電話します。",
+        "寂しいのとき、友達に電話します。",
+        "寂しいと、友達に電話してください。"
+      ],
+      "answer": 0,
+      "explanation": "寂しい is an い-adjective: 寂しいとき (directly attaches to とき)."
+    },
+    {
+      "question": "Why is 悲しいとき in non-past form in 『悲しいとき、音楽を聴きます』?",
+      "options": [
+        "Because the emotional state of being sad is still ongoing while listening to music",
+        "Because adjectives can never be used in past tense",
+        "Because listening to music made you sad",
+        "Because とき always forbids past tense"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains, you are still sad while listening to music (the state is not completed), so it stays non-past: 悲しいとき."
+    },
+    {
+      "question": "Choose the correct verb: 'If you pull this lever, the chair moves.'",
+      "prompt": {
+        "kanji": "このレバーを___と、椅子が動きます。",
+        "kana": "この レバーを ___と、いすが うごきます。"
+      },
+      "options": [
+        "引く",
+        "回す",
+        "押す",
+        "触る"
+      ],
+      "answer": 0,
+      "explanation": "引く (ひく) = to pull; このレバーを引くと (If you pull this lever)."
+    },
+    {
+      "question": "Choose the correct verb: 'I need to change the remote's batteries.'",
+      "prompt": {
+        "kanji": "リモコンの電池を___なければなりません。",
+        "kana": "リモコンの でんちを ___なければ なりません。"
+      },
+      "options": [
+        "変え",
+        "引き",
+        "回し",
+        "渡り"
+      ],
+      "answer": 0,
+      "explanation": "変えます (Group 2, dict: 変える) = to change. ない-form without ない is 変え: 変えなければなりません."
+    },
+    {
+      "question": "Choose the correct meaning of 何回も (なんかいも).",
+      "prompt": {
+        "kanji": "日本に何回も行ったことがあります。",
+        "kana": "にほんに なんかいも いった ことが あります。"
+      },
+      "options": [
+        "many times",
+        "how many times",
+        "never",
+        "only once"
+      ],
+      "answer": 0,
+      "explanation": "何回も (なんかいも) means 'many times / repeatedly'."
+    },
+    {
+      "question": "Choose the correct verb: 'Don't touch me.'",
+      "prompt": {
+        "kanji": "私に___でください。",
+        "kana": "わたしに ___で ください。"
+      },
+      "options": [
+        "触らない",
+        "聞かない",
+        "歩かない",
+        "曲がらない"
+      ],
+      "answer": 0,
+      "explanation": "触ります (さわります) = to touch. Negative request: 触らないでください (Don't touch me)."
+    },
+    {
+      "question": "Choose the correct phrase for 'the traffic light has turned green (blue)'.",
+      "options": [
+        "信号が青くなりました。",
+        "信号が青いになりました。",
+        "交差点が青くなりました。",
+        "道が青くなりました。"
+      ],
+      "answer": 0,
+      "explanation": "信号が青くなりました (In Japanese, traffic lights are described as 青い/あおい)."
+    },
+    {
+      "question": "Choose the correct particle: 'If you walk straight down this road...'",
+      "prompt": {
+        "kanji": "この道___まっすぐ歩くと、コンビニがあります。",
+        "kana": "この みち___ まっすぐ あるくと、コンビニが あります。"
+      },
+      "options": [
+        "を",
+        "で",
+        "に",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The path traversed takes を: この道をまっすぐ歩くと."
+    },
+    {
+      "question": "Choose the correct sentence: 'When you have a question, please ask me.'",
+      "options": [
+        "質問があるとき、私に聞いてください。",
+        "質問があると、私に聞いてください。",
+        "質問があったとき、私に聞きます。",
+        "質問があるのとき、私に聞いてください。"
+      ],
+      "answer": 0,
+      "explanation": "With とき, requests (～てください) in the main clause are completely natural: 質問があるとき、私に聞いてください."
+    },
+    {
+      "question": "Which sentence correctly expresses: 'When I played tennis, I wore a cap'?",
+      "options": [
+        "テニスをするとき、帽子をかぶりました。",
+        "テニスをしたとき、帽子をかぶります。",
+        "テニスをするとき、帽子をかぶるでした。",
+        "テニスをするのとき、帽子をかぶりました。"
+      ],
+      "answer": 0,
+      "explanation": "The main clause verb carries the past tense (かぶりました), while the とき clause stays non-past (するとき) because playing tennis was not finished before wearing the cap."
+    },
+    {
+      "question": "Which sentence means: 'If I drink alcohol, my face turns red'?",
+      "options": [
+        "お酒を飲むと、顔が赤くなります。",
+        "お酒を飲んだと、顔が赤くなりました。",
+        "お酒を飲むとき、顔を赤いです。",
+        "お酒を飲みますと、顔が赤くなります。"
+      ],
+      "answer": 0,
+      "explanation": "Personal bodily habit/inevitable reaction uses 『Verb (dict) + と』: お酒を飲むと、顔が赤くなります."
+    },
+    {
+      "question": "Choose the correct verb form: 'Please turn left at that corner.'",
+      "prompt": {
+        "kanji": "あの角を左に___ください。",
+        "kana": "あの かどを ひだりに ___ ください。"
+      },
+      "options": [
+        "曲がって",
+        "曲がりて",
+        "曲いで",
+        "曲がってから"
+      ],
+      "answer": 0,
+      "explanation": "曲がります is a Group 1 verb (り → って): 曲がってください."
+    },
+    {
+      "question": "What is the counter for ordinals in '1st time' and '3rd day'?",
+      "options": [
+        "～目 (～め)",
+        "～番 (～ばん)",
+        "～回 (～かい)",
+        "～度 (～ど)"
+      ],
+      "answer": 0,
+      "explanation": "～目 (め) turns counters into ordinals: 1回目 (first time), 3日目 (third day)."
+    },
+    {
+      "question": "What does 音 (おと) mean in 『音が小さくなります』?",
+      "options": [
+        "sound / volume",
+        "hot water",
+        "light",
+        "speed"
+      ],
+      "answer": 0,
+      "explanation": "音 (おと) = sound / noise. 音が小さくなります = the sound gets quieter."
+    },
+    {
+      "question": "Choose the correct sentence: 'What is that white building?'",
+      "options": [
+        "あの白い建物は何ですか？",
+        "あの白い駐車場は何ですか？",
+        "あの白い交差点は何ですか？",
+        "あの白い信号は何ですか？"
+      ],
+      "answer": 0,
+      "explanation": "建物 (たてもの) = building."
+    },
+    {
+      "question": "Choose the correct sentence: 'There is a parking lot behind the building.'",
+      "options": [
+        "建物のろに駐車場があります。",
+        "建物の前に橋があります。",
+        "建物の角に音があります。",
+        "建物の後ろにサイズがあります。"
+      ],
+      "answer": 0,
+      "explanation": "駐車場 (ちゅうしゃじょう) = parking lot."
+    },
+    {
+      "question": "Which verb means 'to cross' in 『橋を___』?",
+      "options": [
+        "渡ります",
+        "曲がります",
+        "歩きます",
+        "出ます"
+      ],
+      "answer": 0,
+      "explanation": "渡ります (わたります) = to cross."
+    },
+    {
+      "question": "Which verb means 'to come out' in 『お湯が___』?",
+      "options": [
+        "出ます",
+        "入ります",
+        "引きます",
+        "変えます"
+      ],
+      "answer": 0,
+      "explanation": "出ます (でます) = to come out."
+    },
+    {
+      "question": "Choose the correct form: 'When I don't understand, I ask the teacher.'",
+      "prompt": {
+        "kanji": "___とき、先生に聞きます。",
+        "kana": "___とき、せんせいに ききます。"
+      },
+      "options": [
+        "わからない",
+        "わかりません",
+        "わからなかった",
+        "わかるない"
+      ],
+      "answer": 0,
+      "explanation": "Plain negative non-past (ない-form) before とき: わからないとき."
+    },
+    {
+      "question": "Choose the correct meaning of 『道が混んでいます』.",
+      "options": [
+        "The road is crowded / heavy traffic",
+        "The road is empty",
+        "The road is broken",
+        "The road is wide"
+      ],
+      "answer": 0,
+      "explanation": "道が混んでいます (みちが こんでいます) = the road is crowded / traffic is heavy."
+    },
+    {
+      "question": "Choose the correct particle: 'Turn right AT the corner, and head TOWARDS the station.'",
+      "prompt": {
+        "kanji": "角___右へ曲がります。",
+        "kana": "かど___ みぎへ まがります。"
+      },
+      "options": [
+        "を",
+        "で",
+        "に",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The corner turned at is marked by を: 角を曲がります."
+    },
+    {
+      "question": "Which expression means 'straight' in giving directions?",
+      "options": [
+        "まっすぐ",
+        "ゆっくり",
+        "たくさん",
+        "だんだん"
+      ],
+      "answer": 0,
+      "explanation": "まっすぐ = straight (ahead)."
+    },
+    {
+      "question": "Choose the correct phrase: 'Please tell me the way to Tokyo Station.'",
+      "options": [
+        "東京駅への道を教えてください。",
+        "東京駅への信号を教えてください。",
+        "東京駅への橋を教えてください。",
+        "東京駅への角を教えてください。"
+      ],
+      "answer": 0,
+      "explanation": "道 (みち) = way, road, route. 東京駅への道 = the way to Tokyo Station."
+    },
+    {
+      "question": "Choose the sentence with the INCORRECT conditional form before と.",
+      "options": [
+        "このボタンを押しますと、お湯が出ます。",
+        "このボタンを押すと、お湯が出ます。",
+        "このノブを回すと、音が大きくなります。",
+        "あの交差点を曲がると、銀行があります。"
+      ],
+      "answer": 0,
+      "explanation": "Before conditional と, verbs must be in plain form (押すと), never polite form (押しますと is formal/pedantic and grammatically inappropriate for beginner patterns)."
+    },
+    {
+      "question": "Choose the correct word: 'change (money returned) won't come out.'",
+      "prompt": {
+        "kanji": "___が出ません。",
+        "kana": "___が でません。"
+      },
+      "options": [
+        "お釣り",
+        "お湯",
+        "お茶",
+        "お酒"
+      ],
+      "answer": 0,
+      "explanation": "お釣り (おつり) = change (money returned from a vending or ticket machine)."
+    },
+    {
+      "question": "What is the dictionary form of 曲がります?",
+      "options": [
+        "曲がる",
+        "曲げる",
+        "曲ぐ",
+        "曲ぎる"
+      ],
+      "answer": 0,
+      "explanation": "曲がります is a Group 1 verb ending in -る: 曲がる (まがる)."
+    },
+    {
+      "question": "What is the dictionary form of 変えます?",
+      "options": [
+        "変える",
+        "変る",
+        "変かす",
+        "変く"
+      ],
+      "answer": 0,
+      "explanation": "変えます is a Group 2 verb (e-sound before ます): 変える (かえる)."
+    },
+    {
+      "question": "What is the dictionary form of 聞きます?",
+      "options": [
+        "聞く",
+        "聞こえる",
+        "聞きる",
+        "聞かす"
+      ],
+      "answer": 0,
+      "explanation": "聞きます is a Group 1 verb ending in -く: 聞く (きく)."
+    },
+    {
+      "question": "What is the dictionary form of 出ます?",
+      "options": [
+        "出る",
+        "出す",
+        "出れる",
+        "出かす"
+      ],
+      "answer": 0,
+      "explanation": "出ます is a Group 2 verb: 出る (でる). (Note: 出す is transitive 'to take out')."
+    }
+  ],
+  "writing": {
+    "title": "Directions, Daily Habits, and Operating Equipment",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 23 concepts: (1) Describe what you do when you are free, when your head hurts, or when you travel using 『～とき』 with an adjective or noun. (2) Explain an action where timing matters using 『Verb (Dictionary) + とき』 or 『Verb (た-form) + とき』 (e.g. buying something before/after arriving, greeting when returning home). (3) Explain how a device or machine works using 『Verb (Plain Non-past) + と』 (e.g. pressing a button, pulling a lever, turning a knob). (4) Give step-by-step directions from a station or bus stop to a nearby building using motion verbs with 『を』 (道をまっすぐ歩く, 信号を曲がる, 橋を渡る) and ordinals with 『～目』.",
+    "placeholder": "暇なとき、よく ______ をします。\n日本へ ______ とき、______ を買いました。\nこのボタンを押すと、______ が出ます。\n駅からこの道をまっすぐ歩いて、______ つ目の信号を ______ へ曲がってください。\nその橋を渡ると、______ に ______ があります。",
+    "modelAnswer": "暇なとき、よく友達に電話したり、音楽を聴いたりします。頭が痛いとき、薬を飲んですぐに寝ます。日本へ行くとき、空港で新しいかばんを買いました。そして、家に帰ったとき、いつも家族に「ただいま」と言います。私の部屋のエアコンはこのボタンを押すと、冷たい風が出ます。私の家へ行く道を教えます。駅からこの道をまっすぐ歩いて、2つ目の交差点を右へ曲がってください。大きな橋を渡ると、左に白い建物があります。その建物の隣が私の家です。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "When my husband goes to Tokyo, I will go to Osaka.",
+        "chunks": [
+          "夫が",
+          "東京に行くとき、",
+          "私は",
+          "大阪に行きます。"
+        ]
+      },
+      {
+        "en": "When I play tennis, I wear a cap.",
+        "chunks": [
+          "テニスをするとき、",
+          "私は",
+          "帽子を",
+          "かぶります。"
+        ]
+      },
+      {
+        "en": "When my head hurts, I take medicine.",
+        "chunks": [
+          "頭が痛いとき、",
+          "薬を",
+          "飲みます。"
+        ]
+      },
+      {
+        "en": "When Suzuki-san is free, let's hang out!",
+        "chunks": [
+          "鈴木さんが",
+          "暇なとき、",
+          "遊びましょう！"
+        ]
+      },
+      {
+        "en": "When on a trip, I always buy souvenirs.",
+        "chunks": [
+          "旅行のとき、",
+          "いつも",
+          "お土産を",
+          "買います。"
+        ]
+      },
+      {
+        "en": "When we return home, we say 'I'm home'.",
+        "chunks": [
+          "家に帰ったとき、",
+          "「ただいま」と",
+          "言います。"
+        ]
+      },
+      {
+        "en": "When I am sad, I listen to music.",
+        "chunks": [
+          "悲しいとき、",
+          "音楽を",
+          "聴きます。"
+        ]
+      },
+      {
+        "en": "I bought this bag before going to Japan.",
+        "chunks": [
+          "日本に行くとき、",
+          "このかばんを",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "I bought this bag after I went to Japan.",
+        "chunks": [
+          "日本に行ったとき、",
+          "このかばんを",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "If you press this button, water comes out.",
+        "chunks": [
+          "このボタンを押すと、",
+          "水が",
+          "出ます。"
+        ]
+      },
+      {
+        "en": "If I drink alcohol, my face turns red.",
+        "chunks": [
+          "お酒を飲むと、",
+          "顔が",
+          "赤くなります。"
+        ]
+      },
+      {
+        "en": "When spring comes, cherry blossoms bloom.",
+        "chunks": [
+          "春になると、",
+          "桜が",
+          "咲きます。"
+        ]
+      },
+      {
+        "en": "If you turn right at that intersection, there is a post office.",
+        "chunks": [
+          "あの交差点を",
+          "右へ曲がると、",
+          "郵便局が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "If you turn this knob to the right, the sound gets louder.",
+        "chunks": [
+          "このノブを",
+          "右へ回すと、",
+          "音が",
+          "大きくなります。"
+        ]
+      },
+      {
+        "en": "If you don't push this button, the change won't come out.",
+        "chunks": [
+          "このボタンを",
+          "押さないと、",
+          "お釣りが",
+          "出ません。"
+        ]
+      },
+      {
+        "en": "If you walk straight down this road, there is a convenience store.",
+        "chunks": [
+          "この道を",
+          "まっすぐ歩くと、",
+          "コンビニが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "If you cross this bridge, you will be in Chiba Prefecture.",
+        "chunks": [
+          "この橋を渡ると、",
+          "千葉県",
+          "です。"
+        ]
+      },
+      {
+        "en": "Please turn right at the second traffic light.",
+        "chunks": [
+          "2つ目の信号を",
+          "右へ",
+          "曲がってください。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "行きます (いきます) [before completion / prior to arrival]",
+        "form": "とき-modifier",
+        "answer": "いくとき",
+        "options": [
+          "いくとき",
+          "いったとき",
+          "いってとき"
+        ],
+        "hint": "Dictionary form: 行く + とき"
+      },
+      {
+        "prompt": "行きます (いきます) [after completion / after arrival]",
+        "form": "とき-modifier",
+        "answer": "いったとき",
+        "options": [
+          "いったとき",
+          "いくとき",
+          "いきしたとき"
+        ],
+        "hint": "た-form: 行った + とき"
+      },
+      {
+        "prompt": "帰ります (かえります) [after arriving home]",
+        "form": "とき-modifier",
+        "answer": "かえったとき",
+        "options": [
+          "かえったとき",
+          "かえるとき",
+          "かえりたとき"
+        ],
+        "hint": "Group 1: 帰った + とき"
+      },
+      {
+        "prompt": "します (テニスをします) [during / while playing]",
+        "form": "とき-modifier",
+        "answer": "するとき",
+        "options": [
+          "するとき",
+          "したとき",
+          "してとき"
+        ],
+        "hint": "Action is ongoing/simultaneous: する + とき"
+      },
+      {
+        "prompt": "起きます (おきます) [after waking up]",
+        "form": "とき-modifier",
+        "answer": "おきたとき",
+        "options": [
+          "おきたとき",
+          "おきるとき",
+          "おきったとき"
+        ],
+        "hint": "Waking up is completed first: 起きた + とき"
+      },
+      {
+        "prompt": "痛い (いたい)",
+        "form": "とき-modifier",
+        "answer": "いたいとき",
+        "options": [
+          "いたいとき",
+          "いたくてとき",
+          "いたいなとき"
+        ],
+        "hint": "い-adjective: drop です, keep い"
+      },
+      {
+        "prompt": "寂しい (さびしい)",
+        "form": "とき-modifier",
+        "answer": "さびしいとき",
+        "options": [
+          "さびしいとき",
+          "さびしかったとき",
+          "さびしいのとき"
+        ],
+        "hint": "State is ongoing: 寂しい + とき"
+      },
+      {
+        "prompt": "悲しい (かなしい)",
+        "form": "とき-modifier",
+        "answer": "かなしいとき",
+        "options": [
+          "かなしいとき",
+          "かなしかったとき",
+          "かなしいなとき"
+        ],
+        "hint": "い-adjective non-past: 悲しい + とき"
+      },
+      {
+        "prompt": "暇です (ひまです)",
+        "form": "とき-modifier",
+        "answer": "ひまなとき",
+        "options": [
+          "ひまなとき",
+          "ひまのとき",
+          "ひまだとき"
+        ],
+        "hint": "な-adjective: replaces です with な"
+      },
+      {
+        "prompt": "元気です (げんきです)",
+        "form": "とき-modifier",
+        "answer": "げんきなとき",
+        "options": [
+          "げんきなとき",
+          "げんきのとき",
+          "げんきだとき"
+        ],
+        "hint": "な-adjective: add な before とき"
+      },
+      {
+        "prompt": "旅行です (りょこうです)",
+        "form": "とき-modifier",
+        "answer": "りょこうのとき",
+        "options": [
+          "りょこうのとき",
+          "りょこうなとき",
+          "りょこうだとき"
+        ],
+        "hint": "Noun: replaces です with の"
+      },
+      {
+        "prompt": "病気です (びょうきです)",
+        "form": "とき-modifier",
+        "answer": "びょうきのとき",
+        "options": [
+          "びょうきのとき",
+          "びょうきなとき",
+          "びょうきだとき"
+        ],
+        "hint": "Noun: add の before とき"
+      },
+      {
+        "prompt": "子供です (こどもです)",
+        "form": "とき-modifier",
+        "answer": "こどものとき",
+        "options": [
+          "こどものとき",
+          "こどもなとき",
+          "こどもだったとき"
+        ],
+        "hint": "Noun: 子供の + とき"
+      },
+      {
+        "prompt": "押します (おします)",
+        "form": "と-conditional",
+        "answer": "おすと",
+        "options": [
+          "おすと",
+          "おしたと",
+          "おしますと"
+        ],
+        "hint": "Verb dictionary form + と"
+      },
+      {
+        "prompt": "押しません (おしません)",
+        "form": "と-conditional",
+        "answer": "おさないと",
+        "options": [
+          "おさないと",
+          "おしないと",
+          "おさなかったと"
+        ],
+        "hint": "Verb plain negative (ない-form) + と"
+      },
+      {
+        "prompt": "回します (まわします)",
+        "form": "と-conditional",
+        "answer": "まわすと",
+        "options": [
+          "まわすと",
+          "まわしたと",
+          "まわしてと"
+        ],
+        "hint": "Group 1: 回す + と"
+      },
+      {
+        "prompt": "引きます (ひきます)",
+        "form": "と-conditional",
+        "answer": "ひくと",
+        "options": [
+          "ひくと",
+          "ひいたと",
+          "ひきると"
+        ],
+        "hint": "Group 1: 引く + と"
+      },
+      {
+        "prompt": "曲がります (まがります)",
+        "form": "と-conditional",
+        "answer": "まがると",
+        "options": [
+          "まがると",
+          "まがったと",
+          "まがりると"
+        ],
+        "hint": "Group 1: 曲がる + と"
+      },
+      {
+        "prompt": "渡ります (わたります)",
+        "form": "と-conditional",
+        "answer": "わたると",
+        "options": [
+          "わたると",
+          "わたったと",
+          "わたりると"
+        ],
+        "hint": "Group 1: 渡る + と"
+      },
+      {
+        "prompt": "歩きます (あるきます)",
+        "form": "と-conditional",
+        "answer": "あるくと",
+        "options": [
+          "あるくと",
+          "あるいたと",
+          "あるきてと"
+        ],
+        "hint": "Group 1: 歩く + と"
+      },
+      {
+        "prompt": "飲みます (のみます)",
+        "form": "と-conditional",
+        "answer": "のむと",
+        "options": [
+          "のむと",
+          "のんだと",
+          "のみてと"
+        ],
+        "hint": "Group 1: 飲む + と"
+      },
+      {
+        "prompt": "なります (春になります)",
+        "form": "と-conditional",
+        "answer": "なると",
+        "options": [
+          "なると",
+          "なったと",
+          "なりると"
+        ],
+        "hint": "Group 1: なる + と"
+      },
+      {
+        "prompt": "変えます (かえます)",
+        "form": "Dictionary form",
+        "answer": "かえる",
+        "options": [
+          "かえる",
+          "かうる",
+          "かやす"
+        ],
+        "hint": "Group 2 verb: drop ます, add る"
+      },
+      {
+        "prompt": "出ます (でます)",
+        "form": "Dictionary form",
+        "answer": "でる",
+        "options": [
+          "でる",
+          "だす",
+          "でてる"
+        ],
+        "hint": "Group 2 verb: 出る"
+      },
+      {
+        "prompt": "触ります (さわります)",
+        "form": "Negative form (ない-form)",
+        "answer": "さわらない",
+        "options": [
+          "さわらない",
+          "さわりない",
+          "さわれない"
+        ],
+        "hint": "Group 1: -り changes to -ら + ない"
+      },
+      {
+        "prompt": "故障します (こしょうします)",
+        "form": "た-form",
+        "answer": "こしょうした",
+        "options": [
+          "こしょうした",
+          "こしょうしたた",
+          "こしょうして"
+        ],
+        "hint": "Group 3: します → した"
+      },
+      {
+        "prompt": "動きます (うごきます)",
+        "form": "Negative form (ない-form)",
+        "answer": "うごかない",
+        "options": [
+          "うごかない",
+          "うごきない",
+          "うごくたい"
+        ],
+        "hint": "Group 1: -き changes to -か + ない"
+      },
+      {
+        "prompt": "聞きます (ききます)",
+        "form": "て-form",
+        "answer": "きいて",
+        "options": [
+          "きいて",
+          "きって",
+          "きして"
+        ],
+        "hint": "Group 1: -き changes to -いて"
+      },
+      {
+        "prompt": "曲がります (まがります)",
+        "form": "て-form",
+        "answer": "まがって",
+        "options": [
+          "まがって",
+          "まがりて",
+          "まがいで"
+        ],
+        "hint": "Group 1: -り changes to -って"
+      },
+      {
+        "prompt": "渡ります (わたります)",
+        "form": "て-form",
+        "answer": "わたって",
+        "options": [
+          "わたって",
+          "わたりて",
+          "わたいで"
+        ],
+        "hint": "Group 1: -り changes to -って"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "夫 [ ? ] 東京に行くとき、私は大阪に行きます。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "The subject of a subordinate modifying clause takes が."
+      },
+      {
+        "sentence": "この道 [ ? ] まっすぐ歩くと、コンビニがあります。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "へ"
+        ],
+        "hint": "Movement along a road or path takes particle を."
+      },
+      {
+        "sentence": "この橋 [ ? ] 渡ると、千葉県です。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "から"
+        ],
+        "hint": "Crossing over a bridge uses movement particle を."
+      },
+      {
+        "sentence": "あの交差点 [ ? ] 左に曲がってください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "へ"
+        ],
+        "hint": "Turning at an intersection uses particle を."
+      },
+      {
+        "sentence": "交差点を左 [ ? ] 曲がります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Direction of turning takes に or へ (左に / 左へ)."
+      },
+      {
+        "sentence": "交差点を右 [ ? ] 曲がると、郵便局があります。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Direction of motion takes へ or に."
+      },
+      {
+        "sentence": "このボタンを押す [ ? ]、水が出ます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "が",
+          "に"
+        ],
+        "hint": "Mechanical cause and inevitable outcome uses と."
+      },
+      {
+        "sentence": "春に成る [ ? ]、桜が咲きます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "ば",
+          "で",
+          "を"
+        ],
+        "hint": "Natural phenomena conditionals use と."
+      },
+      {
+        "sentence": "私 [ ? ] 触らないでください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "と"
+        ],
+        "hint": "触ります takes に (the object touched)."
+      },
+      {
+        "sentence": "先生 [ ? ] 聞いてください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "The person you ask takes particle に: 先生に聞きます."
+      },
+      {
+        "sentence": "レバーを引く [ ? ]、椅子が動きます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "が",
+          "で"
+        ],
+        "hint": "Physical mechanism conditional uses と."
+      },
+      {
+        "sentence": "ボタンを押さない [ ? ]、お釣りが出ません。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Negative plain condition before outcome uses と."
+      },
+      {
+        "sentence": "リモコン [ ? ] 電池を変えます。",
+        "answer": "の",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Possession / part of an object: リモコンの電池."
+      },
+      {
+        "sentence": "お酒を飲むと、顔 [ ? ] 赤くなります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "Subject of the bodily change takes が: 顔が赤くなる."
+      },
+      {
+        "sentence": "質問 [ ? ] あるとき、電話してください。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "で"
+        ],
+        "hint": "Existence verb あります takes subject marker が."
+      },
+      {
+        "sentence": "寂しいとき、友達 [ ? ] 電話します。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "と"
+        ],
+        "hint": "The recipient of a phone call takes に."
+      },
+      {
+        "sentence": "日本 [ ? ] 何回も行ったことがあります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Destination of travel takes に or へ."
+      },
+      {
+        "sentence": "部屋の角 [ ? ] ゴミ箱があります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Location of existence takes に."
+      },
+      {
+        "sentence": "信号 [ ? ] 青くなりました。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Subject of state change takes が."
+      },
+      {
+        "sentence": "東京駅 [ ? ] 道を教えてください。",
+        "answer": "への",
+        "options": [
+          "への",
+          "での",
+          "をの",
+          "からの"
+        ],
+        "hint": "Direction modifier before noun takes への (the way TO Tokyo Station)."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Asking for road directions",
+        "speaker": "観光客",
+        "prompt": "すみません、郵便局へはどうやって行きますか？",
+        "options": [
+          {
+            "text": "あの交差点を右へ曲がると、左にありますよ。",
+            "correct": true
+          },
+          {
+            "text": "あの交差点に右へ曲がったと、郵便局があります。",
+            "correct": false
+          },
+          {
+            "text": "交差点で曲がると、郵便局へ行ってください。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 『交差点を曲がると、～にあります』 (を for turning point, と for inevitable finding)."
+      },
+      {
+        "situation": "Asking about operating a shower",
+        "speaker": "ホテルの客",
+        "prompt": "お湯が出ないんですが、どうすればいいですか？",
+        "options": [
+          {
+            "text": "このレバーを引くと、お湯が出ますよ。",
+            "correct": true
+          },
+          {
+            "text": "このレバーを引いたとき、お湯が出てください。",
+            "correct": false
+          },
+          {
+            "text": "レバーを引きますと、お湯が出ません。",
+            "correct": false
+          }
+        ],
+        "tip": "Operating mechanical devices uses 『Verb (dict) + と、～が出ます』."
+      },
+      {
+        "situation": "Explaining when you bought a souvenir",
+        "speaker": "友達",
+        "prompt": "すてきなかばんですね！どこで買いましたか？",
+        "options": [
+          {
+            "text": "日本に行ったとき、買いました。",
+            "correct": true
+          },
+          {
+            "text": "日本に行くと、買いました。",
+            "correct": false
+          },
+          {
+            "text": "日本に行くのとき、買いました。",
+            "correct": false
+          }
+        ],
+        "tip": "Bought after arriving in Japan → 『日本に行ったとき』."
+      },
+      {
+        "situation": "When you have free time",
+        "speaker": "同僚",
+        "prompt": "休みの日は何をしますか？",
+        "options": [
+          {
+            "text": "暇なとき、よく映画を見ます。",
+            "correct": true
+          },
+          {
+            "text": "暇だとき、よく映画を見ます。",
+            "correct": false
+          },
+          {
+            "text": "暇のとき、よく映画を見ます。",
+            "correct": false
+          }
+        ],
+        "tip": "な-adjectives attach to とき using な: 暇なとき."
+      },
+      {
+        "situation": "At a drink vending machine",
+        "speaker": "後輩",
+        "prompt": "お金を入れたのにおつりが出ません！",
+        "options": [
+          {
+            "text": "このボタンを押さないと、おつりが出ないよ。",
+            "correct": true
+          },
+          {
+            "text": "このボタンを押すと、おつりが出てください。",
+            "correct": false
+          },
+          {
+            "text": "ボタンを押したと、おつりが出ます。",
+            "correct": false
+          }
+        ],
+        "tip": "Negative condition uses 『ない-form + と』: 押さないと."
+      },
+      {
+        "situation": "Feeling unwell at work",
+        "speaker": "上司",
+        "prompt": "顔色が悪いですね。大丈夫ですか？",
+        "options": [
+          {
+            "text": "頭が痛いとき、いつもこの薬を飲んでいます。",
+            "correct": true
+          },
+          {
+            "text": "頭が痛くてとき、薬を飲みます。",
+            "correct": false
+          },
+          {
+            "text": "頭が痛いだとき、薬を飲みます。",
+            "correct": false
+          }
+        ],
+        "tip": "い-adjectives directly modify とき: 痛いとき."
+      },
+      {
+        "situation": "Talking about childhood memories",
+        "speaker": "友達",
+        "prompt": "日本語はいつ勉強し始めましたか？",
+        "options": [
+          {
+            "text": "子供のとき、アニメを見て勉強しました。",
+            "correct": true
+          },
+          {
+            "text": "子供なとき、アニメを見て勉強しました。",
+            "correct": false
+          },
+          {
+            "text": "子供だとき、アニメを見て勉強しました。",
+            "correct": false
+          }
+        ],
+        "tip": "Nouns connect to とき using の: 子供のとき."
+      },
+      {
+        "situation": "Describing drinking habits",
+        "speaker": "同僚",
+        "prompt": "お酒は強いですか？",
+        "options": [
+          {
+            "text": "いいえ、お酒を飲むと、すぐ顔が赤くなります。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、お酒を飲んだと、顔が赤いです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、お酒を飲むとき、顔が赤くなりましょう。",
+            "correct": false
+          }
+        ],
+        "tip": "Inevitable physical response takes 『飲むと、顔が赤くなります』."
+      },
+      {
+        "situation": "Giving traffic light directions",
+        "speaker": "通行人",
+        "prompt": "駅前の銀行はどこですか？",
+        "options": [
+          {
+            "text": "2つ目の信号を左へ曲がると、右手にあります。",
+            "correct": true
+          },
+          {
+            "text": "2番信号を曲がると、右手にあります。",
+            "correct": false
+          },
+          {
+            "text": "2つの信号目で曲がると、右手にあります。",
+            "correct": false
+          }
+        ],
+        "tip": "Use the ordinal counter suffix ～目: 2つ目の信号."
+      },
+      {
+        "situation": "Reporting a broken machine",
+        "speaker": "フロント",
+        "prompt": "エアコンの調子はいかがですか？",
+        "options": [
+          {
+            "text": "ボタンを押しても動きません。故障しているようです。",
+            "correct": true
+          },
+          {
+            "text": "ボタンを押すと、故障してください。",
+            "correct": false
+          },
+          {
+            "text": "故障したと、動きません。",
+            "correct": false
+          }
+        ],
+        "tip": "故障しています = is out of order / broken down."
+      },
+      {
+        "situation": "Returning home greeting",
+        "speaker": "留学生",
+        "prompt": "日本では家に帰ったとき、何と言いますか？",
+        "options": [
+          {
+            "text": "「ただいま」と言いますよ。",
+            "correct": true
+          },
+          {
+            "text": "「いってきます」と言いますよ。",
+            "correct": false
+          },
+          {
+            "text": "「お邪魔します」と言いますよ。",
+            "correct": false
+          }
+        ],
+        "tip": "When returning home (action completed → 帰ったとき), say 「ただいま」."
+      },
+      {
+        "situation": "Crossing a prefecture boundary",
+        "speaker": "ドライバー",
+        "prompt": "千葉県にはいつ着きますか？",
+        "options": [
+          {
+            "text": "この大きな橋を渡ると、千葉県ですよ。",
+            "correct": true
+          },
+          {
+            "text": "橋に渡ると、千葉県へ行ってください。",
+            "correct": false
+          },
+          {
+            "text": "橋で渡ったとき、千葉県です。",
+            "correct": false
+          }
+        ],
+        "tip": "Motion across a bridge uses を渡ると: 『橋を渡ると、～です』."
+      }
+    ]
+  }
+}

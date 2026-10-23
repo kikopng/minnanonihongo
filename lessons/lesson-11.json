@@ -1,0 +1,2245 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 1,
+    "title": "Self-Introductions, Identification, and Basic Particles",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master foundational Japanese sentence structure with 『N1 は N2 です』, polite negative forms (じゃありません / ではありません), question formation with か, similarity with も, organizational affiliation with の, counting ages (〜歳 / なんさい・おいくつ), and authentic self-introductions (自己紹介)."
+  },
+  "vocabulary": [
+    {
+      "id": "watashi",
+      "kanji": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "meaning": "I; me",
+      "category": "pronoun",
+      "example": {
+        "kanji": "私はマイク・ミラーです。",
+        "kana": "わたしは マイク・ミラーです。",
+        "translation": "I am Mike Miller."
+      }
+    },
+    {
+      "id": "watashitachi",
+      "kanji": "私たち",
+      "kana": "わたしたち",
+      "romaji": "watashitachi",
+      "meaning": "we; us",
+      "category": "pronoun",
+      "example": {
+        "kanji": "私たちは学生です。",
+        "kana": "わたしたちは がくせいです。",
+        "translation": "We are students."
+      }
+    },
+    {
+      "id": "anata",
+      "kanji": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "meaning": "you (often omitted when the person's name is known)",
+      "category": "pronoun",
+      "example": {
+        "kanji": "あなたは会社員ですか。",
+        "kana": "あなたは かいしゃいんですか。",
+        "translation": "Are you a company employee?"
+      }
+    },
+    {
+      "id": "ano-hito",
+      "kanji": "あの人",
+      "kana": "あのひと",
+      "romaji": "ano hito",
+      "meaning": "that person; he / she",
+      "category": "person",
+      "example": {
+        "kanji": "あの人は誰ですか。",
+        "kana": "あの ひとは だれですか。",
+        "translation": "Who is that person?"
+      }
+    },
+    {
+      "id": "ano-kata",
+      "kanji": "あの方",
+      "kana": "あのかた",
+      "romaji": "ano kata",
+      "meaning": "that person (polite honorific form of あの人)",
+      "category": "person",
+      "example": {
+        "kanji": "あの方はどなたですか。",
+        "kana": "あの かたは どなたですか。",
+        "translation": "Who is that gentleman / lady?"
+      }
+    },
+    {
+      "id": "minasan",
+      "kanji": "皆さん",
+      "kana": "みなさん",
+      "romaji": "minasan",
+      "meaning": "everyone; all of you; ladies and gentlemen",
+      "category": "person",
+      "example": {
+        "kanji": "皆さん、おはようございます。",
+        "kana": "みなさん、おはよう ございます。",
+        "translation": "Good morning, everyone."
+      }
+    },
+    {
+      "id": "san",
+      "kanji": "～さん",
+      "kana": "～さん",
+      "romaji": "~san",
+      "meaning": "Mr. / Ms. (polite honorific suffix; NEVER use for oneself)",
+      "category": "suffix",
+      "example": {
+        "kanji": "山田さんは日本人です。",
+        "kana": "やまださんは にほんじんです。",
+        "translation": "Mr. Yamada is Japanese."
+      }
+    },
+    {
+      "id": "chan",
+      "kanji": "～ちゃん",
+      "kana": "～ちゃん",
+      "romaji": "~chan",
+      "meaning": "suffix for babies, young children, or female close friends",
+      "category": "suffix",
+      "example": {
+        "kanji": "テレサちゃんは9歳です。",
+        "kana": "テレサちゃんは きゅうさいです。",
+        "translation": "Teresa is 9 years old."
+      }
+    },
+    {
+      "id": "kun",
+      "kanji": "～君",
+      "kana": "～くん",
+      "romaji": "~kun",
+      "meaning": "suffix for boys, young men, or male juniors at work",
+      "category": "suffix",
+      "example": {
+        "kanji": "木村君は学生です。",
+        "kana": "きむらくんは がくせいです。",
+        "translation": "Kimura is a student."
+      }
+    },
+    {
+      "id": "jin",
+      "kanji": "～人",
+      "kana": "～じん",
+      "romaji": "~jin",
+      "meaning": "nationality suffix (person of ~ country)",
+      "category": "suffix",
+      "example": {
+        "kanji": "ミラーさんはアメリカ人です。",
+        "kana": "ミラーさんは アメリカじんです。",
+        "translation": "Mr. Miller is an American."
+      }
+    },
+    {
+      "id": "sensei",
+      "kanji": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "meaning": "teacher; instructor (title used for others, not one's own job)",
+      "category": "job",
+      "example": {
+        "kanji": "ワット先生は英語の先生です。",
+        "kana": "ワットせんせいは えいごの せんせいです。",
+        "translation": "Professor Watt is an English teacher."
+      }
+    },
+    {
+      "id": "kyoshi",
+      "kanji": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "meaning": "teacher (humble / professional term used for one's own job)",
+      "category": "job",
+      "example": {
+        "kanji": "私は大学の教師です。",
+        "kana": "わたしは だいがくの きょうしです。",
+        "translation": "I am a university teacher."
+      }
+    },
+    {
+      "id": "gakusei",
+      "kanji": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "meaning": "student",
+      "category": "job",
+      "example": {
+        "kanji": "カリナさんは学生です。",
+        "kana": "カリナさんは がくせいです。",
+        "translation": "Karina is a student."
+      }
+    },
+    {
+      "id": "kaishain",
+      "kanji": "会社員",
+      "kana": "かいしゃいん",
+      "romaji": "kaishain",
+      "meaning": "company employee (general profession)",
+      "category": "job",
+      "example": {
+        "kanji": "サントスさんは会社員です。",
+        "kana": "サントスさんは かいしゃいんです。",
+        "translation": "Mr. Santos is a company employee."
+      }
+    },
+    {
+      "id": "shain",
+      "kanji": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "meaning": "employee of ~ company (used with company name: [Company] の 社員)",
+      "category": "job",
+      "example": {
+        "kanji": "マイク・ミラーさんはIMCの社員です。",
+        "kana": "マイク・ミラーさんは アイエムシーの しゃいんです。",
+        "translation": "Mike Miller is an employee of IMC."
+      }
+    },
+    {
+      "id": "ginkoin",
+      "kanji": "銀行員",
+      "kana": "ぎんこういん",
+      "romaji": "ginkouin",
+      "meaning": "bank employee",
+      "category": "job",
+      "example": {
+        "kanji": "小林さんは銀行員です。",
+        "kana": "こばやしさんは ぎんこういんです。",
+        "translation": "Mr. Kobayashi is a bank employee."
+      }
+    },
+    {
+      "id": "isha",
+      "kanji": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "meaning": "medical doctor; physician",
+      "category": "job",
+      "example": {
+        "kanji": "父は神戸病院の医者です。",
+        "kana": "ちちは こうべびょういんの いしゃです。",
+        "translation": "My father is a doctor at Kobe Hospital."
+      }
+    },
+    {
+      "id": "kenkyusha",
+      "kanji": "研究者",
+      "kana": "けんきゅうしゃ",
+      "romaji": "kenkyuusha",
+      "meaning": "researcher; scholar",
+      "category": "job",
+      "example": {
+        "kanji": "シュミットさんは研究者です。",
+        "kana": "シュミットさんは けんきゅうしゃです。",
+        "translation": "Mr. Schmidt is a researcher."
+      }
+    },
+    {
+      "id": "enjinia",
+      "kanji": "エンジニア",
+      "kana": "エンジニア",
+      "romaji": "enjinia",
+      "meaning": "engineer",
+      "category": "job",
+      "example": {
+        "kanji": "リーさんはエンジニアです。",
+        "kana": "リーさんは エンジニアです。",
+        "translation": "Mr. Lee is an engineer."
+      }
+    },
+    {
+      "id": "daigaku",
+      "kanji": "大学",
+      "kana": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "university; college",
+      "category": "place",
+      "example": {
+        "kanji": "ここはさくら大学です。",
+        "kana": "ここは さくらだいがくです。",
+        "translation": "This is Sakura University."
+      }
+    },
+    {
+      "id": "byoin",
+      "kanji": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "meaning": "hospital",
+      "category": "place",
+      "example": {
+        "kanji": "あそこは神戸病院です。",
+        "kana": "あそこは こうべびょういんです。",
+        "translation": "Over there is Kobe Hospital."
+      }
+    },
+    {
+      "id": "denki",
+      "kanji": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "meaning": "electricity; electric light (often in company names: パワー電気)",
+      "category": "noun",
+      "example": {
+        "kanji": "松本さんはパワー電気の社長です。",
+        "kana": "まつもとさんは パワーでんきの しゃちょうです。",
+        "translation": "Mr. Matsumoto is the president of Power Electric."
+      }
+    },
+    {
+      "id": "dare",
+      "kanji": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "meaning": "who (standard question word)",
+      "category": "pronoun",
+      "example": {
+        "kanji": "あの人は誰ですか。",
+        "kana": "あの ひとは だれですか。",
+        "translation": "Who is that person?"
+      }
+    },
+    {
+      "id": "donata",
+      "kanji": "どなた",
+      "kana": "どなた",
+      "romaji": "donata",
+      "meaning": "who (polite honorific form of だれ)",
+      "category": "pronoun",
+      "example": {
+        "kanji": "あの方はどなたですか。",
+        "kana": "あの かたは どなたですか。",
+        "translation": "Who is that person? (Polite)"
+      }
+    },
+    {
+      "id": "sai",
+      "kanji": "～歳",
+      "kana": "～さい",
+      "romaji": "~sai",
+      "meaning": "years old (counter for age)",
+      "category": "suffix",
+      "example": {
+        "kanji": "ミラーさんは28歳です。",
+        "kana": "ミラーさんは にじゅうはっさいです。",
+        "translation": "Mr. Miller is 28 years old."
+      }
+    },
+    {
+      "id": "nansai",
+      "kanji": "何歳",
+      "kana": "なんさい",
+      "romaji": "nansai",
+      "meaning": "how old (standard question)",
+      "category": "expression",
+      "example": {
+        "kanji": "サントスさんは何歳ですか。",
+        "kana": "サントスさんは なんさいですか。",
+        "translation": "How old is Mr. Santos?"
+      }
+    },
+    {
+      "id": "oikutsu",
+      "kanji": "おいくつ",
+      "kana": "おいくつ",
+      "romaji": "oikutsu",
+      "meaning": "how old (polite honorific form of 何歳)",
+      "category": "expression",
+      "example": {
+        "kanji": "失礼ですが、おいくつですか。",
+        "kana": "しつれいですが、おいくつですか。",
+        "translation": "Excuse me, but how old are you? (Polite)"
+      }
+    },
+    {
+      "id": "hai",
+      "kanji": "はい",
+      "kana": "はい",
+      "romaji": "hai",
+      "meaning": "yes; correct",
+      "category": "expression",
+      "example": {
+        "kanji": "はい、そうです。",
+        "kana": "はい、そうです。",
+        "translation": "Yes, that's right."
+      }
+    },
+    {
+      "id": "iie",
+      "kanji": "いいえ",
+      "kana": "いいえ",
+      "romaji": "iie",
+      "meaning": "no; not so",
+      "category": "expression",
+      "example": {
+        "kanji": "いいえ、違います。",
+        "kana": "いいえ、ちがいます。",
+        "translation": "No, that's incorrect."
+      }
+    },
+    {
+      "id": "shitsureidesuga",
+      "kanji": "失礼ですが",
+      "kana": "しつれいですが",
+      "romaji": "shitsurei desu ga",
+      "meaning": "excuse me, but… (used before asking personal questions like name or age)",
+      "category": "expression",
+      "example": {
+        "kanji": "失礼ですが、お名前は？",
+        "kana": "しつれいですが、おなまえは？",
+        "translation": "Excuse me, but may I have your name?"
+      }
+    },
+    {
+      "id": "onamae-wa",
+      "kanji": "お名前は？",
+      "kana": "おなまえは？",
+      "romaji": "onamae wa?",
+      "meaning": "What is your name? (Polite)",
+      "category": "expression",
+      "example": {
+        "kanji": "お名前は何ですか。 / お名前は？",
+        "kana": "おなまえは なんですか。 / おなまえは？",
+        "translation": "What is your name?"
+      }
+    },
+    {
+      "id": "hajimemashite",
+      "kanji": "初めまして",
+      "kana": "はじめまして",
+      "romaji": "hajimemashite",
+      "meaning": "How do you do? / Nice to meet you (used only at the very first meeting)",
+      "category": "expression",
+      "example": {
+        "kanji": "初めまして。山田です。",
+        "kana": "はじめまして。やまだです。",
+        "translation": "Nice to meet you. I am Yamada."
+      }
+    },
+    {
+      "id": "dozo-yoroshiku",
+      "kanji": "どうぞよろしく[お願いします]",
+      "kana": "どうぞ よろしく [おねがいします]",
+      "romaji": "douzo yoroshiku [onegaishimasu]",
+      "meaning": "Pleased to meet you / Please treat me well (closing phrase of self-introduction)",
+      "category": "expression",
+      "example": {
+        "kanji": "どうぞよろしくお願いします。",
+        "kana": "どうぞ よろしく おねがいします。",
+        "translation": "Pleased to meet you."
+      }
+    },
+    {
+      "id": "kochirakoso",
+      "kanji": "こちらこそ",
+      "kana": "こちらこそ",
+      "romaji": "kochirakoso",
+      "meaning": "It is I, not you (response to どうぞよろしく)",
+      "category": "expression",
+      "example": {
+        "kanji": "こちらこそ、どうぞよろしくお願いします。",
+        "kana": "こちらこそ、どうぞ よろしく おねがいします。",
+        "translation": "Likewise, pleased to meet you too."
+      }
+    },
+    {
+      "id": "kochira-wa",
+      "kanji": "こちらは～さんです",
+      "kana": "こちらは～さんです",
+      "romaji": "kochira wa ~san desu",
+      "meaning": "This is Mr. / Ms. ~ (used when introducing a third person nearby)",
+      "category": "expression",
+      "example": {
+        "kanji": "こちらはサントスさんです。",
+        "kana": "こちらは サントスさんです。",
+        "translation": "This is Mr. Santos."
+      }
+    },
+    {
+      "id": "kara-kimashita",
+      "kanji": "～から来ました",
+      "kana": "～からきました",
+      "romaji": "~ kara kimashita",
+      "meaning": "I came from ~ / I am from ~",
+      "category": "expression",
+      "example": {
+        "kanji": "アメリカから来ました。",
+        "kana": "アメリカから きました。",
+        "translation": "I came from the United States."
+      }
+    },
+    {
+      "id": "nihon",
+      "kanji": "日本",
+      "kana": "にほん",
+      "romaji": "Nihon",
+      "meaning": "Japan",
+      "category": "country",
+      "example": {
+        "kanji": "佐藤さんは日本人です。",
+        "kana": "さとうさんは にほんじんです。",
+        "translation": "Ms. Sato is Japanese."
+      }
+    },
+    {
+      "id": "amerika",
+      "kanji": "アメリカ",
+      "kana": "アメリカ",
+      "romaji": "Amerika",
+      "meaning": "United States of America",
+      "category": "country",
+      "example": {
+        "kanji": "ミラーさんはアメリカから来ました。",
+        "kana": "ミラーさんは アメリカから きました。",
+        "translation": "Mr. Miller came from America."
+      }
+    },
+    {
+      "id": "igirisu",
+      "kanji": "イギリス",
+      "kana": "イギリス",
+      "romaji": "Igirisu",
+      "meaning": "United Kingdom; Britain",
+      "category": "country",
+      "example": {
+        "kanji": "ワットさんはイギリス人です。",
+        "kana": "ワットさんは イギリスじんです。",
+        "translation": "Mr. Watt is British."
+      }
+    },
+    {
+      "id": "indo",
+      "kanji": "インド",
+      "kana": "インド",
+      "romaji": "Indo",
+      "meaning": "India",
+      "category": "country",
+      "example": {
+        "kanji": "グプタさんはインド人です。",
+        "kana": "グプタさんは インドじんです。",
+        "translation": "Mr. Gupta is Indian."
+      }
+    },
+    {
+      "id": "indoneshia",
+      "kanji": "インドネシア",
+      "kana": "インドネシア",
+      "romaji": "Indoneshia",
+      "meaning": "Indonesia",
+      "category": "country",
+      "example": {
+        "kanji": "カリナさんはインドネシア人です。",
+        "kana": "カリナさんは インドネシアじんです。",
+        "translation": "Karina is Indonesian."
+      }
+    },
+    {
+      "id": "kankoku",
+      "kanji": "韓国",
+      "kana": "かんこく",
+      "romaji": "Kankoku",
+      "meaning": "South Korea",
+      "category": "country",
+      "example": {
+        "kanji": "イ・ソンさんは韓国人です。",
+        "kana": "イ・ソンさんは かんこくじんです。",
+        "translation": "Lee Sung is South Korean."
+      }
+    },
+    {
+      "id": "tai",
+      "kanji": "タイ",
+      "kana": "タイ",
+      "romaji": "Tai",
+      "meaning": "Thailand",
+      "category": "country",
+      "example": {
+        "kanji": "タワポンさんはタイから来ました。",
+        "kana": "タワポンさんは タイから きました。",
+        "translation": "Mr. Thawaphon came from Thailand."
+      }
+    },
+    {
+      "id": "chugoku",
+      "kanji": "中国",
+      "kana": "ちゅうごく",
+      "romaji": "Chuugoku",
+      "meaning": "China",
+      "category": "country",
+      "example": {
+        "kanji": "ワンさんは中国人です。",
+        "kana": "ワンさんは ちゅうごくじんです。",
+        "translation": "Mr. Wang is Chinese."
+      }
+    },
+    {
+      "id": "doitsu",
+      "kanji": "ドイツ",
+      "kana": "ドイツ",
+      "romaji": "Doitsu",
+      "meaning": "Germany",
+      "category": "country",
+      "example": {
+        "kanji": "シュミットさんはドイツ人です。",
+        "kana": "シュミットさんは ドイツじんです。",
+        "translation": "Mr. Schmidt is German."
+      }
+    },
+    {
+      "id": "burajiru",
+      "kanji": "ブラジル",
+      "kana": "ブラジル",
+      "romaji": "Burajiru",
+      "meaning": "Brazil",
+      "category": "country",
+      "example": {
+        "kanji": "サントスさんはブラジル人です。",
+        "kana": "サントスさんは ブラジルじんです。",
+        "translation": "Mr. Santos is Brazilian."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun 1 は Noun 2 です [Polite Affirmative Sentence]",
+      "explanation": "This is the most basic sentence pattern in Japanese, expressing that Noun 1 is Noun 2. (1) Particle は: Written with the hiragana は (ha), but as a grammatical particle it is strictly pronounced 'wa'. It indicates that Noun 1 is the topic of the sentence ('As for N1...'). (2) です: Acts as the polite copula (equivalent to English 'am', 'is', 'are'). It shows politeness and ends the sentence. (3) Natural omission: When the topic is completely obvious from context (e.g., when introducing yourself), 私は (watashi wa) is often omitted to sound natural.",
+      "examples": [
+        {
+          "kanji": "私はマイク・ミラーです。",
+          "kana": "わたしは マイク・ミラーです。",
+          "translation": "I am Mike Miller."
+        },
+        {
+          "kanji": "サントスさんはブラジル人です。",
+          "kana": "サントスさんは ブラジルじんです。",
+          "translation": "Mr. Santos is Brazilian."
+        },
+        {
+          "kanji": "ワンさんは中国の医者です。",
+          "kana": "ワンさんは ちゅうごくの いしゃです。",
+          "translation": "Mr. Wang is a Chinese doctor."
+        },
+        {
+          "kanji": "山田さんは日本人です。",
+          "kana": "やまださんは にほんじんです。",
+          "translation": "Mr. Yamada is Japanese."
+        },
+        {
+          "kanji": "シュミットさんはエンジニアです。",
+          "kana": "シュミットさんは エンジニアです。",
+          "translation": "Mr. Schmidt is an engineer."
+        },
+        {
+          "kanji": "カリナさんは学生です。",
+          "kana": "カリナさんは がくせいです。",
+          "translation": "Karina is a student."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 は Noun 2 じゃありません / ではありません [Polite Negative Sentence]",
+      "explanation": "This is the negative form of です, meaning 'Noun 1 is not Noun 2'. (1) じゃありません: The standard spoken and colloquial polite negative used in daily conversations. (2) ではありません: The formal polite negative used in official speeches, business settings, and formal writing. Note: では is pronounced 'dewa'. (3) You can answer negative questions directly with 『いいえ、N2じゃありません』.",
+      "examples": [
+        {
+          "kanji": "サントスさんは学生じゃありません。",
+          "kana": "サントスさんは がくせいじゃ ありません。",
+          "translation": "Mr. Santos is not a student (spoken polite)."
+        },
+        {
+          "kanji": "山田さんはエンジニアではありません。",
+          "kana": "やまださんは エンジニアでは ありません。",
+          "translation": "Mr. Yamada is not an engineer (formal polite)."
+        },
+        {
+          "kanji": "ミラーさんは医者じゃありません。",
+          "kana": "ミラーさんは いしゃじゃ ありません。",
+          "translation": "Mr. Miller is not a doctor."
+        },
+        {
+          "kanji": "私はさくら大学の学生じゃありません。",
+          "kana": "わたしは さくらだいがくの がくせいじゃ ありません。",
+          "translation": "I am not a student of Sakura University."
+        },
+        {
+          "kanji": "あの方は銀行員ではありません。",
+          "kana": "あの かたは ぎんこういんでは ありません。",
+          "translation": "That person is not a bank employee (formal)."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence + か [Polite Questions & Answering]",
+      "explanation": "The particle か attaches to the end of a sentence to turn it into a question. Word order does NOT change, and you pronounce the end of the sentence with a rising intonation (↗). (1) For affirmative answers, say 『はい、[N2] です』 or 『はい、そうです』 ('Yes, that's right'). (2) For negative answers, say 『いいえ、[N2] じゃありません』 or 『いいえ、違います (ちがいます)』 ('No, that is incorrect / different'). (3) Do NOT just say はい or いいえ alone—it sounds blunt and curt in Japanese.",
+      "examples": [
+        {
+          "kanji": "ミラーさんはアメリカ人ですか。— はい、アメリカ人です。",
+          "kana": "ミラーさんは アメリカじんですか。— はい、アメリカじんです。",
+          "translation": "Is Mr. Miller American? — Yes, he is American."
+        },
+        {
+          "kanji": "ミラーさんは先生ですか。— いいえ、先生じゃありません。会社員です。",
+          "kana": "ミラーさんは せんせいですか。— いいえ、せんせいじゃ ありません。かいしゃいんです。",
+          "translation": "Is Mr. Miller a teacher? — No, he is not a teacher. He is a company employee."
+        },
+        {
+          "kanji": "山田さんは銀行員ですか。— はい、そうです。",
+          "kana": "やまださんは ぎんこういんですか。— はい、そうです。",
+          "translation": "Is Mr. Yamada a bank employee? — Yes, that's right."
+        },
+        {
+          "kanji": "あの方は医者ですか。— いいえ、違います。研究者です。",
+          "kana": "あの かたは いしゃですか。— いいえ、ちがいます。けんきゅうしゃです。",
+          "translation": "Is that person a doctor? — No, that is incorrect. He is a researcher."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun も Noun です [Similarity / 'Also' & 'Too']",
+      "explanation": "The particle も replaces the topic particle は when the statement made about the current topic is the same as the previous statement ('N is ALSO...'). (1) NEVER combine は and も (✕ 私はも、✕ 私もは). (2) Answering negative questions with も: If someone asks if person B is also a student, and they are not, revert back to は in the negative: 『いいえ、Bさんは学生じゃありません』.",
+      "examples": [
+        {
+          "kanji": "ミラーさんは会社員です。グプタさんも会社員です。",
+          "kana": "ミラーさんは かいしゃいんです。グプタさんも かいしゃいんです。",
+          "translation": "Mr. Miller is a company employee. Mr. Gupta is also a company employee."
+        },
+        {
+          "kanji": "ワンさんは中国人です。リーさんも中国人ですか。",
+          "kana": "ワンさんは ちゅうごくじんです。リーさんも ちゅうごくじんですか。",
+          "translation": "Mr. Wang is Chinese. Is Mr. Lee also Chinese?"
+        },
+        {
+          "kanji": "カリナさんは学生です。私も学生です。",
+          "kana": "カリナさんは がくせいです。わたしも がくせいです。",
+          "translation": "Karina is a student. I am also a student."
+        },
+        {
+          "kanji": "あの方もIMCの社員ですか。— いいえ、あの方は社員じゃありません。",
+          "kana": "あの かたも アイエムシーの しゃいんですか。— いいえ、あの かたは しゃいんじゃ ありません。",
+          "translation": "Is that person also an IMC employee? — No, that person is not an employee."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 の Noun 2 [Affiliation, Specification, and Possession]",
+      "explanation": "Particle の links two nouns together where Noun 1 modifies, specifies, or owns Noun 2. In Japanese, the modifier (larger group, organization, or owner) comes FIRST: [Organization] の [Person/Position]. (1) Affiliation: IMCの社員 (employee of IMC), さくら大学の学生 (student of Sakura University). (2) Possession: 私の本 (my book). (3) Country / Language specification: 英語の先生 (English teacher), 日本の車 (Japanese car).",
+      "examples": [
+        {
+          "kanji": "マイク・ミラーさんはIMCの社員です。",
+          "kana": "マイク・ミラーさんは アイエムシーの しゃいんです。",
+          "translation": "Mike Miller is an employee of IMC."
+        },
+        {
+          "kanji": "カリナさんは富士大学の学生です。",
+          "kana": "カリナさんは ふじだいがくの がくせいです。",
+          "translation": "Karina is a student at Fuji University."
+        },
+        {
+          "kanji": "ワットさんは英語の先生です。",
+          "kana": "ワットさんは えいごの せんせいです。",
+          "translation": "Mr. Watt is an English teacher."
+        },
+        {
+          "kanji": "母は神戸病院の医者です。",
+          "kana": "ははは こうべびょういんの いしゃです。",
+          "translation": "My mother is a doctor at Kobe Hospital."
+        },
+        {
+          "kanji": "松本さんはパワー電気の社長です。",
+          "kana": "まつもとさんは パワーでんきの しゃちょうです。",
+          "translation": "Mr. Matsumoto is the president of Power Electric."
+        }
+      ]
+    },
+    {
+      "pattern": "Honorific Suffixes: ～さん, ～ちゃん, ～君 vs. Self-Reference",
+      "explanation": "Japanese culture strictly separates ingroup (oneself/family) from outgroup (others). (1) ～さん: Polite title added to family or given names of others (山田さん). CRUCIAL RULE: NEVER attach ～さん to your own name! Saying ✕『私はスミスさんです』 sounds arrogant and unnatural. (2) ～ちゃん: Affectionate diminutive for babies, small children, pets, or young girls. (3) ～君 (～くん): Friendly suffix used for boys, schoolboys, or male subordinates/juniors at work. (4) Use あなた sparingly; once you know someone's name, always address them as [Name]-san.",
+      "examples": [
+        {
+          "kanji": "こちらは佐藤さんです。",
+          "kana": "こちらは さとうさんです。",
+          "translation": "This is Ms. Sato."
+        },
+        {
+          "kanji": "初めまして。私はミラーです。（✕ ミラーさんです）",
+          "kana": "はじめまして。わたしは ミラーです。（✕ ミラーさんです）",
+          "translation": "Nice to meet you. I am Miller. (Never use ~san on yourself!)"
+        },
+        {
+          "kanji": "テレサちゃんは何歳ですか。— 9歳です。",
+          "kana": "テレサちゃんは なんさいですか。— きゅうさいです。",
+          "translation": "How old is Teresa? — She is 9 years old."
+        },
+        {
+          "kanji": "木村君はさくら大学の学生です。",
+          "kana": "きむらくんは さくらだいがくの がくせいです。",
+          "translation": "Kimura is a student at Sakura University."
+        }
+      ]
+    },
+    {
+      "pattern": "Occupation Nuances: 先生 vs. 教師 / 会社員 vs. 社員",
+      "explanation": "Pay careful attention to modesty and word choice: (1) 先生 (せんせい): An honorific title used when referring to or addressing teachers, professors, doctors, or lawyers (山田先生). Do NOT use 先生 for yourself! (2) 教師 (きょうし): The humble/objective occupational term. When asked what you do for a living, answer: 『私は教師です』. (3) 会社員 (かいしゃいん) is the general occupation ('I am an office worker'). (4) 社員 (しゃいん) MUST be paired with a company name using の: 『IMCの社員です』 (✕ 私は社員です alone is unnatural).",
+      "examples": [
+        {
+          "kanji": "山田先生は日本語の先生です。",
+          "kana": "やまだせんせいは にほんごの せんせいです。",
+          "translation": "Teacher Yamada is a Japanese teacher."
+        },
+        {
+          "kanji": "私の仕事は教師です。高校で教えています。",
+          "kana": "わたしの しごとは きょうしです。こうこうで おしえています。",
+          "translation": "My job is a teacher. I teach at high school. (Humble self-reference)"
+        },
+        {
+          "kanji": "サントスさんの仕事は何ですか。— 会社員です。",
+          "kana": "サントスさんの しごとは なんですか。— かいしゃいんです。",
+          "translation": "What is Mr. Santos's job? — He is a company employee."
+        },
+        {
+          "kanji": "私はIMCの社員です。",
+          "kana": "わたしは アイエムシーの しゃいんです。",
+          "translation": "I am an IMC employee. (Company name + の + 社員)"
+        }
+      ]
+    },
+    {
+      "pattern": "Asking 'Who': だれ vs. どなた [Polite Distinction]",
+      "explanation": "To ask who a person is, use the interrogative word with the question particle か: (1) Standard: あの人は誰ですか (あのひとは だれですか). (2) Polite / Honorific: あの方はどなたですか (あの かたは どなたですか). Use the polite pairing (あの方 + どなた) in professional settings, when speaking to superiors, or when inquiring about an unfamiliar adult.",
+      "examples": [
+        {
+          "kanji": "あの人は誰ですか。— あの人はマイク・ミラーさんです。",
+          "kana": "あの ひとは だれですか。— あの ひとは マイク・ミラーさんです。",
+          "translation": "Who is that person? — That person is Mr. Mike Miller."
+        },
+        {
+          "kanji": "あの方はどなたですか。— あの方はワット先生です。",
+          "kana": "あの かたは どなたですか。— あの かたは ワットせんせいです。",
+          "translation": "Who is that gentleman? — That is Professor Watt. (Polite)"
+        },
+        {
+          "kanji": "あの方はどなたですか。— パワー電気の松本社長です。",
+          "kana": "あの かたは どなたですか。— パワーでんきの まつもとしゃちょうです。",
+          "translation": "Who is that distinguished person? — That is President Matsumoto of Power Electric."
+        }
+      ]
+    },
+    {
+      "pattern": "Asking & Stating Age: ～歳 (さい) / なんさい vs. おいくつ",
+      "explanation": "Age is counted using the counter ～歳 (さい). (1) Irregular age pronunciations: 1歳 = いっさい (NOT いちさい), 8歳 = はっさい (NOT はちさい), 10歳 = じゅっさい, 20歳 = はたち (SPECIAL IRREGULAR; you can also hear にじゅっさい, but はたち is traditional). (2) Questions: 何歳 (なんさい) is normal/informal ('How old?'). おいくつ (お幾つ) is the polite honorific phrasing used for adults, superiors, or polite introductions: 『失礼ですが、おいくつですか』.",
+      "examples": [
+        {
+          "kanji": "太郎君は何歳ですか。— 8歳です。",
+          "kana": "たろうくんは なんさいですか。— はっさいです。",
+          "translation": "How old is Taro? — He is 8 years old. (8歳 = はっさい)"
+        },
+        {
+          "kanji": "失礼ですが、おいくつですか。— 20歳です。",
+          "kana": "しつれいですが、おいくつですか。— はたちです。",
+          "translation": "Excuse me, but how old are you? — I am 20 years old. (20歳 = はたち)"
+        },
+        {
+          "kanji": "ミラーさんは何歳ですか。— 28歳です。",
+          "kana": "ミラーさんは なんさいですか。— にじゅうはっさいです。",
+          "translation": "How old is Mr. Miller? — He is 28 years old."
+        },
+        {
+          "kanji": "ワンさんは何歳ですか。— 31歳です。",
+          "kana": "ワンさんは なんさいですか。— さんじゅういっさいです。",
+          "translation": "How old is Mr. Wang? — He is 31 years old. (31歳 = さんじゅういっさい)"
+        }
+      ]
+    },
+    {
+      "pattern": "Self-Introductions (自己紹介) & Greeting Etiquette",
+      "explanation": "A complete Japanese self-introduction follows a fixed cultural structure: (1) Opening: 初めまして (hajimemashite) — literally 'this is the beginning of our relationship'. (2) Identity: 私は [Name] です。[Country] から来ました。[Affiliation] の [Role] です。 (3) Closing: どうぞよろしくお願いします (douzo yoroshiku onegaishimasu) — 'Please treat me favorably'. (4) The other person responds: こちらこそ、どうぞよろしくお願いします ('Likewise, please treat me well'). If you need to ask someone's name, politely preface it with 『失礼ですが、お名前は？』.",
+      "examples": [
+        {
+          "kanji": "初めまして。マイク・ミラーです。アメリカから来ました。どうぞよろしくお願いします。",
+          "kana": "はじめまして。マイク・ミラーです。アメリカから きました。どうぞ よろしく おねがいします。",
+          "translation": "Nice to meet you. I am Mike Miller. I came from America. Pleased to meet you."
+        },
+        {
+          "kanji": "初めまして。カリナです。インドネシアから来ました。富士大学の学生です。どうぞよろしくお願いします。",
+          "kana": "はじめまして。カリナです。インドネシアから きました。ふじだいがくの がくせいです。どうぞ よろしく おねがいします。",
+          "translation": "How do you do? I am Karina. I came from Indonesia. I am a student at Fuji University. Pleased to meet you."
+        },
+        {
+          "kanji": "失礼ですが、お名前は？ — サントスです。",
+          "kana": "しつれいですが、おなまえは？ — サントスです。",
+          "translation": "Excuse me, but may I have your name? — I am Santos."
+        },
+        {
+          "kanji": "どうぞよろしくお願いします。 — こちらこそ、どうぞよろしくお願いします。",
+          "kana": "どうぞ よろしく おねがいします。 — こちらこそ、どうぞ よろしく おねがいします。",
+          "translation": "Pleased to meet you. — Pleased to meet you too (It is I who should say so)."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "IMCの新入社員と初対面の挨拶 (First-Meeting Greetings at IMC)",
+    "lines": [
+      {
+        "speaker": "佐藤",
+        "kanji": "皆さん、おはようございます。こちらはマイク・ミラーさんです。",
+        "kana": "みなさん、おはよう ございます。こちらは マイク・ミラーさんです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "初めまして。マイク・ミラーです。アメリカから来ました。",
+        "kana": "はじめまして。マイク・ミラーです。アメリカから きました。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "IMCの社員です。どうぞよろしくお願いします。",
+        "kana": "アイエムシーの しゃいんです。どうぞ よろしく おねがいします。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "初めまして。私はホセ・サントスです。ブラジルから来ました。",
+        "kana": "はじめまして。わたしは ホセ・サントスです。ブラジルから きました。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "私もIMCの社員です。どうぞよろしくお願いします。",
+        "kana": "わたしも アイエムシーの しゃいんです。どうぞ よろしく おねがいします。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "サントスさんもIMCの社員ですか。サントスさんはエンジニアですか。",
+        "kana": "サントスさんも アイエムシーの しゃいんですか。サントスさんは エンジニアですか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "いいえ、私はエンジニアじゃありません。営業の会社員です。",
+        "kana": "いいえ、わたしは エンジニアじゃ ありません。えいぎょうの かいしゃいんです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "そうですか。佐藤さん、失礼ですが、あの方はどなたですか。",
+        "kana": "そうですか。さとうさん、しつれいですが、あの かたは どなたですか。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "あの方はワット先生です。さくら大学の教授ですよ。",
+        "kana": "あの かたは ワットせんせいです。さくらだいがくの きょうじゅですよ。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ワット先生もアメリカ人ですか。",
+        "kana": "ワットせんせいも アメリカじんですか。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいえ、ワット先生はアメリカ人じゃありません。イギリス人です。",
+        "kana": "いいえ、ワットせんせいは アメリカじんじゃ ありません。イギリスじんです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "そうですか。わかりました。ありがとうございます。",
+        "kana": "そうですか。わかりました。ありがとう ございます。"
+      }
+    ],
+    "translation": "Ms. Sato greets everyone and introduces Mike Miller. Miller introduces himself: he came from the US, is an employee of IMC, and finishes with 'Douzo yoroshiku onegaishimasu'. Jose Santos steps up, introducing himself as coming from Brazil, and mentions that he is also an IMC employee. Miller asks if Santos is an engineer, but Santos clarifies that he is in sales, not engineering. Miller then asks Ms. Sato about a person standing nearby using the polite form 'Ano kata wa donata desu ka'. Sato explains that he is Professor Watt from Sakura University. When Miller asks if Professor Watt is also American, Sato corrects him, explaining that Professor Watt is British.",
+    "questions": [
+      {
+        "question": "Where does Mike Miller come from?",
+        "options": [
+          "Brazil",
+          "The United States",
+          "The United Kingdom",
+          "Germany"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: アメリカから来ました (I came from America)."
+      },
+      {
+        "question": "What is Mike Miller's company?",
+        "options": [
+          "Power Electric",
+          "Sakura University",
+          "IMC",
+          "Kobe Hospital"
+        ],
+        "answer": 2,
+        "explanation": "Miller introduces himself as: IMCの社員です (I am an employee of IMC)."
+      },
+      {
+        "question": "What do Miller and Santos have in common?",
+        "options": [
+          "Both are engineers",
+          "Both came from Brazil",
+          "Both are employees of IMC",
+          "Both are students at Sakura University"
+        ],
+        "answer": 2,
+        "explanation": "Santos states: 私もIMCの社員です (I am also an IMC employee), using particle も."
+      },
+      {
+        "question": "Is Mr. Santos an engineer?",
+        "options": [
+          "Yes, he is an engineer at IMC.",
+          "No, he is not an engineer; he works in sales.",
+          "No, he is a doctor at Kobe Hospital.",
+          "Yes, he is a professor at Sakura University."
+        ],
+        "answer": 1,
+        "explanation": "Santos replies: いいえ、私はエンジニアじゃありません。営業の会社員です (No, I am not an engineer. I work in sales)."
+      },
+      {
+        "question": "How does Miller politely ask who the gentleman over there is?",
+        "options": [
+          "あの人は誰ですか。",
+          "あの方はどなたですか。",
+          "お名前は何歳ですか。",
+          "あの方は何歳ですか。"
+        ],
+        "answer": 1,
+        "explanation": "Miller politely inquires: 失礼ですが、あの方はどなたですか。"
+      },
+      {
+        "question": "Who is that gentleman (Professor Watt)?",
+        "options": [
+          "A researcher at Power Electric",
+          "A Brazilian company employee",
+          "A professor at Sakura University",
+          "A doctor at Kobe Hospital"
+        ],
+        "answer": 2,
+        "explanation": "Sato answers: あの方はワット先生です。さくら大学の教授ですよ (That is Professor Watt, a professor at Sakura University)."
+      },
+      {
+        "question": "What is Professor Watt's nationality?",
+        "options": [
+          "American",
+          "British",
+          "German",
+          "Brazilian"
+        ],
+        "answer": 1,
+        "explanation": "Sato clarifies: ワット先生はアメリカ人じゃありません。イギリス人です (Professor Watt is British, not American)."
+      },
+      {
+        "question": "Why does Santos use the particle も in 『私もIMCの社員です』?",
+        "options": [
+          "Because he is negating Miller's statement.",
+          "Because he is asking a question.",
+          "Because he shares the same company affiliation that was just mentioned by Miller.",
+          "Because he owns the company."
+        ],
+        "answer": 2,
+        "explanation": "Particle も replaces は to denote 'also / too' when repeating a predicate."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct meaning of 会社員 (かいしゃいん).",
+      "prompt": {
+        "kanji": "サントスさんは会社員です。",
+        "kana": "サントスさんは かいしゃいんです。"
+      },
+      "options": [
+        "company employee",
+        "bank employee",
+        "university professor",
+        "medical doctor"
+      ],
+      "answer": 0,
+      "explanation": "会社員 (かいしゃいん) means company employee. 銀行員 is bank employee; 医者 is doctor."
+    },
+    {
+      "question": "Choose the correct pronunciation of the topic particle は in: 私は学生です。",
+      "options": [
+        "ha",
+        "wa",
+        "ba",
+        "o"
+      ],
+      "answer": 1,
+      "explanation": "When the hiragana character は is used as the grammatical topic marker, it is always pronounced 'wa'."
+    },
+    {
+      "question": "Choose the natural polite negative ending for daily conversation: 'Mr. Miller is not a doctor.'",
+      "prompt": {
+        "kanji": "ミラーさんは医者___。",
+        "kana": "ミラーさんは いしゃ___。"
+      },
+      "options": [
+        "じゃありません",
+        "ではありませんでした",
+        "くないです",
+        "ではありませんです"
+      ],
+      "answer": 0,
+      "explanation": "The standard conversational polite negative for noun predicates is じゃありません (or formal ではありません)."
+    },
+    {
+      "question": "Choose the correct particle to show similarity: 'Karina is a student. I am [also] a student.'",
+      "prompt": {
+        "kanji": "カリナさんは学生です。私___学生です。",
+        "kana": "カリナさんは がくせいです。わたし___ がくせいです。"
+      },
+      "options": [
+        "は",
+        "も",
+        "の",
+        "か"
+      ],
+      "answer": 1,
+      "explanation": "The particle も replaces は when expressing 'also / too'."
+    },
+    {
+      "question": "Choose the correct particle to connect the company to the employee: 'Mr. Miller is an employee OF IMC.'",
+      "prompt": {
+        "kanji": "ミラーさんはIMC___社員です。",
+        "kana": "ミラーさんは アイエムシー___ しゃいんです。"
+      },
+      "options": [
+        "の",
+        "は",
+        "も",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Use の to show organizational affiliation: [Organization] の [Role/Employee]."
+    },
+    {
+      "question": "Which self-introduction is culturally and grammatically INCORRECT in Japanese?",
+      "options": [
+        "初めまして。私はスミスです。どうぞよろしくお願いします。",
+        "初めまして。スミスです。アメリカから来ました。",
+        "初めまして。私はスミスさんです。どうぞよろしくお願いします。",
+        "初めまして。IMCの社員のスミスです。"
+      ],
+      "answer": 2,
+      "explanation": "CRUCIAL RULE: Never use the honorific title ～さん when referring to yourself. Saying 私はスミスさんです is considered self-important and unnatural."
+    },
+    {
+      "question": "Choose the polite form of question word 'Who' (誰 / だれ).",
+      "options": [
+        "どなた",
+        "どれ",
+        "どう",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "どなた is the polite honorific counterpart of だれ (who)."
+    },
+    {
+      "question": "Choose the polite form of 'How old' (何歳 / なんさい).",
+      "options": [
+        "おいくつ",
+        "いくら",
+        "どれ",
+        "どうやって"
+      ],
+      "answer": 0,
+      "explanation": "おいくつ is the polite honorific question used to ask someone's age."
+    },
+    {
+      "question": "What is the special pronunciation for 20 years old in Japanese?",
+      "options": [
+        "にじゅっさい",
+        "はたち",
+        "にさい",
+        "はっさい"
+      ],
+      "answer": 1,
+      "explanation": "20 years old is traditionally and irregularly pronounced はたち (二十歳)."
+    },
+    {
+      "question": "How do you pronounce 1 year old (1歳) and 8 years old (8歳)?",
+      "options": [
+        "いちさい / はちさい",
+        "いっさい / はっさい",
+        "ひとさい / やっさい",
+        "いっさい / はちさい"
+      ],
+      "answer": 1,
+      "explanation": "1歳 undergoes gemination to いっさい, and 8歳 becomes はっさい."
+    },
+    {
+      "question": "Choose the correct phrase to introduce a person standing beside you: 'This is Mr. Santos.'",
+      "prompt": {
+        "kanji": "___サントスさんです。",
+        "kana": "___ サントスさんです。"
+      },
+      "options": [
+        "こちらは",
+        "あそこは",
+        "これ",
+        "それは"
+      ],
+      "answer": 0,
+      "explanation": "こちらは～さんです is the standard polite phrase used to introduce someone beside you."
+    },
+    {
+      "question": "Choose the natural reply to: どうぞよろしくお願いします。",
+      "options": [
+        "こちらこそ、どうぞよろしくお願いします。",
+        "はい、そうです。",
+        "いいえ、違います。",
+        "初めまして、どうぞ。"
+      ],
+      "answer": 0,
+      "explanation": "こちらこそ ('It is I, not you') begins the polite reciprocal reply: こちらこそ、どうぞよろしくお願いします."
+    },
+    {
+      "question": "Choose the appropriate word for describing your OWN job when speaking modestly to others.",
+      "prompt": {
+        "kanji": "私の仕事は___です。",
+        "kana": "わたしの しごとは ___です。"
+      },
+      "options": [
+        "教師 (きょうし)",
+        "先生 (せんせい)",
+        "先生さん",
+        "お先生"
+      ],
+      "answer": 0,
+      "explanation": "Use 教師 (きょうし) for your own occupation. 先生 is an honorific title reserved for others."
+    },
+    {
+      "question": "Choose the polite phrase used BEFORE asking someone's name or age: 'Excuse me, but...'",
+      "prompt": {
+        "kanji": "___、お名前は？",
+        "kana": "___、おなまえは？"
+      },
+      "options": [
+        "失礼ですが",
+        "どうやって",
+        "そうですか",
+        "初めまして"
+      ],
+      "answer": 0,
+      "explanation": "失礼ですが (しつれいですが) literally means 'It is a discourtesy/rudeness, but...' and politely cushions personal questions."
+    },
+    {
+      "question": "Is the sentence 『サントスさんはブラジルから来ましたか。』 correct?",
+      "options": [
+        "Yes, it asks 'Did Mr. Santos come from Brazil?'",
+        "No, it needs a question mark instead of か.",
+        "No, から cannot follow a country.",
+        "No, 来ました is rude."
+      ],
+      "answer": 0,
+      "explanation": "The sentence is completely natural and correct: [Country] から 来ましたか."
+    },
+    {
+      "question": "Choose the correct way to say: 'Mr. Wang is not Japanese. He is Chinese.'",
+      "options": [
+        "ワンさんは日本人じゃありません。中国人です。",
+        "ワンさんは日本人ではありませんでした。中国です。",
+        "ワンさんは日本人くないです。中国人です。",
+        "ワンさんは中国人じゃありません。日本人です。"
+      ],
+      "answer": 0,
+      "explanation": "Noun + じゃありません (is not) followed by 中国人です (is Chinese)."
+    },
+    {
+      "question": "What is the meaning of 銀行員 (ぎんこういん)?",
+      "options": [
+        "bank employee",
+        "hospital doctor",
+        "university researcher",
+        "company president"
+      ],
+      "answer": 0,
+      "explanation": "銀行 (ぎんこう = bank) + 員 (いん = member/staff) = bank employee."
+    },
+    {
+      "question": "Choose the correct response to: ミラーさんは会社員ですか。(affirmative).",
+      "options": [
+        "はい、会社員です。",
+        "いいえ、会社員です。",
+        "はい、会社員じゃありません。",
+        "いいえ、そうです。"
+      ],
+      "answer": 0,
+      "explanation": "An affirmative answer uses はい followed by the affirmative predicate: はい、会社員です (or はい、そうです)."
+    },
+    {
+      "question": "Choose the natural response to: サントスさんは学生ですか。(negative).",
+      "options": [
+        "いいえ、学生じゃありません。",
+        "はい、学生じゃありません。",
+        "いいえ、そうです。",
+        "はい、違います。"
+      ],
+      "answer": 0,
+      "explanation": "A negative answer starts with いいえ followed by the negative predicate: いいえ、学生じゃありません (or いいえ、違います)."
+    },
+    {
+      "question": "Choose the sentence where の denotes possession / belonging.",
+      "options": [
+        "これは私の本です。",
+        "山田さんはIMCの社員です。",
+        "ワットさんは英語の先生です。",
+        "あそこは神戸の病院です。"
+      ],
+      "answer": 0,
+      "explanation": "私の本 (my book) denotes direct possession."
+    },
+    {
+      "question": "What is the polite honorific word for 'that person' (あの人)?",
+      "options": [
+        "あの方 (あのかた)",
+        "どの人 (どのひと)",
+        "みなさん",
+        "この人 (このひと)"
+      ],
+      "answer": 0,
+      "explanation": "あの方 (あのかた) is the polite honorific form of あの人."
+    },
+    {
+      "question": "Which sentence means: 'Anna is also an American'?",
+      "options": [
+        "アンナさんもアメリカ人です。",
+        "アンナさんはアメリカ人です。",
+        "アンナさんのアメリカ人です。",
+        "アンナさんはもアメリカ人です。"
+      ],
+      "answer": 0,
+      "explanation": "も replaces は: アンナさんもアメリカ人です."
+    },
+    {
+      "question": "Choose the correct phrase to say: 'Nice to meet you (for the first time)'.",
+      "options": [
+        "初めまして (はじめまして)",
+        "おはようございます",
+        "失礼ですが",
+        "そうですか"
+      ],
+      "answer": 0,
+      "explanation": "初めまして is said exclusively upon meeting someone for the first time."
+    },
+    {
+      "question": "Choose the correct counter for Teresa's age: 'Teresa is 9 years old.'",
+      "prompt": {
+        "kanji": "テレサちゃんは9___です。",
+        "kana": "テレサちゃんは きゅう___です。"
+      },
+      "options": [
+        "歳 (さい)",
+        "番 (ばん)",
+        "人 (にん)",
+        "日 (にち)"
+      ],
+      "answer": 0,
+      "explanation": "Age is counted with 歳 (さい). 9歳 = きゅうさい."
+    },
+    {
+      "question": "What does 『あの方はどなたですか』 mean?",
+      "options": [
+        "Who is that person? (Polite)",
+        "Where is that hospital?",
+        "How old is that person?",
+        "What is that company?"
+      ],
+      "answer": 0,
+      "explanation": "あの方 (that person) + どなた (who) + ですか = Who is that person? (Polite)."
+    },
+    {
+      "question": "Choose the correct nationality formation: 'German person'.",
+      "options": [
+        "ドイツ人 (ドイツじん)",
+        "ドイツ者 (ドイツしゃ)",
+        "ドイツ員 (ドイツいん)",
+        "ドイツ方 (ドイツかた)"
+      ],
+      "answer": 0,
+      "explanation": "Add ～人 (じん) to a country name to denote a person of that nationality: ドイツ人."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "山田さんはさくら大学の学生です。",
+        "山田さんはさくら大学の学生さんです。",
+        "山田さんはさくら大学に学生です。",
+        "山田さんはさくら大学と学生です。"
+      ],
+      "answer": 0,
+      "explanation": "Use の to show school affiliation: さくら大学の学生."
+    },
+    {
+      "question": "Choose the correct suffix for a 5-year-old child named Ken.",
+      "options": [
+        "けんちゃん / けんくん",
+        "けん先生",
+        "けん様",
+        "けんどなた"
+      ],
+      "answer": 0,
+      "explanation": "Young children are affectionately addressed with ちゃん or くん."
+    },
+    {
+      "question": "Choose the sentence that correctly asks for someone's name.",
+      "options": [
+        "失礼ですが、お名前は？",
+        "失礼ですが、おいくつですか？",
+        "失礼ですが、どちらですか？",
+        "失礼ですが、だれですか？"
+      ],
+      "answer": 0,
+      "explanation": "失礼ですが、お名前は？ is the standard, polite way to ask for a name."
+    },
+    {
+      "question": "What does the expression 『いいえ、違います (ちがいます)』 mean?",
+      "options": [
+        "No, that is incorrect / No, that's not right.",
+        "Yes, exactly.",
+        "Nice to meet you.",
+        "Excuse me, but no."
+      ],
+      "answer": 0,
+      "explanation": "違います literally means 'it differs', commonly used as 'No, that is incorrect'."
+    },
+    {
+      "question": "What is the meaning of 研究者 (けんきゅうしゃ)?",
+      "options": [
+        "researcher / scholar",
+        "doctor",
+        "engineer",
+        "teacher"
+      ],
+      "answer": 0,
+      "explanation": "研究者 (けんきゅうしゃ) means researcher or scholar."
+    },
+    {
+      "question": "Choose the correct sentence: 'Mr. Schmidt is not American. He is German.'",
+      "options": [
+        "シュミットさんはアメリカ人じゃありません。ドイツ人です。",
+        "シュミットさんはアメリカ人ではありませんでした。ドイツです。",
+        "シュミットさんはドイツ人じゃありません。アメリカ人です。",
+        "シュミットさんもアメリカ人じゃありません。ドイツ人です。"
+      ],
+      "answer": 0,
+      "explanation": "シュミットさんはアメリカ人じゃありません。ドイツ人です。"
+    },
+    {
+      "question": "Which combination of question and answer is INCORRECT?",
+      "options": [
+        "ワンさんは医者ですか。 — いいえ、医者じゃありません。",
+        "ミラーさんはアメリカ人ですか。 — はい、アメリカ人です。",
+        "山田さんは会社員ですか。 — はい、違います。",
+        "あの方はどなたですか。 — ワット先生です。"
+      ],
+      "answer": 2,
+      "explanation": "はい (Yes) cannot be paired with 違います (That is wrong). The correct response would be いいえ、違います."
+    },
+    {
+      "question": "Choose the correct word: 'Excuse me, but how old are you?' (Polite to an adult).",
+      "prompt": {
+        "kanji": "失礼ですが、___ですか。",
+        "kana": "しつれいですが、___ですか。"
+      },
+      "options": [
+        "おいくつ",
+        "だれ",
+        "どなた",
+        "なんにん"
+      ],
+      "answer": 0,
+      "explanation": "おいくつ is the polite question for age."
+    },
+    {
+      "question": "How do you count 10 years old?",
+      "options": [
+        "じゅっさい (じっさい)",
+        "じゅうさい",
+        "とおさい",
+        "じゅさい"
+      ],
+      "answer": 0,
+      "explanation": "10歳 is pronounced じゅっさい (or traditionally じっさい)."
+    },
+    {
+      "question": "Choose the correct phrase: 'I came from Thailand.'",
+      "prompt": {
+        "kanji": "タイ___来ました。",
+        "kana": "タイ___ きました。"
+      },
+      "options": [
+        "から",
+        "まで",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "から marks the origin/source: タイから来ました."
+    },
+    {
+      "question": "Can you say 『私はIMCの社員です』 and 『私は会社員です』?",
+      "options": [
+        "Yes, both are completely natural and correct.",
+        "No, you must never use 社員.",
+        "No, 会社員 cannot be used for oneself.",
+        "No, IMC must take particle に."
+      ],
+      "answer": 0,
+      "explanation": "Both are correct: 会社員 describes the broad profession, while [Company] の 社員 specifies the corporate affiliation."
+    },
+    {
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "マイクさんはIMCの社員です。",
+        "マイクさんはIMCは社員です。",
+        "マイクさんもIMCも社員です。",
+        "マイクさんのはIMC社員です。"
+      ],
+      "answer": 0,
+      "explanation": "マイクさんは (Topic) IMCの (Modifier) 社員です (Predicate)."
+    },
+    {
+      "question": "What is the meaning of 病院 (びょういん)?",
+      "options": [
+        "hospital",
+        "university",
+        "bank",
+        "company"
+      ],
+      "answer": 0,
+      "explanation": "病院 = hospital. (Note: びよういん with a small よ is beauty parlor; びょういん with a small ょ is hospital)."
+    },
+    {
+      "question": "Choose the correct question to ask: 'Is that gentleman Professor Watt?'",
+      "options": [
+        "あの方はワット先生ですか。",
+        "あの人はワット先生でしたか。",
+        "あの方はワット先生ですね。",
+        "あの人はワット先生じゃありませんか。"
+      ],
+      "answer": 0,
+      "explanation": "Polite question: あの方はワット先生ですか。"
+    }
+  ],
+  "writing": {
+    "title": "Self-Introduction and Introducing a Colleague (自己紹介)",
+    "prompt": "Write a 5–7 sentence self-introduction and introduce a colleague in Japanese. (1) Greet the listener for the first time using 初めまして. (2) State your name, nationality (using ～人), and where you came from (using ～から来ました). (3) State your occupation and affiliation using 『[Organization] の [Role]』. (4) Introduce a friend or colleague standing beside you using 『こちらは～さんです』 and state their nationality and profession. (5) State whether they share an affiliation or role using the particle も. (6) Close politely with どうぞよろしくお願いします.",
+    "placeholder": "初めまして。私は ______ です。______ 人です。______ から来ました。\n______ の ______ です。\nこちらは ______ さんです。______ 人です。______ さんも ______ です。\nどうぞよろしくお願いします。",
+    "modelAnswer": "初めまして。マイク・ミラーです。アメリカ人です。アメリカから来ました。IMCの社員です。こちらはホセ・サントスさんです。ブラジル人です。サントスさんもIMCの社員です。どうぞよろしくお願いします。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I am Mike Miller.",
+        "chunks": [
+          "私は",
+          "マイク・ミラー",
+          "です。"
+        ]
+      },
+      {
+        "en": "Mr. Santos is not a student.",
+        "chunks": [
+          "サントスさんは",
+          "学生じゃ",
+          "ありません。"
+        ]
+      },
+      {
+        "en": "Is Mr. Miller an American?",
+        "chunks": [
+          "ミラーさんは",
+          "アメリカ人",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Yes, that is correct. He is an American.",
+        "chunks": [
+          "はい、そうです。",
+          "アメリカ人",
+          "です。"
+        ]
+      },
+      {
+        "en": "Mr. Gupta is also a company employee.",
+        "chunks": [
+          "グプタさんも",
+          "会社員",
+          "です。"
+        ]
+      },
+      {
+        "en": "Mr. Miller is an employee of IMC.",
+        "chunks": [
+          "ミラーさんは",
+          "IMCの",
+          "社員です。"
+        ]
+      },
+      {
+        "en": "Who is that distinguished person over there?",
+        "chunks": [
+          "あの方は",
+          "どなた",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Teresa is nine years old.",
+        "chunks": [
+          "テレサちゃんは",
+          "9歳",
+          "です。"
+        ]
+      },
+      {
+        "en": "Excuse me, but what is your name?",
+        "chunks": [
+          "失礼ですが、",
+          "お名前は",
+          "何ですか。"
+        ]
+      },
+      {
+        "en": "Nice to meet you. Pleased to meet you.",
+        "chunks": [
+          "初めまして。",
+          "どうぞよろしく",
+          "お願いします。"
+        ]
+      },
+      {
+        "en": "Karina is a student at Fuji University.",
+        "chunks": [
+          "カリナさんは",
+          "富士大学の",
+          "学生です。"
+        ]
+      },
+      {
+        "en": "Ms. Sato is not an engineer.",
+        "chunks": [
+          "佐藤さんは",
+          "エンジニアでは",
+          "ありません。"
+        ]
+      },
+      {
+        "en": "This is Mr. Watt. He is an English teacher.",
+        "chunks": [
+          "こちらはワットさんです。",
+          "英語の",
+          "先生です。"
+        ]
+      },
+      {
+        "en": "How old is Mr. Wang? He is 31 years old.",
+        "chunks": [
+          "ワンさんは何歳ですか。",
+          "31歳",
+          "です。"
+        ]
+      },
+      {
+        "en": "I came from Thailand.",
+        "chunks": [
+          "タイから",
+          "来ました。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "学生です (Conversational Negative)",
+        "form": "Negative form",
+        "answer": "がくせいじゃありません",
+        "options": [
+          "がくせいじゃありません",
+          "がくせいではありませんでした",
+          "がくせいくないです"
+        ],
+        "hint": "Conversational polite negative of Noun + です is Noun + じゃありません"
+      },
+      {
+        "prompt": "会社員です (Formal Negative)",
+        "form": "Formal Negative form",
+        "answer": "かいしゃいんではありません",
+        "options": [
+          "かいしゃいんではありません",
+          "かいしゃいんじゃないです",
+          "かいしゃいんくないです"
+        ],
+        "hint": "Written / formal polite negative uses ではありません"
+      },
+      {
+        "prompt": "医者です (Negative)",
+        "form": "Negative form",
+        "answer": "いしゃじゃありません",
+        "options": [
+          "いしゃじゃありません",
+          "いしゃくないです",
+          "いしゃでありません"
+        ],
+        "hint": "Negative of 医者です is 医者じゃありません"
+      },
+      {
+        "prompt": "先生です (Negative)",
+        "form": "Negative form",
+        "answer": "せんせいじゃありません",
+        "options": [
+          "せんせいじゃありません",
+          "せんせいくないです",
+          "せんせいじゃないでした"
+        ],
+        "hint": "Negative of 先生です is 先生じゃありません"
+      },
+      {
+        "prompt": "1歳 (1 year old reading)",
+        "form": "Age Counter Reading",
+        "answer": "いっさい",
+        "options": [
+          "いっさい",
+          "いちさい",
+          "ひとさい"
+        ],
+        "hint": "1 + 歳 undergoes gemination to いっさい (NOT いちさい)"
+      },
+      {
+        "prompt": "8歳 (8 years old reading)",
+        "form": "Age Counter Reading",
+        "answer": "はっさい",
+        "options": [
+          "はっさい",
+          "はちさい",
+          "やつさい"
+        ],
+        "hint": "8 + 歳 undergoes gemination to はっさい (NOT はちさい)"
+      },
+      {
+        "prompt": "10歳 (10 years old reading)",
+        "form": "Age Counter Reading",
+        "answer": "じゅっさい",
+        "options": [
+          "じゅっさい",
+          "じゅうさい",
+          "とおさい"
+        ],
+        "hint": "10 + 歳 is read じゅっさい (or じっさい)"
+      },
+      {
+        "prompt": "20歳 (20 years old special reading)",
+        "form": "Age Counter Reading",
+        "answer": "はたち",
+        "options": [
+          "はたち",
+          "にじゅっさい",
+          "はつか"
+        ],
+        "hint": "Traditional special irregular pronunciation for 20 years old"
+      },
+      {
+        "prompt": "あの人 (Polite Honorific form)",
+        "form": "Honorific form",
+        "answer": "あのかた",
+        "options": [
+          "あのかた",
+          "このかた",
+          "そのひと"
+        ],
+        "hint": "Polite form of あの人 (ano hito) is あの方 (ano kata)"
+      },
+      {
+        "prompt": "誰 / だれ (Polite Honorific question)",
+        "form": "Honorific Question Word",
+        "answer": "どなた",
+        "options": [
+          "どなた",
+          "どれ",
+          "どちら"
+        ],
+        "hint": "Polite form of だれ (who) is どなた (donata)"
+      },
+      {
+        "prompt": "何歳 / なんさい (Polite Question)",
+        "form": "Honorific Question Word",
+        "answer": "おいくつ",
+        "options": [
+          "おいくつ",
+          "いくら",
+          "どれくらい"
+        ],
+        "hint": "Polite honorific question for age is おいくつ (oikutsu)"
+      },
+      {
+        "prompt": "アメリカ (Nationality form)",
+        "form": "Nationality",
+        "answer": "アメリカじん",
+        "options": [
+          "アメリカじん",
+          "アメリカひと",
+          "アメリカしゃ"
+        ],
+        "hint": "Attach suffix ～人 (じん) to the country name"
+      },
+      {
+        "prompt": "ドイツ (Nationality form)",
+        "form": "Nationality",
+        "answer": "ドイツじん",
+        "options": [
+          "ドイツじん",
+          "ドイツひと",
+          "ドイツもの"
+        ],
+        "hint": "Country + ～人 (じん) = ドイツ人"
+      },
+      {
+        "prompt": "日本 (Nationality form)",
+        "form": "Nationality",
+        "answer": "にほんじん",
+        "options": [
+          "にほんじん",
+          "にほんひと",
+          "にっぽんしゃ"
+        ],
+        "hint": "日本 + 人 = にほんじん"
+      },
+      {
+        "prompt": "イギリス (Nationality form)",
+        "form": "Nationality",
+        "answer": "イギリスじん",
+        "options": [
+          "イギリスじん",
+          "イギリスひと",
+          "イギリスいん"
+        ],
+        "hint": "イギリス + 人 = イギリス人"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "私 [ ? ] マイク・ミラーです。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "も",
+          "の"
+        ],
+        "hint": "Marks the topic of the sentence (pronounced 'wa')."
+      },
+      {
+        "sentence": "ミラーさんはアメリカ人です。スミスさん [ ? ] アメリカ人です。",
+        "answer": "も",
+        "options": [
+          "も",
+          "は",
+          "の",
+          "と"
+        ],
+        "hint": "Expresses 'also' or 'too' when replacing the topic marker."
+      },
+      {
+        "sentence": "ミラーさんはIMC [ ? ] 社員です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "に",
+          "で"
+        ],
+        "hint": "Links organization to role: [Company] の [Employee]."
+      },
+      {
+        "sentence": "サントスさんは学生です [ ? ]。",
+        "answer": "か",
+        "options": [
+          "か",
+          "ね",
+          "よ",
+          "わ"
+        ],
+        "hint": "Turns a statement into a question at the end of the sentence."
+      },
+      {
+        "sentence": "アメリカ [ ? ] 来ました。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "hint": "Indicates the starting point or place of origin ('from')."
+      },
+      {
+        "sentence": "カリナさんは富士大学 [ ? ] 学生です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "と"
+        ],
+        "hint": "Links school affiliation to student."
+      },
+      {
+        "sentence": "ワンさん [ ? ] 医者じゃありません。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "が"
+        ],
+        "hint": "Topic marker for a negative sentence."
+      },
+      {
+        "sentence": "あの方 [ ? ] どなたですか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "か"
+        ],
+        "hint": "Marks the person being inquired about as the topic."
+      },
+      {
+        "sentence": "ワット先生は英語 [ ? ] 先生です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "で",
+          "を"
+        ],
+        "hint": "Noun modifying noun: subject matter + の + teacher."
+      },
+      {
+        "sentence": "ブラジル [ ? ] 来ました。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "へ",
+          "に"
+        ],
+        "hint": "Marks origin with 来ました."
+      },
+      {
+        "sentence": "リーさんも韓国人です [ ? ]。— はい、韓国人です。",
+        "answer": "か",
+        "options": [
+          "か",
+          "ね",
+          "よ",
+          "の"
+        ],
+        "hint": "Question marker particle."
+      },
+      {
+        "sentence": "これ [ ? ] 私の本です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "と"
+        ],
+        "hint": "Topic marker for 'this item'."
+      },
+      {
+        "sentence": "私 [ ? ] 本です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "に"
+        ],
+        "hint": "Possessive marker: [Owner] の [Item]."
+      },
+      {
+        "sentence": "あの方 [ ? ] 神戸病院の医者です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "に"
+        ],
+        "hint": "Topic marker."
+      },
+      {
+        "sentence": "神戸病院 [ ? ] 医者です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "で",
+          "と"
+        ],
+        "hint": "Affiliation marker."
+      },
+      {
+        "sentence": "あなた [ ? ] 会社員ですか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "が"
+        ],
+        "hint": "Topic marker addressing the listener."
+      },
+      {
+        "sentence": "山田さんも日本人です [ ? ]。",
+        "answer": "か",
+        "options": [
+          "か",
+          "ね",
+          "よ",
+          "わ"
+        ],
+        "hint": "Question marker at the end."
+      },
+      {
+        "sentence": "タイ [ ? ] 来ました。タワポンです。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "hint": "Origin particle."
+      },
+      {
+        "sentence": "パワー電気 [ ? ] 社員です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "で"
+        ],
+        "hint": "Company name + の + 社員."
+      },
+      {
+        "sentence": "木村君 [ ? ] さくら大学の学生です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "が"
+        ],
+        "hint": "Topic marker for third person."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Meeting someone for the first time",
+        "speaker": "相手",
+        "prompt": "初めまして。田中です。どうぞよろしくお願いします。",
+        "options": [
+          {
+            "text": "初めまして。ミラーです。こちらこそ、どうぞよろしくお願いします。",
+            "correct": true
+          },
+          {
+            "text": "初めまして。ミラーさんです。よろしくお願いします。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          }
+        ],
+        "tip": "Never attach ～さん to your own name. Reply to どうぞよろしく with こちらこそ."
+      },
+      {
+        "situation": "Politely asking someone's name",
+        "speaker": "受付",
+        "prompt": "失礼ですが、お名前は？",
+        "options": [
+          {
+            "text": "サントスです。",
+            "correct": true
+          },
+          {
+            "text": "サントスさんです。",
+            "correct": false
+          },
+          {
+            "text": "はい、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "State your family name without ~san."
+      },
+      {
+        "situation": "Confirming occupation",
+        "speaker": "同僚",
+        "prompt": "ミラーさんは先生ですか？",
+        "options": [
+          {
+            "text": "いいえ、先生じゃありません。会社員です。",
+            "correct": true
+          },
+          {
+            "text": "はい、先生じゃありません。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、会社員ではありませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Deny politely with いいえ、[Noun] じゃありません, then state the correct job."
+      },
+      {
+        "situation": "Asking who someone is (polite setting)",
+        "speaker": "客",
+        "prompt": "あの方はどなたですか？",
+        "options": [
+          {
+            "text": "あの方はパワー電気の松本社長です。",
+            "correct": true
+          },
+          {
+            "text": "あの方は誰です。",
+            "correct": false
+          },
+          {
+            "text": "あの人はどなたですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer an あの方 question with their name, title, and organization."
+      },
+      {
+        "situation": "Confirming shared nationality",
+        "speaker": "留学生",
+        "prompt": "ワンさんは中国人です。リーさんも中国人ですか？",
+        "options": [
+          {
+            "text": "はい、リーさんも中国人です。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、リーさんも中国人です。",
+            "correct": false
+          },
+          {
+            "text": "はい、リーさんは中国人じゃありません。",
+            "correct": false
+          }
+        ],
+        "tip": "Confirming similarity retains particle も in the affirmative."
+      },
+      {
+        "situation": "Inquiring about an adult's age politely",
+        "speaker": "面接官",
+        "prompt": "失礼ですが、おいくつですか？",
+        "options": [
+          {
+            "text": "28歳です。",
+            "correct": true
+          },
+          {
+            "text": "アメリカ人です。",
+            "correct": false
+          },
+          {
+            "text": "会社員です。",
+            "correct": false
+          }
+        ],
+        "tip": "おいくつ asks for age; answer with [Number] + 歳 (さい) です."
+      },
+      {
+        "situation": "Introducing a third person nearby",
+        "speaker": "同僚",
+        "prompt": "こちらはどなたですか？",
+        "options": [
+          {
+            "text": "こちらは神戸病院の山田先生です。",
+            "correct": true
+          },
+          {
+            "text": "これは山田さんです。",
+            "correct": false
+          },
+          {
+            "text": "ここは山田先生です。",
+            "correct": false
+          }
+        ],
+        "tip": "Use こちらは～さん/先生です when introducing people."
+      },
+      {
+        "situation": "Checking whether a statement is correct",
+        "speaker": "受付",
+        "prompt": "サントスさんはブラジル人ですか？",
+        "options": [
+          {
+            "text": "はい、そうです。",
+            "correct": true
+          },
+          {
+            "text": "はい、違います。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "はい、そうです is the natural way to say 'Yes, that is right'."
+      },
+      {
+        "situation": "Checking whether a statement is wrong",
+        "speaker": "同僚",
+        "prompt": "山田さんはエンジニアですか？",
+        "options": [
+          {
+            "text": "いいえ、違います。銀行員です。",
+            "correct": true
+          },
+          {
+            "text": "はい、違います。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、銀行員です。",
+            "correct": false
+          }
+        ],
+        "tip": "Use いいえ、違います ('No, that's incorrect') followed by the correct information."
+      },
+      {
+        "situation": "Asking where someone came from",
+        "speaker": "友人",
+        "prompt": "どこから来ましたか？",
+        "options": [
+          {
+            "text": "アメリカから来ました。",
+            "correct": true
+          },
+          {
+            "text": "アメリカ人で来ました。",
+            "correct": false
+          },
+          {
+            "text": "アメリカの来ました。",
+            "correct": false
+          }
+        ],
+        "tip": "Origin takes から: [Country] から 来ました."
+      }
+    ]
+  }
+}

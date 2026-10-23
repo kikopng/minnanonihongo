@@ -148,7 +148,6 @@
       font-weight: 600;
     }
 
-    /* Mode Switcher: Vocab vs Grammar */
     .arcade-mode-toggle {
       display: flex;
       gap: 6px;
@@ -324,7 +323,7 @@
     .card-face .kanji-text { font-size: 2.2rem; font-weight: 900; color: var(--text-main); }
     .card-face .kana-text { font-size: 1.3rem; font-weight: 700; color: var(--pink-deep); margin-top: 2px; }
     .card-face .romaji-text { font-size: 0.95rem; color: var(--text-muted); margin-top: 2px; }
-    .card-face .english-text { font-size: 1.5rem; font-weight: 900; color: var(--pink-deep); margin-bottom: 10px; }
+    .card-face .english-text { font-size: 1.45rem; font-weight: 900; color: var(--pink-deep); margin-bottom: 8px; line-height: 1.3; }
     .example-sentence {
       background: #FFF0F5;
       padding: 10px 14px;
@@ -479,7 +478,7 @@
       padding: 14px 12px;
       border-radius: 16px;
       font-family: inherit;
-      font-size: 1rem;
+      font-size: 0.98rem;
       font-weight: 800;
       color: var(--text-main);
       cursor: pointer;
@@ -487,6 +486,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      text-align: left;
     }
     .quiz-opt-key {
       background: #FFE5EE;
@@ -498,6 +498,7 @@
       align-items: center;
       justify-content: center;
       font-size: 0.8rem;
+      flex-shrink: 0;
     }
     .quiz-opt-btn.correct { background: var(--mint) !important; border-color: var(--mint-dark) !important; color: #0A5531 !important; }
     .quiz-opt-btn.wrong { background: #FFD4D4 !important; border-color: #FF6868 !important; color: #901111 !important; }
@@ -572,7 +573,7 @@
 
     /* KANA SUSHI */
     .scramble-target { text-align: center; margin-bottom: 18px; }
-    .scramble-en { font-size: 1.65rem; font-weight: 900; color: var(--pink-deep); }
+    .scramble-en { font-size: 1.55rem; font-weight: 900; color: var(--pink-deep); }
     .scramble-kanji { font-size: 1.1rem; color: var(--text-muted); font-weight: 700; margin-top: 3px; }
     .scramble-slots { display: flex; gap: 8px; justify-content: center; margin-bottom: 20px; min-height: 55px; flex-wrap: wrap; }
     .slot-box {
@@ -597,10 +598,7 @@
     }
     .kana-tile.used { opacity: 0.2; pointer-events: none; }
 
-    /* =========================================================
-       NEW GRAMMAR GAMES STYLES
-    ========================================================== */
-    /* GAME A: SHINKANSEN SENTENCE BUILDER */
+    /* SHINKANSEN */
     .shinkansen-arena {
       background: linear-gradient(180deg, #E8F5FF 0%, #FFF 100%);
       border: 2px dashed #93D5FF;
@@ -680,7 +678,14 @@
     .chunk-tile:active { transform: scale(0.95); }
     .chunk-tile.used { opacity: 0.2; pointer-events: none; }
 
-    /* GAME B: TAKOYAKI CONJUGATION FLIP */
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    .shake-anim { animation: shake 0.4s ease-in-out; }
+
+    /* TAKOYAKI */
     .takoyaki-grill {
       background: #332729;
       border: 5px solid #231B1C;
@@ -728,8 +733,29 @@
       width: 100%;
       transition: width 0.1s linear;
     }
+    .takoyaki-plate-btn {
+      background: #FFF;
+      color: #542E0C;
+      border: 3px solid #E58E26;
+      padding: 14px 10px;
+      border-radius: 16px;
+      font-weight: 850;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .takoyaki-plate-btn.correct {
+      background: var(--mint) !important;
+      border-color: var(--mint-dark) !important;
+      color: #0A5531 !important;
+    }
+    .takoyaki-plate-btn.wrong {
+      background: #FFD4D4 !important;
+      border-color: #FF6868 !important;
+      color: #901111 !important;
+    }
 
-    /* GAME C: BOBA PARTICLE POP */
+    /* BOBA */
     .boba-cup-arena {
       background: linear-gradient(180deg, #FFF0F5 0%, #FFE1EC 100%);
       border: 3px solid #FFC2D6;
@@ -766,7 +792,7 @@
     .boba-pearl-btn.correct { background: var(--mint-dark) !important; color: white !important; }
     .boba-pearl-btn.wrong { background: #E75480 !important; color: white !important; }
 
-    /* GAME D: KONBINI ROLEPLAY */
+    /* KONBINI */
     .dialogue-scene-box {
       background: #FFF;
       border: 3px solid var(--pink-light);
@@ -860,7 +886,10 @@
 <body>
 
   <canvas id="confetti-canvas"></canvas>
-  <a class="course-back" href="index.html" aria-label="Return to all lessons">← All lessons</a>
+<div style="width:100%; max-width:900px; display:flex; justify-content:space-between; align-items:center; padding: 0 16px;">
+  <a class="course-back" href="index.html" aria-label="Return to all lessons" style="margin: 14px 0 0;">← All lessons</a>
+  <a class="course-back" id="textbook-view-btn" href="lesson.html" style="margin: 14px 0 0; background:#FFF0F5; border-color:var(--pink-primary); color:var(--pink-deep);">📘 Standard Lesson View</a>
+</div>
 
   <header>
     <div class="top-bar">
@@ -924,10 +953,7 @@
   </header>
 
   <main>
-    <!-- ==========================================
-         SECTION 1: VOCABULARY ARCADE GAMES
-    =========================================== -->
-    <!-- TAB: FLASHCARDS -->
+    <!-- VOCAB GAME 1: FLASHCARDS -->
     <section id="tab-cards" class="game-section active">
       <div class="kawaii-box">
         <div class="filter-tags" id="filter-tags">
@@ -970,7 +996,7 @@
       </div>
     </section>
 
-    <!-- TAB: MOCHI MATCH -->
+    <!-- VOCAB GAME 2: MOCHI MATCH -->
     <section id="tab-memory" class="game-section">
       <div class="kawaii-box">
         <div class="memory-stats">
@@ -985,7 +1011,7 @@
       </div>
     </section>
 
-    <!-- TAB: BENTO SPEED QUIZ -->
+    <!-- VOCAB GAME 3: BENTO SPEED QUIZ -->
     <section id="tab-quiz" class="game-section">
       <div class="kawaii-box">
         <div class="quiz-header">
@@ -1011,7 +1037,7 @@
       </div>
     </section>
 
-    <!-- TAB: FALLING STAR CATCHER -->
+    <!-- VOCAB GAME 4: FALLING STAR CATCHER -->
     <section id="tab-catcher" class="game-section">
       <div class="kawaii-box">
         <div class="catcher-arena" id="catcher-arena">
@@ -1038,7 +1064,7 @@
       </div>
     </section>
 
-    <!-- TAB: SUSHI KANA SCRAMBLE -->
+    <!-- VOCAB GAME 5: SUSHI KANA SCRAMBLE -->
     <section id="tab-scramble" class="game-section">
       <div class="kawaii-box">
         <div class="scramble-target">
@@ -1059,10 +1085,7 @@
       </div>
     </section>
 
-    <!-- ==========================================
-         SECTION 2: NEW GRAMMAR ARCADE GAMES
-    =========================================== -->
-    <!-- GAME A: SHINKANSEN SENTENCE BUILDER -->
+    <!-- GRAMMAR GAME A: SHINKANSEN SENTENCE BUILDER -->
     <section id="tab-shinkansen" class="game-section">
       <div class="kawaii-box">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
@@ -1078,19 +1101,20 @@
           <div class="train-track" id="shinkansen-train">
             <div class="engine-head">🚅 前</div>
           </div>
-          <small style="color:#6A8699;">Tap any coupled carriage to send it back below</small>
+          <small style="color:#6A8699;" id="shinkansen-feedback-msg">Tap any coupled carriage to send it back below</small>
         </div>
 
         <div class="carriage-pool" id="shinkansen-pool"></div>
 
-        <div style="display:flex; justify-content:center; gap:10px; margin-top:20px;">
+        <div style="display:flex; justify-content:center; gap:10px; margin-top:20px; flex-wrap:wrap;">
           <button class="btn-cute btn-lavender" onclick="resetShinkansenCurrent()">↩ Reset Track</button>
+          <button class="btn-cute" style="background:var(--yellow); color:var(--yellow-dark);" onclick="showShinkansenHint()">💡 Show Order</button>
           <button class="btn-cute btn-mint" onclick="checkShinkansenTrain()">🚀 Launch Train ▶</button>
         </div>
       </div>
     </section>
 
-    <!-- GAME B: TAKOYAKI CONJUGATION FLIP -->
+    <!-- GRAMMAR GAME B: TAKOYAKI CONJUGATION FLIP -->
     <section id="tab-takoyaki" class="game-section">
       <div class="kawaii-box">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
@@ -1112,7 +1136,7 @@
       </div>
     </section>
 
-    <!-- GAME C: BOBA PARTICLE POP -->
+    <!-- GRAMMAR GAME C: BOBA PARTICLE POP -->
     <section id="tab-boba" class="game-section">
       <div class="kawaii-box">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
@@ -1132,7 +1156,7 @@
       </div>
     </section>
 
-    <!-- GAME D: KONBINI ROLEPLAY -->
+    <!-- GRAMMAR GAME D: KONBINI ROLEPLAY -->
     <section id="tab-konbini" class="game-section">
       <div class="kawaii-box">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
@@ -1180,10 +1204,36 @@
     let cardList = [];
     let ACTIVE_LESSON_DATA = null;
     let currentArcadeMode = 'vocab';
+    let missedVocabIds = new Set(JSON.parse(localStorage.getItem('minna_missed_vocab') || '[]'));
 
     const urlParams = new URLSearchParams(window.location.search);
     const rawLessonParam = urlParams.get('lesson') || '16';
     const lessonNumberPadded = String(rawLessonParam).padStart(2, '0');
+
+    // Immediately point the textbook view button to the current lesson number
+    const textbookBtn = document.getElementById('textbook-view-btn');
+    if (textbookBtn) {
+      textbookBtn.href = `lesson.html?lesson=${rawLessonParam}`;
+    }
+
+    function cleanMeaning(str) {
+      if (!str) return '';
+      return String(str).replace(/\s*\[.*?\]|\s*\(.*?\)/g, '').trim();
+    }
+
+    function recordMissedVocab(id) {
+      if (!id) return;
+      missedVocabIds.add(id);
+      localStorage.setItem('minna_missed_vocab', JSON.stringify([...missedVocabIds]));
+      if (currentTab === 'cards') buildFilterButtons(ACTIVE_VOCAB);
+    }
+
+    function removeMissedVocab(id) {
+      if (!id || !missedVocabIds.has(id)) return;
+      missedVocabIds.delete(id);
+      localStorage.setItem('minna_missed_vocab', JSON.stringify([...missedVocabIds]));
+      if (currentTab === 'cards') buildFilterButtons(ACTIVE_VOCAB);
+    }
 
     function getWordIcon(item) {
       if (item.icon) return item.icon;
@@ -1218,12 +1268,22 @@
           kana: v.kana || '',
           romaji: v.romaji || '',
           en: v.meaning || v.en || '',
+          cleanEn: cleanMeaning(v.meaning || v.en || ''),
           type: (v.category || v.type || 'general').toLowerCase(),
           icon: getWordIcon(v),
           example: exText,
           exampleEn: exTranslation
         };
       });
+    }
+
+    function getSmartDistractors(target, count) {
+      const sameCat = ACTIVE_VOCAB.filter(v => v.id !== target.id && v.type === target.type);
+      const otherCat = ACTIVE_VOCAB.filter(v => v.id !== target.id && v.type !== target.type);
+      const shuffledSame = [...sameCat].sort(() => Math.random() - 0.5);
+      const shuffledOther = [...otherCat].sort(() => Math.random() - 0.5);
+      const combined = [...shuffledSame, ...shuffledOther];
+      return combined.slice(0, count);
     }
 
     async function loadArcadeLesson() {
@@ -1257,7 +1317,6 @@
       }
     }
 
-    // Toggle Vocab Mode vs Grammar Arcade Mode
     function setArcadeMode(mode) {
       currentArcadeMode = mode;
       sound.pop();
@@ -1278,7 +1337,12 @@
       const container = document.getElementById('filter-tags');
       if (!container) return;
       const categories = [...new Set(vocab.map(v => v.type))].filter(Boolean);
+      const missedCount = vocab.filter(v => missedVocabIds.has(v.id)).length;
+      
       let html = `<button class="tag-btn active" onclick="filterCards('all', this)">All (${vocab.length})</button>`;
+      if (missedCount > 0) {
+        html += `<button class="tag-btn" style="border-color:var(--pink-deep); color:var(--pink-deep);" onclick="filterCards('missed', this)">⚠️ Review Missed (${missedCount})</button>`;
+      }
       categories.forEach(cat => {
         const count = vocab.filter(v => v.type === cat).length;
         html += `<button class="tag-btn" onclick="filterCards('${cat}', this)">${cat} (${count})</button>`;
@@ -1576,11 +1640,24 @@
     /* =========================================================
        3. GLOBAL APP CONTROLLER
     ========================================================== */
-    let playerXP = 0;
+    let playerXP = parseInt(localStorage.getItem('minna_player_xp') || '0', 10);
     let currentTab = 'cards';
+    let gameTimeouts = [];
+
+    function setGameTimeout(fn, delay) {
+      const t = setTimeout(fn, delay);
+      gameTimeouts.push(t);
+      return t;
+    }
+
+    function clearGameTimeouts() {
+      gameTimeouts.forEach(t => clearTimeout(t));
+      gameTimeouts = [];
+    }
 
     function addXP(amount) {
       playerXP += amount;
+      localStorage.setItem('minna_player_xp', playerXP);
       document.getElementById('player-xp').innerText = playerXP;
     }
 
@@ -1591,6 +1668,7 @@
     }
 
     function pauseOrStopActiveGames() {
+      clearGameTimeouts();
       if (quizTimer) { clearInterval(quizTimer); quizTimer = null; }
       if (takoyakiTimer) { clearInterval(takoyakiTimer); takoyakiTimer = null; }
       if (catcherActive && !catcherPaused) pauseCatcher();
@@ -1614,12 +1692,10 @@
       if (targetSec) targetSec.classList.add('active');
       currentTab = tabId;
 
-      // Lazy game initializers
       if (tabId === 'memory' && memoryCards.length === 0) initMemoryGame();
       if (tabId === 'quiz') { if (!quizStarted) startQuiz(); else resumeQuizTimer(); }
       if (tabId === 'scramble' && !currentScramble) initScrambleWord();
 
-      // New Grammar Games
       if (tabId === 'shinkansen') initShinkansenGame();
       if (tabId === 'takoyaki') initTakoyakiGame();
       if (tabId === 'boba') initBobaGame();
@@ -1657,7 +1733,9 @@
       document.querySelectorAll('.filter-tags .tag-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       if (type === 'all') cardList = [...ACTIVE_VOCAB];
+      else if (type === 'missed') cardList = ACTIVE_VOCAB.filter(v => missedVocabIds.has(v.id));
       else cardList = ACTIVE_VOCAB.filter(v => v.type === type);
+      if (cardList.length === 0) cardList = [...ACTIVE_VOCAB];
       cardIndex = 0; renderCard();
     }
 
@@ -1678,8 +1756,8 @@
 
       let deck = [];
       picked.forEach((item, id) => {
-        deck.push({ id, text: item.kanji, sub: item.kana, isJp: true });
-        deck.push({ id, text: item.en, sub: item.icon, isJp: false });
+        deck.push({ id, vocabId: item.id, text: item.kanji, sub: item.kana, isJp: true });
+        deck.push({ id, vocabId: item.id, text: item.cleanEn, sub: item.icon, isJp: false });
       });
       deck.sort(() => Math.random() - 0.5);
       memoryCards = deck;
@@ -1695,8 +1773,8 @@
             <div class="memory-face memory-front">🌸</div>
             <div class="memory-face memory-back">
               <span class="matched-badge" style="display:none;">✓</span>
-              <div>${card.text}</div>
-              <div class="sub">${card.sub}</div>
+              <div>${escapeHtml(card.text)}</div>
+              <div class="sub">${escapeHtml(card.sub)}</div>
             </div>
           </div>`;
         el.onclick = () => flipMemoryCard(idx, el);
@@ -1725,6 +1803,7 @@
           second.cardEl.querySelector('.matched-badge').style.display = 'block';
           if (c1.isJp) speakJapanese(c1.sub); else if (c2.isJp) speakJapanese(c2.sub);
 
+          removeMissedVocab(c1.vocabId);
           flippedCards = []; pairsLeft--;
           document.getElementById('memory-left').innerText = pairsLeft;
           addXP(15);
@@ -1739,7 +1818,9 @@
           }
         } else {
           sound.wrong();
-          setTimeout(() => {
+          recordMissedVocab(c1.vocabId);
+          recordMissedVocab(c2.vocabId);
+          setGameTimeout(() => {
             first.cardEl.classList.remove('flipped');
             second.cardEl.classList.remove('flipped');
             flippedCards = [];
@@ -1749,14 +1830,16 @@
     }
 
     /* =========================================================
-       VOCAB GAME 3: BENTO SPEED QUIZ
+       VOCAB GAME 3: BENTO SPEED QUIZ (NO-DUPLICATES QUEUE)
     ========================================================== */
     let quizQuestionTotal = 10; let quizCurrentNum = 0; let quizScore = 0; let quizStreak = 0;
     let quizTimer = null; let quizTimeLeft = 10; let quizCurrentItem = null; let quizStarted = false; let quizLock = false;
+    let quizDeck = [];
 
     function startQuiz() {
       if (!ACTIVE_VOCAB || ACTIVE_VOCAB.length === 0) return;
       quizStarted = true; quizCurrentNum = 0; quizScore = 0; quizStreak = 0;
+      quizDeck = [...ACTIVE_VOCAB].sort(() => Math.random() - 0.5);
       document.getElementById('quiz-score').innerText = `Score: 0`;
       document.getElementById('streak-indicator').innerText = `🔥 Streak: 0`;
       loadQuizQuestion();
@@ -1770,34 +1853,37 @@
         fill.style.width = Math.max(0, (quizTimeLeft / 10 * 100)) + '%';
         if (quizTimeLeft <= 0) {
           clearInterval(quizTimer); sound.wrong(); quizStreak = 0;
+          if (quizCurrentItem) recordMissedVocab(quizCurrentItem.id);
           document.getElementById('streak-indicator').innerText = `🔥 Streak: 0`;
           highlightCorrectAnswer();
-          setTimeout(loadQuizQuestion, 1200);
+          setGameTimeout(loadQuizQuestion, 1600);
         }
       }, 100);
     }
     function loadQuizQuestion() {
       clearInterval(quizTimer); quizLock = false;
-      if (quizCurrentNum >= quizQuestionTotal) {
+      if (quizCurrentNum >= quizQuestionTotal || quizDeck.length === 0) {
         sound.fanfare(); fireConfetti(120);
         showModal('Quiz Complete! 🍱', `Score: ${quizScore} points! +80 XP`);
         addXP(80); quizStarted = false; return;
       }
       quizCurrentNum++;
       document.getElementById('quiz-curr').innerText = quizCurrentNum;
-      quizCurrentItem = ACTIVE_VOCAB[Math.floor(Math.random() * ACTIVE_VOCAB.length)];
+      quizCurrentItem = quizDeck.pop();
       document.getElementById('quiz-prompt').innerText = quizCurrentItem.kanji;
       document.getElementById('quiz-prompt-sub').innerText = quizCurrentItem.kana;
       speakJapanese(quizCurrentItem.kana);
 
-      const distractors = ACTIVE_VOCAB.filter(v => v.kanji !== quizCurrentItem.kanji).sort(() => Math.random() - 0.5);
-      const choices = [quizCurrentItem, distractors[0], distractors[1], distractors[2]].filter(Boolean).sort(() => Math.random() - 0.5);
+      const distractors = getSmartDistractors(quizCurrentItem, 3);
+      const choices = [quizCurrentItem, ...distractors].sort(() => Math.random() - 0.5);
       const container = document.getElementById('quiz-options');
       container.innerHTML = '';
       choices.forEach((choice, i) => {
         const btn = document.createElement('button');
         btn.className = 'quiz-opt-btn';
-        btn.innerHTML = `<span class="quiz-opt-key">${i + 1}</span> ${choice.icon} ${choice.en}`;
+        btn.dataset.choiceId = choice.id;
+        btn.dataset.isCorrect = (choice.id === quizCurrentItem.id);
+        btn.innerHTML = `<span class="quiz-opt-key">${i + 1}</span> ${choice.icon} ${escapeHtml(choice.cleanEn)}`;
         btn.onclick = () => answerQuiz(choice, btn);
         container.appendChild(btn);
       });
@@ -1807,33 +1893,38 @@
     }
     function answerQuiz(choice, btn) {
       if (quizLock) return; quizLock = true; clearInterval(quizTimer);
-      if (choice.kanji === quizCurrentItem.kanji) {
+      if (choice.id === quizCurrentItem.id) {
         sound.correct(); btn.classList.add('correct'); quizStreak++;
+        removeMissedVocab(quizCurrentItem.id);
         quizScore += 100 + (quizStreak * 20); addXP(20);
         document.getElementById('quiz-score').innerText = `Score: ${quizScore}`;
         document.getElementById('streak-indicator').innerText = `🔥 Streak: ${quizStreak}`;
+        setGameTimeout(loadQuizQuestion, 1100);
       } else {
         sound.wrong(); btn.classList.add('wrong'); quizStreak = 0;
+        recordMissedVocab(quizCurrentItem.id);
         document.getElementById('streak-indicator').innerText = `🔥 Streak: 0`;
         highlightCorrectAnswer();
+        setGameTimeout(loadQuizQuestion, 1800);
       }
-      setTimeout(loadQuizQuestion, 1200);
     }
     function highlightCorrectAnswer() {
       document.querySelectorAll('.quiz-opt-btn').forEach(btn => {
-        if (btn.innerText.includes(quizCurrentItem.en)) btn.classList.add('correct');
+        if (btn.dataset.isCorrect === 'true') btn.classList.add('correct');
       });
     }
 
     /* =========================================================
-       VOCAB GAME 4: STAR CATCHER
+       VOCAB GAME 4: STAR CATCHER (SMART DISTRACTORS)
     ========================================================== */
     let catcherScore = 0; let catcherLives = 3; let catcherActive = false; let catcherPaused = false;
     let starInterval = null; let currentStarY = 0; let currentStarItem = null;
+    let catcherQueue = [];
 
     function startCatcherGame() {
       if (!ACTIVE_VOCAB || ACTIVE_VOCAB.length === 0) return;
       catcherScore = 0; catcherLives = 3; catcherActive = true; catcherPaused = false;
+      catcherQueue = [...ACTIVE_VOCAB].sort(() => Math.random() - 0.5);
       document.getElementById('catcher-score').innerText = catcherScore;
       document.getElementById('catcher-lives').innerText = '❤️❤️❤️';
       document.getElementById('catcher-start-btn').style.display = 'none';
@@ -1848,17 +1939,19 @@
       const star = document.getElementById('active-star');
       star.style.display = 'flex'; star.style.top = currentStarY + 'px';
       star.style.left = (25 + Math.random() * 50) + '%';
-      currentStarItem = ACTIVE_VOCAB[Math.floor(Math.random() * ACTIVE_VOCAB.length)];
+      
+      if (catcherQueue.length === 0) catcherQueue = [...ACTIVE_VOCAB].sort(() => Math.random() - 0.5);
+      currentStarItem = catcherQueue.pop();
       document.getElementById('star-text').innerText = `${currentStarItem.kanji} (${currentStarItem.kana})`;
 
-      const distractors = ACTIVE_VOCAB.filter(v => v.kanji !== currentStarItem.kanji).sort(() => Math.random() - 0.5);
-      const basketChoices = [currentStarItem, distractors[0], distractors[1]].filter(Boolean).sort(() => Math.random() - 0.5);
+      const distractors = getSmartDistractors(currentStarItem, 2);
+      const basketChoices = [currentStarItem, ...distractors].sort(() => Math.random() - 0.5);
       const zone = document.getElementById('catcher-baskets');
       zone.innerHTML = '';
       basketChoices.forEach(item => {
         const btn = document.createElement('button');
         btn.className = 'basket-btn';
-        btn.innerText = item.en;
+        btn.innerText = item.cleanEn;
         btn.onclick = () => catchWord(item);
         zone.appendChild(btn);
       });
@@ -1872,18 +1965,23 @@
         currentStarY += speed;
         star.style.top = currentStarY + 'px';
         if (currentStarY > 265) {
-          clearInterval(starInterval); sound.wrong(); catcherLives--; updateCatcherLives();
+          clearInterval(starInterval); sound.wrong();
+          if (currentStarItem) recordMissedVocab(currentStarItem.id);
+          catcherLives--; updateCatcherLives();
         }
       }, 30);
     }
     function catchWord(selectedItem) {
       if (!catcherActive || catcherPaused) return;
-      if (selectedItem.kanji === currentStarItem.kanji) {
+      if (selectedItem.id === currentStarItem.id) {
         sound.correct(); catcherScore += 100; addXP(15);
+        removeMissedVocab(currentStarItem.id);
         document.getElementById('catcher-score').innerText = catcherScore;
         clearInterval(starInterval); spawnStar();
       } else {
-        sound.wrong(); catcherLives--; updateCatcherLives();
+        sound.wrong();
+        recordMissedVocab(currentStarItem.id);
+        catcherLives--; updateCatcherLives();
       }
     }
     function updateCatcherLives() {
@@ -1916,7 +2014,7 @@
       const tilesContainer = document.getElementById('scramble-tiles');
       tilesContainer.innerHTML = '';
       const shuffled = currentScramble.kana.split('').sort(() => Math.random() - 0.5);
-      shuffled.forEach((char, tileId) => {
+      shuffled.forEach((char) => {
         const tile = document.createElement('div');
         tile.className = 'kana-tile';
         tile.innerText = char;
@@ -1943,8 +2041,12 @@
       if (placedLetters.length === currentScramble.kana.length) {
         if (placedLetters.map(p => p.char).join('') === currentScramble.kana) {
           sound.correct(); speakJapanese(currentScramble.kana); addXP(25); fireConfetti(60);
-          setTimeout(nextScrambleWord, 1000);
-        } else sound.wrong();
+          removeMissedVocab(currentScramble.id);
+          setGameTimeout(nextScrambleWord, 1000);
+        } else {
+          sound.wrong();
+          recordMissedVocab(currentScramble.id);
+        }
       }
     }
     function removePlacedSlot(index) {
@@ -1973,15 +2075,28 @@
     }
 
     /* =========================================================
-       NEW GRAMMAR GAME A: SHINKANSEN SENTENCE BUILDER
+       GRAMMAR GAME A: SHINKANSEN SENTENCE BUILDER
     ========================================================== */
     let shinkansenIndex = 0;
     let shinkansenCoupled = [];
     let shinkansenTarget = null;
+    let shinkansenDeck = [];
 
     function getShinkansenData() {
       if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammarDrills && ACTIVE_LESSON_DATA.grammarDrills.sentences) {
         return ACTIVE_LESSON_DATA.grammarDrills.sentences;
+      }
+      if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammar) {
+        const fallbacks = [];
+        ACTIVE_LESSON_DATA.grammar.forEach(g => {
+          (g.examples || []).forEach(ex => {
+            const parts = ex.kanji.split(/(?<=[、。])/).filter(Boolean);
+            if (parts.length >= 2) {
+              fallbacks.push({ en: ex.translation, chunks: parts });
+            }
+          });
+        });
+        if (fallbacks.length) return fallbacks;
       }
       return [
         { en: "I went jogging, took a shower, and came to work.", chunks: ["今朝ジョギングをして、", "シャワーを浴びて、", "仕事に来ました。"] }
@@ -1990,9 +2105,12 @@
 
     function initShinkansenGame() {
       const sentences = getShinkansenData();
-      shinkansenTarget = sentences[shinkansenIndex % sentences.length];
-      document.getElementById('shinkansen-curr').innerText = `${(shinkansenIndex % sentences.length) + 1}/${sentences.length}`;
+      if (!shinkansenDeck.length) shinkansenDeck = [...sentences].sort(() => Math.random() - 0.5);
+      shinkansenTarget = shinkansenDeck[shinkansenIndex % shinkansenDeck.length];
+      
+      document.getElementById('shinkansen-curr').innerText = `${(shinkansenIndex % shinkansenDeck.length) + 1}/${shinkansenDeck.length}`;
       document.getElementById('shinkansen-target-en').innerText = `Assemble: "${shinkansenTarget.en}"`;
+      document.getElementById('shinkansen-feedback-msg').innerText = "Tap carriages in the correct sequence";
 
       shinkansenCoupled = [];
       renderShinkansenTrack();
@@ -2043,9 +2161,17 @@
       renderShinkansenTrack();
     }
 
+    function showShinkansenHint() {
+      sound.pop();
+      document.getElementById('shinkansen-feedback-msg').innerText = `💡 Order: ${shinkansenTarget.chunks.join(' ➔ ')}`;
+    }
+
     function checkShinkansenTrain() {
+      const track = document.getElementById('shinkansen-train');
       if (shinkansenCoupled.length !== shinkansenTarget.chunks.length) {
         sound.wrong();
+        track.classList.add('shake-anim');
+        setGameTimeout(() => track.classList.remove('shake-anim'), 450);
         return;
       }
       const isCorrect = shinkansenCoupled.every((c, i) => c.text === shinkansenTarget.chunks[i]);
@@ -2055,20 +2181,22 @@
         speakJapanese(shinkansenTarget.chunks.join(''));
         fireConfetti(70);
 
-        const track = document.getElementById('shinkansen-train');
         track.style.transform = 'translateX(100px)';
-        setTimeout(() => {
+        setGameTimeout(() => {
           track.style.transform = 'none';
           shinkansenIndex++;
           initShinkansenGame();
         }, 1200);
       } else {
         sound.wrong();
+        track.classList.add('shake-anim');
+        setGameTimeout(() => track.classList.remove('shake-anim'), 450);
+        document.getElementById('shinkansen-feedback-msg').innerText = "Incorrect order! Check particles or use the Hint button.";
       }
     }
 
     /* =========================================================
-       NEW GRAMMAR GAME B: TAKOYAKI CONJUGATION FLIP
+       GRAMMAR GAME B: TAKOYAKI CONJUGATION FLIP
     ========================================================== */
     let takoyakiIndex = 0;
     let takoyakiScore = 0;
@@ -2076,10 +2204,21 @@
     let takoyakiTimeLeft = 8;
     let takoyakiTarget = null;
     let takoyakiLock = false;
+    let takoyakiDeck = [];
 
     function getTakoyakiData() {
       if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammarDrills && ACTIVE_LESSON_DATA.grammarDrills.conjugations) {
         return ACTIVE_LESSON_DATA.grammarDrills.conjugations;
+      }
+      const verbs = ACTIVE_VOCAB.filter(v => v.type.includes('verb'));
+      if (verbs.length) {
+        return verbs.map(v => ({
+          prompt: v.kanji,
+          form: "Negative / て-form",
+          answer: v.kana.replace(/ます$/, 'て'),
+          options: [v.kana.replace(/ます$/, 'て'), v.kana.replace(/ます$/, 'た'), v.kana.replace(/ます$/, 'ない')],
+          hint: `${v.kanji} is a verb form drill`
+        }));
       }
       return [
         { prompt: "乗ります (のります)", form: "て-form", answer: "のって", options: ["のって", "のりて", "のいで"], hint: "Group 1: -り changes to -って" }
@@ -2088,7 +2227,8 @@
 
     function initTakoyakiGame() {
       const conjugations = getTakoyakiData();
-      takoyakiTarget = conjugations[takoyakiIndex % conjugations.length];
+      if (!takoyakiDeck.length) takoyakiDeck = [...conjugations].sort(() => Math.random() - 0.5);
+      takoyakiTarget = takoyakiDeck[takoyakiIndex % takoyakiDeck.length];
       takoyakiLock = false;
 
       const ball = document.getElementById('active-takoyaki');
@@ -2103,11 +2243,8 @@
 
       shuffled.forEach(opt => {
         const btn = document.createElement('button');
-        btn.className = 'btn-cute';
-        btn.style.background = '#FFF';
-        btn.style.color = '#542E0C';
-        btn.style.border = '3px solid #E58E26';
-        btn.style.padding = '14px 10px';
+        btn.className = 'takoyaki-plate-btn';
+        btn.dataset.plate = opt;
         btn.innerText = opt;
         btn.onclick = () => answerTakoyaki(opt, btn);
         platesContainer.appendChild(btn);
@@ -2127,12 +2264,23 @@
         fill.style.width = Math.max(0, (takoyakiTimeLeft / 8 * 100)) + '%';
         if (takoyakiTimeLeft <= 0) {
           clearInterval(takoyakiTimer);
+          takoyakiLock = true;
           sound.wrong();
           document.getElementById('active-takoyaki').classList.add('burnt');
-          document.getElementById('takoyaki-hint').innerText = `Burnt! 💡 ${takoyakiTarget.hint || ''}`;
-          setTimeout(() => { takoyakiIndex++; initTakoyakiGame(); }, 1800);
+          highlightCorrectTakoyakiPlate();
+          document.getElementById('takoyaki-hint').innerText = `Burnt! Correct: 「${takoyakiTarget.answer}」. 💡 ${takoyakiTarget.hint || ''}`;
+          setGameTimeout(() => { takoyakiIndex++; initTakoyakiGame(); }, 2400);
         }
       }, 100);
+    }
+
+    function highlightCorrectTakoyakiPlate() {
+      document.querySelectorAll('#takoyaki-plates button').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.plate === takoyakiTarget.answer) {
+          b.classList.add('correct');
+        }
+      });
     }
 
     function answerTakoyaki(choice, btn) {
@@ -2141,38 +2289,60 @@
       clearInterval(takoyakiTimer);
 
       const ball = document.getElementById('active-takoyaki');
+      highlightCorrectTakoyakiPlate();
+
       if (choice === takoyakiTarget.answer) {
         sound.correct();
         ball.classList.add('flipped-ok');
-        btn.style.background = 'var(--mint)';
         takoyakiScore += 100;
         addXP(20);
         document.getElementById('takoyaki-score').innerText = takoyakiScore;
-        document.getElementById('takoyaki-hint').innerText = "Oishi! Perfectly flipped! 🐙";
+        document.getElementById('takoyaki-hint').innerText = "Oishii! Perfectly flipped! 🐙";
         speakJapanese(takoyakiTarget.answer);
+        setGameTimeout(() => {
+          takoyakiIndex++;
+          initTakoyakiGame();
+        }, 1500);
       } else {
         sound.wrong();
         ball.classList.add('burnt');
-        btn.style.background = '#FFD4D4';
-        document.getElementById('takoyaki-hint').innerText = `Oops! 💡 ${takoyakiTarget.hint || ''}`;
+        btn.classList.add('wrong');
+        document.getElementById('takoyaki-hint').innerText = `Burnt! Correct: 「${takoyakiTarget.answer}」. 💡 ${takoyakiTarget.hint || ''}`;
+        setGameTimeout(() => {
+          takoyakiIndex++;
+          initTakoyakiGame();
+        }, 2400);
       }
-
-      setTimeout(() => {
-        takoyakiIndex++;
-        initTakoyakiGame();
-      }, 1600);
     }
 
     /* =========================================================
-       NEW GRAMMAR GAME C: BOBA PARTICLE POP
+       GRAMMAR GAME C: BOBA PARTICLE POP
     ========================================================== */
     let bobaIndex = 0;
     let bobaTarget = null;
     let bobaLock = false;
+    let bobaDeck = [];
 
     function getBobaData() {
       if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammarDrills && ACTIVE_LESSON_DATA.grammarDrills.particles) {
         return ACTIVE_LESSON_DATA.grammarDrills.particles;
+      }
+      if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammar) {
+        const extracted = [];
+        const commonP = ['に', 'を', 'で', 'は', 'へ', 'も', 'の', 'から', 'まで'];
+        ACTIVE_LESSON_DATA.grammar.forEach(g => {
+          (g.examples || []).forEach(ex => {
+            for (let p of commonP) {
+              if (ex.kanji.includes(p)) {
+                const cloze = ex.kanji.replace(p, ' [ ? ] ');
+                const opts = [p, ...commonP.filter(x => x !== p).sort(() => Math.random() - 0.5).slice(0, 3)].sort(() => Math.random() - 0.5);
+                extracted.push({ sentence: cloze, answer: p, options: opts, hint: ex.translation });
+                break;
+              }
+            }
+          });
+        });
+        if (extracted.length) return extracted;
       }
       return [
         { sentence: "大阪駅から新快速 [ ? ] 乗ります。", answer: "に", options: ["に", "を", "で", "へ"], hint: "Boarding vehicle uses に" }
@@ -2181,10 +2351,11 @@
 
     function initBobaGame() {
       const drills = getBobaData();
-      bobaTarget = drills[bobaIndex % drills.length];
+      if (!bobaDeck.length) bobaDeck = [...drills].sort(() => Math.random() - 0.5);
+      bobaTarget = bobaDeck[bobaIndex % bobaDeck.length];
       bobaLock = false;
 
-      document.getElementById('boba-curr').innerText = `${(bobaIndex % drills.length) + 1}/${drills.length}`;
+      document.getElementById('boba-curr').innerText = `${(bobaIndex % bobaDeck.length) + 1}/${bobaDeck.length}`;
       document.getElementById('boba-sentence').innerText = bobaTarget.sentence;
       document.getElementById('boba-hint').innerText = "Tap the correct particle pearl to complete the drink!";
 
@@ -2193,6 +2364,7 @@
       bobaTarget.options.forEach(p => {
         const btn = document.createElement('button');
         btn.className = 'boba-pearl-btn';
+        btn.dataset.pearl = p;
         btn.innerText = p;
         btn.onclick = () => answerBoba(p, btn);
         zone.appendChild(btn);
@@ -2203,36 +2375,53 @@
       if (bobaLock) return;
       bobaLock = true;
 
+      document.querySelectorAll('.boba-pearl-btn').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.pearl === bobaTarget.answer) b.classList.add('correct');
+      });
+
       if (selected === bobaTarget.answer) {
         sound.correct();
-        btn.classList.add('correct');
         addXP(25);
         document.getElementById('boba-sentence').innerText = bobaTarget.sentence.replace('[ ? ]', `[ ${selected} ]`);
-        document.getElementById('boba-hint').innerText = `✨ ${bobaTarget.hint || 'Great job!'}`;
+        document.getElementById('boba-hint').innerText = `✨ Correct! ${bobaTarget.hint || ''}`;
         speakJapanese(bobaTarget.sentence.replace('[ ? ]', selected));
         fireConfetti(50);
+        setGameTimeout(() => {
+          bobaIndex++;
+          initBobaGame();
+        }, 1500);
       } else {
         sound.wrong();
         btn.classList.add('wrong');
-        document.getElementById('boba-hint').innerText = `💡 ${bobaTarget.hint || 'Try to remember the particle rule!'}`;
+        document.getElementById('boba-hint').innerText = `❌ Correct was 「${bobaTarget.answer}」. 💡 ${bobaTarget.hint || ''}`;
+        setGameTimeout(() => {
+          bobaIndex++;
+          initBobaGame();
+        }, 2300);
       }
-
-      setTimeout(() => {
-        bobaIndex++;
-        initBobaGame();
-      }, 1600);
     }
 
     /* =========================================================
-       NEW GRAMMAR GAME D: KONBINI ROLEPLAY
+       GRAMMAR GAME D: KONBINI ROLEPLAY
     ========================================================== */
     let konbiniIndex = 0;
     let konbiniTarget = null;
     let konbiniLock = false;
+    let konbiniDeck = [];
 
     function getKonbiniData() {
       if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.grammarDrills && ACTIVE_LESSON_DATA.grammarDrills.dialogues) {
         return ACTIVE_LESSON_DATA.grammarDrills.dialogues;
+      }
+      if (ACTIVE_LESSON_DATA && ACTIVE_LESSON_DATA.exercises) {
+        return ACTIVE_LESSON_DATA.exercises.map(ex => ({
+          situation: "Self-Check Drill",
+          speaker: "店員",
+          prompt: ex.prompt ? ex.prompt.kanji : ex.question,
+          options: (ex.options || []).map((o, idx) => ({ text: o, correct: idx === ex.answer })),
+          tip: ex.explanation
+        }));
       }
       return [
         {
@@ -2250,10 +2439,11 @@
 
     function initKonbiniGame() {
       const dialogues = getKonbiniData();
-      konbiniTarget = dialogues[konbiniIndex % dialogues.length];
+      if (!konbiniDeck.length) konbiniDeck = [...dialogues].sort(() => Math.random() - 0.5);
+      konbiniTarget = konbiniDeck[konbiniIndex % konbiniDeck.length];
       konbiniLock = false;
 
-      document.getElementById('konbini-curr').innerText = `${(konbiniIndex % dialogues.length) + 1}/${dialogues.length}`;
+      document.getElementById('konbini-curr').innerText = `${(konbiniIndex % konbiniDeck.length) + 1}/${konbiniDeck.length}`;
       document.getElementById('konbini-speaker').innerText = `${konbiniTarget.speaker} (${konbiniTarget.situation || 'Conversation'})`;
       document.getElementById('konbini-prompt').innerText = konbiniTarget.prompt;
       document.getElementById('konbini-feedback').style.display = 'none';
@@ -2265,6 +2455,7 @@
       konbiniTarget.options.forEach((opt) => {
         const btn = document.createElement('button');
         btn.className = 'roleplay-choice-btn';
+        btn.dataset.isCorrect = opt.correct;
         btn.innerText = opt.text;
         btn.onclick = () => answerKonbini(opt, btn);
         choicesBox.appendChild(btn);
@@ -2278,23 +2469,30 @@
       const feedback = document.getElementById('konbini-feedback');
       feedback.style.display = 'block';
 
+      document.querySelectorAll('.roleplay-choice-btn').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.isCorrect === 'true') b.classList.add('correct');
+      });
+
       if (opt.correct) {
         sound.correct();
-        btn.classList.add('correct');
         addXP(30);
-        feedback.innerHTML = `💖 <strong>Natural Response!</strong><br>${konbiniTarget.tip || ''}`;
+        feedback.innerHTML = `💖 <strong>Natural Response!</strong><br>${escapeHtml(konbiniTarget.tip || '')}`;
         speakJapanese(opt.text);
         fireConfetti(60);
+        setGameTimeout(() => {
+          konbiniIndex++;
+          initKonbiniGame();
+        }, 2200);
       } else {
         sound.wrong();
         btn.classList.add('wrong');
-        feedback.innerHTML = `💧 <strong>Grammar Tip:</strong><br>${konbiniTarget.tip || 'Look closely at the verb connection or particle!'}`;
+        feedback.innerHTML = `💧 <strong>Grammar Tip:</strong><br>${escapeHtml(konbiniTarget.tip || 'Pay close attention to particle usage or verb connection!')}`;
+        setGameTimeout(() => {
+          konbiniIndex++;
+          initKonbiniGame();
+        }, 3000);
       }
-
-      setTimeout(() => {
-        konbiniIndex++;
-        initKonbiniGame();
-      }, 2500);
     }
 
     /* =========================================================
@@ -2370,6 +2568,7 @@
     requestAnimationFrame(updateConfetti);
 
     window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('player-xp').innerText = playerXP;
       loadArcadeLesson().then(() => {
         const savedWriting = localStorage.getItem(`minna_lesson_${lessonNumberPadded}_writing`);
         const writingInput = document.getElementById('lesson-writing-input');

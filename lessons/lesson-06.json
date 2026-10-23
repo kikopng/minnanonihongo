@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 6,
+    "title": "Direct Objects, Places of Action, and Invitations",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master marking direct objects with the particle を (pronounced 'o'), specifying the location of dynamic action with the particle で, distinguishing action locations (で) from movement destinations (へ / に), inviting others politely with ～ませんか, making and accepting suggestions with ～ましょう, learning Takashi Sensei's phonetic rules for pronouncing 何 as なん vs. なに, using total negation with 何も + negative verbs, and expressing frequency with いつも and ときどき."
+  },
+  "vocabulary": [
+    {
+      "id": "tabemasu",
+      "kanji": "食べます",
+      "kana": "たべます",
+      "romaji": "tabemasu",
+      "meaning": "to eat",
+      "category": "verb",
+      "example": {
+        "kanji": "毎朝パンを食べます。",
+        "kana": "まいあさ パンを たべます。",
+        "translation": "I eat bread every morning."
+      }
+    },
+    {
+      "id": "nomimasu",
+      "kanji": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "meaning": "to drink",
+      "category": "verb",
+      "example": {
+        "kanji": "水を飲みます。",
+        "kana": "みずを のみます。",
+        "translation": "I drink water."
+      }
+    },
+    {
+      "id": "suimasu",
+      "kanji": "吸います",
+      "kana": "すいます",
+      "romaji": "suimasu",
+      "meaning": "to smoke [a cigarette]; to inhale",
+      "category": "verb",
+      "example": {
+        "kanji": "たばこを吸いますか。いいえ、吸いません。",
+        "kana": "たばこを すいますか。いいえ、すいません。",
+        "translation": "Do you smoke cigarettes? No, I do not smoke."
+      }
+    },
+    {
+      "id": "mimasu",
+      "kanji": "見ます",
+      "kana": "みます",
+      "romaji": "mimasu",
+      "meaning": "to see; to watch; to look",
+      "category": "verb",
+      "example": {
+        "kanji": "毎晩テレビを見ます。",
+        "kana": "まいばん テレビを みます。",
+        "translation": "I watch television every evening."
+      }
+    },
+    {
+      "id": "kikimasu",
+      "kanji": "聞きます",
+      "kana": "ききます",
+      "romaji": "kikimasu",
+      "meaning": "to hear; to listen to",
+      "category": "verb",
+      "example": {
+        "kanji": "部屋で音楽を聞きます。",
+        "kana": "へやで おんがくを ききます。",
+        "translation": "I listen to music in my room."
+      }
+    },
+    {
+      "id": "yomimasu",
+      "kanji": "読みます",
+      "kana": "よみます",
+      "romaji": "yomimasu",
+      "meaning": "to read",
+      "category": "verb",
+      "example": {
+        "kanji": "新聞を読みます。",
+        "kana": "しんぶんを よみます。",
+        "translation": "I read the newspaper."
+      }
+    },
+    {
+      "id": "kakimasu",
+      "kanji": "書きます",
+      "kana": "かきます",
+      "romaji": "kakimasu",
+      "meaning": "to write; to draw",
+      "category": "verb",
+      "example": {
+        "kanji": "日本語で手紙を書きます。",
+        "kana": "にほんごで てがみを かきます。",
+        "translation": "I write a letter in Japanese."
+      }
+    },
+    {
+      "id": "kaimasu",
+      "kanji": "買います",
+      "kana": "かいます",
+      "romaji": "kaimasu",
+      "meaning": "to buy; to purchase",
+      "category": "verb",
+      "example": {
+        "kanji": "スーパーでリンゴを買いました。",
+        "kana": "スーパーで リンゴを かいました。",
+        "translation": "I bought apples at the supermarket."
+      }
+    },
+    {
+      "id": "torimasu",
+      "kanji": "撮ります",
+      "kana": "とります",
+      "romaji": "torimasu",
+      "meaning": "to take [a photograph]",
+      "category": "verb",
+      "example": {
+        "kanji": "京都で写真を撮りました。",
+        "kana": "きょうとで しゃしんを とりました。",
+        "translation": "I took photos in Kyoto."
+      }
+    },
+    {
+      "id": "shimasu",
+      "kanji": "します",
+      "kana": "します",
+      "romaji": "shimasu",
+      "meaning": "to do; to play [a sport or game]",
+      "category": "verb",
+      "example": {
+        "kanji": "土曜日にサッカーをします。",
+        "kana": "どようびに サッカーを します。",
+        "translation": "I play soccer on Saturday."
+      }
+    },
+    {
+      "id": "aimasu",
+      "kanji": "会います",
+      "kana": "あいます",
+      "romaji": "aimasu",
+      "meaning": "to meet [a friend / someone]",
+      "category": "verb",
+      "example": {
+        "kanji": "駅で友達に会います。",
+        "kana": "えきで ともだちに あいます。",
+        "translation": "I will meet a friend at the station."
+      }
+    },
+    {
+      "id": "gohan",
+      "kanji": "ご飯",
+      "kana": "ごはん",
+      "romaji": "gohan",
+      "meaning": "cooked rice; a meal",
+      "category": "food",
+      "example": {
+        "kanji": "ご飯を食べましたか。",
+        "kana": "ごはんを たべましたか。",
+        "translation": "Did you eat a meal?"
+      }
+    },
+    {
+      "id": "asagohan",
+      "kanji": "朝ご飯",
+      "kana": "あさごはん",
+      "romaji": "asagohan",
+      "meaning": "breakfast",
+      "category": "food",
+      "example": {
+        "kanji": "いつも7時に朝ご飯を食べます。",
+        "kana": "いつも しちじに あさごはんを たべます。",
+        "translation": "I always eat breakfast at 7:00."
+      }
+    },
+    {
+      "id": "hirugohan",
+      "kanji": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "meaning": "lunch",
+      "category": "food",
+      "example": {
+        "kanji": "食堂で昼ご飯を食べましょう。",
+        "kana": "しょくどうで ひるごはんを たべましょう。",
+        "translation": "Let's eat lunch at the cafeteria."
+      }
+    },
+    {
+      "id": "bangohan",
+      "kanji": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "meaning": "supper; dinner",
+      "category": "food",
+      "example": {
+        "kanji": "今日の晩ご飯は何ですか。",
+        "kana": "きょうの ばんごはんは なんですか。",
+        "translation": "What is for dinner today?"
+      }
+    },
+    {
+      "id": "pan",
+      "kanji": "パン",
+      "kana": "パン",
+      "romaji": "pan",
+      "meaning": "bread",
+      "category": "food",
+      "example": {
+        "kanji": "パンと卵を食べます。",
+        "kana": "パンと たまごを たべます。",
+        "translation": "I eat bread and eggs."
+      }
+    },
+    {
+      "id": "tamago",
+      "kanji": "卵",
+      "kana": "たまご",
+      "romaji": "tamago",
+      "meaning": "egg",
+      "category": "food",
+      "example": {
+        "kanji": "朝は卵を食べます。",
+        "kana": "あさは たまごを たべます。",
+        "translation": "In the morning, I eat eggs."
+      }
+    },
+    {
+      "id": "niku",
+      "kanji": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "meaning": "meat",
+      "category": "food",
+      "example": {
+        "kanji": "肉を食べません。",
+        "kana": "にくを たべません。",
+        "translation": "I do not eat meat."
+      }
+    },
+    {
+      "id": "sakana",
+      "kanji": "魚",
+      "kana": "さかな",
+      "romaji": "sakana",
+      "meaning": "fish",
+      "category": "food",
+      "example": {
+        "kanji": "日本の魚はおいしいです。",
+        "kana": "にほんの さかなは おいしいです。",
+        "translation": "Japanese fish is delicious."
+      }
+    },
+    {
+      "id": "yasai",
+      "kanji": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "meaning": "vegetable",
+      "category": "food",
+      "example": {
+        "kanji": "毎日野菜を食べます。",
+        "kana": "まいにち やさいを たべます。",
+        "translation": "I eat vegetables every day."
+      }
+    },
+    {
+      "id": "kudamono",
+      "kanji": "果物",
+      "kana": "くだもの",
+      "romaji": "kudamono",
+      "meaning": "fruit",
+      "category": "food",
+      "example": {
+        "kanji": "どんな果物が好きですか。",
+        "kana": "どんな くだものが すきですか。",
+        "translation": "What kind of fruit do you like?"
+      }
+    },
+    {
+      "id": "mizu",
+      "kanji": "水",
+      "kana": "みず",
+      "romaji": "mizu",
+      "meaning": "water (cold / room temp)",
+      "category": "drink",
+      "example": {
+        "kanji": "水を飲みます。",
+        "kana": "みずを のみます。",
+        "translation": "I drink water."
+      }
+    },
+    {
+      "id": "ocha",
+      "kanji": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "meaning": "tea; green tea",
+      "category": "drink",
+      "example": {
+        "kanji": "いっしょにお茶を飲みませんか。",
+        "kana": "いっしょに おちゃを のみませんか。",
+        "translation": "Won't you have some tea together with me?"
+      }
+    },
+    {
+      "id": "koucha",
+      "kanji": "紅茶",
+      "kana": "こうちゃ",
+      "romaji": "koucha",
+      "meaning": "black tea",
+      "category": "drink",
+      "example": {
+        "kanji": "喫茶店で紅茶を飲みました。",
+        "kana": "きっさてんで こうちゃを のみました。",
+        "translation": "I drank black tea at the coffee shop."
+      }
+    },
+    {
+      "id": "gyuunyuu",
+      "kanji": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "meaning": "cow's milk (also ミルク)",
+      "category": "drink",
+      "example": {
+        "kanji": "朝牛乳を飲みます。",
+        "kana": "あさ ぎゅうにゅうを のみます。",
+        "translation": "I drink milk in the morning."
+      }
+    },
+    {
+      "id": "juusu",
+      "kanji": "ジュース",
+      "kana": "ジュース",
+      "romaji": "juusu",
+      "meaning": "juice",
+      "category": "drink",
+      "example": {
+        "kanji": "オレンジジュースをください。",
+        "kana": "オレンジジュースを ください。",
+        "translation": "Orange juice, please."
+      }
+    },
+    {
+      "id": "biiru",
+      "kanji": "ビール",
+      "kana": "ビール",
+      "romaji": "biiru",
+      "meaning": "beer",
+      "category": "drink",
+      "example": {
+        "kanji": "晩ご飯のとき、ビールを飲みます。",
+        "kana": "ばんごはんの とき、ビールを のみます。",
+        "translation": "I drink beer with dinner."
+      }
+    },
+    {
+      "id": "osake",
+      "kanji": "お酒",
+      "kana": "おさけ",
+      "romaji": "osake",
+      "meaning": "alcohol; Japanese rice wine (sake)",
+      "category": "drink",
+      "example": {
+        "kanji": "お酒を飲みますか。",
+        "kana": "おさけを のみますか。",
+        "translation": "Do you drink alcohol?"
+      }
+    },
+    {
+      "id": "bideo",
+      "kanji": "ビデオ",
+      "kana": "ビデオ",
+      "romaji": "bideo",
+      "meaning": "video; video tape",
+      "category": "media",
+      "example": {
+        "kanji": "家で日本のビデオを見ます。",
+        "kana": "いえで にほんの ビデオを みます。",
+        "translation": "I watch Japanese videos at home."
+      }
+    },
+    {
+      "id": "eiga",
+      "kanji": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "meaning": "movie; film",
+      "category": "media",
+      "example": {
+        "kanji": "映画館で映画を見ました。",
+        "kana": "えいがかんで えいがを みました。",
+        "translation": "I watched a movie at the theater."
+      }
+    },
+    {
+      "id": "cd",
+      "kanji": "CD",
+      "kana": "シーディー",
+      "romaji": "shiidii",
+      "meaning": "CD; compact disc",
+      "category": "media",
+      "example": {
+        "kanji": "日本のCDを買いました。",
+        "kana": "にほんの シーディーを かいました。",
+        "translation": "I bought a Japanese CD."
+      }
+    },
+    {
+      "id": "tegami",
+      "kanji": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "meaning": "letter",
+      "category": "noun",
+      "example": {
+        "kanji": "家族に手紙を書きました。",
+        "kana": "かぞくに てがみを かきました。",
+        "translation": "I wrote a letter to my family."
+      }
+    },
+    {
+      "id": "repooto",
+      "kanji": "レポート",
+      "kana": "レポート",
+      "romaji": "repooto",
+      "meaning": "report; paper",
+      "category": "noun",
+      "example": {
+        "kanji": "図書館でレポートを書きます。",
+        "kana": "としょかんで レポートを かきます。",
+        "translation": "I write a report at the library."
+      }
+    },
+    {
+      "id": "shashin",
+      "kanji": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "meaning": "photograph; photo",
+      "category": "noun",
+      "example": {
+        "kanji": "公園で写真を撮りましょう。",
+        "kana": "こうえんで しゃしんを とりましょう。",
+        "translation": "Let's take photos at the park."
+      }
+    },
+    {
+      "id": "mise",
+      "kanji": "店",
+      "kana": "みせ",
+      "romaji": "mise",
+      "meaning": "store; shop",
+      "category": "place",
+      "example": {
+        "kanji": "あの店で本を買いました。",
+        "kana": "あの みせで ほんを かいました。",
+        "translation": "I bought books at that store."
+      }
+    },
+    {
+      "id": "resutoran",
+      "kanji": "レストラン",
+      "kana": "レストラン",
+      "romaji": "resutoran",
+      "meaning": "restaurant",
+      "category": "place",
+      "example": {
+        "kanji": "レストランで晩ご飯を食べます。",
+        "kana": "レストランで ばんごはんを たべます。",
+        "translation": "I eat dinner at a restaurant."
+      }
+    },
+    {
+      "id": "niwa",
+      "kanji": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "meaning": "garden; yard",
+      "category": "place",
+      "example": {
+        "kanji": "庭で花を見ます。",
+        "kana": "にわで はなを みます。",
+        "translation": "I look at flowers in the garden."
+      }
+    },
+    {
+      "id": "shukudai",
+      "kanji": "宿題",
+      "kana": "しゅくだい",
+      "romaji": "shukudai",
+      "meaning": "homework",
+      "category": "noun",
+      "example": {
+        "kanji": "夜宿題をします。",
+        "kana": "よる しゅくだいを します。",
+        "translation": "I do my homework at night."
+      }
+    },
+    {
+      "id": "tenisu",
+      "kanji": "テニス",
+      "kana": "テニス",
+      "romaji": "tenisu",
+      "meaning": "tennis",
+      "category": "noun",
+      "example": {
+        "kanji": "日曜日、テニスをしませんか。",
+        "kana": "にちようび、テニスを しませんか。",
+        "translation": "Won't you play tennis on Sunday?"
+      }
+    },
+    {
+      "id": "sakkaa",
+      "kanji": "サッカー",
+      "kana": "サッカー",
+      "romaji": "sakkaa",
+      "meaning": "soccer; football",
+      "category": "noun",
+      "example": {
+        "kanji": "友達とサッカーをしました。",
+        "kana": "ともだちと サッカーを しました。",
+        "translation": "I played soccer with my friend."
+      }
+    },
+    {
+      "id": "ohanami",
+      "kanji": "お花見",
+      "kana": "おはなみ",
+      "romaji": "ohanami",
+      "meaning": "cherry blossom viewing",
+      "category": "noun",
+      "example": {
+        "kanji": "土曜日にお花見をします。",
+        "kana": "どようびに おはなみを します。",
+        "translation": "I will go cherry blossom viewing on Saturday."
+      }
+    },
+    {
+      "id": "nani-nan",
+      "kanji": "何",
+      "kana": "なに / なん",
+      "romaji": "nani / nan",
+      "meaning": "what",
+      "category": "expression",
+      "example": {
+        "kanji": "何を買いましたか。",
+        "kana": "なにを かいましたか。",
+        "translation": "What did you buy?"
+      }
+    },
+    {
+      "id": "isshoni",
+      "kanji": "いっしょに",
+      "kana": "いっしょに",
+      "romaji": "isshoni",
+      "meaning": "together; with someone",
+      "category": "adverb",
+      "example": {
+        "kanji": "いっしょに京都へ行きませんか。",
+        "kana": "いっしょに きょうとへ いきませんか。",
+        "translation": "Won't you go to Kyoto together with me?"
+      }
+    },
+    {
+      "id": "chotto",
+      "kanji": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "meaning": "a little while; a bit; slightly (polite hesitation / refusal)",
+      "category": "adverb",
+      "example": {
+        "kanji": "ちょっと休みましょう。日曜日はちょっと…。",
+        "kana": "ちょっと やすみましょう。にちようびは ちょっと…。",
+        "translation": "Let's rest a bit. Sunday is a bit inconvenient..."
+      }
+    },
+    {
+      "id": "itsumo",
+      "kanji": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "meaning": "always; usually",
+      "category": "adverb",
+      "example": {
+        "kanji": "いつもこの店でパンを買います。",
+        "kana": "いつも この みせで パンを かいます。",
+        "translation": "I always buy bread at this shop."
+      }
+    },
+    {
+      "id": "tokidoki",
+      "kanji": "ときどき",
+      "kana": "ときどき",
+      "romaji": "tokidoki",
+      "meaning": "sometimes; occasionally",
+      "category": "adverb",
+      "example": {
+        "kanji": "ときどき日本料理を食べます。",
+        "kana": "ときどき にほんりょうりを たべます。",
+        "translation": "I sometimes eat Japanese food."
+      }
+    },
+    {
+      "id": "sorekara",
+      "kanji": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "meaning": "after that; and then",
+      "category": "expression",
+      "example": {
+        "kanji": "映画を見ました。それから、晩ご飯を食べました。",
+        "kana": "えいがを みました。それから、ばんごはんを たべました。",
+        "translation": "I watched a movie. And then, I had dinner."
+      }
+    },
+    {
+      "id": "ee",
+      "kanji": "ええ",
+      "kana": "ええ",
+      "romaji": "ee",
+      "meaning": "yes (conversational, polite agreement)",
+      "category": "expression",
+      "example": {
+        "kanji": "ええ、いいですね。行きましょう。",
+        "kana": "ええ、いいですね。いきましょう。",
+        "translation": "Yes, sounds great. Let's go."
+      }
+    },
+    {
+      "id": "ii-desu-ne",
+      "kanji": "いいですね",
+      "kana": "いいですね",
+      "romaji": "ii desu ne",
+      "meaning": "That sounds nice! / That's a good idea!",
+      "category": "expression",
+      "example": {
+        "kanji": "お花見に行きませんか。— いいですね。",
+        "kana": "おはなみに いきませんか。— いいですね。",
+        "translation": "Won't you go cherry blossom viewing? — That sounds great!"
+      }
+    },
+    {
+      "id": "wakarimashita",
+      "kanji": "わかりました",
+      "kana": "わかりました",
+      "romaji": "wakarimashita",
+      "meaning": "Understood. / I see. / Got it.",
+      "category": "expression",
+      "example": {
+        "kanji": "じゃあ、明日10時に駅で。— わかりました。",
+        "kana": "じゃあ、あした じゅうじに えきで。— わかりました。",
+        "translation": "All right, see you tomorrow at the station at 10:00. — Understood."
+      }
+    },
+    {
+      "id": "nan-desu-ka",
+      "kanji": "何ですか",
+      "kana": "なんですか",
+      "romaji": "nan desu ka",
+      "meaning": "Yes? / What is it?",
+      "category": "expression",
+      "example": {
+        "kanji": "すみません、ミラーさん。— 何ですか。",
+        "kana": "すみません、ミラーさん。— なんですか。",
+        "translation": "Excuse me, Mr. Miller. — Yes, what is it?"
+      }
+    },
+    {
+      "id": "ja-mata",
+      "kanji": "じゃ、また",
+      "kana": "じゃ、また",
+      "romaji": "ja, mata",
+      "meaning": "Well then, see you; bye (casual)",
+      "category": "expression",
+      "example": {
+        "kanji": "じゃ、また明日。",
+        "kana": "じゃ、また あした。",
+        "translation": "Well, see you tomorrow."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun を Verb [Direct Object Marker]",
+      "explanation": "The particle を (written with the special hiragana を, but always pronounced [o]) marks the direct object of a transitive verb. In Japanese sentence structure (SOV), the direct object precedes the verb: 『Noun + を + Verb』. This contrasts directly with English word order (Verb + Object). Typical Lesson 6 verbs that take を include 食べます (eat), 飲みます (drink), 読みます (read), 聞きます (listen to / hear), 見ます (watch / see), 買います (buy), 書きます (write), and 撮ります (take photos). Note: を is only used for the grammatical direct object; it is never used for destinations or existence.",
+      "examples": [
+        {
+          "kanji": "水を飲みます。",
+          "kana": "みずを のみます。",
+          "translation": "I drink water."
+        },
+        {
+          "kanji": "毎朝パンと卵を食べます。",
+          "kana": "まいあさ パンと たまごを たべます。",
+          "translation": "I eat bread and eggs every morning."
+        },
+        {
+          "kanji": "図書館で本を読みます。",
+          "kana": "としょかんで ほんを よみます。",
+          "translation": "I read books at the library."
+        },
+        {
+          "kanji": "昨日の夜テレビを見ました。",
+          "kana": "きのうの よる テレビを みました。",
+          "translation": "I watched television last night."
+        },
+        {
+          "kanji": "家族に手紙を書きました。",
+          "kana": "かぞくに てがみを かきました。",
+          "translation": "I wrote a letter to my family."
+        },
+        {
+          "kanji": "公園で写真を撮ります。",
+          "kana": "こうえんで しゃしんを とります。",
+          "translation": "I take photographs in the park."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun を します [Doing Activities, Sports, Events, and Tasks]",
+      "explanation": "The versatile verb します means 'to do', 'to play', or 'to conduct'. When paired with 『Noun + を』, it transforms nouns into dynamic activities: (1) Sports and games: サッカーをします (play soccer), テニスをします (play tennis), トランプをします (play cards). (2) Gatherings and events: パーティーをします (host/have a party), 会議をします (hold a meeting), お花見をします (go cherry blossom viewing). (3) Tasks, studies, and work: 宿題をします (do homework), 仕事をします (do work), 勉強をします (do study).",
+      "examples": [
+        {
+          "kanji": "土曜日に友達とサッカーをします。",
+          "kana": "どようびに ともだちと サッカーを します。",
+          "translation": "I will play soccer with my friends on Saturday."
+        },
+        {
+          "kanji": "日曜日に家で宿題をします。",
+          "kana": "にちようびに いえで しゅくだいを します。",
+          "translation": "I do homework at home on Sunday."
+        },
+        {
+          "kanji": "明日友達とパーティーをします。",
+          "kana": "あした ともだちと パーティーを します。",
+          "translation": "I will have a party with friends tomorrow."
+        },
+        {
+          "kanji": "京都でお花見をしました。",
+          "kana": "きょうとで おはなみを しました。",
+          "translation": "I went cherry blossom viewing in Kyoto."
+        },
+        {
+          "kanji": "夜テニスをしませんか。",
+          "kana": "よる テニスを しませんか。",
+          "translation": "Won't you play tennis tonight?"
+        }
+      ]
+    },
+    {
+      "pattern": "何を しますか & Complete Negation: 何も + Negative Verb",
+      "explanation": "To ask someone what they are doing or will do, ask: 『何をしますか』 (What will you do? / What do you do?). For past actions, ask: 『何をしましたか』 (What did you do?). When answering that you did nothing at all, use the total negation pattern: 『何 + も + Negative Verb』. Takashi Sensei emphasizes this critical rule: with 何も, the verb MUST always be in the negative (食べませんでした / 飲みません / 買いませんでした). Do NOT use を with 何も (Say: 何も食べませんでした; Never say: ✕ 何もを食べませんでした or ✕ 何も食べました). Compare: 何かを食べましたか (Did you eat something?) vs 何も食べませんでした (I didn't eat anything at all).",
+      "examples": [
+        {
+          "kanji": "日曜日に何をしますか。— テニスをします。",
+          "kana": "にちようびに なにを しますか。— テニスを します。",
+          "translation": "What will you do on Sunday? — I will play tennis."
+        },
+        {
+          "kanji": "きのう何をしましたか。— 図書館へ行って、勉強しました。",
+          "kana": "きのう なにを しましたか。— としょかんへ いって、べんきょうしました。",
+          "translation": "What did you do yesterday? — I went to the library and studied."
+        },
+        {
+          "kanji": "今朝何を食べましたか。— 何も食べませんでした。",
+          "kana": "けさ なにを たべましたか。— なにも たべませんでした。",
+          "translation": "What did you eat this morning? — I didn't eat anything."
+        },
+        {
+          "kanji": "店で何を買いまし​​たか。— 何も買いませんでした。",
+          "kana": "みせで なにを かいましたか。— なにも かいませんでした。",
+          "translation": "What did you buy at the store? — I didn't buy anything."
+        },
+        {
+          "kanji": "休みにどこへ行きましたか。— どこ[へ]も行きませんでした。",
+          "kana": "やすみに どこへ いきましたか。— どこ[へ]も いきませんでした。",
+          "translation": "Where did you go on your day off? — I didn't go anywhere."
+        }
+      ]
+    },
+    {
+      "pattern": "なん vs. なに [Takashi's Phonetic Rules for 何]",
+      "explanation": "Both なん and なに share the exact same kanji (何) and both mean 'what'. Takashi Sensei teaches clear phonetic rules to know which pronunciation to use:\n\n1. ALWAYS PRONOUNCE AS 『なん』 (nan):\n  (a) When the following word starts with a sound from the D, T, or N rows (Da/De/Do, Ta/Te/To, Na/Ne/No).\n      • Before です (d-sound): 何ですか (nan desu ka)\n      • Before と (t-sound): 何と言いましたか (nan to iimashita ka)\n      • Before の (n-sound): 何の本ですか (nan no hon desu ka)\n      • Before で (d-sound): 何で来ましたか (nan de kimashita ka — by what means?)\n  (b) Directly preceding counter suffixes and numbers:\n      • 何時 (nan-ji: what time), 何歳 (nan-sai: what age), 何人 (nan-nin: how many people), 何番 (nan-ban: what number), 何曜日 (nan-youbi: what day of the week).\n\n2. ALWAYS PRONOUNCE AS 『なに』 (nani):\n  (a) When followed by the particles を, が, に, or も:\n      • 何を食べますか (nani o tabemasu ka — NOT nan o)\n      • 何がありますか (nani ga arimasu ka)\n      • 何も (nani mo)\n  (b) When the word stands alone by itself:\n      • 「何？」 (Nani? — 'What?').",
+      "examples": [
+        {
+          "kanji": "これは何の本ですか。— 日本語の本です。",
+          "kana": "これは なんの ほんですか。— にほんごの ほんです。",
+          "translation": "What kind of book is this? (Before の → なん) — It is a Japanese book."
+        },
+        {
+          "kanji": "今何時ですか。— 3時です。",
+          "kana": "いま なんじですか。— さんじです。",
+          "translation": "What time is it now? (Before counter suffix 時 → なん) — It is 3:00."
+        },
+        {
+          "kanji": "朝食に何を食べますか。",
+          "kana": "ちょうしょくに なにを たべますか。",
+          "translation": "What do you eat for breakfast? (Before を → なに)."
+        },
+        {
+          "kanji": "何を買いましたか。— 靴を買いました。",
+          "kana": "なにを かいましたか。— くつを かいました。",
+          "translation": "What did you buy? (Before を → なに) — I bought shoes."
+        },
+        {
+          "kanji": "お名前は何ですか。",
+          "kana": "おなまえは なんですか。",
+          "translation": "What is your name? (Before です → なん)."
+        }
+      ]
+    },
+    {
+      "pattern": "Place で Verb [Location of Dynamic Action]",
+      "explanation": "In Lesson 5, you learned で as a particle marking means or transportation (電車で行きます). In Lesson 6, で takes on its second core function: marking the PLACE WHERE AN ACTION OCCURS. Formula: 『Place + で + Action Verb』. Takashi Sensei emphasizes keeping particle locations crystal clear: (1) Place + で: dynamic event/action occurs there (図書館で本を読みます, レストランで食べます). (2) Place + に/へ: destination of motion with movement verbs (学校へ行きます, 家に帰ります). (3) Place + に: location of static existence with います/あります (部屋に猫がいます). To ask where someone does an action, use: 『どこで [Object] を [Verb] ますか』.",
+      "examples": [
+        {
+          "kanji": "駅で新聞を買います。",
+          "kana": "えきで しんぶんを かいます。",
+          "translation": "I buy a newspaper at the station."
+        },
+        {
+          "kanji": "レストランで昼ご飯を食べました。",
+          "kana": "レストランで ひるごはんを たべました。",
+          "translation": "I ate lunch at a restaurant."
+        },
+        {
+          "kanji": "どこでその写真を撮りましたか。— 奈良公園で撮りました。",
+          "kana": "どこで その しゃしんを とりましたか。— ならこうえんで とりました。",
+          "translation": "Where did you take that picture? — I took it at Nara Park."
+        },
+        {
+          "kanji": "庭でサッカーをしません。",
+          "kana": "にわで サッカーを しません。",
+          "translation": "I do not play soccer in the yard."
+        },
+        {
+          "kanji": "デパートで服を買いました。",
+          "kana": "デパートで ふくを かいました。",
+          "translation": "I bought clothes at the department store."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-ませんか [Polite Invitation / Proposal]",
+      "explanation": "To invite someone to do an activity with you politely, replace the affirmative ～ます ending with ～ませんか ('Won't you...?' / 'Would you like to...?'). Takashi Sensei explains the Japanese cultural mindset: In Japanese society, asking directly 『いっしょに行きますか』 (Are you going together?) merely asks about a factual plan and can feel abrupt or cold. By framing the proposal in the negative (～ませんか), the speaker shows consideration and modesty, giving the listener comfortable psychological space to decline without feeling pressured. Frequently used together with the adverb いっしょに (together): 『いっしょに ～ませんか』.",
+      "examples": [
+        {
+          "kanji": "いっしょに京都へ行きませんか。",
+          "kana": "いっしょに きょうとへ いきませんか。",
+          "translation": "Won't you go to Kyoto together with me?"
+        },
+        {
+          "kanji": "ロビーでお茶を飲みませんか。",
+          "kana": "ロビーで おちゃを のみませんか。",
+          "translation": "Would you like to have some tea in the lobby?"
+        },
+        {
+          "kanji": "土曜日に映画を見ませんか。",
+          "kana": "どようびに えいがを みませんか。",
+          "translation": "Won't you watch a movie with me on Saturday?"
+        },
+        {
+          "kanji": "あしたテニスをしませんか。",
+          "kana": "あした テニスを しませんか。",
+          "translation": "Would you like to play tennis tomorrow?"
+        },
+        {
+          "kanji": "いっしょにお昼ご飯を食べませんか。",
+          "kana": "いっしょに おひるごはんを たべませんか。",
+          "translation": "Shall we eat lunch together?"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-ましょう [Enthusiastic Suggestion & Acceptance]",
+      "explanation": "Replace ～ます with ～ましょう ('Let's...'). It serves two major conversational functions: (1) Enthusiastically accepting an invitation introduced with ～ませんか: 「いっしょにお茶を飲みませんか」「ええ、飲みましょう！」(Won't you have tea? — Yes, let's drink!). (2) Initiating an action when the speaker takes positive leadership or when mutual agreement is already assumed: 「ちょっと休みましょう」(Let's take a short break), 「始めましょう」(Let's begin). Takashi's nuance tip: Do NOT initiate a first-time proposal to a superior or acquaintance using ～ましょう alone (e.g. ✕ 行きましょう), because it assumes agreement and can sound pushy. Always invite with ～ませんか first!",
+      "examples": [
+        {
+          "kanji": "いっしょに行きませんか。— ええ、行きましょう。",
+          "kana": "いっしょに いきませんか。— ええ、いきましょう。",
+          "translation": "Won't you go together? — Yes, let's go!"
+        },
+        {
+          "kanji": "ちょっと休みましょう。",
+          "kana": "ちょっと やすみましょう。",
+          "translation": "Let's take a short break."
+        },
+        {
+          "kanji": "あそこで写真を撮りましょう。",
+          "kana": "あそこで しゃしんを とりましょう。",
+          "translation": "Let's take a picture over there."
+        },
+        {
+          "kanji": "12時ですね。昼ご飯を食べましょう。",
+          "kana": "じゅうにじですね。ひるごはんを たべましょう。",
+          "translation": "It is 12:00. Let's eat lunch."
+        },
+        {
+          "kanji": "公園でお花見をしましょう。",
+          "kana": "こうえんで おはなみを しましょう。",
+          "translation": "Let's do cherry blossom viewing at the park."
+        }
+      ]
+    },
+    {
+      "pattern": "Echo Question with か: [Topic] ですか [Active Listening & Conversational Bridge]",
+      "explanation": "Takashi Sensei highlights this ubiquitous conversational habit of native speakers: when your conversation partner mentions a specific plan, place, or concept, you repeat the key noun followed by 『ですか』 with rising intonation before giving your reaction. Formula: Person A: 「土曜日に京都へ行きます」 → Person B: 「京都ですか。いいですね！」 (Kyoto? That sounds wonderful!). This serves three purposes: (1) It confirms you heard correctly, (2) it shows enthusiastic active listening (相槌 - aizuchi), and (3) it smoothly transitions into your next thought.",
+      "examples": [
+        {
+          "kanji": "日曜日にお花見に行きます。— お花見ですか。いいですね。",
+          "kana": "にちようびに おはなみに いきます。— おはなみですか。いいですね。",
+          "translation": "I'm going cherry blossom viewing on Sunday. — Cherry blossom viewing? That sounds great!"
+        },
+        {
+          "kanji": "昨日新しいカメラを買いました。— カメラですか。何を買いましたか。",
+          "kana": "きのう あたらしい カメラを かいました。— カメラですか。なにを かいましたか。",
+          "translation": "I bought a new camera yesterday. — A camera? What did you buy?"
+        },
+        {
+          "kanji": "明日は大阪へ出張します。— 大阪ですか。何で行きますか。",
+          "kana": "あしたは おおさかへ しゅっちょうします。— おおさかですか。なんで いきますか。",
+          "translation": "Tomorrow I'm on a business trip to Osaka. — Osaka? How will you get there?"
+        }
+      ]
+    },
+    {
+      "pattern": "Frequency Adverbs (いつも vs. ときどき) and Polite Refusal with ちょっと",
+      "explanation": "Adverbs of frequency describe how often an action occurs and generally precede the direct object or verb: (1) いつも: always / usually (~90-100% of the time). 『いつも朝ご飯を食べます』 (I always eat breakfast). (2) ときどき: sometimes / occasionally (~30-50%). 『ときどきレストランで食べます』 (I sometimes eat at restaurants). (3) Culturally polite refusal: When declining an invitation (～ませんか), native speakers rarely say a direct 'No' (✕ いいえ、行きません), which sounds harsh and confrontational. Instead, they say: 『[Time/Event] は ちょっと…』 ('Sunday is a bit... [inconvenient / difficult]'), trailing off with hesitation. The inviter instantly understands and replies pleasantly with 『じゃ、また今度』 (Well, next time then).",
+      "examples": [
+        {
+          "kanji": "私はいつも図書館で勉強します。",
+          "kana": "わたしは いつも としょかんで べんきょうします。",
+          "translation": "I always study at the library."
+        },
+        {
+          "kanji": "ときどき友達とテニスをします。",
+          "kana": "ときどき ともだちと テニスを します。",
+          "translation": "I sometimes play tennis with my friend."
+        },
+        {
+          "kanji": "日曜日に映画を見ませんか。— すみません、日曜日はちょっと…。",
+          "kana": "にちようびに えいがを みませんか。— すみません、にちようびは ちょっと…。",
+          "translation": "Won't you watch a movie on Sunday? — I'm sorry, Sunday is a bit... [inconvenient]."
+        },
+        {
+          "kanji": "そうですか。じゃ、また今度。",
+          "kana": "そうですか。じゃ、また こんど。",
+          "translation": "I see. Well, another time then."
+        }
+      ]
+    },
+    {
+      "pattern": "Particle Summary: Comparing を, で, に, へ, and と in Context",
+      "explanation": "Synthesizing the core particles learned through Lesson 6:\n• を (Object): Marks the thing affected by the transitive verb (パンを食べます).\n• で (Place of Action): Marks WHERE a dynamic event occurs (食堂でパンを食べます).\n• で (Means / Tool): Marks the method or instrument used (スプーンで食べます, 電車で行きます).\n• に (Specific Time): Marks definite clock times / days (7時に朝ご飯を食べます).\n• に (Person Target): Marks the person you meet with 会います (友達に会います).\n• へ / に (Destination): Marks movement toward a destination (学校へ行きます).\n• と (Accompaniment): Marks the companion with whom you act (友達とパンを食べます).",
+      "examples": [
+        {
+          "kanji": "明日12時に佐藤さんと食堂で昼ご飯を食べます。",
+          "kana": "あした じゅうにじに さとうさんと しょくどうで ひるごはんを たべます。",
+          "translation": "Tomorrow at 12:00, I will eat lunch with Ms. Sato at the cafeteria."
+        },
+        {
+          "kanji": "駅で田中さんに会いました。",
+          "kana": "えきで たなかさんに あいました。",
+          "translation": "I met Mr. Tanaka at the station."
+        },
+        {
+          "kanji": "バスで美術館へ行って、友達と絵を見ます。",
+          "kana": "バスで びじゅつかんへ いって、ともだちと えを みます。",
+          "translation": "I go to the museum by bus and look at paintings with my friend."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "週末の予定とお花見の誘い (Weekend Plans and an Invitation to Hanami)",
+    "lines": [
+      {
+        "speaker": "タカシ",
+        "kanji": "ミラーさん、いつも朝ご飯は何を食べますか。",
+        "kana": "ミラーさん、いつも あさごはんは なにを たべますか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "パンと卵を食べます。そして、コーヒーを飲みます。タカシさんは？",
+        "kana": "パンと たまごを たべます。そして、コーヒーを のみます。タカシさんは？"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "私はいつもご飯と魚を食べます。ときどき果物も食べます。",
+        "kana": "わたしは いつも ごはんと さかなを たべます。ときどき くだものも たべます。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "そうですか。体にいいですね。ところで、土曜日は何をしますか。",
+        "kana": "そうですか。からだに いいですね。ところで、どようびは なにを しますか。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "土曜日は友達と大阪城公園でお花見をします。",
+        "kana": "どようびは ともだちと おおさかじょうこうえんで おはなみを します。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "お花見ですか。いいですね。",
+        "kana": "おはなみですか。いいですね。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "ミラーさんもいっしょに行きませんか。",
+        "kana": "ミラーさんも いっしょに いきませんか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、いいですね。ぜひ行きましょう！ 何時にどこで会いますか。",
+        "kana": "ええ、いいですね。ぜひ いきましょう！ なんじに どこで あいますか。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "10時に大阪城公園駅で会いましょう。それから、公園でお弁当を食べましょう。",
+        "kana": "じゅうじに おおさかじょうこうえんえきで あいましょう。それから、こうえんで おべんとうを たべましょう。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "タカシさん、ミラーさん、何ですか。楽しそうですね。",
+        "kana": "タカシさん、ミラーさん、なんですか。たのしそうですね。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "あ、マリアさん。土曜日にお花見をします。マリアさんもいっしょに行きませんか。",
+        "kana": "あ、マリアさん。どようびに おはなみを します。マリアさんも いっしょに いきませんか。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "土曜日ですか。すみません、土曜日はちょっと…。",
+        "kana": "どようびですか。すみません、どようびは ちょっと…。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "そうですか。何か予定がありますか。",
+        "kana": "そうですか。なにか よていが ありますか。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "ええ、京都で友達に会いますから。また誘ってください。",
+        "kana": "ええ、きょうとで ともだちに あいますから。また さそってください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "残念ですね。じゃあ、タカシさん、土曜日に写真をたくさん撮りましょうね。",
+        "kana": "ざんねんですね。じゃあ、タカシさん、どようびに しゃしんを たくさん とりましょうね。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "ええ、そうしましょう。じゃ、また土曜日に！",
+        "kana": "ええ、そうしましょう。じゃ、また どようびに！"
+      }
+    ],
+    "translation": "Takashi asks Mr. Miller what he usually eats for breakfast. Miller replies that he eats bread, eggs, and drinks coffee, and asks Takashi about his breakfast. Takashi shares that he usually eats rice and fish, and occasionally fruit. Miller praises this healthy routine and asks what Takashi is doing on Saturday. Takashi explains that he is going cherry blossom viewing at Osaka Castle Park with friends. Miller repeats 'Cherry blossom viewing? Sounds nice!' using an echo question. Takashi invites Miller to come along using '～ませんか'. Miller enthusiastically agrees ('ええ、行きましょう！') and asks when and where they should meet. Takashi suggests meeting at 10:00 at Osaka Castle Park Station, after which they will eat boxed lunches in the park. Maria arrives and asks what they are talking about. Takashi invites Maria to join as well, but Maria politely hesitates with '土曜日はちょっと…' because she has plans to meet a friend in Kyoto. Takashi and Miller understand, and Miller suggests taking lots of photos on Saturday. Takashi agrees, and they say goodbye until Saturday.",
+    "questions": [
+      {
+        "question": "What does Mr. Miller eat and drink for breakfast?",
+        "options": [
+          "Rice, fish, and green tea",
+          "Bread, eggs, and coffee",
+          "Only fruit and water",
+          "He eats nothing at all"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: パンと卵を食べます。そして、コーヒーを飲みます (I eat bread and eggs, and drink coffee)."
+      },
+      {
+        "question": "Where are Takashi and his friends going to hold their cherry blossom viewing (お花見)?",
+        "options": [
+          "At a restaurant in Kyoto",
+          "At Osaka Castle Park (大阪城公園)",
+          "At Takashi's home garden",
+          "In front of Akihabara Station"
+        ],
+        "answer": 1,
+        "explanation": "Takashi states: 友達と大阪城公園でお花見をします (I do cherry blossom viewing at Osaka Castle Park with friends)."
+      },
+      {
+        "question": "Which phrase does Mr. Miller use to repeat what he heard and validate Takashi's plan?",
+        "options": [
+          "お花見ですか。いいですね。",
+          "何時に会いますか。",
+          "何を食べますか。",
+          "土曜日はちょっと…。"
+        ],
+        "answer": 0,
+        "explanation": "Miller utilizes the Lesson 6 echo pattern 『お花見ですか。いいですね』 (Cherry blossom viewing? Sounds nice!)."
+      },
+      {
+        "question": "How does Takashi invite Mr. Miller to join the outing?",
+        "options": [
+          "ミラーさんもいっしょに行きなさい。",
+          "ミラーさんもいっしょに行きませんか。",
+          "ミラーさんもいっしょに行きます。",
+          "ミラーさんは行きません。"
+        ],
+        "answer": 1,
+        "explanation": "The standard polite invitation form is ～ませんか: ミラーさんもいっしょに行きませんか。"
+      },
+      {
+        "question": "What time and where do Takashi and Miller plan to meet on Saturday?",
+        "options": [
+          "At 12:00 at a restaurant in Osaka",
+          "At 10:00 at Osaka Castle Park Station",
+          "At 7:00 at the department store",
+          "At 9:00 at Kyoto Station"
+        ],
+        "answer": 1,
+        "explanation": "Takashi proposes: 10時に大阪城公園駅で会いましょう (Let's meet at Osaka Castle Park Station at 10:00)."
+      },
+      {
+        "question": "How does Maria politely express that she cannot attend on Saturday?",
+        "options": [
+          "いいえ、絶対に行きません。",
+          "土曜日は嫌いです。",
+          "土曜日ですか。すみません、土曜日はちょっと…。",
+          "土曜日は暇です。"
+        ],
+        "answer": 2,
+        "explanation": "Rather than a blunt refusal, Maria uses the natural Japanese polite refusal formula: すみません、土曜日はちょっと…."
+      },
+      {
+        "question": "Why is Maria unable to join the cherry blossom viewing?",
+        "options": [
+          "She is studying for an exam all day at home",
+          "She is meeting a friend in Kyoto",
+          "She doesn't like cherry blossoms",
+          "She has to work at the office in Osaka"
+        ],
+        "answer": 1,
+        "explanation": "Maria explains: 京都で友達に会いますから (Because I am meeting a friend in Kyoto)."
+      },
+      {
+        "question": "In the sentence 『10時に大阪城公園駅で会いましょう』, why is the particle で used with Osaka Castle Park Station?",
+        "options": [
+          "It marks the station as a destination of movement",
+          "It marks the station as the location where the action of meeting takes place",
+          "It marks the means of transportation",
+          "It marks the direct object of the verb"
+        ],
+        "answer": 1,
+        "explanation": "In Lesson 6, 『Place + で』 marks the physical location where the dynamic action (会います - meeting) occurs."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct particle to mark the direct object: 'I eat bread every morning.'",
+      "prompt": {
+        "kanji": "毎朝パン___食べます。",
+        "kana": "まいあさ パン___ たべます。"
+      },
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "The particle を (pronounced [o]) marks the direct object of a transitive verb (パンを食べます)."
+    },
+    {
+      "question": "Choose the correct particle for the location of dynamic action: 'I bought a newspaper at the station.'",
+      "prompt": {
+        "kanji": "駅___新聞を買いました。",
+        "kana": "えき___ しんぶんを かいました。"
+      },
+      "options": [
+        "で",
+        "に",
+        "へ",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Dynamic actions take place at a location marked by で: 駅で新聞を買いました."
+    },
+    {
+      "question": "Choose the polite invitation form: 'Won't you drink some tea together?'",
+      "prompt": {
+        "kanji": "いっしょにお茶を___。",
+        "kana": "いっしょに おちゃを ___。"
+      },
+      "options": [
+        "飲みませんか",
+        "飲みましょう",
+        "飲みますか",
+        "飲みません"
+      ],
+      "answer": 0,
+      "explanation": "To politely invite someone and give them room to consider, use ～ませんか (いっしょにお茶を飲みませんか)."
+    },
+    {
+      "question": "Choose the enthusiastic agreement form: 'Yes, let's drink!'",
+      "prompt": {
+        "kanji": "ええ、___。",
+        "kana": "ええ、___。"
+      },
+      "options": [
+        "飲みましょう",
+        "飲みませんか",
+        "飲みます",
+        "飲みました"
+      ],
+      "answer": 0,
+      "explanation": "Enthusiastic agreement to an invitation uses ～ましょう: ええ、飲みましょう."
+    },
+    {
+      "question": "According to Takashi's phonetic rules, how is 何 pronounced in 『何時ですか』?",
+      "options": [
+        "なん (nan)",
+        "なに (nani)",
+        "なんの (nanno)",
+        "なにじ (naniji)"
+      ],
+      "answer": 0,
+      "explanation": "When immediately preceding counters or numbers (like 時, 歳, 人), 何 is always pronounced なん (なんじ)."
+    },
+    {
+      "question": "According to Takashi's phonetic rules, how is 何 pronounced in 『何を食べますか』?",
+      "options": [
+        "なに (nani)",
+        "なん (nan)",
+        "なにお (nanio)",
+        "なんだ (nanda)"
+      ],
+      "answer": 0,
+      "explanation": "When followed by the direct object particle を, 何 is always pronounced なに (なにをたべますか)."
+    },
+    {
+      "question": "Choose the correct phrase to express total negation: 'I didn't eat anything this morning.'",
+      "prompt": {
+        "kanji": "今朝___食べませんでした。",
+        "kana": "けさ ___ たべませんでした。"
+      },
+      "options": [
+        "何も",
+        "何を",
+        "何が",
+        "何か"
+      ],
+      "answer": 0,
+      "explanation": "Total negation requires 『何 + も + Negative Verb』 (何も食べませんでした). Do not attach を to 何も."
+    },
+    {
+      "question": "Choose the correct particle for the person you meet: 'I will meet a friend at the station.'",
+      "prompt": {
+        "kanji": "駅で友達___会います。",
+        "kana": "えきで ともだち___ あいます。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The person you meet takes に with the verb 会います: 友達に会います."
+    },
+    {
+      "question": "Choose the culturally natural and polite refusal: 'Won't you go to Kyoto on Sunday?'",
+      "prompt": {
+        "kanji": "日曜日に京都へ行きませんか。— すみません、日曜日は___。",
+        "kana": "にちようびに きょうとへ いきませんか。— すみません、にちようびは ___。"
+      },
+      "options": [
+        "ちょっと…",
+        "行きません",
+        "だめです",
+        "嫌いです"
+      ],
+      "answer": 0,
+      "explanation": "Polite refusals trail off with 『〜は ちょっと…』 to avoid blunt confrontation."
+    },
+    {
+      "question": "Choose the correct meaning of 吸います (すいます) in 『たばこを吸います』.",
+      "options": [
+        "to smoke",
+        "to eat",
+        "to buy",
+        "to meet"
+      ],
+      "answer": 0,
+      "explanation": "たばこを吸います means to smoke a cigarette (literally 'to inhale / puff tobacco')."
+    },
+    {
+      "question": "Choose the correct verb: 'I write a report at the library.'",
+      "prompt": {
+        "kanji": "図書館でレポートを___。",
+        "kana": "としょかんで レポートを ___。"
+      },
+      "options": [
+        "書きます",
+        "読みます",
+        "聞きます",
+        "見ます"
+      ],
+      "answer": 0,
+      "explanation": "レポートを書きます (かきます) = to write a report."
+    },
+    {
+      "question": "Choose the correct verb for taking photos: 'Let's take photos in the garden.'",
+      "prompt": {
+        "kanji": "庭で写真を___。",
+        "kana": "にわで しゃしんを ___。"
+      },
+      "options": [
+        "撮りましょう",
+        "吸いましょう",
+        "飲みましょう",
+        "買いましょう"
+      ],
+      "answer": 0,
+      "explanation": "写真を撮ります (とります) = to take a photograph. With ～ましょう: 撮りましょう."
+    },
+    {
+      "question": "Which noun means 'breakfast'?",
+      "options": [
+        "朝ご飯 (あさごはん)",
+        "昼ご飯 (ひるごはん)",
+        "晩ご飯 (ばんごはん)",
+        "お弁当 (おべんとう)"
+      ],
+      "answer": 0,
+      "explanation": "朝ご飯 (あさごはん) = breakfast. 昼ご飯 = lunch; 晩ご飯 = dinner."
+    },
+    {
+      "question": "Which noun means 'vegetables'?",
+      "options": [
+        "野菜 (やさい)",
+        "果物 (くだもの)",
+        "肉 (にく)",
+        "魚 (さかな)"
+      ],
+      "answer": 0,
+      "explanation": "野菜 (やさい) = vegetables. 果物 = fruit; 肉 = meat; 魚 = fish."
+    },
+    {
+      "question": "Which drink means 'black tea'?",
+      "options": [
+        "紅茶 (こうちゃ)",
+        "お茶 (おちゃ)",
+        "牛乳 (ぎゅうにゅう)",
+        "お酒 (おさけ)"
+      ],
+      "answer": 0,
+      "explanation": "紅茶 (こうちゃ) is western black tea; お茶 is green tea."
+    },
+    {
+      "question": "Choose the correct verb collocation: 'to play soccer'.",
+      "options": [
+        "サッカーをします",
+        "サッカーを行きます",
+        "サッカーを食べます",
+        "サッカーを吸います"
+      ],
+      "answer": 0,
+      "explanation": "Sports use the verb します: サッカーをします (play soccer)."
+    },
+    {
+      "question": "Choose the correct sentence: 'What will you do on Saturday?'",
+      "options": [
+        "土曜日に何をしますか。",
+        "土曜日に何がしますか。",
+        "土曜日に何でしますか。",
+        "土曜日に何をしに行きます。"
+      ],
+      "answer": 0,
+      "explanation": "Asking about actions: 何をしますか (なにをしますか)."
+    },
+    {
+      "question": "Choose the correct adverb meaning 'always' or 'usually'.",
+      "prompt": {
+        "kanji": "私は___朝7時に起きます。",
+        "kana": "わたしは ___ あさ しちじに おきます。"
+      },
+      "options": [
+        "いつも",
+        "ときどき",
+        "ちょっと",
+        "いっしょに"
+      ],
+      "answer": 0,
+      "explanation": "いつも means always or usually. ときどき means sometimes."
+    },
+    {
+      "question": "Choose the correct adverb meaning 'sometimes'.",
+      "prompt": {
+        "kanji": "___喫茶店でコーヒーを飲みます。",
+        "kana": "___ きっさてんで コーヒーを のみます。"
+      },
+      "options": [
+        "ときどき",
+        "いつも",
+        "それから",
+        "ええ"
+      ],
+      "answer": 0,
+      "explanation": "ときどき means sometimes / occasionally."
+    },
+    {
+      "question": "Choose the correct phrase to connect sequential events: 'I watched a movie. And then, I had dinner.'",
+      "prompt": {
+        "kanji": "映画を見ました。___、晩ご飯を食べました。",
+        "kana": "えいがを みました。___、ばんごはんを たべました。"
+      },
+      "options": [
+        "それから",
+        "だから",
+        "しかし",
+        "いつも"
+      ],
+      "answer": 0,
+      "explanation": "それから means 'and then' / 'after that'."
+    },
+    {
+      "question": "How is 何 pronounced in 『何ですか』?",
+      "options": [
+        "なん (nan)",
+        "なに (nani)",
+        "なんの (nanno)",
+        "なにの (nanino)"
+      ],
+      "answer": 0,
+      "explanation": "Before です (starts with 'd'), 何 is pronounced なん (なんですか)."
+    },
+    {
+      "question": "How is 何 pronounced in 『何の本ですか』?",
+      "options": [
+        "なん (nan)",
+        "なに (nani)",
+        "なにお (nanio)",
+        "なんじ (nanji)"
+      ],
+      "answer": 0,
+      "explanation": "Before の (starts with 'n'), 何 is pronounced なん (なんのほんですか)."
+    },
+    {
+      "question": "How is 何 pronounced in 『何人ですか』 (How many people)?",
+      "options": [
+        "なん (nan)",
+        "なに (nani)",
+        "なひと (nahito)",
+        "なんに (nanni)"
+      ],
+      "answer": 0,
+      "explanation": "Before counters like 人 (nin), 何 is pronounced なん (なんにんですか)."
+    },
+    {
+      "question": "Choose the natural echo question response: 'A: 明日お花見に行きます。 B: ___。いいですね。'",
+      "options": [
+        "お花見ですか",
+        "お花見をですか",
+        "お花見はどうですか",
+        "お花見を行きましょう"
+      ],
+      "answer": 0,
+      "explanation": "Repeating the key noun + ですか is the standard active listening pattern: お花見ですか。いいですね。"
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "今朝何も食べませんでした。",
+        "今朝何を食べましたか。",
+        "今朝何もを食べませんでした。",
+        "今朝パンを食べました。"
+      ],
+      "answer": 2,
+      "explanation": "Never use the particle を with 何も. Say 何も食べませんでした, not 何もを食べませんでした."
+    },
+    {
+      "question": "Choose the correct particles: 'I ate lunch with my friend at a restaurant.'",
+      "prompt": {
+        "kanji": "レストラン___友達___昼ご飯を食べました。",
+        "kana": "レストラン___ ともだち___ ひるごはんを たべました。"
+      },
+      "options": [
+        "で、と",
+        "に、と",
+        "で、に",
+        "へ、と"
+      ],
+      "answer": 0,
+      "explanation": "Place of action takes で (レストランで); companion takes と (友達と)."
+    },
+    {
+      "question": "Choose the correct sentence to invite someone to play tennis:",
+      "options": [
+        "いっしょにテニスをしませんか。",
+        "いっしょにテニスをしません。",
+        "いっしょにテニスをしましょうか。",
+        "いっしょにテニスをします。"
+      ],
+      "answer": 0,
+      "explanation": "The most considerate and polite invitation is いっしょに + Verb-ませんか."
+    },
+    {
+      "question": "Which response means 'Let's take a short break'?",
+      "options": [
+        "ちょっと休みましょう。",
+        "ちょっと休みません。",
+        "ちょっと休みました。",
+        "ちょっと休むです。"
+      ],
+      "answer": 0,
+      "explanation": "Making a suggestion: Verb-ましょう (ちょっと休みましょう)."
+    },
+    {
+      "question": "Choose the correct word: 'What kind of sports do you play?'",
+      "prompt": {
+        "kanji": "どんなスポーツを___。",
+        "kana": "どんな スポーツを ___。"
+      },
+      "options": [
+        "しますか",
+        "行きますか",
+        "食べますか",
+        "買いますか"
+      ],
+      "answer": 0,
+      "explanation": "Sports take します: スポーツをしますか."
+    },
+    {
+      "question": "What is the difference between 『どこへ行きますか』 and 『どこで買いますか』?",
+      "options": [
+        "へ marks destination of movement; で marks location of action",
+        "で marks destination; へ marks location of action",
+        "Both mean where an action happens",
+        "Both mean by what means you travel"
+      ],
+      "answer": 0,
+      "explanation": "へ marks movement towards a destination (go to); で marks where a dynamic action occurs (buy at)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I listen to the radio in my room.'",
+      "options": [
+        "部屋でラジオを聞きます。",
+        "部屋にラジオを聞きます。",
+        "部屋へラジオを聞きます。",
+        "部屋をラジオで聞きます。"
+      ],
+      "answer": 0,
+      "explanation": "Location of listening takes で (部屋で); target of listening takes を (ラジオを)."
+    },
+    {
+      "question": "Choose the correct question: 'Where did you buy that bag?'",
+      "options": [
+        "どこでそのかばんを買いましたか。",
+        "どこにそのかばんを買いましたか。",
+        "どこへそのかばんを買いましたか。",
+        "どこをそのかばんで買いましたか。"
+      ],
+      "answer": 0,
+      "explanation": "Where did you perform the purchase → どこで."
+    },
+    {
+      "question": "Choose the correct verb for homework: 'I do homework at night.'",
+      "prompt": {
+        "kanji": "夜宿題を___。",
+        "kana": "よる しゅくだいを ___。"
+      },
+      "options": [
+        "します",
+        "見ます",
+        "書きます",
+        "読みます"
+      ],
+      "answer": 0,
+      "explanation": "宿題をします is the idiomatic phrase for doing homework."
+    },
+    {
+      "question": "What does 『わかりました』 mean in conversation?",
+      "options": [
+        "Understood / I see",
+        "I don't know",
+        "Goodbye",
+        "You're welcome"
+      ],
+      "answer": 0,
+      "explanation": "わかりました acknowledges understanding or accepting an instruction/plan."
+    },
+    {
+      "question": "Choose the correct phrase: 'Well then, see you tomorrow.'",
+      "options": [
+        "じゃ、また明日。",
+        "ええ、また明日。",
+        "いいですね、明日。",
+        "何ですか、明日。"
+      ],
+      "answer": 0,
+      "explanation": "Casual parting phrase: じゃ、また [time] (じゃ、また明日)."
+    },
+    {
+      "question": "What does 『いいですね』 express when someone proposes an idea?",
+      "options": [
+        "Enthusiastic approval ('That sounds great!')",
+        "Polite disagreement",
+        "Confusion about the time",
+        "A formal apology"
+      ],
+      "answer": 0,
+      "explanation": "いいですね means 'That sounds great!' / 'That's a fine idea!'."
+    },
+    {
+      "question": "Choose the correct negative response: 'Did you drink beer yesterday?' — 'No, I didn't drink.'",
+      "prompt": {
+        "kanji": "昨日ビールを飲みましたか。— いいえ、___。",
+        "kana": "きのう ビールを のみましたか。— いいえ、___。"
+      },
+      "options": [
+        "飲みませんでした",
+        "飲みません",
+        "飲みました",
+        "飲まないでした"
+      ],
+      "answer": 0,
+      "explanation": "Past negative polite form of 飲みます is 飲みませんでした."
+    },
+    {
+      "question": "Choose the correct particle: 'I read a magazine with my younger sister.'",
+      "prompt": {
+        "kanji": "妹___雑誌を読みました。",
+        "kana": "いもうと___ ざっしを よみました。"
+      },
+      "options": [
+        "と",
+        "で",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Accompaniment ('together with someone') uses particle と: 妹と."
+    },
+    {
+      "question": "Choose the correct particle: 'I bought fish and meat.'",
+      "prompt": {
+        "kanji": "魚___肉を買いました。",
+        "kana": "さかな___ にくを かいました。"
+      },
+      "options": [
+        "と",
+        "で",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Listing nouns exhaustively ('and') takes と: 魚と肉."
+    },
+    {
+      "question": "Choose the correct verb: 'I watch videos on the weekend.'",
+      "prompt": {
+        "kanji": "週末ビデオを___。",
+        "kana": "しゅうまつ ビデオを ___。"
+      },
+      "options": [
+        "見ます",
+        "聞きます",
+        "吸います",
+        "撮ります"
+      ],
+      "answer": 0,
+      "explanation": "ビデオを見ます = to watch videos."
+    },
+    {
+      "question": "Choose the sentence meaning 'Shall we begin?':",
+      "options": [
+        "始めましょう。",
+        "始めませんか。",
+        "始めますか。",
+        "始めませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "始めましょう = 'Let's begin / Shall we start?'"
+    },
+    {
+      "question": "What does 『お花見』 (おはなみ) mean?",
+      "options": [
+        "Cherry blossom viewing",
+        "Flower planting",
+        "Firework viewing",
+        "Moon viewing"
+      ],
+      "answer": 0,
+      "explanation": "お花見 (おはなみ) specifically denotes traditional cherry blossom viewing in spring."
+    },
+    {
+      "question": "Choose the correct particle: 'I bought this CD at a shop in Shinjuku.'",
+      "prompt": {
+        "kanji": "新宿の店___このCDを買いました。",
+        "kana": "しんじゅくの みせ___ このCDを かいました。"
+      },
+      "options": [
+        "で",
+        "に",
+        "へ",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Place where buying happens takes で: 店でCDを買いました."
+    },
+    {
+      "question": "Which verb means 'to inhale' or 'to smoke'?",
+      "options": [
+        "吸います (すいます)",
+        "飲みます (のみます)",
+        "食べます (たべます)",
+        "撮ります (とります)"
+      ],
+      "answer": 0,
+      "explanation": "吸います = to smoke / inhale."
+    },
+    {
+      "question": "Choose the correct sentence: 'Tomorrow at 1:00, let's meet in front of the station.'",
+      "options": [
+        "明日1時に駅の前で会いましょう。",
+        "明日1時で駅の前を会いましょう。",
+        "明日1時を駅の前に会いましょう。",
+        "明日1時に駅の前へ会いましょう。"
+      ],
+      "answer": 0,
+      "explanation": "Time takes に (1時に), place of meeting takes で (駅の前で), suggestion takes 会いましょう."
+    }
+  ],
+  "writing": {
+    "title": "My Daily Diet, Weekend Routine, and Inviting a Friend",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 6 grammar. (1) Describe what you always or usually eat and drink for breakfast and where you have it (use いつも, を, and で). (2) Mention something you sometimes eat or do (use ときどき). (3) State what you did yesterday evening or on the weekend (use それから to connect two actions). (4) Write an invitation to a friend asking them to do an activity with you (e.g., eat lunch, play tennis, or watch a movie) using 『いっしょに ～ませんか』, and provide their enthusiastic acceptance using 『ええ、～ましょう』.",
+    "placeholder": "私はいつも朝ご飯に ______ を食べます。そして、______ を飲みます。\nときどき ______ で ______ を食べます。\n昨日の夜、______ を見ました。それから、______ をしました。\n土曜日にいっしょに ______ を ______ ませんか。\n— ええ、いいですね。______ ましょう！",
+    "modelAnswer": "私はいつも家でパンと卵を食べます。そして、熱いコーヒーを飲みます。ときどき食堂で友達と昼ご飯を食べます。昨日の夜、部屋で日本の映画を見ました。それから、日本語の宿題をしました。ミラーさん、土曜日にいっしょに大阪城公園でお花見をしませんか。— ええ、いいですね。いっしょに行きましょう！"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I eat bread and eggs every morning.",
+        "chunks": [
+          "毎朝",
+          "パンと卵を",
+          "食べます。"
+        ]
+      },
+      {
+        "en": "I drink water in my room.",
+        "chunks": [
+          "部屋で",
+          "水を",
+          "飲みます。"
+        ]
+      },
+      {
+        "en": "I bought a newspaper at the station.",
+        "chunks": [
+          "駅で",
+          "新聞を",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "Won't you go to Kyoto together with me?",
+        "chunks": [
+          "いっしょに",
+          "京都へ",
+          "行きませんか。"
+        ]
+      },
+      {
+        "en": "Yes, sounds great. Let's go!",
+        "chunks": [
+          "ええ、いいですね。",
+          "行きましょう！"
+        ]
+      },
+      {
+        "en": "What did you eat this morning? — I didn't eat anything.",
+        "chunks": [
+          "今朝何を食べましたか。",
+          "何も",
+          "食べませんでした。"
+        ]
+      },
+      {
+        "en": "Let's take a short break over there.",
+        "chunks": [
+          "あそこで",
+          "ちょっと",
+          "休みましょう。"
+        ]
+      },
+      {
+        "en": "I will meet a friend at the station at 10:00.",
+        "chunks": [
+          "10時に",
+          "駅で",
+          "友達に会います。"
+        ]
+      },
+      {
+        "en": "I always buy bread at that store.",
+        "chunks": [
+          "いつもあの店で",
+          "パンを",
+          "買います。"
+        ]
+      },
+      {
+        "en": "I sometimes play soccer with my friends.",
+        "chunks": [
+          "ときどき友達と",
+          "サッカーを",
+          "します。"
+        ]
+      },
+      {
+        "en": "I watched a movie, and then had dinner.",
+        "chunks": [
+          "映画を見ました。",
+          "それから、",
+          "晩ご飯を食べました。"
+        ]
+      },
+      {
+        "en": "Cherry blossom viewing? That sounds nice!",
+        "chunks": [
+          "お花見ですか。",
+          "いいですね！"
+        ]
+      },
+      {
+        "en": "I wrote a report at the library.",
+        "chunks": [
+          "図書館で",
+          "レポートを",
+          "書きました。"
+        ]
+      },
+      {
+        "en": "I took photographs in Nara Park.",
+        "chunks": [
+          "奈良公園で",
+          "写真を",
+          "撮りました。"
+        ]
+      },
+      {
+        "en": "Would you like to drink some tea in the lobby?",
+        "chunks": [
+          "ロビーで",
+          "お茶を",
+          "飲みませんか。"
+        ]
+      },
+      {
+        "en": "I'm sorry, Sunday is a bit inconvenient...",
+        "chunks": [
+          "すみません、",
+          "日曜日は",
+          "ちょっと…。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "食べます (Eat)",
+        "form": "Negative (Don't eat)",
+        "answer": "たべません",
+        "options": [
+          "たべません",
+          "たべないでした",
+          "たべませんでした"
+        ],
+        "hint": "Replace ます with ません"
+      },
+      {
+        "prompt": "食べます (Eat)",
+        "form": "Invitation (Won't you eat?)",
+        "answer": "たべませんか",
+        "options": [
+          "たべませんか",
+          "たべましょう",
+          "たべますか"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "食べます (Eat)",
+        "form": "Suggestion (Let's eat!)",
+        "answer": "たべましょう",
+        "options": [
+          "たべましょう",
+          "たべませんか",
+          "たべます"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "飲みます (Drink)",
+        "form": "Past Affirmative (Drank)",
+        "answer": "のみました",
+        "options": [
+          "のみました",
+          "のみません",
+          "のみませんでした"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "飲みます (Drink)",
+        "form": "Past Negative (Didn't drink)",
+        "answer": "のみませんでした",
+        "options": [
+          "のみませんでした",
+          "のみません",
+          "のまないでした"
+        ],
+        "hint": "Replace ます with ませんでした"
+      },
+      {
+        "prompt": "飲みます (Drink)",
+        "form": "Invitation (Won't you drink?)",
+        "answer": "のみませんか",
+        "options": [
+          "のみませんか",
+          "のみましょう",
+          "のみますか"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "見ます (Watch)",
+        "form": "Suggestion (Let's watch!)",
+        "answer": "みましょう",
+        "options": [
+          "みましょう",
+          "みませんか",
+          "みました"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "見ます (Watch)",
+        "form": "Invitation (Won't you watch?)",
+        "answer": "みませんか",
+        "options": [
+          "みませんか",
+          "みましょう",
+          "みません"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "買います (Buy)",
+        "form": "Past Affirmative (Bought)",
+        "answer": "かいました",
+        "options": [
+          "かいました",
+          "かいません",
+          "かいましたか"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "買います (Buy)",
+        "form": "Past Negative (Didn't buy)",
+        "answer": "かいませんでした",
+        "options": [
+          "かいませんでした",
+          "かいません",
+          "かわないでした"
+        ],
+        "hint": "Replace ます with ませんでした"
+      },
+      {
+        "prompt": "聞きます (Listen)",
+        "form": "Invitation (Won't you listen?)",
+        "answer": "ききませんか",
+        "options": [
+          "ききませんか",
+          "ききましょう",
+          "ききますか"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "書きます (Write)",
+        "form": "Suggestion (Let's write!)",
+        "answer": "かきましょう",
+        "options": [
+          "かきましょう",
+          "かきませんか",
+          "かきました"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "撮ります (Take a photo)",
+        "form": "Suggestion (Let's take a photo!)",
+        "answer": "とりましょう",
+        "options": [
+          "とりましょう",
+          "とりませんか",
+          "とりました"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "撮ります (Take a photo)",
+        "form": "Past Affirmative (Took a photo)",
+        "answer": "とりました",
+        "options": [
+          "とりました",
+          "とりません",
+          "とりませんでした"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "します (Do / Play)",
+        "form": "Invitation (Won't you play/do?)",
+        "answer": "しませんか",
+        "options": [
+          "しませんか",
+          "しましょう",
+          "しません"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "します (Do / Play)",
+        "form": "Suggestion (Let's do / play!)",
+        "answer": "しましょう",
+        "options": [
+          "しましょう",
+          "しませんか",
+          "しました"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "会います (Meet)",
+        "form": "Past Affirmative (Met)",
+        "answer": "あいました",
+        "options": [
+          "あいました",
+          "あいません",
+          "あいませんでした"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "会います (Meet)",
+        "form": "Suggestion (Let's meet!)",
+        "answer": "あいましょう",
+        "options": [
+          "あいましょう",
+          "あいませんか",
+          "あいます"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "吸います (Smoke / Inhale)",
+        "form": "Negative (Don't smoke)",
+        "answer": "すいません",
+        "options": [
+          "すいません",
+          "すいませんでした",
+          "すいませんか"
+        ],
+        "hint": "Replace ます with ません"
+      },
+      {
+        "prompt": "行きます (Go)",
+        "form": "Invitation (Won't you go?)",
+        "answer": "いきませんか",
+        "options": [
+          "いきませんか",
+          "いきましょう",
+          "いきません"
+        ],
+        "hint": "Replace ます with ませんか"
+      },
+      {
+        "prompt": "休みます (Rest / Take a break)",
+        "form": "Suggestion (Let's rest!)",
+        "answer": "やすみましょう",
+        "options": [
+          "やすみましょう",
+          "やすみませんか",
+          "やすみました"
+        ],
+        "hint": "Replace ます with ましょう"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "毎朝パン [ ? ] 食べます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of transitive verb 食べます."
+      },
+      {
+        "sentence": "図書館 [ ? ] 本を読みます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location where dynamic action occurs."
+      },
+      {
+        "sentence": "駅で友達 [ ? ] 会いました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "と"
+        ],
+        "hint": "Person you meet takes particle に with 会います."
+      },
+      {
+        "sentence": "今朝何 [ ? ] 食べませんでした。",
+        "answer": "も",
+        "options": [
+          "も",
+          "を",
+          "が",
+          "で"
+        ],
+        "hint": "Total negation: 何 + も + negative verb."
+      },
+      {
+        "sentence": "日曜日に友達 [ ? ] サッカーをします。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "に",
+          "を"
+        ],
+        "hint": "Accompaniment ('together with someone') uses と."
+      },
+      {
+        "sentence": "朝食に何 [ ? ] 食べますか。",
+        "answer": "を",
+        "options": [
+          "を",
+          "も",
+          "で",
+          "に"
+        ],
+        "hint": "Direct object of question verb 食べますか."
+      },
+      {
+        "sentence": "レストラン [ ? ] 昼ご飯を食べました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location where the meal was eaten takes で."
+      },
+      {
+        "sentence": "土曜日に京都 [ ? ] 行きませんか。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination of movement verb 行きませんか."
+      },
+      {
+        "sentence": "お花見 [ ? ]。いいですね！",
+        "answer": "ですか",
+        "options": [
+          "ですか",
+          "ですかを",
+          "ですね",
+          "でしょう"
+        ],
+        "hint": "Echoing key information with ですか."
+      },
+      {
+        "sentence": "あした10時 [ ? ] 会いましょう。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Specific clock time takes に."
+      },
+      {
+        "sentence": "デパート [ ? ] 靴を買いました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location of purchasing action takes で."
+      },
+      {
+        "sentence": "庭 [ ? ] 写真を撮りましょう。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location where photo is taken takes で."
+      },
+      {
+        "sentence": "たばこ [ ? ] 吸いません。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of 吸いません takes を."
+      },
+      {
+        "sentence": "部屋で音楽 [ ? ] 聞きます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of 聞きます."
+      },
+      {
+        "sentence": "昨日はどこ [ ? ] 行きませんでした。",
+        "answer": "へも",
+        "options": [
+          "へも",
+          "でも",
+          "をも",
+          "にも"
+        ],
+        "hint": "Total negation of destination: どこへも / どこも."
+      },
+      {
+        "sentence": "明日公園 [ ? ] お花見をします。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location where the event takes place takes で."
+      },
+      {
+        "sentence": "ロビー [ ? ] お茶を飲みませんか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "Location of drinking takes で."
+      },
+      {
+        "sentence": "これは何 [ ? ] 本ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "を",
+          "で",
+          "に"
+        ],
+        "hint": "Noun connecting particle: 何の本 (nan no hon)."
+      },
+      {
+        "sentence": "魚 [ ? ] 肉を食べます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "に",
+          "を"
+        ],
+        "hint": "Listing multiple nouns: 'fish AND meat'."
+      },
+      {
+        "sentence": "日曜日はちょっと [ ? ]。",
+        "answer": "…",
+        "options": [
+          "…",
+          "ですか",
+          "ですね",
+          "でした"
+        ],
+        "hint": "Polite trailing hesitation when declining."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Inviting a coworker to lunch",
+        "speaker": "同僚",
+        "prompt": "いっしょに昼ご飯を食べませんか。",
+        "options": [
+          {
+            "text": "ええ、食べましょう。",
+            "correct": true
+          },
+          {
+            "text": "ええ、食べません。",
+            "correct": false
+          },
+          {
+            "text": "昼ご飯はどこへ行きますか。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an invitation (～ませんか) enthusiastically with ええ、～ましょう."
+      },
+      {
+        "situation": "Politely declining an invitation",
+        "speaker": "友達",
+        "prompt": "土曜日に映画を見に行きませんか。",
+        "options": [
+          {
+            "text": "すみません、土曜日はちょっと…。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、行きません。",
+            "correct": false
+          },
+          {
+            "text": "土曜日は嫌いです。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 『〜は ちょっと…』 to decline politely without being confrontational."
+      },
+      {
+        "situation": "Active listening response (Echo question)",
+        "speaker": "田中",
+        "prompt": "日曜日に奈良へ行きました。",
+        "options": [
+          {
+            "text": "奈良ですか。いいですね。",
+            "correct": true
+          },
+          {
+            "text": "奈良はどうやってですか。",
+            "correct": false
+          },
+          {
+            "text": "奈良へ行きましょう。",
+            "correct": false
+          }
+        ],
+        "tip": "Repeat the key noun with ですか to show attentive interest."
+      },
+      {
+        "situation": "Asking about morning routine",
+        "speaker": "佐藤",
+        "prompt": "今朝何を食べましたか。",
+        "options": [
+          {
+            "text": "何も食べませんでした。",
+            "correct": true
+          },
+          {
+            "text": "何もを食べませんでした。",
+            "correct": false
+          },
+          {
+            "text": "何も食べました。",
+            "correct": false
+          }
+        ],
+        "tip": "Total negation requires 何も + negative verb without を."
+      },
+      {
+        "situation": "Asking where someone purchased an item",
+        "speaker": "友達",
+        "prompt": "その靴、素敵ですね。どこで買いましたか。",
+        "options": [
+          {
+            "text": "梅田のデパートで買いました。",
+            "correct": true
+          },
+          {
+            "text": "梅田のデパートへ買いました。",
+            "correct": false
+          },
+          {
+            "text": "靴を買いました。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer a どこで question with 『Place + で + 買いました』."
+      },
+      {
+        "situation": "Suggesting a short rest during study",
+        "speaker": "山田",
+        "prompt": "もう2時間勉強しましたね。",
+        "options": [
+          {
+            "text": "そうですね。少し休みましょう。",
+            "correct": true
+          },
+          {
+            "text": "そうですね。少し休みません。",
+            "correct": false
+          },
+          {
+            "text": "少し休むです。",
+            "correct": false
+          }
+        ],
+        "tip": "Propose an action with mutual agreement using ～ましょう."
+      },
+      {
+        "situation": "Choosing a meeting point",
+        "speaker": "ミラー",
+        "prompt": "何時にどこで会いましょうか。",
+        "options": [
+          {
+            "text": "駅の改札の前で10時に会いましょう。",
+            "correct": true
+          },
+          {
+            "text": "駅の改札の前を行きましょう。",
+            "correct": false
+          },
+          {
+            "text": "10時で会いません。",
+            "correct": false
+          }
+        ],
+        "tip": "Place of meeting takes で; time takes に."
+      },
+      {
+        "situation": "Responding when someone calls your name",
+        "speaker": "先輩",
+        "prompt": "タカシさん、ちょっといいですか。",
+        "options": [
+          {
+            "text": "はい、何ですか。",
+            "correct": true
+          },
+          {
+            "text": "はい、どれですか。",
+            "correct": false
+          },
+          {
+            "text": "何時ですか。",
+            "correct": false
+          }
+        ],
+        "tip": "何ですか (nan desu ka) means 'Yes, what is it?'."
+      },
+      {
+        "situation": "Talking about weekend plans",
+        "speaker": "同僚",
+        "prompt": "土曜日は何をしますか。",
+        "options": [
+          {
+            "text": "公園でお花見をします。",
+            "correct": true
+          },
+          {
+            "text": "公園でお花見を行きます。",
+            "correct": false
+          },
+          {
+            "text": "お花見を食べます。",
+            "correct": false
+          }
+        ],
+        "tip": "Events use the verb します: お花見をします."
+      },
+      {
+        "situation": "Parting after arranging a plan",
+        "speaker": "友達",
+        "prompt": "じゃあ、土曜日の10時に駅で！",
+        "options": [
+          {
+            "text": "わかりました。じゃ、また土曜日に！",
+            "correct": true
+          },
+          {
+            "text": "いいえ、わかりません。",
+            "correct": false
+          },
+          {
+            "text": "何ですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Use わかりました (Understood) and じゃ、また [Day] (See you on...)."
+      },
+      {
+        "situation": "Offering an alternative after a refusal",
+        "speaker": "タカシ",
+        "prompt": "日曜日はちょっと…。",
+        "options": [
+          {
+            "text": "そうですか。じゃ、また今度。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、行きましょう。",
+            "correct": false
+          },
+          {
+            "text": "何で行きませんか。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept a polite refusal smoothly with 『じゃ、また今度』 (Another time then)."
+      },
+      {
+        "situation": "Asking what kind of book someone is holding",
+        "speaker": "同僚",
+        "prompt": "それは何の本ですか。",
+        "options": [
+          {
+            "text": "日本のカメラの本です。",
+            "correct": true
+          },
+          {
+            "text": "図書館で買いました。",
+            "correct": false
+          },
+          {
+            "text": "何の本を食べます。",
+            "correct": false
+          }
+        ],
+        "tip": "何の本 (nan no hon) asks for the subject/category of the book."
+      }
+    ]
+  }
+}

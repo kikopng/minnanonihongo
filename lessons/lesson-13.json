@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 13,
+    "title": "Desires, Wishes, and Purpose of Movement",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master expressing personal desires for objects with 『[Noun] が 欲しいです』; express desire to perform actions using 『Verb [ます-stem] + たいです』 and understand the particle shift between を and が; describe purpose of movement with 『[Place] へ [Verb stem / Noun] に 行きます / 来ます / 帰ります』; utilize indefinite words 『どこか』 and 『何か』; and navigate restaurant interactions with set phrases like 『ご注文は？』 and 『別々に』."
+  },
+  "vocabulary": [
+    {
+      "id": "asobimasu",
+      "kanji": "遊びます",
+      "kana": "あそびます",
+      "romaji": "asobimasu",
+      "meaning": "to play; to enjoy oneself; to spend time pleasantly",
+      "category": "verb",
+      "example": {
+        "kanji": "週末は友達と遊びます。",
+        "kana": "しゅうまつは ともだちと あそびます。",
+        "translation": "I hang out / have fun with my friends on the weekend."
+      }
+    },
+    {
+      "id": "oyogimasu",
+      "kanji": "泳ぎます",
+      "kana": "およぎます",
+      "romaji": "oyogimasu",
+      "meaning": "to swim",
+      "category": "verb",
+      "example": {
+        "kanji": "プールで泳ぎたいです。",
+        "kana": "プールで およぎたいです。",
+        "translation": "I want to swim in the pool."
+      }
+    },
+    {
+      "id": "mukaemasu",
+      "kanji": "迎えます",
+      "kana": "むかえます",
+      "romaji": "mukaemasu",
+      "meaning": "to go to meet; to welcome; to greet",
+      "category": "verb",
+      "example": {
+        "kanji": "空港へ友達を迎えに行きます。",
+        "kana": "くうこうへ ともだちを むかえに いきます。",
+        "translation": "I go to the airport to pick up / welcome my friend."
+      }
+    },
+    {
+      "id": "tsukaremasu",
+      "kanji": "疲れます",
+      "kana": "つかれます",
+      "romaji": "tsukaremasu",
+      "meaning": "to get tired; to become exhausted",
+      "category": "verb",
+      "example": {
+        "kanji": "今日は仕事でとても疲れました。",
+        "kana": "きょうは しごとで とても つかれました。",
+        "translation": "I got very tired from work today."
+      }
+    },
+    {
+      "id": "kekkon_shimasu",
+      "kanji": "結婚します",
+      "kana": "けっこんします",
+      "romaji": "kekkon shimasu",
+      "meaning": "to get married",
+      "category": "verb",
+      "example": {
+        "kanji": "来年彼女と結婚したいです。",
+        "kana": "らいねん かのじょと けっこんしたいです。",
+        "translation": "I want to marry my girlfriend next year."
+      }
+    },
+    {
+      "id": "kaimono_shimasu",
+      "kanji": "買い物します",
+      "kana": "かいものします",
+      "romaji": "kaimono shimasu",
+      "meaning": "to do shopping",
+      "category": "verb",
+      "example": {
+        "kanji": "デパートへ買い物に行きます。",
+        "kana": "デパートへ かいものに いきます。",
+        "translation": "I go to the department store to do shopping."
+      }
+    },
+    {
+      "id": "shokuji_shimasu",
+      "kanji": "食事します",
+      "kana": "しょくじします",
+      "romaji": "shokuji shimasu",
+      "meaning": "to have a meal; to dine",
+      "category": "verb",
+      "example": {
+        "kanji": "レストランへ食事に行きませんか。",
+        "kana": "レストランへ しょくじに いきませんか。",
+        "translation": "Won't you go to the restaurant with me to have a meal?"
+      }
+    },
+    {
+      "id": "sampo_shimasu",
+      "kanji": "散歩します",
+      "kana": "さんぽします",
+      "romaji": "sampo shimasu",
+      "meaning": "to take a walk; to stroll",
+      "category": "verb",
+      "example": {
+        "kanji": "公園を散歩したいです。",
+        "kana": "こうえんを さんぽしたいです。",
+        "translation": "I want to take a walk in the park."
+      }
+    },
+    {
+      "id": "taihen",
+      "kanji": "大変「な」",
+      "kana": "たいへん「な」",
+      "romaji": "taihen [na]",
+      "meaning": "hard; tough; difficult; terrible; arduous",
+      "category": "adjective",
+      "example": {
+        "kanji": "毎日の残業は大変ですね。",
+        "kana": "まいにちの ざんぎょうは たいへんですね。",
+        "translation": "Daily overtime must be tough, isn't it?"
+      }
+    },
+    {
+      "id": "hoshii",
+      "kanji": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "meaning": "want (something); desired",
+      "category": "adjective",
+      "example": {
+        "kanji": "今新しいパソコンが欲しいです。",
+        "kana": "いま あたらしい パソコンが ほしいです。",
+        "translation": "I want a new laptop right now."
+      }
+    },
+    {
+      "id": "sabishii",
+      "kanji": "寂しい",
+      "kana": "さびしい",
+      "romaji": "sabishii",
+      "meaning": "lonely; solitary",
+      "category": "adjective",
+      "example": {
+        "kanji": "一人暮らしは時々寂しいです。",
+        "kana": "ひとりぐらしは ときどき さびしいです。",
+        "translation": "Living alone is lonely at times."
+      }
+    },
+    {
+      "id": "hiroi",
+      "kanji": "広い",
+      "kana": "ひろい",
+      "romaji": "hiroi",
+      "meaning": "wide; spacious; roomy",
+      "category": "adjective",
+      "example": {
+        "kanji": "広いうちに住みたいです。",
+        "kana": "ひろい うちに すみたいです。",
+        "translation": "I want to live in a spacious house."
+      }
+    },
+    {
+      "id": "semai",
+      "kanji": "狭い",
+      "kana": "せまい",
+      "romaji": "semai",
+      "meaning": "narrow; cramped; small (room/space)",
+      "category": "adjective",
+      "example": {
+        "kanji": "私の部屋は狭いですが、便利です。",
+        "kana": "わたしの へやは せまいですが、べんりです。",
+        "translation": "My room is small/cramped, but it is convenient."
+      }
+    },
+    {
+      "id": "shiyakusho",
+      "kanji": "市役所",
+      "kana": "しやくしょ",
+      "romaji": "shiyakusho",
+      "meaning": "city hall; municipal office",
+      "category": "place",
+      "example": {
+        "kanji": "市役所へ登録に行きます。",
+        "kana": "しやくしょへ とうろくに いきます。",
+        "translation": "I go to city hall to register."
+      }
+    },
+    {
+      "id": "puuru",
+      "kanji": "プール",
+      "kana": "プール",
+      "romaji": "puuru",
+      "meaning": "swimming pool",
+      "category": "place",
+      "example": {
+        "kanji": "ホテルのプールで泳ぎました。",
+        "kana": "ホテルの プールで およぎました。",
+        "translation": "I swam in the hotel's swimming pool."
+      }
+    },
+    {
+      "id": "kawa",
+      "kanji": "川",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "meaning": "river",
+      "category": "place",
+      "example": {
+        "kanji": "川へ釣りに行きます。",
+        "kana": "かわへ つりに いきます。",
+        "translation": "I go to the river to fish."
+      }
+    },
+    {
+      "id": "keizai",
+      "kanji": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "meaning": "economy; economics",
+      "category": "noun",
+      "example": {
+        "kanji": "大学で経済を勉強したいです。",
+        "kana": "だいがくで けいざいを べんきょうしたいです。",
+        "translation": "I want to study economics at university."
+      }
+    },
+    {
+      "id": "bijutsu",
+      "kanji": "美術",
+      "kana": "びじゅつ",
+      "romaji": "bijutsu",
+      "meaning": "fine arts; art",
+      "category": "noun",
+      "example": {
+        "kanji": "美術館へ日本の美術を見に行きます。",
+        "kana": "びじゅつかんへ にほんの びじゅつを みに いきます。",
+        "translation": "I go to the art museum to see Japanese art."
+      }
+    },
+    {
+      "id": "tsuri",
+      "kanji": "釣り",
+      "kana": "つり",
+      "romaji": "tsuri",
+      "meaning": "fishing (～をします: to fish)",
+      "category": "noun",
+      "example": {
+        "kanji": "週末は海へ釣りに行きます。",
+        "kana": "しゅうまつは うみへ つりに いきます。",
+        "translation": "On the weekend, I go to the sea to fish."
+      }
+    },
+    {
+      "id": "sukii",
+      "kanji": "スキー",
+      "kana": "スキー",
+      "romaji": "sukii",
+      "meaning": "skiing (～をします: to ski)",
+      "category": "noun",
+      "example": {
+        "kanji": "冬に長野へスキーに行きたいです。",
+        "kana": "ふゆに ながのへ スキーに いきたいです。",
+        "translation": "In winter, I want to go to Nagano to ski."
+      }
+    },
+    {
+      "id": "kaigi",
+      "kanji": "会議",
+      "kana": "かいぎ",
+      "romaji": "kaigi",
+      "meaning": "meeting; conference (～をします: hold a meeting)",
+      "category": "noun",
+      "example": {
+        "kanji": "東京支社へ会議に行きます。",
+        "kana": "とうきょうししゃへ かいぎに いきます。",
+        "translation": "I go to the Tokyo branch office for a meeting."
+      }
+    },
+    {
+      "id": "touroku",
+      "kanji": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "meaning": "registration (～をします: to register)",
+      "category": "noun",
+      "example": {
+        "kanji": "外国人登録に行きました。",
+        "kana": "がいこくじん とうろくに いきました。",
+        "translation": "I went to do alien / resident registration."
+      }
+    },
+    {
+      "id": "shuumatsu",
+      "kanji": "週末",
+      "kana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "meaning": "weekend",
+      "category": "time",
+      "example": {
+        "kanji": "週末は何をしたいですか。",
+        "kana": "しゅうまつは なにを したいですか。",
+        "translation": "What do you want to do on the weekend?"
+      }
+    },
+    {
+      "id": "goro",
+      "kanji": "～ごろ",
+      "kana": "～ごろ",
+      "romaji": "~goro",
+      "meaning": "about ～; approximately ～ (referring to a point in time)",
+      "category": "expression",
+      "example": {
+        "kanji": "12時半ごろ昼ご飯を食べに行きましょう。",
+        "kana": "じゅうにじはんごろ ひるごはんを たべに いきましょう。",
+        "translation": "Let's go eat lunch around 12:30."
+      }
+    },
+    {
+      "id": "nanika",
+      "kanji": "何か",
+      "kana": "なにか",
+      "romaji": "nanika",
+      "meaning": "something",
+      "category": "expression",
+      "example": {
+        "kanji": "何か冷たい物を飲みたいです。",
+        "kana": "なにか つめたい ものを のみたいです。",
+        "translation": "I want to drink something cold."
+      }
+    },
+    {
+      "id": "dokoka",
+      "kanji": "どこか",
+      "kana": "どこか",
+      "romaji": "dokoka",
+      "meaning": "somewhere; anywhere",
+      "category": "expression",
+      "example": {
+        "kanji": "今度の休みにどこかへ行きたいですか。",
+        "kana": "こんどの やすみに どこかへ いきたいですか。",
+        "translation": "Do you want to go somewhere on your next day off?"
+      }
+    },
+    {
+      "id": "onaka_ga_sukimashita",
+      "kanji": "お腹が空きました",
+      "kana": "おなかが すきました",
+      "romaji": "onaka ga sukimashita",
+      "meaning": "I got hungry; I am hungry",
+      "category": "expression",
+      "example": {
+        "kanji": "お腹が空きましたから、何か食べましょう。",
+        "kana": "おなかが すきましたから、なにか たべましょう。",
+        "translation": "I got hungry, so let's eat something."
+      }
+    },
+    {
+      "id": "onaka_ga_ippai",
+      "kanji": "お腹がいっぱいです",
+      "kana": "おなかが いっぱいです",
+      "romaji": "onaka ga ippai desu",
+      "meaning": "I am full",
+      "category": "expression",
+      "example": {
+        "kanji": "たくさん食べましたから、お腹がいっぱいです。",
+        "kana": "たくさん たべましたから、おなかが いっぱいです。",
+        "translation": "I ate a lot, so I am full."
+      }
+    },
+    {
+      "id": "nodo_ga_kawakimashita",
+      "kanji": "喉が渇きました",
+      "kana": "のどが かわきました",
+      "romaji": "nodo ga kawakimashita",
+      "meaning": "I got thirsty; I am thirsty",
+      "category": "expression",
+      "example": {
+        "kanji": "喉が渇きましたから、お茶を飲みたいです。",
+        "kana": "のどが かわきましたから、おちゃを のみたいです。",
+        "translation": "I got thirsty, so I want to drink some tea."
+      }
+    },
+    {
+      "id": "sou_desu_ne",
+      "kanji": "そうですね",
+      "kana": "そうですね",
+      "romaji": "sou desu ne",
+      "meaning": "That's right; let me see; I agree",
+      "category": "expression",
+      "example": {
+        "kanji": "今日は暑いですね。— そうですね。",
+        "kana": "きょうは あついですね。— そうですね。",
+        "translation": "It is hot today, isn't it? — Indeed it is."
+      }
+    },
+    {
+      "id": "sou_shimashou",
+      "kanji": "そうしましょう",
+      "kana": "そうしましょう",
+      "romaji": "sou shimashou",
+      "meaning": "Let's do that! (used when actively agreeing to someone's proposal)",
+      "category": "expression",
+      "example": {
+        "kanji": "ちょっと休みましょうか。— ええ、そうしましょう。",
+        "kana": "ちょっと やすみましょうか。— ええ、そうしましょう。",
+        "translation": "Shall we take a short break? — Yes, let's do that."
+      }
+    },
+    {
+      "id": "gochuumon_wa",
+      "kanji": "ご注文は？",
+      "kana": "ごちゅうもんは？",
+      "romaji": "gochuumon wa?",
+      "meaning": "May I take your order?",
+      "category": "expression",
+      "example": {
+        "kanji": "いらっしゃいませ。ご注文は？",
+        "kana": "いらっしゃいませ。ごちゅうもんは？",
+        "translation": "Welcome! May I take your order?"
+      }
+    },
+    {
+      "id": "teishoku",
+      "kanji": "定食",
+      "kana": "ていしょく",
+      "romaji": "teishoku",
+      "meaning": "set meal; combo plate (main dish, rice, miso soup, pickles)",
+      "category": "food",
+      "example": {
+        "kanji": "刺身定食をお願いします。",
+        "kana": "さしみていしょくを おねがいします。",
+        "translation": "A sashimi set meal, please."
+      }
+    },
+    {
+      "id": "gyuudon",
+      "kanji": "牛丼",
+      "kana": "ぎゅうどん",
+      "romaji": "gyuudon",
+      "meaning": "gyudon; bowl of rice topped with simmered beef and onions",
+      "category": "food",
+      "example": {
+        "kanji": "牛丼を二つください。",
+        "kana": "ぎゅうどんを ふたつ ください。",
+        "translation": "Two bowls of gyudon, please."
+      }
+    },
+    {
+      "id": "shoushou_omachikudasai",
+      "kanji": "[少々]お待ちください",
+      "kana": "[しょうしょう]おまちください",
+      "romaji": "[shoushou] omachi kudasai",
+      "meaning": "Please wait [a moment] (polite)",
+      "category": "expression",
+      "example": {
+        "kanji": "はい、少々お待ちください。",
+        "kana": "はい、しょうしょう おまちください。",
+        "translation": "Certainly, please wait a moment."
+      }
+    },
+    {
+      "id": "de_gozaimasu",
+      "kanji": "～でございます",
+      "kana": "～でございます",
+      "romaji": "~de gozaimasu",
+      "meaning": "to be (polite/humble equivalent of です, used by staff)",
+      "category": "expression",
+      "example": {
+        "kanji": "全部で1,500円でございます。",
+        "kana": "ぜんぶで せんごひゃくえんで ございます。",
+        "translation": "That will be 1,500 yen in total."
+      }
+    },
+    {
+      "id": "betsubetsu_ni",
+      "kanji": "別々に",
+      "kana": "べつべつに",
+      "romaji": "betsubetsu ni",
+      "meaning": "separately (e.g. paying the bill separately)",
+      "category": "expression",
+      "example": {
+        "kanji": "別々にお願いします。",
+        "kana": "べつべつに おねがいします。",
+        "translation": "Separately, please (split check)."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun が 欲しいです [Expressing Desire for an Object]",
+      "explanation": "Use this structure to express that you want an object or possession. Note the following rules: (1) 欲しい is grammatically an い-adjective; its non-past negative is 欲しくないです, past affirmative is 欲しかったです, and past negative is 欲しくなかったです. (2) The target object takes particle が (車が欲しいです). (3) Takashi's STRICT 1st-PERSON RULE: In statements, 欲しい expresses internal personal desire and can ONLY be used for the first person (I / we). You CANNOT directly say ✕『田中さんは車が欲しいです』. To speak about a third person, you must use indirect phrasing like ～と言っています (He says he wants) or the N4 form ～欲しがっています. (4) In questions, you can ask a peer: 『何が欲しいですか』. However, NEVER use 欲しいですか to offer something to a superior or guest (✕ コーヒーが欲しいですか is blunt and rude; use 『コーヒーはいかがですか』 or 『コーヒーを飲みませんか』).",
+      "examples": [
+        {
+          "kanji": "私は新しい車が欲しいです。",
+          "kana": "わたしは あたらしい くるまが ほしいです。",
+          "translation": "I want a new car."
+        },
+        {
+          "kanji": "今は広い家が欲しくないです。",
+          "kana": "いまは ひろい いえが ほしくないです。",
+          "translation": "I do not want a spacious house right now."
+        },
+        {
+          "kanji": "子どもの時、犬が欲しかったです。",
+          "kana": "こどもの とき、いぬが ほしかったです。",
+          "translation": "When I was a child, I wanted a dog."
+        },
+        {
+          "kanji": "誕生日に何が一番欲しいですか？ — 時計が欲しいです。",
+          "kana": "たんじょうびに なにが いちばん ほしいですか？ — とけいが ほしいです。",
+          "translation": "What do you want most for your birthday? — I want a watch."
+        },
+        {
+          "kanji": "どんなパソコンが欲しいですか？ — 軽くて速いパソコンが欲しいです。",
+          "kana": "どんな パソコンが ほしいですか？ — かるくて はやい パソコンが ほしいです。",
+          "translation": "What kind of laptop do you want? — I want a light and fast laptop."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb [ます-stem] + たいです [Expressing Desire to Do an Action]",
+      "explanation": "To state what you want to DO, take a verb's ます-form, drop ます, and attach たいです (e.g. 食べます → 食べたいです, 行きます → 行きたいです, 買います → 買いたいです, します → したいです). (1) ～たい conjugates just like an い-adjective: Affirmative non-past: ～たいです; Negative non-past: ～たくないです (formal: ～たくありません); Past affirmative: ～たかったです; Past negative: ～たくなかったです. (2) Object particle rule: When the verb takes direct object を, you can use EITHER を OR が with たいです (水を飲みたいです or 水が飲みたいです). が emphasizes the object desired, while を emphasizes the action. However, non-を particles (に, へ, で, と) NEVER turn into が (✕ 友達が会いたいです is wrong; must be 友達に会いたいです; 日本へ行きたいです). (3) Just like 欲しい, たい represents internal state and is strictly 1st-person in statements. Never use ～たいですか to invite superiors (use ～ませんか).",
+      "examples": [
+        {
+          "kanji": "日本へ行きたいです。",
+          "kana": "にほんへ いきたいです。",
+          "translation": "I want to go to Japan."
+        },
+        {
+          "kanji": "喉が渇きましたから、水が飲みたいです。/ 水を飲みたいです。",
+          "kana": "のどが かわきましたから、みずが のみたいです。/ みずを のみたいです。",
+          "translation": "I got thirsty, so I want to drink water."
+        },
+        {
+          "kanji": "今日は疲労しましたから、何もしたくないです。",
+          "kana": "きょうは ひろうしましたから、なにも したくないです。",
+          "translation": "I got exhausted today, so I don't want to do anything."
+        },
+        {
+          "kanji": "昨日の映画は見たくなかったですが、見ました。",
+          "kana": "きのうの えいがは みたくなかったですが、みました。",
+          "translation": "I didn't want to see yesterday's movie, but I watched it."
+        },
+        {
+          "kanji": "週末は友達に会いたいです。",
+          "kana": "しゅうまつは ともだちに あいたいです。",
+          "translation": "I want to meet my friend this weekend. (に stays に!)"
+        },
+        {
+          "kanji": "週末は何をしたいですか？ — スキーに行きたいです。",
+          "kana": "しゅうまつは なにを したいですか？ — スキーに いきたいです。",
+          "translation": "What do you want to do this weekend? — I want to go skiing."
+        }
+      ]
+    },
+    {
+      "pattern": "Place へ [Verb ます-stem / Noun] に 行きます / 来ます / 帰ります [Purpose of Movement]",
+      "explanation": "This pattern describes going, coming, or returning to a place in order to perform an action. Structure: (1) Place is marked with destination particle へ (or に). (2) Purpose is marked with に. (3) The purpose element can be: (A) A verb: drop ます and attach に (本を買いに行きます, 映画を見に行きます, 友達を迎えに行きます). (B) A verbal noun: attach に directly without します (買い物に行きます, 食事に行きます, 散歩に行きます, スキーに行きます, 会議に行きます). Takashi's Tip: If you say 『買い物をしに行きます』, you treat it as a verb stem (し + に). If you say 『買い物に行きます』, you treat it as a noun (Noun + に). Both are natural and convey the exact same meaning.",
+      "examples": [
+        {
+          "kanji": "デパートへ靴を買いに行きます。",
+          "kana": "デパートへ くつを かいに いきます。",
+          "translation": "I go to the department store to buy shoes."
+        },
+        {
+          "kanji": "空港へ友達を迎えに行きます。",
+          "kana": "くうこうへ ともだちを むかえに いきます。",
+          "translation": "I go to the airport to welcome / pick up my friend."
+        },
+        {
+          "kanji": "郵便局へ切手を買いに行きました。",
+          "kana": "ゆうびんきょくへ きってを かいに いきました。",
+          "translation": "I went to the post office to buy stamps."
+        },
+        {
+          "kanji": "公園へ散歩に行きます。",
+          "kana": "こうえんへ さんぽに いきます。",
+          "translation": "I go to the park for a walk. (Noun + に)"
+        },
+        {
+          "kanji": "レストランへ食事に行きましょう。",
+          "kana": "レストランへ しょくじに いきましょう。",
+          "translation": "Let's go to the restaurant for a meal. (Noun + に)"
+        },
+        {
+          "kanji": "日本へ何の勉強に来ましたか？ — 経済の勉強に来ました。",
+          "kana": "にほんへ なんの べんきょうに きましたか？ — けいざいの べんきょうに きました。",
+          "translation": "What did you come to Japan to study? — I came to study economics."
+        }
+      ]
+    },
+    {
+      "pattern": "どこか [へ] / 何か [を] [Indefinite Expressions of Place and Object]",
+      "explanation": "どこか means 'somewhere / anywhere', and 何か means 'something / anything'. Takashi's Key Nuance Distinction: (1) Compare: 『どこへ行きますか』 (Open wh-question: 'Where are you going?') vs. 『どこかへ行きますか』 (Yes/No question: 'Are you going somewhere?'). (2) Particle omission: In spoken Japanese, destination particle へ after どこか and object particle を after 何か are very commonly dropped (どこか行きたいです / 何か食べたいです). However, particles like に (specific time/target) and で (location of action) are NOT omitted (どこかで食べましょう).",
+      "examples": [
+        {
+          "kanji": "今度の週末、どこかへ行きましたか？ — いいえ、どこへも行きませんでした。",
+          "kana": "こんどの しゅうまつ、どこかへ いきましたか？ — いいえ、どこへも いきませんでした。",
+          "translation": "Did you go somewhere this past weekend? — No, I didn't go anywhere."
+        },
+        {
+          "kanji": "お腹が空きましたから、何か食べたいです。",
+          "kana": "おなかが すきましたから、なにか たべたいです。",
+          "translation": "I got hungry, so I want to eat something. (particle を omitted)"
+        },
+        {
+          "kanji": "喉が渇きましたから、何か飲みませんか。",
+          "kana": "のどが かわきましたから、なにか のみませんか。",
+          "translation": "I got thirsty, so won't you drink something with me?"
+        },
+        {
+          "kanji": "どこかで休みましょうか。",
+          "kana": "どこかで やすみましょうか。",
+          "translation": "Shall we take a rest somewhere? (で cannot be omitted)"
+        }
+      ]
+    },
+    {
+      "pattern": "お腹が空きました / 喉が渇きました [Expressing Hunger and Thirst]",
+      "explanation": "Why are these expressed in the PAST tense (～ました)? Because in Japanese, the physical action of your stomach becoming empty (空く) or your throat drying out (渇く) has already occurred, and its result is your present hunger or thirst. If you are full, use the adjective phrase 『お腹がいっぱいです』 (present state).",
+      "examples": [
+        {
+          "kanji": "お腹が空きましたね。お昼ご飯を食べに行きましょう。",
+          "kana": "おなかが すきましたね。おひるごはんを たべに いきましょう。",
+          "translation": "We've gotten hungry, haven't we? Let's go eat lunch."
+        },
+        {
+          "kanji": "喉が渇きました。冷たいビールを飲みたいです。",
+          "kana": "のどが かわきました。つめたい ビールを のみたいです。",
+          "translation": "I'm thirsty. I want to drink cold beer."
+        },
+        {
+          "kanji": "もうお腹がいっぱいですから、何も食べたくないです。",
+          "kana": "もう おなかが いっぱいですから、なにも たべたくないです。",
+          "translation": "I'm already full, so I don't want to eat anything."
+        }
+      ]
+    },
+    {
+      "pattern": "そうしましょう vs. そうですね [Suggestions and Active Agreement]",
+      "explanation": "When someone makes a proposal using ～ましょうか (Shall we ...?), respond with: (1) 『ええ、そうしましょう』 to actively agree and confirm the joint plan ('Yes, let's do that!'). (2) 『そうですね』 merely means 'That's true / let me see' and does not actively accept the proposal.",
+      "examples": [
+        {
+          "kanji": "12時ですね。昼ご飯を食べに行きませんか。— ええ、そうしましょう。",
+          "kana": "じゅうにじですね。ひるごはんを たべに いきませんか。— ええ、そうしましょう。",
+          "translation": "It is 12:00. Won't you go eat lunch with me? — Yes, let's do that!"
+        },
+        {
+          "kanji": "ちょっと休みましょうか。— ええ、そうしましょう。",
+          "kana": "ちょっと やすみましょうか。— ええ、そうしましょう。",
+          "translation": "Shall we take a short break? — Yes, let's do that!"
+        }
+      ]
+    },
+    {
+      "pattern": "ご注文は？ / ～をお願いします / 別々に [Ordering at a Restaurant]",
+      "explanation": "Practical customer service Japanese in Lesson 13: (1) Staff greeting: 『いらっしゃいませ。ご注文は？』 (Welcome! What is your order?). (2) Ordering: 『[Item] を お願いします』 or 『[Item] を ください』. (3) Staff confirmation: 『[少々] お待ちください』 (Please wait a moment). (4) Bill presentation: 『～でございます』 (Polite form of です used by service staff). (5) Splitting the check: 『別々にお願いします』 (Separately, please).",
+      "examples": [
+        {
+          "kanji": "ご注文は？ — 牛丼をお願いします。",
+          "kana": "ごちゅうもんは？ — ぎゅうどんを おねがいします。",
+          "translation": "May I take your order? — Gyudon, please."
+        },
+        {
+          "kanji": "てんぷら定食を二つください。— はい、少々お待ちください。",
+          "kana": "てんぷらていしょくを ふたつ ください。— はい、しょうしょう おまちください。",
+          "translation": "Two tempura set meals, please. — Certainly, please wait a moment."
+        },
+        {
+          "kanji": "お会計は別々にお願いします。",
+          "kana": "おかいけいは べつべつに おねがいします。",
+          "translation": "Please bill us separately."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "昼休みの食事と週末の計画",
+    "lines": [
+      {
+        "speaker": "タカシ先生",
+        "kanji": "マルコさん、もう12時半ですよ。お腹が空きませんでしたか。",
+        "kana": "マルコさん、もう じゅうにじはんですよ。おなかが すきませんでしたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "ええ、とてもお腹が空きました。喉も渇きましたね。",
+        "kana": "ええ、とても おなかが すきました。のども かわきましたね。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "じゃあ、駅前の和食レストランへ昼ご飯を食べに行きませんか。",
+        "kana": "じゃあ、えきまえの わしょく レストランへ ひるごはんを たべに いきませんか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "いいですね。ええ、そうしましょう！",
+        "kana": "いいですね。ええ、そうしましょう！"
+      },
+      {
+        "speaker": "店員",
+        "kanji": "いらっしゃいませ！ご注文は？",
+        "kana": "いらっしゃいませ！ごちゅうもんは？"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "私は刺身定食をお願いします。冷たいお茶も飲みたいです。",
+        "kana": "わたしは さしみていしょくを おねがいします。つめたい おちゃも のみたいです。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "私は牛丼をお願いします。それから、水をもらえますか。",
+        "kana": "わたしは ぎゅうどんを おねがいします。それから、みずを もらえますか。"
+      },
+      {
+        "speaker": "店員",
+        "kanji": "かしこまりました。少々お待ちください。",
+        "kana": "かしこまりました。しょうしょう おまちください。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "ところで、マルコさんは今度の週末、どこかへ行きたいですか。",
+        "kana": "ところで、マルコさんは こんどの しゅうまつ、どこかへ いきたいですか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "ええ、川へ釣りに行きたいです。でも、車がありませんから、ちょっと大変です。",
+        "kana": "ええ、かわへ つりに いきたいです。でも、くるまが ありませんから、ちょっと たいへんです。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "そうですか。車が欲しいですか。",
+        "kana": "そうですか。くるまが ほしいですか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "はい、小さくて軽い車が欲しいです。でも、今はお金がありませんから、買えません。",
+        "kana": "はい、ちいさくて かるい くるまが ほしいです。でも、いまは おかねが ありませんから、かえません。"
+      },
+      {
+        "speaker": "店員",
+        "kanji": "お待たせいたしました。全部で1,600円でございます。",
+        "kana": "おまたせいたしました。ぜんぶで せんろっぴゃくえんで ございます。"
+      },
+      {
+        "speaker": "タカシ先生",
+        "kanji": "すみません、別々にお願いします。",
+        "kana": "すみません、べつべつに おねがいします。"
+      }
+    ],
+    "translation": "Takashi-sensei notices it is already 12:30 and asks Marco if he has gotten hungry. Marco confirms that he is very hungry and thirsty. Takashi suggests going to a Japanese restaurant in front of the station to eat lunch, and Marco actively agrees ('Yes, let's do that!'). At the restaurant, the clerk takes their order: Takashi orders a sashimi set meal and wants cold tea, while Marco orders gyudon and asks for water. While waiting, Takashi asks if Marco wants to go somewhere this upcoming weekend. Marco says he wants to go fishing at the river, but it is tough because he doesn't have a car. Takashi asks if he wants a car, and Marco explains he wants a small and light car, but cannot buy one now because he has no money. When paying the 1,600 yen bill, Takashi politely asks the clerk to split the check separately.",
+    "questions": [
+      {
+        "question": "Why did Takashi and Marco decide to go to the restaurant?",
+        "options": [
+          "Because they had to attend an afternoon meeting.",
+          "Because it was 12:30 and they were hungry and thirsty.",
+          "Because they wanted to buy a fishing rod.",
+          "Because the class was canceled."
+        ],
+        "answer": 1,
+        "explanation": "Takashi says it is 12:30, and Marco states: とてもお腹が空きました。喉も渇きましたね."
+      },
+      {
+        "question": "Which sentence shows Marco actively agreeing to Takashi's suggestion?",
+        "options": [
+          "ええ、そうしましょう！",
+          "そうですね。",
+          "どこかへ行きましたか。",
+          "少々お待ちください。"
+        ],
+        "answer": 0,
+        "explanation": "『ええ、そうしましょう！』 is the explicit phrase used to accept and agree to a proposal (～ましょうか)."
+      },
+      {
+        "question": "What did Takashi-sensei order to eat and drink?",
+        "options": [
+          "Gyudon and cold water",
+          "Tempura set meal and hot green tea",
+          "Sashimi set meal and cold tea",
+          "Sushi and beer"
+        ],
+        "answer": 2,
+        "explanation": "Takashi says: 私は刺身定食をお願いします。冷たいお茶も飲みたいです."
+      },
+      {
+        "question": "Where does Marco want to go this weekend, and for what purpose?",
+        "options": [
+          "To the municipal office to register",
+          "To the river to fish (川へ釣りに行きたい)",
+          "To the department store to buy a car",
+          "To the pool to swim"
+        ],
+        "answer": 1,
+        "explanation": "Marco states: 川へ釣りに行きたいです (I want to go to the river to fish)."
+      },
+      {
+        "question": "What kind of car does Marco want?",
+        "options": [
+          "A big and fast car",
+          "An expensive and famous car",
+          "A small and light car (小さくて軽い車)",
+          "A quiet electric car"
+        ],
+        "answer": 2,
+        "explanation": "Marco says: 小さくて軽い車が欲しいです (connected adjectives from Lesson 16 format: 小さくて軽い)."
+      },
+      {
+        "question": "Why can't Marco buy a car right now?",
+        "options": [
+          "He doesn't have a driver's license.",
+          "He doesn't have money right now.",
+          "His apartment has no parking lot.",
+          "He wants to buy a motorcycle instead."
+        ],
+        "answer": 1,
+        "explanation": "Marco states: でも、今はお金がありませんから (Because I don't have money right now)."
+      },
+      {
+        "question": "What does Takashi say when paying at the register?",
+        "options": [
+          "ごちそうさまでした。",
+          "別々にお願いします。",
+          "カードで払います。",
+          "ご注文は？"
+        ],
+        "answer": 1,
+        "explanation": "Takashi requests separate checks: すみません、別々にお願いします."
+      },
+      {
+        "question": "Which grammatical pattern expresses Marco's weekend desire 『川へ釣りに行きたいです』?",
+        "options": [
+          "Place へ Noun に 行きます (combined with ～たいです)",
+          "Place で Noun を します",
+          "Noun が 欲しいです",
+          "Noun より Noun が 一番です"
+        ],
+        "answer": 0,
+        "explanation": "川へ (Place へ) + 釣り (Noun) + に (purpose) + 行きたいです (Verb stem + たい)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct particle: 'I want a new computer.'",
+      "prompt": {
+        "kanji": "私は新しいパソコン___欲しいです。",
+        "kana": "わたしは あたらしい パソコン___ ほしいです。"
+      },
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "In the pattern 『Noun が 欲しいです』, the desired object is marked with particle が."
+    },
+    {
+      "question": "Choose the correct negative form of 欲しい: 'I do not want a car right now.'",
+      "prompt": {
+        "kanji": "今は車が___。",
+        "kana": "いまは くるまが ___。"
+      },
+      "options": [
+        "欲しくないです",
+        "欲しいじゃありません",
+        "欲しくないでした",
+        "欲しいくないです"
+      ],
+      "answer": 0,
+      "explanation": "欲しい is an い-adjective; drop い and add くないです (欲しくないです)."
+    },
+    {
+      "question": "Choose the correct past affirmative form of 欲しい: 'When I was a child, I wanted a camera.'",
+      "prompt": {
+        "kanji": "子どもの時、カメラが___。",
+        "kana": "こどもの とき、カメラが ___。"
+      },
+      "options": [
+        "欲しかったです",
+        "欲しいでした",
+        "欲しくでした",
+        "欲しかったでした"
+      ],
+      "answer": 0,
+      "explanation": "い-adjective past affirmative drops い and adds かったです (欲しかったです)."
+    },
+    {
+      "question": "Choose the correct verb form: 'I want to drink cold water.' (飲む → want to drink)",
+      "prompt": {
+        "kanji": "冷たい水を___。",
+        "kana": "つめたい みずを ___。"
+      },
+      "options": [
+        "飲みたいです",
+        "飲むたいです",
+        "飲みたいたです",
+        "飲んでたいです"
+      ],
+      "answer": 0,
+      "explanation": "Drop ます from 飲みます and add たいです: 飲みたいです."
+    },
+    {
+      "question": "Choose the correct negative form: 'I am tired, so I do not want to go anywhere.'",
+      "prompt": {
+        "kanji": "疲労しましたから、どこへも___。",
+        "kana": "ひろうしましたから、どこへも ___。"
+      },
+      "options": [
+        "行きたくないです",
+        "行きたいじゃありません",
+        "行きないです",
+        "行きたくないでした"
+      ],
+      "answer": 0,
+      "explanation": "Verb stem + たくないです forms the non-past negative desire (行きたくないです)."
+    },
+    {
+      "question": "Which particle can replace を in 『水を飲みたいです』 to emphasize the desired object?",
+      "options": [
+        "が",
+        "に",
+        "へ",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "With the ～たい form of transitive verbs, を can be replaced by が (水が飲みたいです)."
+    },
+    {
+      "question": "Which sentence is INCORRECT regarding particle usage with ～たいです?",
+      "options": [
+        "日本へ行きたいです。",
+        "友達に会いたいです。",
+        "友達が会いたいです。",
+        "お寿司が食べたいです。"
+      ],
+      "answer": 2,
+      "explanation": "Only direct object を can change to が with ～たい. Particles like に (友達に会う) NEVER change to が (✕ 友達が会いたいです)."
+    },
+    {
+      "question": "According to Takashi's core rules, why is 『田中さんは車が欲しいです』 unnatural in direct Japanese speech?",
+      "options": [
+        "Because 欲しい can only directly express the speaker's own 1st-person desire.",
+        "Because 田中 is a proper noun.",
+        "Because 車 requires the verb 買います.",
+        "Because が should always be を."
+      ],
+      "answer": 0,
+      "explanation": "In Japanese, internal emotions and desires (欲しい / たい) can only be stated directly for oneself (1st person). For 3rd persons, you must use indirect phrasing like ～と言っています or ～がっています."
+    },
+    {
+      "question": "Choose the correct sentence to express purpose of movement: 'I go to the department store to buy shoes.'",
+      "options": [
+        "デパートへ靴を買いに行きます。",
+        "デパートへ靴を買うに行きます。",
+        "デパートへ靴を買ってに行きます。",
+        "デパートで靴を買いに行きます。"
+      ],
+      "answer": 0,
+      "explanation": "Pattern: [Place] へ [Verb stem] に 行きます → デパートへ 靴を 買いに 行きます."
+    },
+    {
+      "question": "Choose the correct sentence using a verbal noun for purpose of movement: 'I go to the park for a walk.'",
+      "options": [
+        "公園へ散歩に行きます。",
+        "公園へ散歩を行きます。",
+        "公園へ散歩で行きます。",
+        "公園へ散歩のに行きます。"
+      ],
+      "answer": 0,
+      "explanation": "Nouns like 散歩, 買い物, and 食事 take に directly: 公園へ散歩に行きます."
+    },
+    {
+      "question": "Choose the correct phrase: 'I went to the airport to pick up my friend.'",
+      "prompt": {
+        "kanji": "空港へ友達を___行きました。",
+        "kana": "くうこうへ ともだちを ___ いきました。"
+      },
+      "options": [
+        "迎えに",
+        "迎えるに",
+        "迎えてに",
+        "迎いに"
+      ],
+      "answer": 0,
+      "explanation": "迎えます is Group 2; drop ます and add に: 迎えに行きました."
+    },
+    {
+      "question": "Choose the correct distinction: 'Did you go somewhere this weekend?'",
+      "options": [
+        "週末、どこかへ行きましたか。",
+        "週末、どこへ行きましたか。",
+        "週末、どこに行きますか。",
+        "週末、どこかに行かないですか。"
+      ],
+      "answer": 0,
+      "explanation": "どこかへ asks a Yes/No question ('Did you go somewhere?'). どこへ asks for a specific destination ('Where did you go?')."
+    },
+    {
+      "question": "Why do we say 『お腹が空きました』 with the past tense ～ました?",
+      "options": [
+        "Because your stomach became empty prior to this moment, causing your current hunger.",
+        "Because it is an irregular noun phrase.",
+        "Because the meal has already ended.",
+        "Because 空きます is an adjective."
+      ],
+      "answer": 0,
+      "explanation": "The change in physical state happened prior to the present moment, so past tense indicates the resulting current state."
+    },
+    {
+      "question": "Choose the phrase meaning 'I am full.'",
+      "options": [
+        "お腹がいっぱいです。",
+        "お腹が空きました。",
+        "喉が渇きました。",
+        "お腹が大きいです。"
+      ],
+      "answer": 0,
+      "explanation": "お腹がいっぱいです means 'I am full'."
+    },
+    {
+      "question": "Choose the natural reply to actively agree to a proposal: 'Shall we take a rest?' (少し休みましょうか。)",
+      "options": [
+        "ええ、そうしましょう。",
+        "そうですね。",
+        "少々お待ちください。",
+        "別々にお願いします。"
+      ],
+      "answer": 0,
+      "explanation": "Use 『ええ、そうしましょう』 to actively accept and confirm a suggestion."
+    },
+    {
+      "question": "How do you politely ask for separate checks at a Japanese restaurant?",
+      "options": [
+        "別々にお願いします。",
+        "一緒に払います。",
+        "ご注文は？",
+        "少々お待ちください。"
+      ],
+      "answer": 0,
+      "explanation": "別々に (べつべつに) お願いします means 'Separately, please'."
+    },
+    {
+      "question": "What does a restaurant clerk say when asking for your order?",
+      "options": [
+        "ご注文は？",
+        "お腹が空きましたか？",
+        "別々ですか？",
+        "いかがですか？"
+      ],
+      "answer": 0,
+      "explanation": "ご注文は？ (ごちゅうもんは？) = 'May I take your order?'"
+    },
+    {
+      "question": "What is the polite phrase for 'Please wait a moment' used by store and restaurant staff?",
+      "options": [
+        "少々お待ちください",
+        "ちょっと待ってください",
+        "そうしましょう",
+        "別々にしてください"
+      ],
+      "answer": 0,
+      "explanation": "少々お待ちください (しょうしょうおまちください) is the polite customer service expression."
+    },
+    {
+      "question": "What does 定食 (ていしょく) mean?",
+      "options": [
+        "Set meal / combo meal",
+        "A bowl of gyudon",
+        "Draft beer",
+        "Separate bill"
+      ],
+      "answer": 0,
+      "explanation": "定食 (ていしょく) is a set meal served with rice, miso soup, and side dishes."
+    },
+    {
+      "question": "Choose the opposite of 広い (ひろい - spacious).",
+      "options": [
+        "狭い (せまい)",
+        "重い (おもい)",
+        "遠い (とおい)",
+        "遅い (おそい)"
+      ],
+      "answer": 0,
+      "explanation": "広い (spacious/wide) ↔ 狭い (narrow/cramped)."
+    },
+    {
+      "question": "What does 寂しい (さびしい) mean?",
+      "options": [
+        "lonely; solitary",
+        "tough; painful",
+        "spacious",
+        "cold"
+      ],
+      "answer": 0,
+      "explanation": "寂しい (さびしい) = lonely."
+    },
+    {
+      "question": "Choose the correct phrase: 'I want to study economics at university.'",
+      "prompt": {
+        "kanji": "大学で経済を___。",
+        "kana": "だいがくで けいざいを ___。"
+      },
+      "options": [
+        "勉強したいです",
+        "勉強するたいです",
+        "勉強したたいです",
+        "勉強しますたいです"
+      ],
+      "answer": 0,
+      "explanation": "勉強します (Group 3) → drop ます, add たいです: 勉強したいです."
+    },
+    {
+      "question": "Choose the correct form: 'I didn't want to swim yesterday.'",
+      "prompt": {
+        "kanji": "昨日は___。",
+        "kana": "きのうは ___。"
+      },
+      "options": [
+        "泳ぎたくなかったです",
+        "泳ぎたいでした",
+        "泳ぎたくないでした",
+        "泳ぐたくなかったです"
+      ],
+      "answer": 0,
+      "explanation": "Past negative of 泳ぎたい is 泳ぎたくなかったです (or formal 泳ぎたくありませんでした)."
+    },
+    {
+      "question": "Why shouldn't you ask your teacher 『先生、お茶が飲みたいですか』?",
+      "options": [
+        "Because asking desires directly with ～たいですか is overly direct and disrespectful to superiors.",
+        "Because 先生 never drinks tea.",
+        "Because you must use 欲しい for liquids.",
+        "Because 飲みたい cannot be used in questions."
+      ],
+      "answer": 0,
+      "explanation": "Directly probing a superior's desire with ～たいですか is considered blunt and rude. Offer politely: 『お茶はいかがですか』 or 『お茶を飲みませんか』."
+    },
+    {
+      "question": "Choose the correct sentence: 'I go to the library to borrow books.'",
+      "options": [
+        "図書館へ本を借りに行きます。",
+        "図書館へ本を借りるに行きます。",
+        "図書館へ本を借りにいきますたいです。",
+        "図書館で本を借りに帰ります。"
+      ],
+      "answer": 0,
+      "explanation": "借りに行きます (借り[ます-stem] + に + 行きます)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I want to marry her next year.'",
+      "options": [
+        "来年彼女と結婚したいです。",
+        "来年彼女と結婚欲しいです。",
+        "来年彼女と結婚たいです。",
+        "来年彼女を結婚したいです。"
+      ],
+      "answer": 0,
+      "explanation": "結婚します becomes 結婚したいです; marrying someone uses particle と."
+    },
+    {
+      "question": "Choose the correct sentence: 'Did you drink something?'",
+      "options": [
+        "何か飲みましたか。",
+        "何が飲みましたか。",
+        "何を飲みましたか。",
+        "何に飲みましたか。"
+      ],
+      "answer": 0,
+      "explanation": "何か飲みましたか = 'Did you drink something?' (何を飲みましたか = 'What did you drink?')."
+    },
+    {
+      "question": "Choose the correct particle: 'Let's take a rest somewhere.'",
+      "prompt": {
+        "kanji": "どこか___休みましょう。",
+        "kana": "どこか___ やすみましょう。"
+      },
+      "options": [
+        "で",
+        "へ",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "The location where an action takes place takes で, which cannot be dropped: どこかで休みましょう."
+    },
+    {
+      "question": "Choose the correct word: 'I have to go to city hall for registration.'",
+      "prompt": {
+        "kanji": "市役所へ___に行きます。",
+        "kana": "しやくしょへ ___に いきます。"
+      },
+      "options": [
+        "登録",
+        "美術",
+        "経済",
+        "週末"
+      ],
+      "answer": 0,
+      "explanation": "登録 (とうろく - registration) is a verbal noun: 登録に行きます."
+    },
+    {
+      "question": "Choose the correct sentence: 'I want to take a walk in the park.'",
+      "options": [
+        "公園を散歩したいです。",
+        "公園へ散歩をしたいです。",
+        "公園で散歩にしたいです。",
+        "公園が散歩したいです。"
+      ],
+      "answer": 0,
+      "explanation": "Walking through a scenic area uses を: 公園を散歩したいです."
+    },
+    {
+      "question": "What does 大変 (たいへん) mean in Lesson 13?",
+      "options": [
+        "Hard, arduous, tough",
+        "Very delicious",
+        "Easy, simple",
+        "Safe"
+      ],
+      "answer": 0,
+      "explanation": "大変「な」 = hard, tough, arduous."
+    },
+    {
+      "question": "Choose the correct time expression: 'Let's meet around 1:00.'",
+      "prompt": {
+        "kanji": "1時___会いましょう。",
+        "kana": "いちじ___ あいましょう。"
+      },
+      "options": [
+        "ごろ",
+        "ぐらい",
+        "まで",
+        "より"
+      ],
+      "answer": 0,
+      "explanation": "ごろ is used for approximate points in time (1時ごろ = around 1:00). ぐらい is for duration."
+    },
+    {
+      "question": "Choose the correct sentence: 'I came to Japan to study.'",
+      "options": [
+        "日本へ勉強に来ました。",
+        "日本へ勉強をしに来ました。",
+        "Both A and B are correct.",
+        "Neither is correct."
+      ],
+      "answer": 2,
+      "explanation": "Both 勉強に来ました (Noun + に) and 勉強をしに来ました (Verb stem + に) are completely correct and natural."
+    },
+    {
+      "question": "Choose the correct sentence: 'What kind of house do you want?'",
+      "options": [
+        "どんな家が欲しいですか。",
+        "どうして家が欲しいですか。",
+        "どれ家が欲しいですか。",
+        "どちら家が欲しいですか。"
+      ],
+      "answer": 0,
+      "explanation": "どんな + Noun asks 'what kind of': どんな家が欲しいですか."
+    },
+    {
+      "question": "Choose the correct sentence: 'I don't want to play today.'",
+      "options": [
+        "今日は遊びたくないです。",
+        "今日は遊ぶたくないです。",
+        "今日は遊んでたくないです。",
+        "今日は遊びたいじゃありません。"
+      ],
+      "answer": 0,
+      "explanation": "遊びます (Group 1) → drop ます, add たくないです: 遊びたくないです."
+    },
+    {
+      "question": "Choose the correct question word: 'Who do you want to meet the most?'",
+      "prompt": {
+        "kanji": "今一番___に会いたいですか。",
+        "kana": "いま いちばん ___に あいたいですか。"
+      },
+      "options": [
+        "だれ",
+        "何",
+        "どこ",
+        "いつ"
+      ],
+      "answer": 0,
+      "explanation": "When asking about a person to meet, use だれ (だれに会いたいですか)."
+    },
+    {
+      "question": "Choose the correct translation: 'I'm thirsty, so won't you drink something?'",
+      "options": [
+        "喉が渇きましたから、何か飲みませんか。",
+        "喉が渇きましたから、何を飲みませんか。",
+        "お腹が空きましたから、何か食べませんか。",
+        "喉が渇きましたから、どこか行きませんか。"
+      ],
+      "answer": 0,
+      "explanation": "喉が渇きました (thirsty) + 何か飲みませんか (won't you drink something?)."
+    },
+    {
+      "question": "Choose the sentence that correctly orders items at a restaurant.",
+      "options": [
+        "天ぷら定食をお願いします。",
+        "天ぷら定食をあげます。",
+        "天ぷら定食をくれます。",
+        "天ぷら定食を待ちます。"
+      ],
+      "answer": 0,
+      "explanation": "Ordering: [Item] を お願いします / を ください."
+    },
+    {
+      "question": "What is the meaning of ～でございます in customer service speech?",
+      "options": [
+        "It is the polite/humble equivalent of です.",
+        "It means 'please go'.",
+        "It means 'I don't understand'.",
+        "It means 'thank you'."
+      ],
+      "answer": 0,
+      "explanation": "でございます is the formal/polite equivalent of です used by clerks and waitstaff."
+    },
+    {
+      "question": "Choose the correct sentence: 'I went to Kyoto to see the festival.'",
+      "options": [
+        "京都へお祭りを見に行きました。",
+        "京都へお祭りを見るに行きました。",
+        "京都でお祭りを見に行きました。",
+        "京都へお祭りが見に行きました。"
+      ],
+      "answer": 0,
+      "explanation": "京都へ (destination) + お祭りを 見に (purpose) + 行きました (motion verb)."
+    }
+  ],
+  "writing": {
+    "title": "Weekend Wishes, Goals, and Dining Plans",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 13 grammar. (1) Describe an object you currently desire and describe it using an adjective (Noun が 欲しいです). (2) State what you want to do this weekend using 『Verb [ます-stem] + たいです』, and mention one thing you do NOT want to do (～たくないです). (3) Describe going to a specific destination for a specific purpose using 『[Place] へ [Verb stem / Noun] に 行きます』. (4) Use 『お腹が空きました』 or 『喉が渇きました』 to explain why you want to eat or drink something (何か). (5) Include a short dining scenario with an order (～をお願いします) and a polite conclusion (別々にお願いします or そうしましょう).",
+    "placeholder": "今、私は ______ が欲しいです。とても ______ ですから。\n今度の週末、私は ______ へ ______ に行きたいです。\nでも、忙しかったですから、______ はしたくないです。\nお腹が空きましたから、レストランへ ______ を食べに行きます。\n店員に「______ をお願いします」と言います。食事の後、______ にお会計をします。",
+    "modelAnswer": "今、私は軽くて新しいパソコンが欲しいです。今のパソコンは古いですから。今度の週末、私はデパートへ買い物に行きたいです。そして、友達と映画を見に行きます。今週はとても疲れましたから、残業はしたくないです。お昼にお腹が空きましたから、友達と駅前の和食屋へ昼ご飯を食べに行きました。私は牛丼をお願いしました。お会計は別々にお願いしました。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I want a new car right now.",
+        "chunks": [
+          "今、私は",
+          "新しい車が",
+          "欲しいです。"
+        ]
+      },
+      {
+        "en": "I do not want a spacious house.",
+        "chunks": [
+          "私は",
+          "広い家が",
+          "欲しくないです。"
+        ]
+      },
+      {
+        "en": "I want to go to Japan to study economics.",
+        "chunks": [
+          "日本へ",
+          "経済の勉強に",
+          "行きたいです。"
+        ]
+      },
+      {
+        "en": "I got thirsty, so I want to drink cold water.",
+        "chunks": [
+          "喉が渇きましたから、",
+          "冷たい水が",
+          "飲みたいです。"
+        ]
+      },
+      {
+        "en": "I am exhausted today, so I do not want to do anything.",
+        "chunks": [
+          "今日は疲れましたから、",
+          "何も",
+          "したくないです。"
+        ]
+      },
+      {
+        "en": "I went to the airport to welcome my friend.",
+        "chunks": [
+          "空港へ",
+          "友達を",
+          "迎えに",
+          "行きました。"
+        ]
+      },
+      {
+        "en": "Let's go to the restaurant to have lunch.",
+        "chunks": [
+          "レストランへ",
+          "昼ご飯を",
+          "食べに",
+          "行きましょう。"
+        ]
+      },
+      {
+        "en": "Did you go somewhere this weekend?",
+        "chunks": [
+          "今度の週末、",
+          "どこかへ",
+          "行きましたか。"
+        ]
+      },
+      {
+        "en": "No, I didn't go anywhere.",
+        "chunks": [
+          "いいえ、",
+          "どこへも",
+          "行きませんでした。"
+        ]
+      },
+      {
+        "en": "I got hungry, so let's eat something.",
+        "chunks": [
+          "お腹が空きましたから、",
+          "何か",
+          "食べましょう。"
+        ]
+      },
+      {
+        "en": "May I take your order?",
+        "chunks": [
+          "いらっしゃいませ。",
+          "ご注文は",
+          "何ですか。"
+        ]
+      },
+      {
+        "en": "A sashimi set meal, please.",
+        "chunks": [
+          "刺身定食を",
+          "お願いします。"
+        ]
+      },
+      {
+        "en": "Please wait a moment.",
+        "chunks": [
+          "はい、",
+          "少々",
+          "お待ちください。"
+        ]
+      },
+      {
+        "en": "Separately, please.",
+        "chunks": [
+          "お会計は",
+          "別々に",
+          "お願いします。"
+        ]
+      },
+      {
+        "en": "I want to go to the river to fish.",
+        "chunks": [
+          "川へ",
+          "釣りに",
+          "行きたいです。"
+        ]
+      },
+      {
+        "en": "Shall we take a short break? — Yes, let's do that.",
+        "chunks": [
+          "少し休みましょうか。",
+          "ええ、",
+          "そうしましょう。"
+        ]
+      },
+      {
+        "en": "I go to the park for a stroll.",
+        "chunks": [
+          "公園へ",
+          "散歩に",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "What do you want the most for your birthday?",
+        "chunks": [
+          "誕生日に",
+          "何が一番",
+          "欲しいですか。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "行きます (いきます) - Want to go",
+        "form": "たい-form Affirmative",
+        "answer": "いきたい",
+        "options": [
+          "いきたい",
+          "いくたい",
+          "いきたいたい"
+        ],
+        "hint": "Drop ます and add たい: 行き → 行きたい"
+      },
+      {
+        "prompt": "行きます (いきます) - Don't want to go",
+        "form": "たい-form Negative",
+        "answer": "いきたくない",
+        "options": [
+          "いきたくない",
+          "いかないたい",
+          "いきたいじゃない"
+        ],
+        "hint": "Drop い and add くない: 行きたい → 行きたくない"
+      },
+      {
+        "prompt": "食べます (たべます) - Want to eat",
+        "form": "たい-form Affirmative",
+        "answer": "たべたい",
+        "options": [
+          "たべたい",
+          "たべるたい",
+          "たべたいたい"
+        ],
+        "hint": "Drop ます and add たい: 食べ → 食べたい"
+      },
+      {
+        "prompt": "食べます (たべます) - Wanted to eat",
+        "form": "たい-form Past Affirmative",
+        "answer": "たべたかった",
+        "options": [
+          "たべたかった",
+          "たべたいでした",
+          "たべたかったでした"
+        ],
+        "hint": "Drop い and add かった: 食べたい → 食べたかった"
+      },
+      {
+        "prompt": "飲みます (のみます) - Want to drink",
+        "form": "たい-form Affirmative",
+        "answer": "のみたい",
+        "options": [
+          "のみたい",
+          "のむたい",
+          "のんだたい"
+        ],
+        "hint": "Drop ます and add たい: 飲み → 飲みたい"
+      },
+      {
+        "prompt": "飲みます (のみます) - Didn't want to drink",
+        "form": "たい-form Past Negative",
+        "answer": "のみたくなかった",
+        "options": [
+          "のみたくなかった",
+          "のまないたいでした",
+          "のみたくないでした"
+        ],
+        "hint": "Drop い and add くなかった: 飲みたい → 飲みたくなかった"
+      },
+      {
+        "prompt": "見ます (みます) - Want to see",
+        "form": "たい-form Affirmative",
+        "answer": "みたい",
+        "options": [
+          "みたい",
+          "みるたい",
+          "みたいたい"
+        ],
+        "hint": "Drop ます and add たい: 見 → 見たい"
+      },
+      {
+        "prompt": "見ます (みます) - Don't want to see",
+        "form": "たい-form Negative",
+        "answer": "みたくない",
+        "options": [
+          "みたくない",
+          "みないたい",
+          "みたいじゃない"
+        ],
+        "hint": "Drop い and add くない: 見たい → 見たくない"
+      },
+      {
+        "prompt": "買います (かいます) - Want to buy",
+        "form": "たい-form Affirmative",
+        "answer": "かいたい",
+        "options": [
+          "かいたい",
+          "かうたい",
+          "かったたい"
+        ],
+        "hint": "Drop ます and add たい: 買い → 買いたい"
+      },
+      {
+        "prompt": "会います (あいます) - Want to meet",
+        "form": "たい-form Affirmative",
+        "answer": "あいたい",
+        "options": [
+          "あいたい",
+          "あうたい",
+          "あったたい"
+        ],
+        "hint": "Drop ます and add たい: 会い → 会いたい"
+      },
+      {
+        "prompt": "します - Want to do",
+        "form": "たい-form Affirmative",
+        "answer": "したい",
+        "options": [
+          "したい",
+          "するたい",
+          "したいたい"
+        ],
+        "hint": "Irregular Group 3: します → したい"
+      },
+      {
+        "prompt": "します - Don't want to do",
+        "form": "たい-form Negative",
+        "answer": "したくない",
+        "options": [
+          "したくない",
+          "しないたい",
+          "したいじゃない"
+        ],
+        "hint": "Drop い and add くない: したい → したくない"
+      },
+      {
+        "prompt": "来ます (きます) - Want to come",
+        "form": "たい-form Affirmative",
+        "answer": "きたい",
+        "options": [
+          "きたい",
+          "くるたい",
+          "こたい"
+        ],
+        "hint": "Irregular Group 3: 来ます (きます) → 来たい (きたい)"
+      },
+      {
+        "prompt": "泳ぎます (およぎます) - Want to swim",
+        "form": "たい-form Affirmative",
+        "answer": "およぎたい",
+        "options": [
+          "およぎたい",
+          "およぐたい",
+          "およいだたい"
+        ],
+        "hint": "Drop ます and add たい: 泳ぎ → 泳ぎたい"
+      },
+      {
+        "prompt": "遊びます (あそびます) - Want to play",
+        "form": "たい-form Affirmative",
+        "answer": "あそびたい",
+        "options": [
+          "あそびたい",
+          "あそぶたい",
+          "あそんだたい"
+        ],
+        "hint": "Drop ます and add たい: 遊び → 遊びたい"
+      },
+      {
+        "prompt": "迎えます (むかえます) - Purpose stem (in order to pick up)",
+        "form": "Purpose Stem (～に)",
+        "answer": "むかえに",
+        "options": [
+          "むかえに",
+          "むかえるに",
+          "むかえてに"
+        ],
+        "hint": "Drop ます and add に: 迎えに"
+      },
+      {
+        "prompt": "買います (かいます) - Purpose stem (in order to buy)",
+        "form": "Purpose Stem (～に)",
+        "answer": "かいに",
+        "options": [
+          "かいに",
+          "かうに",
+          "かってに"
+        ],
+        "hint": "Drop ます and add に: 買いに"
+      },
+      {
+        "prompt": "見ます (みます) - Purpose stem (in order to watch)",
+        "form": "Purpose Stem (～に)",
+        "answer": "みに",
+        "options": [
+          "みに",
+          "みるに",
+          "みてに"
+        ],
+        "hint": "Drop ます and add に: 見に"
+      },
+      {
+        "prompt": "食べます (たべます) - Purpose stem (in order to eat)",
+        "form": "Purpose Stem (～に)",
+        "answer": "たべに",
+        "options": [
+          "たべに",
+          "たべるに",
+          "たべてに"
+        ],
+        "hint": "Drop ます and add に: 食べに"
+      },
+      {
+        "prompt": "勉強します (べんきょうします) - Purpose stem (verb form)",
+        "form": "Purpose Stem (～に)",
+        "answer": "べんきょうしに",
+        "options": [
+          "べんきょうしに",
+          "べんきょうするに",
+          "べんきょうしてに"
+        ],
+        "hint": "Drop ます from します and add に: 勉強しに"
+      },
+      {
+        "prompt": "欲しい (ほしい) - Negative",
+        "form": "Negative",
+        "answer": "ほしくない",
+        "options": [
+          "ほしくない",
+          "ほしいじゃない",
+          "ほしくないです"
+        ],
+        "hint": "い-adjective: drop い and add くない"
+      },
+      {
+        "prompt": "欲しい (ほしい) - Past Affirmative",
+        "form": "Past Affirmative",
+        "answer": "ほしかった",
+        "options": [
+          "ほしかった",
+          "ほしいでした",
+          "ほしかったでした"
+        ],
+        "hint": "い-adjective: drop い and add かった"
+      },
+      {
+        "prompt": "欲しい (ほしい) - Past Negative",
+        "form": "Past Negative",
+        "answer": "ほしくなかった",
+        "options": [
+          "ほしくなかった",
+          "ほしいじゃなかった",
+          "ほしくないでした"
+        ],
+        "hint": "い-adjective: drop い and add くなかった"
+      },
+      {
+        "prompt": "住みます (すみます) - Want to live",
+        "form": "たい-form Affirmative",
+        "answer": "すみたい",
+        "options": [
+          "すみたい",
+          "すむたい",
+          "すんだたい"
+        ],
+        "hint": "Drop ます and add たい: 住み → 住みたい"
+      },
+      {
+        "prompt": "入ります (はいります) - Want to enter",
+        "form": "たい-form Affirmative",
+        "answer": "はいりたい",
+        "options": [
+          "はいりたい",
+          "はいるたい",
+          "はいったたい"
+        ],
+        "hint": "Group 1: drop ます and add たい: 入り → 入りたい"
+      },
+      {
+        "prompt": "出します (だします) - Want to submit/send",
+        "form": "たい-form Affirmative",
+        "answer": "だしたい",
+        "options": [
+          "だしたい",
+          "だすたい",
+          "だしたいたい"
+        ],
+        "hint": "Drop ます and add たい: 出し → 出したい"
+      },
+      {
+        "prompt": "乗ります (のります) - Want to ride",
+        "form": "たい-form Affirmative",
+        "answer": "のりたい",
+        "options": [
+          "のりたい",
+          "のるたい",
+          "のったたい"
+        ],
+        "hint": "Drop ます and add たい: 乗り → 乗りたい"
+      },
+      {
+        "prompt": "降ります (おります) - Want to get off",
+        "form": "たい-form Affirmative",
+        "answer": "おりたい",
+        "options": [
+          "おりたい",
+          "おるたい",
+          "おりたいたい"
+        ],
+        "hint": "Group 2: drop ます and add たい: 降り → 降りたい"
+      },
+      {
+        "prompt": "帰ります (かえります) - Want to return home",
+        "form": "たい-form Affirmative",
+        "answer": "かえりたい",
+        "options": [
+          "かえりたい",
+          "かえるたい",
+          "かえったたい"
+        ],
+        "hint": "Group 1: drop ます and add たい: 帰り → 帰りたい"
+      },
+      {
+        "prompt": "休みます (やすみます) - Want to rest",
+        "form": "たい-form Affirmative",
+        "answer": "やすみたい",
+        "options": [
+          "やすみたい",
+          "やすむたい",
+          "やすみたく"
+        ],
+        "hint": "Drop ます and add たい: 休み → 休みたい"
+      },
+      {
+        "prompt": "話します (はなします) - Want to speak",
+        "form": "たい-form Affirmative",
+        "answer": "はなしたい",
+        "options": [
+          "はなしたい",
+          "はなすたい",
+          "はなしたたい"
+        ],
+        "hint": "Drop ます and add たい: 話し → 話したい"
+      },
+      {
+        "prompt": "習います (ならいます) - Want to learn",
+        "form": "たい-form Affirmative",
+        "answer": "ならいたい",
+        "options": [
+          "ならいたい",
+          "ならうたい",
+          "ならいたいたい"
+        ],
+        "hint": "Drop ます and add たい: 習い → 習いたい"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "私は新しいパソコン [ ? ] 欲しいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "The object of 欲しい is marked with particle が."
+      },
+      {
+        "sentence": "冷たいジュース [ ? ] 飲みたいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "With ～たい, the direct object can take が to emphasize the target."
+      },
+      {
+        "sentence": "友達 [ ? ] 会いたいです。",
+        "answer": "に",
+        "options": [
+          "に",
+          "が",
+          "を",
+          "で"
+        ],
+        "hint": "会います always requires に; it does NOT change to が with ～たい."
+      },
+      {
+        "sentence": "デパートへ靴を買い [ ? ] 行きます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "へ",
+          "で",
+          "を"
+        ],
+        "hint": "The purpose of movement is marked with に (買いに)."
+      },
+      {
+        "sentence": "空港 [ ? ] 友達を迎えに行きます。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The destination of a motion verb is marked with へ (or に)."
+      },
+      {
+        "sentence": "公園へ散歩 [ ? ] 行きます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "A verbal noun used as a purpose takes に (散歩に)."
+      },
+      {
+        "sentence": "どこか [ ? ] 行きましたか。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Destination after どこか takes へ (optional in casual speech, but standard grammar)."
+      },
+      {
+        "sentence": "どこか [ ? ] 休みましょうか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "へ",
+          "に",
+          "を"
+        ],
+        "hint": "The location where you do an action takes で and cannot be omitted."
+      },
+      {
+        "sentence": "喉 [ ? ] 渇きましたから、お茶を飲みます。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "The physical state is marked with が: 喉が渇きました."
+      },
+      {
+        "sentence": "お腹 [ ? ] 空きました。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Physiological condition marker: お腹が空きました."
+      },
+      {
+        "sentence": "お腹 [ ? ] いっぱいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Physiological state: お腹がいっぱいです."
+      },
+      {
+        "sentence": "牛丼 [ ? ] お願いします。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "The item you request takes を: 牛丼をお願いします."
+      },
+      {
+        "sentence": "全部 [ ? ] 1,500円でございます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "の"
+        ],
+        "hint": "Total quantity or total cost takes で: 全部で."
+      },
+      {
+        "sentence": "彼女 [ ? ] 結婚したいです。",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "に",
+          "が"
+        ],
+        "hint": "Marrying someone requires particle と ('with'): 彼女と結婚したい."
+      },
+      {
+        "sentence": "ホテルのプール [ ? ] 泳ぎたいです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "へ",
+          "を"
+        ],
+        "hint": "The location where you swim takes で: プールで泳ぎたい."
+      },
+      {
+        "sentence": "川へ釣り [ ? ] 行きます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "へ",
+          "で"
+        ],
+        "hint": "Purpose of movement: 釣りに 行きます."
+      },
+      {
+        "sentence": "日本 [ ? ] 経済の勉強に来ました。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination of motion verb 来ました takes へ."
+      },
+      {
+        "sentence": "今度の休み、何 [ ? ] したいですか。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Action object: 何をしたいですか."
+      },
+      {
+        "sentence": "12時半 [ ? ] 昼ご飯を食べましょう。",
+        "answer": "ごろ",
+        "options": [
+          "ごろ",
+          "より",
+          "から",
+          "まで"
+        ],
+        "hint": "Approximate point in time takes ごろ."
+      },
+      {
+        "sentence": "お会計は別々 [ ? ] お願いします。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Adverbial form for separately: 別々に (べつべつに)."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Lunchtime proposal between colleagues",
+        "speaker": "同僚",
+        "prompt": "もう12時ですね。昼ご飯を食べに行きませんか。",
+        "options": [
+          {
+            "text": "ええ、そうしましょう！お腹が空きましたね。",
+            "correct": true
+          },
+          {
+            "text": "そうですね。昼ご飯を食べに行きません。",
+            "correct": false
+          },
+          {
+            "text": "ええ、昼ご飯が欲しいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Actively accept a ～ませんか invitation with 『ええ、そうしましょう！』."
+      },
+      {
+        "situation": "Ordering at a family restaurant",
+        "speaker": "店員",
+        "prompt": "いらっしゃいませ。ご注文は？",
+        "options": [
+          {
+            "text": "刺身定食をお願いします。",
+            "correct": true
+          },
+          {
+            "text": "刺身定食が欲しいです。",
+            "correct": false
+          },
+          {
+            "text": "刺身定食を食べたいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "When ordering food, say 『[Item] を お願いします / を ください』, not 欲しいです."
+      },
+      {
+        "situation": "Paying the bill separately",
+        "speaker": "店員",
+        "prompt": "お会計はご一緒でよろしいですか。",
+        "options": [
+          {
+            "text": "すみません、別々にお願いします。",
+            "correct": true
+          },
+          {
+            "text": "少々お待ちください。",
+            "correct": false
+          },
+          {
+            "text": "別々が欲しいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 『別々にお願いします』 to request separate checks."
+      },
+      {
+        "situation": "Asking a peer about weekend desires",
+        "speaker": "友達",
+        "prompt": "今度の週末は何をしたいですか。",
+        "options": [
+          {
+            "text": "山へハイキングに行きたいです。",
+            "correct": true
+          },
+          {
+            "text": "山へハイキングを行きます。",
+            "correct": false
+          },
+          {
+            "text": "ハイキングがしたいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Purpose of movement: [Place] へ [Noun] に 行きたいです."
+      },
+      {
+        "situation": "Declining an activity due to fatigue",
+        "speaker": "友達",
+        "prompt": "今晩カラオケに行きませんか。",
+        "options": [
+          {
+            "text": "すみません、今日はとても疲れましたから、早く帰りたいです。",
+            "correct": true
+          },
+          {
+            "text": "今日は疲れましたから、カラオケに行きたいです。",
+            "correct": false
+          },
+          {
+            "text": "カラオケが欲しくないです。",
+            "correct": false
+          }
+        ],
+        "tip": "Explain reason with から and state negative desire with ～たくないです or alternative wish."
+      },
+      {
+        "situation": "Asking someone's wish for their birthday",
+        "speaker": "友達",
+        "prompt": "誕生日に何が一番欲しいですか。",
+        "options": [
+          {
+            "text": "軽くて使いやすいパソコンが欲しいです。",
+            "correct": true
+          },
+          {
+            "text": "パソコンを買いたいですでした。",
+            "correct": false
+          },
+          {
+            "text": "パソコンが欲しくないです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer 『何が欲しいですか』 with 『[Noun] が 欲しいです』."
+      },
+      {
+        "situation": "Suggesting a drink when thirsty",
+        "speaker": "タカシ先生",
+        "prompt": "たくさん歩きましたね。喉が渇きませんでしたか。",
+        "options": [
+          {
+            "text": "ええ、喉が渇きました。あそこで冷たいお茶を飲みましょう。",
+            "correct": true
+          },
+          {
+            "text": "はい、お腹がいっぱいです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、喉が渇きたくないです。",
+            "correct": false
+          }
+        ],
+        "tip": "Acknowledge thirst with 『喉が渇きました』 and propose an action."
+      },
+      {
+        "situation": "Inquiring about someone's purpose in Japan",
+        "speaker": "タカシ先生",
+        "prompt": "日本へ何をしに来ましたか。",
+        "options": [
+          {
+            "text": "日本語と経済の勉強に来ました。",
+            "correct": true
+          },
+          {
+            "text": "日本語を勉強に行きます。",
+            "correct": false
+          },
+          {
+            "text": "日本語が勉強したいに来ました。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer 『何をしに来ましたか』 with 『[Noun] の 勉強に来ました』."
+      },
+      {
+        "situation": "Weekend plans involving pick-up",
+        "speaker": "同僚",
+        "prompt": "土曜日の午後、暇ですか。",
+        "options": [
+          {
+            "text": "すみません、成田空港へ友達を迎えに行きますから、忙しいです。",
+            "correct": true
+          },
+          {
+            "text": "友達を迎えに行くたいです。",
+            "correct": false
+          },
+          {
+            "text": "友達を迎えるに行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Verb purpose stem: drop ます and add に (迎えに行きます)."
+      },
+      {
+        "situation": "Asking if someone went anywhere on vacation",
+        "speaker": "友達",
+        "prompt": "連休はどこかへ行きましたか。",
+        "options": [
+          {
+            "text": "いいえ、どこへも行きませんでした。家で映画を見ました。",
+            "correct": true
+          },
+          {
+            "text": "はい、どこへも行きました。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、どこかへ行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Negative answer to どこかへ: 『いいえ、どこへも行きませんでした』."
+      },
+      {
+        "situation": "Inviting a superior politely",
+        "speaker": "部下",
+        "prompt": "部長、お昼ご飯はいかがですか。",
+        "options": [
+          {
+            "text": "いいね、一緒に行こう。",
+            "correct": true
+          },
+          {
+            "text": "お昼ご飯が食べたいですか。",
+            "correct": false
+          },
+          {
+            "text": "お昼ご飯が欲しいですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Never use 欲しいですか or 食べたいですか with superiors; use いかがですか or ませんか."
+      },
+      {
+        "situation": "Expressing desire to meet someone special",
+        "speaker": "友達",
+        "prompt": "休みにはだれに会いたいですか。",
+        "options": [
+          {
+            "text": "国にいる家族に会いたいです。",
+            "correct": true
+          },
+          {
+            "text": "家族が会いたいです。",
+            "correct": false
+          },
+          {
+            "text": "家族に会いたいでした。",
+            "correct": false
+          }
+        ],
+        "tip": "The person you meet takes に (家族に会いたいです; に cannot change to が)."
+      }
+    ]
+  }
+}

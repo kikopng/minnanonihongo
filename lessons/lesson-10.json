@@ -1,0 +1,2483 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 10,
+    "title": "Existence, Location, and Spatial Relationships",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master expressing the existence and location of animate (います) and inanimate (あります) entities; distinguish existential sentences ([Place] に [Noun] が) from locative sentences ([Noun] は [Place] に); pinpoint spatial positions with positional nouns (上, 下, 前, 後ろ, 中, 外, 隣, 近く, 間); list items non-exhaustively with ～や～[など]; and ask about item availability in stores."
+  },
+  "vocabulary": [
+    {
+      "id": "imasu",
+      "kanji": "います",
+      "kana": "います",
+      "romaji": "imasu",
+      "meaning": "to exist; to be [referring to living things: humans, animals]",
+      "category": "verb",
+      "example": {
+        "kanji": "あそこに男の人がいます。",
+        "kana": "あそこに おとこのひとが います。",
+        "translation": "There is a man over there."
+      }
+    },
+    {
+      "id": "arimasu",
+      "kanji": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "meaning": "to exist; to be [referring to non-living things, plants, events]",
+      "category": "verb",
+      "example": {
+        "kanji": "机の上に本があります。",
+        "kana": "つくえの うえに ほんが あります。",
+        "translation": "There is a book on the desk."
+      }
+    },
+    {
+      "id": "iroiro",
+      "kanji": "いろいろ[な]",
+      "kana": "いろいろ[な]",
+      "romaji": "iroiro[na]",
+      "meaning": "various; variety of",
+      "category": "adjective",
+      "example": {
+        "kanji": "店にいろいろな物があります。",
+        "kana": "みせに いろいろな ものが あります。",
+        "translation": "There are various things in the store."
+      }
+    },
+    {
+      "id": "otokonohito",
+      "kanji": "男の人",
+      "kana": "おとこのひと",
+      "romaji": "otokonohito",
+      "meaning": "man",
+      "category": "noun",
+      "example": {
+        "kanji": "あの男の人は誰ですか。",
+        "kana": "あの おとこのひとは だれですか。",
+        "translation": "Who is that man?"
+      }
+    },
+    {
+      "id": "onnanohito",
+      "kanji": "女の人",
+      "kana": "おんなのひと",
+      "romaji": "onnanohito",
+      "meaning": "woman",
+      "category": "noun",
+      "example": {
+        "kanji": "あそこに女の人が2人います。",
+        "kana": "あそこに おんなのひとが ふたり います。",
+        "translation": "There are two women over there."
+      }
+    },
+    {
+      "id": "otokonoko",
+      "kanji": "男の子",
+      "kana": "おとこのこ",
+      "romaji": "otokonoko",
+      "meaning": "boy",
+      "category": "noun",
+      "example": {
+        "kanji": "公園に男の子がいます。",
+        "kana": "こうえんに おとこのこが います。",
+        "translation": "There is a boy in the park."
+      }
+    },
+    {
+      "id": "onnanoko",
+      "kanji": "女の子",
+      "kana": "おんなのこ",
+      "romaji": "onnanoko",
+      "meaning": "girl",
+      "category": "noun",
+      "example": {
+        "kanji": "あのかわいい女の子は誰ですか。",
+        "kana": "あの かわいい おんなのこは だれですか。",
+        "translation": "Who is that cute girl?"
+      }
+    },
+    {
+      "id": "inu",
+      "kanji": "犬",
+      "kana": "いぬ",
+      "romaji": "inu",
+      "meaning": "dog",
+      "category": "noun",
+      "example": {
+        "kanji": "庭に犬がいます。",
+        "kana": "にわに いぬが います。",
+        "translation": "There is a dog in the garden."
+      }
+    },
+    {
+      "id": "neko",
+      "kanji": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "meaning": "cat",
+      "category": "noun",
+      "example": {
+        "kanji": "ベッドの下に猫がいます。",
+        "kana": "ベッドの したに ねこが います。",
+        "translation": "There is a cat under the bed."
+      }
+    },
+    {
+      "id": "panda",
+      "kanji": "パンダ",
+      "kana": "パンダ",
+      "romaji": "panda",
+      "meaning": "panda",
+      "category": "noun",
+      "example": {
+        "kanji": "上野動物園にパンダがいます。",
+        "kana": "うえの どうぶつえんに パンダが います。",
+        "translation": "There are pandas at Ueno Zoo."
+      }
+    },
+    {
+      "id": "zou",
+      "kanji": "象",
+      "kana": "ぞう",
+      "romaji": "zou",
+      "meaning": "elephant",
+      "category": "noun",
+      "example": {
+        "kanji": "象は鼻が長いです。",
+        "kana": "ぞうは はなが ながいです。",
+        "translation": "Elephants have long trunks."
+      }
+    },
+    {
+      "id": "ki",
+      "kanji": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "meaning": "tree; wood",
+      "category": "noun",
+      "example": {
+        "kanji": "庭に桜の木があります。",
+        "kana": "にわに さくらの きが あります。",
+        "translation": "There is a cherry blossom tree in the garden."
+      }
+    },
+    {
+      "id": "mono",
+      "kanji": "物",
+      "kana": "もの",
+      "romaji": "mono",
+      "meaning": "thing; inanimate object",
+      "category": "noun",
+      "example": {
+        "kanji": "箱の中にいろいろな物があります。",
+        "kana": "はこの なかに いろいろな ものが あります。",
+        "translation": "There are various things inside the box."
+      }
+    },
+    {
+      "id": "denchi",
+      "kanji": "電池",
+      "kana": "でんち",
+      "romaji": "denchi",
+      "meaning": "battery",
+      "category": "noun",
+      "example": {
+        "kanji": "時計の電池がありません。",
+        "kana": "とけいの でんちが ありません。",
+        "translation": "There is no battery in the clock."
+      }
+    },
+    {
+      "id": "hako",
+      "kanji": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "meaning": "box",
+      "category": "noun",
+      "example": {
+        "kanji": "この箱の中に何がありますか。",
+        "kana": "この はこの なかに なにが ありますか。",
+        "translation": "What is inside this box?"
+      }
+    },
+    {
+      "id": "suicchi",
+      "kanji": "スイッチ",
+      "kana": "スイッチ",
+      "romaji": "suicchi",
+      "meaning": "switch",
+      "category": "noun",
+      "example": {
+        "kanji": "ドアの右にスイッチがあります。",
+        "kana": "ドアの みぎに スイッチが あります。",
+        "translation": "There is a switch to the right of the door."
+      }
+    },
+    {
+      "id": "reizouko",
+      "kanji": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "romaji": "reizouko",
+      "meaning": "refrigerator",
+      "category": "noun",
+      "example": {
+        "kanji": "冷蔵庫の中にビールとミルクがあります。",
+        "kana": "れいぞうこの なかに ビールと ミルクが あります。",
+        "translation": "There is beer and milk inside the refrigerator."
+      }
+    },
+    {
+      "id": "teeburu",
+      "kanji": "テーブル",
+      "kana": "テーブル",
+      "romaji": "teeburu",
+      "meaning": "table",
+      "category": "noun",
+      "example": {
+        "kanji": "テーブルの上に鍵があります。",
+        "kana": "テーブルの うえに かぎが あります。",
+        "translation": "There are keys on the table."
+      }
+    },
+    {
+      "id": "beddo",
+      "kanji": "ベッド",
+      "kana": "ベッド",
+      "romaji": "beddo",
+      "meaning": "bed",
+      "category": "noun",
+      "example": {
+        "kanji": "部屋に大きなベッドがあります。",
+        "kana": "へやに おおきな ベッドが あります。",
+        "translation": "There is a large bed in the room."
+      }
+    },
+    {
+      "id": "tana",
+      "kanji": "棚",
+      "kana": "たな",
+      "romaji": "tana",
+      "meaning": "shelf; bookcase",
+      "category": "noun",
+      "example": {
+        "kanji": "本棚に辞書があります。",
+        "kana": "ほんだなに じしょが あります。",
+        "translation": "There is a dictionary on the bookshelf."
+      }
+    },
+    {
+      "id": "doa",
+      "kanji": "ドア",
+      "kana": "ドア",
+      "romaji": "doa",
+      "meaning": "door",
+      "category": "noun",
+      "example": {
+        "kanji": "ドアの近くに傘があります。",
+        "kana": "ドアの ちかくに かさが あります。",
+        "translation": "There is an umbrella near the door."
+      }
+    },
+    {
+      "id": "mado",
+      "kanji": "窓",
+      "kana": "まど",
+      "romaji": "mado",
+      "meaning": "window",
+      "category": "noun",
+      "example": {
+        "kanji": "窓のそばに机があります。",
+        "kana": "まどの そばに つくえが あります。",
+        "translation": "There is a desk beside the window."
+      }
+    },
+    {
+      "id": "posuto",
+      "kanji": "ポスト",
+      "kana": "ポスト",
+      "romaji": "posuto",
+      "meaning": "mailbox; postbox",
+      "category": "noun",
+      "example": {
+        "kanji": "銀行の前に赤いポストがあります。",
+        "kana": "ぎんこうの まえに あかい ポストが あります。",
+        "translation": "There is a red mailbox in front of the bank."
+      }
+    },
+    {
+      "id": "biru",
+      "kanji": "ビル",
+      "kana": "ビル",
+      "romaji": "biru",
+      "meaning": "building",
+      "category": "noun",
+      "example": {
+        "kanji": "駅の隣に高いビルがあります。",
+        "kana": "えきの となりに たかい ビルが あります。",
+        "translation": "There is a tall building next to the station."
+      }
+    },
+    {
+      "id": "atm",
+      "kanji": "ATM",
+      "kana": "エーティーエム",
+      "romaji": "ATM",
+      "meaning": "automated teller machine (ATM)",
+      "category": "noun",
+      "example": {
+        "kanji": "コンビニの中にATMがあります。",
+        "kana": "コンビニの なかに エーティーエムが あります。",
+        "translation": "There is an ATM inside the convenience store."
+      }
+    },
+    {
+      "id": "konbini",
+      "kanji": "コンビニ",
+      "kana": "コンビニ",
+      "romaji": "konbini",
+      "meaning": "convenience store",
+      "category": "noun",
+      "example": {
+        "kanji": "ホテルの近くにコンビニがありますか。",
+        "kana": "ホテルの ちかくに コンビニが ありますか。",
+        "translation": "Is there a convenience store near the hotel?"
+      }
+    },
+    {
+      "id": "kouen",
+      "kanji": "公園",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "meaning": "park",
+      "category": "noun",
+      "example": {
+        "kanji": "公園で子供たちが遊んでいます。",
+        "kana": "こうえんで こどもたちが あそんで います。",
+        "translation": "Children are playing in the park."
+      }
+    },
+    {
+      "id": "kissaten",
+      "kanji": "喫茶店",
+      "kana": "きっさてん",
+      "romaji": "kissaten",
+      "meaning": "coffee shop; café",
+      "category": "noun",
+      "example": {
+        "kanji": "あの静かな喫茶店に入りましょう。",
+        "kana": "あの しずかな きっさてんに はいりましょう。",
+        "translation": "Let's go into that quiet coffee shop."
+      }
+    },
+    {
+      "id": "honya",
+      "kanji": "本屋",
+      "kana": "ほんや",
+      "romaji": "honya",
+      "meaning": "bookstore",
+      "category": "noun",
+      "example": {
+        "kanji": "本屋は花屋とパン屋の間にあります。",
+        "kana": "ほんやは はなやと パンやの あいだに あります。",
+        "translation": "The bookstore is between the flower shop and the bakery."
+      }
+    },
+    {
+      "id": "ya",
+      "kanji": "～屋",
+      "kana": "～や",
+      "romaji": "~ya",
+      "meaning": "~ store; ~ shop",
+      "category": "noun",
+      "example": {
+        "kanji": "駅の前に魚屋と八百屋があります。",
+        "kana": "えきの まえに さかなやと やおやが あります。",
+        "translation": "There is a fish market and a greengrocer in front of the station."
+      }
+    },
+    {
+      "id": "noriba",
+      "kanji": "乗り場",
+      "kana": "のりば",
+      "romaji": "noriba",
+      "meaning": "boarding place; taxi stand; platform",
+      "category": "noun",
+      "example": {
+        "kanji": "タクシー乗り場はあそこです。",
+        "kana": "タクシーのりばは あそこです。",
+        "translation": "The taxi stand is over there."
+      }
+    },
+    {
+      "id": "ken",
+      "kanji": "県",
+      "kana": "けん",
+      "romaji": "ken",
+      "meaning": "prefecture",
+      "category": "noun",
+      "example": {
+        "kanji": "東京ディズニーランドは千葉県にあります。",
+        "kana": "とうきょうディズニーランドは ちばけんに あります。",
+        "translation": "Tokyo Disneyland is in Chiba Prefecture."
+      }
+    },
+    {
+      "id": "ue",
+      "kanji": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "meaning": "on; above; over; top",
+      "category": "position",
+      "example": {
+        "kanji": "机の上に写真があります。",
+        "kana": "つくえの うえに しゃしんが あります。",
+        "translation": "There is a photograph on the desk."
+      }
+    },
+    {
+      "id": "shita",
+      "kanji": "下",
+      "kana": "した",
+      "romaji": "shita",
+      "meaning": "under; below; beneath",
+      "category": "position",
+      "example": {
+        "kanji": "椅子の下に猫がいます。",
+        "kana": "いすの したに ねこが います。",
+        "translation": "There is a cat under the chair."
+      }
+    },
+    {
+      "id": "mae",
+      "kanji": "前",
+      "kana": "まえ",
+      "romaji": "mae",
+      "meaning": "in front of; front",
+      "category": "position",
+      "example": {
+        "kanji": "駅の前にスーパーがあります。",
+        "kana": "えきの まえに スーパーが あります。",
+        "translation": "There is a supermarket in front of the station."
+      }
+    },
+    {
+      "id": "ushiro",
+      "kanji": "後ろ",
+      "kana": "うしろ",
+      "romaji": "ushiro",
+      "meaning": "behind; back",
+      "category": "position",
+      "example": {
+        "kanji": "私の後ろにミラーさんがいます。",
+        "kana": "わたしの うしろに ミラーさんが います。",
+        "translation": "Mr. Miller is behind me."
+      }
+    },
+    {
+      "id": "migi",
+      "kanji": "右",
+      "kana": "みぎ",
+      "romaji": "migi",
+      "meaning": "right side",
+      "category": "position",
+      "example": {
+        "kanji": "ポストの右に電話があります。",
+        "kana": "ポストの みぎに でんわが あります。",
+        "translation": "There is a telephone to the right of the mailbox."
+      }
+    },
+    {
+      "id": "hidari",
+      "kanji": "左",
+      "kana": "ひだり",
+      "romaji": "hidari",
+      "meaning": "left side",
+      "category": "position",
+      "example": {
+        "kanji": "銀行の左に喫茶店があります。",
+        "kana": "ぎんこうの ひだりに きっさてんが あります。",
+        "translation": "There is a coffee shop to the left of the bank."
+      }
+    },
+    {
+      "id": "naka",
+      "kanji": "中",
+      "kana": "なか",
+      "romaji": "naka",
+      "meaning": "in; inside; middle",
+      "category": "position",
+      "example": {
+        "kanji": "かばんの中に財布があります。",
+        "kana": "かばんの なかに さいふが あります。",
+        "translation": "There is a wallet inside the bag."
+      }
+    },
+    {
+      "id": "soto",
+      "kanji": "外",
+      "kana": "そと",
+      "romaji": "soto",
+      "meaning": "outside",
+      "category": "position",
+      "example": {
+        "kanji": "部屋の外に誰かがいます。",
+        "kana": "へやの そとに だれかが います。",
+        "translation": "Someone is outside the room."
+      }
+    },
+    {
+      "id": "tonari",
+      "kanji": "隣",
+      "kana": "となり",
+      "romaji": "tonari",
+      "meaning": "next to; neighboring (adjacent of the same category)",
+      "category": "position",
+      "example": {
+        "kanji": "本屋の隣にパン屋があります。",
+        "kana": "ほんやの となりに パンやが あります。",
+        "translation": "There is a bakery next to the bookstore."
+      }
+    },
+    {
+      "id": "chikaku",
+      "kanji": "近く",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "meaning": "near; vicinity",
+      "category": "position",
+      "example": {
+        "kanji": "駅の近くに交番があります。",
+        "kana": "えきの ちかくに こうばんが あります。",
+        "translation": "There is a police box near the station."
+      }
+    },
+    {
+      "id": "aida",
+      "kanji": "間",
+      "kana": "あいだ",
+      "romaji": "aida",
+      "meaning": "between (A and B)",
+      "category": "position",
+      "example": {
+        "kanji": "銀行と郵便局の間にコンビニがあります。",
+        "kana": "ぎんこうと ゆうびんきょくの あいだに コンビニが あります。",
+        "translation": "There is a convenience store between the bank and the post office."
+      }
+    },
+    {
+      "id": "ya-nado",
+      "kanji": "～や～[など]",
+      "kana": "～や～[など]",
+      "romaji": "~ya~ [nado]",
+      "meaning": "~ and ~, and so forth (non-exhaustive listing)",
+      "category": "conjunction",
+      "example": {
+        "kanji": "箱の中に手紙や写真などがあります。",
+        "kana": "はこの なかに てがみや しゃしんなどが あります。",
+        "translation": "There are letters, photos, and such inside the box."
+      }
+    },
+    {
+      "id": "ichiban",
+      "kanji": "一番～",
+      "kana": "いちばん～",
+      "romaji": "ichiban~",
+      "meaning": "the most ~; the -est (e.g. いちばん上 = the very top)",
+      "category": "adverb",
+      "example": {
+        "kanji": "棚の一番上に古い本があります。",
+        "kana": "たなの いちばん うえに ふるい ほんが あります。",
+        "translation": "There is an old book on the very top shelf."
+      }
+    },
+    {
+      "id": "danme",
+      "kanji": "～段目",
+      "kana": "～だんめ",
+      "romaji": "~danme",
+      "meaning": "the -th shelf (だん is the counter for shelves)",
+      "category": "counter",
+      "example": {
+        "kanji": "上から2段目にあります。",
+        "kana": "うえから にだんめに あります。",
+        "translation": "It is on the second shelf from the top."
+      }
+    },
+    {
+      "id": "oku",
+      "kanji": "奥",
+      "kana": "おく",
+      "romaji": "oku",
+      "meaning": "deep inside; back; inner part",
+      "category": "position",
+      "example": {
+        "kanji": "店の奥にトイレがあります。",
+        "kana": "みせの おくに トイレが あります。",
+        "translation": "There is a restroom in the back of the store."
+      }
+    },
+    {
+      "id": "koonaa",
+      "kanji": "コーナー",
+      "kana": "コーナー",
+      "romaji": "koonaa",
+      "meaning": "corner; section; department",
+      "category": "noun",
+      "example": {
+        "kanji": "アジア食品コーナーはどこですか。",
+        "kana": "アジアしょくひん コーナーは どこですか。",
+        "translation": "Where is the Asian foods section?"
+      }
+    },
+    {
+      "id": "chirisousu",
+      "kanji": "チリソース",
+      "kana": "チリソース",
+      "romaji": "chirisousu",
+      "meaning": "chili sauce",
+      "category": "noun",
+      "example": {
+        "kanji": "チリソースはありませんか。",
+        "kana": "チリソースは ありませんか。",
+        "translation": "Do you have chili sauce?"
+      }
+    },
+    {
+      "id": "doumo-sumimasen",
+      "kanji": "[どうも] すみません",
+      "kana": "[どうも] すみません",
+      "romaji": "[doumo] sumimasen",
+      "meaning": "Thank you very much; Excuse me",
+      "category": "expression",
+      "example": {
+        "kanji": "あそこにありますよ。— どうもすみません。",
+        "kana": "あそこに ありますよ。— どうも すみません。",
+        "translation": "It's right over there. — Thank you very much."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Animate (います) vs. Inanimate (あります) [Existence Basics]",
+      "explanation": "Japanese strictly distinguishes existence based on whether an entity possesses independent volition / self-locomotion: (1) います is used for sentient, animate creatures that move on their own—namely humans (男の人, 女の子, 田中さん) and animals (犬, 猫, パンダ, 魚). (2) あります is used for inanimate physical objects (机, 本, 車, 電池), abstract matters/events (時間, 約束, コンサート), and PLANTS. Takashi Sensei emphasizes this key rule: even though trees (木) and flowers (花) are biologically alive, they cannot move around independently, so they strictly take あります: 『庭に桜の木があります』. Robots and artificial machines also take あります in standard Japanese.",
+      "examples": [
+        {
+          "kanji": "あそこに男の人がいます。",
+          "kana": "あそこに おとこのひとが います。",
+          "translation": "There is a man over there."
+        },
+        {
+          "kanji": "庭に犬と猫がいます。",
+          "kana": "にわに いぬと ねこが います。",
+          "translation": "There are a dog and a cat in the yard."
+        },
+        {
+          "kanji": "机の上に鍵があります。",
+          "kana": "つくえの うえに かぎが あります。",
+          "translation": "There are keys on the table."
+        },
+        {
+          "kanji": "公園に大きな木があります。",
+          "kana": "こうえんに おおきな きが あります。",
+          "translation": "There is a big tree in the park. (Plants take あります!)"
+        },
+        {
+          "kanji": "明日は京都で会議があります。",
+          "kana": "あすは きょうとで かいぎが あります。",
+          "translation": "There is a meeting in Kyoto tomorrow. (Events take あります!)"
+        }
+      ]
+    },
+    {
+      "pattern": "Place に Noun が あります / います [Existential: Introducing What is at a Location]",
+      "explanation": "This structure is used when the speaker focuses on a location and introduces WHAT or WHO exists there as NEW INFORMATION to the listener (equivalent to 'There is a [Noun] at [Place]'). Particle roles: (1) に marks the stationary point or container of existence. (2) が marks the newly introduced entity. Contrast with action particle で: に marks where an entity simply EXISTS or sits without action (部屋にいます / 机にあります); で marks where a dynamic ACTION takes place (部屋で勉強します). To inquire, use 『何がありますか』 (What is there?) for objects/plants, and 『誰がいますか』 (Who is there?) for people.",
+      "examples": [
+        {
+          "kanji": "部屋にテレビがあります。",
+          "kana": "へやに テレビが あります。",
+          "translation": "There is a TV in the room."
+        },
+        {
+          "kanji": "教室に誰がいますか。— 学生が3人います。",
+          "kana": "きょうしつに だれが いますか。— がくせいが さんにん います。",
+          "translation": "Who is in the classroom? — There are three students."
+        },
+        {
+          "kanji": "冷蔵庫の中に何がありますか。— ビールと卵があります。",
+          "kana": "れいぞうこの なかに なにが ありますか。— ビールと たまごが あります。",
+          "translation": "What is inside the refrigerator? — There is beer and eggs."
+        },
+        {
+          "kanji": "ロビーに誰もいません。",
+          "kana": "ロビーに だれも いません。",
+          "translation": "There is no one in the lobby."
+        },
+        {
+          "kanji": "箱の中に何もありません。",
+          "kana": "はこの なかに なにも ありません。",
+          "translation": "There is nothing in the box."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun は Place に あります / います [Locative: Stating Where an Established Topic Is]",
+      "explanation": "Takashi Sensei highlights this crucial word order and particle inversion: When the entity (Noun) is ALREADY KNOWN or chosen as the topic of conversation, mark it with は and place it at the beginning. The new information being provided is WHERE it is located, marked by に. Structure: 『Noun は Place に あります/います』 (As for [Noun], it is at [Place]). Compare: (A) 『あそこにATMがあります』 = 'Look, there is an ATM over there' (spotting existence). (B) 『ATMはあそこにあります』 = 'As for the ATM you asked about, it is over there' (identifying location). To inquire about location, ask: 『[Noun] は どこに ありますか / いますか』. In conversational Japanese, 『Place に あります/います』 can be abbreviated to 『Place です』: 『ミラーさんは事務所です』.",
+      "examples": [
+        {
+          "kanji": "ミラーさんは事務所にいます。",
+          "kana": "ミラーさんは じむしょに います。",
+          "translation": "Mr. Miller is in the office."
+        },
+        {
+          "kanji": "東京ディズニーランドは千葉県にあります。",
+          "kana": "とうきょうディズニーランドは ちばけんに あります。",
+          "translation": "Tokyo Disneyland is in Chiba Prefecture."
+        },
+        {
+          "kanji": "私の傘はどこにありますか。— ドアの横にありますよ。",
+          "kana": "わたしの かさは どこに ありますか。— ドアの よこに ありますよ。",
+          "translation": "Where is my umbrella? — It is beside the door."
+        },
+        {
+          "kanji": "犬は庭にいます。",
+          "kana": "いぬは にわに います。",
+          "translation": "As for the dog, it is in the yard."
+        },
+        {
+          "kanji": "佐藤さんはどこですか。— 会議室です。",
+          "kana": "さとうさんは どこですか。— かいぎしつです。",
+          "translation": "Where is Ms. Sato? — She is in the conference room. (Conversational shortcut)"
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 の [Position Noun] に Noun 2 が あります / います [Positional Relations]",
+      "explanation": "To describe spatial relationships with precision, Japanese uses positional nouns: 上 (うえ - on/above), 下 (した - under), 前 (まえ - in front), 後ろ (うしろ - behind), 右 (みぎ - right), 左 (ひだり - left), 中 (なか - inside), 外 (そと - outside), 隣 (となり - next to), 近く (ちかく - near), 間 (あいだ - between). Pattern: 『[Reference Noun 1] の [Position] に [Target Noun 2] が あります/います』. Note: positional words are nouns in Japanese, which is why they are linked to the reference object using の (e.g. 机の上, 椅子の下, 銀行の隣).",
+      "examples": [
+        {
+          "kanji": "机の上に本があります。",
+          "kana": "つくえの うえに ほんが あります。",
+          "translation": "There is a book on the desk."
+        },
+        {
+          "kanji": "ベッドの下に猫がいます。",
+          "kana": "ベッドの したに ねこが います。",
+          "translation": "There is a cat under the bed."
+        },
+        {
+          "kanji": "車の前に男の子がいます。",
+          "kana": "くるまの まえに おとこのこが います。",
+          "translation": "There is a boy in front of the car."
+        },
+        {
+          "kanji": "ドアの右にスイッチがあります。",
+          "kana": "ドアの みぎに スイッチが あります。",
+          "translation": "There is a switch to the right of the door."
+        },
+        {
+          "kanji": "かばんの中に財布と鍵があります。",
+          "kana": "かばんの なかに さいふと かぎが あります。",
+          "translation": "There are a wallet and keys inside the bag."
+        }
+      ]
+    },
+    {
+      "pattern": "隣 (となり) vs. 近く (ちかく) vs. 間 (あいだ) [Spatial Nuances]",
+      "explanation": "Takashi clarifies the critical boundaries of these proximity terms: (1) 隣 (となり) expresses direct, immediate adjacency of objects belonging to the SAME or SIMILAR category (building next to building, person seated next to person, desk next to desk). You cannot say 『✕ 本屋の隣に車があります』 if the car is just parked on the street; use 横 (よこ - beside) or 前 (まえ) instead. (2) 近く (ちかく) means 'near / in the general vicinity', with no requirement of touching or immediate adjacency. (3) 間 (あいだ) pinpoints an entity between TWO landmarks: 『A と B の 間に [Noun] が あります/います』.",
+      "examples": [
+        {
+          "kanji": "本屋の隣にパン屋があります。",
+          "kana": "ほんやの となりに パンやが あります。",
+          "translation": "There is a bakery next to the bookstore. (Same category: shop next to shop)"
+        },
+        {
+          "kanji": "たかしさんの隣にマリアさんが座っています。",
+          "kana": "たかしさんの となりに マリアさんが すわって います。",
+          "translation": "Maria is sitting next to Takashi. (Person next to person)"
+        },
+        {
+          "kanji": "駅の近くにコンビニがたくさんあります。",
+          "kana": "えきの ちかくに コンビニが たくさん あります。",
+          "translation": "There are many convenience stores near the station. (General vicinity)"
+        },
+        {
+          "kanji": "銀行と郵便局の間にポストがあります。",
+          "kana": "ぎんこうと ゆうびんきょくの あいだに ポストが あります。",
+          "translation": "There is a mailbox between the bank and the post office."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 や Noun 2 [など] [Non-Exhaustive Listing vs. と]",
+      "explanation": "Compare exhaustive vs. non-exhaustive listing: (1) Particle と connects nouns EXHAUSTIVELY: 『箱の中にペンとノートがあります』 means there are ONLY a pen and a notebook in the box—nothing else. (2) Particle や connects nouns NON-EXHAUSTIVELY: 『箱の中にペンやノートがあります』 means there are pens, notebooks, and other unmentioned items as well ('things like pens and notebooks'). (3) Adding など (etc. / and so on) directly after the final noun reinforces this open-endedness: 『ペンやノートなどがあります』.",
+      "examples": [
+        {
+          "kanji": "冷蔵庫の中にビールやジュースなどがあります。",
+          "kana": "れいぞうこの なかに ビールや ジュースなどが あります。",
+          "translation": "There are drinks like beer and juice in the refrigerator (among other things)."
+        },
+        {
+          "kanji": "公園に男の子や女の子がいます。",
+          "kana": "こうえんに おとこのこや おんなのこが います。",
+          "translation": "There are boys, girls, and others in the park."
+        },
+        {
+          "kanji": "店にパンや果物があります。",
+          "kana": "みせに パンや くだものが あります。",
+          "translation": "There are bread, fruit, and other items in the store."
+        },
+        {
+          "kanji": "かばんの中に財布や手帳などがあります。",
+          "kana": "かばんの なかに さいふや てちょうなどが あります。",
+          "translation": "There are my wallet, organizer, and so on inside my bag."
+        }
+      ]
+    },
+    {
+      "pattern": "誰もいません / 何もありません [Absolute Total Negation]",
+      "explanation": "When an interrogative word (誰 - who, 何 - what, どこ - where) is directly combined with particle も and followed by a NEGATIVE predicate, it creates a complete, absolute negation without any intervening particle: (1) 誰もいません = 'There is no one / nobody at all'. (2) 何もありません = 'There is nothing at all'. (3) どこ[へ/に]も行きません = 'I go nowhere'. Notice that が drops completely (✕ 誰もがいません → ○ 誰もいません; ✕ 何もがありません → ○ 何もありません).",
+      "examples": [
+        {
+          "kanji": "部屋の中に誰もいません。",
+          "kana": "へやの なかに だれも いません。",
+          "translation": "There is nobody inside the room."
+        },
+        {
+          "kanji": "ポケットの中に何もありませんでした。",
+          "kana": "ポケットの なかに なにも ありませんでした。",
+          "translation": "There was nothing in my pocket."
+        },
+        {
+          "kanji": "冷蔵庫に何もありませんから、スーパーへ行きます。",
+          "kana": "れいぞうこに なにも ありませんから、スーパーへ いきます。",
+          "translation": "Because there is nothing in the refrigerator, I will go to the supermarket."
+        },
+        {
+          "kanji": "日曜日は事務所に誰もいませんよ。",
+          "kana": "にちようびは じむしょに だれも いませんよ。",
+          "translation": "On Sundays, there is no one in the office."
+        }
+      ]
+    },
+    {
+      "pattern": "Finding Items in Stores: ～はありませんか & Shelf Positions (段目, 奥, 一番上)",
+      "explanation": "Lesson 10 introduces practical customer-clerk interactions: (1) Asking for item availability politely: 『[Item] は ありませんか』 (Don't you have [Item]?). (2) Spatial indicators in stores: コーナー (section), 奥 (おく - back / deep inside), 一番上 (いちばんうえ - top shelf), 一番下 (いちばんした - bottom shelf), [Number] 段目 (だんめ - [number]-th shelf from top). (3) Thanking the clerk: 『どうもすみません』 (Thank you very much).",
+      "examples": [
+        {
+          "kanji": "すみません、チリソースはありませんか。",
+          "kana": "すみません、チリソースは ありませんか。",
+          "translation": "Excuse me, do you have chili sauce?"
+        },
+        {
+          "kanji": "スパイスコーナーにありますよ。あそこの奥です。",
+          "kana": "スパイスコーナーに ありますよ。あそこの おくです。",
+          "translation": "It is in the spice section. It is in the back over there."
+        },
+        {
+          "kanji": "上から3段目にあります。",
+          "kana": "うえから さんだんめに あります。",
+          "translation": "It is on the third shelf from the top."
+        },
+        {
+          "kanji": "一番下のかごの中にありますよ。",
+          "kana": "いちばん したの かごの なかに ありますよ。",
+          "translation": "It is in the basket at the very bottom."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "スーパーで買い物と公園の散歩",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "kanji": "たかしさん、今日の晩ご飯は何を作りますか。",
+        "kana": "たかしさん、きょうの ばんごはんは なにを つくりますか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "おいしいエビチリを作りましょう。でも、冷蔵庫の中にチリソースがありませんから、スーパーへ買いに行きましょう。",
+        "kana": "おいしい エビチリを つくりましょう。でも、れいぞうこの なかに チリソースが ありませんから、スーパーへ かいに いきましょう。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "いいですね。駅の近くの大きなスーパーに行きましょう。",
+        "kana": "いいですね。えきの ちかくの おおきな スーパーに いきましょう。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "あのう、すみません。チリソースはありませんか。",
+        "kana": "あのう、すみません。チリソースは ありませんか。"
+      },
+      {
+        "speaker": "店員",
+        "kanji": "チリソースですか。はい、アジア食品コーナーにありますよ。あちらの奥です。",
+        "kana": "チリソースですか。はい、アジアしょくひん コーナーに ありますよ。あちらの おくです。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "アジア食品コーナーですね。棚のどこにありますか。",
+        "kana": "アジアしょくひん コーナーですね。たなの どこに ありますか。"
+      },
+      {
+        "speaker": "店員",
+        "kanji": "右の棚の上から2段目にあります。タイカレーの隣ですよ。",
+        "kana": "みぎの たなの うえから にだんめに あります。タイカレーの となりですよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "分かりました。どうもすみません。",
+        "kana": "わかりました。どうも すみません。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "あ、ありました！チリソースやナンプラーなど、いろいろな調味料がありますね。",
+        "kana": "あ、ありました！チリソースや ナンプラーなど、いろいろな ちょうみりょうが ありますね。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "買い物が終わりましたね。スーパーの外の公園で少し休みませんか。",
+        "kana": "かいものが おわりましたね。スーパーの そとの こうえんで すこし やすみませんか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ。公園の池の近くにベンチがありますから、あそこに座りましょう。",
+        "kana": "ええ。こうえんの いけの ちかくに ベンチが ありますから、あそこに すわりましょう。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "あそこの大きな木の下に猫がいますね。男の子や女の子もたくさん遊んでいます。",
+        "kana": "あそこの おおきな きの したに ねこが いますね。おとこのこや おんなのこも たくさん あそんで います。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "本当ですね。とてもにぎやかですね。",
+        "kana": "ほんとうですね。とても にぎやかですね。"
+      }
+    ],
+    "translation": "Miller asks Takashi what they are making for dinner. Takashi proposes making sweet and spicy chili shrimp (ebichiri), but notes they need chili sauce, so they go to a large supermarket near the station. At the store, Takashi asks the clerk if they have chili sauce. The clerk explains that it is in the Asian food section in the back, located on the second shelf from the top on the right side, right next to the Thai curry. Takashi thanks the clerk. At the shelf, Miller finds the sauce and notes the variety of seasonings, such as chili sauce and fish sauce. After finishing their shopping, Takashi suggests taking a break in the park outside the supermarket. Miller agrees, pointing out a bench near the pond. Takashi notices a cat under a large tree and many boys and girls playing in the park.",
+    "questions": [
+      {
+        "question": "Why did Takashi and Miller go to the supermarket?",
+        "options": [
+          "Because they didn't have chili sauce in the refrigerator",
+          "Because they wanted to buy batteries for the clock",
+          "Because they wanted to watch a movie",
+          "Because they had an appointment with a friend"
+        ],
+        "answer": 0,
+        "explanation": "Takashi says: 冷蔵庫の中にチリソースがありませんから、スーパーへ買いに行きましょう (Because there is no chili sauce in the refrigerator, let's go buy some at the supermarket)."
+      },
+      {
+        "question": "Where is the supermarket located?",
+        "options": [
+          "Near the station",
+          "Inside Tokyo Disneyland",
+          "Behind the post office",
+          "Between the bank and the bookstore"
+        ],
+        "answer": 0,
+        "explanation": "Miller says: 駅の近くの大きなスーパーに行きましょう (Let's go to the large supermarket near the station)."
+      },
+      {
+        "question": "Where in the supermarket is the chili sauce located?",
+        "options": [
+          "In the Asian food section, on the second shelf from the top on the right",
+          "On the first shelf of the bread section",
+          "In the front display case near the register",
+          "On the very bottom shelf beside the entrance"
+        ],
+        "answer": 0,
+        "explanation": "The clerk states: アジア食品コーナー…右の棚の上から2段目にあります (In the Asian food section, on the second shelf from the top of the right shelf)."
+      },
+      {
+        "question": "What is located right next to (隣) the chili sauce?",
+        "options": [
+          "Thai curry (タイカレー)",
+          "Milk and beer",
+          "Bread and fruit",
+          "Batteries"
+        ],
+        "answer": 0,
+        "explanation": "The clerk says: タイカレーの隣ですよ (It's next to the Thai curry)."
+      },
+      {
+        "question": "What phrase did Takashi use to thank the supermarket clerk?",
+        "options": [
+          "どうもすみません",
+          "また今度お願いします",
+          "いらっしゃいませ",
+          "いただきます"
+        ],
+        "answer": 0,
+        "explanation": "Takashi says: 分かりました。どうもすみません (I understand. Thank you very much)."
+      },
+      {
+        "question": "Which particle pattern does Miller use when noticing the seasonings: 『チリソースやナンプラーなど』?",
+        "options": [
+          "Non-exhaustive listing (や...など) meaning 'chili sauce, fish sauce, and such'",
+          "Exhaustive listing (と) meaning only two items exist",
+          "Choice marker (どちら)",
+          "Cause marker (から)"
+        ],
+        "answer": 0,
+        "explanation": "や combined with など indicates non-exhaustive listing (things like chili sauce and fish sauce among others)."
+      },
+      {
+        "question": "Why is います used for the cat under the tree: 『木の下に猫がいます』?",
+        "options": [
+          "Because a cat is an animate living animal",
+          "Because trees take います",
+          "Because the cat is inanimate",
+          "Because cats are considered human"
+        ],
+        "answer": 0,
+        "explanation": "います is used for animate living creatures capable of self-locomotion (cats, dogs, people)."
+      },
+      {
+        "question": "Where do Miller and Takashi sit to take a rest?",
+        "options": [
+          "On a bench near the pond in the park outside the supermarket",
+          "Inside the coffee shop next to the station",
+          "In the taxi stand near the bank",
+          "On a chair in the supermarket aisle"
+        ],
+        "answer": 0,
+        "explanation": "Miller suggests: 公園の池の近くにベンチがありますから、あそこに座りましょう (There is a bench near the pond in the park, so let's sit there)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct verb for a living person: 'There is a man over there.'",
+      "prompt": {
+        "kanji": "あそこに男の人が___。",
+        "kana": "あそこに おとこのひとが ___。"
+      },
+      "options": [
+        "います",
+        "あります",
+        "します",
+        "行きます"
+      ],
+      "answer": 0,
+      "explanation": "Living people and animals take います (男の人がいます)."
+    },
+    {
+      "question": "Choose the correct verb for an inanimate object: 'There is a book on the desk.'",
+      "prompt": {
+        "kanji": "机の上に本が___。",
+        "kana": "つくえの うえに ほんが ___。"
+      },
+      "options": [
+        "あります",
+        "います",
+        "わかります",
+        "いきます"
+      ],
+      "answer": 0,
+      "explanation": "Inanimate physical objects take あります (本があります)."
+    },
+    {
+      "question": "Choose the correct verb for a tree (plant): 'There is a big tree in the garden.'",
+      "prompt": {
+        "kanji": "庭に大きな木が___。",
+        "kana": "にわに おおきな きが ___。"
+      },
+      "options": [
+        "あります",
+        "います",
+        "します",
+        "なります"
+      ],
+      "answer": 0,
+      "explanation": "As taught by Takashi Sensei, plants cannot move on their own volition, so trees and flowers take あります, NOT います."
+    },
+    {
+      "question": "Choose the correct particle for the location of existence: 'There is a cat under the chair.'",
+      "prompt": {
+        "kanji": "椅子の下___猫がいます。",
+        "kana": "いすの した___ ねこが います。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The location where an entity exists takes に. The particle で is reserved for dynamic actions."
+    },
+    {
+      "question": "Choose the correct particle: 'As for Mr. Miller, he is in the office.'",
+      "prompt": {
+        "kanji": "ミラーさん___事務所にいます。",
+        "kana": "ミラーさん___ じむしょに います。"
+      },
+      "options": [
+        "は",
+        "が",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "When stating the location of an already established topic, the person takes the topic marker は (ミラーさんは事務所にいます)."
+    },
+    {
+      "question": "Choose the correct question word: 'Who is in the classroom?'",
+      "prompt": {
+        "kanji": "教室に___がいますか。",
+        "kana": "きょうしつに ___が いますか。"
+      },
+      "options": [
+        "誰",
+        "何",
+        "どこ",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "Use 誰 (だれ) for people with います (誰がいますか)."
+    },
+    {
+      "question": "Choose the correct question word: 'What is inside the box?'",
+      "prompt": {
+        "kanji": "箱の中に___がありますか。",
+        "kana": "はこの なかに ___が ありますか。"
+      },
+      "options": [
+        "何",
+        "誰",
+        "どこ",
+        "どうして"
+      ],
+      "answer": 0,
+      "explanation": "Use 何 (なに) for inanimate items with あります (何がありますか)."
+    },
+    {
+      "question": "Choose the phrase meaning 'There is nobody inside the room.'",
+      "options": [
+        "部屋の中に誰もいません。",
+        "部屋の中に誰もありません。",
+        "部屋の中に何もいません。",
+        "部屋の中に誰かがいません。"
+      ],
+      "answer": 0,
+      "explanation": "Complete negation of people is 誰もいません (だれもいません)."
+    },
+    {
+      "question": "Choose the phrase meaning 'There is nothing inside the refrigerator.'",
+      "options": [
+        "冷蔵庫の中に何もありません。",
+        "冷蔵庫の中に誰もありません。",
+        "冷蔵庫の中に何もいません。",
+        "冷蔵庫の中に何もあります。"
+      ],
+      "answer": 0,
+      "explanation": "Complete negation of objects is 何もありません (なにもありません)."
+    },
+    {
+      "question": "Choose the correct connector for non-exhaustive listing: 'There are letters, photos, and such in the box.'",
+      "prompt": {
+        "kanji": "箱の中に手紙___写真などがあります。",
+        "kana": "はこの なかに てがみ___ しゃしんなどが あります。"
+      },
+      "options": [
+        "や",
+        "と",
+        "も",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Particle や connects items non-exhaustively ('things like A and B'). と would imply only letters and photos exist."
+    },
+    {
+      "question": "Choose the positional word meaning 'between (A and B)': 'There is a convenience store between the bank and the bookstore.'",
+      "prompt": {
+        "kanji": "銀行と本屋の___にコンビニがあります。",
+        "kana": "ぎんこうと ほんやの ___に コンビニが あります。"
+      },
+      "options": [
+        "間",
+        "隣",
+        "近く",
+        "後ろ"
+      ],
+      "answer": 0,
+      "explanation": "間 (あいだ) means 'between'."
+    },
+    {
+      "question": "Choose the positional word for 'next to' when two buildings are immediately adjacent: 'There is a bakery next to the bookstore.'",
+      "prompt": {
+        "kanji": "本屋の___にパン屋があります。",
+        "kana": "ほんやの ___に パンやが あります。"
+      },
+      "options": [
+        "隣",
+        "間",
+        "外",
+        "上"
+      ],
+      "answer": 0,
+      "explanation": "隣 (となり) describes direct adjacency between items of the same or similar category (building to building)."
+    },
+    {
+      "question": "Choose the correct meaning of 電池 (でんち).",
+      "options": [
+        "Battery",
+        "Telephone",
+        "Light switch",
+        "Refrigerator"
+      ],
+      "answer": 0,
+      "explanation": "電池 (でんち) means battery."
+    },
+    {
+      "question": "Choose the correct meaning of 冷蔵庫 (れいぞうこ).",
+      "options": [
+        "Refrigerator",
+        "Washing machine",
+        "Air conditioner",
+        "Microwave"
+      ],
+      "answer": 0,
+      "explanation": "冷蔵庫 (れいぞうこ) means refrigerator."
+    },
+    {
+      "question": "Choose the correct meaning of 乗り場 (のりば).",
+      "options": [
+        "Boarding place / taxi stand / platform",
+        "Ticket machine",
+        "Pedestrian crossing",
+        "Restroom"
+      ],
+      "answer": 0,
+      "explanation": "乗り場 (のりば) is a dedicated place for boarding transportation (bus, taxi, train)."
+    },
+    {
+      "question": "Choose the correct meaning of ポスト (posuto).",
+      "options": [
+        "Mailbox / postbox",
+        "Poster",
+        "Police station",
+        "Post office"
+      ],
+      "answer": 0,
+      "explanation": "ポスト refers to a street mailbox/postbox."
+    },
+    {
+      "question": "Choose the correct positional word: 'There is a switch to the right of the door.'",
+      "prompt": {
+        "kanji": "ドアの___にスイッチがあります。",
+        "kana": "ドアの ___に スイッチが あります。"
+      },
+      "options": [
+        "右",
+        "左",
+        "下",
+        "奥"
+      ],
+      "answer": 0,
+      "explanation": "右 (みぎ) means right side."
+    },
+    {
+      "question": "Choose the correct positional word: 'There is a dog in front of the house.'",
+      "prompt": {
+        "kanji": "家の___に犬がいます。",
+        "kana": "いえの ___に いぬが います。"
+      },
+      "options": [
+        "前",
+        "後ろ",
+        "中",
+        "間"
+      ],
+      "answer": 0,
+      "explanation": "前 (まえ) means front / in front of."
+    },
+    {
+      "question": "Choose the correct positional word: 'Mr. Miller is behind me.'",
+      "prompt": {
+        "kanji": "私の___にミラーさんがいます。",
+        "kana": "わたしの ___に ミラーさんが います。"
+      },
+      "options": [
+        "後ろ",
+        "前",
+        "上",
+        "中"
+      ],
+      "answer": 0,
+      "explanation": "後ろ (うしろ) means back / behind."
+    },
+    {
+      "question": "Choose the correct positional word: 'There is a wallet inside the bag.'",
+      "prompt": {
+        "kanji": "かばんの___に財布があります。",
+        "kana": "かばんの ___に さいふが あります。"
+      },
+      "options": [
+        "中",
+        "外",
+        "下",
+        "隣"
+      ],
+      "answer": 0,
+      "explanation": "中 (なか) means inside / in."
+    },
+    {
+      "question": "Choose the correct positional word: 'Someone is outside the room.'",
+      "prompt": {
+        "kanji": "部屋の___に誰かがいます。",
+        "kana": "へやの ___に だれかが います。"
+      },
+      "options": [
+        "外",
+        "中",
+        "上",
+        "奥"
+      ],
+      "answer": 0,
+      "explanation": "外 (そと) means outside."
+    },
+    {
+      "question": "Choose the correct expression for 'the second shelf from the top'.",
+      "options": [
+        "上から2段目 (うえから にだんめ)",
+        "上から2番 (うえから にばん)",
+        "上から2階 (うえから にかい)",
+        "上から2枚 (うえから にまい)"
+      ],
+      "answer": 0,
+      "explanation": "Shelves use the counter 段 (だん), and the -th position adds 目 (め) → 上から2段目."
+    },
+    {
+      "question": "Choose the correct word: 'Tokyo Disneyland is in Chiba Prefecture.'",
+      "prompt": {
+        "kanji": "東京ディズニーランドは千葉___にあります。",
+        "kana": "とうきょうディズニーランドは ちば___に あります。"
+      },
+      "options": [
+        "県",
+        "市",
+        "町",
+        "国"
+      ],
+      "answer": 0,
+      "explanation": "Chiba is a prefecture, written with 県 (けん)."
+    },
+    {
+      "question": "Choose the correct sentence to ask if a store carries an item: 'Do you have chili sauce?'",
+      "options": [
+        "チリソースはありませんか。",
+        "チリソースはいませんか。",
+        "チリソースはどうやってですか。",
+        "チリソースはどれですか。"
+      ],
+      "answer": 0,
+      "explanation": "Politely inquiring about stock or availability uses 『～はありませんか』."
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "庭に犬がいます。",
+        "庭に桜の木がいます。",
+        "庭に車があります。",
+        "部屋に男の人がいます。"
+      ],
+      "answer": 1,
+      "explanation": "Plants like 桜の木 (cherry tree) do not have self-locomotion and must take あります, NOT います."
+    },
+    {
+      "question": "Choose the correct sentence: 'Where is Ms. Sato?'",
+      "options": [
+        "佐藤さんはどこにいますか。",
+        "佐藤さんはどこにありますか。",
+        "佐藤さんは何がいますか。",
+        "佐藤さんは誰がいますか。"
+      ],
+      "answer": 0,
+      "explanation": "Ms. Sato is a person, so asking her location requires います (どこにいますか)."
+    },
+    {
+      "question": "Choose the correct sentence: 'Where are my keys?'",
+      "options": [
+        "鍵はどこにありますか。",
+        "鍵はどこにいますか。",
+        "鍵は誰にありますか。",
+        "鍵は何にいますか。"
+      ],
+      "answer": 0,
+      "explanation": "Keys are inanimate objects, so asking their location requires あります (どこにありますか)."
+    },
+    {
+      "question": "What does いちばん上 (いちばんうえ) mean?",
+      "options": [
+        "The very top",
+        "The very bottom",
+        "The right side",
+        "The back"
+      ],
+      "answer": 0,
+      "explanation": "一番 (いちばん) + 上 (うえ) = the highest / very top."
+    },
+    {
+      "question": "What does 奥 (おく) mean in a store layout?",
+      "options": [
+        "The inner part / back of the store",
+        "The entrance door",
+        "The rooftop",
+        "The front window"
+      ],
+      "answer": 0,
+      "explanation": "奥 (おく) refers to the deep inside or rear section of a space/store."
+    },
+    {
+      "question": "Choose the sentence describing an event: 'There is a meeting in Kyoto tomorrow.'",
+      "options": [
+        "明日京都で会議があります。",
+        "明日京都で会議がいます。",
+        "明日京都に会議を行きます。",
+        "明日京都へ会議がいません。"
+      ],
+      "answer": 0,
+      "explanation": "Meetings, parties, and events use あります (会議があります)."
+    },
+    {
+      "question": "Choose the correct particle: 'I study Japanese in the classroom.' (Action location vs. existence)",
+      "prompt": {
+        "kanji": "教室___日本語を勉強します。",
+        "kana": "きょうしつ___ にほんごを べんきょうします。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Dynamic actions take で (教室で勉強します). Existence takes に (教室に学生がいます)."
+    },
+    {
+      "question": "Choose the correct particle: 'There is a dictionary on the bookshelf.'",
+      "prompt": {
+        "kanji": "本棚___辞書があります。",
+        "kana": "ほんだな___ じしょが あります。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Location of existence takes に."
+    },
+    {
+      "question": "Choose the correct particle: 'Who is outside the room?'",
+      "prompt": {
+        "kanji": "部屋の外に誰___いますか。",
+        "kana": "へやの そとに だれ___ いますか。"
+      },
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Question words like 誰 functioning as the subject of existence must take が."
+    },
+    {
+      "question": "What is the difference between と and や?",
+      "options": [
+        "と lists all items exhaustively; や lists items non-exhaustively (among others)",
+        "と is for animals; や is for objects",
+        "と is negative; や is positive",
+        "と is used only in stores; や is used at home"
+      ],
+      "answer": 0,
+      "explanation": "と is exhaustive ('only A and B'); や is non-exhaustive ('things like A and B, among others')."
+    },
+    {
+      "question": "Choose the correct particle: 'There is a cat under the table.'",
+      "prompt": {
+        "kanji": "テーブルの下に猫___います。",
+        "kana": "テーブルの したに ねこ___ います。"
+      },
+      "options": [
+        "が",
+        "は",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "The entity existing at a location is marked by が in existential sentences."
+    },
+    {
+      "question": "Choose the meaning of 喫茶店 (きっさてん).",
+      "options": [
+        "Coffee shop / café",
+        "Bookstore",
+        "Flower shop",
+        "Supermarket"
+      ],
+      "answer": 0,
+      "explanation": "喫茶店 (きっさてん) means coffee shop or café."
+    },
+    {
+      "question": "Choose the meaning of 本屋 (ほんや).",
+      "options": [
+        "Bookstore",
+        "Fish market",
+        "Bakery",
+        "Pharmacy"
+      ],
+      "answer": 0,
+      "explanation": "本屋 (ほんや) means bookstore."
+    },
+    {
+      "question": "Choose the correct expression: 'Near the hotel'.",
+      "options": [
+        "ホテルの近く",
+        "ホテルを近く",
+        "ホテルで近く",
+        "ホテルが近く"
+      ],
+      "answer": 0,
+      "explanation": "Positional words are nouns, so link with の: ホテルの近く."
+    },
+    {
+      "question": "Choose the natural conversational reply: 'Where is Mr. Miller?' — 'He is in the conference room.'",
+      "options": [
+        "会議室です。",
+        "会議室をです。",
+        "会議室があります。",
+        "会議室を行きます。"
+      ],
+      "answer": 0,
+      "explanation": "In everyday spoken Japanese, 『[Location] です』 is commonly used in place of 『[Location] に います/あります』."
+    },
+    {
+      "question": "Choose the correct phrase: 'There is an elephant in the zoo.'",
+      "options": [
+        "動物園に象がいます。",
+        "動物園に象があります。",
+        "動物園で象がいます。",
+        "動物園を象があります。"
+      ],
+      "answer": 0,
+      "explanation": "Elephants are living animals (います), and their location takes に."
+    },
+    {
+      "question": "Choose the correct particle: 'The Asian food corner is in the back.'",
+      "prompt": {
+        "kanji": "アジア食品コーナーは奥___あります。",
+        "kana": "アジアしょくひん コーナーは おく___ あります。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Location of existence takes に."
+    },
+    {
+      "question": "Choose the correct sentence to express: 'There are boys and girls in the park.' (Non-exhaustive)",
+      "options": [
+        "公園に男の子や女の子がいます。",
+        "公園に男の子と女の子がいます。",
+        "公園で男の子や女の子があります。",
+        "公園に男の子も女の子もありません。"
+      ],
+      "answer": 0,
+      "explanation": "男の子や女の子がいます correctly uses や for non-exhaustive listing and います for children."
+    },
+    {
+      "question": "Choose the phrase meaning 'Thank you very much' used when receiving directions from a store clerk.",
+      "options": [
+        "どうもすみません",
+        "いってきます",
+        "ただいま",
+        "ごちそうさまでした"
+      ],
+      "answer": 0,
+      "explanation": "『どうもすみません』 is widely used as a grateful 'Thank you very much' when someone helps you."
+    },
+    {
+      "question": "Choose the correct sentence: 'As for the dog, it is under the car.'",
+      "options": [
+        "犬は車の下にいます。",
+        "犬に車の下がいます。",
+        "犬は車の下にあります。",
+        "犬が車の下であります。"
+      ],
+      "answer": 0,
+      "explanation": "Topic: 犬は; Location: 車の下に; Verb: います."
+    },
+    {
+      "question": "Choose the correct word: 'There is a tall building next to the station.'",
+      "prompt": {
+        "kanji": "駅の隣に高い___があります。",
+        "kana": "えきの となりに たかい ___が あります。"
+      },
+      "options": [
+        "ビル",
+        "ベッド",
+        "スイッチ",
+        "ポスト"
+      ],
+      "answer": 0,
+      "explanation": "高いビル (tall building) fits the context of being next to a station."
+    }
+  ],
+  "writing": {
+    "title": "Describing Your Room and Neighborhood",
+    "prompt": "Write 6–8 sentences in Japanese describing the contents of your room and your neighborhood. (1) State what is in your room using 『Place に Noun が あります/います』 (furniture, electronics, pets). (2) Pinpoint spatial positions using positional nouns (机の上, ベッドの下, ドアの右). (3) Use non-exhaustive listing with ～や～[など] to describe items in a drawer or shelf. (4) Describe your neighborhood by stating where places like supermarkets, parks, and convenience stores are located using 『Noun は Place に あります』 and between (間) or next to (隣).",
+    "placeholder": "私の部屋に ______ や ______ などがあります。\n机の上に ______ があります。ベッドの下に ______ がいます。\n私の家の近くに ______ があります。\nコンビニは ______ と ______ の間にあります。",
+    "modelAnswer": "私の部屋にベッドや本棚などがあります。机の上にパソコンと時計があります。机の下に小さなゴミ箱があります。ベッドの上に私の猫がいます。私の家の近くに大きな公園があります。公園の中に桜の木がたくさんあります。駅の前にスーパーやパン屋があります。コンビニは銀行と郵便局の間にあります。とても便利な町です。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "There is a cat under the table.",
+        "chunks": [
+          "テーブルの下に",
+          "猫が",
+          "います。"
+        ]
+      },
+      {
+        "en": "There is a dictionary on the desk.",
+        "chunks": [
+          "机の上に",
+          "辞書が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "Mr. Miller is in the office.",
+        "chunks": [
+          "ミラーさんは",
+          "事務所に",
+          "います。"
+        ]
+      },
+      {
+        "en": "Tokyo Disneyland is in Chiba Prefecture.",
+        "chunks": [
+          "東京ディズニーランドは",
+          "千葉県に",
+          "あります。"
+        ]
+      },
+      {
+        "en": "There are things like beer and juice in the refrigerator.",
+        "chunks": [
+          "冷蔵庫の中に",
+          "ビールやジュースなどが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "There is a switch to the right of the door.",
+        "chunks": [
+          "ドアの右に",
+          "スイッチが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "There is a convenience store between the bank and the post office.",
+        "chunks": [
+          "銀行と郵便局の間に",
+          "コンビニが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "There is nobody in the classroom.",
+        "chunks": [
+          "教室の中に",
+          "誰も",
+          "いません。"
+        ]
+      },
+      {
+        "en": "There was nothing inside my pocket.",
+        "chunks": [
+          "ポケットの中に",
+          "何も",
+          "ありませんでした。"
+        ]
+      },
+      {
+        "en": "There are big cherry blossom trees in the park.",
+        "chunks": [
+          "公園に",
+          "大きな桜の木が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "There is an ATM inside the convenience store.",
+        "chunks": [
+          "コンビニの中に",
+          "ATMが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "Where is my umbrella? It is beside the door.",
+        "chunks": [
+          "私の傘は",
+          "どこにありますか。",
+          "ドアの横にあります。"
+        ]
+      },
+      {
+        "en": "There are two women over there.",
+        "chunks": [
+          "あそこに",
+          "女の人が2人",
+          "います。"
+        ]
+      },
+      {
+        "en": "It is on the second shelf from the top.",
+        "chunks": [
+          "上から",
+          "2段目に",
+          "あります。"
+        ]
+      },
+      {
+        "en": "Do you have chili sauce?",
+        "chunks": [
+          "チリソースは",
+          "ありませんか。"
+        ]
+      },
+      {
+        "en": "There is a bakery next to the bookstore.",
+        "chunks": [
+          "本屋の隣に",
+          "パン屋が",
+          "あります。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "犬 (いぬ - dog)",
+        "form": "Existence verb selection",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "します"
+        ],
+        "hint": "Animals take います"
+      },
+      {
+        "prompt": "木 (き - tree)",
+        "form": "Existence verb selection",
+        "answer": "あります",
+        "options": [
+          "あります",
+          "います",
+          "なります"
+        ],
+        "hint": "Plants cannot move independently; they take あります"
+      },
+      {
+        "prompt": "車 (くるま - car)",
+        "form": "Existence verb selection",
+        "answer": "あります",
+        "options": [
+          "あります",
+          "います",
+          "走ります"
+        ],
+        "hint": "Inanimate vehicles take あります"
+      },
+      {
+        "prompt": "男の子 (おとこのこ - boy)",
+        "form": "Existence verb selection",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "します"
+        ],
+        "hint": "Humans take います"
+      },
+      {
+        "prompt": "パンダ (panda)",
+        "form": "Existence verb selection",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "します"
+        ],
+        "hint": "Animals take います"
+      },
+      {
+        "prompt": "会議 (かいぎ - meeting)",
+        "form": "Existence verb selection",
+        "answer": "あります",
+        "options": [
+          "あります",
+          "います",
+          "します"
+        ],
+        "hint": "Events/commitments take あります"
+      },
+      {
+        "prompt": "電池 (でんち - battery)",
+        "form": "Existence verb selection",
+        "answer": "あります",
+        "options": [
+          "あります",
+          "います",
+          "なります"
+        ],
+        "hint": "Inanimate objects take あります"
+      },
+      {
+        "prompt": "田中さんの奥さん (Mr. Tanaka's wife)",
+        "form": "Existence verb selection",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "します"
+        ],
+        "hint": "People take います"
+      },
+      {
+        "prompt": "います - Present Negative",
+        "form": "Verb negative",
+        "answer": "いません",
+        "options": [
+          "いません",
+          "いりません",
+          "いないです"
+        ],
+        "hint": "います becomes いません"
+      },
+      {
+        "prompt": "あります - Present Negative",
+        "form": "Verb negative",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "あらないです",
+          "ありないです"
+        ],
+        "hint": "あります becomes ありません"
+      },
+      {
+        "prompt": "います - Past Affirmative",
+        "form": "Verb past",
+        "answer": "いました",
+        "options": [
+          "いました",
+          "いますた",
+          "いたです"
+        ],
+        "hint": "います becomes いました"
+      },
+      {
+        "prompt": "あります - Past Affirmative",
+        "form": "Verb past",
+        "answer": "ありました",
+        "options": [
+          "ありました",
+          "ありますた",
+          "あったです"
+        ],
+        "hint": "あります becomes ありました"
+      },
+      {
+        "prompt": "います - Past Negative",
+        "form": "Verb past negative",
+        "answer": "いませんでした",
+        "options": [
+          "いませんでした",
+          "いなかったです",
+          "いませんでしたた"
+        ],
+        "hint": "います becomes いませんでした"
+      },
+      {
+        "prompt": "あります - Past Negative",
+        "form": "Verb past negative",
+        "answer": "ありませんでした",
+        "options": [
+          "ありませんでした",
+          "ありなかったです",
+          "ありませんでしたた"
+        ],
+        "hint": "あります becomes ありませんでした"
+      },
+      {
+        "prompt": "誰も (だれも) + います",
+        "form": "Absolute negation",
+        "answer": "だれも いません",
+        "options": [
+          "だれも いません",
+          "だれも います",
+          "だれも ありません"
+        ],
+        "hint": "誰も requires negative animate verb (いません)"
+      },
+      {
+        "prompt": "何も (なにも) + あります",
+        "form": "Absolute negation",
+        "answer": "なにも ありません",
+        "options": [
+          "なにも ありません",
+          "なにも あります",
+          "なにも いません"
+        ],
+        "hint": "何も requires negative inanimate verb (ありません)"
+      },
+      {
+        "prompt": "上 (うえ - on/top) - Opposite",
+        "form": "Spatial antonym",
+        "answer": "した",
+        "options": [
+          "した",
+          "まえ",
+          "うしろ"
+        ],
+        "hint": "Above (上) ↔ Below (下)"
+      },
+      {
+        "prompt": "前 (まえ - front) - Opposite",
+        "form": "Spatial antonym",
+        "answer": "うしろ",
+        "options": [
+          "うしろ",
+          "した",
+          "みぎ"
+        ],
+        "hint": "In front (前) ↔ Behind (後ろ)"
+      },
+      {
+        "prompt": "右 (みぎ - right) - Opposite",
+        "form": "Spatial antonym",
+        "answer": "ひだり",
+        "options": [
+          "ひだり",
+          "した",
+          "なか"
+        ],
+        "hint": "Right (右) ↔ Left (左)"
+      },
+      {
+        "prompt": "中 (なか - inside) - Opposite",
+        "form": "Spatial antonym",
+        "answer": "そと",
+        "options": [
+          "そと",
+          "となり",
+          "した"
+        ],
+        "hint": "Inside (中) ↔ Outside (外)"
+      },
+      {
+        "prompt": "The very top",
+        "form": "Superlative position",
+        "answer": "いちばん うえ",
+        "options": [
+          "いちばん うえ",
+          "いちばん した",
+          "いちばん まえ"
+        ],
+        "hint": "一番 (いちばん) + 上 (うえ)"
+      },
+      {
+        "prompt": "The 3rd shelf from the top",
+        "form": "Counter ordinal",
+        "answer": "さんだんめ",
+        "options": [
+          "さんだんめ",
+          "さんばんめ",
+          "さんかいめ"
+        ],
+        "hint": "Counter for shelves is 段 (だん) + 目 (め)"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "机の上 [ ? ] 本があります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Location of existence takes に."
+      },
+      {
+        "sentence": "机の上に本 [ ? ] あります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Existing entity in existential sentence takes が."
+      },
+      {
+        "sentence": "ミラーさん [ ? ] 事務所にいます。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "で"
+        ],
+        "hint": "The established topic being located takes は."
+      },
+      {
+        "sentence": "教室 [ ? ] 日本語を勉強します。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Location of a dynamic action takes で."
+      },
+      {
+        "sentence": "冷蔵庫の中にビール [ ? ] ジュースなどがあります。",
+        "answer": "や",
+        "options": [
+          "や",
+          "と",
+          "も",
+          "に"
+        ],
+        "hint": "Non-exhaustive listing takes や."
+      },
+      {
+        "sentence": "あそこに男の人 [ ? ] います。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "New entity introduced takes が."
+      },
+      {
+        "sentence": "本屋 [ ? ] 隣にパン屋があります。",
+        "answer": "の",
+        "options": [
+          "の",
+          "に",
+          "で",
+          "と"
+        ],
+        "hint": "Positional words are nouns, linked with の."
+      },
+      {
+        "sentence": "銀行 [ ? ] 郵便局の間にポストがあります。",
+        "answer": "と",
+        "options": [
+          "と",
+          "や",
+          "に",
+          "で"
+        ],
+        "hint": "A and B in 'between A and B' are linked with と."
+      },
+      {
+        "sentence": "部屋の中に誰 [ ? ] いません。",
+        "answer": "も",
+        "options": [
+          "も",
+          "が",
+          "は",
+          "に"
+        ],
+        "hint": "Total negation replaces が with も (誰もいません)."
+      },
+      {
+        "sentence": "箱の中に何 [ ? ] ありません。",
+        "answer": "も",
+        "options": [
+          "も",
+          "が",
+          "は",
+          "を"
+        ],
+        "hint": "Total negation replaces が with も (何もありません)."
+      },
+      {
+        "sentence": "ドア [ ? ] 右にスイッチがあります。",
+        "answer": "の",
+        "options": [
+          "の",
+          "に",
+          "で",
+          "と"
+        ],
+        "hint": "Reference noun connects to position noun with の."
+      },
+      {
+        "sentence": "駅の近く [ ? ] コンビニがあります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Location of existence takes に."
+      },
+      {
+        "sentence": "東京ディズニーランド [ ? ] 千葉県にあります。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "Established topic takes は."
+      },
+      {
+        "sentence": "教室に誰 [ ? ] いますか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Question word subject takes が."
+      },
+      {
+        "sentence": "箱の中に何 [ ? ] ありますか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Question word subject takes が."
+      },
+      {
+        "sentence": "公園 [ ? ] 大きな木があります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Location of existence takes に."
+      },
+      {
+        "sentence": "公園 [ ? ] サッカーをしました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Location where sports action happens takes で."
+      },
+      {
+        "sentence": "上 [ ? ] 2段目にあります。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "hint": "Starting point for counting shelves is から (上から)."
+      },
+      {
+        "sentence": "チリソース [ ? ] ありませんか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "Topic marker in store customer inquiries takes は."
+      },
+      {
+        "sentence": "ベッドの下 [ ? ] 猫がいます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Location of existence takes に."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Looking for someone in the office",
+        "speaker": "同僚",
+        "prompt": "すみません、ミラーさんはどこにいますか。",
+        "options": [
+          {
+            "text": "会議室にいますよ。",
+            "correct": true
+          },
+          {
+            "text": "会議室にありますよ。",
+            "correct": false
+          },
+          {
+            "text": "会議室でいますよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Humans take います, and location of existence takes に."
+      },
+      {
+        "situation": "Asking where a lost item is",
+        "speaker": "友達",
+        "prompt": "私の鍵はどこにありますか。",
+        "options": [
+          {
+            "text": "テーブルの上にありますよ。",
+            "correct": true
+          },
+          {
+            "text": "テーブルの上にいますよ。",
+            "correct": false
+          },
+          {
+            "text": "テーブルの上がいますよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Inanimate items take あります (テーブルの上にあります)."
+      },
+      {
+        "situation": "Checking what is in a storage box",
+        "speaker": "友達",
+        "prompt": "その箱の中に何がありますか。",
+        "options": [
+          {
+            "text": "古い本や写真などがあります。",
+            "correct": true
+          },
+          {
+            "text": "古い本や写真などがいます。",
+            "correct": false
+          },
+          {
+            "text": "誰もいません。",
+            "correct": false
+          }
+        ],
+        "tip": "Non-exhaustive listing with や...など pairs with あります for inanimate items."
+      },
+      {
+        "situation": "Inquiring about item availability at a grocery store",
+        "speaker": "買い物客",
+        "prompt": "すみません、チリソースはありませんか。",
+        "options": [
+          {
+            "text": "はい、あちらのアジア食品コーナーにありますよ。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、チリソースがいますよ。",
+            "correct": false
+          },
+          {
+            "text": "チリソースはどうやってです。",
+            "correct": false
+          }
+        ],
+        "tip": "Inquire with ～はありませんか, and reply with location + にあります."
+      },
+      {
+        "situation": "Asking who is in a room",
+        "speaker": "先生",
+        "prompt": "教室に誰がいますか。",
+        "options": [
+          {
+            "text": "誰もいませんよ。",
+            "correct": true
+          },
+          {
+            "text": "何もいませんよ。",
+            "correct": false
+          },
+          {
+            "text": "誰もありませんよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Total negation of people is 誰もいません."
+      },
+      {
+        "situation": "Asking if there is food in the fridge",
+        "speaker": "ルームメイト",
+        "prompt": "冷蔵庫の中に何がありますか。",
+        "options": [
+          {
+            "text": "何もありませんから、買い物に行きましょう。",
+            "correct": true
+          },
+          {
+            "text": "誰もいませんから、買い物に行きましょう。",
+            "correct": false
+          },
+          {
+            "text": "何もいますから、買いません。",
+            "correct": false
+          }
+        ],
+        "tip": "Total negation of inanimate objects is 何もありません."
+      },
+      {
+        "situation": "Asking directions to an ATM",
+        "speaker": "旅行者",
+        "prompt": "ATMはどこにありますか。",
+        "options": [
+          {
+            "text": "あそこのコンビニの中にありますよ。",
+            "correct": true
+          },
+          {
+            "text": "あそこのコンビニの中にいますよ。",
+            "correct": false
+          },
+          {
+            "text": "コンビニの上がいます。",
+            "correct": false
+          }
+        ],
+        "tip": "ATMs are inanimate machines; use にあります."
+      },
+      {
+        "situation": "Checking what is in the yard",
+        "speaker": "子供",
+        "prompt": "庭に何がありますか。",
+        "options": [
+          {
+            "text": "大きな木と池があります。",
+            "correct": true
+          },
+          {
+            "text": "大きな木がいます。",
+            "correct": false
+          },
+          {
+            "text": "犬があります。",
+            "correct": false
+          }
+        ],
+        "tip": "Plants like trees take あります, while animals take います."
+      },
+      {
+        "situation": "Locating a building",
+        "speaker": "通行人",
+        "prompt": "郵便局はどこですか。",
+        "options": [
+          {
+            "text": "銀行と本屋の間にありますよ。",
+            "correct": true
+          },
+          {
+            "text": "銀行と本屋の間にいますよ。",
+            "correct": false
+          },
+          {
+            "text": "銀行で本屋があります。",
+            "correct": false
+          }
+        ],
+        "tip": "Between A and B = A と B の間にあります."
+      },
+      {
+        "situation": "Finding something on a shelf",
+        "speaker": "客",
+        "prompt": "辞書は棚のどこにありますか。",
+        "options": [
+          {
+            "text": "上から3段目にありますよ。",
+            "correct": true
+          },
+          {
+            "text": "上から3段目でいますよ。",
+            "correct": false
+          },
+          {
+            "text": "上から3番があります。",
+            "correct": false
+          }
+        ],
+        "tip": "Shelf position is counted with 段目 (だんめ) + にあります."
+      },
+      {
+        "situation": "Asking about pets",
+        "speaker": "友人",
+        "prompt": "部屋にペットがいますか。",
+        "options": [
+          {
+            "text": "はい、白い猫が1匹います。",
+            "correct": true
+          },
+          {
+            "text": "はい、白い猫があります。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、何もいません。",
+            "correct": false
+          }
+        ],
+        "tip": "Cats are living animals, so they take います."
+      },
+      {
+        "situation": "Thanking someone for giving store directions",
+        "speaker": "店員",
+        "prompt": "チリソースはスパイスコーナーの奥にありますよ。",
+        "options": [
+          {
+            "text": "分かりました。どうもすみません。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、まだまだです。",
+            "correct": false
+          },
+          {
+            "text": "どうやって行きますか。",
+            "correct": false
+          }
+        ],
+        "tip": "Politely thank a clerk for directions using 『どうもすみません』."
+      }
+    ]
+  }
+}

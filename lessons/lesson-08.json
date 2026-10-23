@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 8,
+    "title": "Adjectives, Impressions, and Descriptions",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master Japanese adjective classifications into い-adjectives and な-adjectives; conjugate adjectives as sentence predicates (affirmative and negative); modify nouns directly using [い-adj + Noun] and [な-adj + な + Noun]; identify look-alike exception words (きれい and 有名); handle the irregular adjective いい (よくないです); modify intensity with degree adverbs とても (affirmative) and あまり (negative); inquire about impressions with 『どうですか』 and attributes with 『どんな + Noun ですか』; connect clauses using contrasting ～が ('but') and coordinating そして ('and'); and master polite conversational phrases for hosting and visiting."
+  },
+  "vocabulary": [
+    {
+      "id": "hansamu-na",
+      "kanji": "ハンサム[な]",
+      "kana": "ハンサム[な]",
+      "romaji": "hansamu[na]",
+      "meaning": "handsome; good-looking",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "ミラーさんはハンサムです。",
+        "kana": "ミラーさんは ハンサムです。",
+        "translation": "Mr. Miller is handsome."
+      }
+    },
+    {
+      "id": "kirei-na",
+      "kanji": "きれい[な]",
+      "kana": "きれい[な]",
+      "romaji": "kirei[na]",
+      "meaning": "beautiful; clean; neat (Note: な-adjective exception!)",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "京都はきれいな町です。",
+        "kana": "きょうとは きれいな まちです。",
+        "translation": "Kyoto is a beautiful town."
+      }
+    },
+    {
+      "id": "shizuka-na",
+      "kanji": "静か[な]",
+      "kana": "しずか[な]",
+      "romaji": "shizuka[na]",
+      "meaning": "quiet; peaceful",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "この図書館はとても静かです。",
+        "kana": "この としょかんは とても しずかです。",
+        "translation": "This library is very quiet."
+      }
+    },
+    {
+      "id": "nigiyaka-na",
+      "kanji": "にぎやか[な]",
+      "kana": "にぎやか[な]",
+      "romaji": "nigiyaka[na]",
+      "meaning": "lively; bustling; vibrant",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "渋谷はにぎやかな町です。",
+        "kana": "しぶやは にぎやかな まちです。",
+        "translation": "Shibuya is a lively town."
+      }
+    },
+    {
+      "id": "yuumei-na",
+      "kanji": "有名[な]",
+      "kana": "ゆうめい[な]",
+      "romaji": "yuumei[na]",
+      "meaning": "famous; well-known (Note: な-adjective exception!)",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "富士山は有名な山です。",
+        "kana": "ふじさんは ゆうめいな やまです。",
+        "translation": "Mt. Fuji is a famous mountain."
+      }
+    },
+    {
+      "id": "shinsetsu-na",
+      "kanji": "親切[な]",
+      "kana": "しんせつ[な]",
+      "romaji": "shinsetsu[na]",
+      "meaning": "kind; helpful; hospitable (not used for one's own family)",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "佐藤さんはとても親切です。",
+        "kana": "さとうさんは とても しんせつです。",
+        "translation": "Ms. Sato is very kind."
+      }
+    },
+    {
+      "id": "genki-na",
+      "kanji": "元気[な]",
+      "kana": "げんき[な]",
+      "romaji": "genki[na]",
+      "meaning": "healthy; energetic; in good spirits",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "お父さんはお元気ですか。",
+        "kana": "おとうさんは おげんきですか。",
+        "translation": "Is your father in good health?"
+      }
+    },
+    {
+      "id": "hima-na",
+      "kanji": "暇[な]",
+      "kana": "ひま[な]",
+      "romaji": "hima[na]",
+      "meaning": "free (time); not busy; having leisure",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "明日は暇じゃありません。",
+        "kana": "あしたは ひまじゃ ありません。",
+        "translation": "I am not free tomorrow."
+      }
+    },
+    {
+      "id": "benri-na",
+      "kanji": "便利[な]",
+      "kana": "べんり[な]",
+      "romaji": "benri[na]",
+      "meaning": "convenient; handy",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "地下鉄はとても便利です。",
+        "kana": "ちかてつは とても べんりです。",
+        "translation": "The subway is very convenient."
+      }
+    },
+    {
+      "id": "suteki-na",
+      "kanji": "すてき[な]",
+      "kana": "すてき[な]",
+      "romaji": "suteki[na]",
+      "meaning": "fine; wonderful; lovely",
+      "category": "na-adjective",
+      "example": {
+        "kanji": "すてきなシャツですね。",
+        "kana": "すてきな シャツですね。",
+        "translation": "That is a lovely shirt, isn't it?"
+      }
+    },
+    {
+      "id": "ookii",
+      "kanji": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "meaning": "big; large",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "東京は大きい町です。",
+        "kana": "とうきょうは おおきい まちです。",
+        "translation": "Tokyo is a big city."
+      }
+    },
+    {
+      "id": "chiisai",
+      "kanji": "小さい",
+      "kana": "ちいさい",
+      "romaji": "chiisai",
+      "meaning": "small; little",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "私の部屋は小さいです。",
+        "kana": "わたしの へやは ちいさいです。",
+        "translation": "My room is small."
+      }
+    },
+    {
+      "id": "atarashii",
+      "kanji": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "meaning": "new; fresh",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "新しい車を買いました。",
+        "kana": "あたらしい くるまを かいました。",
+        "translation": "I bought a new car."
+      }
+    },
+    {
+      "id": "furui",
+      "kanji": "古い",
+      "kana": "ふるい",
+      "romaji": "furui",
+      "meaning": "old (objects, buildings; not used for people's age)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "この寺はとても古いです。",
+        "kana": "この てらは とても ふるいです。",
+        "translation": "This Buddhist temple is very old."
+      }
+    },
+    {
+      "id": "ii",
+      "kanji": "いい (よい)",
+      "kana": "いい (よい)",
+      "romaji": "ii (yoi)",
+      "meaning": "good; fine (irregular negative: よくないです)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "今日は天気がいいです。",
+        "kana": "きょうは てんきが いいです。",
+        "translation": "The weather is good today."
+      }
+    },
+    {
+      "id": "warui",
+      "kanji": "悪い",
+      "kana": "わるい",
+      "romaji": "warui",
+      "meaning": "bad; poor",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "昨日は天気が悪かったです。",
+        "kana": "きのうは てんきが わるかったです。",
+        "translation": "The weather was bad yesterday."
+      }
+    },
+    {
+      "id": "atsui-climate",
+      "kanji": "暑い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "meaning": "hot (weather / atmospheric climate)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "日本の夏はとても暑いです。",
+        "kana": "にほんの なつは とても あついです。",
+        "translation": "Summer in Japan is very hot."
+      }
+    },
+    {
+      "id": "atsui-touch",
+      "kanji": "熱い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "meaning": "hot (food, drink, physical object to touch)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "熱いお茶を飲みます。",
+        "kana": "あつい おちゃを のみます。",
+        "translation": "I drink hot green tea."
+      }
+    },
+    {
+      "id": "samui",
+      "kanji": "寒い",
+      "kana": "さむい",
+      "romaji": "samui",
+      "meaning": "cold (weather / atmospheric climate)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "今日はあまり寒くないです。",
+        "kana": "きょうは あまり さむくないです。",
+        "translation": "It is not very cold today."
+      }
+    },
+    {
+      "id": "tsumetai",
+      "kanji": "冷たい",
+      "kana": "つめたい",
+      "romaji": "tsumetai",
+      "meaning": "cold (liquid, food, tangible object to touch)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "冷たいジュースをください。",
+        "kana": "つめたい ジュースを ください。",
+        "translation": "Cold juice, please."
+      }
+    },
+    {
+      "id": "muzukashii",
+      "kanji": "難しい",
+      "kana": "むずかしい",
+      "romaji": "muzukashii",
+      "meaning": "difficult; hard",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "漢字は難しいですが、面白いです。",
+        "kana": "かんじは むずかしいですが、おもしろいです。",
+        "translation": "Kanji is difficult, but interesting."
+      }
+    },
+    {
+      "id": "yasashii",
+      "kanji": "易しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "easy; simple",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "日本語の文法は易しくないです。",
+        "kana": "にほんごの ぶんぽうは やさしくないです。",
+        "translation": "Japanese grammar is not easy."
+      }
+    },
+    {
+      "id": "takai",
+      "kanji": "高い",
+      "kana": "たかい",
+      "romaji": "takai",
+      "meaning": "expensive; high; tall",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "この時計はとても高いです。",
+        "kana": "この とけいは とても たかいです。",
+        "translation": "This watch is very expensive."
+      }
+    },
+    {
+      "id": "yasui",
+      "kanji": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "meaning": "inexpensive; cheap",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "あの店の服は安いです。",
+        "kana": "あの みせの ふくは やすいです。",
+        "translation": "The clothes at that shop are inexpensive."
+      }
+    },
+    {
+      "id": "hikui",
+      "kanji": "低い",
+      "kana": "ひくい",
+      "romaji": "hikui",
+      "meaning": "low; short (height, mountain)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "あの山は低いです。",
+        "kana": "あの やまは ひくいです。",
+        "translation": "That mountain is low."
+      }
+    },
+    {
+      "id": "omoshiroi",
+      "kanji": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "meaning": "interesting; fascinating; amusing",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "この本はとても面白いです。",
+        "kana": "この ほんは とても おもしろいです。",
+        "translation": "This book is very interesting."
+      }
+    },
+    {
+      "id": "oishii",
+      "kanji": "おいしい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "meaning": "delicious; tasty",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "日本料理はおいしいです。",
+        "kana": "にほんりょうりは おいしいです。",
+        "translation": "Japanese cuisine is delicious."
+      }
+    },
+    {
+      "id": "isogashii",
+      "kanji": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "meaning": "busy (people / schedules)",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "仕事は忙しいですが、楽しいです。",
+        "kana": "しごとは いそがしいですが、たのしいです。",
+        "translation": "Work is busy, but enjoyable."
+      }
+    },
+    {
+      "id": "tanoshii",
+      "kanji": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "meaning": "enjoyable; pleasant; fun",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "昨日のパーティーは楽しかったです。",
+        "kana": "きのうの パーティーは たのしかったです。",
+        "translation": "Yesterday's party was fun."
+      }
+    },
+    {
+      "id": "shiroi",
+      "kanji": "白い",
+      "kana": "しろい",
+      "romaji": "shiroi",
+      "meaning": "white",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "白いシャツを着ています。",
+        "kana": "しろい シャツを きて います。",
+        "translation": "I am wearing a white shirt."
+      }
+    },
+    {
+      "id": "kuroi",
+      "kanji": "黒い",
+      "kana": "くろい",
+      "romaji": "kuroi",
+      "meaning": "black",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "黒い車を買いました。",
+        "kana": "くろい くるまを かいました。",
+        "translation": "I bought a black car."
+      }
+    },
+    {
+      "id": "akai",
+      "kanji": "赤い",
+      "kana": "あかい",
+      "romaji": "akai",
+      "meaning": "red",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "赤い傘は誰のですか。",
+        "kana": "あかい かさは だれの ですか。",
+        "translation": "Whose is the red umbrella?"
+      }
+    },
+    {
+      "id": "aoi",
+      "kanji": "青い",
+      "kana": "あおい",
+      "romaji": "aoi",
+      "meaning": "blue",
+      "category": "i-adjective",
+      "example": {
+        "kanji": "空がとても青いです。",
+        "kana": "そらが とても あおいです。",
+        "translation": "The sky is very blue."
+      }
+    },
+    {
+      "id": "sakura",
+      "kanji": "桜",
+      "kana": "さくら",
+      "romaji": "sakura",
+      "meaning": "cherry blossom; cherry tree",
+      "category": "noun",
+      "example": {
+        "kanji": "桜はきれいな花です。",
+        "kana": "さくらは きれいな はなです。",
+        "translation": "Cherry blossoms are beautiful flowers."
+      }
+    },
+    {
+      "id": "yama",
+      "kanji": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "meaning": "mountain",
+      "category": "noun",
+      "example": {
+        "kanji": "休みに山へ行きました。",
+        "kana": "やすみに やまへ いきました。",
+        "translation": "I went to the mountains on my day off."
+      }
+    },
+    {
+      "id": "machi",
+      "kanji": "町",
+      "kana": "まち",
+      "romaji": "machi",
+      "meaning": "town; city",
+      "category": "noun",
+      "example": {
+        "kanji": "私の町は静かです。",
+        "kana": "わたしの まちは しずかです。",
+        "translation": "My town is quiet."
+      }
+    },
+    {
+      "id": "tabemono",
+      "kanji": "食べ物",
+      "kana": "たべもの",
+      "romaji": "tabemono",
+      "meaning": "food",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の食べ物はどうですか。",
+        "kana": "にほんの たべものは どうですか。",
+        "translation": "How is the food in Japan?"
+      }
+    },
+    {
+      "id": "kuruma",
+      "kanji": "車",
+      "kana": "くるま",
+      "romaji": "kuruma",
+      "meaning": "car; automobile; vehicle",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の車はとても便利です。",
+        "kana": "にほんの くるまは とても べんりです。",
+        "translation": "Japanese cars are very convenient."
+      }
+    },
+    {
+      "id": "tokoro",
+      "kanji": "所",
+      "kana": "ところ",
+      "romaji": "tokoro",
+      "meaning": "place; spot",
+      "category": "noun",
+      "example": {
+        "kanji": "京都はどんな所ですか。",
+        "kana": "きょうとは どんな ところですか。",
+        "translation": "What kind of place is Kyoto?"
+      }
+    },
+    {
+      "id": "ryou",
+      "kanji": "寮",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "meaning": "dormitory",
+      "category": "noun",
+      "example": {
+        "kanji": "大学の寮に住んでいます。",
+        "kana": "だいがくの りょうに すんで います。",
+        "translation": "I live in the university dormitory."
+      }
+    },
+    {
+      "id": "benkyou",
+      "kanji": "勉強",
+      "kana": "べんきょう",
+      "romaji": "benkyou",
+      "meaning": "study [noun]",
+      "category": "noun",
+      "example": {
+        "kanji": "日本語の勉強はどうですか。",
+        "kana": "にほんごの べんきょうは どうですか。",
+        "translation": "How are your Japanese studies?"
+      }
+    },
+    {
+      "id": "seikatsu",
+      "kanji": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "meaning": "life; daily living",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の生活に慣れましたか。",
+        "kana": "にほんの せいかつに なれましたか。",
+        "translation": "Have you gotten used to life in Japan?"
+      }
+    },
+    {
+      "id": "shigoto",
+      "kanji": "[お]仕事",
+      "kana": "[お]しごと",
+      "romaji": "[o]shigoto",
+      "meaning": "work; business; job [~をします: to work]",
+      "category": "noun",
+      "example": {
+        "kanji": "お仕事は忙しいですか。",
+        "kana": "おしごとは いそがしいですか。",
+        "translation": "Is your job busy?"
+      }
+    },
+    {
+      "id": "dou",
+      "kanji": "どう",
+      "kana": "どう",
+      "romaji": "dou",
+      "meaning": "how (asking for impressions or condition)",
+      "category": "expression",
+      "example": {
+        "kanji": "大学の寮はどうですか。",
+        "kana": "だいがくの りょうは どうですか。",
+        "translation": "How is the university dormitory?"
+      }
+    },
+    {
+      "id": "donna",
+      "kanji": "どんな～",
+      "kana": "どんな～",
+      "romaji": "donna~",
+      "meaning": "what kind of ~; what sort of ~",
+      "category": "expression",
+      "example": {
+        "kanji": "奈良はどんな町ですか。",
+        "kana": "ならは どんな まちですか。",
+        "translation": "What kind of town is Nara?"
+      }
+    },
+    {
+      "id": "dore",
+      "kanji": "どれ",
+      "kana": "どれ",
+      "romaji": "dore",
+      "meaning": "which one (of three or more options)",
+      "category": "expression",
+      "example": {
+        "kanji": "あなたの傘はどれですか。",
+        "kana": "あなたの かさは どれですか。",
+        "translation": "Which one is your umbrella?"
+      }
+    },
+    {
+      "id": "totemo",
+      "kanji": "とても",
+      "kana": "とても",
+      "romaji": "totemo",
+      "meaning": "very; exceedingly (used with affirmative predicates)",
+      "category": "adverb",
+      "example": {
+        "kanji": "この料理はとてもおいしいです。",
+        "kana": "この りょうりは とても おいしいです。",
+        "translation": "This dish is very delicious."
+      }
+    },
+    {
+      "id": "amari",
+      "kanji": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "meaning": "not very; not much (MUST pair with negative predicates)",
+      "category": "adverb",
+      "example": {
+        "kanji": "あまり寒くないです。",
+        "kana": "あまり さむくないです。",
+        "translation": "It is not very cold."
+      }
+    },
+    {
+      "id": "soshite",
+      "kanji": "そして",
+      "kana": "そして",
+      "romaji": "soshite",
+      "meaning": "and; and furthermore (joins matching sentences)",
+      "category": "expression",
+      "example": {
+        "kanji": "京都はきれいです。そして、静かです。",
+        "kana": "きょうとは きれいです。そして、しずかです。",
+        "translation": "Kyoto is beautiful. And it is quiet."
+      }
+    },
+    {
+      "id": "ga-contrast",
+      "kanji": "～が、～",
+      "kana": "～が、～",
+      "romaji": "~ga, ~",
+      "meaning": "~, but ~ (joins contrasting clauses)",
+      "category": "expression",
+      "example": {
+        "kanji": "日本の食べ物はおいしいですが、高いです。",
+        "kana": "にほんの たべものは おいしいですが、たかいです。",
+        "translation": "Japanese food is delicious, but it is expensive."
+      }
+    },
+    {
+      "id": "ogenki-desu-ka",
+      "kanji": "お元気ですか",
+      "kana": "おげんきですか",
+      "romaji": "ogenki desu ka",
+      "meaning": "How are you? / Are you doing well?",
+      "category": "expression",
+      "example": {
+        "kanji": "皆さん、お元気ですか。",
+        "kana": "みなさん、おげんきですか。",
+        "translation": "Everyone, how are you doing?"
+      }
+    },
+    {
+      "id": "sou-desu-ne",
+      "kanji": "そうですね",
+      "kana": "そうですね",
+      "romaji": "sou desu ne",
+      "meaning": "Well, let me see... / That's true",
+      "category": "expression",
+      "example": {
+        "kanji": "そうですね。昨日は忙しかったです。",
+        "kana": "そうですね。きのうは いそがしかったです。",
+        "translation": "Well, let me see. Yesterday was busy."
+      }
+    },
+    {
+      "id": "mou-ippai-ikagadesuka",
+      "kanji": "もう一杯いかがですか",
+      "kana": "もう いっぱい いかがですか",
+      "romaji": "mou ippai ikaga desu ka",
+      "meaning": "Won't you have another cup [of tea/coffee]?",
+      "category": "expression",
+      "example": {
+        "kanji": "お茶、もう一杯いかがですか。",
+        "kana": "おちゃ、もう いっぱい いかがですか。",
+        "translation": "How about another cup of tea?"
+      }
+    },
+    {
+      "id": "iie-kekkoudesu",
+      "kanji": "いいえ、けっこうです",
+      "kana": "いいえ、けっこうです",
+      "romaji": "iie, kekkou desu",
+      "meaning": "No, thank you. / I am fine as is.",
+      "category": "expression",
+      "example": {
+        "kanji": "いいえ、もうけっこうです。お腹がいっぱいです。",
+        "kana": "いいえ、もう けっこうです。おなかが いっぱいです。",
+        "translation": "No, thank you, I am good. I am full."
+      }
+    },
+    {
+      "id": "sorosoro-shitsureishimasu",
+      "kanji": "そろそろ失礼します",
+      "kana": "そろそろ しつれいします",
+      "romaji": "sorosoro shitsurei shimasu",
+      "meaning": "It is about time I should be leaving.",
+      "category": "expression",
+      "example": {
+        "kanji": "もう9時ですね。そろそろ失礼します。",
+        "kana": "もう くじですね。そろそろ しつれいします。",
+        "translation": "It is already 9:00. It's about time I take my leave."
+      }
+    },
+    {
+      "id": "mata-irasshatte-kudasai",
+      "kanji": "またいらっしゃってください",
+      "kana": "また いらっしゃって ください",
+      "romaji": "mata irasshatte kudasai",
+      "meaning": "Please come visit again.",
+      "category": "expression",
+      "example": {
+        "kanji": "今日はありがとうございました。またいらっしゃってください。",
+        "kana": "きょうは ありがとうございました。また いらっしゃって ください。",
+        "translation": "Thank you for today. Please come again."
+      }
+    },
+    {
+      "id": "fuji-san",
+      "kanji": "富士山",
+      "kana": "ふじさん",
+      "romaji": "fuji-san",
+      "meaning": "Mt. Fuji",
+      "category": "place",
+      "example": {
+        "kanji": "富士山は高くて、きれいです。",
+        "kana": "ふじさんは たかくて、きれいです。",
+        "translation": "Mt. Fuji is tall and beautiful."
+      }
+    },
+    {
+      "id": "biwa-ko",
+      "kanji": "琵琶湖",
+      "kana": "びわこ",
+      "romaji": "biwa-ko",
+      "meaning": "Lake Biwa (Japan's largest freshwater lake)",
+      "category": "place",
+      "example": {
+        "kanji": "琵琶湖は日本でいちばん大きい湖です。",
+        "kana": "びわこは にほんで いちばん おおきい みずうみです。",
+        "translation": "Lake Biwa is the biggest lake in Japan."
+      }
+    },
+    {
+      "id": "kinkaku-ji",
+      "kanji": "金閣寺",
+      "kana": "きんかくじ",
+      "romaji": "kinkaku-ji",
+      "meaning": "Kinkaku-ji Temple (The Golden Pavilion in Kyoto)",
+      "category": "place",
+      "example": {
+        "kanji": "金閣寺は有名なお寺です。",
+        "kana": "きんかくじは ゆうめいな おてらです。",
+        "translation": "Kinkaku-ji is a famous Buddhist temple."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Japanese Adjective Types: い-adjectives vs. な-adjectives & Look-Alike Traps",
+      "explanation": "Japanese adjectives fall into two distinct grammatical categories with completely different conjugation systems:\n\n1. い-Adjectives (い形容詞): These adjectives end with the phonetic syllable い in their dictionary form (e.g. おいしい, たかい, やすい, おもしろい, あたらしい, ふるい).\n\n2. な-Adjectives (な形容詞): These adjectives behave similarly to nouns. They drop the な when functioning as a sentence predicate (ハンサムです), but REQUIRE the syllable な when placed immediately before a noun (ハンサムな人).\n\nCRITICAL TRAP HIGHLIGHTED BY TAKASHI SENSEI:\nCertain common adjectives end with the sound 'i', but are strictly な-ADJECTIVES because their historical stems or kanji characters dictate な-behavior:\n• きれい (綺麗): Ends in 'ei' sound → It is a な-adjective! (✕ きれいくないです → 〇 きれいじゃありません; 〇 きれいな花).\n• 有名 (ゆうめい): Ends in 'ei' sound → It is a な-adjective! (✕ ゆうめいくないです → 〇 有名じゃありません; 〇 有名な町).\n• 嫌い (きらい, Lesson 9): Ends in 'ai' sound → It is a な-adjective! (〇 嫌いじゃありません; 〇 嫌いな食べ物).\nAlways double-check きれい and 有名; treating them as い-adjectives is one of the most frequent beginner mistakes!",
+      "examples": [
+        {
+          "kanji": "富士山は高いです。",
+          "kana": "ふじさんは たかいです。",
+          "translation": "Mt. Fuji is high. (高い is an い-adjective)"
+        },
+        {
+          "kanji": "この町は静かです。",
+          "kana": "この まちは しずかです。",
+          "translation": "This town is quiet. (静か is a な-adjective)"
+        },
+        {
+          "kanji": "桜はきれいです。",
+          "kana": "さくらは きれいです。",
+          "translation": "Cherry blossoms are beautiful. (きれい is a な-adjective exception!)"
+        },
+        {
+          "kanji": "金閣寺は有名です。",
+          "kana": "きんかくじは ゆうめいです。",
+          "translation": "Kinkaku-ji is famous. (有名 is a な-adjective exception!)"
+        }
+      ]
+    },
+    {
+      "pattern": "な-Adjectives as Predicates: [Noun は] な-adj です / じゃありません",
+      "explanation": "When a な-adjective acts as the predicate at the end of a sentence:\n• Affirmative: 『Noun は [Adjective base] です』. Takashi's core rule: You MUST DROP な before です! (Say: 〇「彼はハンサムです」; Never say: ✕「彼はハンサムなです」).\n• Negative: 『Noun は [Adjective base] じゃありません』 (or conversational: じゃないです / formal: ではありません).\nNotice that な-adjectives conjugate in the exact same manner as nouns: 『学生です → 学生じゃありません』 mimics 『暇です → 暇じゃありません』.",
+      "examples": [
+        {
+          "kanji": "ワット先生は親切です。",
+          "kana": "ワットせんせいは しんせつです。",
+          "translation": "Professor Watt is kind."
+        },
+        {
+          "kanji": "明日は暇じゃありません。",
+          "kana": "あしたは ひまじゃ ありません。",
+          "translation": "I am not free tomorrow."
+        },
+        {
+          "kanji": "この寮は静かじゃないです。",
+          "kana": "この りょうは しずかじゃないです。",
+          "translation": "This dormitory is not quiet. (conversational)"
+        },
+        {
+          "kanji": "あの歌手はあまり有名じゃありません。",
+          "kana": "あの かしゅは あまり ゆうめいじゃ ありません。",
+          "translation": "That singer is not very famous."
+        }
+      ]
+    },
+    {
+      "pattern": "い-Adjectives as Predicates: [Noun は] い-adj です / ～くないです & Irregular いい",
+      "explanation": "When an い-adjective acts as the predicate:\n• Affirmative: 『Noun は [い-adjective] です』. The final い is strictly kept: 「おいしいです」, 「高いです」.\n• Negative: DROP the final い, and attach 『くないです』 (or formal: 『くありません』). Formula: 『Stem + くないです』. (おいしい → おいしくないです; 寒い → 寒くないです; 高い → 高くないです).\nTakashi's Warning: Never use じゃありません with い-adjectives! (✕ おいしいじゃありません is completely ungrammatical).\n\nTHE IRREGULAR ADJECTIVE: いい (Good)\n• Affirmative: いいです (It is good).\n• Negative: All conjugations must stem from its classical root よい (yoi)! Therefore: 『よくないです』 / 『よくありません』. (NEVER say: ✕ いくないです!).",
+      "examples": [
+        {
+          "kanji": "日本の食べ物はおいしいです。",
+          "kana": "にほんの たべものは おいしいです。",
+          "translation": "Japanese food is delicious."
+        },
+        {
+          "kanji": "今日はあまり寒くないです。",
+          "kana": "きょうは あまり さむくないです。",
+          "translation": "It is not very cold today."
+        },
+        {
+          "kanji": "このパソコンは高くないです。",
+          "kana": "この パソコンは たかくないです。",
+          "translation": "This personal computer is not expensive."
+        },
+        {
+          "kanji": "今日の天気はあまりよくないです。",
+          "kana": "きょうの てんきは あまり よくないです。",
+          "translation": "Today's weather is not very good. (Irregular いい → よくないです!)"
+        }
+      ]
+    },
+    {
+      "pattern": "Adjectives Modifying Nouns: [な-adj + な + Noun] vs. [い-adj + Noun]",
+      "explanation": "When placing an adjective directly in front of a noun to describe it:\n1. な-Adjectives: You MUST insert the connecting particle 『な』 between the adjective and the noun! Formula: 『[な-adj base] + な + Noun』. Examples: ハンサムな人 (handsome person), 静かな町 (quiet town), きれいな花 (beautiful flower), 有名な山 (famous mountain). If you drop な before a noun (✕ 静か町, ✕ きれい花), it sounds broken and unnatural.\n2. い-Adjectives: Modify the noun directly while preserving the final い. Formula: 『[い-adj] + Noun』. Examples: おいしい料理 (delicious cuisine), 高い山 (high mountain), 白い車 (white car). Takashi's Warning: Never add な or の to an い-adjective modifying a noun (✕ おいしいな料理, ✕ 高いの山)!",
+      "examples": [
+        {
+          "kanji": "奈良は静かな町です。",
+          "kana": "ならは しずかな まちです。",
+          "translation": "Nara is a quiet town."
+        },
+        {
+          "kanji": "桜はきれいな花です。",
+          "kana": "さくらは きれいな はなです。",
+          "translation": "Cherry blossoms are beautiful flowers."
+        },
+        {
+          "kanji": "富士山は高い山です。",
+          "kana": "ふじさんは たかい やまです。",
+          "translation": "Mt. Fuji is a high mountain."
+        },
+        {
+          "kanji": "昨日新しい車を買いました。",
+          "kana": "きのう あたらしい くるまを かいました。",
+          "translation": "Yesterday I bought a new car."
+        }
+      ]
+    },
+    {
+      "pattern": "Adverbs of Degree: とても (Affirmative) vs. あまり (Negative)",
+      "explanation": "To modulate the intensity of an adjective, place the adverb directly before the adjective:\n• とても (Very / Exceedingly): Modifies AFFIRMATIVE predicates. 『とても [Affirmative Adj] です』. Examples: とてもおいしいです (Very delicious), とても静かです (Very quiet).\n• あまり (Not very / Not much): MUST BE PAIRED WITH NEGATIVE PREDICATES! Formula: 『あまり [Negative Adj]』. Examples: あまりおいしくないです (Not very delicious), あまり有名じゃありません (Not very famous).\nTakashi's Golden Rule: You can NEVER use あまり with an affirmative adjective (✕ あまりおいしいです is completely incorrect). あまり inherently signals a negative outcome.",
+      "examples": [
+        {
+          "kanji": "このレストランはとても有名です。",
+          "kana": "この レストランは とても ゆうめいです。",
+          "translation": "This restaurant is very famous."
+        },
+        {
+          "kanji": "東京の地下鉄はとても便利です。",
+          "kana": "とうきょうの ちかてつは とても べんりです。",
+          "translation": "Tokyo's subway is very convenient."
+        },
+        {
+          "kanji": "私の部屋はあまり広くないです。",
+          "kana": "わたしの へやは あまり ひろくないです。",
+          "translation": "My room is not very spacious."
+        },
+        {
+          "kanji": "日本の冬はあまり寒くないです。",
+          "kana": "にほんの ふゆは あまり さむくないです。",
+          "translation": "Winter in Japan is not very cold."
+        }
+      ]
+    },
+    {
+      "pattern": "Asking for Impressions: Noun は どうですか [How is / was...?]",
+      "explanation": "To ask for someone's subjective impression, opinion, or condition regarding a place, experience, or thing, use: 『[Noun] は どうですか』 (How is [Noun]?).\n• How to answer: Respond using an adjective predicate describing your impression: 「おもしろいです」(It's interesting), 「少し忙しいですが、楽しいです」(It's a little busy, but fun).\nTakashi's Distinction: In Lesson 16, you learned どうやって (asking for concrete directions/routes). In Lesson 8, どう is used purely for opinions and impressions! Never ask ✕「日本の生活はどうやってですか」 when asking how someone likes living in Japan; always say: 『日本の生活はどうですか』.",
+      "examples": [
+        {
+          "kanji": "大学の寮はどうですか。— とても静かです。",
+          "kana": "だいがくの りょうは どうですか。— とても しずかです。",
+          "translation": "How is the university dormitory? — It is very quiet."
+        },
+        {
+          "kanji": "日本の生活はどうですか。— 忙しいですが、面白いです。",
+          "kana": "にほんの せいかつは どうですか。— いそがしいですが、おもしろいです。",
+          "translation": "How is life in Japan? — It is busy, but interesting."
+        },
+        {
+          "kanji": "昨日の映画はどうでしたか。— あまり面白くなかったです。",
+          "kana": "きのうの えいがは どうでしたか。— あまり おもしろくなかったです。",
+          "translation": "How was yesterday's movie? — It was not very interesting."
+        }
+      ]
+    },
+    {
+      "pattern": "Asking for Attributes & Classifications: Noun 1 は どんな Noun 2 ですか",
+      "explanation": "While 『どうですか』 asks for an impression alone, 『[Noun 1] は どんな [Noun 2] ですか』 asks what KIND, TYPE, or CATEGORY of Noun 2 Noun 1 is. Formula: 『[Topic] は どんな [Category Noun] ですか』.\n• How to answer: The response ALWAYS follows the noun-modifying pattern: 『[Adjective] + Noun 2 です』.\n  Question: 『京都はどんな町ですか』 (What kind of town is Kyoto?)\n  Answer: 『古い町です』 (It is an old town) or 『きれいな町です』 (It is a beautiful town).\nTakashi's Tip: Don't answer a どんな question with just the adjective alone (✕ きれいです); echo back the category noun with the adjective (〇 きれいな町です).",
+      "examples": [
+        {
+          "kanji": "奈良はどんな町ですか。— 静かな町です。",
+          "kana": "ならは どんな まちですか。— しずかな まちです。",
+          "translation": "What kind of town is Nara? — It is a quiet town."
+        },
+        {
+          "kanji": "佐藤さんはどんな人ですか。— 親切な人です。",
+          "kana": "さとうさんは どんな ひとですか。— しんせつな ひとです。",
+          "translation": "What kind of person is Ms. Sato? — She is a kind person."
+        },
+        {
+          "kanji": "富士山はどんな山ですか。— 高くて、有名な山です。",
+          "kana": "ふじさんは どんな やまですか。— たかくて、ゆうめいな やまです。",
+          "translation": "What kind of mountain is Mt. Fuji? — It is a high, famous mountain."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence Conjunctions: Contrasting ～が ('but') vs. Coordinating そして ('and')",
+      "explanation": "When connecting two descriptive statements, choose based on emotional polarity:\n1. Contrasting Conjunction 『Sentence 1 が、Sentence 2』 (Positive + Negative, or Negative + Positive):\n   Attached directly to the end of Sentence 1 to mean 'but'.\n   • 「日本の食べ物はおいしいですが、高いです」 (+ delicious, but - expensive).\n   • 「この部屋は狭いですが、きれいです」 (- cramped, but + clean).\n2. Coordinating Conjunction 『そして』 (Positive + Positive, or Negative + Negative):\n   Starts a brand-new second sentence to mean 'and furthermore' or 'and also'.\n   • 「ミラーさんは親切です。そして、ハンサムです」 (+ kind, and + handsome).\n   • 「この部屋は寒いです。そして、暗いです」 (- cold, and - dark).\nTakashi's Rule: Never use が to join two positive traits (✕ おいしいですが、安いです sounds nonsensical). Use そして or the て-form (Lesson 16) for matching qualities!",
+      "examples": [
+        {
+          "kanji": "この車は小さいですが、便利です。",
+          "kana": "この くるまは ちいさいですが、べんりです。",
+          "translation": "This car is small, but it is convenient."
+        },
+        {
+          "kanji": "タイ料理はおいしいですが、辛いです。",
+          "kana": "タイりょうりは おいしいですが、からいです。",
+          "translation": "Thai food is delicious, but it is spicy."
+        },
+        {
+          "kanji": "ワット先生は親切です。そして、面白いです。",
+          "kana": "ワットせんせいは しんせつです。そして、おもしろいです。",
+          "translation": "Professor Watt is kind. And furthermore, he is interesting."
+        },
+        {
+          "kanji": "京都はきれいです。そして、静かな町です。",
+          "kana": "きょうとは きれいです。そして、しずかな まちです。",
+          "translation": "Kyoto is beautiful. And it is a quiet town."
+        }
+      ]
+    },
+    {
+      "pattern": "Weather & Temperature Pairs: 暑い/寒い (Climate) vs. 熱い/冷たい (Touch & Food)",
+      "explanation": "Japanese strictly distinguishes ambient atmospheric temperature from the physical temperature of objects, liquids, and foods:\n• Climate / Weather (Atmospheric temperature you feel on your whole body):\n  - 暑い (あつい): Hot weather (e.g. 夏は暑いです - Summer is hot).\n  - 寒い (さむい): Cold weather (e.g. 今日は寒いです - Today is cold).\n• Tangible Objects / Food / Drink (Temperature sensed via contact or mouth):\n  - 熱い (あつい): Hot to the touch / hot food or drink (e.g. 熱いお茶 - hot green tea; 熱いスープ - hot soup).\n  - 冷たい (つめたい): Cold to the touch / chilled food or drink (e.g. 冷たいビール - cold beer; 冷たい水 - cold water).\nNote: While 'hot' shares the same pronunciation (あつい), they use different kanji (暑い vs 熱い). For 'cold', both the pronunciation and kanji are completely different (さむい vs つめたい)!",
+      "examples": [
+        {
+          "kanji": "今日はとても寒いですね。",
+          "kana": "きょうは とても さむいですね。",
+          "translation": "It is very cold today, isn't it? (Climate → 寒い)"
+        },
+        {
+          "kanji": "熱いコーヒーを飲みます。",
+          "kana": "あつい コーヒーを のみます。",
+          "translation": "I drink hot coffee. (Drink temperature → 熱い)"
+        },
+        {
+          "kanji": "冷たい水を一杯ください。",
+          "kana": "つめたい みずを いっぱい ください。",
+          "translation": "Please give me a glass of cold water. (Liquid temperature → 冷たい)"
+        },
+        {
+          "kanji": "8月の京都はとても暑いです。",
+          "kana": "はちがつの きょうとは とても あついです。",
+          "translation": "Kyoto in August is very hot. (Climate → 暑い)"
+        }
+      ]
+    },
+    {
+      "pattern": "Which One (3+ items): どれですか & Social Hospitality Scripts",
+      "explanation": "Key conversational structures introduced in Lesson 8:\n1. Asking 'Which one?': Use 『どれですか』 when choosing a specific item among three or more items in sight. Example: 「あなたの傘はどれですか」「あの青い傘です」.\n2. Inquiring about adjustment: 『日本の生活に慣れましたか』 (Have you gotten used to life in Japan?). Answer: 『ええ、慣れました』 (Yes, I'm used to it).\n3. Offering more refreshments: 『[お茶/コーヒー、] もう一杯いかがですか』 (Won't you have another cup?). Declining politely: 『いいえ、もう けっこうです』 (No, thank you, I am fine).\n4. Polite departure: 『もう～時ですね。そろそろ失礼します』 (It is already [time]. It is about time I should be leaving).\n5. Host's send-off: 『またいらっしゃってください』 (Please come visit us again).",
+      "examples": [
+        {
+          "kanji": "ミラーさんのカバンはどれですか。— あの黒いカバンです。",
+          "kana": "ミラーさんの カバンは どれですか。— あの くろい カバンです。",
+          "translation": "Which one is Mr. Miller's bag? — That black bag over there."
+        },
+        {
+          "kanji": "コーヒー、もう一杯いかがですか。— いいえ、けっこうです。",
+          "kana": "コーヒー、もう いっぱい いかがですか。— いいえ、けっこうです。",
+          "translation": "Won't you have another cup of coffee? — No, thank you, I'm fine."
+        },
+        {
+          "kanji": "もう10時ですね。そろそろ失礼します。— またいらっしゃってください。",
+          "kana": "もう じゅうじですね。そろそろ しつれいします。— また いらっしゃって ください。",
+          "translation": "It is already 10:00. It is about time I should be leaving. — Please come visit again."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "大学の寮生活と京都旅行 (Dormitory Life and a Trip to Kyoto)",
+    "lines": [
+      {
+        "speaker": "タカシ",
+        "kanji": "ミラーさん、こんにちは。お元気ですか。",
+        "kana": "ミラーさん、こんにちは。おげんきですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "はい、元気です。タカシさんもお元気ですか。",
+        "kana": "はい、げんきです。タカシさんも おげんきですか。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "ええ、元気です。ミラーさん、日本の生活に慣れましたか。",
+        "kana": "ええ、げんきです。ミラーさん、にほんの せいかつに なれましたか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、もう慣れました。毎日の生活は忙しいですが、とても面白いです。",
+        "kana": "ええ、もう なれました。まいにちの せいかつは いそがしいですが、とても おもしろいです。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "そうですか。大学の寮はどうですか。",
+        "kana": "そうですか。だいがくの りょうは どうですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "寮ですか。新しくて、きれいです。そして、とても静かですよ。",
+        "kana": "りょうですか。あたらしくて、きれいです。そして、とても しずかですよ。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "それはいいですね。日本の食べ物はどうですか。",
+        "kana": "それは いいですね。にほんの たべものは どうですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "おいしいですが、ちょっと高いです。刺身はあまり好きじゃありませんでしたが、今は大好きです。",
+        "kana": "おいしいですが、ちょっと たかいです。さしみは あまり すきじゃ ありませんでしたが、いまは だいすきです。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "刺身、おいしいですね。ところで、先週京都へ行きましたね。京都はどんな所でしたか。",
+        "kana": "さしみ、おいしいですね。ところで、せんしゅう きょうとへ いきましたね。きょうとは どんな ところでしたか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "きれいで、静かな町でした。古いお寺がたくさんありました。",
+        "kana": "きれいで、しずかな まちでした。ふるい おてらが たくさん ありました。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "金閣寺を見ましたか。",
+        "kana": "きんかくじを みましたか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "はい、見ました。とても有名な寺ですね。本当にきれいでした。",
+        "kana": "はい、みました。とても ゆうめいな てらですね。ほんとうに きれいでした。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "ミラーさん、冷たいお茶、もう一杯いかがですか。",
+        "kana": "ミラーさん、つめたい おちゃ、もう いっぱい いかがですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "いいえ、もうけっこうです。あ、もう5時ですね。そろそろ失礼します。",
+        "kana": "いいえ、もう けっこうです。あ、もう ごじですね。そろそろ しつれいします。"
+      },
+      {
+        "speaker": "タカシ",
+        "kanji": "そうですか。今日は楽しかったです。またいらっしゃってくださいね。",
+        "kana": "そうですか。きょうは たのしかったです。また いらっしゃって くださいね。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "はい、失礼します。じゃ、また！",
+        "kana": "はい、しつれいします。じゃ、また！"
+      }
+    ],
+    "translation": "Takashi greets Mr. Miller and asks how he is doing. Miller says he is fine and returns the greeting. Takashi asks if Miller has gotten used to life in Japan ('Nihon no seikatsu ni naremashita ka?'). Miller replies that he has already gotten used to it, and that while daily life is busy, it is very interesting. Takashi then asks how the university dormitory is ('Ryou wa dou desu ka?'). Miller describes it as new, clean, and furthermore very quiet. Regarding Japanese food, Miller notes that it is delicious, but a little expensive, adding that he didn't use to like sashimi much, but now loves it. Takashi asks what kind of place Kyoto was ('Kyoto wa donna tokoro deshita ka?'). Miller replies that it was a beautiful and quiet town with many old temples. Miller confirms visiting Kinkaku-ji, calling it a very famous and truly beautiful temple. Takashi offers another glass of cold tea, but Miller politely declines ('Iie, mou kekkou desu'). Noticing it is already 5:00, Miller says it's time to take his leave ('Sorosoro shitsurei shimasu'). Takashi thanks him and invites him to come visit again.",
+    "questions": [
+      {
+        "question": "How does Mr. Miller describe his daily life in Japan?",
+        "options": [
+          "It is boring and not busy",
+          "It is busy, but very interesting",
+          "It is cheap and quiet",
+          "It is very cold and inconvenient"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: 毎日の生活は忙しいですが、とても面白いです (Daily life is busy, but very interesting)."
+      },
+      {
+        "question": "How does Mr. Miller describe his university dormitory?",
+        "options": [
+          "Old, dark, and noisy",
+          "New, clean, and very quiet",
+          "Convenient, but very expensive",
+          "Small and dirty"
+        ],
+        "answer": 1,
+        "explanation": "Miller explains: 新しくて、きれいです。そして、とても静かですよ (New, clean, and furthermore very quiet)."
+      },
+      {
+        "question": "What is Miller's opinion of Japanese food?",
+        "options": [
+          "It is delicious, but a little expensive",
+          "It is very bad and cheap",
+          "It is not delicious and very cold",
+          "It is difficult and spicy"
+        ],
+        "answer": 0,
+        "explanation": "Miller states: おいしいですが、ちょっと高いです (Delicious, but a bit expensive)."
+      },
+      {
+        "question": "What question did Takashi ask to find out what TYPE of place Kyoto was?",
+        "options": [
+          "京都はどうですか。",
+          "京都はどんな所でしたか。",
+          "京都はどれですか。",
+          "京都はどうやって行きましたか。"
+        ],
+        "answer": 1,
+        "explanation": "Takashi asks: 京都はどんな所でしたか (What kind of place was Kyoto?)."
+      },
+      {
+        "question": "How does Miller describe Kinkaku-ji?",
+        "options": [
+          "A small and dark place",
+          "A very famous and truly beautiful temple",
+          "A cheap and noisy tourist spot",
+          "A new and strange building"
+        ],
+        "answer": 1,
+        "explanation": "Miller states: とても有名な寺ですね。本当にきれいでした (A very famous temple; it was truly beautiful)."
+      },
+      {
+        "question": "What kind of tea does Takashi offer Mr. Miller?",
+        "options": [
+          "冷たいお茶 (Cold green tea)",
+          "熱いお茶 (Hot green tea)",
+          "甘い紅茶 (Sweet black tea)",
+          "古いお茶 (Old tea)"
+        ],
+        "answer": 0,
+        "explanation": "Takashi asks: 冷たいお茶、もう一杯いかがですか (Won't you have another cup of cold tea?)."
+      },
+      {
+        "question": "How does Miller politely decline another cup of tea?",
+        "options": [
+          "いいえ、嫌いです。",
+          "いいえ、もうけっこうです。",
+          "いいえ、飲みません。",
+          "いいえ、まだです。"
+        ],
+        "answer": 1,
+        "explanation": "The polite formula to decline an offer of more food or drink is 『いいえ、もうけっこうです』."
+      },
+      {
+        "question": "What phrase does Miller use when announcing that it is time for him to leave?",
+        "options": [
+          "そろそろ失礼します",
+          "ごめんください",
+          "いらっしゃい",
+          "いただきます"
+        ],
+        "answer": 0,
+        "explanation": "To politely announce one's departure, use 『そろそろ失礼します』 (It is about time I should be leaving)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Which of the following adjectives is a な-ADJECTIVE despite ending with the 'i' sound?",
+      "options": [
+        "きれい",
+        "おいしい",
+        "たかい",
+        "あたらしい"
+      ],
+      "answer": 0,
+      "explanation": "きれい (beautiful/clean) is a famous な-adjective exception (stem ends in 'ei'; kanji 綺麗)."
+    },
+    {
+      "question": "Which of the following adjectives is ALSO a な-adjective exception?",
+      "options": [
+        "有名 (ゆうめい)",
+        "小さい (ちいさい)",
+        "古い (ふるい)",
+        "おもしろい"
+      ],
+      "answer": 0,
+      "explanation": "有名 (ゆうめい) ends with the 'ei' sound, but is strictly a な-adjective (有名[な])."
+    },
+    {
+      "question": "Choose the correct predicate negative form: 'This room is not quiet.'",
+      "prompt": {
+        "kanji": "この部屋は___。",
+        "kana": "この へやは ___。"
+      },
+      "options": [
+        "静かじゃありません",
+        "静かくな​​いです",
+        "静かじゃないでした",
+        "静かありません"
+      ],
+      "answer": 0,
+      "explanation": "静か is a な-adjective; its negative predicate is 静かじゃありません (or 静かじゃないです)."
+    },
+    {
+      "question": "Choose the correct predicate negative form: 'Today is not cold.'",
+      "prompt": {
+        "kanji": "今日は___。",
+        "kana": "きょうは ___。"
+      },
+      "options": [
+        "寒くないです",
+        "寒いじゃありません",
+        "寒いじゃないです",
+        "寒くないじゃありません"
+      ],
+      "answer": 0,
+      "explanation": "寒い is an い-adjective; drop い and attach くないです (寒くないです). Never use じゃありません!"
+    },
+    {
+      "question": "Choose the correct negative form of the irregular adjective いい (good): 'The weather is not good.'",
+      "prompt": {
+        "kanji": "天気が___。",
+        "kana": "てんきが ___。"
+      },
+      "options": [
+        "よくないです",
+        "いくないです",
+        "いいじゃありません",
+        "いいくないです"
+      ],
+      "answer": 0,
+      "explanation": "いい is irregular and conjugates from よい → よくないです (or よくありません). Never say いくないです!"
+    },
+    {
+      "question": "Choose the correct way for a な-adjective to modify a noun: 'Nara is a quiet town.'",
+      "prompt": {
+        "kanji": "奈良は静か___町です。",
+        "kana": "ならは しずか___ まちです。"
+      },
+      "options": [
+        "な",
+        "の",
+        "い",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "When a な-adjective directly precedes and modifies a noun, insert な: 静かな町."
+    },
+    {
+      "question": "Choose the correct way for an い-adjective to modify a noun: 'I bought an expensive watch.'",
+      "prompt": {
+        "kanji": "___時計を買いました。",
+        "kana": "___ とけいを かいました。"
+      },
+      "options": [
+        "高い",
+        "高な",
+        "高いな",
+        "高いの"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives directly modify nouns with the final い attached (高い時計). Never add な or の!"
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "桜はきれい花です。",
+        "桜はきれいな花です。",
+        "桜はきれいです。",
+        "桜はきれいじゃありません。"
+      ],
+      "answer": 0,
+      "explanation": "きれい is a な-adjective; modifying a noun requires な (きれいな花). Dropping な as in 『きれい花』 is incorrect."
+    },
+    {
+      "question": "According to Takashi's golden rule, which predicate MUST be paired with あまり (not very)?",
+      "prompt": {
+        "kanji": "この本はあまり___。",
+        "kana": "この ほんは あまり ___。"
+      },
+      "options": [
+        "面白くないです",
+        "面白いです",
+        "とても面白いです",
+        "面白かったです"
+      ],
+      "answer": 0,
+      "explanation": "あまり must always pair with a NEGATIVE predicate: あまり面白くないです."
+    },
+    {
+      "question": "Choose the correct degree adverb for an affirmative sentence: 'Tokyo is very lively.'",
+      "prompt": {
+        "kanji": "東京は___にぎやかです。",
+        "kana": "とうきょうは ___ にぎやかです。"
+      },
+      "options": [
+        "とても",
+        "あまり",
+        "全然",
+        "少しも"
+      ],
+      "answer": 0,
+      "explanation": "とても modifies affirmative adjectives to express 'very': とてもにぎやかです."
+    },
+    {
+      "question": "Choose the correct question word to ask for an overall impression: 'How is life in Japan?'",
+      "prompt": {
+        "kanji": "日本の生活は___ですか。",
+        "kana": "にほんの せいかつは ___ですか。"
+      },
+      "options": [
+        "どう",
+        "どうやって",
+        "どんな",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "To ask for an impression or opinion, use どう: 日本の生活はどうですか."
+    },
+    {
+      "question": "Choose the correct question word: 'What kind of town is Kyoto?'",
+      "prompt": {
+        "kanji": "京都は___町ですか。",
+        "kana": "きょうとは ___ まちですか。"
+      },
+      "options": [
+        "どんな",
+        "どう",
+        "どれ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "Before a category noun to ask 'what kind of ~', use どんな: どんな町ですか."
+    },
+    {
+      "question": "Choose the correct conjunction for contrasting qualities: 'Japanese food is delicious, but expensive.'",
+      "prompt": {
+        "kanji": "日本の食べ物はおいしいです___、高いです。",
+        "kana": "にほんの たべものは おいしいです___、たかいです。"
+      },
+      "options": [
+        "が",
+        "そして",
+        "から",
+        "ので"
+      ],
+      "answer": 0,
+      "explanation": "Contrasting traits (+ delicious vs - expensive) take the conjunctive particle が ('but')."
+    },
+    {
+      "question": "Choose the correct conjunction for matching positive qualities: 'Mr. Miller is kind. And he is handsome.'",
+      "prompt": {
+        "kanji": "ミラーさんは親切です。___、ハンサムです。",
+        "kana": "ミラーさんは しんせつです。___、ハンサムです。"
+      },
+      "options": [
+        "そして",
+        "が",
+        "でも",
+        "ですから"
+      ],
+      "answer": 0,
+      "explanation": "Coordinating matching qualities (+ kind, + handsome) into a new sentence uses そして ('and')."
+    },
+    {
+      "question": "Which adjective describes hot WEATHER / atmospheric climate?",
+      "options": [
+        "暑い (あつい)",
+        "熱い (あつい)",
+        "冷たい (つめたい)",
+        "寒い (さむい)"
+      ],
+      "answer": 0,
+      "explanation": "暑い (with the sun radical 日 on top) describes hot atmospheric weather."
+    },
+    {
+      "question": "Which adjective describes hot FOOD, LIQUID, or an object hot to the touch?",
+      "options": [
+        "熱い (あつい)",
+        "暑い (あつい)",
+        "寒い (さむい)",
+        "低い (ひくい)"
+      ],
+      "answer": 0,
+      "explanation": "熱い (with the fire radical 灬 at the bottom) describes hot food, drinks, or objects."
+    },
+    {
+      "question": "Choose the correct adjective for chilled beer: 'Please give me cold beer.'",
+      "prompt": {
+        "kanji": "___ビールをください。",
+        "kana": "___ ビールを ください。"
+      },
+      "options": [
+        "冷たい",
+        "寒い",
+        "暑い",
+        "熱い"
+      ],
+      "answer": 0,
+      "explanation": "Cold liquids, drinks, and food to the touch use 冷たい (つめたい), not 寒い."
+    },
+    {
+      "question": "Which adjective describes cold WEATHER / atmospheric climate?",
+      "options": [
+        "寒い (さむい)",
+        "冷たい (つめたい)",
+        "低い (ひくい)",
+        "易しい (やさしい)"
+      ],
+      "answer": 0,
+      "explanation": "Cold climate/weather is 寒い (さむい)."
+    },
+    {
+      "question": "Choose the correct pronoun to ask 'Which one?' among 3 or more umbrellas:",
+      "prompt": {
+        "kanji": "あなたの傘は___ですか。",
+        "kana": "あなたの かさは ___ですか。"
+      },
+      "options": [
+        "どれ",
+        "どの",
+        "どちら",
+        "どう"
+      ],
+      "answer": 0,
+      "explanation": "Selecting one item from three or more options as a standalone pronoun uses どれ (どれですか)."
+    },
+    {
+      "question": "What is the polite phrase meaning 'Have you gotten used to life in Japan?'",
+      "options": [
+        "日本の生活に慣れましたか",
+        "日本の生活はどうやってですか",
+        "日本の生活が好きですか",
+        "日本の生活をしましたか"
+      ],
+      "answer": 0,
+      "explanation": "日本の生活に慣れましたか (にほんの せいかつに なれましたか) = Have you gotten used to life in Japan?"
+    },
+    {
+      "question": "What is the polite response to decline another cup of tea offered by your host?",
+      "options": [
+        "いいえ、けっこうです",
+        "いいえ、嫌いです",
+        "いいえ、飲みません",
+        "いいえ、まだです"
+      ],
+      "answer": 0,
+      "explanation": "『いいえ、けっこうです』 means 'No, thank you; I am fine as is'."
+    },
+    {
+      "question": "What phrase do you say when it is time to politely take your leave from someone's home?",
+      "options": [
+        "そろそろ失礼します",
+        "ごめんください",
+        "お上がりください",
+        "いただきます"
+      ],
+      "answer": 0,
+      "explanation": "そろそろ失礼します (そろそろ しつれいします) = It's about time I should be leaving."
+    },
+    {
+      "question": "What phrase does the host say to invite the departing guest to come back again?",
+      "options": [
+        "またいらっしゃってください",
+        "どうぞお上がりください",
+        "ごちそうさまでした",
+        "いかがですか"
+      ],
+      "answer": 0,
+      "explanation": "またいらっしゃってください = Please come visit again."
+    },
+    {
+      "question": "Choose the opposite of 高い (たかい - expensive):",
+      "options": [
+        "安い (やすい)",
+        "低い (ひくい)",
+        "新しい (あたらしい)",
+        "古い (ふるい)"
+      ],
+      "answer": 0,
+      "explanation": "高い (expensive) ↔ 安い (inexpensive). Note: When 高い means 'tall/high', its opposite is 低い (low)."
+    },
+    {
+      "question": "Choose the opposite of 大きい (おおきい - big):",
+      "options": [
+        "小さい (ちいさい)",
+        "古い (ふるい)",
+        "低い (ひくい)",
+        "短い (みじかい)"
+      ],
+      "answer": 0,
+      "explanation": "大きい ↔ 小さい."
+    },
+    {
+      "question": "Choose the opposite of 新しい (あたらしい - new):",
+      "options": [
+        "古い (ふるい)",
+        "悪い (わるい)",
+        "易しい (やさしい)",
+        "難しい (むずかしい)"
+      ],
+      "answer": 0,
+      "explanation": "新しい ↔ 古い."
+    },
+    {
+      "question": "Choose the opposite of 難しい (むずかしい - difficult):",
+      "options": [
+        "易しい (やさしい)",
+        "親切 (しんせつ)",
+        "便利 (べんり)",
+        "面白い (おもしろい)"
+      ],
+      "answer": 0,
+      "explanation": "難しい (difficult) ↔ 易しい (easy / simple)."
+    },
+    {
+      "question": "Choose the opposite of 静か (しずか - quiet):",
+      "options": [
+        "にぎやか",
+        "便利",
+        "親切",
+        "有名"
+      ],
+      "answer": 0,
+      "explanation": "静か[な] (quiet) ↔ にぎやか[な] (lively / bustling)."
+    },
+    {
+      "question": "Choose the opposite of 暇 (ひま - free time):",
+      "options": [
+        "忙しい (いそがしい)",
+        "楽しい (たのしい)",
+        "元気 (げんき)",
+        "難しい (むずかしい)"
+      ],
+      "answer": 0,
+      "explanation": "暇[な] (having free time) ↔ 忙しい (busy)."
+    },
+    {
+      "question": "Choose the correct sentence: 'This cell phone is small and convenient.'",
+      "options": [
+        "このケータイは小さいですが、便利です。",
+        "このケータイは小さいそして便利です。",
+        "このケータイは小さいです、便利です。",
+        "このケータイは小さいな便利です。"
+      ],
+      "answer": 0,
+      "explanation": "When contrasting small size with high convenience: 小さいですが、便利です."
+    },
+    {
+      "question": "Choose the correct sentence: 'Mr. Tanaka is not free tomorrow.'",
+      "options": [
+        "田中さんは明日暇じゃありません。",
+        "田中さんは明日暇くないです。",
+        "田中さんは明日暇ないです。",
+        "田中さんは明日暇なじゃありません。"
+      ],
+      "answer": 0,
+      "explanation": "暇 is a な-adjective → 暇じゃありません."
+    },
+    {
+      "question": "Choose the correct sentence: 'This watch is not cheap.'",
+      "options": [
+        "この時計は安くないです。",
+        "この時計は安いじゃありません。",
+        "この時計は安いくないです。",
+        "この時計は安じゃないです。"
+      ],
+      "answer": 0,
+      "explanation": "安い is an い-adjective: drop い and add くないです (安くないです)."
+    },
+    {
+      "question": "Choose the correct phrase: 'A famous mountain.'",
+      "options": [
+        "有名な山",
+        "有名い山",
+        "有名山",
+        "有名の山"
+      ],
+      "answer": 0,
+      "explanation": "有名 is a な-adjective; modifying a noun requires な: 有名な山."
+    },
+    {
+      "question": "Choose the correct phrase: 'A red car.'",
+      "options": [
+        "赤い車",
+        "赤な車",
+        "赤いの車",
+        "赤いな車"
+      ],
+      "answer": 0,
+      "explanation": "赤い is an い-adjective; it modifies nouns directly without adding な or の: 赤い車."
+    },
+    {
+      "question": "What does 『生活』 (せいかつ) mean?",
+      "options": [
+        "Daily life / living",
+        "Study",
+        "Work",
+        "Place"
+      ],
+      "answer": 0,
+      "explanation": "生活 (せいかつ) = daily life, living."
+    },
+    {
+      "question": "What does 『寮』 (りょう) mean?",
+      "options": [
+        "Dormitory",
+        "Cafeteria",
+        "Library",
+        "Classroom"
+      ],
+      "answer": 0,
+      "explanation": "寮 (りょう) = student or company dormitory."
+    },
+    {
+      "question": "Choose the correct question: 'What kind of person is Professor Watt?'",
+      "options": [
+        "ワット先生はどんな人ですか。",
+        "ワット先生はどう人ですか。",
+        "ワット先生はどれ人ですか。",
+        "ワット先生はどの人ですか。"
+      ],
+      "answer": 0,
+      "explanation": "Before a noun, ask 'what kind of person' with どんな人: ワット先生はどんな人ですか."
+    },
+    {
+      "question": "Choose the correct response: 'How was the movie?' — 'It was interesting.'",
+      "prompt": {
+        "kanji": "映画はどうでしたか。— ___。",
+        "kana": "えいがは どうでしたか。— ___。"
+      },
+      "options": [
+        "面白かったです",
+        "面白い町です",
+        "面白くないでした",
+        "面白いです町"
+      ],
+      "answer": 0,
+      "explanation": "Question is in past tense (どうでしたか) → answer in past tense: 面白かったです."
+    },
+    {
+      "question": "Choose the correct particle: 'Nara is a quiet and beautiful town.'",
+      "prompt": {
+        "kanji": "奈良は静か___きれいな町です。",
+        "kana": "ならは しずか___ きれいな まちです。"
+      },
+      "options": [
+        "で",
+        "な",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Joining two adjectives (な-adj connecting form): 静かで、きれいな町です."
+    },
+    {
+      "question": "What does 『桜』 (さくら) refer to?",
+      "options": [
+        "Cherry blossoms / cherry tree",
+        "Rose",
+        "Maple leaves",
+        "Bamboo"
+      ],
+      "answer": 0,
+      "explanation": "桜 (さくら) = cherry blossom / cherry tree."
+    },
+    {
+      "question": "Choose the correct sentence: 'Lake Biwa is a big lake.'",
+      "options": [
+        "琵琶湖は大きい湖です。",
+        "琵琶湖は大きなの湖です。",
+        "琵琶湖は大きいの湖です。",
+        "琵琶湖は大きいに湖です。"
+      ],
+      "answer": 0,
+      "explanation": "大きい modifies 湖 directly: 大きい湖です."
+    },
+    {
+      "question": "Choose the correct sentence: 'Thai food is spicy, but very delicious.'",
+      "options": [
+        "タイ料理は辛いですが、とてもおいしいです。",
+        "タイ料理は辛いですそして、とてもおいしいです。",
+        "タイ料理は辛いですから、とてもおいしいです。",
+        "タイ料理は辛いとてもおいしいです。"
+      ],
+      "answer": 0,
+      "explanation": "Contrasting 'spicy' with 'delicious' takes が: 辛いですが、とてもおいしいです."
+    },
+    {
+      "question": "What is the polite phrase meaning 'Won't you have another cup [of tea/coffee]?'",
+      "options": [
+        "もう一杯いかがですか",
+        "もう一つどうですか",
+        "もう一度言いますか",
+        "もう食べましたか"
+      ],
+      "answer": 0,
+      "explanation": "もう一杯いかがですか (もう いっぱい いかがですか) = Won't you have another cup?"
+    },
+    {
+      "question": "What is the meaning of 『お元気ですか』?",
+      "options": [
+        "How are you doing? / Are you well?",
+        "Where are you going?",
+        "What time is it?",
+        "Who is that?"
+      ],
+      "answer": 0,
+      "explanation": "お元気ですか = How are you? / Are you in good health?"
+    },
+    {
+      "question": "Choose the correct negative form: 'It is not famous.'",
+      "prompt": {
+        "kanji": "___。",
+        "kana": "___。"
+      },
+      "options": [
+        "有名じゃありません",
+        "有名くないです",
+        "有名ないです",
+        "有無いです"
+      ],
+      "answer": 0,
+      "explanation": "有名 is a な-adjective: 有名じゃありません."
+    }
+  ],
+  "writing": {
+    "title": "Describing My Hometown, Daily Life, and a Memorable Trip",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 8 grammar. (1) Introduce your hometown or city using both an い-adjective and a な-adjective (e.g. 大きい, 静かな). (2) Connect two contrasting qualities of your city or school using 『～ですが、～』 (e.g. 便利ですが、家賃が高いです). (3) Describe your daily routine or studies using degree adverbs 『とても』 with affirmative and 『あまり』 with negative (e.g. 日本語の勉強はとても面白いですが、あまり易しくないです). (4) Ask a question about someone's impressions using 『どうですか』 or 『どんな [Noun] ですか』. (5) Incorporate a conversational host or visitor phrase (e.g. 日本の生活に慣れましたか or そろそろ失礼します).",
+    "placeholder": "私の町は ______ です。そして、______ な町です。\n私の町は ______ ですが、______ です。\n私の日本語の勉強はとても ______ ですが、あまり ______ くないです。\nあなたの国はどんな ______ ですか。\n日本の生活に ______ ましたか。\nもう ______ 時ですね。そろそろ ______ ます。",
+    "modelAnswer": "私の町は東京です。とてもにぎやかで、きれいな町です。東京の地下鉄は便利ですが、ちょっと複雑です。私の大学の寮はあまり広くないですが、とても新しいです。日本語の勉強は難しいですが、とても面白いです。タカシさん、あなたの町はどんな所ですか。日本の生活にはもう慣れましたか。あ、もう9時ですね。そろそろ失礼します。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Mt. Fuji is a high and famous mountain.",
+        "chunks": [
+          "富士山は",
+          "高くて、",
+          "有名な",
+          "山です。"
+        ]
+      },
+      {
+        "en": "Nara is a quiet town, and cherry blossoms are beautiful.",
+        "chunks": [
+          "奈良は静かな町で、",
+          "桜は",
+          "きれいです。"
+        ]
+      },
+      {
+        "en": "Japanese food is delicious, but it is expensive.",
+        "chunks": [
+          "日本の食べ物は",
+          "おいしいですが、",
+          "高いです。"
+        ]
+      },
+      {
+        "en": "How is life in Japan? — It is busy, but interesting.",
+        "chunks": [
+          "日本の生活は",
+          "どうですか。",
+          "忙しいですが、",
+          "面白いです。"
+        ]
+      },
+      {
+        "en": "What kind of town is Kyoto? — It is an old town.",
+        "chunks": [
+          "京都は",
+          "どんな町ですか。",
+          "古い",
+          "町です。"
+        ]
+      },
+      {
+        "en": "This dormitory is new. And furthermore, it is very quiet.",
+        "chunks": [
+          "この寮は新しいです。",
+          "そして、",
+          "とても静かです。"
+        ]
+      },
+      {
+        "en": "Today is not very cold.",
+        "chunks": [
+          "今日は",
+          "あまり",
+          "寒くないです。"
+        ]
+      },
+      {
+        "en": "That singer is not very famous.",
+        "chunks": [
+          "あの歌手は",
+          "あまり",
+          "有名じゃありません。"
+        ]
+      },
+      {
+        "en": "Which one is Mr. Miller's umbrella?",
+        "chunks": [
+          "ミラーさんの傘は",
+          "どれですか。"
+        ]
+      },
+      {
+        "en": "The weather today is not very good.",
+        "chunks": [
+          "今日の天気は",
+          "あまり",
+          "よくないです。"
+        ]
+      },
+      {
+        "en": "Please give me a glass of cold water.",
+        "chunks": [
+          "冷たい水を",
+          "一杯",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Won't you have another cup of coffee?",
+        "chunks": [
+          "コーヒー、",
+          "もう一杯",
+          "いかがですか。"
+        ]
+      },
+      {
+        "en": "No, thank you, I am fine.",
+        "chunks": [
+          "いいえ、",
+          "もう",
+          "けっこうです。"
+        ]
+      },
+      {
+        "en": "It is already 5:00. It is about time I should be leaving.",
+        "chunks": [
+          "もう5時ですね。",
+          "そろそろ",
+          "失礼します。"
+        ]
+      },
+      {
+        "en": "Have you gotten used to life in Japan?",
+        "chunks": [
+          "日本の生活に",
+          "慣れましたか。"
+        ]
+      },
+      {
+        "en": "Please come visit us again.",
+        "chunks": [
+          "また",
+          "いらっしゃって",
+          "ください。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "静か (Quiet)",
+        "form": "Negative Predicate",
+        "answer": "しずかじゃありません",
+        "options": [
+          "しずかじゃありません",
+          "しずかくな​​いです",
+          "しずかじゃないでした"
+        ],
+        "hint": "な-adjective: add じゃありません"
+      },
+      {
+        "prompt": "静か (Quiet)",
+        "form": "Modifying Noun (町)",
+        "answer": "しずかなまち",
+        "options": [
+          "しずかなまち",
+          "しずかまち",
+          "しずかのまち"
+        ],
+        "hint": "な-adjective: insert な before the noun"
+      },
+      {
+        "prompt": "きれい (Beautiful)",
+        "form": "Negative Predicate",
+        "answer": "きれいじゃありません",
+        "options": [
+          "きれいじゃありません",
+          "きれいくないです",
+          "きれいではないでした"
+        ],
+        "hint": "Exception な-adjective: use じゃありません"
+      },
+      {
+        "prompt": "きれい (Beautiful)",
+        "form": "Modifying Noun (花)",
+        "answer": "きれいなはな",
+        "options": [
+          "きれいなはな",
+          "きれい花",
+          "きれいはな"
+        ],
+        "hint": "Exception な-adjective: insert な before noun"
+      },
+      {
+        "prompt": "有名 (Famous)",
+        "form": "Negative Predicate",
+        "answer": "ゆうめいじゃありません",
+        "options": [
+          "ゆうめいじゃありません",
+          "ゆうめいくないです",
+          "ゆうめいじゃないでした"
+        ],
+        "hint": "Exception な-adjective: use じゃありません"
+      },
+      {
+        "prompt": "有名 (Famous)",
+        "form": "Modifying Noun (山)",
+        "answer": "ゆうめいなやま",
+        "options": [
+          "ゆうめいなやま",
+          "ゆうめいやま",
+          "ゆうめいのやま"
+        ],
+        "hint": "Exception な-adjective: insert な before noun"
+      },
+      {
+        "prompt": "高い (Expensive / High)",
+        "form": "Negative Predicate",
+        "answer": "たかくないです",
+        "options": [
+          "たかくないです",
+          "たかいじゃありません",
+          "たかいくないです"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "高い (Expensive / High)",
+        "form": "Modifying Noun (山)",
+        "answer": "たかいやま",
+        "options": [
+          "たかいやま",
+          "たかいなやま",
+          "たかいのやま"
+        ],
+        "hint": "い-adjective: directly precedes noun with final い"
+      },
+      {
+        "prompt": "おいしい (Delicious)",
+        "form": "Negative Predicate",
+        "answer": "おいしくないです",
+        "options": [
+          "おいしくないです",
+          "おいしいじゃありません",
+          "おいしいくないです"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "いい (Good)",
+        "form": "Negative Predicate",
+        "answer": "よくないです",
+        "options": [
+          "よくないです",
+          "いくないです",
+          "いいじゃありません"
+        ],
+        "hint": "Irregular adjective: conjugates from よい → よくないです"
+      },
+      {
+        "prompt": "寒い (Cold weather)",
+        "form": "Negative Predicate",
+        "answer": "さむくないです",
+        "options": [
+          "さむくないです",
+          "さむいじゃありません",
+          "さむいくないです"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "暑い (Hot weather)",
+        "form": "Negative Predicate",
+        "answer": "あつくないです",
+        "options": [
+          "あつくないです",
+          "あついじゃありません",
+          "あついくないです"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "面白い (Interesting)",
+        "form": "Negative Predicate",
+        "answer": "おもしろくないです",
+        "options": [
+          "おもしろくないです",
+          "おもしろいじゃありません",
+          "おもしろいじゃない"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "暇 (Free time)",
+        "form": "Negative Predicate",
+        "answer": "ひまじゃありません",
+        "options": [
+          "ひまじゃありません",
+          "ひまくないです",
+          "ひまないです"
+        ],
+        "hint": "な-adjective: add じゃありません"
+      },
+      {
+        "prompt": "親切 (Kind)",
+        "form": "Modifying Noun (人)",
+        "answer": "しんせつなひと",
+        "options": [
+          "しんせつなひと",
+          "しんせつひと",
+          "しんせつのひと"
+        ],
+        "hint": "な-adjective: insert な before noun"
+      },
+      {
+        "prompt": "新しい (New)",
+        "form": "Modifying Noun (車)",
+        "answer": "あたらしいくるま",
+        "options": [
+          "あたらしいくるま",
+          "あたらしいなくるま",
+          "あたらしいのくるま"
+        ],
+        "hint": "い-adjective: directly precedes noun"
+      },
+      {
+        "prompt": "古い (Old)",
+        "form": "Negative Predicate",
+        "answer": "ふるくないです",
+        "options": [
+          "ふるくないです",
+          "ふるいじゃありません",
+          "ふるいくないです"
+        ],
+        "hint": "い-adjective: drop い, add くないです"
+      },
+      {
+        "prompt": "便利 (Convenient)",
+        "form": "Negative Predicate",
+        "answer": "べんりじゃありません",
+        "options": [
+          "べんりじゃありません",
+          "べんりくないです",
+          "べんりないです"
+        ],
+        "hint": "な-adjective: add じゃありません"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "奈良は静か [ ? ] 町です。",
+        "answer": "な",
+        "options": [
+          "な",
+          "の",
+          "い",
+          "で"
+        ],
+        "hint": "Connecting な-adjective to a noun requires な."
+      },
+      {
+        "sentence": "日本の食べ物はおいしいです [ ? ]、高いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "そして",
+          "から",
+          "ので"
+        ],
+        "hint": "Contrasting two opposing traits uses が ('but')."
+      },
+      {
+        "sentence": "京都はきれいです。[ ? ]、静かです。",
+        "answer": "そして",
+        "options": [
+          "そして",
+          "が",
+          "でも",
+          "から"
+        ],
+        "hint": "Coordinating two matching positive traits into a new sentence."
+      },
+      {
+        "sentence": "日本の生活 [ ? ] 慣れましたか。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Getting used to something takes particle に (生活に慣れます)."
+      },
+      {
+        "sentence": "京都はどんな所 [ ? ] でしたか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Predicative sentence ending with でしたか."
+      },
+      {
+        "sentence": "あの黒いカバン [ ? ] ミラーさんのです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Specific item identified in answer to a question takes が."
+      },
+      {
+        "sentence": "お茶、もう一杯いかが [ ? ] か。",
+        "answer": "です",
+        "options": [
+          "です",
+          "ます",
+          "でした",
+          "だ"
+        ],
+        "hint": "Polite offer formula: いかがですか."
+      },
+      {
+        "sentence": "東京の地下鉄はとても便利 [ ? ] す。",
+        "answer": "で",
+        "options": [
+          "で",
+          "なで",
+          "いで",
+          "にで"
+        ],
+        "hint": "な-adjective predicate drops な before です."
+      },
+      {
+        "sentence": "富士山は高い山 [ ? ] す。",
+        "answer": "で",
+        "options": [
+          "で",
+          "なで",
+          "ので",
+          "いで"
+        ],
+        "hint": "Noun predicate ending with です."
+      },
+      {
+        "sentence": "この本はあまり面白く [ ? ] です。",
+        "answer": "ない",
+        "options": [
+          "ない",
+          "ありません",
+          "なかった",
+          "じゃありません"
+        ],
+        "hint": "Negative of い-adjective: 面白くないです."
+      },
+      {
+        "sentence": "桜はきれい [ ? ] 花です。",
+        "answer": "な",
+        "options": [
+          "な",
+          "の",
+          "い",
+          "で"
+        ],
+        "hint": "きれい is a な-adjective; modifying a noun requires な."
+      },
+      {
+        "sentence": "今日は天気がいい [ ? ] すね。",
+        "answer": "で",
+        "options": [
+          "で",
+          "なで",
+          "ので",
+          "にで"
+        ],
+        "hint": "い-adjective predicate ends in です."
+      },
+      {
+        "sentence": "ミラーさんのカバンはどれ [ ? ] すか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "どれ takes ですか: どれですか."
+      },
+      {
+        "sentence": "冷たいジュース [ ? ] ください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of ください takes を."
+      },
+      {
+        "sentence": "ワット先生は親切 [ ? ] 人です。",
+        "answer": "な",
+        "options": [
+          "な",
+          "の",
+          "い",
+          "で"
+        ],
+        "hint": "親切 is a な-adjective modifying 人."
+      },
+      {
+        "sentence": "明日は暇 [ ? ] ありません。",
+        "answer": "じゃ",
+        "options": [
+          "じゃ",
+          "くな",
+          "ではな",
+          "に"
+        ],
+        "hint": "Negative of な-adjective: 暇じゃありません."
+      },
+      {
+        "sentence": "仕事は忙しいです [ ? ]、楽しいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "そして",
+          "から",
+          "ので"
+        ],
+        "hint": "Contrasting busy (-) with enjoyable (+) uses が."
+      },
+      {
+        "sentence": "大学の寮は静か [ ? ]、きれいです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "な",
+          "に",
+          "と"
+        ],
+        "hint": "Connecting な-adjective to another adjective: 静かで."
+      },
+      {
+        "sentence": "日本の車はとても有名 [ ? ] す。",
+        "answer": "で",
+        "options": [
+          "で",
+          "なで",
+          "いで",
+          "にで"
+        ],
+        "hint": "有名 predicate drops な before です."
+      },
+      {
+        "sentence": "もう5時ですね。そろそろ失礼 [ ? ] ます。",
+        "answer": "し",
+        "options": [
+          "し",
+          "しせ",
+          "な",
+          "い"
+        ],
+        "hint": "Departure formula: そろそろ失礼します."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Greeting an acquaintance",
+        "speaker": "タカシ",
+        "prompt": "ミラーさん、こんにちは。お元気ですか。",
+        "options": [
+          {
+            "text": "はい、元気です。タカシさんもお元気ですか。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、元気なです。",
+            "correct": false
+          },
+          {
+            "text": "元気じゃありませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond politely to お元気ですか with はい、元気です and return the question."
+      },
+      {
+        "situation": "Asking for an impression of life in Japan",
+        "speaker": "同僚",
+        "prompt": "日本の生活はどうですか。",
+        "options": [
+          {
+            "text": "忙しいですが、とても面白いです。",
+            "correct": true
+          },
+          {
+            "text": "電車で来ました。",
+            "correct": false
+          },
+          {
+            "text": "静かな町です。",
+            "correct": false
+          }
+        ],
+        "tip": "どうですか asks for an impression; respond with adjective descriptions."
+      },
+      {
+        "situation": "Asking what kind of place a city is",
+        "speaker": "友達",
+        "prompt": "京都はどんな町ですか。",
+        "options": [
+          {
+            "text": "きれいで、静かな町です。",
+            "correct": true
+          },
+          {
+            "text": "とてもきれいです町。",
+            "correct": false
+          },
+          {
+            "text": "京都へ行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer a どんな町ですか question with [Adjective] + 町です."
+      },
+      {
+        "situation": "Offering another beverage",
+        "speaker": "ホスト",
+        "prompt": "お茶、もう一杯いかがですか。",
+        "options": [
+          {
+            "text": "いいえ、もうけっこうです。ごちそうさまでした。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、まだです。",
+            "correct": false
+          },
+          {
+            "text": "はい、けっこうです。",
+            "correct": false
+          }
+        ],
+        "tip": "Decline an offer of more tea politely with 『いいえ、もうけっこうです』."
+      },
+      {
+        "situation": "Departing from someone's home",
+        "speaker": "訪問者",
+        "prompt": "もう9時ですね。そろそろ失礼します。",
+        "options": [
+          {
+            "text": "そうですか。またいらっしゃってくださいね。",
+            "correct": true
+          },
+          {
+            "text": "どうぞお上がりください。",
+            "correct": false
+          },
+          {
+            "text": "ごめんください。",
+            "correct": false
+          }
+        ],
+        "tip": "Host bids farewell with またいらっしゃってください."
+      },
+      {
+        "situation": "Selecting an umbrella in a stand",
+        "speaker": "店員",
+        "prompt": "お客様の傘はどれですか。",
+        "options": [
+          {
+            "text": "あの青い傘です。",
+            "correct": true
+          },
+          {
+            "text": "あの青い傘はどうですか。",
+            "correct": false
+          },
+          {
+            "text": "青い傘がどれです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer どれですか by identifying the specific item (あの青い傘です)."
+      },
+      {
+        "situation": "Asking about university accommodation",
+        "speaker": "先生",
+        "prompt": "大学の寮はどうですか。",
+        "options": [
+          {
+            "text": "新しくて、とても静かです。",
+            "correct": true
+          },
+          {
+            "text": "新しくて、静かなです。",
+            "correct": false
+          },
+          {
+            "text": "新しい町です。",
+            "correct": false
+          }
+        ],
+        "tip": "な-adjectives drop な before です at sentence end (とても静かです)."
+      },
+      {
+        "situation": "Inquiring about weather",
+        "speaker": "友達",
+        "prompt": "今日の天気はどうですか。",
+        "options": [
+          {
+            "text": "あまりよくないです。少し寒いです。",
+            "correct": true
+          },
+          {
+            "text": "あまりいいです。",
+            "correct": false
+          },
+          {
+            "text": "あまりいくないです。",
+            "correct": false
+          }
+        ],
+        "tip": "いい irregular negative is よくないです, and pairs with あまり."
+      },
+      {
+        "situation": "Checking if a guest has acclimated",
+        "speaker": "先輩",
+        "prompt": "新しい仕事に慣れましたか。",
+        "options": [
+          {
+            "text": "ええ、もう慣れましたよ。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、慣れました。",
+            "correct": false
+          },
+          {
+            "text": "はい、慣れませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Confirm adjustment with ええ、もう慣れました."
+      },
+      {
+        "situation": "Complimenting clothing",
+        "speaker": "同僚",
+        "prompt": "素敵なネクタイですね。",
+        "options": [
+          {
+            "text": "ありがとうございます。誕生日に父にもらいました。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、あげました。",
+            "correct": false
+          },
+          {
+            "text": "素敵じゃないでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept a compliment graciously with ありがとうございます and share its story."
+      },
+      {
+        "situation": "Asking about Japanese food",
+        "speaker": "友達",
+        "prompt": "納豆はおいしいですか。",
+        "options": [
+          {
+            "text": "あまりおいしくないですが、体にいいですよ。",
+            "correct": true
+          },
+          {
+            "text": "あまりおいしいです。",
+            "correct": false
+          },
+          {
+            "text": "おいしいじゃありません。",
+            "correct": false
+          }
+        ],
+        "tip": "あまり must pair with negative (おいしくない), and contrast uses が."
+      },
+      {
+        "situation": "Discussing city atmosphere",
+        "speaker": "観光客",
+        "prompt": "東京はどんな所ですか。",
+        "options": [
+          {
+            "text": "にぎやかで、とても便利な町です。",
+            "correct": true
+          },
+          {
+            "text": "にぎやかなで、便利町です。",
+            "correct": false
+          },
+          {
+            "text": "東京はどうですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Join な-adjectives with で, and modify the final noun with な (便利な町)."
+      }
+    ]
+  }
+}

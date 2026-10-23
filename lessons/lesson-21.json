@@ -1,0 +1,2198 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 21,
+    "title": "Opinions, Reported Speech, and Confirmation",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master expressing thoughts and personal conjecture using the plain form with ～と思います, asking for opinions with ～についてどう思いますか, quoting speech directly and indirectly with ～と言います, and seeking confirmation or agreement with ～でしょう (remembering to drop だ for nouns and な-adjectives)."
+  },
+  "vocabulary": [
+    {
+      "id": "omoimasu",
+      "kanji": "思います",
+      "kana": "おもいます",
+      "romaji": "omoimasu",
+      "meaning": "to think; to feel; to consider",
+      "category": "verb",
+      "example": {
+        "kanji": "明日は雨だと思います。",
+        "kana": "あしたは あめだと おもいます。",
+        "translation": "I think it will rain tomorrow."
+      }
+    },
+    {
+      "id": "iimasu",
+      "kanji": "言います",
+      "kana": "いいます",
+      "romaji": "iimasu",
+      "meaning": "to say; to tell",
+      "category": "verb",
+      "example": {
+        "kanji": "何と言いましたか？",
+        "kana": "なんと いいましたか？",
+        "translation": "What did you say?"
+      }
+    },
+    {
+      "id": "kachimasu",
+      "kanji": "勝ちます",
+      "kana": "かちます",
+      "romaji": "kachimasu",
+      "meaning": "to win",
+      "category": "verb",
+      "example": {
+        "kanji": "AがBに勝ちました。",
+        "kana": "Aが Bに かちました。",
+        "translation": "Team A won against Team B."
+      }
+    },
+    {
+      "id": "makemasu",
+      "kanji": "負けます",
+      "kana": "まけます",
+      "romaji": "makemasu",
+      "meaning": "to lose; to be defeated",
+      "category": "verb",
+      "example": {
+        "kanji": "AがBに負けました。",
+        "kana": "Aが Bに まけました。",
+        "translation": "Team A lost to Team B."
+      }
+    },
+    {
+      "id": "yaku-ni-tachimasu",
+      "kanji": "役に立ちます",
+      "kana": "やくにたちます",
+      "romaji": "yaku ni tachimasu",
+      "meaning": "to be useful; to be helpful; to come in handy",
+      "category": "verb",
+      "example": {
+        "kanji": "彼のアドバイスはとても役に立ちました。",
+        "kana": "かれの アドバイスは とても やくにたちました。",
+        "translation": "His advice was very helpful."
+      }
+    },
+    {
+      "id": "arimasu",
+      "kanji": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "meaning": "to be held; to take place; to exist",
+      "category": "verb",
+      "example": {
+        "kanji": "明日、東京でお祭りがあります。",
+        "kana": "あした、とうきょうで おまつりが あります。",
+        "translation": "There will be a festival in Tokyo tomorrow."
+      }
+    },
+    {
+      "id": "ugokimasu",
+      "kanji": "動きます",
+      "kana": "うごきます",
+      "romaji": "ugokimasu",
+      "meaning": "to move; to run; to be in operation",
+      "category": "verb",
+      "example": {
+        "kanji": "動かないでください。あのエスカレーターは動いていません。",
+        "kana": "うごかないで ください。あの エスカレーターは うごいて いません。",
+        "translation": "Please don't move. That escalator isn't running."
+      }
+    },
+    {
+      "id": "yamemasu",
+      "kanji": "辞めます",
+      "kana": "やめます",
+      "romaji": "yamemasu",
+      "meaning": "to quit; to retire from; to stop [a company, etc.]",
+      "category": "verb",
+      "example": {
+        "kanji": "会社を辞めます。",
+        "kana": "かいしゃを やめます。",
+        "translation": "I will quit the company."
+      }
+    },
+    {
+      "id": "ki-o-tsukemasu",
+      "kanji": "気をつけます",
+      "kana": "きをつけます",
+      "romaji": "ki o tsukemasu",
+      "meaning": "to pay attention; to be careful",
+      "category": "verb",
+      "example": {
+        "kanji": "この道は車が多いですから、気をつけてください。",
+        "kana": "この みちは くるまが おおいですから、きを つけて ください。",
+        "translation": "Since there are many cars on this road, please be careful."
+      }
+    },
+    {
+      "id": "ryuugaku",
+      "kanji": "留学",
+      "kana": "りゅうがく",
+      "romaji": "ryuugaku",
+      "meaning": "studying abroad",
+      "category": "noun",
+      "example": {
+        "kanji": "日本に留学しました。",
+        "kana": "にほんに りゅうがくしました。",
+        "translation": "I studied abroad in Japan."
+      }
+    },
+    {
+      "id": "muda",
+      "kanji": "無駄",
+      "kana": "むだ",
+      "romaji": "muda",
+      "meaning": "wasteful; useless; serving no purpose",
+      "category": "adjective",
+      "example": {
+        "kanji": "無駄なものを買わないでください。",
+        "kana": "むだな ものを かわないで ください。",
+        "translation": "Please do not buy useless things."
+      }
+    },
+    {
+      "id": "fuben",
+      "kanji": "不便",
+      "kana": "ふべん",
+      "romaji": "fuben",
+      "meaning": "inconvenient",
+      "category": "adjective",
+      "example": {
+        "kanji": "このカフェはWi-Fiがないから、不便です。",
+        "kana": "この カフェは Wi-Fiが ないから、ふべんです。",
+        "translation": "Because this café does not have Wi-Fi, it is inconvenient."
+      }
+    },
+    {
+      "id": "sugoi",
+      "kanji": "すごい",
+      "kana": "すごい",
+      "romaji": "sugoi",
+      "meaning": "amazing; terrific; extreme (degree)",
+      "category": "adjective",
+      "example": {
+        "kanji": "彼の日本語はすごいです。昨日の台風はすごかったです。",
+        "kana": "かれの にほんごは すごいです。きのうの たいふうは すごかったです。",
+        "translation": "His Japanese is amazing. Yesterday's typhoon was really intense."
+      }
+    },
+    {
+      "id": "hontou",
+      "kanji": "本当",
+      "kana": "ほんとう",
+      "romaji": "hontou",
+      "meaning": "truth; reality",
+      "category": "noun",
+      "example": {
+        "kanji": "これは本当の話です。",
+        "kana": "これは ほんとうの はなしです。",
+        "translation": "This is a true story."
+      }
+    },
+    {
+      "id": "uso",
+      "kanji": "嘘",
+      "kana": "うそ",
+      "romaji": "uso",
+      "meaning": "lie; falsehood",
+      "category": "noun",
+      "example": {
+        "kanji": "嘘をついてはいけません。",
+        "kana": "うそを ついては いけません。",
+        "translation": "You must not tell a lie."
+      }
+    },
+    {
+      "id": "jidousha",
+      "kanji": "自動車",
+      "kana": "じどうしゃ",
+      "romaji": "jidousha",
+      "meaning": "automobile; car",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の自動車産業は世界で有名です。",
+        "kana": "にほんの じどうしゃさんぎょうは せかいで ゆうめいです。",
+        "translation": "The Japanese automobile industry is famous around the world."
+      }
+    },
+    {
+      "id": "koutsuu",
+      "kanji": "交通",
+      "kana": "こうつう",
+      "romaji": "koutsuu",
+      "meaning": "traffic; transportation",
+      "category": "noun",
+      "example": {
+        "kanji": "公共交通機関を使います。このエリアは渋滞が多いです。",
+        "kana": "こうきょうこうつうきかんを つかいます。この エリアは じゅうたいが おおいです。",
+        "translation": "I use public transportation. There are many traffic jams in this area."
+      }
+    },
+    {
+      "id": "bukka",
+      "kanji": "物価",
+      "kana": "ぶっか",
+      "romaji": "bukka",
+      "meaning": "prices (of commodities in general); cost of living",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の物価はアメリカより安いです。",
+        "kana": "にほんの ぶっかは アメリカより やすいです。",
+        "translation": "The cost of living in Japan is cheaper than in the United States."
+      }
+    },
+    {
+      "id": "housou",
+      "kanji": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "meaning": "broadcasting; broadcast",
+      "category": "noun",
+      "example": {
+        "kanji": "試合をテレビで放送します。",
+        "kana": "しあいを テレビで ほうそうします。",
+        "translation": "The match will be broadcast on TV."
+      }
+    },
+    {
+      "id": "nyuusu",
+      "kanji": "ニュース",
+      "kana": "ニュース",
+      "romaji": "nyuusu",
+      "meaning": "news",
+      "category": "noun",
+      "example": {
+        "kanji": "このニュースについてどう思いますか？",
+        "kana": "この ニュースについて どう おもいますか？",
+        "translation": "What do you think about this news?"
+      }
+    },
+    {
+      "id": "anime",
+      "kanji": "アニメ",
+      "kana": "アニメ",
+      "romaji": "anime",
+      "meaning": "animation; anime",
+      "category": "noun",
+      "example": {
+        "kanji": "日本のアニメが好きです。",
+        "kana": "にほんの アニメが すきです。",
+        "translation": "I like Japanese anime."
+      }
+    },
+    {
+      "id": "manga",
+      "kanji": "漫画",
+      "kana": "まんが",
+      "romaji": "manga",
+      "meaning": "comic book; manga",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の漫画を読みます。",
+        "kana": "にほんの まんかを よみます。",
+        "translation": "I read Japanese manga."
+      }
+    },
+    {
+      "id": "tensai",
+      "kanji": "天才",
+      "kana": "てんさい",
+      "romaji": "tensai",
+      "meaning": "genius; natural talent",
+      "category": "noun",
+      "example": {
+        "kanji": "彼女は天才だと思います。",
+        "kana": "かのじょは てんさいだと おもいます。",
+        "translation": "I think she is a genius."
+      }
+    },
+    {
+      "id": "shiai",
+      "kanji": "試合",
+      "kana": "しあい",
+      "romaji": "shiai",
+      "meaning": "game; match",
+      "category": "noun",
+      "example": {
+        "kanji": "日本とアメリカが試合をします。",
+        "kana": "にほんと アメリカが しあいを します。",
+        "translation": "Japan and the United States will play a match."
+      }
+    },
+    {
+      "id": "iken",
+      "kanji": "意見",
+      "kana": "いけん",
+      "romaji": "iken",
+      "meaning": "opinion",
+      "category": "noun",
+      "example": {
+        "kanji": "この問題について、意見がありますか？",
+        "kana": "この もんだいについて、いけんが ありますか？",
+        "translation": "Do you have an opinion on this issue?"
+      }
+    },
+    {
+      "id": "hanashi",
+      "kanji": "話",
+      "kana": "はなし",
+      "romaji": "hanashi",
+      "meaning": "talk; speech; story; conversation",
+      "category": "noun",
+      "example": {
+        "kanji": "仕事の話をしました。",
+        "kana": "しごとの はなしを しました。",
+        "translation": "We talked about work."
+      }
+    },
+    {
+      "id": "chikyuu",
+      "kanji": "地球",
+      "kana": "ちきゅう",
+      "romaji": "chikyuu",
+      "meaning": "the earth; the globe",
+      "category": "noun",
+      "example": {
+        "kanji": "地球は青くて、美しいです。",
+        "kana": "ちきゅうは あおくて、うつくしいです。",
+        "translation": "The earth is blue and beautiful."
+      }
+    },
+    {
+      "id": "tsuki",
+      "kanji": "月",
+      "kana": "つき",
+      "romaji": "tsuki",
+      "meaning": "moon",
+      "category": "noun",
+      "example": {
+        "kanji": "今夜は月がとてもきれいです。",
+        "kana": "こんやは つきが とても きれいです。",
+        "translation": "The moon is very beautiful tonight."
+      }
+    },
+    {
+      "id": "saikin",
+      "kanji": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "meaning": "recently; lately",
+      "category": "adverb",
+      "example": {
+        "kanji": "最近、どうですか？",
+        "kana": "さいきん、どうですか？",
+        "translation": "How have you been recently?"
+      }
+    },
+    {
+      "id": "tabun",
+      "kanji": "たぶん",
+      "kana": "たぶん",
+      "romaji": "tabun",
+      "meaning": "probably; perhaps; maybe",
+      "category": "adverb",
+      "example": {
+        "kanji": "明日は、たぶん晴れです。",
+        "kana": "あしたは、たぶん はれです。",
+        "translation": "Tomorrow is probably going to be sunny."
+      }
+    },
+    {
+      "id": "kitto",
+      "kanji": "きっと",
+      "kana": "きっと",
+      "romaji": "kitto",
+      "meaning": "surely; definitely; almost certainly",
+      "category": "adverb",
+      "example": {
+        "kanji": "私たちのチームはきっと勝ちます。",
+        "kana": "わたしたちの チームは きっと かちます。",
+        "translation": "Our team will surely win."
+      }
+    },
+    {
+      "id": "hontou-ni",
+      "kanji": "本当に",
+      "kana": "ほんとうに",
+      "romaji": "hontou ni",
+      "meaning": "really; truly; indeed",
+      "category": "adverb",
+      "example": {
+        "kanji": "日本旅行は本当に楽しかったです。",
+        "kana": "にほんりょこうは ほんとうに たのしかったです。",
+        "translation": "The trip to Japan was really fun."
+      }
+    },
+    {
+      "id": "sonna-ni",
+      "kanji": "そんなに",
+      "kana": "そんなに",
+      "romaji": "sonna ni",
+      "meaning": "not so; not that much (always used with a negative)",
+      "category": "adverb",
+      "example": {
+        "kanji": "これはそんなに辛くないです。",
+        "kana": "これは そんなに からくないです。",
+        "translation": "This is not that spicy."
+      }
+    },
+    {
+      "id": "ni-tsuite",
+      "kanji": "～について",
+      "kana": "～について",
+      "romaji": "~ ni tsuite",
+      "meaning": "about ～; concerning ～; regarding ～",
+      "category": "expression",
+      "example": {
+        "kanji": "今の仕事について、どう思いますか？",
+        "kana": "いまの しごとについて、どう おもいますか？",
+        "translation": "What do you think about your current job?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "[Plain Form] + と思います [Expressing Thoughts, Opinions, and Conjecture]",
+      "explanation": "To state a personal opinion, guess, or conjecture ('I think that...'), convert the statement into the plain form and attach と思います (と is the quotation particle). Conjugation rules: (1) Verbs: dictionary form (降る), ない-form (降らない), た-form (降った), なかった-form (降らなかった). (2) い-adjectives: simply drop です (寒いです → 寒い, 寒くないです → 寒くない, 寒かったです → 寒かった). (3) な-adjectives and Nouns: add だ for non-past affirmative (雨だ, 簡単だ), じゃない for negative (雨じゃない), だった for past (雨だった), じゃなかった for past negative. KEY TEACHER TIPS: (a) '私は' is almost always omitted because ～と思います inherently expresses the speaker's own perspective. (b) You CANNOT say 『❌ 彼は明日雨が降ると思います』 to report someone else's thinking; that sounds very unnatural in Japanese. (c) Negative conjecture nuance: In English, people say 'I don't think he will come.' In Japanese, negating the sub-clause before と (『鈴木さんは来ないと思います』) is far more natural and common than negating the main verb (『鈴木さんは来ると思いません』).",
+      "examples": [
+        {
+          "kanji": "明日は雨が降ると思います。",
+          "kana": "あしたは あめが ふると おもいます。",
+          "translation": "I think it will rain tomorrow."
+        },
+        {
+          "kanji": "鈴木さんは来ないと思います。",
+          "kana": "すずきさんは こないと おもいます。",
+          "translation": "I think Mr. Suzuki will not come (I don't think he will come)."
+        },
+        {
+          "kanji": "明日は寒いと思います。",
+          "kana": "あしたは さむいと おもいます。",
+          "translation": "I think it will be cold tomorrow."
+        },
+        {
+          "kanji": "試験は難しくなかったと思います。",
+          "kana": "しけんは むずかしくなかったと おもいます。",
+          "translation": "I think the exam was not difficult."
+        },
+        {
+          "kanji": "試験は簡単だったと思います。",
+          "kana": "しけんは かんたんだったと おもいます。",
+          "translation": "I think the exam was easy."
+        },
+        {
+          "kanji": "彼女は天才だと思います。",
+          "kana": "かのじょは てんさいだと おもいます。",
+          "translation": "I think she is a genius."
+        },
+        {
+          "kanji": "日本は物価が高いと思います。",
+          "kana": "にほんは ぶっかが たかいと おもいます。",
+          "translation": "I think prices in Japan are high."
+        }
+      ]
+    },
+    {
+      "pattern": "[Plain Form] + と思いますか？ [Asking Someone's Opinion or Conjecture]",
+      "explanation": "To ask the listener's conjecture or opinion ('Do you think that...?'), add the question particle か to と思います. You can specify the listener's name (〇〇さんは明日雨が降ると思いますか？), but it is usually omitted when speaking face-to-face. For information questions, the interrogative word (who, where, how much, etc.) stays inside the plain-form sub-clause.",
+      "examples": [
+        {
+          "kanji": "明日雨が降ると思いますか？",
+          "kana": "あした あめが ふると おもいますか？",
+          "translation": "Do you think it will rain tomorrow?"
+        },
+        {
+          "kanji": "鈴木さんは帰ったと思いますか？",
+          "kana": "すずきさんは かえったと おもいますか？",
+          "translation": "Do you think Mr. Suzuki went home?"
+        },
+        {
+          "kanji": "鈴木さんはどこに行ったと思いますか？",
+          "kana": "すずきさんは どこに いったと おもいますか？",
+          "translation": "Where do you think Mr. Suzuki went?"
+        },
+        {
+          "kanji": "AとBとどちらがいいと思いますか？",
+          "kana": "Aと Bと どちらが いいと おもいますか？",
+          "translation": "Which do you think is better, A or B?"
+        },
+        {
+          "kanji": "あの人は誰だと思いますか？",
+          "kana": "あの ひとは だれだと おもいますか？",
+          "translation": "Who do you think that person is?"
+        },
+        {
+          "kanji": "これはいくらだったと思いますか？",
+          "kana": "これは いくらだったと おもいますか？",
+          "translation": "How much do you think this was?"
+        }
+      ]
+    },
+    {
+      "pattern": "Noun について どう 思いますか？ [Asking 'What do you think about ~?']",
+      "explanation": "To ask for someone's general impression, thoughts, or evaluation about a specific topic, use 『[Topic] について どう 思いますか？』. CRITICAL TEACHER TIP FROM TAKASHI: In Japanese, you ask 'how' (どう), not 'what' (何). Furthermore, when using the question word どう, the quotation particle と is completely DROPPED! It is strictly 『どう 思いますか？』, NEVER 『❌ どうと思いますか』.",
+      "examples": [
+        {
+          "kanji": "新しいレストランについてどう思いますか？",
+          "kana": "あたらしい レストランについて どう おもいますか？",
+          "translation": "What do you think about the new restaurant? (Answer: 美味しくて、そんなに高くないと思います。)"
+        },
+        {
+          "kanji": "留学についてどう思いますか？",
+          "kana": "りゅうがくについて どう おもいますか？",
+          "translation": "What do you think about studying abroad? (Answer: いつかしたいと思います。)"
+        },
+        {
+          "kanji": "このニュースについてどう思いますか？",
+          "kana": "この ニュースについて どう おもいますか？",
+          "translation": "What do you think about this news?"
+        },
+        {
+          "kanji": "日本の交通についてどう思いますか？",
+          "kana": "にほんの こうつうについて どう おもいますか？",
+          "translation": "What do you think about transportation in Japan? (Answer: 便利だと思います。)"
+        },
+        {
+          "kanji": "今の仕事についてどう思いますか？",
+          "kana": "いまの しごとについて どう おもいますか？",
+          "translation": "What do you think about your current job?"
+        }
+      ]
+    },
+    {
+      "pattern": "「Direct Quote」と言いました vs. [Plain Form] + と言いました [Reporting Speech]",
+      "explanation": "言います (to say) is used to report speech. There are two quotation methods: (1) Direct Quotation: Repeat the speaker's exact spoken words inside Japanese quotation marks 『「……」と言いました』 without changing politeness or verb forms. (2) Indirect Quotation: Paraphrase the message by converting the predicate into the plain form before adding と言いました. Note: If the speaker originally spoke in casual plain style, both methods will look virtually identical. (Takashi's note: In everyday natural speech, 『～と言っていました』 is often used to pass along a message; that will be taught in Lesson 33, while Lesson 21 focuses on と言いました).",
+      "examples": [
+        {
+          "kanji": "佐藤さんは「来年日本に行きます」と言いました。",
+          "kana": "さとうさんは「らいねん にほんに いきます」と いいました。",
+          "translation": "Mr. Sato said, 'I will go to Japan next year.' (Direct Quotation)"
+        },
+        {
+          "kanji": "佐藤さんは来年日本に行くと言いました。",
+          "kana": "さとうさんは らいねん にほんに いくと いいました。",
+          "translation": "Mr. Sato said that he will go to Japan next year. (Indirect Quotation)"
+        },
+        {
+          "kanji": "佐藤さんはお寿司が好きじゃないと言いました。",
+          "kana": "さとうさんは おすしが すきじゃないと いいました。",
+          "translation": "Ms. Sato said that she does not like sushi."
+        },
+        {
+          "kanji": "日本人は食べる前に「いただきます」と言います。",
+          "kana": "にほんじんは たべるまえに「いただきます」と いいます。",
+          "translation": "Japanese people say 'Itadakimasu' before eating."
+        },
+        {
+          "kanji": "田中さんは明日会社を休むと言いました。",
+          "kana": "たなかさんは あした かいしゃを やすむと いいました。",
+          "translation": "Mr. Tanaka said he will take tomorrow off from work."
+        }
+      ]
+    },
+    {
+      "pattern": "何と言いましたか？ [Asking 'What did you / they say?']",
+      "explanation": "To ask what someone said, use 何と言いましたか (なん と いいましたか). Remember that the quotation particle と is obligatory here (何と, literally 'quoted as what').",
+      "examples": [
+        {
+          "kanji": "何と言いましたか？",
+          "kana": "なんと いいましたか？",
+          "translation": "What did you say?"
+        },
+        {
+          "kanji": "先生は今何と言いましたか？",
+          "kana": "せんせいは いま なんと いいましたか？",
+          "translation": "What did the teacher say just now?"
+        },
+        {
+          "kanji": "ミラーさんは電話で何と言いましたか？",
+          "kana": "ミラーさんは でんわで なんと いいましたか？",
+          "translation": "What did Mr. Miller say on the phone?"
+        }
+      ]
+    },
+    {
+      "pattern": "[Plain Form] + でしょう？ [Seeking Agreement & Confirmation: '..., right?']",
+      "explanation": "Attached to a sentence in plain form with rising intonation, でしょう？ functions like a tag question ('..., right?' / '..., isn't it?'). Nuance & Usage: (1) It seeks agreement or confirmation from the listener. (2) It assumes the listener will answer 'Yes' (nuance of 'Of course you agree, right?'). (3) Tone warning: It can sound slightly pushy if used carelessly. (4) Social status: It is a casual expression, so it is NOT commonly used with people of higher status or superiors. CRITICAL EXCEPTION TAUGHT BY TAKASHI: Verbs and い-adjectives attach directly to their plain forms (行くでしょう？, 暑かったでしょう？). However, for Nouns and な-adjectives, the non-past affirmative copula だ ALWAYS DROPS! ❌ 嘘だでしょう → ⭕ 嘘でしょう？ / ❌ 明日だでしょう → ⭕ 明日でしょう？.",
+      "examples": [
+        {
+          "kanji": "ハワイは暑かったでしょう？",
+          "kana": "ハワイは あつかったでしょう？",
+          "translation": "Hawaii was hot, wasn't it?"
+        },
+        {
+          "kanji": "今夜パーティーに行くでしょう？",
+          "kana": "こんや パーティーに いくでしょう？",
+          "translation": "You're going to the party tonight, right?"
+        },
+        {
+          "kanji": "あのレストランは高かったでしょう？",
+          "kana": "あの レストランは たかかったでしょう？",
+          "translation": "That restaurant was expensive, wasn't it?"
+        },
+        {
+          "kanji": "運転ができるでしょう？",
+          "kana": "うんてんが できるでしょう？",
+          "translation": "You can drive, right?"
+        },
+        {
+          "kanji": "日本に行ったことがないでしょう？",
+          "kana": "にほんに いったことが ないでしょう？",
+          "translation": "You have never been to Japan, right?"
+        },
+        {
+          "kanji": "富士山はきれいだったでしょう？",
+          "kana": "ふじさんは きれいだったでしょう？",
+          "translation": "Mt. Fuji was beautiful, wasn't it?"
+        },
+        {
+          "kanji": "試験は明日でしょう？",
+          "kana": "しけんは あしたでしょう？",
+          "translation": "The exam is tomorrow, right? (だ dropped!)"
+        },
+        {
+          "kanji": "嘘でしょう？",
+          "kana": "うそでしょう？",
+          "translation": "That's a lie, right? / You're kidding, right? (だ dropped!)"
+        },
+        {
+          "kanji": "お寿司が好きじゃないでしょう？",
+          "kana": "おすしが すきじゃないでしょう？",
+          "translation": "You don't like sushi, right?"
+        }
+      ]
+    },
+    {
+      "pattern": "たぶん vs. きっと [Adverbs of Probability with Conjecture]",
+      "explanation": "Both adverbs are commonly paired with ～と思います or ～でしょう to convey likelihood. (1) たぶん (probably / maybe) expresses moderate probability (~50–70%). Example: 明日はたぶん晴れだと思います. (2) きっと (surely / definitely) expresses strong certainty or conviction (~90%+). Example: 私たちのチームはきっと勝ちます.",
+      "examples": [
+        {
+          "kanji": "明日はたぶん雨が降ると思います。",
+          "kana": "あしたは たぶん あめが ふると おもいます。",
+          "translation": "I think it will probably rain tomorrow."
+        },
+        {
+          "kanji": "明日はたぶん晴れでしょう。",
+          "kana": "あしたは たぶん はれでしょう。",
+          "translation": "Tomorrow will probably be sunny."
+        },
+        {
+          "kanji": "私たちのチームはきっと勝ちます。",
+          "kana": "わたしたちの チームは きっと かちます。",
+          "translation": "Our team will surely win."
+        },
+        {
+          "kanji": "鈴木さんはきっとパーティーに来ると思います。",
+          "kana": "すずきさんは きっと パーティーに くると おもいます。",
+          "translation": "I think Mr. Suzuki will surely come to the party."
+        }
+      ]
+    },
+    {
+      "pattern": "そんなに + Negative [Expressing 'Not so / Not that']",
+      "explanation": "そんなに is an adverb modifying adjectives or verbs in their negative forms to mean 'not so...', 'not that...', or 'not particularly...'. It is frequently used when expressing balanced, moderate personal opinions with ～と思います.",
+      "examples": [
+        {
+          "kanji": "これはそんなに辛くないです。",
+          "kana": "これは そんなに からくないです。",
+          "translation": "This is not that spicy."
+        },
+        {
+          "kanji": "美味しくて、そんなに高くないと思います。",
+          "kana": "おいしくて、そんなに たかくないと おもいます。",
+          "translation": "I think it is delicious and not that expensive."
+        },
+        {
+          "kanji": "日本語はそんなに難しくないと思います。",
+          "kana": "にほんごは そんなに むずかしくないと おもいます。",
+          "translation": "I think Japanese is not that difficult."
+        },
+        {
+          "kanji": "最近そんなに忙しくないです。",
+          "kana": "さいきん そんなに いそがしくないです。",
+          "translation": "I haven't been that busy recently."
+        }
+      ]
+    },
+    {
+      "pattern": "Common Collocations & Vocabulary Usage Alerts [Takashi's Video Tips]",
+      "explanation": "Special vocabulary notes highlighted by Takashi: (1) 交通 (traffic/transportation): To express 'Traffic is bad in this area,' do NOT say ❌『このエリアは交通が悪いです』. Instead say ⭕『このエリアは渋滞が多いです』 (There are many traffic jams). (2) アニメ (anime) is simply the shortened form of アニメーション (animation). (3) 役に立ちます (to be useful) takes に for the function/role (e.g. 仕事の役に立ちます). (4) 嘘をつきます (to tell a lie) uses the verb つきます.",
+      "examples": [
+        {
+          "kanji": "このエリアは渋滞が多いですから、気をつけてください。",
+          "kana": "この エリアは じゅうたいが おおいですから、きを つけて ください。",
+          "translation": "There are many traffic jams in this area, so please be careful."
+        },
+        {
+          "kanji": "彼のアドバイスは仕事の役に立ちました。",
+          "kana": "かれの アドバイスは しごとの やくにたちました。",
+          "translation": "His advice was useful for work."
+        },
+        {
+          "kanji": "嘘をついてはいけませんよ。",
+          "kana": "うそを ついては いけませんよ。",
+          "translation": "You must not tell lies."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "新しいレストランと週末の予定",
+    "lines": [
+      {
+        "speaker": "たかし",
+        "kanji": "ミラーさん、駅の前にできた新しいレストランについてどう思いますか？",
+        "kana": "ミラーさん、えきの まえに できた あたらしい レストランについて どう おもいますか？"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "昨日行きましたが、料理が美味しくて、そんなに高くないと思いますよ。",
+        "kana": "きのう いきましたが、りょうりが おいしくて、そんなに たかくないと おもいますよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "そうですか。あのレストランはいつも人が多いでしょう？",
+        "kana": "そうですか。あの レストランは いつも ひとが おおいでしょう？"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、とても人気がありますね。佐藤さんも一緒に行きたいと言いましたよ。",
+        "kana": "ええ、とても にんきが ありますね。さとうさんも いっしょに いきたいと いいましたよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "でも、佐藤さんはお寿司が好きじゃないでしょう？あの店はお魚料理が多いですよ。",
+        "kana": "でも、さとうさんは おすしが すきじゃないでしょう？あの みせは おさかなりょうりが おおいですよ。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "あ、本当ですか！嘘でしょう？佐藤さんは昨日「魚が好きだ」と言いましたよ。",
+        "kana": "あ、ほんとうですか！うそでしょう？さとうさんは きのう「さかなが すきだ」と いいましたよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "あはは、生のお魚はだめですが、焼いた魚は大丈夫だと思います。",
+        "kana": "あはは、なまの おさかなは だめですが、やいた さかなは だいじょうぶだと おもいます。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "なるほど。ところで、明日は東京でお祭りがありますね。たかしさんも行きますか？",
+        "kana": "なるほど。ところで、あしたは とうきょうで おまつりが ありますね。たかしさんも いきますか？"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "明日はたぶん雨が降ると思いますから、家で日本のアニメを見ます。",
+        "kana": "あしたは たぶん あめが ふると おもいますから、いえで にほんの アニメを みます。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "天気予報のニュースを見ましたか？明日はきっと晴れると言いましたよ！",
+        "kana": "てんきよほうの ニュースを みましたか？あしたは きっと はれると いいましたよ！"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "えっ、本当ですか？じゃあ、車で行きましょう。でも道は渋滞が多いですから、気をつけましょうね。",
+        "kana": "えっ、ほんとうですか？じゃあ、くるまで いきましょう。でも みちは じゅうたいが おおいですから、きを つけましょうね。"
+      }
+    ],
+    "translation": "Takashi asks Mr. Miller what he thinks of the new restaurant in front of the station. Miller says he went yesterday and thinks the food is delicious and not that expensive. Takashi asks, 'That restaurant is always crowded, right?' and Miller confirms it is very popular, adding that Ms. Sato said she also wants to go together. Takashi points out that Ms. Sato does not like sushi and asks whether she really wants to go since the restaurant serves a lot of fish. Miller is surprised and exclaims, 'You're kidding, right? Yesterday she said that she likes fish!' Takashi laughs and explains that raw fish is a problem for her, but cooked fish is fine. Miller then mentions tomorrow's festival in Tokyo and asks if Takashi is going. Takashi replies that he will probably stay home and watch anime because he thinks it will rain. However, Miller points out that the news forecast said it will surely be sunny tomorrow. Takashi decides to go by car after all, reminding Miller to be careful because there are many traffic jams.",
+    "questions": [
+      {
+        "question": "What is Miller's opinion of the new restaurant?",
+        "options": [
+          "It is expensive and inconvenient.",
+          "The food is delicious and not that expensive.",
+          "The food is terrible and there are no customers.",
+          "It is a useless restaurant."
+        ],
+        "answer": 1,
+        "explanation": "Miller says: 料理が美味しくて、そんなに高くないと思いますよ (I think the food is delicious and not that expensive)."
+      },
+      {
+        "question": "Why does Takashi say 『あのレストランはいつも人が多いでしょう？』?",
+        "options": [
+          "He is seeking confirmation, assuming Miller will agree.",
+          "He is ordering Miller to make a reservation.",
+          "He is quoting what the teacher said.",
+          "He is explaining the recipe of the food."
+        ],
+        "answer": 0,
+        "explanation": "～でしょう？ with rising intonation is used to seek confirmation, strongly assuming the listener will say 'Yes'."
+      },
+      {
+        "question": "What did Ms. Sato say yesterday according to Miller?",
+        "options": [
+          "She said that she quit her company.",
+          "She said, 'I like fish.'",
+          "She said that she will never eat at the restaurant.",
+          "She said that she is studying abroad."
+        ],
+        "answer": 1,
+        "explanation": "Miller directly quotes Sato: 昨日「魚が好きだ」と言いましたよ."
+      },
+      {
+        "question": "In 『嘘でしょう？』, why is だ omitted?",
+        "options": [
+          "It is a mistake by Miller.",
+          "Before でしょう, the plain affirmative copula だ of nouns and な-adjectives always drops.",
+          "嘘 is an い-adjective.",
+          "Because it is an indirect quotation."
+        ],
+        "answer": 1,
+        "explanation": "As taught in Lesson 21, for nouns and な-adjectives, the plain affirmative 'だ' always drops before でしょう (嘘でしょう, never 嘘だでしょう)."
+      },
+      {
+        "question": "Why did Takashi initially think he would stay home tomorrow?",
+        "options": [
+          "He has to study for an exam.",
+          "He thinks it will probably rain.",
+          "His car is broken.",
+          "He wants to quit his company."
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: 明日はたぶん雨が降ると思いますから (Because I think it will probably rain tomorrow)."
+      },
+      {
+        "question": "What did the news weather forecast say according to Miller?",
+        "options": [
+          "It said it will surely be sunny tomorrow.",
+          "It said there will be a severe typhoon.",
+          "It said the festival is cancelled.",
+          "It said prices are rising."
+        ],
+        "answer": 0,
+        "explanation": "Miller reports: 明日はきっと晴れると言いましたよ (It said it will surely be sunny tomorrow)."
+      },
+      {
+        "question": "Which natural phrase did Takashi use to describe the road traffic?",
+        "options": [
+          "道は交通が悪いです",
+          "道は渋滞が多いです",
+          "道は不便な動きます",
+          "道は無駄です"
+        ],
+        "answer": 1,
+        "explanation": "Takashi's tip highlighted that Japanese speakers do not say 交通が悪い for traffic jams; they say 渋滞が多い (There are many traffic jams)."
+      },
+      {
+        "question": "In 『新しいレストランについてどう思いますか？』, why is と NOT attached to どう?",
+        "options": [
+          "When asking an opinion using the question word どう, the quotation particle と is omitted.",
+          "Because どう is an irregular noun.",
+          "Because Takashi is speaking to a superior.",
+          "Because it is a past tense sentence."
+        ],
+        "answer": 0,
+        "explanation": "Takashi explicitly emphasized that with the question word どう, the particle と is not used: say 『どう思いますか』, not 『どうと思いますか』."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct plain form to say: 'I think it will rain tomorrow.'",
+      "prompt": {
+        "kanji": "明日は雨が___と思います。",
+        "kana": "あしたは あめが ___と おもいます。"
+      },
+      "options": [
+        "降る",
+        "降ります",
+        "降って",
+        "降りる"
+      ],
+      "answer": 0,
+      "explanation": "Before と思います, verbs must be in plain form. The non-past affirmative plain form of 降ります is the dictionary form 降る (Group 1)."
+    },
+    {
+      "question": "Choose the most natural way to express: 'I don't think Mr. Suzuki will come.'",
+      "prompt": {
+        "kanji": "鈴木さんは___と思います。",
+        "kana": "すずきさんは ___と おもいます。"
+      },
+      "options": [
+        "来ない",
+        "来ません",
+        "来る",
+        "来なかった"
+      ],
+      "answer": 0,
+      "explanation": "In Japanese, negative conjecture is most naturally expressed by negating the predicate inside the sub-clause: 来ないと思います (Group 3 nai-form of 来ます)."
+    },
+    {
+      "question": "Choose the correct form to say: 'I think it will be cold tomorrow.'",
+      "prompt": {
+        "kanji": "明日は___と思います。",
+        "kana": "あしたは ___と おもいます。"
+      },
+      "options": [
+        "寒い",
+        "寒いです",
+        "寒くだ",
+        "寒くて"
+      ],
+      "answer": 0,
+      "explanation": "For い-adjectives, the plain form simply drops です: 寒いです → 寒い."
+    },
+    {
+      "question": "Choose the correct form to say: 'I think the exam was not difficult.'",
+      "prompt": {
+        "kanji": "試験は___と思います。",
+        "kana": "しけんは ___と おもいます。"
+      },
+      "options": [
+        "難しくなかった",
+        "難しくなかったです",
+        "難しいじゃない",
+        "難しくないでした"
+      ],
+      "answer": 0,
+      "explanation": "The past negative plain form of 難しい is 難しくなかった (drop です)."
+    },
+    {
+      "question": "Choose the correct form to say: 'I think the exam was easy.'",
+      "prompt": {
+        "kanji": "試験は___と思います。",
+        "kana": "しけんは ___と おもいます。"
+      },
+      "options": [
+        "簡単だった",
+        "簡単でした",
+        "簡単だ",
+        "簡単かった"
+      ],
+      "answer": 0,
+      "explanation": "The past affirmative plain form of a な-adjective (簡単) is 簡単だった."
+    },
+    {
+      "question": "Choose the correct form: 'Who do you think that person is?'",
+      "prompt": {
+        "kanji": "あの人は___と思いますか？",
+        "kana": "あの ひとは ___と おもいますか？"
+      },
+      "options": [
+        "誰だ",
+        "誰です",
+        "誰で",
+        "誰"
+      ],
+      "answer": 0,
+      "explanation": "Nouns in the non-past affirmative plain form take だ before と思います: 誰だと思いますか？"
+    },
+    {
+      "question": "Choose the correct way to ask: 'What do you think about the new restaurant?'",
+      "prompt": {
+        "kanji": "新しいレストランについて___思いますか？",
+        "kana": "あたらしい レストランについて ___おもいますか？"
+      },
+      "options": [
+        "どう",
+        "どうと",
+        "何と",
+        "何"
+      ],
+      "answer": 0,
+      "explanation": "Japanese asks 'how' (どう) rather than 'what'. When using どう, the particle と is omitted: どう思いますか？"
+    },
+    {
+      "question": "Choose the correct indirect quotation: 'Mr. Sato said that he will go to Japan next year.'",
+      "prompt": {
+        "kanji": "佐藤さんは来年日本に___と言いました。",
+        "kana": "さとうさんは らいねん にほんに ___と いいました。"
+      },
+      "options": [
+        "行く",
+        "行きます",
+        "行って",
+        "行った"
+      ],
+      "answer": 0,
+      "explanation": "In indirect reporting, the quoted verb is changed to its plain form: 行きます → 行く."
+    },
+    {
+      "question": "Choose the correct sentence to ask: 'What did you say?'",
+      "options": [
+        "何と言いましたか？",
+        "どう言いましたか？",
+        "何と言いますか？",
+        "何に言いましたか？"
+      ],
+      "answer": 0,
+      "explanation": "何と言いましたか？ (Nan to iimashita ka?) correctly uses the quotation particle と."
+    },
+    {
+      "question": "Choose the correct form: 'Hawaii was hot, wasn't it?'",
+      "prompt": {
+        "kanji": "ハワイは___でしょう？",
+        "kana": "ハワイは ___でしょう？"
+      },
+      "options": [
+        "暑かった",
+        "暑かったです",
+        "暑いだった",
+        "暑いでした"
+      ],
+      "answer": 0,
+      "explanation": "For い-adjectives, attach the plain past form (暑かった) directly to でしょう."
+    },
+    {
+      "question": "Choose the correct confirmation sentence: 'That's a lie, right? / You're kidding, right?'",
+      "options": [
+        "嘘でしょう？",
+        "嘘だでしょう？",
+        "嘘ですでしょう？",
+        "嘘だったでしょう？"
+      ],
+      "answer": 0,
+      "explanation": "Takashi emphasized that for nouns and な-adjectives, the plain copula だ ALWAYS drops before でしょう (嘘でしょう？)."
+    },
+    {
+      "question": "Choose the correct confirmation sentence: 'The exam is tomorrow, right?'",
+      "options": [
+        "試験は明日でしょう？",
+        "試験は明日だでしょう？",
+        "試験は明日ですでしょう？",
+        "試験は明日にでしょう？"
+      ],
+      "answer": 0,
+      "explanation": "Nouns drop だ before でしょう: 明日でしょう？"
+    },
+    {
+      "question": "Choose the correct form: 'Mt. Fuji was beautiful, wasn't it?'",
+      "prompt": {
+        "kanji": "富士山は___でしょう？",
+        "kana": "ふじさんは ___でしょう？"
+      },
+      "options": [
+        "きれいだった",
+        "きれいでした",
+        "きれいだ",
+        "きれいかった"
+      ],
+      "answer": 0,
+      "explanation": "Past affirmative plain form of a な-adjective is 綺麗だった."
+    },
+    {
+      "question": "Which sentence is UNNATURAL according to Japanese grammar rules?",
+      "options": [
+        "彼は明日雨が降ると思います。",
+        "私は明日雨が降ると思います。",
+        "明日は雨が降ると思います。",
+        "明日雨が降ると思いますか？"
+      ],
+      "answer": 0,
+      "explanation": "～と思います expresses the speaker's own thoughts. Saying 彼は～と思います to state someone else's conjecture is unnatural in Japanese."
+    },
+    {
+      "question": "Choose the correct adverb expressing strong certainty (~90%+): 'Our team will surely win.'",
+      "prompt": {
+        "kanji": "私たちのチームは___勝ちます。",
+        "kana": "わたしたちの チームは ___かちます。"
+      },
+      "options": [
+        "きっと",
+        "たぶん",
+        "そんなに",
+        "あまり"
+      ],
+      "answer": 0,
+      "explanation": "きっと expresses strong certainty or confidence ('surely / definitely'). たぶん means 'probably / maybe'."
+    },
+    {
+      "question": "Choose the correct adverb to say: 'This is not that spicy.'",
+      "prompt": {
+        "kanji": "これは___辛くないです。",
+        "kana": "これは ___からくないです。"
+      },
+      "options": [
+        "そんなに",
+        "きっと",
+        "本当に",
+        "たぶん"
+      ],
+      "answer": 0,
+      "explanation": "そんなに pairs with negative predicates to mean 'not so / not that'."
+    },
+    {
+      "question": "What is the natural Japanese expression for 'There are a lot of traffic jams in this area'?",
+      "options": [
+        "このエリアは渋滞が多いです。",
+        "このエリアは交通が悪いです。",
+        "このエリアは交通が不便です。",
+        "このエリアは渋滞が低いです。"
+      ],
+      "answer": 0,
+      "explanation": "As taught by Takashi, 交通が悪い is unnatural for bad road traffic; use 渋滞が多い (There are many traffic jams)."
+    },
+    {
+      "question": "What is the meaning of 役に立ちます (やくにたちます)?",
+      "options": [
+        "to be useful / helpful",
+        "to quit a job",
+        "to lose a match",
+        "to tell a lie"
+      ],
+      "answer": 0,
+      "explanation": "役に立ちます means to be useful, helpful, or come in handy."
+    },
+    {
+      "question": "Choose the correct expression: 'to tell a lie'.",
+      "options": [
+        "嘘をつきます",
+        "嘘を言います",
+        "嘘を話します",
+        "嘘を立ちます"
+      ],
+      "answer": 0,
+      "explanation": "The set phrase for telling a lie is 嘘をつきます (うそをつきます)."
+    },
+    {
+      "question": "Choose the correct plain form: 'Do you think Mr. Suzuki went home?'",
+      "prompt": {
+        "kanji": "鈴木さんは___と思いますか？",
+        "kana": "すずきさんは ___と おもいますか？"
+      },
+      "options": [
+        "帰った",
+        "帰りました",
+        "帰る",
+        "帰って"
+      ],
+      "answer": 0,
+      "explanation": "Past affirmative plain form of 帰ります is 帰った (Group 1: り → った)."
+    },
+    {
+      "question": "Choose the correct word: 'Prices in Japan are cheaper than in the United States.'",
+      "prompt": {
+        "kanji": "日本の___はアメリカより安いです。",
+        "kana": "にほんの ___は アメリカより やすいです。"
+      },
+      "options": [
+        "物価",
+        "交通",
+        "意見",
+        "試合"
+      ],
+      "answer": 0,
+      "explanation": "物価 (ぶっか) refers to commodity prices or the cost of living."
+    },
+    {
+      "question": "Choose the correct response: 'What do you think about studying abroad?' — 'I think I want to do it someday.'",
+      "prompt": {
+        "kanji": "いつか___と思います。",
+        "kana": "いつか ___と おもいます。"
+      },
+      "options": [
+        "したい",
+        "します",
+        "して",
+        "した"
+      ],
+      "answer": 0,
+      "explanation": "The plain form of the desire ending したいです is したい (drop です)."
+    },
+    {
+      "question": "Choose the correct verb: 'Team A won against Team B.'",
+      "prompt": {
+        "kanji": "AがBに___。",
+        "kana": "Aが Bに ___。"
+      },
+      "options": [
+        "勝ちました",
+        "負けました",
+        "辞めました",
+        "動きました"
+      ],
+      "answer": 0,
+      "explanation": "AがBに勝ちました = Team A won against Team B."
+    },
+    {
+      "question": "Choose the correct verb: 'Team A lost to Team B.'",
+      "prompt": {
+        "kanji": "AがBに___。",
+        "kana": "Aが Bに ___。"
+      },
+      "options": [
+        "負けました",
+        "勝ちました",
+        "言いました",
+        "立ちました"
+      ],
+      "answer": 0,
+      "explanation": "AがBに負けました = Team A lost to Team B."
+    },
+    {
+      "question": "Choose the correct phrase: 'Japanese people say 'Itadakimasu' before eating.'",
+      "options": [
+        "日本人は食べる前に「いただきます」と言います。",
+        "日本人は食べる前に「いただきます」と思います。",
+        "日本人は食べる前に「いただきます」と話します。",
+        "日本人は食べる前に「いただきます」でしょう。"
+      ],
+      "answer": 0,
+      "explanation": "Direct quotation uses 「...」と言います."
+    },
+    {
+      "question": "Choose the correct confirmation sentence: 'You can drive, right?'",
+      "prompt": {
+        "kanji": "運転が___でしょう？",
+        "kana": "うんてんが ___でしょう？"
+      },
+      "options": [
+        "できる",
+        "できます",
+        "できた",
+        "できて"
+      ],
+      "answer": 0,
+      "explanation": "The plain non-past form of できます is できる."
+    },
+    {
+      "question": "Choose the correct confirmation sentence: 'You have never been to Japan, right?'",
+      "prompt": {
+        "kanji": "日本に行ったことが___でしょう？",
+        "kana": "にほんに いったことが ___でしょう？"
+      },
+      "options": [
+        "ない",
+        "ありません",
+        "なかった",
+        "ある"
+      ],
+      "answer": 0,
+      "explanation": "The plain form of ありません is ない: 行ったことがないでしょう？"
+    },
+    {
+      "question": "Which Japanese particle marks the topic of discussion in 'about X'?",
+      "prompt": {
+        "kanji": "今の仕事___ついて、どう思いますか？",
+        "kana": "いまの しごと___ついて、どう おもいますか？"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "The pattern is [Noun] + について (about / regarding)."
+    },
+    {
+      "question": "Why is でしょう NOT commonly used when speaking to a company president or teacher?",
+      "options": [
+        "Because it is a casual tag question that assumes agreement and can sound pushy to superiors.",
+        "Because it is an ancient archaic grammar form.",
+        "Because superiors only understand English.",
+        "Because it can only be used with children."
+      ],
+      "answer": 0,
+      "explanation": "でしょう？ is casual and carries the presumption that the listener will agree, making it inappropriate toward superiors."
+    },
+    {
+      "question": "Choose the correct sentence: 'I think that restaurant is delicious and not that expensive.'",
+      "options": [
+        "美味しくて、そんなに高くないと思います。",
+        "美味しいで、そんなに高くないと思います。",
+        "美味しくて、そんなに高くないだと思われます。",
+        "美味しいと、そんなに高くありませんと思います。"
+      ],
+      "answer": 0,
+      "explanation": "美味しくて connects adjectives with the same polarity, followed by the plain negative 高くない + と思います."
+    }
+  ],
+  "writing": {
+    "title": "Expressing Opinions, Reporting News, and Seeking Confirmation",
+    "prompt": "Write 6–8 sentences in Japanese incorporating the core patterns of Lesson 21. (1) State your opinion about living in Japan, your town, or Japanese food using 『～と思います』 (e.g. 物価が高いと思います, 食べ物が美味しいと思います). (2) Use 『そんなに』 with a negative adjective (e.g. そんなに高くない, そんなに辛くない). (3) Ask what someone thinks about a topic using 『～についてどう思いますか？』. (4) Report something a friend or news broadcast said using 『～と言いました』. (5) Use 『～でしょう？』 to seek agreement about an experience or fact, remembering to drop だ for nouns and な-adjectives (e.g. 暑かったでしょう, きれいだったでしょう, 明日でしょう).",
+    "placeholder": "日本の生活についてどう思いますか？\n私は日本の ______ は ______ と思います。\n物価は ______ と思います。\n昨日、友達の ______ さんは「______」と言いました。\n明日は ______ でしょう？",
+    "modelAnswer": "日本の生活についてどう思いますか？私は日本の生活はとても便利だと思います。日本の食べ物は美味しくて、そんなに高くないと思います。でも、東京は人が多くて、渋滞が多いと思います。昨日、友達のミラーさんは「来月国へ帰る」と言いました。とても寂しいです。ミラーさんの国も冬は寒いでしょう？"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I think it will rain tomorrow.",
+        "chunks": [
+          "明日は",
+          "雨が降ると",
+          "思います。"
+        ]
+      },
+      {
+        "en": "I think Mr. Suzuki will not come.",
+        "chunks": [
+          "鈴木さんは",
+          "来ないと",
+          "思います。"
+        ]
+      },
+      {
+        "en": "Do you think Mr. Suzuki went home?",
+        "chunks": [
+          "鈴木さんは",
+          "帰ったと",
+          "思いますか。"
+        ]
+      },
+      {
+        "en": "Where do you think Mr. Suzuki went?",
+        "chunks": [
+          "鈴木さんは",
+          "どこに行ったと",
+          "思いますか。"
+        ]
+      },
+      {
+        "en": "I think the exam was not difficult.",
+        "chunks": [
+          "試験は",
+          "難しくなかったと",
+          "思います。"
+        ]
+      },
+      {
+        "en": "Which do you think is better, A or B?",
+        "chunks": [
+          "AとBと",
+          "どちらがいいと",
+          "思いますか。"
+        ]
+      },
+      {
+        "en": "Who do you think that person is?",
+        "chunks": [
+          "あの人は",
+          "誰だと",
+          "思いますか。"
+        ]
+      },
+      {
+        "en": "What do you think about the new restaurant?",
+        "chunks": [
+          "新しいレストランについて",
+          "どう",
+          "思いますか。"
+        ]
+      },
+      {
+        "en": "I think it is delicious and not that expensive.",
+        "chunks": [
+          "美味しくて、",
+          "そんなに高くないと",
+          "思います。"
+        ]
+      },
+      {
+        "en": "Mr. Sato said that he will go to Japan next year.",
+        "chunks": [
+          "佐藤さんは",
+          "来年日本に行くと",
+          "言いました。"
+        ]
+      },
+      {
+        "en": "Ms. Sato said that she does not like sushi.",
+        "chunks": [
+          "佐藤さんは",
+          "お寿司が好きじゃないと",
+          "言いました。"
+        ]
+      },
+      {
+        "en": "What did the teacher say just now?",
+        "chunks": [
+          "先生は今",
+          "何と",
+          "言いましたか。"
+        ]
+      },
+      {
+        "en": "Japanese people say 'Itadakimasu' before eating.",
+        "chunks": [
+          "日本人は食べる前に",
+          "「いただきます」と",
+          "言います。"
+        ]
+      },
+      {
+        "en": "Hawaii was hot, wasn't it?",
+        "chunks": [
+          "ハワイは",
+          "暑かった",
+          "でしょう？"
+        ]
+      },
+      {
+        "en": "You are going to the party tonight, right?",
+        "chunks": [
+          "今夜パーティーに",
+          "行く",
+          "でしょう？"
+        ]
+      },
+      {
+        "en": "That's a lie, right?",
+        "chunks": [
+          "それは",
+          "嘘",
+          "でしょう？"
+        ]
+      },
+      {
+        "en": "The exam is tomorrow, right?",
+        "chunks": [
+          "試験は",
+          "明日",
+          "でしょう？"
+        ]
+      },
+      {
+        "en": "Our team will surely win.",
+        "chunks": [
+          "私たちのチームは",
+          "きっと",
+          "勝ちます。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "降ります (ふります)",
+        "form": "Plain form before と思います",
+        "answer": "ふる",
+        "options": [
+          "ふる",
+          "ふって",
+          "ふりる"
+        ],
+        "hint": "Group 1 verb: non-past affirmative plain is dictionary form (降る)"
+      },
+      {
+        "prompt": "来ません (きません)",
+        "form": "Plain form before と思います",
+        "answer": "こない",
+        "options": [
+          "こない",
+          "きない",
+          "くるない"
+        ],
+        "hint": "Group 3 irregular verb: negative plain is 来ない (こない)"
+      },
+      {
+        "prompt": "帰りました (かえりました)",
+        "form": "Plain form before と思います",
+        "answer": "かえった",
+        "options": [
+          "かえった",
+          "かえりた",
+          "かえた"
+        ],
+        "hint": "Group 1: り changes to った (帰った)"
+      },
+      {
+        "prompt": "行きました (いきました)",
+        "form": "Plain form before と思います",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いいた",
+          "いきた"
+        ],
+        "hint": "Special irregular Group 1: 行きました becomes 行った"
+      },
+      {
+        "prompt": "寒いです (さむいです)",
+        "form": "Plain form before と思います",
+        "answer": "さむい",
+        "options": [
+          "さむい",
+          "さむいだ",
+          "さむいくて"
+        ],
+        "hint": "い-adjective: simply drop です (寒い)"
+      },
+      {
+        "prompt": "難しくなかったです (むずかしくなかったです)",
+        "form": "Plain form before と思います",
+        "answer": "むずかしくなかった",
+        "options": [
+          "むずかしくなかった",
+          "むずかしくないだった",
+          "むずかしいじゃなかった"
+        ],
+        "hint": "い-adjective past negative: drop です (難しくなかった)"
+      },
+      {
+        "prompt": "いいです (Good)",
+        "form": "Plain form before と思います",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "いいだ",
+          "よいだ"
+        ],
+        "hint": "い-adjective: drop です (いい)"
+      },
+      {
+        "prompt": "簡単でした (かんたんでした)",
+        "form": "Plain form before と思います",
+        "answer": "かんたんだった",
+        "options": [
+          "かんたんだった",
+          "かんたんだ",
+          "かんたんかった"
+        ],
+        "hint": "な-adjective past affirmative plain: でした becomes だった"
+      },
+      {
+        "prompt": "誰ですか (だれですか)",
+        "form": "Plain form before と思います",
+        "answer": "だれだ",
+        "options": [
+          "だれだ",
+          "だれ",
+          "だれだった"
+        ],
+        "hint": "Noun non-past affirmative plain takes だ (誰だ)"
+      },
+      {
+        "prompt": "いくらでしたか",
+        "form": "Plain form before と思います",
+        "answer": "いくらだった",
+        "options": [
+          "いくらだった",
+          "いくらだ",
+          "いくらでした"
+        ],
+        "hint": "Noun past plain takes だった (いくらだった)"
+      },
+      {
+        "prompt": "好きじゃないです (すきじゃないです)",
+        "form": "Plain form before と言いました",
+        "answer": "すきじゃない",
+        "options": [
+          "すきじゃない",
+          "すきじゃなくだ",
+          "すきではないです"
+        ],
+        "hint": "な-adjective negative plain: drop です (好きじゃない)"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain form before と言いました",
+        "answer": "いく",
+        "options": [
+          "いく",
+          "いって",
+          "いった"
+        ],
+        "hint": "Group 1 dictionary form: 行く"
+      },
+      {
+        "prompt": "暑かったです (あつかったです)",
+        "form": "Form before でしょう？",
+        "answer": "あつかった",
+        "options": [
+          "あつかった",
+          "あついだった",
+          "あつくて"
+        ],
+        "hint": "い-adjective past plain: drop です (暑かった)"
+      },
+      {
+        "prompt": "高かったです (たかかったです)",
+        "form": "Form before でしょう？",
+        "answer": "たかかった",
+        "options": [
+          "たかかった",
+          "たかいだった",
+          "たかいでした"
+        ],
+        "hint": "い-adjective past plain: drop です (高かった)"
+      },
+      {
+        "prompt": "できます (Can do)",
+        "form": "Form before でしょう？",
+        "answer": "できる",
+        "options": [
+          "できる",
+          "でき",
+          "できた"
+        ],
+        "hint": "Group 2 dictionary form: できる"
+      },
+      {
+        "prompt": "ありません (Does not exist / have)",
+        "form": "Form before でしょう？",
+        "answer": "ない",
+        "options": [
+          "ない",
+          "あらない",
+          "なかった"
+        ],
+        "hint": "Plain negative of あります is ない"
+      },
+      {
+        "prompt": "きれいでした (Beautiful / clean)",
+        "form": "Form before でしょう？",
+        "answer": "きれいだった",
+        "options": [
+          "きれいだった",
+          "きれいだ",
+          "きれいかった"
+        ],
+        "hint": "な-adjective past plain: きれいだった"
+      },
+      {
+        "prompt": "明日です (あしたです - Tomorrow)",
+        "form": "Form before でしょう？",
+        "answer": "あした",
+        "options": [
+          "あした",
+          "あしただ",
+          "あしただった"
+        ],
+        "hint": "EXCEPTION: Nouns drop だ before でしょう (明日でしょう)"
+      },
+      {
+        "prompt": "嘘です (うそです - Lie)",
+        "form": "Form before でしょう？",
+        "answer": "うそ",
+        "options": [
+          "うそ",
+          "うそだ",
+          "うそだった"
+        ],
+        "hint": "EXCEPTION: Nouns drop だ before でしょう (嘘でしょう)"
+      },
+      {
+        "prompt": "休みです (やすみです - Holiday)",
+        "form": "Form before でしょう？",
+        "answer": "やすみ",
+        "options": [
+          "やすみ",
+          "やすみだ",
+          "やすみだった"
+        ],
+        "hint": "EXCEPTION: Nouns drop だ before でしょう (休みでしょう)"
+      },
+      {
+        "prompt": "暇です (ひまです - Free time)",
+        "form": "Form before でしょう？",
+        "answer": "ひま",
+        "options": [
+          "ひま",
+          "ひまだ",
+          "ひまだった"
+        ],
+        "hint": "EXCEPTION: な-adjectives drop だ before でしょう (暇でしょう)"
+      },
+      {
+        "prompt": "勝ちます (かちます)",
+        "form": "Plain past affirmative",
+        "answer": "かった",
+        "options": [
+          "かった",
+          "かちた",
+          "かいた"
+        ],
+        "hint": "Group 1: ち changes to った (勝った)"
+      },
+      {
+        "prompt": "負けます (まけます)",
+        "form": "Plain past affirmative",
+        "answer": "まけた",
+        "options": [
+          "まけた",
+          "まけった",
+          "まいた"
+        ],
+        "hint": "Group 2: ます changes to た (負けた)"
+      },
+      {
+        "prompt": "辞めます (やめます)",
+        "form": "Plain non-past affirmative",
+        "answer": "やめる",
+        "options": [
+          "やめる",
+          "やむ",
+          "やめた"
+        ],
+        "hint": "Group 2: replace ます with る (辞める)"
+      },
+      {
+        "prompt": "動きます (うごきます)",
+        "form": "Plain negative (ない-form)",
+        "answer": "うごかない",
+        "options": [
+          "うごかない",
+          "うごきない",
+          "うごくかない"
+        ],
+        "hint": "Group 1: き changes to か + ない (動かない)"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "明日は雨が降る [ ? ] 思います。",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Quotation particle marking personal thought is と (と思います)."
+      },
+      {
+        "sentence": "今の仕事 [ ? ] ついて、どう思いますか？",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "The compound expression for 'about / concerning' is について."
+      },
+      {
+        "sentence": "佐藤さんは来年日本に行く [ ? ] 言いました。",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "に",
+          "へ"
+        ],
+        "hint": "Quotation particle marking reported speech is と (と言いました)."
+      },
+      {
+        "sentence": "先生は今何 [ ? ] 言いましたか？",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "に",
+          "が"
+        ],
+        "hint": "Do not forget the quotation particle と in 何と言いましたか."
+      },
+      {
+        "sentence": "日本とアメリカ [ ? ] 試合をします。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "The subjects who perform the match are marked by が."
+      },
+      {
+        "sentence": "私たちのチームが相手チーム [ ? ] 勝ちました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "と"
+        ],
+        "hint": "The opponent you win against or lose to takes に (Bに勝ちました)."
+      },
+      {
+        "sentence": "明日、東京 [ ? ] お祭りがあります。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "When あります means 'to take place / be held', the location takes で."
+      },
+      {
+        "sentence": "彼のアドバイスは仕事 [ ? ] 役に立ちました。",
+        "answer": "の",
+        "options": [
+          "の",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "Modifying a noun with another noun uses の (仕事の役に立ちます)."
+      },
+      {
+        "sentence": "日本 [ ? ] 留学しました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination of study abroad takes に."
+      },
+      {
+        "sentence": "車が多いですから、気 [ ? ] つけてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "hint": "The set phrase for being careful is 気をつけます (object particle を)."
+      },
+      {
+        "sentence": "嘘 [ ? ] ついてはいけません。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The set phrase for telling a lie is 嘘をつきます (object particle を)."
+      },
+      {
+        "sentence": "テレビ [ ? ] ニュースを放送します。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Means/medium of broadcast (by means of TV) takes で."
+      },
+      {
+        "sentence": "新しいレストランについて [ ? ] 思いますか？",
+        "answer": "どう",
+        "options": [
+          "どう",
+          "どうと",
+          "何と",
+          "どんな"
+        ],
+        "hint": "Asking 'what do you think' uses どう without と."
+      },
+      {
+        "sentence": "会社 [ ? ] 辞めました。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
+        "hint": "The place/job you quit takes を (会社を辞めます)."
+      },
+      {
+        "sentence": "あの人は誰だ [ ? ] 思いますか？",
+        "answer": "と",
+        "options": [
+          "と",
+          "を",
+          "に",
+          "が"
+        ],
+        "hint": "Quotation particle と following plain form noun (誰だ)."
+      },
+      {
+        "sentence": "このエリアは渋滞 [ ? ] 多いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "Feature/phenomenon being described takes が (渋滞が多い)."
+      },
+      {
+        "sentence": "日本の物価はアメリカ [ ? ] 安いです。",
+        "answer": "より",
+        "options": [
+          "より",
+          "ほど",
+          "から",
+          "まで"
+        ],
+        "hint": "Comparative standard ('cheaper than America') takes より."
+      },
+      {
+        "sentence": "仕事 [ ? ] 話をしました。",
+        "answer": "の",
+        "options": [
+          "の",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "Noun modifying noun: 仕事の話 (talk about work)."
+      },
+      {
+        "sentence": "日本人は食べる前 [ ? ]「いただきます」と言います。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Time point marked by 前 takes に (食べる前に)."
+      },
+      {
+        "sentence": "A [ ? ] Bとどちらがいいと思いますか？",
+        "answer": "と",
+        "options": [
+          "と",
+          "や",
+          "に",
+          "も"
+        ],
+        "hint": "Listing two alternatives for comparison uses と (AとBと)."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Asking an opinion on a new shop",
+        "speaker": "友達",
+        "prompt": "新しいカフェについてどう思いますか？",
+        "options": [
+          {
+            "text": "コーヒーが美味しくて、静かだと思います。",
+            "correct": true
+          },
+          {
+            "text": "コーヒーが美味しいで、静かですと思います。",
+            "correct": false
+          },
+          {
+            "text": "コーヒーがどうやって思います。",
+            "correct": false
+          }
+        ],
+        "tip": "Chain adjectives with くて and use plain form before と思います (静かだ)."
+      },
+      {
+        "situation": "Expressing negative conjecture",
+        "speaker": "同僚",
+        "prompt": "田中さんは今日の飲み会に来ますか？",
+        "options": [
+          {
+            "text": "仕事が忙しいですから、来ないと思います。",
+            "correct": true
+          },
+          {
+            "text": "仕事が忙しいですから、来ると思いませんでした。",
+            "correct": false
+          },
+          {
+            "text": "田中さんは来ますと思います。",
+            "correct": false
+          }
+        ],
+        "tip": "In Japanese, negative conjecture is naturally phrased as 来ないと思います."
+      },
+      {
+        "situation": "Surprised confirmation",
+        "speaker": "友達",
+        "prompt": "明日、会社が休みになりましたよ。",
+        "options": [
+          {
+            "text": "えっ、本当ですか！嘘でしょう？",
+            "correct": true
+          },
+          {
+            "text": "えっ、本当ですか！嘘だでしょう？",
+            "correct": false
+          },
+          {
+            "text": "えっ、本当ですか！嘘ですと思います。",
+            "correct": false
+          }
+        ],
+        "tip": "For nouns, the copula だ always drops before でしょう (嘘でしょう？)."
+      },
+      {
+        "situation": "Confirming past weather",
+        "speaker": "同僚",
+        "prompt": "先週沖縄へ行きました。",
+        "options": [
+          {
+            "text": "いいですね！沖縄は暑かったでしょう？",
+            "correct": true
+          },
+          {
+            "text": "いいですね！沖縄は暑いだったでしょう？",
+            "correct": false
+          },
+          {
+            "text": "いいですね！沖縄は暑いですでしょう？",
+            "correct": false
+          }
+        ],
+        "tip": "い-adjective past plain form is 暑かった before でしょう."
+      },
+      {
+        "situation": "Reporting what the teacher said",
+        "speaker": "学生",
+        "prompt": "先生は今何と言いましたか？",
+        "options": [
+          {
+            "text": "「来週テストがある」と言いましたよ。",
+            "correct": true
+          },
+          {
+            "text": "「来週テストがある」と思いますよ。",
+            "correct": false
+          },
+          {
+            "text": "来週テストがありますと言いませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Reporting what someone said uses と言いました."
+      },
+      {
+        "situation": "Discussing prices",
+        "speaker": "旅行者",
+        "prompt": "あのホテルはどうですか？",
+        "options": [
+          {
+            "text": "綺麗ですが、そんなに安くないと思います。",
+            "correct": true
+          },
+          {
+            "text": "綺麗で、そんなに安いと思います。",
+            "correct": false
+          },
+          {
+            "text": "綺麗だ、そんなに安くないでしょうと思います。",
+            "correct": false
+          }
+        ],
+        "tip": "そんなに is used with a negative predicate (そんなに安くない)."
+      },
+      {
+        "situation": "Cheering for a sports match",
+        "speaker": "ファン",
+        "prompt": "今日のサッカーの試合はどうなりますか？",
+        "options": [
+          {
+            "text": "私たちのチームはきっと勝つと思います！",
+            "correct": true
+          },
+          {
+            "text": "私たちのチームはきっと勝ちますと思います！",
+            "correct": false
+          },
+          {
+            "text": "私たちのチームはたぶん勝ちませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "きっと expresses strong conviction, paired with plain verb + と思います (勝つと思います)."
+      },
+      {
+        "situation": "Confirming an exam date",
+        "speaker": "学生",
+        "prompt": "日本語の試験の日はいつですか？",
+        "options": [
+          {
+            "text": "試験は明日でしょう？",
+            "correct": true
+          },
+          {
+            "text": "試験は明日だでしょう？",
+            "correct": false
+          },
+          {
+            "text": "試験は明日ですでしょう？",
+            "correct": false
+          }
+        ],
+        "tip": "Nouns drop だ before でしょう (明日でしょう？)."
+      },
+      {
+        "situation": "Asking about someone's opinion on studying abroad",
+        "speaker": "先生",
+        "prompt": "日本への留学についてどう思いますか？",
+        "options": [
+          {
+            "text": "とても役に立つと思います。",
+            "correct": true
+          },
+          {
+            "text": "とても役に立ちますと思います。",
+            "correct": false
+          },
+          {
+            "text": "とても役に立たないでしょうと思います。",
+            "correct": false
+          }
+        ],
+        "tip": "役に立ちます plain form is 役に立つ before と思います."
+      },
+      {
+        "situation": "Asking who that person is",
+        "speaker": "友達",
+        "prompt": "あそこで話している人は誰ですか？",
+        "options": [
+          {
+            "text": "新しい部長だと思います。",
+            "correct": true
+          },
+          {
+            "text": "新しい部長と思います。",
+            "correct": false
+          },
+          {
+            "text": "新しい部長ですと思います。",
+            "correct": false
+          }
+        ],
+        "tip": "Noun non-past affirmative plain takes だ before と思います (部長だと思います)."
+      },
+      {
+        "situation": "Warning about driving in traffic",
+        "speaker": "同僚",
+        "prompt": "車で新宿へ行きます。",
+        "options": [
+          {
+            "text": "この時間は渋滞が多いですから、気をつけてくださいね。",
+            "correct": true
+          },
+          {
+            "text": "この時間は交通が悪いですから、気をつけてくださいね。",
+            "correct": false
+          },
+          {
+            "text": "この時間は渋滞を辞めてくださいね。",
+            "correct": false
+          }
+        ],
+        "tip": "Traffic jams are naturally phrased as 渋滞が多い, paired with 気をつけてください."
+      },
+      {
+        "situation": "Confirming food preferences",
+        "speaker": "ホスト",
+        "prompt": "晩ご飯は何がいいですか？",
+        "options": [
+          {
+            "text": "マリアさんは生魚が好きじゃないでしょう？お肉にしましょう。",
+            "correct": true
+          },
+          {
+            "text": "マリアさんは生魚が好きじゃないだでしょう？お肉にしましょう。",
+            "correct": false
+          },
+          {
+            "text": "マリアさんは生魚が好きじゃないですでしょう？お肉にしましょう。",
+            "correct": false
+          }
+        ],
+        "tip": "な-adjective negative plain is 好きじゃない before でしょう."
+      }
+    ]
+  }
+}

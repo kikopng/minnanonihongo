@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 2,
+    "title": "Things Around Us: Demonstratives, Identification, and Possession",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master demonstrative pronouns (これ・それ・あれ) and adnominals (この・その・あの), asking what things are (何), confirming identity with そうです and 違います, alternative questions (～か、～か), expressing topic and possession with the particle の, omitting known nouns after の, using the polite prefix お～, and mastering essential Japanese gift-giving and neighbor greeting etiquette."
+  },
+  "vocabulary": [
+    {
+      "id": "kore",
+      "kanji": "これ",
+      "kana": "これ",
+      "romaji": "kore",
+      "meaning": "this (thing here near speaker)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "これは辞書です。",
+        "kana": "これは じしょです。",
+        "translation": "This is a dictionary."
+      }
+    },
+    {
+      "id": "sore",
+      "kanji": "それ",
+      "kana": "それ",
+      "romaji": "sore",
+      "meaning": "that (thing near listener)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "それは何ですか。",
+        "kana": "それは なんですか。",
+        "translation": "What is that (near you)?"
+      }
+    },
+    {
+      "id": "are",
+      "kanji": "あれ",
+      "kana": "あれ",
+      "romaji": "are",
+      "meaning": "that (thing over there, far from both speaker and listener)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "あれは私の傘です。",
+        "kana": "あれは わたしの かさです。",
+        "translation": "That over there is my umbrella."
+      }
+    },
+    {
+      "id": "kono",
+      "kanji": "この～",
+      "kana": "この～",
+      "romaji": "kono~",
+      "meaning": "this ~ (modifies noun near speaker)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "この本は面白いです。",
+        "kana": "この ほんは おもしろいです。",
+        "translation": "This book is interesting."
+      }
+    },
+    {
+      "id": "sono",
+      "kanji": "その～",
+      "kana": "その～",
+      "romaji": "sono~",
+      "meaning": "that ~ (modifies noun near listener)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "その時計はいくらですか。",
+        "kana": "その とけいは いくらですか。",
+        "translation": "How much is that watch (near you)?"
+      }
+    },
+    {
+      "id": "ano",
+      "kanji": "あの～",
+      "kana": "あの～",
+      "romaji": "ano~",
+      "meaning": "that ~ (modifies noun far from both)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "あの人は誰ですか。",
+        "kana": "あの ひとは だれですか。",
+        "translation": "Who is that person over there?"
+      }
+    },
+    {
+      "id": "hon",
+      "kanji": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "meaning": "book",
+      "category": "noun",
+      "example": {
+        "kanji": "これは日本語の本です。",
+        "kana": "これは にほんごの ほんです。",
+        "translation": "This is a Japanese language book."
+      }
+    },
+    {
+      "id": "jisho",
+      "kanji": "辞書",
+      "kana": "じしょ",
+      "romaji": "jisho",
+      "meaning": "dictionary",
+      "category": "noun",
+      "example": {
+        "kanji": "英語の辞書を買いました。",
+        "kana": "えいごの じしょを かいました。",
+        "translation": "I bought an English dictionary."
+      }
+    },
+    {
+      "id": "zasshi",
+      "kanji": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "meaning": "magazine",
+      "category": "noun",
+      "example": {
+        "kanji": "これは自動車の雑誌です。",
+        "kana": "これは じどうしゃの ざっしです。",
+        "translation": "This is a car magazine."
+      }
+    },
+    {
+      "id": "shinbun",
+      "kanji": "新聞",
+      "kana": "しんぶん",
+      "romaji": "shinbun",
+      "meaning": "newspaper",
+      "category": "noun",
+      "example": {
+        "kanji": "毎朝新聞を読みます。",
+        "kana": "まいあさ しんぶんを よみます。",
+        "translation": "I read the newspaper every morning."
+      }
+    },
+    {
+      "id": "nooto",
+      "kanji": "ノート",
+      "kana": "ノート",
+      "romaji": "nooto",
+      "meaning": "notebook",
+      "category": "noun",
+      "example": {
+        "kanji": "このノートは私のです。",
+        "kana": "この ノートは わたしのです。",
+        "translation": "This notebook is mine."
+      }
+    },
+    {
+      "id": "techou",
+      "kanji": "手帳",
+      "kana": "てちょう",
+      "romaji": "techou",
+      "meaning": "pocket notebook; personal planner; organizer",
+      "category": "noun",
+      "example": {
+        "kanji": "それは山田さんの手帳ですか。",
+        "kana": "それは やまださんの てちょうですか。",
+        "translation": "Is that Mr. Yamada's planner?"
+      }
+    },
+    {
+      "id": "meishi",
+      "kanji": "名刺",
+      "kana": "めいし",
+      "romaji": "meishi",
+      "meaning": "business card",
+      "category": "noun",
+      "example": {
+        "kanji": "私の名刺をどうぞ。",
+        "kana": "わたしの めいしを どうぞ。",
+        "translation": "Here is my business card."
+      }
+    },
+    {
+      "id": "kaado",
+      "kanji": "カード",
+      "kana": "カード",
+      "romaji": "kaado",
+      "meaning": "card; credit card",
+      "category": "noun",
+      "example": {
+        "kanji": "これはクレジットカードです。",
+        "kana": "これは クレジットカードです。",
+        "translation": "This is a credit card."
+      }
+    },
+    {
+      "id": "enpitsu",
+      "kanji": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "enpitsu",
+      "meaning": "pencil",
+      "category": "noun",
+      "example": {
+        "kanji": "鉛筆で書きます。",
+        "kana": "えんぴつで かきます。",
+        "translation": "I write with a pencil."
+      }
+    },
+    {
+      "id": "boorupen",
+      "kanji": "ボールペン",
+      "kana": "ボールペン",
+      "romaji": "boorupen",
+      "meaning": "ballpoint pen",
+      "category": "noun",
+      "example": {
+        "kanji": "このボールペンは黒色です。",
+        "kana": "この ボールペンは くろいろです。",
+        "translation": "This ballpoint pen is black."
+      }
+    },
+    {
+      "id": "shaapopenshiru",
+      "kanji": "シャープペンシル",
+      "kana": "シャープペンシル",
+      "romaji": "shaapopenshiru",
+      "meaning": "mechanical pencil",
+      "category": "noun",
+      "example": {
+        "kanji": "あれはシャープペンシルです。",
+        "kana": "あれは シャープペンシルです。",
+        "translation": "That over there is a mechanical pencil."
+      }
+    },
+    {
+      "id": "kagi",
+      "kanji": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "meaning": "key",
+      "category": "noun",
+      "example": {
+        "kanji": "これは車の鍵です。",
+        "kana": "これは くるまの かぎです。",
+        "translation": "This is a car key."
+      }
+    },
+    {
+      "id": "tokei",
+      "kanji": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "meaning": "watch; clock",
+      "category": "noun",
+      "example": {
+        "kanji": "その時計は誰のですか。",
+        "kana": "その とけいは だれのですか。",
+        "translation": "Whose watch is that?"
+      }
+    },
+    {
+      "id": "kasa",
+      "kanji": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "meaning": "umbrella",
+      "category": "noun",
+      "example": {
+        "kanji": "雨ですから、傘を持ちます。",
+        "kana": "あめですから、かさを もちます。",
+        "translation": "Because it's raining, I will take an umbrella."
+      }
+    },
+    {
+      "id": "kaban",
+      "kanji": "鞄",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "meaning": "bag; briefcase",
+      "category": "noun",
+      "example": {
+        "kanji": "あのかばんは私のです。",
+        "kana": "あの かばんは わたしのです。",
+        "translation": "That bag over there is mine."
+      }
+    },
+    {
+      "id": "shiidii",
+      "kanji": "CD",
+      "kana": "シーディー",
+      "romaji": "shiidii",
+      "meaning": "CD; compact disc",
+      "category": "noun",
+      "example": {
+        "kanji": "これは日本語のCDです。",
+        "kana": "これは にほんごの シーディーです。",
+        "translation": "This is a Japanese language CD."
+      }
+    },
+    {
+      "id": "terebi",
+      "kanji": "テレビ",
+      "kana": "テレビ",
+      "romaji": "terebi",
+      "meaning": "television; TV set",
+      "category": "noun",
+      "example": {
+        "kanji": "日本のテレビを見ます。",
+        "kana": "にほんの テレビを みます。",
+        "translation": "I watch Japanese TV."
+      }
+    },
+    {
+      "id": "rajio",
+      "kanji": "ラジオ",
+      "kana": "ラジオ",
+      "romaji": "rajio",
+      "meaning": "radio",
+      "category": "noun",
+      "example": {
+        "kanji": "これは新しいラジオです。",
+        "kana": "これは あたらしい ラジオです。",
+        "translation": "This is a new radio."
+      }
+    },
+    {
+      "id": "kamera",
+      "kanji": "カメラ",
+      "kana": "カメラ",
+      "romaji": "kamera",
+      "meaning": "camera",
+      "category": "noun",
+      "example": {
+        "kanji": "このカメラはいくらですか。",
+        "kana": "この カメラは いくらですか。",
+        "translation": "How much is this camera?"
+      }
+    },
+    {
+      "id": "konpyuutaa",
+      "kanji": "コンピューター",
+      "kana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "meaning": "computer",
+      "category": "noun",
+      "example": {
+        "kanji": "これはアメリカのコンピューターです。",
+        "kana": "これは アメリカの コンピューターです。",
+        "translation": "This is an American computer."
+      }
+    },
+    {
+      "id": "kuruma",
+      "kanji": "車",
+      "kana": "くるま",
+      "romaji": "kuruma",
+      "meaning": "car; automobile (also 自動車 / じどうしゃ)",
+      "category": "noun",
+      "example": {
+        "kanji": "あの車はミラーさんの車です。",
+        "kana": "あの くるまは ミラーさんの くるまです。",
+        "translation": "That car over there is Mr. Miller's car."
+      }
+    },
+    {
+      "id": "tsukue",
+      "kanji": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "meaning": "desk",
+      "category": "noun",
+      "example": {
+        "kanji": "机の上に鍵があります。",
+        "kana": "つくえの うえに かぎが あります。",
+        "translation": "There is a key on the desk."
+      }
+    },
+    {
+      "id": "isu",
+      "kanji": "椅子",
+      "kana": "いす",
+      "romaji": "isu",
+      "meaning": "chair",
+      "category": "noun",
+      "example": {
+        "kanji": "この椅子に座ってください。",
+        "kana": "この いすに すわって ください。",
+        "translation": "Please sit in this chair."
+      }
+    },
+    {
+      "id": "chokoreeto",
+      "kanji": "チョコレート",
+      "kana": "チョコレート",
+      "romaji": "chokoreeto",
+      "meaning": "chocolate",
+      "category": "food",
+      "example": {
+        "kanji": "これはスイスのチョコレートです。",
+        "kana": "これは スイスの チョコレートです。",
+        "translation": "This is Swiss chocolate."
+      }
+    },
+    {
+      "id": "koohii",
+      "kanji": "コーヒー",
+      "kana": "コーヒー",
+      "romaji": "koohii",
+      "meaning": "coffee",
+      "category": "drink",
+      "example": {
+        "kanji": "コーヒーをどうぞ。",
+        "kana": "コーヒーを どうぞ。",
+        "translation": "Here is some coffee."
+      }
+    },
+    {
+      "id": "omiyage",
+      "kanji": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "meaning": "souvenir; gift",
+      "category": "noun",
+      "example": {
+        "kanji": "これは京都のお土産です。",
+        "kana": "これは きょうとの おみやげです。",
+        "translation": "This is a souvenir from Kyoto."
+      }
+    },
+    {
+      "id": "eigo",
+      "kanji": "英語",
+      "kana": "えいご",
+      "romaji": "eigo",
+      "meaning": "the English language",
+      "category": "language",
+      "example": {
+        "kanji": "英語の新聞を読みます。",
+        "kana": "えいごの しんぶんを よみます。",
+        "translation": "I read an English newspaper."
+      }
+    },
+    {
+      "id": "nihongo",
+      "kanji": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "meaning": "the Japanese language",
+      "category": "language",
+      "example": {
+        "kanji": "日本語を勉強します。",
+        "kana": "にほんごを べんきょうします。",
+        "translation": "I study the Japanese language."
+      }
+    },
+    {
+      "id": "nan",
+      "kanji": "何",
+      "kana": "なん / なに",
+      "romaji": "nan / nani",
+      "meaning": "what",
+      "category": "interrogative",
+      "example": {
+        "kanji": "これは何ですか。",
+        "kana": "これは なんですか。",
+        "translation": "What is this?"
+      }
+    },
+    {
+      "id": "dare",
+      "kanji": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "meaning": "who",
+      "category": "interrogative",
+      "example": {
+        "kanji": "この傘は誰のですか。",
+        "kana": "この かさは だれのですか。",
+        "translation": "Whose umbrella is this?"
+      }
+    },
+    {
+      "id": "sou",
+      "kanji": "そう",
+      "kana": "そう",
+      "romaji": "sou",
+      "meaning": "so; that way",
+      "category": "adverb",
+      "example": {
+        "kanji": "はい、そうです。",
+        "kana": "はい、そうです。",
+        "translation": "Yes, that is correct (Yes, it is so)."
+      }
+    },
+    {
+      "id": "chigaimasu",
+      "kanji": "違います",
+      "kana": "ちがいます",
+      "romaji": "chigaimasu",
+      "meaning": "to differ; to be mistaken; No, it isn't",
+      "category": "expression",
+      "example": {
+        "kanji": "いいえ、違います。手帳です。",
+        "kana": "いいえ、ちがいます。てちょうです。",
+        "translation": "No, it isn't. It's a personal planner."
+      }
+    },
+    {
+      "id": "soudesuka",
+      "kanji": "そうですか",
+      "kana": "そうですか",
+      "romaji": "sou desu ka",
+      "meaning": "I see; Is that so?",
+      "category": "expression",
+      "example": {
+        "kanji": "「これは先生の傘です。」「あ、そうですか。」",
+        "kana": "「これは せんせいの かさです。」「あ、そうですか。」",
+        "translation": "'This is the teacher's umbrella.' 'Oh, I see.'"
+      }
+    },
+    {
+      "id": "anou",
+      "kanji": "あのう",
+      "kana": "あのう",
+      "romaji": "anou",
+      "meaning": "um; well (hesitation filler indicating politeness)",
+      "category": "expression",
+      "example": {
+        "kanji": "あのう、お名前は何ですか。",
+        "kana": "あのう、おなまえは なんですか。",
+        "translation": "Um, excuse me, what is your name?"
+      }
+    },
+    {
+      "id": "hon-no-kimochi",
+      "kanji": "ほんの気持ちです",
+      "kana": "ほんのきもちです",
+      "romaji": "hon no kimochi desu",
+      "meaning": "It's just a small token of my gratitude / feelings",
+      "category": "expression",
+      "example": {
+        "kanji": "これ、ほんの気持ちです。どうぞ。",
+        "kana": "これ、ほんの きもちです。どうぞ。",
+        "translation": "This is just a small token of my feelings. Please accept it."
+      }
+    },
+    {
+      "id": "douzo",
+      "kanji": "どうぞ",
+      "kana": "どうぞ",
+      "romaji": "douzo",
+      "meaning": "please; here you are; go ahead",
+      "category": "expression",
+      "example": {
+        "kanji": "コーヒーをどうぞ。",
+        "kana": "コーヒーを どうぞ。",
+        "translation": "Here is some coffee, please help yourself."
+      }
+    },
+    {
+      "id": "doumo",
+      "kanji": "どうも",
+      "kana": "どうも",
+      "romaji": "doumo",
+      "meaning": "thanks; very; quite",
+      "category": "expression",
+      "example": {
+        "kanji": "どうもありがとうございます。",
+        "kana": "どうも ありがとう ございます。",
+        "translation": "Thank you very much."
+      }
+    },
+    {
+      "id": "korekara-osewa-ni-narimasu",
+      "kanji": "これからお世話になります",
+      "kana": "これからおせわになります",
+      "romaji": "korekara osewa ni narimasu",
+      "meaning": "I look forward to your kind help from now on",
+      "category": "expression",
+      "example": {
+        "kanji": "隣の部屋のサントスです。これからお世話になります。",
+        "kana": "となりの へやの サントスです。これから おせわに なります。",
+        "translation": "I'm Santos from the room next door. Thank you in advance for your support."
+      }
+    },
+    {
+      "id": "kochirakoso-yoroshiku",
+      "kanji": "こちらこそよろしく",
+      "kana": "こちらこそよろしく",
+      "romaji": "kochira koso yoroshiku",
+      "meaning": "It is I who should say so; pleased to meet you too",
+      "category": "expression",
+      "example": {
+        "kanji": "こちらこそよろしくお願いします。",
+        "kana": "こちらこそ よろしく おねがいします。",
+        "translation": "Likewise, I am very pleased to meet you."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "これ / それ / あれ [Demonstrative Pronouns for Things]",
+      "explanation": "これ, それ, and あれ are demonstrative pronouns that stand independently as nouns (often followed by は). Spatial Rule: (1) これ refers to an object close to the speaker. (2) それ refers to an object close to the listener. (3) あれ refers to an object far from both the speaker and listener. CRITICAL CONVERSATIONAL DYNAMIC (Takashi's Rule): When Speaker A holds or points to an item near themselves and asks 『これは何ですか』, Speaker B MUST respond with 『それは～です』 because the item is near A (the listener). Conversely, if A asks about an item near B (『それは何ですか』), B replies with 『これは～です』. If the item is distant from both, both speakers use 『あれ』.",
+      "examples": [
+        {
+          "kanji": "これは辞書です。",
+          "kana": "これは じしょです。",
+          "translation": "This is a dictionary (near speaker)."
+        },
+        {
+          "kanji": "それは何ですか。— これは鍵です。",
+          "kana": "それは なんですか。— これは かぎです。",
+          "translation": "What is that (near you)? — This is a key."
+        },
+        {
+          "kanji": "あれは私の傘です。",
+          "kana": "あれは わたしの かさです。",
+          "translation": "That over there is my umbrella (far from both)."
+        },
+        {
+          "kanji": "これはテレビですか。— はい、そうです。",
+          "kana": "これは テレビですか。— はい、そうです。",
+          "translation": "Is this a television? — Yes, it is."
+        },
+        {
+          "kanji": "あれは何ですか。— あれはカメラです。",
+          "kana": "あれは なんですか。— あれは カメラです。",
+          "translation": "What is that over there? — That over there is a camera."
+        }
+      ]
+    },
+    {
+      "pattern": "この Noun / その Noun / あの Noun [Demonstrative Adnominals / Modifiers]",
+      "explanation": "この, その, and あの are adnominals (連体詞) that CANNOT stand alone. They MUST be directly followed by a noun: 『この本』, 『その鍵』, 『あのかばん』. Grammatical rule: NEVER say 『✕ このは私のです』. Contrast with Lesson 2 Pattern 1: (1) 『これは辞書です』 (This is a dictionary) identifies the item itself. (2) 『この辞書は私のです』 (This dictionary is mine) specifies which particular dictionary is being discussed and describes its attribute/owner.",
+      "examples": [
+        {
+          "kanji": "この本は面白いです。",
+          "kana": "この ほんは おもしろいです。",
+          "translation": "This book is interesting."
+        },
+        {
+          "kanji": "その時計は山田さんのですか。",
+          "kana": "その とけいは やまださんのですか。",
+          "translation": "Is that watch (near you) Mr. Yamada's?"
+        },
+        {
+          "kanji": "あの傘は私のです。",
+          "kana": "あの かさは わたしのです。",
+          "translation": "That umbrella over there is mine."
+        },
+        {
+          "kanji": "このコンピューターは日本のコンピューターです。",
+          "kana": "この コンピューターは にほんの コンピューターです。",
+          "translation": "This computer is a Japanese computer."
+        },
+        {
+          "kanji": "その手帳は誰の手帳ですか。",
+          "kana": "その てちょうは だれの てちょうですか。",
+          "translation": "Whose planner is that one near you?"
+        }
+      ]
+    },
+    {
+      "pattern": "はい、そうです vs. いいえ、違います (ちがいます) [Affirming and Denying Identification]",
+      "explanation": "When answering a question that asks whether something is a certain noun (e.g. 『それは手帳ですか』): (1) To confirm affirmatively, say 『はい、そうです』 (Yes, that's right). (2) To deny, the textbook lists 『いいえ、そうじゃありません』, but native Japanese speakers overwhelmingly prefer 『いいえ、違います』 (No, that's incorrect / No, it isn't). After 『いいえ、違います』, it is standard polite practice to state the correct noun: 『いいえ、違います。名刺です』 (No, it isn't. It's a business card). Note: Do NOT use そうです / 違います to answer questions ending in adjectives or verbs (✕ はい、そうです for 『寒いですですか』).",
+      "examples": [
+        {
+          "kanji": "それは辞書ですか。— はい、そうです。",
+          "kana": "それは じしょですか。— はい、そうです。",
+          "translation": "Is that a dictionary? — Yes, it is."
+        },
+        {
+          "kanji": "これはシャープペンシルですか。— いいえ、違います。ボールペンです。",
+          "kana": "これは シャープペンシルですか。— いいえ、ちがいます。ボールペンです。",
+          "translation": "Is this a mechanical pencil? — No, it isn't. It's a ballpoint pen."
+        },
+        {
+          "kanji": "あれはミラーさんの傘ですか。— はい、そうです。",
+          "kana": "あれは ミラーさんの かさですか。— はい、そうです。",
+          "translation": "Is that umbrella over there Mr. Miller's? — Yes, it is."
+        },
+        {
+          "kanji": "それは手帳ですか。— いいえ、違います。ノートです。",
+          "kana": "それは てちょうですか。— いいえ、ちがいます。ノートです。",
+          "translation": "Is that a pocket organizer? — No, it isn't. It's a notebook."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence 1 か、Sentence 2 か [Alternative Questions / Either-Or]",
+      "explanation": "Use this structure when asking the listener to choose between two alternatives ('Is this A or B?'). TAKASHI'S GOLDEN RULE: You must NEVER answer an alternative question with はい or いいえ! Answering 'Yes' or 'No' to 'Is this coffee or tea?' is nonsensical. Simply answer directly by stating the chosen item: 『[Item] です』. Typical uses include identifying similar handwritten characters (e.g., is this '9' or '7'?) or visually similar stationary items.",
+      "examples": [
+        {
+          "kanji": "これは「9」ですか、「7」ですか。— 「7」です。",
+          "kana": "これは「きゅう」ですか、「なな」ですか。— 「なな」です。",
+          "translation": "Is this a '9' or a '7'? — It is a '7'."
+        },
+        {
+          "kanji": "それはボールペンですか、シャープペンシルですか。— ボールペンです。",
+          "kana": "それは ボールペンですか、シャープペンシルですか。— ボールペンです。",
+          "translation": "Is that a ballpoint pen or a mechanical pencil? — It is a ballpoint pen."
+        },
+        {
+          "kanji": "これは辞書ですか、本ですか。— 辞書です。",
+          "kana": "これは じしょですか、ほんですか。— じしょです。",
+          "translation": "Is this a dictionary or a regular book? — It is a dictionary."
+        },
+        {
+          "kanji": "あれは「1」ですか、「L」ですか。— 「1」です。",
+          "kana": "あれは「いち」ですか、「エル」ですか。— 「いち」です。",
+          "translation": "Is that over there a '1' or an 'L'? — It is a '1'."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 の Noun 2 [Content, Topic, and Description]",
+      "explanation": "In Lesson 1, the particle の primarily indicated affiliation/possession. In Lesson 2, の has a second major role: Noun 1 modifies Noun 2 by specifying its content, topic, or language. For example: 『車の本』 = a book about cars; 『日本語の雑誌』 = a Japanese-language magazine. Question form: To ask what a publication or item is about, use 『何の (なんの) + Noun』: 『これは何の本ですか』 (What kind of book is this? / What is this book about?).",
+      "examples": [
+        {
+          "kanji": "これは自動車の雑誌です。",
+          "kana": "これは じどうしゃの ざっしです。",
+          "translation": "This is a magazine about automobiles."
+        },
+        {
+          "kanji": "これは日本語のCDです。",
+          "kana": "これは にほんごの シーディーです。",
+          "translation": "This is a Japanese language CD."
+        },
+        {
+          "kanji": "それは何の新聞ですか。— 英語の新聞です。",
+          "kana": "それは なんの しんぶんですか。— えいごの しんぶんです。",
+          "translation": "What kind of newspaper is that? — It is an English newspaper."
+        },
+        {
+          "kanji": "コンピューターの本を読みます。",
+          "kana": "コンピューターの ほんを よみます。",
+          "translation": "I read a book about computers."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 の Noun 2 [Possession / Ownership]",
+      "explanation": "In this construction, Noun 1 is the possessor/owner, and Noun 2 is the belonging: 『[Owner] の [Item]』. Examples: 『私の本』 (my book), 『佐藤さんの傘』 (Ms. Sato's umbrella). Question form: To ask who owns an item, use 『誰の (だれの) + Noun』: 『これは誰の鍵ですか』 (Whose key is this?).",
+      "examples": [
+        {
+          "kanji": "これは私の鍵です。",
+          "kana": "これは わたしの かぎです。",
+          "translation": "This is my key."
+        },
+        {
+          "kanji": "それは誰の鞄ですか。— カリナさんのかばんです。",
+          "kana": "それは だれの かばんですか。— カリナさんの かばんです。",
+          "translation": "Whose bag is that? — It is Karina's bag."
+        },
+        {
+          "kanji": "あの時計は先生の時計です。",
+          "kana": "あの とけいは せんせいの とけいです。",
+          "translation": "That watch over there is the teacher's watch."
+        },
+        {
+          "kanji": "誰の傘ですか。— 田中さんの傘です。",
+          "kana": "だれの かさですか。— たなかさんの かさです。",
+          "translation": "Whose umbrella is it? — It is Mr. Tanaka's umbrella."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun Omission with の [Possessive Pronoun: 'Mine', 'Whose', etc.]",
+      "explanation": "When Noun 2 is already obvious from the conversational or physical context, it can be omitted following の. In this case, の acts like the English possessive pronouns 'mine', 'yours', 'theirs', or 'someone's'. Example: 『この傘は私のです』 (This umbrella is mine). CRITICAL EXCEPTION (Takashi's Trap Warning): You can ONLY omit inanimate things (傘, 本, かばん, 車). You CANNOT omit people! For example, if asked 『ミラーさんはIMCの社員ですか』, you CANNOT say 『✕ はい、IMCのです』. You MUST say 『はい、IMCの社員です』.",
+      "examples": [
+        {
+          "kanji": "この鞄は誰のですか。— 私のです。",
+          "kana": "この かばんは だれのですか。— わたしのです。",
+          "translation": "Whose is this bag? — It is mine."
+        },
+        {
+          "kanji": "そのペンはミラーさんのですか。— いいえ、違います。サントスさんのです。",
+          "kana": "その ペンは ミラーさんのですか。— いいえ、ちがいます。サントスさんのです。",
+          "translation": "Is that pen Mr. Miller's? — No, it isn't. It is Mr. Santos's."
+        },
+        {
+          "kanji": "あれは誰の車ですか。— 山田さんのです。",
+          "kana": "あれは だれの くるまですか。— やまださんのです。",
+          "translation": "Whose car is that over there? — It is Mr. Yamada's."
+        },
+        {
+          "kanji": "このノートもあなたのですか。— はい、私のです。",
+          "kana": "この ノートも あなたのですか。— はい、わたしのです。",
+          "translation": "Is this notebook yours too? — Yes, it is mine."
+        }
+      ]
+    },
+    {
+      "pattern": "そうですか [Acknowledging New Information (Falling Intonation)]",
+      "explanation": "そうですか is used when the speaker receives new information that they did not know before. Crucial intonation rule: It MUST be pronounced with a falling pitch (そうですか↘). It means 'I see', 'Understood', or 'Is that so?'. If you pronounce it with a rising pitch (そうですか↗), it sounds like a skeptical or interrogative question ('Is that really true?'). Use falling intonation as polite conversational listening feedback (相槌 / aizuchi).",
+      "examples": [
+        {
+          "kanji": "この傘は先生のですよ。— あ、そうですか。",
+          "kana": "この かさは せんせいのですよ。— あ、そうですか。",
+          "translation": "This umbrella is the teacher's, you know. — Oh, I see."
+        },
+        {
+          "kanji": "これは日本のチョコレートではありません。スイスのです。— そうですか。",
+          "kana": "これは にほんの チョコレートでは ありません。スイスのです。— そうですか。",
+          "translation": "This is not Japanese chocolate. It is Swiss chocolate. — I see."
+        },
+        {
+          "kanji": "山田さんは今日休みです。— そうですか。わかりました。",
+          "kana": "やまださんは きょう やすみです。— そうですか。わかりました。",
+          "translation": "Mr. Yamada is absent today. — I see. Understood."
+        }
+      ]
+    },
+    {
+      "pattern": "The Polite Prefix お～ [Politeness and Respect on Nouns]",
+      "explanation": "Takashi highlights the polite prefix お～ (御) in Lesson 2. It is attached before nouns to express refinement, politeness (美化語), or respect toward the listener's belongings and actions. Common examples in Lesson 2: (1) お土産 (souvenir/gift brought for someone). (2) お茶 (green tea). (3) お酒 (alcohol/sake). (4) お金 (money). (5) お名前 (your esteemed name). Modesty rule: You use お- to elevate items offered to others or to speak politely about everyday cultural items, but you do not attach it to your own personal family or crude items.",
+      "examples": [
+        {
+          "kanji": "これは京都のお土産です。どうぞ。",
+          "kana": "これは きょうとの おみやげです。どうぞ。",
+          "translation": "This is a souvenir from Kyoto. Please have it."
+        },
+        {
+          "kanji": "お茶を飲みますか。",
+          "kana": "おちゃを のみますか。",
+          "translation": "Would you like some tea?"
+        },
+        {
+          "kanji": "お名前は何ですか。",
+          "kana": "おなまえは なんですか。",
+          "translation": "What is your (honorable) name?"
+        },
+        {
+          "kanji": "日本のお酒はおいしいです。",
+          "kana": "にほんの おさけは おいしいです。",
+          "translation": "Japanese sake is delicious."
+        }
+      ]
+    },
+    {
+      "pattern": "Conversational Etiquette: ほんの気持ちです & これからお世話になります [Gift Giving & Greetings]",
+      "explanation": "In Japan, when moving into a new apartment or starting a working relationship, it is customary to greet your immediate neighbors with a small, practical token of appreciation (引っ越しの挨拶). Step-by-step cultural routine: (1) Introduce yourself: 『これからお世話になります』 (I will be in your care from now on / Thank you for your support). (2) The receiver replies: 『こちらこそよろしくお願いします』 (Likewise, pleased to meet you). (3) Offer the gift humbly: 『あのう、これ、ほんの気持ちです。どうぞ』 (Um, this is just a small token of my feelings. Please). (4) The receiver accepts with gratitude: 『どうもありがとうございます』.",
+      "examples": [
+        {
+          "kanji": "401号室のサントスです。これからお世話になります。",
+          "kana": "よんまるいちごうしつの サントスです。これから おせわに なります。",
+          "translation": "I am Santos from room 401. I look forward to your kind help from now on."
+        },
+        {
+          "kanji": "こちらこそよろしくお願いします。",
+          "kana": "こちらこそ よろしく おねがいします。",
+          "translation": "It is I who should say so; pleased to meet you."
+        },
+        {
+          "kanji": "あのう、これ、ほんの気持ちです。どうぞ。",
+          "kana": "あのう、これ、ほんの きもちです。どうぞ。",
+          "translation": "Um, this is just a small token of my appreciation. Please accept it."
+        },
+        {
+          "kanji": "あ、どうも…何ですか。— コーヒーです。",
+          "kana": "あ、どうも…なんですか。— コーヒーです。",
+          "translation": "Oh, thank you... what is it? — It's coffee."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "これからお世話になります (Starting Life Next Door & The Moving Greeting)",
+    "lines": [
+      {
+        "speaker": "山田",
+        "kanji": "はい。どなたですか。",
+        "kana": "はい。どなたですか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "401のサントスです。",
+        "kana": "よんまるいちの サントスです。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "あ、サントスさん、こんにちは。",
+        "kana": "あ、サントスさん、こんにちは。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "こんにちは。サントスです。これからお世話になります。どうぞよろしくお願いします。",
+        "kana": "こんにちは。サントスです。これから おせわに なります。どうぞ よろしく おねがいします。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "こちらこそ、よろしくお願いします。",
+        "kana": "こちらこそ、よろしく おねがいします。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "あのう、これ、ほんの気持ちです。どうぞ。",
+        "kana": "あのう、これ、ほんの きもちです。どうぞ。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "あ、どうもありがとうございます。何ですか。",
+        "kana": "あ、どうも ありがとうございます。なんですか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "コーヒーです。ブラジルのコーヒーですよ。",
+        "kana": "コーヒーです。ブラジルの コーヒーですよ。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "わあ、ブラジルのコーヒーですか。とても嬉しいです。",
+        "kana": "わあ、ブラジルの コーヒーですか。とても うれしいです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "山田さん、その机の上の雑誌は自動車の雑誌ですか。",
+        "kana": "やまださん、その つくえの うえの ざっしは じどうしゃの ざっしですか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "いいえ、違います。これはコンピューターの雑誌ですよ。",
+        "kana": "いいえ、ちがいます。これは コンピューターの ざっしですよ。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "そうですか。あの駐車場にある赤い車は山田さんの車ですか。",
+        "kana": "そうですか。あの ちゅうしゃじょうに ある あかい くるまは やまださんの くるまですか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "はい、そうです。私の車です。",
+        "kana": "はい、そうです。わたしの くるまです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "とてもかっこいい車ですね。では、また。",
+        "kana": "とても かっこいい くるまですね。では、また。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "ええ、また。コーヒー、ありがとうございました。",
+        "kana": "ええ、また。コーヒー、ありがとう ございました。"
+      }
+    ],
+    "translation": "Santos moves into apartment room 401 and visits his neighbor Yamada to introduce himself. Yamada asks who is knocking, and Santos introduces himself. Santos tells Yamada that he looks forward to his neighborly support from now on and asks for his friendship. Yamada responds with 'Likewise, pleased to meet you.' Santos then presents a small gift, saying 'This is just a small token of my feelings.' Yamada thanks him and asks what it is, and Santos explains that it is Brazilian coffee. Yamada is delighted. Seeing a magazine on the desk, Santos asks if it is a car magazine, but Yamada clarifies using 'いいえ、違います' that it is a computer magazine. Santos acknowledges this with 'そうですか' (falling intonation) and asks if the red car in the parking lot is Yamada's. Yamada confirms 'はい、そうです.' Santos compliments the cool car before saying goodbye.",
+    "questions": [
+      {
+        "question": "Which room number did Santos move into?",
+        "options": [
+          "Room 104",
+          "Room 401",
+          "Room 201",
+          "Room 302"
+        ],
+        "answer": 1,
+        "explanation": "Santos announces himself as: 401 (よんまるいち) のサントスです."
+      },
+      {
+        "question": "Which standard polite Japanese phrase does Santos use to say 'I look forward to your kind support from now on'?",
+        "options": [
+          "これからお世話になります",
+          "こちらこそよろしく",
+          "ほんの気持ちです",
+          "どうもありがとうございます"
+        ],
+        "answer": 0,
+        "explanation": "『これからお世話になります』 is the set expression used when moving in or starting a relationship."
+      },
+      {
+        "question": "How does Yamada reply to Santos's self-introduction and greeting?",
+        "options": [
+          "いいえ、違います。",
+          "こちらこそ、よろしくお願いします。",
+          "コーヒーをどうぞ。",
+          "これは何ですか。"
+        ],
+        "answer": 1,
+        "explanation": "『こちらこそ、よろしくお願いします』 means 'It is I who should say so / Pleased to meet you too'."
+      },
+      {
+        "question": "What gift does Santos give to Yamada as a 'ほんの気持ち' (small token)?",
+        "options": [
+          "Japanese green tea",
+          "Swiss chocolate",
+          "Brazilian coffee",
+          "A computer magazine"
+        ],
+        "answer": 2,
+        "explanation": "Santos explains: コーヒーです。ブラジルのコーヒーですよ (It is coffee. Brazilian coffee!)."
+      },
+      {
+        "question": "What kind of magazine is actually on Yamada's desk?",
+        "options": [
+          "A car magazine (自動車の雑誌)",
+          "An English newspaper (英語の新聞)",
+          "A computer magazine (コンピューターの雑誌)",
+          "A travel guidebook about Kyoto"
+        ],
+        "answer": 2,
+        "explanation": "Yamada corrects Santos by saying: いいえ、違います。これはコンピューターの雑誌ですよ."
+      },
+      {
+        "question": "How does Yamada deny Santos's assumption about the magazine?",
+        "options": [
+          "いいえ、そうです。",
+          "いいえ、違います。",
+          "はい、違います。",
+          "いいえ、これです。"
+        ],
+        "answer": 1,
+        "explanation": "Native Japanese speakers use 『いいえ、違います』 to state that an assumption or noun identification is incorrect."
+      },
+      {
+        "question": "What does Santos say when receiving new information about the magazine?",
+        "options": [
+          "そうですか (with falling intonation)",
+          "そうですか (with rising question intonation)",
+          "どうもありがとうございます",
+          "こちらこそよろしく"
+        ],
+        "answer": 0,
+        "explanation": "そうですか with falling intonation (↘) acknowledges newly learned information ('I see / Understood')."
+      },
+      {
+        "question": "Whose car is the red car in the parking lot?",
+        "options": [
+          "Santos's car",
+          "Yamada's car",
+          "Mr. Miller's car",
+          "The building manager's car"
+        ],
+        "answer": 1,
+        "explanation": "Yamada answers: はい、そうです。私の車です (Yes, that's right. It's my car)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct demonstrative pronoun: You are holding a key in your hand and want to ask your friend what it is.",
+      "prompt": {
+        "kanji": "___は何ですか。",
+        "kana": "___は なんですか。"
+      },
+      "options": [
+        "これ",
+        "それ",
+        "あれ",
+        "この"
+      ],
+      "answer": 0,
+      "explanation": "これ is used for items physically close to or held by the speaker. (この cannot be used alone without a noun)."
+    },
+    {
+      "question": "Your friend is holding an umbrella near themselves. You point to it and ask whose it is. Which word must YOU use?",
+      "prompt": {
+        "kanji": "___は誰の傘ですか。",
+        "kana": "___は だれの かさですか。"
+      },
+      "options": [
+        "それ",
+        "これ",
+        "あれ",
+        "その"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains, an item near the listener is referred to as それ by the speaker."
+    },
+    {
+      "question": "Both you and your friend are looking at a clock hanging high up on a distant wall. Which word is used?",
+      "prompt": {
+        "kanji": "___はどこの時計ですか。",
+        "kana": "___は どこの とけいですか。"
+      },
+      "options": [
+        "あれ",
+        "これ",
+        "それ",
+        "あの"
+      ],
+      "answer": 0,
+      "explanation": "あれ is used for items physically distant from both the speaker and the listener."
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "この辞書は私のです。",
+        "このは私の辞書です。",
+        "これは私の辞書です。",
+        "あの辞書は先生のです。"
+      ],
+      "answer": 1,
+      "explanation": "この, その, and あの CANNOT stand alone as subjects (✕ このは). They must modify a noun (この辞書は)."
+    },
+    {
+      "question": "Someone points to your planner and asks: 『それは手帳ですか』. It is indeed your planner. How do you confirm?",
+      "options": [
+        "はい、そうです。",
+        "いいえ、違います。",
+        "はい、これです。",
+        "いいえ、そうです。"
+      ],
+      "answer": 0,
+      "explanation": "To confirm a noun identification question affirmatively, say 『はい、そうです』."
+    },
+    {
+      "question": "Someone asks if an item is a mechanical pencil: 『それはシャープペンシルですか』. It is actually a ballpoint pen. How do you respond naturally?",
+      "options": [
+        "いいえ、違います。ボールペンです。",
+        "はい、違います。ボールペンです。",
+        "いいえ、そうです。ボールペンです。",
+        "はい、ボールペンではありません。"
+      ],
+      "answer": 0,
+      "explanation": "Takashi emphasizes that native speakers answer negatively with 『いいえ、違います』 and immediately supply the correct word."
+    },
+    {
+      "question": "You see a handwritten number that looks like either a 1 or a 7. How do you ask?",
+      "options": [
+        "これは「1」ですか、「7」ですか。",
+        "これは「1」ですか、「7」ですか、はい。",
+        "これは「1」と「7」ですか。",
+        "どれが「1」ですか、違いますか。"
+      ],
+      "answer": 0,
+      "explanation": "Alternative questions connect two possible questions: 『Sentence 1 か、Sentence 2 か』."
+    },
+    {
+      "question": "How should you answer the alternative question: 『これはボールペンですか、シャープペンシルですか』?",
+      "options": [
+        "ボールペンです。",
+        "はい、そうです。",
+        "いいえ、違います。",
+        "はい、ボールペンです。"
+      ],
+      "answer": 0,
+      "explanation": "CRITICAL RULE: Never answer an alternative question (Aか、Bか) with はい or いいえ! State the answer directly."
+    },
+    {
+      "question": "Choose the correct phrase to say 'a magazine about automobiles'.",
+      "prompt": {
+        "kanji": "自動車___雑誌",
+        "kana": "じどうしゃ___ざっし"
+      },
+      "options": [
+        "の",
+        "は",
+        "も",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "The particle の connects two nouns where N1 indicates the content or subject matter of N2."
+    },
+    {
+      "question": "How do you ask: 'What kind of book is this? / What is this book about?'",
+      "options": [
+        "これは何の本ですか。",
+        "これは誰の本ですか。",
+        "これはどれの本ですか。",
+        "これはどこの本ですか。"
+      ],
+      "answer": 0,
+      "explanation": "何の (なんの) + Noun asks about the content or category of an item."
+    },
+    {
+      "question": "How do you ask: 'Whose key is this?'",
+      "options": [
+        "これは誰の鍵ですか。",
+        "これは何の鍵ですか。",
+        "これは誰が鍵ですか。",
+        "この鍵は誰ですか。"
+      ],
+      "answer": 0,
+      "explanation": "Use 『誰の (だれの) + Noun』 to inquire about ownership/possession."
+    },
+    {
+      "question": "You want to say: 'This bag is mine.' Choose the most natural sentence.",
+      "options": [
+        "この鞄は私のです。",
+        "これは鞄は私のです。",
+        "この鞄は私の鞄です鞄。",
+        "このは私のかばんです。"
+      ],
+      "answer": 0,
+      "explanation": "When the noun (かばん) is established as the topic (この鞄は), you omit the repetitive noun at the end: 私のです."
+    },
+    {
+      "question": "Which noun CANNOT be omitted after の?",
+      "options": [
+        "People (e.g., 社員, 先生, 学生)",
+        "Stationery (e.g., 本, ノート, 鉛筆)",
+        "Accessories (e.g., 傘, 時計, 鍵)",
+        "Vehicles (e.g., 車, 自転車)"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi warns, you can omit physical objects after の, but you can NEVER omit nouns referring to people (✕ IMCのです)."
+    },
+    {
+      "question": "When a coworker mentions: 『あの赤い車は社長の車ですよ』, you realize something you didn't know before. What do you say?",
+      "options": [
+        "あ、そうですか。(falling pitch)",
+        "あ、そうですか。(rising pitch)",
+        "いいえ、違います。",
+        "こちらこそよろしく。"
+      ],
+      "answer": 0,
+      "explanation": "そうですか with falling pitch (↘) signals acknowledgment of newly learned information ('I see / Ah, is that so')."
+    },
+    {
+      "question": "Choose the word that includes the polite prefix お～ meaning 'souvenir / present'.",
+      "options": [
+        "お土産 (おみやげ)",
+        "お机 (おつくえ)",
+        "お鉛筆 (おえんぴつ)",
+        "おテレビ (おテレビ)"
+      ],
+      "answer": 0,
+      "explanation": "Takashi highlights that words like お土産, お茶, and お酒 use the polite prefix お～."
+    },
+    {
+      "question": "What is the customary phrase used when handing a neighbor a small moving-in gift?",
+      "options": [
+        "ほんの気持ちです。どうぞ。",
+        "どうもありがとうございます。",
+        "これからお世話になります。",
+        "いいえ、違います。"
+      ],
+      "answer": 0,
+      "explanation": "『ほんの気持ちです』 means 'It is just a small token of my feelings/gratitude'."
+    },
+    {
+      "question": "You moved into a new apartment. What do you say to introduce yourself to your next-door neighbor?",
+      "options": [
+        "これからお世話になります。どうぞよろしくお願いします。",
+        "ほんの気持ちです。違います。",
+        "あれは何の雑誌ですか。",
+        "こちらは山田さんで、会社員です。"
+      ],
+      "answer": 0,
+      "explanation": "『これからお世話になります』 is the standard, polite Japanese moving-in greeting."
+    },
+    {
+      "question": "When someone says to you 『どうぞよろしくお願いします』, how do you politely reciprocate?",
+      "options": [
+        "こちらこそ、よろしくお願いします。",
+        "いいえ、違います。",
+        "そうですか。",
+        "ほんの気持ちです。"
+      ],
+      "answer": 0,
+      "explanation": "『こちらこそ』 emphasizes 'It is I (not you) who should say so / Likewise'."
+    },
+    {
+      "question": "Choose the correct meaning of 手帳 (てちょう).",
+      "prompt": {
+        "kanji": "これは私の手帳です。",
+        "kana": "これは わたしの てちょうです。"
+      },
+      "options": [
+        "Pocket organizer / personal planner",
+        "Heavy textbook",
+        "Business card",
+        "Electronic calculator"
+      ],
+      "answer": 0,
+      "explanation": "手帳 (てちょう) is a pocket notebook or personal organizer. (Notebook = ノート; business card = 名刺)."
+    },
+    {
+      "question": "Choose the correct word for 'business card'.",
+      "options": [
+        "名刺 (めいし)",
+        "手帳 (てちょう)",
+        "雑誌 (ざっし)",
+        "新聞 (しんぶん)"
+      ],
+      "answer": 0,
+      "explanation": "名刺 (めいし) = business card."
+    },
+    {
+      "question": "Choose the correct word for 'mechanical pencil'.",
+      "options": [
+        "シャープペンシル",
+        "ボールペン",
+        "えんぴつ",
+        "万年筆 (まんねんひつ)"
+      ],
+      "answer": 0,
+      "explanation": "シャープペンシル (often abbreviated to シャーペン) = mechanical pencil."
+    },
+    {
+      "question": "Choose the correct sentence: 'Whose watch is that over there?'",
+      "options": [
+        "あの時計は誰のですか。",
+        "あれ時計は誰のですか。",
+        "その時計は誰ですか。",
+        "あの時計は誰ですか。"
+      ],
+      "answer": 0,
+      "explanation": "あの modifies 時計 directly (あの時計は), and 誰のですか asks 'whose is it?'"
+    },
+    {
+      "question": "Choose the correct sentence: 'This is not Mr. Miller's key.'",
+      "options": [
+        "これはミラーさんの鍵じゃありません。",
+        "このはミラーさんの鍵じゃありません。",
+        "これはミラーさんの鍵違います。",
+        "これ鍵はミラーさんのじゃありません。"
+      ],
+      "answer": 0,
+      "explanation": "これは + [Noun phrase] + じゃありません / ではありません."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "それは英語___新聞ですか。",
+        "kana": "それは えいご___ しんぶんですか。"
+      },
+      "options": [
+        "の",
+        "は",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "英語の新聞 = an English newspaper (language/content uses の)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "この傘は私___ではありません。",
+        "kana": "この かさは わたし___では ありません。"
+      },
+      "options": [
+        "の",
+        "は",
+        "が",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "私のではありません = is not mine (possessive pronoun 私の followed by ではありません)."
+    },
+    {
+      "question": "A: 『それは何ですか』 — B: 『___はチョコレートです』. Fill in B's response.",
+      "options": [
+        "これ",
+        "それ",
+        "あれ",
+        "この"
+      ],
+      "answer": 0,
+      "explanation": "Since A asked about an item near B using それ, B must refer to it as これ (near themselves)."
+    },
+    {
+      "question": "Choose the pair that represents: 'pencil' and 'pen'.",
+      "options": [
+        "鉛筆 (えんぴつ) ・ ボールペン",
+        "手帳 (てちょう) ・ ノート",
+        "雑誌 (ざっし) ・ 新聞 (しんぶん)",
+        "机 (つくえ) ・ 椅子 (いす)"
+      ],
+      "answer": 0,
+      "explanation": "鉛筆 = pencil; ボールペン = ballpoint pen."
+    },
+    {
+      "question": "Choose the correct response to: 『どうぞ』 (when someone hands you a cup of tea).",
+      "options": [
+        "どうもありがとうございます。",
+        "いいえ、違います。",
+        "そうですか。",
+        "こちらこそ。"
+      ],
+      "answer": 0,
+      "explanation": "When offered something with どうぞ, thank them with どうもありがとうございます."
+    },
+    {
+      "question": "What is the meaning of 鍵 (かぎ)?",
+      "options": [
+        "key",
+        "umbrella",
+        "bag",
+        "clock"
+      ],
+      "answer": 0,
+      "explanation": "鍵 (かぎ) = key."
+    },
+    {
+      "question": "What is the meaning of 時計 (とけい)?",
+      "options": [
+        "watch / clock",
+        "desk",
+        "chair",
+        "key"
+      ],
+      "answer": 0,
+      "explanation": "時計 (とけい) = watch, clock."
+    },
+    {
+      "question": "Complete the phrase: 『あのう、これ、ほんの___です』.",
+      "options": [
+        "気持ち",
+        "名刺",
+        "お土産",
+        "手帳"
+      ],
+      "answer": 0,
+      "explanation": "『ほんの気持ちです』 = It's just a small token of my appreciation / feelings."
+    },
+    {
+      "question": "Choose the correct phrase: 'computer book'.",
+      "options": [
+        "コンピューターの本",
+        "コンピューターと本",
+        "コンピューターは本",
+        "コンピューターで本"
+      ],
+      "answer": 0,
+      "explanation": "Topic/content is marked with の: コンピューターの本."
+    },
+    {
+      "question": "Which demonstrative means 'that ~ (near the listener)'?",
+      "options": [
+        "その",
+        "この",
+        "あの",
+        "どの"
+      ],
+      "answer": 0,
+      "explanation": "その modifies a noun located near the listener."
+    },
+    {
+      "question": "Which demonstrative means 'that over there (far from both)' as an independent pronoun?",
+      "options": [
+        "あれ",
+        "それ",
+        "これ",
+        "あの"
+      ],
+      "answer": 0,
+      "explanation": "あれ is the standalone pronoun for distant objects."
+    },
+    {
+      "question": "A: 『そのカメラはスイスのカメラですか』 — B: 『いいえ、___。日本のカメラです』.",
+      "options": [
+        "違います",
+        "そうです",
+        "あれです",
+        "あります"
+      ],
+      "answer": 0,
+      "explanation": "いいえ、違います is the natural negation when rejecting a noun identity."
+    },
+    {
+      "question": "Choose the correct question word: '___の傘ですか。— 山田さんのです。'",
+      "options": [
+        "誰",
+        "何",
+        "どこ",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "誰の (だれの) asks for the owner (Whose umbrella? - Mr. Yamada's)."
+    },
+    {
+      "question": "Choose the correct question word: 'それは___の雑誌ですか。— 車の雑誌です。'",
+      "options": [
+        "何",
+        "誰",
+        "どこ",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "何の (なんの) asks for content or topic (What kind of magazine? - A car magazine)."
+    },
+    {
+      "question": "Can you say: 『ミラーさんはIMCのです』 to mean 'Mr. Miller is an employee of IMC'?",
+      "options": [
+        "No, because の cannot substitute for nouns referring to people.",
+        "Yes, it is completely natural in all situations.",
+        "Yes, but only when talking to children.",
+        "No, because IMC is an American company."
+      ],
+      "answer": 0,
+      "explanation": "Takashi emphasizes that you cannot omit words referring to human beings after の. You must say 『IMCの社員です』."
+    },
+    {
+      "question": "Translate: 'Is this a notebook or a planner?'",
+      "options": [
+        "これはノートですか、手帳ですか。",
+        "これはノートと手帳ですか。",
+        "このノートは手帳ですか。",
+        "どれがノートですか、手帳ですか。"
+      ],
+      "answer": 0,
+      "explanation": "Alternative question pattern: S1ですか、S2ですか."
+    },
+    {
+      "question": "What is the polite prefix in the word お酒 (おさけ)?",
+      "options": [
+        "お",
+        "さ",
+        "け",
+        "酒"
+      ],
+      "answer": 0,
+      "explanation": "お is the honorific/polite prefix attached to show refinement and politeness."
+    }
+  ],
+  "writing": {
+    "title": "Introducing Your Belongings and Moving-In Neighbor Greeting",
+    "prompt": "Write 6–8 sentences in Japanese demonstrating Lesson 2 grammar. (1) Introduce yourself to a new neighbor using the room number and the moving-in greeting (これからお世話になります & どうぞよろしくお願いします). (2) Offer a small token gift (ほんの気持ちです & どうぞ). (3) Describe 2 items on your desk using demonstratives (これ / それ / この / その) and specify what kind of books or items they are using 『Noun 1 の Noun 2』 (e.g. 日本語の本, 車の雑誌). (4) Mention who owns an item or clarify ownership with 『～のです』 and negate an incorrect assumption using 『いいえ、違います』.",
+    "placeholder": "はじめまして。___ 号室の ___ です。\nこれから ______ になります。どうぞ ______ お願いします。\nあのう、これ、ほんの ______ です。______ をどうぞ。\nこれは ______ の本です。この傘は ______ のです。\nそれは山田さんのですか。いいえ、______。私のです。",
+    "modelAnswer": "はじめまして。302号室のワンです。これからお世話になります。どうぞよろしくお願いします。あのう、これ、ほんの気持ちです。台湾のお茶です。どうぞ。私の机の上に本があります。これは日本語の本です。そして、あのかばんは私のです。その赤い手帳はミラーさんのですか。いいえ、違います。私の手帳です。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "This is a Japanese language book.",
+        "chunks": [
+          "これは",
+          "日本語の",
+          "本です。"
+        ]
+      },
+      {
+        "en": "What is that near you? — This is a key.",
+        "chunks": [
+          "それは何ですか。",
+          "これは",
+          "鍵です。"
+        ]
+      },
+      {
+        "en": "That umbrella over there is mine.",
+        "chunks": [
+          "あの傘は",
+          "わたしの",
+          "傘です。"
+        ]
+      },
+      {
+        "en": "Whose bag is this bag?",
+        "chunks": [
+          "この鞄は",
+          "だれの",
+          "鞄ですか。"
+        ]
+      },
+      {
+        "en": "Is this a ballpoint pen or a mechanical pencil?",
+        "chunks": [
+          "これはボールペンですか、",
+          "シャープペンシル",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Is that a dictionary? — No, it isn't. It is a planner.",
+        "chunks": [
+          "それは辞書ですか。",
+          "いいえ、違います。",
+          "手帳です。"
+        ]
+      },
+      {
+        "en": "This is an automobile magazine.",
+        "chunks": [
+          "これは",
+          "自動車の",
+          "雑誌です。"
+        ]
+      },
+      {
+        "en": "That car over there is Mr. Yamada's.",
+        "chunks": [
+          "あの車は",
+          "山田さんの",
+          "車です。"
+        ]
+      },
+      {
+        "en": "I will be in your care from now on. Pleased to meet you.",
+        "chunks": [
+          "これからお世話になります。",
+          "どうぞよろしく",
+          "お願いします。"
+        ]
+      },
+      {
+        "en": "Um, this is just a small token of my feelings. Please.",
+        "chunks": [
+          "あのう、これ、",
+          "ほんの気持ちです。",
+          "どうぞ。"
+        ]
+      },
+      {
+        "en": "What kind of CD is that? — It is an English CD.",
+        "chunks": [
+          "それは何のCDですか。",
+          "英語の",
+          "CDです。"
+        ]
+      },
+      {
+        "en": "Is that watch yours too? — Yes, it is mine.",
+        "chunks": [
+          "その時計もあなたのですか。",
+          "はい、",
+          "私のです。"
+        ]
+      },
+      {
+        "en": "Is this a '9' or a '7'? — It is a '7'.",
+        "chunks": [
+          "これは「9」ですか、「7」ですか。",
+          "「7」",
+          "です。"
+        ]
+      },
+      {
+        "en": "Here is a souvenir from Kyoto.",
+        "chunks": [
+          "これは",
+          "京都の",
+          "お土産です。"
+        ]
+      },
+      {
+        "en": "It is I who should say so; pleased to meet you.",
+        "chunks": [
+          "こちらこそ、",
+          "よろしく",
+          "お願いします。"
+        ]
+      },
+      {
+        "en": "Whose key is that over there?",
+        "chunks": [
+          "あれは",
+          "だれの",
+          "鍵ですか。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "これ (pronoun) → Modifying the noun 本",
+        "form": "Demonstrative Adnominal (Modifier)",
+        "answer": "この本",
+        "options": [
+          "この本",
+          "これの本",
+          "これ本"
+        ],
+        "hint": "これ changes to この when directly placed before a noun."
+      },
+      {
+        "prompt": "それ (pronoun) → Modifying the noun 傘",
+        "form": "Demonstrative Adnominal (Modifier)",
+        "answer": "その傘",
+        "options": [
+          "その傘",
+          "それの傘",
+          "それ傘"
+        ],
+        "hint": "それ changes to その before a noun."
+      },
+      {
+        "prompt": "あれ (pronoun) → Modifying the noun 車",
+        "form": "Demonstrative Adnominal (Modifier)",
+        "answer": "あの車",
+        "options": [
+          "あの車",
+          "あれの車",
+          "あれ車"
+        ],
+        "hint": "あれ changes to あの before a noun."
+      },
+      {
+        "prompt": "「それは辞書ですか。」への肯定の返事 (Affirmative response)",
+        "form": "Affirmative Confirmation",
+        "answer": "はい、そうです",
+        "options": [
+          "はい、そうです",
+          "はい、違います",
+          "いいえ、そうです"
+        ],
+        "hint": "Use そうです to confirm a noun identification question."
+      },
+      {
+        "prompt": "「それは辞書ですか。」への否定の返事 (Natural negative response)",
+        "form": "Negative Rejection",
+        "answer": "いいえ、違います",
+        "options": [
+          "いいえ、違います",
+          "いいえ、そうです",
+          "はい、違います"
+        ],
+        "hint": "Takashi highlights that native speakers naturally say 違います (ちがいます)."
+      },
+      {
+        "prompt": "車 (Topic) + 雑誌 (Content connection)",
+        "form": "Noun 1 の Noun 2",
+        "answer": "車の雑誌",
+        "options": [
+          "車の雑誌",
+          "車な雑誌",
+          "車と雑誌"
+        ],
+        "hint": "Use particle の to connect topic/content to a publication."
+      },
+      {
+        "prompt": "日本語 (Language) + 本 (Content connection)",
+        "form": "Noun 1 の Noun 2",
+        "answer": "日本語の本",
+        "options": [
+          "日本語の本",
+          "日本語な本",
+          "日本語で本"
+        ],
+        "hint": "Language modifying a noun takes particle の."
+      },
+      {
+        "prompt": "英語 (Language) + 新聞",
+        "form": "Noun 1 の Noun 2",
+        "answer": "英語の新聞",
+        "options": [
+          "英語の新聞",
+          "英語な新聞",
+          "英語と新聞"
+        ],
+        "hint": "Use particle の for 'English newspaper'."
+      },
+      {
+        "prompt": "私 (Owner) + 鍵 (Possession)",
+        "form": "Noun 1 の Noun 2",
+        "answer": "私の鍵",
+        "options": [
+          "私の鍵",
+          "私な鍵",
+          "私に鍵"
+        ],
+        "hint": "Possessive particle is の."
+      },
+      {
+        "prompt": "ミラーさん (Owner) + 傘 (Possession)",
+        "form": "Noun 1 の Noun 2",
+        "answer": "ミラーさんの傘",
+        "options": [
+          "ミラーさんの傘",
+          "ミラーさんな傘",
+          "ミラーさん傘"
+        ],
+        "hint": "Use [Person] の [Item] for ownership."
+      },
+      {
+        "prompt": "私の鞄 (My bag) → Omit the obvious noun 鞄",
+        "form": "Noun Omission with の",
+        "answer": "私のです",
+        "options": [
+          "私のです",
+          "私です",
+          "私の鞄です鞄"
+        ],
+        "hint": "Drop 鞄 leaving 私の ('mine')."
+      },
+      {
+        "prompt": "佐藤さんの傘 (Ms. Sato's umbrella) → Omit the obvious noun 傘",
+        "form": "Noun Omission with の",
+        "answer": "佐藤さんのです",
+        "options": [
+          "佐藤さんのです",
+          "佐藤さんです",
+          "佐藤の傘です"
+        ],
+        "hint": "Drop 傘 to mean 'Ms. Sato's'."
+      },
+      {
+        "prompt": "土産 (Souvenir) + Polite prefix",
+        "form": "Polite Prefix お～",
+        "answer": "お土産",
+        "options": [
+          "お土産",
+          "ご土産",
+          "みやげお"
+        ],
+        "hint": "Takashi highlights the word お土産 (おみやげ)."
+      },
+      {
+        "prompt": "茶 (Tea) + Polite prefix",
+        "form": "Polite Prefix お～",
+        "answer": "お茶",
+        "options": [
+          "お茶",
+          "ご茶",
+          "お茶さん"
+        ],
+        "hint": "Green tea is customarily called お茶 (おちゃ)."
+      },
+      {
+        "prompt": "酒 (Alcohol / Sake) + Polite prefix",
+        "form": "Polite Prefix お～",
+        "answer": "お酒",
+        "options": [
+          "お酒",
+          "ご酒",
+          "酒お"
+        ],
+        "hint": "Polite form of 酒 is お酒 (おさけ)."
+      },
+      {
+        "prompt": "金 (Money) + Polite prefix",
+        "form": "Polite Prefix お～",
+        "answer": "お金",
+        "options": [
+          "お金",
+          "ご金",
+          "かねお"
+        ],
+        "hint": "Money in everyday Japanese takes お: お金 (おかね)."
+      },
+      {
+        "prompt": "名前 (Name) + Polite prefix for the listener's name",
+        "form": "Polite Prefix お～",
+        "answer": "お名前",
+        "options": [
+          "お名前",
+          "ご名前",
+          "名前様"
+        ],
+        "hint": "When asking someone's name politely, say お名前."
+      },
+      {
+        "prompt": "だれ (Who) + Questioning ownership of an item",
+        "form": "Possessive Interrogative",
+        "answer": "誰の",
+        "options": [
+          "誰の",
+          "誰が",
+          "誰は"
+        ],
+        "hint": "Whose = 誰の (だれの)."
+      },
+      {
+        "prompt": "なん (What) + Questioning content/topic of a book",
+        "form": "Content Interrogative",
+        "answer": "何の本",
+        "options": [
+          "何の本",
+          "何本",
+          "何のの本"
+        ],
+        "hint": "What kind of book = 何の本 (なんの ほん)."
+      },
+      {
+        "prompt": "IMCの社員 (IMC employee) → Can you omit 社員 to say 『IMCのです』?",
+        "form": "Omission Exception Check",
+        "answer": "Cannot omit (must say IMCの社員)",
+        "options": [
+          "Cannot omit (must say IMCの社員)",
+          "Can omit (say IMCのです)",
+          "Can omit with は"
+        ],
+        "hint": "Words referring to people can NEVER be omitted after の!"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "これ [ ? ] 私の辞書です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "も",
+          "が"
+        ],
+        "hint": "Topic marker marking これ as the topic."
+      },
+      {
+        "sentence": "これは日本語 [ ? ] 本です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "と",
+          "で"
+        ],
+        "hint": "Content or language modifying a noun takes の."
+      },
+      {
+        "sentence": "その時計は誰 [ ? ] ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Whose = 誰の."
+      },
+      {
+        "sentence": "これは「1」ですか、「7」です [ ? ]。",
+        "answer": "か",
+        "options": [
+          "か",
+          "よ",
+          "ね",
+          "の"
+        ],
+        "hint": "Alternative question endings use か."
+      },
+      {
+        "sentence": "この傘 [ ? ] 私のです。あの傘も私のです。",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "の",
+          "を"
+        ],
+        "hint": "First clause introduces the topic with は."
+      },
+      {
+        "sentence": "この傘は私のです。あの傘 [ ? ] 私のです。",
+        "answer": "も",
+        "options": [
+          "も",
+          "は",
+          "の",
+          "が"
+        ],
+        "hint": "Expressing 'also' / 'too' uses も."
+      },
+      {
+        "sentence": "机 [ ? ] 上に鍵があります。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "に",
+          "で"
+        ],
+        "hint": "Location noun connection: 机の上 (on top of the desk)."
+      },
+      {
+        "sentence": "それは何 [ ? ] 雑誌ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "が"
+        ],
+        "hint": "何の雑誌 = what kind of magazine."
+      },
+      {
+        "sentence": "山田さん [ ? ] 車はどれですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "が",
+          "と"
+        ],
+        "hint": "Possessive connection: Yamada's car."
+      },
+      {
+        "sentence": "これは本です [ ? ]、ノートですか。",
+        "answer": "か",
+        "options": [
+          "か",
+          "と",
+          "の",
+          "ね"
+        ],
+        "hint": "Alternative question connector: Aですか、Bですか."
+      },
+      {
+        "sentence": "ボールペン [ ? ] シャープペンシルを買いました。",
+        "answer": "と",
+        "options": [
+          "と",
+          "の",
+          "は",
+          "も"
+        ],
+        "hint": "Listing multiple concrete nouns uses と."
+      },
+      {
+        "sentence": "ブラジル [ ? ] コーヒーはおいしいです。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "で",
+          "に"
+        ],
+        "hint": "Origin / source: Brazilian coffee."
+      },
+      {
+        "sentence": "あの鞄は先生 [ ? ] です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "が"
+        ],
+        "hint": "Omitted noun phrase: 先生のです (is the teacher's)."
+      },
+      {
+        "sentence": "サントスさん [ ? ] 401号室の人です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "も",
+          "が"
+        ],
+        "hint": "Topic marker は."
+      },
+      {
+        "sentence": "京都 [ ? ] お土産をどうぞ。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "で",
+          "を"
+        ],
+        "hint": "Souvenir from Kyoto = 京都のお土産."
+      },
+      {
+        "sentence": "あれ [ ? ] 私の自動車ではありません。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "が",
+          "も"
+        ],
+        "hint": "Topic marker marking あれ as the topic."
+      },
+      {
+        "sentence": "英語 [ ? ] 辞書を買います。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "と",
+          "で"
+        ],
+        "hint": "English dictionary = 英語の辞書."
+      },
+      {
+        "sentence": "それは誰 [ ? ] 傘ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "が",
+          "に"
+        ],
+        "hint": "Whose umbrella = 誰の傘."
+      },
+      {
+        "sentence": "この手帳は田中さん [ ? ] ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "も",
+          "と"
+        ],
+        "hint": "Is this planner Mr. Tanaka's = 田中さんのですか."
+      },
+      {
+        "sentence": "これ [ ? ] お世話になります。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "は",
+          "の"
+        ],
+        "hint": "From now on = これから."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Holding an unknown object and asking a friend",
+        "speaker": "あなた (Holding the object)",
+        "prompt": "これは何ですか。",
+        "options": [
+          {
+            "text": "それは名刺入れですよ。",
+            "correct": true
+          },
+          {
+            "text": "これは名刺入れですよ。",
+            "correct": false
+          },
+          {
+            "text": "あれは名刺入れですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Takashi's Rule: When the speaker asks with これ, the listener answers with それ!"
+      },
+      {
+        "situation": "Neighbor moving in next door",
+        "speaker": "新しい隣人",
+        "prompt": "これからお世話になります。どうぞよろしくお願いします。",
+        "options": [
+          {
+            "text": "こちらこそ、よろしくお願いします。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違いますよ。",
+            "correct": false
+          },
+          {
+            "text": "ほんの気持ちです。",
+            "correct": false
+          }
+        ],
+        "tip": "Politely reciprocate a neighborly greeting with 『こちらこそ、よろしくお願いします』."
+      },
+      {
+        "situation": "Confirming who owns an umbrella",
+        "speaker": "同僚",
+        "prompt": "その青い傘はミラーさんのですか。",
+        "options": [
+          {
+            "text": "いいえ、違います。佐藤さんのです。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、そうです。佐藤さんのです。",
+            "correct": false
+          },
+          {
+            "text": "はい、違います。",
+            "correct": false
+          }
+        ],
+        "tip": "Deny with 『いいえ、違います』 and follow up with the true owner: 『～のです』."
+      },
+      {
+        "situation": "Distinguishing similar numbers",
+        "speaker": "先生",
+        "prompt": "これは「1」ですか、「7」ですか。",
+        "options": [
+          {
+            "text": "「7」です。",
+            "correct": true
+          },
+          {
+            "text": "はい、そうです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          }
+        ],
+        "tip": "Never answer alternative questions (Aですか、Bですか) with はい or いいえ! State the choice directly."
+      },
+      {
+        "situation": "Receiving unexpected news",
+        "speaker": "友達",
+        "prompt": "このチョコレートはスイスのお土産ですよ。",
+        "options": [
+          {
+            "text": "あ、そうですか。(falling intonation)",
+            "correct": true
+          },
+          {
+            "text": "あ、違いますか。",
+            "correct": false
+          },
+          {
+            "text": "どう致しまして。",
+            "correct": false
+          }
+        ],
+        "tip": "Acknowledge newly learned information with 『そうですか』 using a falling pitch."
+      },
+      {
+        "situation": "Presenting a gift",
+        "speaker": "あなた",
+        "prompt": "あのう、これ、ほんの気持ちです。どうぞ。",
+        "options": [
+          {
+            "text": "どうもありがとうございます。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          },
+          {
+            "text": "こちらこそお世話になります。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept a gift offered with ほんの気持ちです by saying 『どうもありがとうございます』."
+      },
+      {
+        "situation": "Inquiring about a book's subject",
+        "speaker": "同僚",
+        "prompt": "それは何の本ですか。",
+        "options": [
+          {
+            "text": "自動車の本です。",
+            "correct": true
+          },
+          {
+            "text": "私の本です。",
+            "correct": false
+          },
+          {
+            "text": "田中さんの本です。",
+            "correct": false
+          }
+        ],
+        "tip": "何の (なんの) asks what the book is about (topic/content). (誰の asks whose)."
+      },
+      {
+        "situation": "Pointing to an object far away",
+        "speaker": "あなた",
+        "prompt": "あの建物は何ですか。",
+        "options": [
+          {
+            "text": "あれは大学の図書館ですよ。",
+            "correct": true
+          },
+          {
+            "text": "これは大学の図書館ですよ。",
+            "correct": false
+          },
+          {
+            "text": "それは大学の図書館ですよ。",
+            "correct": false
+          }
+        ],
+        "tip": "When an object is distant from both speakers, both use あの / あれ."
+      },
+      {
+        "situation": "Checking ownership of a notebook",
+        "speaker": "田中",
+        "prompt": "このノートはワンさんのですか。",
+        "options": [
+          {
+            "text": "はい、私のです。",
+            "correct": true
+          },
+          {
+            "text": "はい、ワンのです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "When confirming your own possession, answer 『はい、私のです』 ('Yes, it is mine')."
+      },
+      {
+        "situation": "Offering someone tea at your home",
+        "speaker": "あなた",
+        "prompt": "お茶をどうぞ。",
+        "options": [
+          {
+            "text": "ありがとうございます。いただきます。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          },
+          {
+            "text": "こちらこそよろしく。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept offered food/tea with thanks and いただきます."
+      },
+      {
+        "situation": "Checking if someone works for a company",
+        "speaker": "客",
+        "prompt": "ミラーさんはIMCの社員ですか。",
+        "options": [
+          {
+            "text": "はい、IMCの社員です。",
+            "correct": true
+          },
+          {
+            "text": "はい、IMCのです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、違います。IMCのです。",
+            "correct": false
+          }
+        ],
+        "tip": "Takashi's Warning: Nouns referring to people CANNOT be omitted after の!"
+      },
+      {
+        "situation": "Asking who owns a key left on the table",
+        "speaker": "先生",
+        "prompt": "これは誰の鍵ですか。",
+        "options": [
+          {
+            "text": "あ、それは私の鍵です。すみません。",
+            "correct": true
+          },
+          {
+            "text": "あ、あれは私の鍵ですか。",
+            "correct": false
+          },
+          {
+            "text": "車の鍵です。",
+            "correct": false
+          }
+        ],
+        "tip": "The teacher holds it (これ), so you reply with それ (near the teacher)!"
+      }
+    ]
+  }
+}

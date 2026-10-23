@@ -1,0 +1,1604 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 22,
+    "title": "Noun Modification (名詞修飾) & Relative Clauses",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master modifying nouns with full clauses and sentences (relative clauses), applying the plain-form rule and marking internal subjects with が. Learn specialized Japanese verbs for putting on and wearing clothing and accessories based on body placement, and practice expressing time, appointments, and errands with 『V (plain) + 時間 / 約束 / 用事』."
+  },
+  "vocabulary": [
+    {
+      "id": "kimasu",
+      "kanji": "着ます",
+      "kana": "きます",
+      "romaji": "kimasu",
+      "meaning": "to put on; to wear (from the shoulders down)",
+      "category": "verb",
+      "example": {
+        "kanji": "セーターを着ます。",
+        "kana": "セーターを きます。",
+        "translation": "I put on a sweater."
+      }
+    },
+    {
+      "id": "hakimasu",
+      "kanji": "履きます / 着きます",
+      "kana": "はきます",
+      "romaji": "hakimasu",
+      "meaning": "to put on; to wear (from the waist down / footwear)",
+      "category": "verb",
+      "example": {
+        "kanji": "ズボンや靴をはきます。",
+        "kana": "ズボンや くつを はきます。",
+        "translation": "I put on pants and shoes."
+      }
+    },
+    {
+      "id": "kaburimasu",
+      "kanji": "被ります",
+      "kana": "かぶります",
+      "romaji": "kaburimasu",
+      "meaning": "to put on; to wear (on the head); to cover one's head",
+      "category": "verb",
+      "example": {
+        "kanji": "帽子をかぶっている人は誰ですか。",
+        "kana": "ぼうしを かぶって いる ひとは だれですか。",
+        "translation": "Who is the person wearing a hat?"
+      }
+    },
+    {
+      "id": "kakemasu",
+      "kanji": "掛けます",
+      "kana": "かけます",
+      "romaji": "kakemasu",
+      "meaning": "to put on (glasses); to hang up; to hook up",
+      "category": "verb",
+      "example": {
+        "kanji": "眼鏡をかけている人は田中さんです。",
+        "kana": "めがねを かけて いる ひとは たなかさんです。",
+        "translation": "The person wearing glasses is Mr. Tanaka."
+      }
+    },
+    {
+      "id": "shimasu",
+      "kanji": "します",
+      "kana": "します",
+      "romaji": "shimasu",
+      "meaning": "to put on; to wear (accessories, necktie, watch, gloves, mask)",
+      "category": "verb",
+      "example": {
+        "kanji": "ネクタイやマスクをします。",
+        "kana": "ネクタイや マスクを します。",
+        "translation": "I put on a necktie and a mask."
+      }
+    },
+    {
+      "id": "tsukemasu",
+      "kanji": "つけます",
+      "kana": "つけます",
+      "romaji": "tsukemasu",
+      "meaning": "to put on; to attach (accessories, mask, watch, etc.)",
+      "category": "verb",
+      "example": {
+        "kanji": "時計やアクセサリーをつけます。",
+        "kana": "とけいや アクセサリーを つけます。",
+        "translation": "I put on a watch and accessories."
+      }
+    },
+    {
+      "id": "umaremasu",
+      "kanji": "生まれます",
+      "kana": "うまれます",
+      "romaji": "umaremasu",
+      "meaning": "to be born",
+      "category": "verb",
+      "example": {
+        "kanji": "私が生まれた国は日本です。",
+        "kana": "わたしが うまれた くには にほんです。",
+        "translation": "The country where I was born is Japan."
+      }
+    },
+    {
+      "id": "watashitachi",
+      "kanji": "私たち",
+      "kana": "わたしたち",
+      "romaji": "watashitachi",
+      "meaning": "we; us",
+      "category": "noun",
+      "example": {
+        "kanji": "私たちは家族です。",
+        "kana": "わたしたちは かぞくです。",
+        "translation": "We are a family."
+      }
+    },
+    {
+      "id": "seetaa",
+      "kanji": "セーター",
+      "kana": "セーター",
+      "romaji": "seetaa",
+      "meaning": "sweater",
+      "category": "clothing",
+      "example": {
+        "kanji": "赤いセーターを着ています。",
+        "kana": "あかい セーターを きて います。",
+        "translation": "I am wearing a red sweater."
+      }
+    },
+    {
+      "id": "kooto",
+      "kanji": "コート",
+      "kana": "コート",
+      "romaji": "kooto",
+      "meaning": "coat",
+      "category": "clothing",
+      "example": {
+        "kanji": "寒いから、コートを着た方がいいですよ。",
+        "kana": "さむいから、コートを きた ほうがい いですよ。",
+        "translation": "Since it's cold, you'd better wear a coat."
+      }
+    },
+    {
+      "id": "suutsu",
+      "kanji": "スーツ",
+      "kana": "スーツ",
+      "romaji": "suutsu",
+      "meaning": "suit",
+      "category": "clothing",
+      "example": {
+        "kanji": "スーツを着なくてもいいですよ。",
+        "kana": "スーツを きなくても いいですよ。",
+        "translation": "You don't have to wear a suit."
+      }
+    },
+    {
+      "id": "boushi",
+      "kanji": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "meaning": "hat; cap",
+      "category": "clothing",
+      "example": {
+        "kanji": "白い帽子をかぶります。",
+        "kana": "しろい ぼうしを かぶります。",
+        "translation": "I will put on a white hat."
+      }
+    },
+    {
+      "id": "megane",
+      "kanji": "眼鏡",
+      "kana": "めがね",
+      "romaji": "megane",
+      "meaning": "glasses; spectacles",
+      "category": "clothing",
+      "example": {
+        "kanji": "眼鏡をかけた人を探しています。",
+        "kana": "めがねを かけた ひとを さがして います。",
+        "translation": "I am looking for a person wearing glasses."
+      }
+    },
+    {
+      "id": "keeki",
+      "kanji": "ケーキ",
+      "kana": "ケーキ",
+      "romaji": "keeki",
+      "meaning": "cake",
+      "category": "noun",
+      "example": {
+        "kanji": "母が作ったケーキを食べました。",
+        "kana": "ははが つくった ケーキを たべました。",
+        "translation": "I ate the cake that my mother made."
+      }
+    },
+    {
+      "id": "obentou",
+      "kanji": "お弁当",
+      "kana": "おべんとう",
+      "romaji": "obentou",
+      "meaning": "boxed lunch; bento",
+      "category": "noun",
+      "example": {
+        "kanji": "毎日学校にお弁当を持って行きます。",
+        "kana": "まいにち がっこうに おべんとうを もって いきます。",
+        "translation": "I bring a boxed lunch to school every day."
+      }
+    },
+    {
+      "id": "robotto",
+      "kanji": "ロボット",
+      "kana": "ロボット",
+      "romaji": "robotto",
+      "meaning": "robot",
+      "category": "noun",
+      "example": {
+        "kanji": "家事ができるロボットが欲しいです。",
+        "kana": "かじが できる ロボットが ほしいです。",
+        "translation": "I want a robot that can do household chores."
+      }
+    },
+    {
+      "id": "yuumoa",
+      "kanji": "ユーモア",
+      "kana": "ユーモア",
+      "romaji": "yuumoa",
+      "meaning": "humor; sense of humor",
+      "category": "noun",
+      "example": {
+        "kanji": "ユーモアがある人がタイプです。",
+        "kana": "ユーモアが ある ひとは タイプです。",
+        "translation": "My type is someone who has a sense of humor."
+      }
+    },
+    {
+      "id": "tsugou",
+      "kanji": "都合",
+      "kana": "つごう",
+      "romaji": "tsugou",
+      "meaning": "convenience; schedule; circumstances",
+      "category": "noun",
+      "example": {
+        "kanji": "月曜日は都合がいいですか？ — すみません、少し都合が悪いです。",
+        "kana": "げつようびは つごうが いいですか？ — すみません、すこし つごうが わるいです。",
+        "translation": "Is Monday convenient for you? — I'm sorry, it's a bit inconvenient for me."
+      }
+    },
+    {
+      "id": "yoku",
+      "kanji": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "meaning": "often; well",
+      "category": "adverb",
+      "example": {
+        "kanji": "このお店によく来ますか？",
+        "kana": "この おみせに よく きますか？",
+        "translation": "Do you often come to this shop?"
+      }
+    },
+    {
+      "id": "yachin",
+      "kanji": "家賃",
+      "kana": "やちん",
+      "romaji": "yachin",
+      "meaning": "house rent",
+      "category": "noun",
+      "example": {
+        "kanji": "家賃が安いアパートを探しています。",
+        "kana": "やちんが やすい アパートを さがして います。",
+        "translation": "I am looking for an apartment with cheap rent."
+      }
+    },
+    {
+      "id": "omedetougozaimasu",
+      "kanji": "おめでとうございます",
+      "kana": "おめでとうございます",
+      "romaji": "omedetou gozaimasu",
+      "meaning": "congratulations (formal; casual: おめでとう)",
+      "category": "expression",
+      "example": {
+        "kanji": "お誕生日おめでとうございます！",
+        "kana": "おたんじょうび おめでとう ございます！",
+        "translation": "Happy birthday! (Congratulations on your birthday!)"
+      }
+    },
+    {
+      "id": "jikan",
+      "kanji": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "meaning": "time; hours",
+      "category": "noun",
+      "example": {
+        "kanji": "日本語を勉強する時間がありません。",
+        "kana": "にほんごを べんきょうする じかんが ありません。",
+        "translation": "I don't have time to study Japanese."
+      }
+    },
+    {
+      "id": "yakusoku",
+      "kanji": "約束",
+      "kana": "やくそく",
+      "romaji": "yakusoku",
+      "meaning": "promise; appointment; arrangement; plans",
+      "category": "noun",
+      "example": {
+        "kanji": "友達と映画を見る約束があります。",
+        "kana": "ともだちと えいがを みる やくそくが あります。",
+        "translation": "I have plans to watch a movie with a friend."
+      }
+    },
+    {
+      "id": "youji",
+      "kanji": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "meaning": "errand; business to attend to; task",
+      "category": "noun",
+      "example": {
+        "kanji": "明日市役所へ行く用事があります。",
+        "kana": "あした しやくしょへ いく ようじが あります。",
+        "translation": "I have an errand to go to the city hall tomorrow."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun Modification Review & Takashi's Tip on the Particle の",
+      "explanation": "In Japanese, noun modification means adding extra information to a noun. CRITICAL RULE: Modifiers ALWAYS precede the noun they modify (Extra Information + Noun). Review from earlier lessons: (1) い-adjective: おもしろい本 (Lesson 8). (2) な-adjective: 有名な本 (Lesson 8: keep な before the noun). (3) Noun: 佐藤さんの本 (Lesson 2: insert の). Takashi's Tip on の: Particle の is exceptionally versatile because it connects almost ANY explanatory noun to a head noun as long as context clarifies the meaning: 東京の会社 (a company located in Tokyo), 車の会社 (a company that makes cars), 友達の佐藤さん (Sato-san who is a friend of mine), and めがねの人 (a person wearing glasses).",
+      "examples": [
+        {
+          "kanji": "おもしろい本を読みました。",
+          "kana": "おもしろい ほんを よみました。",
+          "translation": "I read an interesting book. (い-adjective modification)"
+        },
+        {
+          "kanji": "有名な本を買いました。",
+          "kana": "ゆうめいな ほんを かいました。",
+          "translation": "I bought a famous book. (な-adjective modification)"
+        },
+        {
+          "kanji": "佐藤さんの本を借りました。",
+          "kana": "さとうさんの ほんを かりました。",
+          "translation": "I borrowed Sato-san's book. (Noun modification with の)"
+        },
+        {
+          "kanji": "東京の会社で働いています。",
+          "kana": "とうきょうの かいしゃで はたらいて います。",
+          "translation": "I work at a company located in Tokyo."
+        },
+        {
+          "kanji": "あそこにいる眼鏡の人は誰ですか。",
+          "kana": "あそこに いる めがねの ひとは だれですか。",
+          "translation": "Who is the person with glasses over there?"
+        }
+      ]
+    },
+    {
+      "pattern": "Clause Modification of Nouns [Verb Sentence + Noun]",
+      "explanation": "A complete sentence can modify a noun to create relative clauses (e.g. 'the book that I wrote'). In English, relative pronouns like 'that', 'who', 'which', or 'where' are placed after the noun. In Japanese: (1) NO relative pronouns exist—simply omit them completely. (2) The modifying clause ALWAYS comes before the noun. (3) RULE 1: The verb in the modifying clause MUST be in the PLAIN FORM (普通形: 辞書形 / ない形 / た形 / なかった形). Polite -ます forms are NOT used. (4) RULE 2: The subject inside the modifying clause MUST be marked by が, NOT は. Even if the independent sentence was 『私は書きました』, inside the clause it becomes 『私が書いた』.",
+      "examples": [
+        {
+          "kanji": "これは私が書いた本です。",
+          "kana": "これは わたしが かいた ほんです。",
+          "translation": "This is the book that I wrote. (書きました → 書いた)"
+        },
+        {
+          "kanji": "これは私が明日買う本です。",
+          "kana": "これは わたしが あした かう ほんです。",
+          "translation": "This is the book that I will buy tomorrow. (買います → 買う)"
+        },
+        {
+          "kanji": "これは私が知らない本です。",
+          "kana": "これは わたしが しらない ほんです。",
+          "translation": "This is a book that I don't know. (知りません → 知らない)"
+        },
+        {
+          "kanji": "佐藤さんが知らなかった本を読みました。",
+          "kana": "さとうさんが しらなかった ほんを よみました。",
+          "translation": "I read the book that Sato-san didn't know. (知りませんでした → 知らなかった)"
+        },
+        {
+          "kanji": "ここは私が生まれた病院です。",
+          "kana": "ここは わたしが うまれた びょういんです。",
+          "translation": "This is the hospital where I was born. (生まれました → 生まれた)"
+        },
+        {
+          "kanji": "日本語を勉強している人は親切です。",
+          "kana": "にほんごを べんきょうして いる ひとは しんせつです。",
+          "translation": "The person who is studying Japanese is kind. (勉強しています → 勉強している)"
+        },
+        {
+          "kanji": "両親が英語を話す人が私の友達です。",
+          "kana": "りょうしんが えいごを はなす ひとは わたしの ともだちです。",
+          "translation": "The person whose parents speak English is my friend."
+        },
+        {
+          "kanji": "私が一緒に日本に行った人は田中さんです。",
+          "kana": "わたしが いっしょに にほんに いった ひとは たなかさんです。",
+          "translation": "The person with whom I went to Japan is Mr. Tanaka."
+        },
+        {
+          "kanji": "本を読むことができるアプリをダウンロードしました。",
+          "kana": "ほんを よむ ことが できる アプリを ダウンロード しました。",
+          "translation": "I downloaded an app in which you can read books."
+        }
+      ]
+    },
+    {
+      "pattern": "い-Adjective Sentences Modifying Nouns [Sentence + Noun]",
+      "explanation": "When an entire い-adjective clause (containing its own subject marked with が) modifies a noun: (1) The clause must end in plain form: simply drop です (安い店 / 安くない店). (2) The internal subject is marked by が (野菜が安い店).",
+      "examples": [
+        {
+          "kanji": "野菜が安いお店へ行きます。",
+          "kana": "やさいが やすい おみせへ いきます。",
+          "translation": "I go to a store where vegetables are cheap."
+        },
+        {
+          "kanji": "人が多くない所へ行きたいです。",
+          "kana": "ひとが おおくない ところへ いきたいです。",
+          "translation": "I want to go to a place where there aren't many people. (多くないです → 多くない)"
+        },
+        {
+          "kanji": "目があおい人が好きです。",
+          "kana": "めが あおい ひとが すきです。",
+          "translation": "I like people whose eyes are blue."
+        }
+      ]
+    },
+    {
+      "pattern": "な-Adj & Noun Clauses: The Special 『だ → な』 and 『だ → の』 Rules",
+      "explanation": "When a な-adjective or noun predicate clause modifies a noun, normal plain form of です is だ. HOWEVER, inside a noun-modifying clause, affirmative non-past だ has special rules: (1) な-adjectives: だ changes to な! (桜がきれいだ → 桜がきれいな所). (2) Noun predicates: だ changes to の! (趣味がテニスだ → 趣味がテニスの人). Other tenses remain standard plain forms: negative じゃありません → じゃない (お酒が好きじゃない人, 雨じゃない日); past でした → だった; negative past じゃありませんでした → じゃなかった.",
+      "examples": [
+        {
+          "kanji": "桜がきれいな所へ案内します。",
+          "kana": "さくらが きれいな ところへ あんないします。",
+          "translation": "I will guide you to a place where sakura is beautiful. (きれいだ → きれいな)"
+        },
+        {
+          "kanji": "趣味がテニスの人と友達になりました。",
+          "kana": "しゅみが テニスの ひとと ともだちに なりました。",
+          "translation": "I made friends with a person whose hobby is tennis. (テニスだ → テニスの)"
+        },
+        {
+          "kanji": "お酒が好きじゃない人も来ます。",
+          "kana": "おさけが すきじゃない ひとも きます。",
+          "translation": "People who don't like alcohol will also come. (好きじゃありません → 好きじゃない)"
+        },
+        {
+          "kanji": "雨じゃない日に散歩をします。",
+          "kana": "あめじゃない ひに さんぽを します。",
+          "translation": "I take walks on days when it is not raining. (雨じゃありません → 雨じゃない)"
+        },
+        {
+          "kanji": "私が好きな日本料理はたこ焼きです。",
+          "kana": "わたしが すきな にほんりょうりは たこやきです。",
+          "translation": "The Japanese food that I like is Takoyaki. (好きです → 好きな)"
+        }
+      ]
+    },
+    {
+      "pattern": "Noun-Modifying Clause in Full Sentence Patterns",
+      "explanation": "A noun modified by a clause functions as a regular noun phrase within a larger sentence. It can be the topic (～は), the direct object (～を), the question focus (～は誰ですか / どれですか), etc. Takashi highlights omitted subjects: if the subject inside the modifying clause is the speaker (私) or is obvious from the context, omit it to sound natural.",
+      "examples": [
+        {
+          "kanji": "これは私が昨日買った本です。",
+          "kana": "これは わたしが きのう かった ほんです。",
+          "translation": "This is the book that I bought yesterday."
+        },
+        {
+          "kanji": "ジョンさんが食べたことがない日本料理はたこ焼きです。",
+          "kana": "ジョンさんが たべた ことが ない にほんりょうりは たこやきです。",
+          "translation": "The Japanese food that John-san has never tried is Takoyaki."
+        },
+        {
+          "kanji": "ノートパソコンを入れるかばんを買いました。",
+          "kana": "ノートパソコンを いれる かばんを かいました。",
+          "translation": "I bought a bag to put my laptop in. (入れます → 入れる; subject 私は omitted)"
+        },
+        {
+          "kanji": "赤いシャツを着ている男の人は誰ですか。",
+          "kana": "あかい シャツを きている おとこの ひとは だれですか。",
+          "translation": "Who is the man who is wearing a red shirt? (or 赤いシャツの男の人)"
+        },
+        {
+          "kanji": "成田空港へ行く電車はどれですか。",
+          "kana": "なりたくうこうへ いく でんしゃは どれですか。",
+          "translation": "Which is the train that goes to Narita Airport? (行きます → 行く)"
+        }
+      ]
+    },
+    {
+      "pattern": "Verbs for Clothing & Accessories by Body Zone",
+      "explanation": "Japanese uses distinct verbs for wearing items depending on the body location: (1) 着ます (きます - Group 2): Upper body or full body garments (シャツ, Tシャツ, セーター, コート, スーツ, ワンピース). Note: 着る ends with an 'i' sound before ます but is Group 2! (2) はきます (Group 1): Lower body and feet (ズボン/パンツ, スカート, 靴, 靴下). (3) かぶります (Group 1): Headwear covering the head (帽子, ヘルメット). (4) かけます (Group 2): Eyewear hooked onto ears/bridge (眼鏡, サングラス). Takashi's Tip: It uses かけます because glasses have temples/arms that hook over the ears. (5) します (Group 3/suru) or つけます (Group 2): Accessories and remaining gear (手袋, マフラー, 時計, ネクタイ, ベルト, マスク, コンタクトレンズ). When describing someone currently wearing an item, use the continuous state form ～ています (着ている, はいている, かぶっている, かけている, している/つけている).",
+      "examples": [
+        {
+          "kanji": "寒いから、セーターとコートを着ます。",
+          "kana": "さむいから、セーターと コートを きます。",
+          "translation": "Since it's cold, I put on a sweater and a coat."
+        },
+        {
+          "kanji": "新しい靴を履きました。",
+          "kana": "あたらしい くつを はきました。",
+          "translation": "I put on new shoes."
+        },
+        {
+          "kanji": "ヘルメットをかぶってください。",
+          "kana": "ヘルメットを かぶって ください。",
+          "translation": "Please put on a helmet."
+        },
+        {
+          "kanji": "眼鏡をかけて本を読みます。",
+          "kana": "めがねを かけて ほんを よみます。",
+          "translation": "I put on glasses and read a book."
+        },
+        {
+          "kanji": "ネクタイをして、時計をつけました。",
+          "kana": "ネクタイを して、とけいを つけました。",
+          "translation": "I put on a necktie and wore a watch."
+        },
+        {
+          "kanji": "あの黒いスーツを着て、眼鏡をかけている人はミラーさんです。",
+          "kana": "あの くろい スーツを きて、めがねを かけて いる ひとは ミラーさんです。",
+          "translation": "That person wearing a black suit and wearing glasses is Mr. Miller."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (Plain Form) + 時間 / 約束 / 用事 [Time, Plans, & Errands]",
+      "explanation": "When modifying nouns representing time, plans, or errands, place the plain form (usually dictionary form) of the verb directly before the noun: (1) Verb (dictionary form) + 時間: time to do V (e.g. 宿題をする時間 = time to do homework). (2) Verb (dictionary form) + 約束: promise / appointment / plans to do V (e.g. 友達に会う約束 = plans to meet a friend). (3) Verb (dictionary form) + 用事: errand / business to do V (e.g. 市役所へ行く用事 = an errand to go to the city hall).",
+      "examples": [
+        {
+          "kanji": "日本語を勉強する時間がありません。",
+          "kana": "にほんごを べんきょうする じかんが ありません。",
+          "translation": "I have no time to study Japanese."
+        },
+        {
+          "kanji": "昨日は宿題をする時間がありませんでした。",
+          "kana": "きのうは しゅくだいを する じかんが ありませんでした。",
+          "translation": "Yesterday I didn't have time to do my homework."
+        },
+        {
+          "kanji": "来週の火曜日に友達に会う約束があります。",
+          "kana": "らいしゅうの かようびに ともだちに あう やくそくが あります。",
+          "translation": "I have plans to meet my friend next Tuesday."
+        },
+        {
+          "kanji": "友達と映画を見る約束があります。",
+          "kana": "ともだちと えいがを みる やくそくが あります。",
+          "translation": "I have plans to watch a movie with a friend."
+        },
+        {
+          "kanji": "明日市役所に行く用事があります。",
+          "kana": "あした しやくしょに いく ようじが あります。",
+          "translation": "I have an errand to go to the city hall tomorrow."
+        },
+        {
+          "kanji": "銀行に行く用事がありますから、出かけます。",
+          "kana": "ぎんこうに いく ようじが ありますから、でかけます。",
+          "translation": "I am going out because I have an errand to go to the bank."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "新しいアパートとパーティーで出会った人",
+    "lines": [
+      {
+        "speaker": "たかし",
+        "kanji": "ミラーさん、引っ越しおめでとうございます！新しいアパートはどうですか。",
+        "kana": "ミラーさん、ひっこし おめでとう ございます！あたらしい アパートは どうですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ありがとうございます。駅から近くて、家賃が安いアパートですから、とても気に入っています。",
+        "kana": "ありがとうございます。えきから ちかくて、やちんが やすい アパートですから、とても きにいって います。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "いいですね。あ、あそこで青いセーターを着て、眼鏡をかけている男の人は誰ですか。",
+        "kana": "いいですね。あ、あそこで あおい セーターを きて、めがねを かけて いる おとこの ひとは だれですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ああ、佐藤さんですよ。ユーモアがあって、とても親切な人です。",
+        "kana": "ああ、さとうさんですよ。ユーモアが あって、とても しんせつな ひとです。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "佐藤さんが持っているケーキは、佐藤さんが作ったケーキですか。",
+        "kana": "さとうさんが もって いる ケーキは、さとうさんが つくった ケーキですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、そうです。佐藤さんは料理を作るのが上手なんですよ。美味しいですよ、食べましょう！",
+        "kana": "ええ、そうです。さとうさんは りょうりを つくるのが じょうずなんですよ。おいしいですよ、たべましょう！"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "わあ、美味しいですね！あちらで白い帽子をかぶっている女の人はどなたですか。",
+        "kana": "わあ、おいしいですね！あちらで しろい ぼうしを かぶって いる おんなの ひとは どなたですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "あの人はマリアさんです。フランスで生まれた人で、英語と日本語を上手に話します。",
+        "kana": "あの ひとは マリアさんです。フランスで うまれた ひとで、えいごと にほんごを じょうずに はなします。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "そうですか。マリアさんとも話してみたいですね。",
+        "kana": "そうですか。マリアさんとも はなして みたいですね。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "じゃあ、紹介しますよ。あ、たかしさん、明日は何か用事がありますか。",
+        "kana": "じゃあ、しょうかいしますよ。あ、たかしさん、あしたは なにか ようじが ありますか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "明日は市役所へ行く用事がありますが、午後は時間がありますよ。都合はどうですか。",
+        "kana": "あしたは しやくしょへ いく ようじが ありますが、ごごは じかんが ありますよ。つごうは どうですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "じゃあ、午後一緒にロボットの展覧会へ行きませんか。家事ができるロボットを見ることができますよ。",
+        "kana": "じゃあ、ごご いっしょに ロボットの てんらんかいへ いきませんか。かじが できる ロボットを みる ことが できますよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "いいですね！ぜひ行きましょう。",
+        "kana": "いいですね！ぜひ いきましょう。"
+      }
+    ],
+    "translation": "Takashi congratulates Mr. Miller on moving and asks how his new apartment is. Mr. Miller says he likes it very much because it is close to the station and has cheap rent. Takashi asks about a man wearing a blue sweater and glasses over there. Mr. Miller explains that he is Mr. Sato, a person who has a good sense of humor and is very kind. Takashi asks if the cake Mr. Sato is holding is one that Sato-san made himself. Miller confirms it is and invites Takashi to try it. Takashi enjoys the cake and asks about a woman over there wearing a white hat. Miller explains she is Maria, someone who was born in France and speaks both English and Japanese fluently. Miller offers to introduce Takashi to her, and then asks Takashi if he has any errands tomorrow. Takashi says he has an errand to go to the city hall in the morning, but has time in the afternoon. Miller suggests they go together in the afternoon to a robot exhibition where they can see robots that do household chores. Takashi happily agrees.",
+    "questions": [
+      {
+        "question": "Why does Mr. Miller like his new apartment?",
+        "options": [
+          "Because it is big and has a large garden",
+          "Because it is close to the station and has cheap rent (家賃が安い)",
+          "Because it came with a household chore robot",
+          "Because Mr. Sato lives right next door"
+        ],
+        "answer": 1,
+        "explanation": "Mr. Miller says: 駅から近くて、家賃が安いアパートですから (because it is an apartment close to the station with cheap rent)."
+      },
+      {
+        "question": "What is Mr. Sato wearing in the dialogue?",
+        "options": [
+          "A suit and a necktie",
+          "A white hat and coat",
+          "A blue sweater and glasses (青いセーターを着て、眼鏡をかけている)",
+          "A red t-shirt and shoes"
+        ],
+        "answer": 2,
+        "explanation": "Takashi describes him as 『青いセーターを着て、眼鏡をかけている男の人』."
+      },
+      {
+        "question": "What does Mr. Miller say about Mr. Sato's personality?",
+        "options": [
+          "He is quiet and serious",
+          "He has humor and is very kind (ユーモアがあって、とても親切な人)",
+          "He is always busy with errands",
+          "He is hard of hearing"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: ユーモアがあって、とても親切な人です (He is a person who has humor and is very kind)."
+      },
+      {
+        "question": "Who made the cake that Mr. Sato is holding?",
+        "options": [
+          "Takashi",
+          "Maria",
+          "Mr. Sato himself (佐藤さんが作ったケーキ)",
+          "Miller's mother"
+        ],
+        "answer": 2,
+        "explanation": "Takashi asks: 『佐藤さんが作ったケーキですか』 and Miller replies 『ええ、そうです』."
+      },
+      {
+        "question": "How is Maria described in the dialogue?",
+        "options": [
+          "A person who was born in France and wears a white hat",
+          "A person who works at the city hall",
+          "A teacher who doesn't eat cake",
+          "A woman who bought an apartment yesterday"
+        ],
+        "answer": 0,
+        "explanation": "She is wearing a white hat (白い帽子をかぶっている女の人) and was born in France (フランスで生まれた人)."
+      },
+      {
+        "question": "What errand does Takashi have tomorrow morning?",
+        "options": [
+          "An errand to go to the bank",
+          "An errand to go to the city hall (市役所へ行く用事)",
+          "An errand to buy a suit",
+          "An errand to meet his parents"
+        ],
+        "answer": 1,
+        "explanation": "Takashi states: 『明日は市役所へ行く用事がありますが…』 (Tomorrow I have an errand to go to the city hall)."
+      },
+      {
+        "question": "What will Takashi and Miller see at the exhibition tomorrow afternoon?",
+        "options": [
+          "Foreign paintings",
+          "Robots that can do household chores (家事ができるロボット)",
+          "A cake-making contest",
+          "Expensive cars"
+        ],
+        "answer": 1,
+        "explanation": "Miller proposes seeing 『家事ができるロボット』 (robots that can do household chores)."
+      },
+      {
+        "question": "In the phrase 『フランスで生まれた人』, why is 生まれた used instead of 生まれました?",
+        "options": [
+          "Because clauses modifying nouns must end in the plain form",
+          "Because it is in the passive voice",
+          "Because 生まれました cannot refer to the past",
+          "Because 生まれた is a な-adjective"
+        ],
+        "answer": 0,
+        "explanation": "Rule 1 of noun modification states that the verb modifying a noun must end in the plain form (plain past of 生まれました is 生まれた)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct verb for putting on upper-body clothes (e.g. sweater, coat, shirt).",
+      "prompt": {
+        "kanji": "寒いから、セーターを___。",
+        "kana": "さむいから、セーターを ___。"
+      },
+      "options": [
+        "着ます",
+        "はきます",
+        "かぶります",
+        "かけます"
+      ],
+      "answer": 0,
+      "explanation": "Upper-body or full-body garments (sweaters, coats, shirts) use 着ます (きます)."
+    },
+    {
+      "question": "Choose the correct verb for putting on lower-body garments or shoes.",
+      "prompt": {
+        "kanji": "新しいズボンを___。",
+        "kana": "あたらしい ズボンを ___。"
+      },
+      "options": [
+        "着ます",
+        "はきます",
+        "かぶります",
+        "かけます"
+      ],
+      "answer": 1,
+      "explanation": "Clothing worn from the waist down (pants, skirts, socks, shoes) uses はきます."
+    },
+    {
+      "question": "Choose the correct verb for wearing a hat or helmet.",
+      "prompt": {
+        "kanji": "帽子を___いる人は誰ですか。",
+        "kana": "ぼうしを ___ いる ひとは だれですか。"
+      },
+      "options": [
+        "着て",
+        "かぶって",
+        "はいて",
+        "かけて"
+      ],
+      "answer": 1,
+      "explanation": "Headwear that covers the head uses かぶります (て-form: かぶって)."
+    },
+    {
+      "question": "Choose the correct verb for wearing glasses.",
+      "prompt": {
+        "kanji": "眼鏡を___います。",
+        "kana": "めがねを ___ います。"
+      },
+      "options": [
+        "かけて",
+        "着て",
+        "はいて",
+        "して"
+      ],
+      "answer": 0,
+      "explanation": "Glasses hook over the ears and bridge, so Japanese uses かけます (て-form: かけて)."
+    },
+    {
+      "question": "Inside a noun-modifying clause, which particle must mark the subject?",
+      "prompt": {
+        "kanji": "これは私___書いた本です。",
+        "kana": "これは わたし___ かいた ほんです。"
+      },
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "Rule 2 of noun modification: the subject inside the modifying clause is marked by が, never は."
+    },
+    {
+      "question": "Choose the correct form to say: 'This is the book that I bought yesterday.'",
+      "prompt": {
+        "kanji": "これは私が昨日___本です。",
+        "kana": "これは わたしが きのう ___ ほんです。"
+      },
+      "options": [
+        "買いました",
+        "買った",
+        "買う",
+        "買いた"
+      ],
+      "answer": 1,
+      "explanation": "The verb modifying a noun must be in the plain form. Past affirmative of 買います is 買った."
+    },
+    {
+      "question": "Choose the correct modifying form for a な-adjective: 'a place where sakura is beautiful'.",
+      "prompt": {
+        "kanji": "桜がきれい___所へ行きました。",
+        "kana": "さくらが きれい___ ところへ いきました。"
+      },
+      "options": [
+        "だ",
+        "な",
+        "の",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "In non-past affirmative, な-adjectives change だ to な when modifying a noun (きれいな所)."
+    },
+    {
+      "question": "Choose the correct modifying form for a noun predicate: 'a person whose hobby is tennis'.",
+      "prompt": {
+        "kanji": "趣味がテニス___人と友達になりました。",
+        "kana": "しゅみが テニス___ ひとと ともだちに なりました。"
+      },
+      "options": [
+        "だ",
+        "な",
+        "の",
+        "で"
+      ],
+      "answer": 2,
+      "explanation": "When a noun predicate modifies a head noun in the present affirmative, だ becomes の (テニスの人)."
+    },
+    {
+      "question": "Choose the sentence meaning: 'I have no time to study Japanese.'",
+      "options": [
+        "日本語を勉強する時間がありません。",
+        "日本語を勉強します時間がありません。",
+        "日本語を勉強したの時間がありません。",
+        "日本語を勉強する約束がありません。"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + 時間 = time to do V. 勉強する時間 = time to study."
+    },
+    {
+      "question": "Choose the sentence meaning: 'I have plans to meet a friend next Tuesday.'",
+      "options": [
+        "来週の火曜日に友達に会う約束があります。",
+        "来週の火曜日に友達に会います約束があります。",
+        "来週の火曜日に友達に会った用事があります。",
+        "来週の火曜日に友達に会う時間がありません。"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + 約束 = plans/appointment/promise to do V (会う約束があります)."
+    },
+    {
+      "question": "Choose the sentence meaning: 'Tomorrow I have an errand to go to the city hall.'",
+      "options": [
+        "明日市役所へ行く用事があります。",
+        "明日市役所へ行きます用事があります。",
+        "明日市役所へ行った約束があります。",
+        "明日市役所へ行く時間が欲しいです。"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + 用事 = errand/task to do V (市役所へ行く用事)."
+    },
+    {
+      "question": "What is the plain form of 買いませんでした when modifying a noun in the negative past?",
+      "options": [
+        "買わない",
+        "買わなかった",
+        "買いたくない",
+        "買わなかったの"
+      ],
+      "answer": 1,
+      "explanation": "The plain past negative of 買います is 買わなかった (私が買わなかった本 = the book I didn't buy)."
+    },
+    {
+      "question": "Choose the sentence meaning: 'Which is the train that goes to Narita Airport?'",
+      "options": [
+        "成田空港へ行く電車はどれですか。",
+        "成田空港へ行きます電車はどれですか。",
+        "成田空港へ行った電車はどのですか。",
+        "成田空港へ行くの電車はどちらですか。"
+      ],
+      "answer": 0,
+      "explanation": "行きます in plain form is 行く; modifying 電車 gives 成田空港へ行く電車."
+    },
+    {
+      "question": "What does 都合がいい (つごうがいい) mean?",
+      "options": [
+        "Expensive rent",
+        "Convenient (in terms of schedule/availability)",
+        "Having a good sense of humor",
+        "Good eyesight"
+      ],
+      "answer": 1,
+      "explanation": "都合がいい means schedule-wise convenient, or that one is available."
+    },
+    {
+      "question": "Choose the correct phrase: 'a robot that can do household chores'.",
+      "options": [
+        "家事ができるロボット",
+        "家事ができますロボット",
+        "家事をするのロボット",
+        "家事ができたロボット"
+      ],
+      "answer": 0,
+      "explanation": "できる (plain form of できます) modifies ロボット directly: 家事ができるロボット."
+    },
+    {
+      "question": "Choose the correct translation: 'the country where I was born'.",
+      "options": [
+        "私が生まれた国",
+        "私が生まれます国",
+        "私が生まれるの国",
+        "私は生まれた国"
+      ],
+      "answer": 0,
+      "explanation": "Subject takes が (私が) and the verb is plain past (生まれた): 私が生まれた国."
+    },
+    {
+      "question": "Which verb group does 着ます (きます) belong to?",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Irregular Group 4"
+      ],
+      "answer": 1,
+      "explanation": "Even though it has an 'i' sound before ます (き-ます), 着る/着ます is a Group 2 verb (te-form: 着て, plain: 着る)."
+    },
+    {
+      "question": "Which particle is used in 『東京 [ ? ] 会社』 to mean 'a company located in Tokyo'?",
+      "options": [
+        "で",
+        "の",
+        "に",
+        "と"
+      ],
+      "answer": 1,
+      "explanation": "Takashi's tip: the particle の attaches descriptive nouns like locations to other nouns (東京の会社)."
+    },
+    {
+      "question": "Choose the sentence with the correct plain-form verb: 'I ate the cake that my mother made.'",
+      "options": [
+        "母が作ったケーキを食べました。",
+        "母が作りましたケーキを食べました。",
+        "母は作ったケーキを食べました。",
+        "母が作ったのケーキを食べました。"
+      ],
+      "answer": 0,
+      "explanation": "Made (past) = 作った; internal subject takes が (母が作ったケーキ)."
+    },
+    {
+      "question": "Choose the natural way to say: 'a person who doesn't like alcohol'.",
+      "options": [
+        "お酒が好きじゃない人",
+        "お酒が好きだない人",
+        "お酒が好きじゃないの人",
+        "お酒が好きでした人"
+      ],
+      "answer": 0,
+      "explanation": "Negative plain form of 好きです is 好きじゃない; it modifies 人 directly (お酒が好きじゃない人)."
+    }
+  ],
+  "writing": {
+    "title": "Describing People, Belongings, and Your Schedule",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 22 grammar. (1) Describe someone at a party or in a classroom by what they are wearing using 『～を着ている / はいている / かけている / かぶっている人』. (2) Describe a possession or food using a clause modifier (e.g. 『私が昨日買った～』 or 『母が作った～』). (3) Describe your favorite place using an adjective or verb clause (e.g. 『桜がきれいな所』 or 『人が多くない所』). (4) Mention an appointment, errand, or lack of time using 『～する時間 / 約束 / 用事があります (or ありません)』.",
+    "placeholder": "あそこで青い ______ を着て、______ をかけている人は ______ さんです。\nこれは私が昨日 ______ 本です。\n私は ______ がきれいな所へ行きたいです。\n明日は ______ へ行く用事がありますから、______ する時間がありません。",
+    "modelAnswer": "あそこで青いシャツを着て、眼鏡をかけている人は田中さんです。田中さんはユーモアがあって、とても親切な人です。これは私が昨日デパートで買ったかばんで、ノートパソコンを入れるかばんです。週末は桜がきれいな所へ行きたいですが、土曜日は市役所へ行く用事があります。日曜日は友達と映画を見る約束がありますから、宿題をする時間がありません。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "This is the book that I wrote.",
+        "chunks": [
+          "これは",
+          "私が",
+          "書いた",
+          "本です。"
+        ]
+      },
+      {
+        "en": "This is the book that I bought yesterday.",
+        "chunks": [
+          "これは",
+          "私が昨日",
+          "買った",
+          "本です。"
+        ]
+      },
+      {
+        "en": "The Japanese food that I like is Takoyaki.",
+        "chunks": [
+          "私が好きな",
+          "日本料理は",
+          "たこ焼きです。"
+        ]
+      },
+      {
+        "en": "The Japanese food that John-san has never eaten is Takoyaki.",
+        "chunks": [
+          "ジョンさんが",
+          "食べたことがない",
+          "日本料理は",
+          "たこ焼きです。"
+        ]
+      },
+      {
+        "en": "I bought a bag to put my laptop in.",
+        "chunks": [
+          "ノートパソコンを",
+          "入れる",
+          "かばんを",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "Who is the man wearing a red shirt?",
+        "chunks": [
+          "赤いシャツを",
+          "着ている",
+          "男の人は",
+          "誰ですか。"
+        ]
+      },
+      {
+        "en": "Which is the train that goes to Narita Airport?",
+        "chunks": [
+          "成田空港へ",
+          "行く電車は",
+          "どれですか。"
+        ]
+      },
+      {
+        "en": "I want a robot that can do household chores.",
+        "chunks": [
+          "家事ができる",
+          "ロボットが",
+          "欲しいです。"
+        ]
+      },
+      {
+        "en": "I don't have time to study Japanese.",
+        "chunks": [
+          "日本語を",
+          "勉強する",
+          "時間が",
+          "ありません。"
+        ]
+      },
+      {
+        "en": "Yesterday I didn't have time to do my homework.",
+        "chunks": [
+          "昨日は",
+          "宿題をする",
+          "時間が",
+          "ありませんでした。"
+        ]
+      },
+      {
+        "en": "I have plans to meet a friend next Tuesday.",
+        "chunks": [
+          "来週の火曜日に",
+          "友達に会う",
+          "約束が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "I have an errand to go to the city hall tomorrow.",
+        "chunks": [
+          "明日は",
+          "市役所へ行く",
+          "用事が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "I want to go to a place where there aren't many people.",
+        "chunks": [
+          "人が多くない",
+          "所へ",
+          "行きたいです。"
+        ]
+      },
+      {
+        "en": "The country where I was born is Japan.",
+        "chunks": [
+          "私が生まれた",
+          "国は",
+          "日本です。"
+        ]
+      },
+      {
+        "en": "I am looking for an apartment with cheap rent.",
+        "chunks": [
+          "家賃が安い",
+          "アパートを",
+          "探しています。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "書きました (かきました)",
+        "form": "Plain past (た-form) modifying form",
+        "answer": "かいた",
+        "options": [
+          "かいた",
+          "かきた",
+          "かくだ"
+        ],
+        "hint": "Group 1 verb: き → いた (書いた本)"
+      },
+      {
+        "prompt": "買います (かいます)",
+        "form": "Plain non-past (Dictionary form)",
+        "answer": "かう",
+        "options": [
+          "かう",
+          "かいる",
+          "かった"
+        ],
+        "hint": "Group 1 verb: い → う (買う本)"
+      },
+      {
+        "prompt": "知りません (しりません)",
+        "form": "Plain negative (ない-form)",
+        "answer": "しらない",
+        "options": [
+          "しらない",
+          "しりない",
+          "しらなくて"
+        ],
+        "hint": "Group 1 verb: り → ら + ない (知らない本)"
+      },
+      {
+        "prompt": "知りませんでした (しりませんでした)",
+        "form": "Plain negative past (なかった-form)",
+        "answer": "しらなかった",
+        "options": [
+          "しらなかった",
+          "しりなかった",
+          "しらなかったの"
+        ],
+        "hint": "ない becomes なかった (知らなかった本)"
+      },
+      {
+        "prompt": "生まれました (うまれました)",
+        "form": "Plain past (た-form)",
+        "answer": "うまれた",
+        "options": [
+          "うまれた",
+          "うまれった",
+          "うまれるた"
+        ],
+        "hint": "Group 2 verb: replace ました with た (生まれた病院)"
+      },
+      {
+        "prompt": "着ます (きます)",
+        "form": "Plain continuous form (〜ている)",
+        "answer": "きている",
+        "options": [
+          "きている",
+          "きっている",
+          "くている"
+        ],
+        "hint": "Group 2 verb: 着て + いる (シャツを着ている人)"
+      },
+      {
+        "prompt": "掛けます (かけます)",
+        "form": "Plain continuous form (〜ている)",
+        "answer": "かけている",
+        "options": [
+          "かけている",
+          "かけっている",
+          "かいでいる"
+        ],
+        "hint": "Group 2 verb: かけて + いる (眼鏡をかけている人)"
+      },
+      {
+        "prompt": "被ります (かぶります)",
+        "form": "Plain continuous form (〜ている)",
+        "answer": "かぶっている",
+        "options": [
+          "かぶっている",
+          "かぶりている",
+          "かぶている"
+        ],
+        "hint": "Group 1 verb: り → って + いる (帽子をかぶっている人)"
+      },
+      {
+        "prompt": "履きます (はきます)",
+        "form": "Plain past (た-form)",
+        "answer": "はいた",
+        "options": [
+          "はいた",
+          "はった",
+          "はきた"
+        ],
+        "hint": "Group 1 verb: き → いた (靴をはいた人)"
+      },
+      {
+        "prompt": "入れます (いれます)",
+        "form": "Plain non-past (Dictionary form)",
+        "answer": "いれる",
+        "options": [
+          "いれる",
+          "いれす",
+          "いる"
+        ],
+        "hint": "Group 2 verb: ます → る (ノートパソコンを入れるかばん)"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain non-past (Dictionary form)",
+        "answer": "いく",
+        "options": [
+          "いく",
+          "いきる",
+          "いった"
+        ],
+        "hint": "Group 1 verb: き → く (空港へ行く電車)"
+      },
+      {
+        "prompt": "きれいです (きれいだ)",
+        "form": "Modifying form before a noun",
+        "answer": "きれいな",
+        "options": [
+          "きれいな",
+          "きれいだ",
+          "きれいの"
+        ],
+        "hint": "な-adjectives change だ to な when modifying nouns (きれいな所)"
+      },
+      {
+        "prompt": "好きです (すきだ)",
+        "form": "Modifying form before a noun",
+        "answer": "すきな",
+        "options": [
+          "すきな",
+          "すきだ",
+          "すきの"
+        ],
+        "hint": "な-adjectives use な before nouns (好きな料理)"
+      },
+      {
+        "prompt": "テニスです (テニスだ)",
+        "form": "Modifying form before a noun",
+        "answer": "テニスの",
+        "options": [
+          "テニスの",
+          "テニスな",
+          "テニスだ"
+        ],
+        "hint": "Noun predicates change だ to の when modifying a head noun (趣味がテニスの人)"
+      },
+      {
+        "prompt": "雨じゃありません (あめじゃありません)",
+        "form": "Plain negative modifying form",
+        "answer": "あめじゃない",
+        "options": [
+          "あめじゃない",
+          "あめではないの",
+          "あめだない"
+        ],
+        "hint": "Noun negative plain form is じゃない (雨じゃない日)"
+      },
+      {
+        "prompt": "会います (あいます)",
+        "form": "Plain non-past before 約束",
+        "answer": "あう",
+        "options": [
+          "あう",
+          "あいる",
+          "あった"
+        ],
+        "hint": "Dictionary form: い → う (友達に会う約束)"
+      },
+      {
+        "prompt": "します",
+        "form": "Plain non-past before 時間",
+        "answer": "する",
+        "options": [
+          "する",
+          "した",
+          "しる"
+        ],
+        "hint": "Group 3 irregular: します becomes する (宿題をする時間)"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "これは私 [ ? ] 書いた本です。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "The subject inside a relative clause modifying a noun is marked with が."
+      },
+      {
+        "sentence": "セーター [ ? ] 着ます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "hint": "The garment being put on is the direct object marked with を."
+      },
+      {
+        "sentence": "帽子 [ ? ] かぶっている人は佐藤さんです。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Headwear worn takes object particle を."
+      },
+      {
+        "sentence": "眼鏡 [ ? ] かけます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "Eyewear takes object particle を with かけます."
+      },
+      {
+        "sentence": "東京 [ ? ] 会社で働いています。",
+        "answer": "の",
+        "options": [
+          "の",
+          "で",
+          "に",
+          "を"
+        ],
+        "hint": "Takashi's tip: use の to connect descriptive nouns (a company located in Tokyo)."
+      },
+      {
+        "sentence": "私が生まれた国 [ ? ] 日本です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "The modified noun phrase 『私が生まれた国』 is the topic of the main sentence marked with は."
+      },
+      {
+        "sentence": "家事 [ ? ] できるロボットが欲しいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "The potential ability marker with できる is が (家事ができる)."
+      },
+      {
+        "sentence": "日本語を勉強する時間 [ ? ] ありません。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Existence of abstract items like time with あります / ありません takes が."
+      },
+      {
+        "sentence": "来週の火曜日に友達 [ ? ] 会う約束があります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "The person you meet takes に (友達に会う)."
+      },
+      {
+        "sentence": "明日市役所 [ ? ] 行く用事があります。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Direction or destination of motion takes へ (or に)."
+      },
+      {
+        "sentence": "佐藤さん [ ? ] 持っているケーキはおいしそうです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "Inside the modifying clause 『佐藤さんが持っている』, the subject takes が."
+      },
+      {
+        "sentence": "野菜 [ ? ] 安いスーパーを教えてください。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "で"
+        ],
+        "hint": "Subject of the adjective inside the clause takes が (野菜が安い)."
+      },
+      {
+        "sentence": "月曜日は都合 [ ? ] いいですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Collocation: 都合がいい (schedule is convenient) takes が."
+      },
+      {
+        "sentence": "あそこで赤いシャツ [ ? ] 男の人は誰ですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "な",
+          "が",
+          "で"
+        ],
+        "hint": "Takashi's shortcut tip: you can replace 『着ている』 with particle の (赤いシャツの人)."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Looking for someone at a crowded event",
+        "speaker": "同僚",
+        "prompt": "佐藤さんはどの人ですか？",
+        "options": [
+          {
+            "text": "あそこで青いセーターを着て、眼鏡をかけている人ですよ。",
+            "correct": true
+          },
+          {
+            "text": "あそこで青いセーターを着る人です。",
+            "correct": false
+          },
+          {
+            "text": "青いセーターをかぶっている人です。",
+            "correct": false
+          }
+        ],
+        "tip": "Use the continuous state form 〜ている to describe what someone is wearing (着ている, かけている)."
+      },
+      {
+        "situation": "Discussing your weekend plans",
+        "speaker": "友達",
+        "prompt": "今週の土曜日に一緒に映画を見に行きませんか？",
+        "options": [
+          {
+            "text": "すみません、土曜日は市役所へ行く用事があります。",
+            "correct": true
+          },
+          {
+            "text": "すみません、土曜日は市役所へ行きます用事があります。",
+            "correct": false
+          },
+          {
+            "text": "すみません、市役所へ行った約束があります。",
+            "correct": false
+          }
+        ],
+        "tip": "Modify 用事 using the dictionary form of the verb: 行く用事があります."
+      },
+      {
+        "situation": "Complimenting a coworker's belongings",
+        "speaker": "同僚",
+        "prompt": "素敵なかばんを持っていますね！",
+        "options": [
+          {
+            "text": "ありがとうございます。ノートパソコンを入れるために昨日買ったかばんです。",
+            "correct": true
+          },
+          {
+            "text": "ありがとうございます。昨日買いましたかばんです。",
+            "correct": false
+          },
+          {
+            "text": "昨日買ったのかばんです。",
+            "correct": false
+          }
+        ],
+        "tip": "Clause modifiers must end in plain form without の (昨日買ったかばん)."
+      },
+      {
+        "situation": "Checking someone's availability",
+        "speaker": "先輩",
+        "prompt": "明日少し話をしたいんですが、都合はどうですか？",
+        "options": [
+          {
+            "text": "明日はちょっと都合が悪いです。明後日はどうですか。",
+            "correct": true
+          },
+          {
+            "text": "明日は都合が下手です。",
+            "correct": false
+          },
+          {
+            "text": "都合がありません。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 都合が悪い (つごうがわるい) to politely decline when your schedule is inconvenient."
+      },
+      {
+        "situation": "Asking which train to ride at the station",
+        "speaker": "旅行者",
+        "prompt": "成田空港へ行きたいんですが、どの電車ですか？",
+        "options": [
+          {
+            "text": "あそこの1番線から出る電車ですよ。",
+            "correct": true
+          },
+          {
+            "text": "あそこの1番線から出ます電車ですよ。",
+            "correct": false
+          },
+          {
+            "text": "出るの電車です。",
+            "correct": false
+          }
+        ],
+        "tip": "Modify 電車 with the dictionary form: 出る電車."
+      },
+      {
+        "situation": "Explaining why you didn't finish homework",
+        "speaker": "先生",
+        "prompt": "昨日の宿題はどうしましたか？",
+        "options": [
+          {
+            "text": "すみません、昨日は宿題をする時間がありませんでした。",
+            "correct": true
+          },
+          {
+            "text": "宿題をしました時間がありませんでした。",
+            "correct": false
+          },
+          {
+            "text": "宿題をするの用事がありました。",
+            "correct": false
+          }
+        ],
+        "tip": "Say 'no time to do homework' with 『宿題をする時間がありませんでした』."
+      },
+      {
+        "situation": "Hearing good news from a friend",
+        "speaker": "友達",
+        "prompt": "先週、新しい会社に入社しました！",
+        "options": [
+          {
+            "text": "おめでとうございます！",
+            "correct": true
+          },
+          {
+            "text": "都合がいいですね。",
+            "correct": false
+          },
+          {
+            "text": "ユーモアがありますね。",
+            "correct": false
+          }
+        ],
+        "tip": "Congratulate someone on achievements or celebrations with 『おめでとうございます』."
+      }
+    ]
+  }
+}

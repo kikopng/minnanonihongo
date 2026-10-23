@@ -1,0 +1,2368 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 17,
+    "title": "Verb ない-form, Prohibitions, Obligations, and Permissions",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master the verb ない-form (plain negative) across all three verb groups and the 5-row Godan chart, negative polite requests (～ないでください), expressing necessity and obligation (～なければなりません and natural conversational alternatives like ～ないといけません / ～なきゃ), lack of obligation (～なくてもいいです and its past tense), and distinguishing deadlines (～までに) from continuous duration (～まで)."
+  },
+  "vocabulary": [
+    {
+      "id": "oboemasu",
+      "kanji": "覚えます",
+      "kana": "おぼえます",
+      "romaji": "oboemasu",
+      "meaning": "to memorize; to remember",
+      "category": "verb",
+      "example": {
+        "kanji": "ごめんなさい、覚えていません。",
+        "kana": "ごめんなさい、おぼえていません。",
+        "translation": "Sorry, I haven't memorized it (= I don't remember it)."
+      }
+    },
+    {
+      "id": "wasuremasu",
+      "kanji": "忘れます",
+      "kana": "わすれます",
+      "romaji": "wasuremasu",
+      "meaning": "to forget",
+      "category": "verb",
+      "example": {
+        "kanji": "この言葉の意味を忘れました。",
+        "kana": "この ことばの いみを わすれました。",
+        "translation": "I forgot the meaning of this word."
+      }
+    },
+    {
+      "id": "nakushimasu",
+      "kanji": "なくします",
+      "kana": "なくします",
+      "romaji": "nakushimasu",
+      "meaning": "to lose [something]",
+      "category": "verb",
+      "example": {
+        "kanji": "財布をどこかでなくしました。",
+        "kana": "さいふを どこかで なくしました。",
+        "translation": "I lost my wallet somewhere."
+      }
+    },
+    {
+      "id": "haraimasu",
+      "kanji": "払います",
+      "kana": "はらいます",
+      "romaji": "haraimasu",
+      "meaning": "to pay",
+      "category": "verb",
+      "example": {
+        "kanji": "お金を払わなければなりません。",
+        "kana": "おかねを はらわなければ なりません。",
+        "translation": "You / I have to pay money."
+      }
+    },
+    {
+      "id": "kaeshimasu",
+      "kanji": "返します",
+      "kana": "かえします",
+      "romaji": "kaeshimasu",
+      "meaning": "to give back; to return",
+      "category": "verb",
+      "example": {
+        "kanji": "上司にメールを返さなければなりません。",
+        "kana": "じょうしに メールを かえさなければ なりません。",
+        "translation": "I have to return an email to my boss (= reply to my boss's email)."
+      }
+    },
+    {
+      "id": "dekakemasu",
+      "kanji": "出かけます",
+      "kana": "でかけます",
+      "romaji": "dekakemasu",
+      "meaning": "to go out (on an outing or excursion)",
+      "category": "verb",
+      "example": {
+        "kanji": "先週末、家族と出かけました。",
+        "kana": "せんしゅうまつ、かぞくと でかけました。",
+        "translation": "I went out with my family last weekend."
+      }
+    },
+    {
+      "id": "nugimasu",
+      "kanji": "脱ぎます",
+      "kana": "ぬぎます",
+      "romaji": "nugimasu",
+      "meaning": "to take off (clothes, shoes, etc.)",
+      "category": "verb",
+      "example": {
+        "kanji": "靴を脱がなくてもいいですよ。",
+        "kana": "くつを ぬがなくても いいですよ。",
+        "translation": "You don't have to take off your shoes."
+      }
+    },
+    {
+      "id": "nomimasu",
+      "kanji": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "meaning": "to drink; to take (medicine)",
+      "category": "verb",
+      "example": {
+        "kanji": "1日に3回この薬を飲んでください。",
+        "kana": "いちにちに さんかい この くすりを のんで ください。",
+        "translation": "Please drink (= take) this medicine 3 times a day."
+      }
+    },
+    {
+      "id": "hairimasu",
+      "kanji": "入ります",
+      "kana": "はいります",
+      "romaji": "hairimasu",
+      "meaning": "to enter; to take (a bath)",
+      "category": "verb",
+      "example": {
+        "kanji": "お風呂に入ります。",
+        "kana": "おふろに はいります。",
+        "translation": "To take a bath (literally: enter the bath)."
+      }
+    },
+    {
+      "id": "mochimasu",
+      "kanji": "持ちます",
+      "kana": "もちます",
+      "romaji": "mochimasu",
+      "meaning": "to hold (in hand); to own",
+      "category": "verb",
+      "example": {
+        "kanji": "荷物を持ちます。",
+        "kana": "にもつを もちます。",
+        "translation": "I will hold the luggage."
+      }
+    },
+    {
+      "id": "motteikimasu",
+      "kanji": "持っていきます",
+      "kana": "もっていきます",
+      "romaji": "motteikimasu",
+      "meaning": "to take (something with you); hold and go",
+      "category": "verb",
+      "example": {
+        "kanji": "これを持っていってください。",
+        "kana": "これを もっていって ください。",
+        "translation": "Please take this with you."
+      }
+    },
+    {
+      "id": "mottekimasu",
+      "kanji": "持ってきます",
+      "kana": "もってきます",
+      "romaji": "mottekimasu",
+      "meaning": "to bring (something); hold and come",
+      "category": "verb",
+      "example": {
+        "kanji": "それを持ってきてください。",
+        "kana": "それを もってきて ください。",
+        "translation": "Please bring that to me."
+      }
+    },
+    {
+      "id": "shinpai",
+      "kanji": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "meaning": "worry; concern; anxiety",
+      "category": "noun",
+      "example": {
+        "kanji": "心配しなくてもいいですよ。",
+        "kana": "しんぱい しなくても いいですよ。",
+        "translation": "You don't have to worry (about it)."
+      }
+    },
+    {
+      "id": "zangyou",
+      "kanji": "残業",
+      "kana": "ざんぎょう",
+      "romaji": "zangyou",
+      "meaning": "overtime work",
+      "category": "noun",
+      "example": {
+        "kanji": "今夜は残業しなければならないです。",
+        "kana": "こんやは ざんぎょう しなければ ならないです。",
+        "translation": "I have to work overtime tonight."
+      }
+    },
+    {
+      "id": "shucchou",
+      "kanji": "出張",
+      "kana": "しゅっちょう",
+      "romaji": "shucchou",
+      "meaning": "business trip",
+      "category": "noun",
+      "example": {
+        "kanji": "日本へ出張に行きます。",
+        "kana": "にほんへ しゅっちょうに いきます。",
+        "translation": "I will go on a business trip to Japan."
+      }
+    },
+    {
+      "id": "taisetsu",
+      "kanji": "大切",
+      "kana": "たいせつ",
+      "romaji": "taisetsu",
+      "meaning": "important; precious",
+      "category": "adjective",
+      "example": {
+        "kanji": "この文法はとても大切ですから、覚えてください。",
+        "kana": "この ぶんぽうは とても たいせつですから、おぼえて ください。",
+        "translation": "This grammar is important, so please memorize it."
+      }
+    },
+    {
+      "id": "daijoubu",
+      "kanji": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "meaning": "all right; okay",
+      "category": "adjective",
+      "example": {
+        "kanji": "袋は要りますか？ — いいえ、大丈夫です。",
+        "kana": "ふくろは いりますか？ — いいえ、だいじょうぶです。",
+        "translation": "Do you need a bag? — No, it's all right."
+      }
+    },
+    {
+      "id": "abunai",
+      "kanji": "危ない",
+      "kana": "あぶない",
+      "romaji": "abunai",
+      "meaning": "dangerous",
+      "category": "adjective",
+      "example": {
+        "kanji": "この辺りは、夜はとても危ないです。",
+        "kana": "この あたりは、よるは とても あぶないです。",
+        "translation": "This area is very dangerous at night."
+      }
+    },
+    {
+      "id": "itai",
+      "kanji": "痛い",
+      "kana": "いたい",
+      "romaji": "itai",
+      "meaning": "painful; sore; hurts",
+      "category": "adjective",
+      "example": {
+        "kanji": "頭が痛いです。",
+        "kana": "あたまが いたいです。",
+        "translation": "My head is painful (= I have a headache)."
+      }
+    },
+    {
+      "id": "kin'en",
+      "kanji": "禁煙",
+      "kana": "きんえん",
+      "romaji": "kin'en",
+      "meaning": "no smoking; non-smoking",
+      "category": "noun",
+      "example": {
+        "kanji": "ここは禁煙ですから、たばこを吸わないでください。",
+        "kana": "ここは きんえんですから、たばこを すわないで ください。",
+        "translation": "This area is non-smoking, so please do not smoke."
+      }
+    },
+    {
+      "id": "hokenshou",
+      "kanji": "健康保険証 / 保険証",
+      "kana": "けんこうほけんしょう / ほけんしょう",
+      "romaji": "kenkou hokenshou / hokenshou",
+      "meaning": "health insurance card",
+      "category": "noun",
+      "example": {
+        "kanji": "保険証を持ってきてください。",
+        "kana": "ほけんしょうを もってきて ください。",
+        "translation": "Please bring your health insurance card (usually shortened to 保険証)."
+      }
+    },
+    {
+      "id": "netsu",
+      "kanji": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "meaning": "fever; temperature; heat",
+      "category": "noun",
+      "example": {
+        "kanji": "昨日から熱があります。",
+        "kana": "きのうから ねつが あります。",
+        "translation": "I've had a fever since yesterday."
+      }
+    },
+    {
+      "id": "nodo",
+      "kanji": "のど",
+      "kana": "のど",
+      "romaji": "nodo",
+      "meaning": "throat",
+      "category": "body",
+      "example": {
+        "kanji": "のどが痛いです。",
+        "kana": "のどが いたいです。",
+        "translation": "My throat hurts (I have a sore throat)."
+      }
+    },
+    {
+      "id": "byouki",
+      "kanji": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "meaning": "illness; disease",
+      "category": "noun",
+      "example": {
+        "kanji": "私は病気です。",
+        "kana": "わたしは びょうきです。",
+        "translation": "I am ill (usually used for serious illness; for mild sickness use 気分/体調が悪いです)."
+      }
+    },
+    {
+      "id": "kaze",
+      "kanji": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "meaning": "a cold",
+      "category": "noun",
+      "example": {
+        "kanji": "風邪を引きました。",
+        "kana": "かぜを ひきました。",
+        "translation": "I caught a cold (引く is paired specifically with 風邪)."
+      }
+    },
+    {
+      "id": "infuruenza",
+      "kanji": "インフルエンザ",
+      "kana": "インフルエンザ",
+      "romaji": "infuruenza",
+      "meaning": "flu; influenza",
+      "category": "noun",
+      "example": {
+        "kanji": "インフルエンザになりました / かかりました。",
+        "kana": "インフルエンザに なりました / かかりました。",
+        "translation": "I got the flu (never say インフルエンザを引きました; use になる / にかかる)."
+      }
+    },
+    {
+      "id": "kusuri",
+      "kanji": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "meaning": "medicine; pills",
+      "category": "noun",
+      "example": {
+        "kanji": "普段何かお薬を飲んでいますか？",
+        "kana": "ふだん なにか おくすりを のんでいますか？",
+        "translation": "Are you taking any medicine regularly?"
+      }
+    },
+    {
+      "id": "uwagi",
+      "kanji": "上着",
+      "kana": "うわぎ",
+      "romaji": "uwagi",
+      "meaning": "jacket; coat; outerwear",
+      "category": "noun",
+      "example": {
+        "kanji": "上着を脱いでください。",
+        "kana": "うわぎを ぬいで ください。",
+        "translation": "Please take off your jacket."
+      }
+    },
+    {
+      "id": "shitagi",
+      "kanji": "下着",
+      "kana": "したぎ",
+      "romaji": "shitagi",
+      "meaning": "underwear",
+      "category": "noun",
+      "example": {
+        "kanji": "下着を盗まれました。",
+        "kana": "したぎを ぬすまれました。",
+        "translation": "My underwear was stolen."
+      }
+    },
+    {
+      "id": "nisan",
+      "kanji": "2、3～",
+      "kana": "にさん～",
+      "romaji": "nisan~",
+      "meaning": "two or three ~; a few ~",
+      "category": "expression",
+      "example": {
+        "kanji": "2、3日運動しないでください。",
+        "kana": "にさんち うんどう しないで ください。",
+        "translation": "Please don't exercise for 2 or 3 days."
+      }
+    },
+    {
+      "id": "madeni",
+      "kanji": "～までに",
+      "kana": "～までに",
+      "romaji": "~madeni",
+      "meaning": "by ~; before (deadline)",
+      "category": "expression",
+      "example": {
+        "kanji": "18時までに来てください。",
+        "kana": "じゅうはちじまでに きて ください。",
+        "translation": "Please come by 6:00 PM."
+      }
+    },
+    {
+      "id": "desukara",
+      "kanji": "ですから",
+      "kana": "ですから",
+      "romaji": "desukara",
+      "meaning": "therefore; so",
+      "category": "expression",
+      "example": {
+        "kanji": "私はソフトウェアエンジニアです。ですから、コーディングが得意です。",
+        "kana": "わたしは ソフトウェアエンジニアです。ですから、コーディングが とくいです。",
+        "translation": "I'm a software engineer. So, I'm good at coding."
+      }
+    },
+    {
+      "id": "sorekara",
+      "kanji": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "meaning": "furthermore; after that; and then",
+      "category": "expression",
+      "example": {
+        "kanji": "昨日の夜は映画を見ました。それから、本を読みました。",
+        "kana": "きのうの よるは えいがを みました。それから、ほんを よみました。",
+        "translation": "Last night I watched a movie. After that, I read a book."
+      }
+    },
+    {
+      "id": "doushimashitaka",
+      "kanji": "どうしましたか？",
+      "kana": "どうしましたか？",
+      "romaji": "doushimashitaka?",
+      "meaning": "What's the matter? / What's wrong?",
+      "category": "expression",
+      "example": {
+        "kanji": "どうしましたか？ — 頭が痛くて、熱があります。",
+        "kana": "どうしましたか？ — あたまが いたくて、ねつが あります。",
+        "translation": "What's the matter? — I have a headache and a fever."
+      }
+    },
+    {
+      "id": "odaijini",
+      "kanji": "お大事に",
+      "kana": "おだいじに",
+      "romaji": "odaijini",
+      "meaning": "Take care of yourself (said to sick people)",
+      "category": "expression",
+      "example": {
+        "kanji": "薬を飲んで、寝てください。お大事に。",
+        "kana": "くすりを のんで、ねて ください。おだいじに。",
+        "translation": "Take your medicine and go to bed. Take care of yourself."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Verb ない-form Conjugation [Plain Negative & The 5-Layer Godan Chart]",
+      "explanation": "The ない-form is the plain (casual) non-past negative form of verbs. Conjugation rules by verb group:\n\n1. Group 3 (Irregular):\n   • します → しない (shina-i)\n   • 来ます (きます) → 来ない (こない - kona-i; note the kanji reading changes from 'ki' to 'ko'!).\n\n2. Group 2 (Ichidan / る-verbs):\n   • Simply drop ます and append ない (e.g. 食べます → 食べない, 教えます → 教えない, 見ます → 見ない, 覚えます → 覚えない).\n\n3. Group 1 (Godan / 五段-verbs — '5 layers'):\n   • Shift the final vowel syllable from the い-row (ます form) up one step to the corresponding syllable on the あ-row, then add ない:\n     - き → かない: 行きます → 行かない\n     - ぎ → がない: 泳ぎます → 泳がない\n     - し → さない: 話します → 話さない, なくします → なくさない, 出します → 出さない\n     - ち → たない: 立ちます → 立たない, 待ちます → 待たない\n     - に → なない: 死にます → 死なない\n     - び → ばない: 呼びます → 呼ばない\n     - み → まない: 飲みます → 飲まない\n     - り → らない: 取ります → 取らない, 帰ります → 帰らない, 入ります → 入らない (入る is Group 1!)\n   • CRITICAL EXCEPTION (Vowel + います):\n     - When a Group 1 verb ends in a bare vowel + います (e.g., 買います, 吸います, 払います), do NOT change to あない (✕ かあない). Instead, change to わない (○ 買わない, 吸わない, 払わない) using the ancient わ-row!\n\n• Takashi's Kana Chart Trick: From the ます-form (い-vowel), move 1 step UP in the chart to get the ない-form (あ-vowel), and move 1 step DOWN to get the dictionary form (う-vowel).\n• Tense Note: The ない-form inflects exactly like an い-adjective: non-past negative = 行かない; past negative = 行かなかった (drop い, add かった).",
+      "examples": [
+        {
+          "kanji": "明日どこへも行かない。",
+          "kana": "あした どこへも いかない。",
+          "translation": "I will not go anywhere tomorrow. (Group 1: 行きます → 行かない)"
+        },
+        {
+          "kanji": "今朝は何も食べなかった。",
+          "kana": "けさは なにも たべなかった。",
+          "translation": "I didn't eat anything this morning. (Group 2: 食べない → 食べなかった)"
+        },
+        {
+          "kanji": "たばこを吸わない。",
+          "kana": "たばこを すわない。",
+          "translation": "I don't smoke. (Group 1 vowel exception: 吸います → 吸わない)"
+        },
+        {
+          "kanji": "お風呂に入らない。",
+          "kana": "おふろに はいらない。",
+          "translation": "I won't take a bath. (Group 1: 入ります → 入らない)"
+        },
+        {
+          "kanji": "今日は残業しない。",
+          "kana": "きょうは ざんぎょう しない。",
+          "translation": "I won't do overtime today. (Group 3: 残業します → 残業しない)"
+        },
+        {
+          "kanji": "彼はパーティーに来ない。",
+          "kana": "かれは パーティーに こない。",
+          "translation": "He is not coming to the party. (Group 3: 来ます → 来ない [こない])"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (ない-form) で ください [Negative Polite Request: 'Please do not verb']",
+      "explanation": "Attach で ください to the verb's ない-form to politely ask or instruct someone not to do something. Contrast with previous forms:\n• Please do: Verb (て-form) + ください (写真を撮ってください)\n• Strong prohibition: Verb (て-form) + はいけません (写真を撮ってはいけません)\n• Polite negative request: Verb (ない-form) + で ください (写真を撮らないでください)\n\nIn casual conversation among friends and family, drop the ください and simply say Verb ないで (e.g., 心配しないで！, 写真を撮らないで！).\n\nParticle Usage Note:\n• Mark a specific parking or sitting spot with に (ここに車を止めないでください; ここに座らないでください).\n• Mark the venue where an activity takes place with で (ここで食べないでください; ここで話さないでください).",
+      "examples": [
+        {
+          "kanji": "ここで写真を撮らないでください。",
+          "kana": "ここで しゃしんを とらないで ください。",
+          "translation": "Please do not take pictures here."
+        },
+        {
+          "kanji": "ここに車を止めないでください。",
+          "kana": "ここに くるまを とめないで ください。",
+          "translation": "Please do not park your car here."
+        },
+        {
+          "kanji": "ここで食べないでください。",
+          "kana": "ここで たべないで ください。",
+          "translation": "Please do not eat here."
+        },
+        {
+          "kanji": "ここで話さないでください。",
+          "kana": "ここで はなさないで ください。",
+          "translation": "Please do not talk here."
+        },
+        {
+          "kanji": "ここに座らないでください。",
+          "kana": "ここに すわらないで ください。",
+          "translation": "Please do not sit here."
+        },
+        {
+          "kanji": "ここは禁煙エリアですから、たばこを吸わないでください。",
+          "kana": "ここは きんえん エリアですから、たばこを すわないで ください。",
+          "translation": "Because this is a non-smoking area, please do not smoke cigarettes."
+        },
+        {
+          "kanji": "私は大丈夫ですから、心配しないでください。",
+          "kana": "わたしは だいじょうぶですから、しんぱい しないで ください。",
+          "translation": "I'm okay, so please don't worry about me."
+        },
+        {
+          "kanji": "2、3日お風呂に入らないでください。",
+          "kana": "にさんち おふろに はいらないで ください。",
+          "translation": "Please do not take a bath for two or three days."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (ない-form without い) + ければなりません [Obligation & Necessity: 'Must / Have to']",
+      "explanation": "Expresses that an action is an obligation or necessity ('have to / must'). Structural breakdown:\n• Verb ない becomes なければ ('if not doing V' — conditional form)\n• なりません means 'it won't do / it is no good'\n• Literal meaning: 'If I don't [do X], it is no good' → 'I must do [X]'.\n\nReal-Life & Conversational Alternatives (Takashi's Insights):\nIn textbooks like Minna no Nihongo, only なければなりません is formally taught. However, in authentic Japanese, なければなりません can sound quite stiff and formal. Native speakers use several interchangeable patterns:\n\n1. Replacement of なりません with いけません ('cannot go / no good'):\n   • なければいけません\n2. Alternative conditional connectors meaning 'if not':\n   • なくては (from ては) → なくてはなりません / なくてはいけません\n   • ないと (from conditional と) → ないといけません (Takashi's personal favorite: very natural in both polite and casual settings!)\n   • Note: ✕ ないとなりません is NOT used in Japanese.\n3. Casual Contractions:\n   • なければ → なきゃ (e.g., 早く寝なきゃいけませんでした / 勉強しなきゃ)\n   • なくては → なくちゃ (e.g., 早く行かなくちゃ)\n\nParticle よ is often attached to the end when reminding or instructing someone else (e.g., パスポートを見せなくてはいけませんよ). Past tense becomes なければなりませんでした / なきゃいけませんでした.",
+      "examples": [
+        {
+          "kanji": "薬を飲まなければなりません。",
+          "kana": "くすりを のまなければ なりません。",
+          "translation": "I have to take medicine."
+        },
+        {
+          "kanji": "お金を払わなければなりません。",
+          "kana": "おかねを はらわなければ なりません。",
+          "translation": "You have to pay money."
+        },
+        {
+          "kanji": "パスポートを見せなくてはいけませんよ。",
+          "kana": "パスポートを みせなくては いけませんよ。",
+          "translation": "You have to show your passport."
+        },
+        {
+          "kanji": "昨日の夜、早く寝なきゃいけませんでした。",
+          "kana": "きのうの よる、はやく ねなきゃ いけませんでした。",
+          "translation": "Last night I had to go to bed early."
+        },
+        {
+          "kanji": "彼らは英語がわかりませんから、日本語を話さないといけません。",
+          "kana": "かれらは えいごが わかりませんから、にほんごを はなさないと いけません。",
+          "translation": "They don't understand English, so I have to speak Japanese."
+        },
+        {
+          "kanji": "今夜は残業しなければならないです。",
+          "kana": "こんやは ざんぎょう しなければ ならないです。",
+          "translation": "I have to work overtime tonight."
+        },
+        {
+          "kanji": "明日までにレポートを出さなければなりません。",
+          "kana": "あしたまでに レポートを ださなければ なりません。",
+          "translation": "I have to submit the report by tomorrow."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (ない-form without い) + くても いいです [Lack of Obligation: 'Do not have to']",
+      "explanation": "Expresses that an action is unnecessary ('do not have to / you don't need to'). Structural breakdown:\n• ない becomes なくて (て-form of negative) + も = なくても ('even if not')\n• いいです = 'it is good / fine'\n• Literal meaning: 'Even if you do not do [X], it is fine' → 'You don't have to [do X]'.\n\nNatural Variations:\n• Substitute いいです with 大丈夫です ('it's all right'): なくても大丈夫です (e.g., 靴を脱がなくても大丈夫ですよ).\n• Substitute with specific outcomes: 急がなくても間に合います ('Even if we don't hurry, we'll still make it in time').\n• Past Tense: Since the past tense of いい is よかった, the past form 'did not have to' is なくてもよかったです (e.g., 家に牛乳がありましたから、買わなくてもよかったです = 'Because there was already milk at home, I didn't have to buy it').",
+      "examples": [
+        {
+          "kanji": "靴を脱がなくてもいいですよ。",
+          "kana": "くつを ぬがなくても いいですよ。",
+          "translation": "You don't have to take off your shoes."
+        },
+        {
+          "kanji": "急がなくてもいいですよ。",
+          "kana": "いそがなくても いいですよ。",
+          "translation": "You don't have to hurry."
+        },
+        {
+          "kanji": "オフィスでスーツを着なくてもいいです。",
+          "kana": "オフィスで スーツを きなくても いいです。",
+          "translation": "I don't have to wear a suit at the office."
+        },
+        {
+          "kanji": "これを覚えなくてもいいですよ。",
+          "kana": "これを おぼえなくても いいですよ。",
+          "translation": "You don't have to memorize this."
+        },
+        {
+          "kanji": "立たなくてもいいですよ。",
+          "kana": "たたなくても いいですよ。",
+          "translation": "You don't have to stand up."
+        },
+        {
+          "kanji": "家に牛乳がありましたから、買わなくてもよかったです。",
+          "kana": "いえに ぎゅうにゅうが ありましたから、かわなくても よかったです。",
+          "translation": "Because there was already milk at home, I didn't have to buy any."
+        },
+        {
+          "kanji": "明日は日曜日ですから、早く起きなくてもいいです。",
+          "kana": "あしたは にちようびですから、はやく おきなくても いいです。",
+          "translation": "Tomorrow is Sunday, so I don't have to get up early."
+        }
+      ]
+    },
+    {
+      "pattern": "Time までに vs. Time まで [Deadline 'by' vs. Duration 'until']",
+      "explanation": "Understanding the difference between までに (by) and まで (until) is essential:\n\n1. Time までに (By [time]):\n   • Marks a DEADLINE for a single, punctual event or completion.\n   • The action must be finished at or before the designated time.\n   • Typical verbs: 返します (return), 出します (submit), 行きます (go), 来ます (come), 終わります (finish).\n   • Example: 5時までに本を返してください (Please return this book by 5:00).\n\n2. Time まで (Until [time]):\n   • Marks the END POINT of a continuous, ongoing action or state.\n   • The action continues uninterrupted up to that moment.\n   • Typical verbs: 勉強します (study), 読みます (read continuously), 働きます (work), 待ちます (wait).\n   • Example: 5時まで本を読んでください (Please read this book until 5:00).\n\nCompare:\n• 月曜日までにこの本を読んでください = Finish reading the whole book BY Monday.\n• 月曜日までこの本を読んでください = Keep reading this book continuously UNTIL Monday.",
+      "examples": [
+        {
+          "kanji": "18時までに来てください。",
+          "kana": "じゅうはちじまでに きて ください。",
+          "translation": "Please come by 6:00 PM."
+        },
+        {
+          "kanji": "5月1日までに宿題を出さなければならないです。",
+          "kana": "ごがつついたちまでに しゅくだいを ださなければ ならないです。",
+          "translation": "I have to submit the homework by May 1st."
+        },
+        {
+          "kanji": "晩ご飯まで日本語を勉強します。",
+          "kana": "ばんごはんまで にほんごを べんきょうします。",
+          "translation": "I will study Japanese until dinner."
+        },
+        {
+          "kanji": "今までそれを知りませんでした。",
+          "kana": "いままで それを しりませんでした。",
+          "translation": "I didn't know that until now."
+        },
+        {
+          "kanji": "バレンタインデーまでに彼女が欲しいです。",
+          "kana": "バレンタインデーまでに かのじょが ほしいです。",
+          "translation": "I want a girlfriend by Valentine's Day."
+        },
+        {
+          "kanji": "金曜日の5時までにレポートを出してください。",
+          "kana": "きんようびの ごじまでに レポートを だして ください。",
+          "translation": "Please submit the report by Friday at 5:00."
+        }
+      ]
+    },
+    {
+      "pattern": "Doctor's Clinic Expressions [Symptoms, Illnesses & Care]",
+      "explanation": "Common medical expressions in Lesson 17:\n• Greeting/Inquiry: どうしましたか？ ('What's the matter? / What's wrong?')\n• Stating symptoms: [Body part] が 痛いです (頭が痛いです, のどが痛いです, お腹が痛いです).\n• Fever: 昨日から熱があります ('I have had a fever since yesterday').\n• Cold vs. Flu Nuance:\n  - For a cold: 風邪を引きました (引く is strictly used with 風邪).\n  - For the flu: インフルエンザになりました or インフルエンザにかかりました (✕ インフルエンザを引きました is WRONG).\n• Sickness Nuance:\n  - 私は病気です is reserved for serious medical conditions.\n  - For feeling sick or under the weather, Japanese people naturally say 気分が悪いです, 調子が悪いです, or 体調が悪いです.\n• Leaving advice: お大事に ('Take care of yourself' — said specifically to sick or injured individuals).",
+      "examples": [
+        {
+          "kanji": "どうしましたか？ — 熱があって、のどが痛いです。",
+          "kana": "どうしましたか？ — ねつが あって、のどが いたいです。",
+          "translation": "What's the matter? — I have a fever and my throat hurts."
+        },
+        {
+          "kanji": "風邪を引きましたから、薬を飲みます。",
+          "kana": "かぜを ひきましたから、くすりを のみます。",
+          "translation": "Because I caught a cold, I will take medicine."
+        },
+        {
+          "kanji": "インフルエンザにかかりましたから、会社を休みます。",
+          "kana": "インフルエンザに かかりましたから、かいしゃを やすみます。",
+          "translation": "Because I got the flu, I will take time off from work."
+        },
+        {
+          "kanji": "お大事にしてください。",
+          "kana": "おだいじに して ください。",
+          "translation": "Please take good care of yourself."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "病院での診察と仕事の締め切り",
+    "lines": [
+      {
+        "speaker": "医者",
+        "kanji": "マルコさん、どうぞ。どうしましたか？",
+        "kana": "マルコさん、どうぞ。どうしましたか？"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "昨日から頭が痛くて、熱もあります。それから、のども痛いです。",
+        "kana": "きのうから あたまが いたくて、ねつも あります。それから、のども いたいです。"
+      },
+      {
+        "speaker": "医者",
+        "kanji": "そうですか。ちょっと口を開けてください。…あ、のどが赤いですね。風邪ですね。",
+        "kana": "そうですか。ちょっと くちを あけて ください。…あ、のどが あかいですね。かぜですね。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "インフルエンザではありませんか？",
+        "kana": "インフルエンザでは ありませんか？"
+      },
+      {
+        "speaker": "医者",
+        "kanji": "検査をしましたが、インフルエンザじゃありませんでした。ですから、心配しないでください。",
+        "kana": "けんさを しましたが、インフルエンザじゃ ありませんでした。ですから、しんぱい しないで ください。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "ああ、よかったです。",
+        "kana": "ああ、よかったです。"
+      },
+      {
+        "speaker": "医者",
+        "kanji": "今日はお風呂に入らないでください。それから、2、3日運動しないで、早く寝てください。",
+        "kana": "きょうは おふろに はいらないで ください。それから、にさんち うんどう しないで、はやく ねて ください。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "会社へ行ってもいいですか？",
+        "kana": "かいしゃへ いっても いいですか？"
+      },
+      {
+        "speaker": "医者",
+        "kanji": "いいえ、明日は会社へ行かないでください。薬を1日3回飲まなければなりませんよ。",
+        "kana": "いいえ、あしたは かいしゃへ いかないで ください。くすりを いちにち さんかい のまなければ なりませんよ。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "わかりました。金曜日までに大切なレポートを出さなければならないですから、木曜日は会社に行ってもいいですか？",
+        "kana": "わかりました。きんようびまでに たいせつな レポートを ださなければ ならないですから、もくようびは かいしゃに いっても いいですか？"
+      },
+      {
+        "speaker": "医者",
+        "kanji": "熱が下がったら、行ってもいいですよ。でも、無理をしないでくださいね。受付で健康保険証を返しますから、待ってください。お大事に。",
+        "kana": "ねつが さがったら、いっても いいですよ。でも、むりを しないで くださいね。うけつけで けんこうほけんしょうを かえしますから、まって ください。おだいじに。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "どうもありがとうございました。",
+        "kana": "どうも ありがとう ございました。"
+      }
+    ],
+    "translation": "Doctor: 'Marco, please come in. What's the matter?' Marco explains that since yesterday he has had a headache, a fever, and a sore throat. The doctor inspects his throat and diagnoses a cold. Marco asks if it is the flu, but the doctor confirms the test was negative and reassures him not to worry. The doctor instructs Marco not to take a bath today, to avoid exercise for two or three days, and to go to bed early. Marco asks if he can go to work, but the doctor tells him not to go tomorrow and stresses that he must take medicine three times a day. Marco explains that he must submit an important report by Friday and asks if he may return on Thursday. The doctor agrees that if his fever drops he may go, but cautions him not to overexert himself. Finally, the doctor tells him to wait at the reception to receive his health insurance card back, and bids him take care.",
+    "questions": [
+      {
+        "question": "What symptoms does Marco have when visiting the doctor?",
+        "options": [
+          "He hurt his leg playing soccer",
+          "He has a headache, a fever, and a sore throat",
+          "His tooth hurts and he has an earache",
+          "He lost his wallet and cannot sleep"
+        ],
+        "answer": 1,
+        "explanation": "Marco states: 昨日から頭が痛くて、熱もあります。それから、のども痛いです。"
+      },
+      {
+        "question": "What is the doctor's diagnosis after testing Marco?",
+        "options": [
+          "He has a cold, not influenza",
+          "He caught influenza and must be hospitalized",
+          "He has a stomach disease",
+          "He is completely healthy and doesn't need medicine"
+        ],
+        "answer": 0,
+        "explanation": "The doctor says the throat is red and it's a cold (風邪ですね), and tests confirmed it was not influenza (インフルエンザじゃありませんでした)."
+      },
+      {
+        "question": "Which action does the doctor ask Marco NOT to do today?",
+        "options": [
+          "Do not drink water",
+          "Do not take a bath",
+          "Do not take medicine",
+          "Do not go to sleep"
+        ],
+        "answer": 1,
+        "explanation": "The doctor instructs: 今日はお風呂に入らないでください (Please do not take a bath today)."
+      },
+      {
+        "question": "For how long should Marco refrain from exercising?",
+        "options": [
+          "Two or three weeks",
+          "Two or three days (2、3日)",
+          "Until next month",
+          "Only tonight"
+        ],
+        "answer": 1,
+        "explanation": "The doctor specifies: 2、3日運動しないで、早く寝てください (Please don't exercise for 2 or 3 days)."
+      },
+      {
+        "question": "How often must Marco take the medicine?",
+        "options": [
+          "Once a day before bed",
+          "Three times a day (1日3回)",
+          "Every two hours",
+          "Only when he has a headache"
+        ],
+        "answer": 1,
+        "explanation": "The doctor tells him: 薬を1日3回飲まなければなりませんよ (You have to take medicine three times a day)."
+      },
+      {
+        "question": "Why does Marco want to go to work on Thursday?",
+        "options": [
+          "He wants to meet his boss for lunch",
+          "He has to submit an important report by Friday",
+          "He has a business trip to Kyoto",
+          "He doesn't have any money"
+        ],
+        "answer": 1,
+        "explanation": "Marco explains: 金曜日までに大切なレポートを出さなければならないですから (Because I have to submit an important report by Friday)."
+      },
+      {
+        "question": "Which phrase does the doctor say to wish Marco a quick recovery?",
+        "options": [
+          "大丈夫ですか",
+          "お大事に",
+          "ごちそうさまでした",
+          "失礼します"
+        ],
+        "answer": 1,
+        "explanation": "お大事に (odaijini) is the set expression said to sick people, meaning 'take care of yourself'."
+      },
+      {
+        "question": "In 『金曜日までに』, what does the particle までに indicate?",
+        "options": [
+          "Continuous action lasting until Friday",
+          "A strict deadline: the action must be completed at or before Friday",
+          "Starting an action on Friday",
+          "A reason or cause"
+        ],
+        "answer": 1,
+        "explanation": "までに marks a deadline by which the report must be handed in, unlike まで which marks continuous duration."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct ない-form of the Group 1 verb 行きます (いきます).",
+      "options": [
+        "行かない (いかない)",
+        "行きない (いきない)",
+        "行くない (いくない)",
+        "行わかない (いわかない)"
+      ],
+      "answer": 0,
+      "explanation": "Group 1 verbs shift the final vowel from the い-row to the あ-row: き → か + ない = 行かない."
+    },
+    {
+      "question": "Choose the correct ない-form of the Group 1 verb 買います (かいます).",
+      "options": [
+        "かあない",
+        "かわない",
+        "かいない",
+        "かうない"
+      ],
+      "answer": 1,
+      "explanation": "Special Group 1 rule: Verbs ending in bare vowel + います shift to わ, not あ. Therefore 買います becomes 買わない."
+    },
+    {
+      "question": "Choose the correct ない-form of the irregular verb 来ます (きます).",
+      "options": [
+        "きない",
+        "こない",
+        "くない",
+        "こくない"
+      ],
+      "answer": 1,
+      "explanation": "Group 3 irregular: 来ます (きます) becomes 来ない (こない) with a change in kanji reading."
+    },
+    {
+      "question": "Choose the correct sentence: 'Please do not take photos here.'",
+      "options": [
+        "ここで写真を撮らないでください。",
+        "ここで写真を撮らないてください。",
+        "ここで写真を撮りないでください。",
+        "ここで写真を撮るないでください。"
+      ],
+      "answer": 0,
+      "explanation": "Verb (ない-form) + でください: 撮ります → 撮らない → 撮らないでください."
+    },
+    {
+      "question": "Choose the correct particle: 'Please don't park your car here.'",
+      "prompt": {
+        "kanji": "ここに車___止めないでください。",
+        "kana": "ここに くるま___ とめないで ください。"
+      },
+      "options": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "The direct object of 止めます takes particle を (車を止めないでください)."
+    },
+    {
+      "question": "Choose the correct particle for the location of parking: 'Please don't park your car HERE.'",
+      "prompt": {
+        "kanji": "ここ___車を止めないでください。",
+        "kana": "ここ___ くるまを とめないで ください。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains, parking a car or sitting down targets a fixed contact spot, taking に (ここに車を止めます), while active events take で."
+    },
+    {
+      "question": "Choose the correct sentence: 'I have to pay money.'",
+      "options": [
+        "お金を払わなければなりません。",
+        "お金を払わなくていいです。",
+        "お金を払いなければなりません。",
+        "お金を払わないでください。"
+      ],
+      "answer": 0,
+      "explanation": "払います (Group 1: い → わ) becomes 払わない → drop い, add ければなりません: 払わなければなりません."
+    },
+    {
+      "question": "Choose the most natural, conversational equivalent of なければなりません favored by native speakers.",
+      "prompt": {
+        "kanji": "早く帰ら___いけません。",
+        "kana": "はやく かえら___ いけません。"
+      },
+      "options": [
+        "ないで",
+        "ないと",
+        "なくて",
+        "ないに"
+      ],
+      "answer": 1,
+      "explanation": "Verb ない + と + いけません (帰らないといけません) is very common and natural in conversational Japanese."
+    },
+    {
+      "question": "Which combination is NOT used in natural Japanese?",
+      "options": [
+        "なければなりません",
+        "ないといけません",
+        "なくてはいけません",
+        "ないとなりません"
+      ],
+      "answer": 3,
+      "explanation": "As noted in the video, ないとなりません is unnatural and not used. Native speakers use ないといけません instead."
+    },
+    {
+      "question": "Choose the correct sentence: 'You don't have to take off your shoes.'",
+      "options": [
+        "靴を脱がなければなりません。",
+        "靴を脱がなくてもいいですよ。",
+        "靴を脱がないでください。",
+        "靴を脱ぎなくていいですよ。"
+      ],
+      "answer": 1,
+      "explanation": "脱ぎます → 脱がない → 脱がなくてもいいです (do not have to take off)."
+    },
+    {
+      "question": "What is the past tense of なくてもいいです ('did not have to verb')?",
+      "options": [
+        "なくてもよかったです",
+        "なくてもいかったです",
+        "なくてもいいでした",
+        "なくてもよくだった"
+      ],
+      "answer": 0,
+      "explanation": "The adjective いい is irregular; its past tense is よかった. Therefore, 'did not have to' is なくてもよかったです."
+    },
+    {
+      "question": "Choose the correct expression: 'Because there was already milk at home, I did not have to buy it.'",
+      "prompt": {
+        "kanji": "家に牛乳がありましたから、___。",
+        "kana": "いえに ぎゅうにゅうが ありましたから、___。"
+      },
+      "options": [
+        "買わなくてもよかったです",
+        "買わなければなりませんでした",
+        "買わないでくださいでした",
+        "買わなくてもいいでした"
+      ],
+      "answer": 0,
+      "explanation": "买わなくてもよかったです = didn't have to buy (past lack of obligation)."
+    },
+    {
+      "question": "Choose the correct sentence to express a strict deadline: 'Please come BY 6:00 PM.'",
+      "options": [
+        "18時までに来てください。",
+        "18時までに来てはいけません。",
+        "18時まで来てください。",
+        "18時から来てください。"
+      ],
+      "answer": 0,
+      "explanation": "までに marks a deadline ('by 6:00'). まで indicates continuous action until 6:00."
+    },
+    {
+      "question": "Choose the correct sentence: 'I will study Japanese until dinner.'",
+      "options": [
+        "晩ご飯までに日本語を勉強します。",
+        "晩ご飯まで日本語を勉強します。",
+        "晩ご飯から日本語を勉強しません。",
+        "晩ご飯までで日本語を勉強します。"
+      ],
+      "answer": 1,
+      "explanation": "Continuous ongoing activity up to dinner takes まで without に."
+    },
+    {
+      "question": "What does a doctor say to a patient wishing them a prompt recovery?",
+      "options": [
+        "お大事に",
+        "おかげさまで",
+        "ごめんなさい",
+        "どういたしました"
+      ],
+      "answer": 0,
+      "explanation": "お大事に (odaijini) is specifically used for people who are sick or hurt ('take care of yourself')."
+    },
+    {
+      "question": "How do you correctly say 'I caught the flu' in Japanese?",
+      "options": [
+        "インフルエンザを引きました。",
+        "インフルエンザになりました / かかりました。",
+        "インフルエンザを飲みました。",
+        "インフルエンザを落としました。"
+      ],
+      "answer": 1,
+      "explanation": "引きました is only used with colds (風邪を引きました). For the flu, use インフルエンザになりました or インフルエンザにかかりました."
+    },
+    {
+      "question": "What is the everyday spoken abbreviation for 健康保険証 (health insurance card)?",
+      "options": [
+        "保険証 (ほけんしょう)",
+        "健康証 (けんこうしょう)",
+        "カード (かーど)",
+        "健保 (けんぽ)"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains, Japanese speakers in daily conversation usually shorten it to simply 保険証."
+    },
+    {
+      "question": "How do you say 'I don't remember' based on 覚えます?",
+      "options": [
+        "覚えていません",
+        "覚えないでした",
+        "覚えるではありません",
+        "覚えたくありません"
+      ],
+      "answer": 0,
+      "explanation": "覚えます in the continuous state form 覚えていません means 'I haven't memorized it / I don't remember'."
+    },
+    {
+      "question": "Which verb group does 入ります (はいります) belong to?",
+      "options": [
+        "Group 1 (Godan verb)",
+        "Group 2 (Ichidan verb)",
+        "Group 3 (Irregular verb)",
+        "It can be either Group 1 or 2"
+      ],
+      "answer": 0,
+      "explanation": "Although 入ります ends in 'i-ru', it is a famous Group 1 verb (ない-form: 入らない; て-form: 入って)."
+    },
+    {
+      "question": "Choose the correct compound verb for 'to take something with you' (hold and go).",
+      "options": [
+        "持っていきます",
+        "持ってきます",
+        "持ち帰ります",
+        "持っています"
+      ],
+      "answer": 0,
+      "explanation": "持っていきます (hold and go) = to take with you; 持ってきます (hold and come) = to bring."
+    },
+    {
+      "question": "Choose the casual version of 心配しないでください used among close friends.",
+      "options": [
+        "心配しないで",
+        "心配しないて",
+        "心配しない",
+        "心配しなくて"
+      ],
+      "answer": 0,
+      "explanation": "Dropping ください from ～ないでください gives the natural casual negative request: 心配しないで."
+    },
+    {
+      "question": "Choose the correct sentence: 'I have to reply to my boss's email.'",
+      "options": [
+        "上司にメールを返さなければなりません。",
+        "上司にメールを返しなければなりません。",
+        "上司にメールを返さないでください。",
+        "上司にメールを返さなくてもいいです。"
+      ],
+      "answer": 0,
+      "explanation": "返します is Group 1 (し → さ) → 返さない → 返さなければなりません."
+    },
+    {
+      "question": "Choose the correct sentence: 'Please don't talk here.'",
+      "options": [
+        "ここで話さないでください。",
+        "ここで話し無いでください。",
+        "ここで話すないでください。",
+        "ここで話さなくてください。"
+      ],
+      "answer": 0,
+      "explanation": "話します (Group 1: し → さ) → 話さない → 話さないでください."
+    },
+    {
+      "question": "Choose the correct sentence: 'You don't have to hurry.'",
+      "options": [
+        "急がなくてもいいですよ。",
+        "急ぎなくてもいいですよ。",
+        "急がないでいいですよ。",
+        "急がなくてはいけません。"
+      ],
+      "answer": 0,
+      "explanation": "急ぎます (ぎ → が) → 急がない → 急がなくてもいいですよ."
+    },
+    {
+      "question": "Choose the correct sentence: 'I don't have to wear a suit at the office.'",
+      "options": [
+        "オフィスでスーツを着なくてもいいです。",
+        "オフィスでスーツを着ないでください。",
+        "オフィスでスーツを着なければなりません。",
+        "オフィスでスーツを着ないといけません。"
+      ],
+      "answer": 0,
+      "explanation": "着ます (Group 2) → 着ない → 着なくてもいいです (do not have to wear)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I had to go to bed early last night.'",
+      "options": [
+        "昨日の夜、早く寝なきゃいけませんでした。",
+        "昨日の夜、早く寝なくてもよかったです。",
+        "昨日の夜、早く寝ないでくださいでした。",
+        "昨日の夜、早く寝ましたいけませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "Past obligation: 寝ます → 寝ない → 寝なきゃいけませんでした."
+    },
+    {
+      "question": "Choose the correct sentence: 'I have to submit homework by May 1st.'",
+      "options": [
+        "5月1日までに宿題を出さなければならないです。",
+        "5月1日まで宿題を出さなければならないです。",
+        "5月1日までに宿題を出しなくていいです。",
+        "5月1日から宿題を出さないでください。"
+      ],
+      "answer": 0,
+      "explanation": "Deadline takes までに; obligation takes なければならないです."
+    },
+    {
+      "question": "Choose the correct word: 'I have had a fever since yesterday.'",
+      "prompt": {
+        "kanji": "昨日から___があります。",
+        "kana": "きのうから ___が あります。"
+      },
+      "options": [
+        "熱 (ねつ)",
+        "風邪 (かぜ)",
+        "薬 (くすり)",
+        "病気 (びょうき)"
+      ],
+      "answer": 0,
+      "explanation": "To have a fever is 熱があります."
+    },
+    {
+      "question": "Choose the correct word: 'My throat hurts.'",
+      "prompt": {
+        "kanji": "___が痛いです。",
+        "kana": "___が いたいです。"
+      },
+      "options": [
+        "のど",
+        "あたま",
+        "おなか",
+        "め"
+      ],
+      "answer": 0,
+      "explanation": "のど (喉) = throat; のどが痛いです = I have a sore throat."
+    },
+    {
+      "question": "Choose the correct word: 'Overtime work'",
+      "options": [
+        "残業 (ざんぎょう)",
+        "出張 (しゅっちょう)",
+        "見学 (けんがく)",
+        "禁煙 (きんえん)"
+      ],
+      "answer": 0,
+      "explanation": "残業 (ざんぎょう) means overtime work."
+    },
+    {
+      "question": "Choose the correct word: 'Business trip'",
+      "options": [
+        "出張 (しゅっちょう)",
+        "残業 (ざんぎょう)",
+        "旅行 (りょこう)",
+        "見学 (けんがく)"
+      ],
+      "answer": 0,
+      "explanation": "出張 (しゅっちょう) means business trip."
+    },
+    {
+      "question": "Choose the correct meaning of 禁煙 (きんえん).",
+      "options": [
+        "No smoking",
+        "Dangerous",
+        "Important",
+        "All right"
+      ],
+      "answer": 0,
+      "explanation": "禁煙 (きんえん) means 'no smoking'."
+    },
+    {
+      "question": "Choose the correct word for 'outerwear / jacket'.",
+      "options": [
+        "上着 (うわぎ)",
+        "下着 (したぎ)",
+        "靴 (くつ)",
+        "服 (ふく)"
+      ],
+      "answer": 0,
+      "explanation": "上着 (うわぎ) = jacket / coat / outerwear. 下着 (したぎ) = underwear."
+    },
+    {
+      "question": "Choose the correct expression: 'For 2 or 3 days, please do not exercise.'",
+      "options": [
+        "2、3日運動しないでください。",
+        "2、3日運動しなくてはいけません。",
+        "2、3日運動してもいいです。",
+        "2、3日運動しないでした。"
+      ],
+      "answer": 0,
+      "explanation": "2、3日 (にさんち) + 運動しないでください (please don't exercise)."
+    },
+    {
+      "question": "Choose the correct connective word: 'I am a software engineer. SO, I am good at coding.'",
+      "prompt": {
+        "kanji": "ソフトウェアエンジニアです。___、コーディングが得意です。",
+        "kana": "ソフトウェアエンジニアです。___、コーディングが とくいです。"
+      },
+      "options": [
+        "ですから",
+        "それから",
+        "しかし",
+        "でも"
+      ],
+      "answer": 0,
+      "explanation": "ですから means 'therefore / so'."
+    },
+    {
+      "question": "Choose the correct connective word: 'I watched a movie. AFTER THAT, I read a book.'",
+      "prompt": {
+        "kanji": "映画を見ました。___、本を読みました。",
+        "kana": "えいがを みました。___、ほんを よみました。"
+      },
+      "options": [
+        "それから",
+        "ですから",
+        "しかし",
+        "だから"
+      ],
+      "answer": 0,
+      "explanation": "それから means 'and then / after that / furthermore'."
+    },
+    {
+      "question": "What is the plain past negative form of 行きます (casual: 'didn't go')?",
+      "options": [
+        "行かなかった (いかなかった)",
+        "行かないでした (いかないでした)",
+        "行かなくて (いかなくて)",
+        "行かなかったでした (いかなかったでした)"
+      ],
+      "answer": 0,
+      "explanation": "The ない-form behaves like an い-adjective: drop い, add かった → 行かなかった."
+    },
+    {
+      "question": "Choose the correct ない-form for 立ちます (たちます - to stand).",
+      "options": [
+        "立たない (たたない)",
+        "立ちない (たちない)",
+        "立たないで (たたないで)",
+        "立らない (たらない)"
+      ],
+      "answer": 0,
+      "explanation": "Group 1: ち shifts to た + ない = 立たない."
+    },
+    {
+      "question": "Choose the correct ない-form for 飲みます (のみます - to drink).",
+      "options": [
+        "飲まない (のまない)",
+        "飲みない (のみない)",
+        "飲まないで (のまないで)",
+        "飲むない (のむない)"
+      ],
+      "answer": 0,
+      "explanation": "Group 1: み shifts to ま + ない = 飲まない."
+    },
+    {
+      "question": "Choose the correct ない-form for 忘れます (わすれます - to forget).",
+      "options": [
+        "忘れない (わすれない)",
+        "忘らない (わすらない)",
+        "忘れらない (わすれらない)",
+        "忘れぬ (わすれぬ)"
+      ],
+      "answer": 0,
+      "explanation": "Group 2 verb: simply drop ます and add ない = 忘れない."
+    },
+    {
+      "question": "Choose the correct sentence: 'You don't have to stand up.'",
+      "options": [
+        "立たなくてもいいですよ。",
+        "立たないでください。",
+        "立たなければなりません。",
+        "立たなくてはいけません。"
+      ],
+      "answer": 0,
+      "explanation": "立たなくてもいいですよ = You don't have to stand up."
+    },
+    {
+      "question": "Choose the correct question to ask someone who looks sick or troubled.",
+      "options": [
+        "どうしましたか？",
+        "どうやってですか？",
+        "どれですか？",
+        "どちらですか？"
+      ],
+      "answer": 0,
+      "explanation": "どうしましたか？ means 'What's the matter? / What's wrong?'."
+    },
+    {
+      "question": "Choose the correct sentence: 'I want a girlfriend by Valentine's Day.'",
+      "options": [
+        "バレンタインデーまでに彼女が欲しいです。",
+        "バレンタインデーまで彼女が欲しいです。",
+        "バレンタインデーから彼女が欲しいです。",
+        "バレンタインデーに彼女を欲しいです。"
+      ],
+      "answer": 0,
+      "explanation": "A deadline by which an outcome is desired takes までに."
+    },
+    {
+      "question": "Choose the sentence that means: 'I didn't know it until now.'",
+      "options": [
+        "今までそれを知りませんでした。",
+        "今までにそれを知りませんでした。",
+        "今からそれを知りませんでした。",
+        "今までそれを知らなければなりません。"
+      ],
+      "answer": 0,
+      "explanation": "Continuous state lasting up to the present moment takes 今まで (until now)."
+    },
+    {
+      "question": "Choose the correct casual contraction for なければ: 'I've gotta study!'",
+      "prompt": {
+        "kanji": "勉強し___！",
+        "kana": "べんきょうし___！"
+      },
+      "options": [
+        "なきゃ",
+        "なくて",
+        "ないで",
+        "なれば"
+      ],
+      "answer": 0,
+      "explanation": "なければ contracts informally to なきゃ in everyday Japanese (e.g. 勉強しなきゃ)."
+    }
+  ],
+  "writing": {
+    "title": "Feeling Sick, Visiting the Clinic, and Work Obligations",
+    "prompt": "Write 6–8 sentences in Japanese describing a situation where you feel ill. (1) State your symptoms using [Body part] が痛いです and 熱があります. (2) Mention going to the clinic and what the doctor told you NOT to do using ～ないでください (e.g. お風呂に入らないで, 運動しないで). (3) Explain what you MUST do using ～なければなりません or ～ないといけません (e.g. 薬を飲む, 早く寝る). (4) Mention what you DO NOT HAVE TO do using ～なくてもいいです (e.g. 会社へ行かなくてもいい, スーツを着なくてもいい). (5) Mention a work or study deadline using [Time] までに (e.g. レポートを出す, メールを返す).",
+    "placeholder": "昨日から ______ が痛くて、______ があります。\n病院へ行きました。医者は「2、3日 ______ ないでください」と言いました。\nそれから、1日に3回 ______ なければなりません。\n明日は仕事を ______ なくてもいいです。\nでも、金曜日までに ______ を出さないといけません。",
+    "modelAnswer": "昨日から頭が痛くて、熱が38度あります。今朝病院へ行きました。医者は「今日は風呂に入らないで、2、3日運動しないでください」と言いました。それから、食後に薬を飲まなければなりません。明日は会社へ行かなくてもいいですから、家でゆっくり休みます。でも、金曜日までに上司にレポートを出さないといけません。早く治したいです。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Please do not take pictures here.",
+        "chunks": [
+          "ここで",
+          "写真を",
+          "撮らないでください。"
+        ]
+      },
+      {
+        "en": "Please do not park your car here.",
+        "chunks": [
+          "ここに",
+          "車を",
+          "止めないでください。"
+        ]
+      },
+      {
+        "en": "I have to take this medicine three times a day.",
+        "chunks": [
+          "この薬を",
+          "1日に3回",
+          "飲まなければなりません。"
+        ]
+      },
+      {
+        "en": "You have to show your passport.",
+        "chunks": [
+          "パスポートを",
+          "見せなくては",
+          "いけませんよ。"
+        ]
+      },
+      {
+        "en": "You don't have to take off your shoes.",
+        "chunks": [
+          "靴を",
+          "脱がなくても",
+          "いいですよ。"
+        ]
+      },
+      {
+        "en": "I don't have to wear a suit at the office.",
+        "chunks": [
+          "オフィスで",
+          "スーツを",
+          "着なくてもいいです。"
+        ]
+      },
+      {
+        "en": "Please come by 6:00 PM.",
+        "chunks": [
+          "18時までに",
+          "ここに",
+          "来てください。"
+        ]
+      },
+      {
+        "en": "I must submit the homework by May 1st.",
+        "chunks": [
+          "5月1日までに",
+          "宿題を",
+          "出さなければならないです。"
+        ]
+      },
+      {
+        "en": "I am going to study Japanese until dinner.",
+        "chunks": [
+          "晩ご飯まで",
+          "日本語を",
+          "勉強します。"
+        ]
+      },
+      {
+        "en": "I'm okay, so please don't worry about me.",
+        "chunks": [
+          "私は大丈夫ですから、",
+          "心配しないで",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Last night I had to go to bed early.",
+        "chunks": [
+          "昨日の夜は、",
+          "早く寝なきゃ",
+          "いけませんでした。"
+        ]
+      },
+      {
+        "en": "Because there was already milk, I did not have to buy it.",
+        "chunks": [
+          "牛乳がありましたから、",
+          "買わなくても",
+          "よかったです。"
+        ]
+      },
+      {
+        "en": "What's the matter? My throat hurts and I have a fever.",
+        "chunks": [
+          "どうしましたか？",
+          "のどが痛くて、",
+          "熱があります。"
+        ]
+      },
+      {
+        "en": "This is non-smoking, so please do not smoke.",
+        "chunks": [
+          "ここは禁煙ですから、",
+          "たばこを",
+          "吸わないでください。"
+        ]
+      },
+      {
+        "en": "Please do not exercise for two or three days.",
+        "chunks": [
+          "2、3日",
+          "運動しないで",
+          "ください。"
+        ]
+      },
+      {
+        "en": "I have to return an email to my boss.",
+        "chunks": [
+          "上司に",
+          "メールを",
+          "返さなければなりません。"
+        ]
+      },
+      {
+        "en": "I want a girlfriend by Valentine's Day.",
+        "chunks": [
+          "バレンタインデーまでに",
+          "彼女が",
+          "欲しいです。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "行きます (いきます)",
+        "form": "ない-form",
+        "answer": "いかない",
+        "options": [
+          "いかない",
+          "いきない",
+          "いくない"
+        ],
+        "hint": "Group 1: き shifts to the あ-row (か)"
+      },
+      {
+        "prompt": "買います (かいます)",
+        "form": "ない-form",
+        "answer": "かわない",
+        "options": [
+          "かわない",
+          "かあない",
+          "かいない"
+        ],
+        "hint": "Group 1 vowel exception: います shifts to わ (わ-row)"
+      },
+      {
+        "prompt": "吸います (すいます)",
+        "form": "ない-form",
+        "answer": "すわない",
+        "options": [
+          "すわない",
+          "すあない",
+          "すいない"
+        ],
+        "hint": "Group 1 vowel exception: います shifts to わ"
+      },
+      {
+        "prompt": "払います (はらいます)",
+        "form": "ない-form",
+        "answer": "はらわない",
+        "options": [
+          "はらわない",
+          "はらあない",
+          "はらいない"
+        ],
+        "hint": "Group 1 vowel exception: います shifts to わ"
+      },
+      {
+        "prompt": "飲みます (のみます)",
+        "form": "ない-form",
+        "answer": "のまない",
+        "options": [
+          "のまない",
+          "のみない",
+          "のむない"
+        ],
+        "hint": "Group 1: み shifts to ま"
+      },
+      {
+        "prompt": "立ちます (たちます)",
+        "form": "ない-form",
+        "answer": "たたない",
+        "options": [
+          "たたない",
+          "たちない",
+          "たらない"
+        ],
+        "hint": "Group 1: ち shifts to た"
+      },
+      {
+        "prompt": "待ちます (まちます)",
+        "form": "ない-form",
+        "answer": "またない",
+        "options": [
+          "またない",
+          "まちない",
+          "まらない"
+        ],
+        "hint": "Group 1: ち shifts to た"
+      },
+      {
+        "prompt": "話します (はなします)",
+        "form": "ない-form",
+        "answer": "はなさない",
+        "options": [
+          "はなさない",
+          "はなしない",
+          "はないない"
+        ],
+        "hint": "Group 1: し shifts to さ"
+      },
+      {
+        "prompt": "出します (だします)",
+        "form": "ない-form",
+        "answer": "ださない",
+        "options": [
+          "ださない",
+          "だしない",
+          "だたない"
+        ],
+        "hint": "Group 1: し shifts to さ"
+      },
+      {
+        "prompt": "返します (かえします)",
+        "form": "ない-form",
+        "answer": "かえさない",
+        "options": [
+          "かえさない",
+          "かえしない",
+          "かえらない"
+        ],
+        "hint": "Group 1: し shifts to さ"
+      },
+      {
+        "prompt": "なくします",
+        "form": "ない-form",
+        "answer": "なくさない",
+        "options": [
+          "なくさない",
+          "なくしない",
+          "なくたない"
+        ],
+        "hint": "Group 1: し shifts to さ"
+      },
+      {
+        "prompt": "脱ぎます (ぬぎます)",
+        "form": "ない-form",
+        "answer": "ぬがない",
+        "options": [
+          "ぬがない",
+          "ぬぎない",
+          "ぬかない"
+        ],
+        "hint": "Group 1: ぎ shifts to が"
+      },
+      {
+        "prompt": "泳ぎます (およぎます)",
+        "form": "ない-form",
+        "answer": "およがない",
+        "options": [
+          "およがない",
+          "およぎない",
+          "およくない"
+        ],
+        "hint": "Group 1: ぎ shifts to が"
+      },
+      {
+        "prompt": "急ぎます (いそぎます)",
+        "form": "ない-form",
+        "answer": "いそがない",
+        "options": [
+          "いそがない",
+          "いそぎない",
+          "いそかない"
+        ],
+        "hint": "Group 1: ぎ shifts to が"
+      },
+      {
+        "prompt": "入ります (はいります)",
+        "form": "ない-form",
+        "answer": "はいらない",
+        "options": [
+          "はいらない",
+          "はいない",
+          "はいりない"
+        ],
+        "hint": "Group 1 (not Group 2!): り shifts to ら"
+      },
+      {
+        "prompt": "帰ります (かえります)",
+        "form": "ない-form",
+        "answer": "かえらない",
+        "options": [
+          "かえらない",
+          "かえない",
+          "かえりない"
+        ],
+        "hint": "Group 1: り shifts to ら"
+      },
+      {
+        "prompt": "知ります (しります)",
+        "form": "ない-form",
+        "answer": "しらない",
+        "options": [
+          "しらない",
+          "しりない",
+          "しない"
+        ],
+        "hint": "Group 1: り shifts to ら"
+      },
+      {
+        "prompt": "取ります (とります)",
+        "form": "ない-form",
+        "answer": "とらない",
+        "options": [
+          "とらない",
+          "とりない",
+          "とない"
+        ],
+        "hint": "Group 1: り shifts to ら"
+      },
+      {
+        "prompt": "食べます (たべます)",
+        "form": "ない-form",
+        "answer": "たべない",
+        "options": [
+          "たべない",
+          "たばない",
+          "たべらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "覚えます (おぼえます)",
+        "form": "ない-form",
+        "answer": "おぼえない",
+        "options": [
+          "おぼえない",
+          "おぼわたい",
+          "おぼえらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "忘れます (わすれます)",
+        "form": "ない-form",
+        "answer": "わすれない",
+        "options": [
+          "わすれない",
+          "わすらない",
+          "わすれらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "見ます (みます)",
+        "form": "ない-form",
+        "answer": "みない",
+        "options": [
+          "みない",
+          "まない",
+          "みらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "寝ます (ねます)",
+        "form": "ない-form",
+        "answer": "ねない",
+        "options": [
+          "ねない",
+          "なない",
+          "ねらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "止めます (とめます)",
+        "form": "ない-form",
+        "answer": "とめない",
+        "options": [
+          "とめない",
+          "とまない",
+          "とめらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "着ます (きます - to wear)",
+        "form": "ない-form",
+        "answer": "きない",
+        "options": [
+          "きない",
+          "かない",
+          "きらない"
+        ],
+        "hint": "Group 2: replace ます with ない"
+      },
+      {
+        "prompt": "します",
+        "form": "ない-form",
+        "answer": "しない",
+        "options": [
+          "しない",
+          "さない",
+          "しらない"
+        ],
+        "hint": "Group 3 irregular"
+      },
+      {
+        "prompt": "来ます (きます - to come)",
+        "form": "ない-form",
+        "answer": "こない",
+        "options": [
+          "こない",
+          "きない",
+          "くない"
+        ],
+        "hint": "Group 3 irregular: changes reading to こない"
+      },
+      {
+        "prompt": "心配します (しんぱいします)",
+        "form": "ない-form",
+        "answer": "しんぱいしない",
+        "options": [
+          "しんぱいしない",
+          "しんぱいさない",
+          "しんぱいしらない"
+        ],
+        "hint": "Group 3 compound verb: します → しない"
+      },
+      {
+        "prompt": "残業します (ざんぎょうします)",
+        "form": "ない-form",
+        "answer": "ざんぎょうしない",
+        "options": [
+          "ざんぎょうしない",
+          "ざんぎょうさない",
+          "ざんぎょうしらない"
+        ],
+        "hint": "Group 3: します → しない"
+      },
+      {
+        "prompt": "飲みます (のみます)",
+        "form": "Obligation (〜なければなりません)",
+        "answer": "のまなければなりません",
+        "options": [
+          "のまなければなりません",
+          "のみなければなりません",
+          "のまないでなりません"
+        ],
+        "hint": "のまない → drop い, add ければなりません"
+      },
+      {
+        "prompt": "脱ぎます (ぬぎます)",
+        "form": "Permission to not do (〜なくてもいいです)",
+        "answer": "ぬがなくてもいいです",
+        "options": [
+          "ぬがなくてもいいです",
+          "ぬぎなくてもいいです",
+          "ぬがないでもいいです"
+        ],
+        "hint": "ぬがない → drop い, add くてもいいです"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Past plain negative ('didn't go')",
+        "answer": "いかなかった",
+        "options": [
+          "いかなかった",
+          "いかないでした",
+          "いかなくて"
+        ],
+        "hint": "いかない acts like an い-adjective: drop い, add かった"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "ここに車 [ ? ] 止めないでください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The direct object of 止めます takes を."
+      },
+      {
+        "sentence": "ここ [ ? ] 車を止めないでください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The destination / contact spot for parking takes に."
+      },
+      {
+        "sentence": "ここ [ ? ] ご飯を食べないでください。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "The place where an action/activity happens takes で."
+      },
+      {
+        "sentence": "ここ [ ? ] 話さないでください。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Action takes place in an area → で."
+      },
+      {
+        "sentence": "ここ [ ? ] 座らないでください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Sitting down is directed onto a spot → に."
+      },
+      {
+        "sentence": "5時 [ ? ] 本を返してください。",
+        "answer": "までに",
+        "options": [
+          "までに",
+          "まで",
+          "から",
+          "に"
+        ],
+        "hint": "A deadline by which an action must finish takes までに."
+      },
+      {
+        "sentence": "5時 [ ? ] 本を読んでください。",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "までに",
+          "で",
+          "を"
+        ],
+        "hint": "Continuous activity continuing until 5:00 takes まで."
+      },
+      {
+        "sentence": "昨日から熱 [ ? ] あります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Having a symptom (fever) uses が あります."
+      },
+      {
+        "sentence": "のど [ ? ] 痛いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Body part that hurts takes が."
+      },
+      {
+        "sentence": "風邪 [ ? ] 引きました。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "hint": "Catching a cold is 風邪を引く."
+      },
+      {
+        "sentence": "インフルエンザ [ ? ] かかりました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "が"
+        ],
+        "hint": "Catching the flu is インフルエンザにかかる."
+      },
+      {
+        "sentence": "お風呂 [ ? ] 入らないでください。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "Entering a bath takes に."
+      },
+      {
+        "sentence": "上着 [ ? ] 脱いでください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The object taken off takes を."
+      },
+      {
+        "sentence": "18時 [ ? ] 来てください。",
+        "answer": "までに",
+        "options": [
+          "までに",
+          "まで",
+          "に",
+          "で"
+        ],
+        "hint": "Arrival deadline: 'come by 6:00 PM'."
+      },
+      {
+        "sentence": "今夜は残業 [ ? ] しなければなりません。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "残業(を)します takes を when marked as an explicit object."
+      },
+      {
+        "sentence": "日本 [ ? ] 出張に行きます。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination of trip takes へ or に."
+      },
+      {
+        "sentence": "上司 [ ? ] メールを返します。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The recipient you reply to takes に."
+      },
+      {
+        "sentence": "今までそれ [ ? ] 知りませんでした。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "hint": "The object known/unknown takes を."
+      },
+      {
+        "sentence": "バレンタインデー [ ? ] 彼女が欲しいです。",
+        "answer": "までに",
+        "options": [
+          "までに",
+          "まで",
+          "で",
+          "から"
+        ],
+        "hint": "Desired completion deadline takes までに."
+      },
+      {
+        "sentence": "受付 [ ? ] 保険証を出してください。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Place where the action (submitting) takes place takes で."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Doctor's examination room",
+        "speaker": "医者",
+        "prompt": "どうしましたか？",
+        "options": [
+          {
+            "text": "頭が痛くて、熱があります。",
+            "correct": true
+          },
+          {
+            "text": "頭が痛くて、熱を引きました。",
+            "correct": false
+          },
+          {
+            "text": "頭が痛いですから、来てください。",
+            "correct": false
+          }
+        ],
+        "tip": "Explain symptoms using [body part] が痛い and 熱がある."
+      },
+      {
+        "situation": "Doctor giving instructions on taking baths",
+        "speaker": "医者",
+        "prompt": "今日はお風呂に入ってもいいですか？",
+        "options": [
+          {
+            "text": "いいえ、今日はお風呂に入らないでください。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、お風呂に入らなくてもいいです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、お風呂に入らないといけません。",
+            "correct": false
+          }
+        ],
+        "tip": "To politely instruct someone not to do something, use ～ないでください."
+      },
+      {
+        "situation": "Patient asking about taking time off work",
+        "speaker": "患者",
+        "prompt": "明日、会社に行かなければなりませんか？",
+        "options": [
+          {
+            "text": "いいえ、行かなくてもいいですよ。ゆっくり休んでください。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、行かないでくださいよ。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、行かないといけません。",
+            "correct": false
+          }
+        ],
+        "tip": "When something is not necessary, reply with ～なくてもいいです."
+      },
+      {
+        "situation": "Convenience store clerk asking about a plastic bag",
+        "speaker": "店員",
+        "prompt": "袋は要りますか？",
+        "options": [
+          {
+            "text": "いいえ、大丈夫です。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、心配しないでください。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、お大事に。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 大丈夫です to politely decline ('I'm fine without it')."
+      },
+      {
+        "situation": "Non-smoking area warning",
+        "speaker": "駅員",
+        "prompt": "すみません、ここは禁煙ですよ。",
+        "options": [
+          {
+            "text": "あ、すみません。吸わないです。",
+            "correct": false
+          },
+          {
+            "text": "すみません、ここではたばこを吸わないでください。",
+            "correct": false
+          },
+          {
+            "text": "あ、すみません。すぐに消します。",
+            "correct": true
+          }
+        ],
+        "tip": "禁煙 means no smoking; respond politely when cautioned."
+      },
+      {
+        "situation": "Boss assigning a deadline for a business report",
+        "speaker": "上司",
+        "prompt": "このレポートはいつまでに出さなければなりませんか？",
+        "options": [
+          {
+            "text": "金曜日の17時までに出してください。",
+            "correct": true
+          },
+          {
+            "text": "金曜日の17時まで出してください。",
+            "correct": false
+          },
+          {
+            "text": "金曜日の17時まで出さなくてもいいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Deadlines for submitting take までに (出してください)."
+      },
+      {
+        "situation": "Visiting a Japanese home",
+        "speaker": "友達",
+        "prompt": "靴を脱がなければなりませんか？",
+        "options": [
+          {
+            "text": "ここでは靴を脱がなくてもいいですよ。",
+            "correct": true
+          },
+          {
+            "text": "靴を脱いでくださいません。",
+            "correct": false
+          },
+          {
+            "text": "靴を脱がなきゃいけませんよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Expressing lack of necessity: ～なくてもいいです."
+      },
+      {
+        "situation": "Taking medicine",
+        "speaker": "薬剤師",
+        "prompt": "この薬はどうやって飲みますか？",
+        "options": [
+          {
+            "text": "1日3回、食後に飲まなければなりません。",
+            "correct": true
+          },
+          {
+            "text": "1日3回、飲まないでください。",
+            "correct": false
+          },
+          {
+            "text": "1日3回、飲まなくてもいいです。",
+            "correct": false
+          }
+        ],
+        "tip": "State mandatory prescription instructions with ～なければなりません."
+      },
+      {
+        "situation": "At airport immigration",
+        "speaker": "審査官",
+        "prompt": "パスポートを見せてください。",
+        "options": [
+          {
+            "text": "はい、どうぞ。",
+            "correct": true
+          },
+          {
+            "text": "見せなくてもいいですよ。",
+            "correct": false
+          },
+          {
+            "text": "見せないでください。",
+            "correct": false
+          }
+        ],
+        "tip": "Showing passport is mandatory (見せなくてはいけません)."
+      },
+      {
+        "situation": "Leaving the hospital after a checkup",
+        "speaker": "医者",
+        "prompt": "無理をしないで、暖かくして寝てくださいね。お大事に。",
+        "options": [
+          {
+            "text": "ありがとうございました。失礼します。",
+            "correct": true
+          },
+          {
+            "text": "お大事にどうぞ。",
+            "correct": false
+          },
+          {
+            "text": "大丈夫でした。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to お大事に with ありがとうございました."
+      },
+      {
+        "situation": "Meeting a friend who worries about you",
+        "speaker": "友達",
+        "prompt": "顔色が悪いですよ。大丈夫ですか？",
+        "options": [
+          {
+            "text": "ちょっと風邪気味ですが、大丈夫ですから、心配しないでください。",
+            "correct": true
+          },
+          {
+            "text": "はい、心配しなければなりません。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、心配しなくてもよかったです。",
+            "correct": false
+          }
+        ],
+        "tip": "Reassure someone using 大丈夫ですから、心配しないでください."
+      },
+      {
+        "situation": "Catching a train in a hurry",
+        "speaker": "同僚",
+        "prompt": "急がないと、電車に間に合いませんよ！",
+        "options": [
+          {
+            "text": "大丈夫です。まだ15分ありますから、急がなくても間に合いますよ。",
+            "correct": true
+          },
+          {
+            "text": "急がないでくださいでした。",
+            "correct": false
+          },
+          {
+            "text": "急がなければなりませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Takashi's example: 急がなくても間に合います (we'll still make it without hurrying)."
+      },
+      {
+        "situation": "Working late at the office",
+        "speaker": "同僚",
+        "prompt": "今夜は残業しますか？",
+        "options": [
+          {
+            "text": "明日までにこの資料を作らないといけないですから、残業します。",
+            "correct": true
+          },
+          {
+            "text": "残業しなくてもよかったです。",
+            "correct": false
+          },
+          {
+            "text": "残業しないでください。",
+            "correct": false
+          }
+        ],
+        "tip": "Combine deadline (明日までに) with obligation (作らないといけない)."
+      }
+    ]
+  }
+}

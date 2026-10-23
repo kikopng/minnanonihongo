@@ -1,0 +1,2351 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 4,
+    "title": "Time, Daily Schedules, and Verb Conjugation",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master telling time (hours, minutes, and irregular readings), days of the week, the polite non-past and past verb conjugations (ます・ません・ました・ませんでした), the time marker particle に and its strict absolute vs. relative time rules, duration intervals with から and まで, listing nouns with と, seeking empathy/confirmation with sentence-final ね, and making telephone inquiries about business hours and contact numbers."
+  },
+  "vocabulary": [
+    {
+      "id": "okimasu",
+      "kanji": "起きます",
+      "kana": "おきます",
+      "romaji": "okimasu",
+      "meaning": "to wake up; to get up",
+      "category": "verb",
+      "example": {
+        "kanji": "毎朝6時に起きます。",
+        "kana": "まいあさ ろくじに おきます。",
+        "translation": "I wake up at 6:00 every morning."
+      }
+    },
+    {
+      "id": "nemasu",
+      "kanji": "寝ます",
+      "kana": "ねます",
+      "romaji": "nemasu",
+      "meaning": "to sleep; to go to bed",
+      "category": "verb",
+      "example": {
+        "kanji": "夜11時に寝ます。",
+        "kana": "よる じゅういちじに ねます。",
+        "translation": "I go to bed at 11:00 at night."
+      }
+    },
+    {
+      "id": "hatarakimasu",
+      "kanji": "働きます",
+      "kana": "はたらきます",
+      "romaji": "hatarakimasu",
+      "meaning": "to work",
+      "category": "verb",
+      "example": {
+        "kanji": "月曜日から金曜日まで働きます。",
+        "kana": "げつようびから きんようびまで はたらきます。",
+        "translation": "I work from Monday to Friday."
+      }
+    },
+    {
+      "id": "yasumimasu",
+      "kanji": "休みます",
+      "kana": "やすみます",
+      "romaji": "yasumimasu",
+      "meaning": "to rest; to take a break; to take a day off",
+      "category": "verb",
+      "example": {
+        "kanji": "土曜日と日曜日は休みます。",
+        "kana": "どようびと にちようびは やすみます。",
+        "translation": "I rest on Saturday and Sunday."
+      }
+    },
+    {
+      "id": "benkyoushimasu",
+      "kanji": "勉強します",
+      "kana": "べんきょうします",
+      "romaji": "benkyoushimasu",
+      "meaning": "to study",
+      "category": "verb",
+      "example": {
+        "kanji": "毎晩日本語を勉強します。",
+        "kana": "まいばん にほんごを べんきょうします。",
+        "translation": "I study Japanese every night."
+      }
+    },
+    {
+      "id": "owarimasu",
+      "kanji": "終わります",
+      "kana": "おわります",
+      "romaji": "owarimasu",
+      "meaning": "to end; to finish",
+      "category": "verb",
+      "example": {
+        "kanji": "会議は5時に終わります。",
+        "kana": "かいぎは ごじに おわります。",
+        "translation": "The meeting ends at 5:00."
+      }
+    },
+    {
+      "id": "ima",
+      "kanji": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "meaning": "now",
+      "category": "time",
+      "example": {
+        "kanji": "今何時ですか。",
+        "kana": "いま なんじですか。",
+        "translation": "What time is it now?"
+      }
+    },
+    {
+      "id": "ji",
+      "kanji": "～時",
+      "kana": "～じ",
+      "romaji": "~ji",
+      "meaning": "o'clock; hour counter",
+      "category": "counter",
+      "example": {
+        "kanji": "今4時です。",
+        "kana": "いま よじです。",
+        "translation": "It is 4 o'clock now."
+      }
+    },
+    {
+      "id": "fun-pun",
+      "kanji": "～分",
+      "kana": "～ふん / ～ぷん",
+      "romaji": "~fun / ~pun",
+      "meaning": "minute counter",
+      "category": "counter",
+      "example": {
+        "kanji": "9時15分です。",
+        "kana": "くじ じゅうごふんです。",
+        "translation": "It is 9:15."
+      }
+    },
+    {
+      "id": "han",
+      "kanji": "半",
+      "kana": "はん",
+      "romaji": "han",
+      "meaning": "half past (30 minutes)",
+      "category": "time",
+      "example": {
+        "kanji": "7時半に朝ご飯を食べます。",
+        "kana": "しちじはんに あさごはんを たべます。",
+        "translation": "I eat breakfast at 7:30."
+      }
+    },
+    {
+      "id": "nanji",
+      "kanji": "何時",
+      "kana": "なんじ",
+      "romaji": "nanji",
+      "meaning": "what time",
+      "category": "interrogative",
+      "example": {
+        "kanji": "毎晩何時に寝ますか。",
+        "kana": "まいばん なんじに ねますか。",
+        "translation": "What time do you go to bed every night?"
+      }
+    },
+    {
+      "id": "nanpun",
+      "kanji": "何分",
+      "kana": "なんぷん",
+      "romaji": "nanpun",
+      "meaning": "what minute; how many minutes",
+      "category": "interrogative",
+      "example": {
+        "kanji": "今何時何分ですか。",
+        "kana": "いま なんじ なんぷんですか。",
+        "translation": "What hour and what minute is it now?"
+      }
+    },
+    {
+      "id": "gozen",
+      "kanji": "午前",
+      "kana": "ごぜん",
+      "romaji": "gozen",
+      "meaning": "a.m.; morning",
+      "category": "time",
+      "example": {
+        "kanji": "午前9時から働きます。",
+        "kana": "ごぜん くじから はたらきます。",
+        "translation": "I work from 9:00 a.m."
+      }
+    },
+    {
+      "id": "gogo",
+      "kanji": "午後",
+      "kana": "ごご",
+      "romaji": "gogo",
+      "meaning": "p.m.; afternoon",
+      "category": "time",
+      "example": {
+        "kanji": "午後5時に仕事が終わります。",
+        "kana": "ごご ごじに しごとが おわります。",
+        "translation": "Work finishes at 5:00 p.m."
+      }
+    },
+    {
+      "id": "asa",
+      "kanji": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "meaning": "morning",
+      "category": "time",
+      "example": {
+        "kanji": "朝新聞を読みます。",
+        "kana": "あさ しんぶんを よみます。",
+        "translation": "I read the newspaper in the morning."
+      }
+    },
+    {
+      "id": "hiru",
+      "kanji": "昼",
+      "kana": "ひる",
+      "romaji": "hiru",
+      "meaning": "daytime; noon",
+      "category": "time",
+      "example": {
+        "kanji": "昼休みに散歩します。",
+        "kana": "ひるやすみに さんぽします。",
+        "translation": "I take a walk during lunch break."
+      }
+    },
+    {
+      "id": "ban-yoru",
+      "kanji": "晩 / 夜",
+      "kana": "ばん / よる",
+      "romaji": "ban / yoru",
+      "meaning": "night; evening",
+      "category": "time",
+      "example": {
+        "kanji": "晩ご飯を食べます。",
+        "kana": "ばんごはんを たべます。",
+        "translation": "I eat dinner."
+      }
+    },
+    {
+      "id": "ototoi",
+      "kanji": "一昨日",
+      "kana": "おととい",
+      "romaji": "ototoi",
+      "meaning": "the day before yesterday",
+      "category": "time",
+      "example": {
+        "kanji": "おととい勉強しませんでした。",
+        "kana": "おととい べんきょうしませんでした。",
+        "translation": "I did not study the day before yesterday."
+      }
+    },
+    {
+      "id": "kinou",
+      "kanji": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "meaning": "yesterday",
+      "category": "time",
+      "example": {
+        "kanji": "昨日は雨でした。",
+        "kana": "きのうは あめでした。",
+        "translation": "Yesterday was rainy."
+      }
+    },
+    {
+      "id": "kyou",
+      "kanji": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "meaning": "today",
+      "category": "time",
+      "example": {
+        "kanji": "今日は木曜日です。",
+        "kana": "きょうは もくようびです。",
+        "translation": "Today is Thursday."
+      }
+    },
+    {
+      "id": "ashita",
+      "kanji": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "meaning": "tomorrow",
+      "category": "time",
+      "example": {
+        "kanji": "明日神戸へ行きます。",
+        "kana": "あした こうべへ いきます。",
+        "translation": "I will go to Kobe tomorrow."
+      }
+    },
+    {
+      "id": "asatte",
+      "kanji": "明後日",
+      "kana": "あさって",
+      "romaji": "asatte",
+      "meaning": "the day after tomorrow",
+      "category": "time",
+      "example": {
+        "kanji": "あさっては休みです。",
+        "kana": "あさっては やすみです。",
+        "translation": "The day after tomorrow is a day off."
+      }
+    },
+    {
+      "id": "kesa",
+      "kanji": "今朝",
+      "kana": "けさ",
+      "romaji": "kesa",
+      "meaning": "this morning",
+      "category": "time",
+      "example": {
+        "kanji": "今朝7時に起きました。",
+        "kana": "けさ しちじに おきました。",
+        "translation": "I woke up at 7:00 this morning."
+      }
+    },
+    {
+      "id": "konban",
+      "kanji": "今晩",
+      "kana": "こんばん",
+      "romaji": "konban",
+      "meaning": "this evening; tonight",
+      "category": "time",
+      "example": {
+        "kanji": "今晩映画を見ます。",
+        "kana": "こんばん えいがを みます。",
+        "translation": "I will watch a movie tonight."
+      }
+    },
+    {
+      "id": "yasumi",
+      "kanji": "休み",
+      "kana": "やすみ",
+      "romaji": "yasumi",
+      "meaning": "rest; holiday; day off",
+      "category": "noun",
+      "example": {
+        "kanji": "銀行の休みは土曜日と日曜日です。",
+        "kana": "ぎんこうの やすみは どようびと にちようびです。",
+        "translation": "The bank's holidays are Saturday and Sunday."
+      }
+    },
+    {
+      "id": "hiruyasumi",
+      "kanji": "昼休み",
+      "kana": "ひるやすみ",
+      "romaji": "hiruyasumi",
+      "meaning": "lunch break",
+      "category": "noun",
+      "example": {
+        "kanji": "昼休みは12時からです。",
+        "kana": "ひるやすみは じゅうにじからです。",
+        "translation": "Lunch break is from 12:00."
+      }
+    },
+    {
+      "id": "getsuyoubi",
+      "kanji": "月曜日",
+      "kana": "げつようび",
+      "romaji": "getsuyoubi",
+      "meaning": "Monday",
+      "category": "day",
+      "example": {
+        "kanji": "月曜日にテストがあります。",
+        "kana": "げつようびに テストが あります。",
+        "translation": "There is a test on Monday."
+      }
+    },
+    {
+      "id": "kayoubi",
+      "kanji": "火曜日",
+      "kana": "かようび",
+      "romaji": "kayoubi",
+      "meaning": "Tuesday",
+      "category": "day",
+      "example": {
+        "kanji": "火曜日は図書館が休みです。",
+        "kana": "かようびは としょかんが やすみです。",
+        "translation": "The library is closed on Tuesday."
+      }
+    },
+    {
+      "id": "suiyoubi",
+      "kanji": "水曜日",
+      "kana": "すいようび",
+      "romaji": "suiyoubi",
+      "meaning": "Wednesday",
+      "category": "day",
+      "example": {
+        "kanji": "水曜日に友達と会います。",
+        "kana": "すいようびに ともだちと あいます。",
+        "translation": "I will meet a friend on Wednesday."
+      }
+    },
+    {
+      "id": "mokuyoubi",
+      "kanji": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "meaning": "Thursday",
+      "category": "day",
+      "example": {
+        "kanji": "木曜日の晩に勉強します。",
+        "kana": "もくようびの ばんに べんきょうします。",
+        "translation": "I study on Thursday night."
+      }
+    },
+    {
+      "id": "kinyoubi",
+      "kanji": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kinyoubi",
+      "meaning": "Friday",
+      "category": "day",
+      "example": {
+        "kanji": "金曜日の夜は忙しいです。",
+        "kana": "きんようびの よるは いそがしいです。",
+        "translation": "Friday night is busy."
+      }
+    },
+    {
+      "id": "doyoubi",
+      "kanji": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "meaning": "Saturday",
+      "category": "day",
+      "example": {
+        "kanji": "土曜日に買い物をします。",
+        "kana": "どようびに かいものを します。",
+        "translation": "I do shopping on Saturday."
+      }
+    },
+    {
+      "id": "nichiyoubi",
+      "kanji": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "meaning": "Sunday",
+      "category": "day",
+      "example": {
+        "kanji": "日曜日は働きません。",
+        "kana": "にちようびは はたらきません。",
+        "translation": "I do not work on Sunday."
+      }
+    },
+    {
+      "id": "nanyoubi",
+      "kanji": "何曜日",
+      "kana": "なんようび",
+      "romaji": "nanyoubi",
+      "meaning": "what day of the week",
+      "category": "interrogative",
+      "example": {
+        "kanji": "今日は何曜日ですか。",
+        "kana": "きょうは なんようびですか。",
+        "translation": "What day of the week is today?"
+      }
+    },
+    {
+      "id": "maiasa",
+      "kanji": "毎朝",
+      "kana": "まいあさ",
+      "romaji": "maiasa",
+      "meaning": "every morning",
+      "category": "time",
+      "example": {
+        "kanji": "毎朝コーヒーを飲みます。",
+        "kana": "まいあさ コーヒーを のみます。",
+        "translation": "I drink coffee every morning."
+      }
+    },
+    {
+      "id": "maiban",
+      "kanji": "毎晩",
+      "kana": "まいばん",
+      "romaji": "maiban",
+      "meaning": "every night",
+      "category": "time",
+      "example": {
+        "kanji": "毎晩12時に寝ます。",
+        "kana": "まいばん じゅうにじに ねます。",
+        "translation": "I go to bed at 12:00 every night."
+      }
+    },
+    {
+      "id": "mainichi",
+      "kanji": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "meaning": "every day",
+      "category": "time",
+      "example": {
+        "kanji": "毎日日本語を勉強します。",
+        "kana": "まいにち にほんごを べんきょうします。",
+        "translation": "I study Japanese every day."
+      }
+    },
+    {
+      "id": "toshokan",
+      "kanji": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "meaning": "library",
+      "category": "place",
+      "example": {
+        "kanji": "図書館は9時から5時までです。",
+        "kana": "としょかんは くじから ごじまでです。",
+        "translation": "The library is open from 9:00 to 5:00."
+      }
+    },
+    {
+      "id": "bijutsukan",
+      "kanji": "美術館",
+      "kana": "びじゅつかん",
+      "romaji": "bijutsukan",
+      "meaning": "art museum; art gallery",
+      "category": "place",
+      "example": {
+        "kanji": "日曜日に美術館へ行きました。",
+        "kana": "にちようびに びじゅつかんへ いきました。",
+        "translation": "I went to an art museum on Sunday."
+      }
+    },
+    {
+      "id": "yuubinkyoku",
+      "kanji": "郵便局",
+      "kana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "meaning": "post office",
+      "category": "place",
+      "example": {
+        "kanji": "郵便局は何時までですか。",
+        "kana": "ゆうびんきょくは なんじまでですか。",
+        "translation": "Until what time is the post office open?"
+      }
+    },
+    {
+      "id": "ginkou",
+      "kanji": "銀行",
+      "kana": "ぎんこう",
+      "romaji": "ginkou",
+      "meaning": "bank",
+      "category": "place",
+      "example": {
+        "kanji": "銀行は3時に終わります。",
+        "kana": "ぎんこうは さんじに おわります。",
+        "translation": "The bank closes at 3:00."
+      }
+    },
+    {
+      "id": "bangou",
+      "kanji": "番号",
+      "kana": "ばんごう",
+      "romaji": "bangou",
+      "meaning": "number (phone, room, registration)",
+      "category": "noun",
+      "example": {
+        "kanji": "電話番号は何番ですか。",
+        "kana": "でんわばんごうは なんばんですか。",
+        "translation": "What is your telephone number?"
+      }
+    },
+    {
+      "id": "nanban",
+      "kanji": "何番",
+      "kana": "なんばん",
+      "romaji": "nanban",
+      "meaning": "what number",
+      "category": "interrogative",
+      "example": {
+        "kanji": "部屋は何番ですか。",
+        "kana": "へやは なんばんですか。",
+        "translation": "What room number is it?"
+      }
+    },
+    {
+      "id": "taihendesune",
+      "kanji": "大変ですね",
+      "kana": "たいへんですね",
+      "romaji": "taihen desu ne",
+      "meaning": "That must be tough; That sounds hard on you",
+      "category": "expression",
+      "example": {
+        "kanji": "毎晩夜中の2時まで働きます。— 大変ですね。",
+        "kana": "まいばん よなかの にじまで はたらきます。— たいへんですね。",
+        "translation": "I work until 2:00 a.m. every night. — That must be tough."
+      }
+    },
+    {
+      "id": "eeto",
+      "kanji": "えーと",
+      "kana": "えーと",
+      "romaji": "eeto",
+      "meaning": "well; let me see; um",
+      "category": "expression",
+      "example": {
+        "kanji": "えーと、10時からです。",
+        "kana": "えーと、じゅうじからです。",
+        "translation": "Let me see... it starts from 10:00."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "今 ～時 ～分 です [Telling Time & Irregular Readings]",
+      "explanation": "To state the current time, specify the hour using the counter ～時 (じ) and minutes using ～分 (ふん / ぷん). Takashi's Golden Warnings: (1) Irregular Hours: 4:00 is ONLY 『よじ』 (never よんじ or しじ); 7:00 is 『しちじ』 (occasionally ななじ, but standard is しちじ); 9:00 is ONLY 『くじ』 (never きゅうじ). (2) Minutes phonetic shifts: Minutes ending in 1, 3, 4, 6, 8, 10 take ぷん (いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん/じっぷん), while 2, 5, 7, 9 take ふん (にふん, ごふん, ななふん, きゅうふん). (3) Half past is expressed with 半 (はん) = 30分 (e.g. 7時半 = 7:30). Question: 『今何時何分ですか』.",
+      "examples": [
+        {
+          "kanji": "今4時です。",
+          "kana": "いま よじです。",
+          "translation": "It is 4 o'clock now (よじ, not よんじ)."
+        },
+        {
+          "kanji": "今9時半です。",
+          "kana": "いま くじらんです。",
+          "translation": "It is 9:30 now (くじ, not きゅうじ)."
+        },
+        {
+          "kanji": "東京は今午前7時15分です。",
+          "kana": "とうきょうは いま ごぜん しちじ じゅうごふんです。",
+          "translation": "It is 7:15 a.m. in Tokyo right now."
+        },
+        {
+          "kanji": "ロンドンは今何時ですか。— 午後1時です。",
+          "kana": "ロンドンは いま なんじですか。— ごご いちじです。",
+          "translation": "What time is it in London now? — It is 1:00 p.m."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-ます / ません / ました / ませんでした [Polite Verb Conjugations & Tenses]",
+      "explanation": "Japanese verbs end in ます in polite style. Unlike English, Japanese verbs DO NOT conjugate based on the grammatical person (1st, 2nd, 3rd) or singular/plural; 私は起きます, あなたは起きます, and 彼女は起きます use the identical verb form! Verb tenses: (1) Non-past Affirmative (Present/Future): ～ます (e.g. 働きます - I work / will work). (2) Non-past Negative: ～ません (e.g. 働きません - I do not work / will not work). (3) Past Affirmative: ～ました (e.g. 働きました - I worked). (4) Past Negative: ～ませんでした (e.g. 働きませんでした - I did not work).",
+      "examples": [
+        {
+          "kanji": "毎朝6時に起きます。",
+          "kana": "まいあさ ろくじに おきます。",
+          "translation": "I wake up at 6:00 every morning (habitual present)."
+        },
+        {
+          "kanji": "明日は働きません。",
+          "kana": "あしたは はたらきません。",
+          "translation": "I will not work tomorrow (future negative)."
+        },
+        {
+          "kanji": "昨日の晩勉強しました。",
+          "kana": "きのうの ばん べんきょうしました。",
+          "translation": "I studied yesterday evening (past affirmative)."
+        },
+        {
+          "kanji": "おとといは勉強しませんでした。",
+          "kana": "おとといは べんきょうしませんでした。",
+          "translation": "I did not study the day before yesterday (past negative)."
+        }
+      ]
+    },
+    {
+      "pattern": "Time に Verb [The Particle に for Specific Times]",
+      "explanation": "Attach the particle に to a time noun to indicate the specific point in time at which an action takes place. In English, this corresponds to 'at', 'on', or 'in'. Example: 『6時に起きます』 (I wake up AT 6:00). Rule: The action verb always concludes the clause, and the time point precedes it with に.",
+      "examples": [
+        {
+          "kanji": "毎朝6時半に起きます。",
+          "kana": "まいあさ ろくじはんに おきます。",
+          "translation": "I wake up at 6:30 every morning."
+        },
+        {
+          "kanji": "夜11時に寝ます。",
+          "kana": "よる じゅういちじに ねます。",
+          "translation": "I go to bed at 11:00 at night."
+        },
+        {
+          "kanji": "何時に起きますか。— 7時に起きます。",
+          "kana": "なんじに おきますか。— しちじに おきます。",
+          "translation": "What time do you wake up? — I wake up at 7:00."
+        },
+        {
+          "kanji": "土曜日に図書館へ行きます。",
+          "kana": "どようびに としょかんへ いきます。",
+          "translation": "I go to the library on Saturday."
+        }
+      ]
+    },
+    {
+      "pattern": "The Absolute vs. Relative Time Rule [When NOT to Use に]",
+      "explanation": "TAKASHI'S CRITICAL RULE OF に: Not all time expressions take に! (1) MUST use に: Specific clock times, dates, and years that contain numerical figures (e.g. 7時に, 8月15日に, 2024年に). (2) NEVER use に: Relative time words whose reference point changes relative to 'today' or 'now' (e.g. 今日, 明日, 昨日, おととい, あさって, 今, 今朝, 今晩, 毎日, 毎朝, 毎晩, 毎週, 来週, 先週). Saying 『✕ 明日に勉強します』 is incorrect! (3) OPTIONAL に: Days of the week (日曜日(に)), parts of the day (朝(に), 晩(に)), and 休み(に).",
+      "examples": [
+        {
+          "kanji": "明日勉強します。(✕ 明日に勉強します)",
+          "kana": "あした べんきょうします。",
+          "translation": "I will study tomorrow. (Relative time: NO に!)"
+        },
+        {
+          "kanji": "今朝7時に起きました。",
+          "kana": "けさ しちじに おきました。",
+          "translation": "This morning (no に) I woke up at 7:00 (has に)."
+        },
+        {
+          "kanji": "毎晩11時に寝ます。(✕ 毎晩に)",
+          "kana": "まいばん じゅういちじに ねます。",
+          "translation": "Every night (no に) I go to bed at 11:00 (has に)."
+        },
+        {
+          "kanji": "日曜日に行きます。 / 日曜に行きます。",
+          "kana": "にちようびに いきます。 / にちように いきます。",
+          "translation": "I will go on Sunday. (Day of the week: に is optional)."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 から Noun 2 まで [Starting Points, Deadlines, and Intervals]",
+      "explanation": "から marks the starting time or starting point ('from'), and まで marks the ending time or limit ('to / until'). They frequently pair together: 『9時から5時まで働きます』 (I work from 9:00 to 5:00). You can also use them with days of the week: 『月曜日から金曜日まで』 (from Monday to Friday).",
+      "examples": [
+        {
+          "kanji": "9時から5時まで働きます。",
+          "kana": "くじから ごじまで はたらきます。",
+          "translation": "I work from 9:00 to 5:00."
+        },
+        {
+          "kanji": "月曜日から金曜日まで勉強します。",
+          "kana": "げつようびから きんようびまで べんきょうします。",
+          "translation": "I study from Monday to Friday."
+        },
+        {
+          "kanji": "何時から何時までですか。",
+          "kana": "なんじから なんじまでですか。",
+          "translation": "From what time to what time is it?"
+        },
+        {
+          "kanji": "昼休みは12時から1時までです。",
+          "kana": "ひるやすみは じゅうにじから いちじまでです。",
+          "translation": "Lunch break is from 12:00 to 1:00."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun から / Noun まで With です [Standalone Predicates]",
+      "explanation": "から and まで do not always need to be paired together, nor do they always require an action verb. You can attach です directly to [Time] から or [Time] まで to make it the predicate of the sentence: (1) 『昼休みは12時からです』 (Lunch break starts from 12:00). (2) 『銀行は3時までです』 (The bank is open until 3:00). (3) 『会議は9時からです』 (The meeting is from 9:00).",
+      "examples": [
+        {
+          "kanji": "銀行は9時から3時までです。",
+          "kana": "ぎんこうは くじから さんじまでです。",
+          "translation": "The bank is open from 9:00 to 3:00."
+        },
+        {
+          "kanji": "昼休みは12時半からです。",
+          "kana": "ひるやすみは じゅうにじはんからです。",
+          "translation": "Lunch break is from 12:30."
+        },
+        {
+          "kanji": "郵便局は5時までです。",
+          "kana": "ゆうびんきょくは ごじまでです。",
+          "translation": "The post office is open until 5:00."
+        },
+        {
+          "kanji": "デパートは何時までですか。",
+          "kana": "デパートは なんじまでですか。",
+          "translation": "Until what time is the department store open?"
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 と Noun 2 [Connecting Nouns Concurrently]",
+      "explanation": "The particle と joins two or more nouns together exhaustively, functioning like 'and' in English. Constraint: と can ONLY connect nouns (e.g. 土曜日と日曜日, 銀行と郵便局). It CANNOT be used to join sentences, adjectives, or verb clauses (do not say ✕ 食べますと寝ます).",
+      "examples": [
+        {
+          "kanji": "銀行の休みは土曜日と日曜日です。",
+          "kana": "ぎんこうの やすみは どようびと にちようびです。",
+          "translation": "The bank's holidays are Saturday and Sunday."
+        },
+        {
+          "kanji": "手帳とボールペンを買いました。",
+          "kana": "てちょうと ボールペンを かいました。",
+          "translation": "I bought a planner and a ballpoint pen."
+        },
+        {
+          "kanji": "休みは月曜日と木曜日です。",
+          "kana": "やすみは げつようびと もくようびです。",
+          "translation": "The days off are Monday and Thursday."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence ね [Seeking Agreement, Confirmation, and Sympathy]",
+      "explanation": "The sentence-final particle ね is placed at the end of a sentence to seek agreement, confirm shared information, or express sympathy/empathy (similar to English tag questions: 'isn't it?', 'right?'). In Lesson 4, it is famously used in 『大変ですね』 ('That must be tough, isn't it?') to empathize with someone's demanding work/study schedule, or to verify a telephone number/closing time: 『8時までですね』 ('Until 8:00, right?').",
+      "examples": [
+        {
+          "kanji": "毎日10時まで勉強します。— 大変ですね。",
+          "kana": "まいにち じゅうじまで べんきょうします。— たいへんですね。",
+          "translation": "I study until 10:00 every day. — That must be tough on you."
+        },
+        {
+          "kanji": "美術館は月曜日が休みですね。— はい、そうです。",
+          "kana": "びじゅつかんは げつようびが やすみですね。— はい、そうです。",
+          "translation": "The art museum is closed on Mondays, right? — Yes, that's right."
+        },
+        {
+          "kanji": "明日は休みですね。— ええ、休みです。",
+          "kana": "あしたは やすみですね。— ええ、やすみです。",
+          "translation": "Tomorrow is a day off, isn't it? — Yes, it is."
+        }
+      ]
+    },
+    {
+      "pattern": "Days of the Week & 何曜日 (なんようび) [Weekly Schedules]",
+      "explanation": "The seven days of the week in Japanese are named after celestial elements: 月 (Moon/Mon), 火 (Fire/Tue), 水 (Water/Wed), 木 (Wood/Thu), 金 (Metal-Gold/Fri), 土 (Earth/Sat), 日 (Sun/Sun) + 曜日 (ようび). To ask which day of the week something occurs or what day today is, use 『何曜日 (なんようび)』. Structure: 『今日は何曜日ですか』 (What day of the week is today?) or 『休みは何曜日ですか』 (What days of the week are you closed?).",
+      "examples": [
+        {
+          "kanji": "今日は何曜日ですか。— 木曜日です。",
+          "kana": "きょうは なんようびですか。— もくようびです。",
+          "translation": "What day is today? — It is Thursday."
+        },
+        {
+          "kanji": "休みは何曜日ですか。— 水曜日です。",
+          "kana": "やすみは なんようびですか。— すいようびです。",
+          "translation": "Which day of the week are you closed? — Wednesday."
+        },
+        {
+          "kanji": "英語のクラスは何曜日ですか。— 火曜日と金曜日です。",
+          "kana": "えいごの クラスは なんようびですか。— かようびと きんようびです。",
+          "translation": "What days of the week is English class? — Tuesday and Friday."
+        }
+      ]
+    },
+    {
+      "pattern": "Phone Inquiries & Directory Assistance: そちら, 何番ですか, お願いします",
+      "explanation": "Lesson 4 teaches practical communication for phone calls and directory assistance (104): (1) Inquiring about a business: Refer to the listener's store, museum, or office as 『そちら』 ('your place / your establishment'): 『そちらは何時からですか』 (What time does your place open?). (2) Asking telephone numbers: 『[Organization] の電話番号は何番ですか』 (What is the telephone number for [Organization]?). (3) Requesting directory connection: 『[Name] をお願いします』 (Please give me the number for [Name]). (4) Hesitation filler: Use 『えーと』 ('um, let me see') when checking schedules or information.",
+      "examples": [
+        {
+          "kanji": "そちらは何時から何時までですか。— 9時から5時までです。",
+          "kana": "そちらは なんじから なんじまでですか。— くじから ごじまでです。",
+          "translation": "What are your business hours? — We are open from 9:00 to 5:00."
+        },
+        {
+          "kanji": "IMCの電話番号は何番ですか。— 3412の5678です。",
+          "kana": "IMCの でんわばんごうは なんばんですか。— さんよんいちに の ごろくななはちです。",
+          "translation": "What is IMC's telephone number? — It is 3412-5678."
+        },
+        {
+          "kanji": "あおぞら銀行の電話番号をお願いします。",
+          "kana": "あおぞらぎんこうの でんわばんごうを おねがいします。",
+          "translation": "Could you please give me the telephone number for Aozora Bank?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "大和美術館の開館時間と毎日のスケジュール (Yamato Museum's Hours and Daily Schedule)",
+    "lines": [
+      {
+        "speaker": "案内係",
+        "kanji": "はい、104の石田です。",
+        "kana": "はい、いちまるよんの いしだです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "すみません。大和美術館の電話番号をお願いします。",
+        "kana": "すみません。やまとびじゅつかんの でんわばんごうを おねがいします。"
+      },
+      {
+        "speaker": "案内係",
+        "kanji": "大和美術館ですね。かしこまりました。……お問い合わせの番号は0742の23の4567です。",
+        "kana": "やまとびじゅつかんですね。かしこまりました。……おといあわせの ばんごうは ゼロななよんにの にさんの よんごろくななです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "どうもありがとうございます。",
+        "kana": "どうも ありがとう ございます。"
+      },
+      {
+        "speaker": "美術館員",
+        "kanji": "はい、大和美術館でございます。",
+        "kana": "はい、やまとびじゅつかんで ございます。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "すみません。そちらは何時から何時までですか。",
+        "kana": "すみません。そちらは なんじから なんじまでですか。"
+      },
+      {
+        "speaker": "美術館員",
+        "kanji": "午前9時から午後5時まででございます。",
+        "kana": "ごぜん くじから ごご ごじまでで ございます。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "休みは何曜日ですか。",
+        "kana": "やすみは なんようびですか。"
+      },
+      {
+        "speaker": "美術館員",
+        "kanji": "月曜日です。月曜日は休みでございます。",
+        "kana": "げつようびです。げつようびは やすみで ございます。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "そうですか。月曜日ですね。わかりました。ありがとうございます。",
+        "kana": "そうですか。げつようびですね。わかりました。ありがとう ございます。"
+      },
+      {
+        "speaker": "美術館員",
+        "kanji": "いいえ、どういたしまして。",
+        "kana": "いいえ、どういたしまして。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "（同僚の山田と話す）山田さん、美術館は月曜日が休みですね。日曜日に一緒に行きませんか。",
+        "kana": "（どうりょうの やまだと はなす）やまださん、びじゅつかんは げつようびが やすみですね。にちようびに いっしょに いきませんか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "いいですね。私は日曜日、いつも朝10時頃に起きますから、午後から行きましょう。",
+        "kana": "いいですね。わたしは にちようび、いつも あさ じゅうじごろに おきますから、ごごから いきましょう。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "山田さんは土曜日も夜遅くまで働きますか。大変ですね。",
+        "kana": "やまださんは どようびも よる おそくまで はたらきますか。たいへんですね。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "ええ、土曜日は夜10時まで働きます。でも日曜日は休みですから、大丈夫ですよ。",
+        "kana": "ええ、どようびは よる じゅうじまで はたらきます。でも にちようびは やすみですから、だいじょうぶですよ。"
+      }
+    ],
+    "translation": "Santos first dials directory assistance (104) to request the phone number for the Yamato Art Museum. Operator Ishida looks it up and provides the number (0742-23-4567). Santos thanks her and dials the museum directly. A museum staff member answers politely with 'でございます'. Santos inquires about their opening hours using 'そちらは何時から何時までですか'. The staff answers that they are open from 9:00 a.m. to 5:00 p.m. Santos then asks which day of the week they are closed ('休みは何曜日ですか'), and the staff confirms they are closed on Mondays. Santos acknowledges this and thanks the staff. Later, talking with his coworker Yamada, Santos mentions that the museum is closed on Mondays and invites Yamada to visit together on Sunday. Yamada agrees, mentioning that on Sundays he usually wakes up around 10:00 a.m., so they should go in the afternoon. Santos empathizes with Yamada's schedule, saying 'You work until late on Saturday too? That must be tough (大変ですね).' Yamada confirms he works until 10:00 p.m. on Saturdays, but assures him it's fine because Sunday is his day off.",
+    "questions": [
+      {
+        "question": "What is the telephone number for Yamato Art Museum provided by directory assistance?",
+        "options": [
+          "0742-23-4567",
+          "0742-32-4567",
+          "0742-23-7654",
+          "0120-23-4567"
+        ],
+        "answer": 0,
+        "explanation": "Operator Ishida says: お問い合わせの番号は0742の23の4567です."
+      },
+      {
+        "question": "What are the operating hours of Yamato Art Museum?",
+        "options": [
+          "10:00 a.m. to 6:00 p.m.",
+          "9:00 a.m. to 5:00 p.m. (午前9時から午後5時まで)",
+          "8:30 a.m. to 4:30 p.m.",
+          "9:00 a.m. to 8:00 p.m."
+        ],
+        "answer": 1,
+        "explanation": "The museum staff states: 午前9時から午後5時まででございます."
+      },
+      {
+        "question": "On which day of the week is Yamato Art Museum closed?",
+        "options": [
+          "Sunday (日曜日)",
+          "Saturday (土曜日)",
+          "Monday (月曜日)",
+          "Wednesday (水曜日)"
+        ],
+        "answer": 2,
+        "explanation": "The staff member answers: 月曜日です。月曜日は休みでございます."
+      },
+      {
+        "question": "Why does Santos say 『大変ですね』 to Yamada?",
+        "options": [
+          "Because Yamada works late until 10:00 p.m. on Saturdays",
+          "Because Yamada lost his museum ticket",
+          "Because Yamada does not like art",
+          "Because the museum is closed on Sunday"
+        ],
+        "answer": 0,
+        "explanation": "Santos says 『大変ですね』 after learning Yamada works late until 10:00 p.m. on Saturdays (土曜日も夜遅くまで働きますか。大変ですね)."
+      },
+      {
+        "question": "Which word did Santos use to politely refer to the museum as 'your establishment' on the phone?",
+        "options": [
+          "こちら",
+          "そちら",
+          "あちら",
+          "どちら"
+        ],
+        "answer": 1,
+        "explanation": "『そちら』 refers politely to the listener's place of business or establishment."
+      },
+      {
+        "question": "Why do Santos and Yamada plan to go to the museum in the afternoon on Sunday?",
+        "options": [
+          "Because the museum only opens in the afternoon",
+          "Because Yamada wakes up around 10:00 a.m. on Sundays",
+          "Because the bus does not run in the morning",
+          "Because Santos has Japanese class on Sunday morning"
+        ],
+        "answer": 1,
+        "explanation": "Yamada explains: 私は日曜日、いつも朝10時頃に起きますから、午後から行きましょう."
+      },
+      {
+        "question": "How did Santos ask for the phone number when calling directory assistance (104)?",
+        "options": [
+          "大和美術館の電話番号をお願いします。",
+          "大和美術館の電話番号を見せてください。",
+          "大和美術館の電話番号は何時ですか。",
+          "大和美術館の電話番号をください。"
+        ],
+        "answer": 0,
+        "explanation": "When requesting telephone numbers or services, use 『～をお願いします』."
+      },
+      {
+        "question": "In the dialogue, which particle is attached to 月曜日 to indicate it is the regular closing day?",
+        "options": [
+          "月曜日は休みです / 月曜日が休みですね",
+          "月曜日に休みです",
+          "月曜日で休みです",
+          "月曜日を休みです"
+        ],
+        "answer": 0,
+        "explanation": "Days off as topics or identifying subjects take は or が (月曜日は休みです / 月曜日が休みですね), not に."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct reading for 4:00.",
+      "options": [
+        "よじ",
+        "よんじ",
+        "しじ",
+        "よじかん"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Warning: 4:00 is ONLY read as 『よじ』. Never say よんじ or しじ."
+    },
+    {
+      "question": "Choose the correct reading for 7:00.",
+      "options": [
+        "しちじ",
+        "ななじ",
+        "ひちじ",
+        "しじ"
+      ],
+      "answer": 0,
+      "explanation": "7:00 is standardly read as 『しちじ』."
+    },
+    {
+      "question": "Choose the correct reading for 9:00.",
+      "options": [
+        "くじ",
+        "きゅうじ",
+        "ここのじ",
+        "きゅうじかん"
+      ],
+      "answer": 0,
+      "explanation": "9:00 is ONLY read as 『くじ』. Saying きゅうじ is incorrect."
+    },
+    {
+      "question": "Choose the correct reading for 1 minute (1分).",
+      "options": [
+        "いっぷん",
+        "いちふん",
+        "いちぷん",
+        "ひとふん"
+      ],
+      "answer": 0,
+      "explanation": "1 minute undergoes a sound change to become 『いっぷん』."
+    },
+    {
+      "question": "Choose the correct reading for 6 minutes (6分).",
+      "options": [
+        "ろっぷん",
+        "ろくふん",
+        "ろくぷん",
+        "ろっぷ"
+      ],
+      "answer": 0,
+      "explanation": "6 minutes undergoes gemination: 『ろっぷん』."
+    },
+    {
+      "question": "Choose the correct reading for 8 minutes (8分).",
+      "options": [
+        "はっぷん",
+        "はちふん",
+        "はちぷん",
+        "ばっぷん"
+      ],
+      "answer": 0,
+      "explanation": "8 minutes is read as 『はっぷん』 (or はちふん, with はっぷん being most common)."
+    },
+    {
+      "question": "Choose the correct reading for 10 minutes (10分).",
+      "options": [
+        "じゅっぷん",
+        "じゅうふん",
+        "じふん",
+        "とおぷん"
+      ],
+      "answer": 0,
+      "explanation": "10 minutes is read as 『じゅっぷん』 (or historically じっぷん)."
+    },
+    {
+      "question": "How do you say '7:30' in Japanese using 半 (half past)?",
+      "options": [
+        "しちじはん",
+        "ななじはん",
+        "しちじさんじゅう",
+        "くじはん"
+      ],
+      "answer": 0,
+      "explanation": "7:30 is read as 『しちじはん』 (7時半)."
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT because of particle に?",
+      "options": [
+        "毎朝6時に起きます。",
+        "明日に日本語を勉強します。",
+        "土曜日に神戸へ行きます。",
+        "夜11時に寝ます。"
+      ],
+      "answer": 1,
+      "explanation": "Takashi's Absolute vs. Relative Time Rule: Relative time words like 明日, 今日, 昨日, and 毎朝 NEVER take the particle に (✕ 明日に)."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'I wake up at 7:00 this morning.'",
+      "options": [
+        "今朝7時に起きました。",
+        "今朝に7時に起きました。",
+        "今朝7時に起きますでした。",
+        "今朝7時起きましたに。"
+      ],
+      "answer": 0,
+      "explanation": "今朝 (relative time: NO に) + 7時に (specific time: HAS に) + 起きました (past tense)."
+    },
+    {
+      "question": "Choose the correct negative non-past form of 働きます (to work).",
+      "options": [
+        "働きません",
+        "働きませんでした",
+        "働くません",
+        "働きないです"
+      ],
+      "answer": 0,
+      "explanation": "The polite negative non-past ending is ～ません: 働きません."
+    },
+    {
+      "question": "Choose the correct past affirmative form of 勉強します (to study).",
+      "options": [
+        "勉強しました",
+        "勉強しますでした",
+        "勉強したです",
+        "勉強しでした"
+      ],
+      "answer": 0,
+      "explanation": "The polite past affirmative ending is ～ました: 勉強しました."
+    },
+    {
+      "question": "Choose the correct past negative form of 寝ます (to sleep / go to bed).",
+      "options": [
+        "寝ませんでした",
+        "寝ません",
+        "寝ました",
+        "寝なかったです"
+      ],
+      "answer": 0,
+      "explanation": "The polite past negative ending is ～ませんでした: 寝ませんでした."
+    },
+    {
+      "question": "Connect the time interval: 'I work from 9:00 to 5:00.'",
+      "prompt": {
+        "kanji": "9時___5時___働きます。",
+        "kana": "くじ___ごじ___はたらきます。"
+      },
+      "options": [
+        "から、まで",
+        "まで、から",
+        "に、に",
+        "と、と"
+      ],
+      "answer": 0,
+      "explanation": "From [Time 1] to [Time 2] = [Time 1] から [Time 2] まで."
+    },
+    {
+      "question": "How do you say: 'Lunch break starts from 12:00'?",
+      "options": [
+        "昼休みは12時からです。",
+        "昼休みは12時までです。",
+        "昼休みは12時にです。",
+        "昼休みは12時とです。"
+      ],
+      "answer": 0,
+      "explanation": "A standalone starting point uses [Time] からです: 12時からです."
+    },
+    {
+      "question": "How do you say: 'The post office is open until 5:00'?",
+      "options": [
+        "郵便局は5時までです。",
+        "郵便局は5時からです。",
+        "郵便局は5時にです。",
+        "郵便局は5時まで働きますです。"
+      ],
+      "answer": 0,
+      "explanation": "A standalone deadline or closing time uses [Time] までです: 5時までです."
+    },
+    {
+      "question": "Choose the correct particle: 'The bank's holidays are Saturday AND Sunday.'",
+      "prompt": {
+        "kanji": "銀行の休みは土曜日___日曜日です。",
+        "kana": "ぎんこうの やすみは どようび___にちようびです。"
+      },
+      "options": [
+        "と",
+        "に",
+        "から",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "The particle と connects two nouns together: 土曜日と日曜日."
+    },
+    {
+      "question": "Your friend says: 『毎晩夜中の1時まで勉強します』 (I study until 1:00 a.m. every night). How do you show empathy?",
+      "options": [
+        "大変ですね。",
+        "いいえ、違います。",
+        "こちらこそよろしく。",
+        "ほんの気持ちです。"
+      ],
+      "answer": 0,
+      "explanation": "『大変ですね』 expresses sympathetic understanding for someone's hard effort or difficult situation."
+    },
+    {
+      "question": "What does Wednesday mean in Japanese?",
+      "options": [
+        "水曜日 (すいようび)",
+        "火曜日 (かようび)",
+        "木曜日 (もくようび)",
+        "金曜日 (きんようび)"
+      ],
+      "answer": 0,
+      "explanation": "水曜日 (すいようび) = Wednesday. (火 = Tue, 木 = Thu, 金 = Fri)."
+    },
+    {
+      "question": "What does Thursday mean in Japanese?",
+      "options": [
+        "木曜日 (もくようび)",
+        "火曜日 (かようび)",
+        "土曜日 (どようび)",
+        "月曜日 (げつようび)"
+      ],
+      "answer": 0,
+      "explanation": "木曜日 (もくようび) = Thursday."
+    },
+    {
+      "question": "What day of the week is Tuesday?",
+      "options": [
+        "火曜日 (かようび)",
+        "水曜日 (すいようび)",
+        "金曜日 (きんようび)",
+        "日曜日 (にちようび)"
+      ],
+      "answer": 0,
+      "explanation": "火曜日 (かようび) = Tuesday."
+    },
+    {
+      "question": "How do you ask: 'What day of the week is today?'",
+      "options": [
+        "今日は何曜日ですか。",
+        "今日は何日ですか。",
+        "今日は何時ですか。",
+        "今日は何番ですか。"
+      ],
+      "answer": 0,
+      "explanation": "何曜日 (なんようび) asks for the day of the week: 今日は何曜日ですか."
+    },
+    {
+      "question": "Choose the word that means 'the day before yesterday'.",
+      "options": [
+        "おととい",
+        "きのう",
+        "きょう",
+        "あさって"
+      ],
+      "answer": 0,
+      "explanation": "おととい = the day before yesterday; きのう = yesterday; あさって = the day after tomorrow."
+    },
+    {
+      "question": "Choose the word that means 'the day after tomorrow'.",
+      "options": [
+        "あさって",
+        "あした",
+        "おととい",
+        "まいあさ"
+      ],
+      "answer": 0,
+      "explanation": "あさって = the day after tomorrow."
+    },
+    {
+      "question": "Choose the word that means 'every night'.",
+      "options": [
+        "毎晩 (まいばん)",
+        "毎朝 (まいあさ)",
+        "毎日 (まいにち)",
+        "今晩 (こんばん)"
+      ],
+      "answer": 0,
+      "explanation": "毎晩 (まいばん) = every night."
+    },
+    {
+      "question": "Where do you place 午前 (a.m.) and 午後 (p.m.) when stating the time in Japanese?",
+      "options": [
+        "BEFORE the time digits (e.g. 午前9時)",
+        "AFTER the time digits (e.g. 9時午前)",
+        "At the very end of the sentence after です",
+        "Directly attached to the verb"
+      ],
+      "answer": 0,
+      "explanation": "In Japanese, a.m. (午前) and p.m. (午後) are placed BEFORE the time: 午前9時, 午後5時半."
+    },
+    {
+      "question": "How do you ask: 'What are your business hours?' when calling a store?",
+      "options": [
+        "そちらは何時から何時までですか。",
+        "こちらは何時から何時までですか。",
+        "あちらは何時から何時までですか。",
+        "どこは何時から何時までですか。"
+      ],
+      "answer": 0,
+      "explanation": "Use 『そちら』 to politely refer to the listener's store, museum, or office."
+    },
+    {
+      "question": "Choose the correct question: 'What is your telephone number?'",
+      "options": [
+        "電話番号は何番ですか。",
+        "電話番号は何時ですか。",
+        "電話番号はいくらですか。",
+        "電話番号はどちらですか。"
+      ],
+      "answer": 0,
+      "explanation": "Use 何番 (なんばん) to ask for a specific identification number: 電話番号は何番ですか."
+    },
+    {
+      "question": "How is the hyphen (-) in a telephone number pronounced in Japanese (e.g., 03-1234-5678)?",
+      "options": [
+        "の",
+        "と",
+        "から",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Hyphens in Japanese telephone numbers are read aloud as 『の』: 03の1234の5678."
+    },
+    {
+      "question": "Choose the correct meaning of 終わります (おわります).",
+      "options": [
+        "to finish; to end",
+        "to begin; to start",
+        "to work",
+        "to sleep"
+      ],
+      "answer": 0,
+      "explanation": "終わります = to finish / end. (Begins = 始まります; Works = 働きます)."
+    },
+    {
+      "question": "A: 『昨日の晩勉強しましたか』 — B: 『いいえ、___』. Fill in the correct answer.",
+      "options": [
+        "勉強しませんでした",
+        "勉強しません",
+        "勉強しました",
+        "勉強します"
+      ],
+      "answer": 0,
+      "explanation": "The question asks about the past (昨日の晩勉強しましたか). Answering 'No' requires the past negative: 勉強しませんでした."
+    },
+    {
+      "question": "A: 『毎晩何時に寝ますか』 — B: 『___』. Choose the most natural answer.",
+      "options": [
+        "11時に寝ます。",
+        "11時に寝ました。",
+        "11時でした。",
+        "11時寝ません。"
+      ],
+      "answer": 0,
+      "explanation": "A question about habitual routine (毎晩何時に寝ますか) is answered with the present/future tense: 11時に寝ます."
+    },
+    {
+      "question": "What is the opposite verb of 起きます (おきます)?",
+      "options": [
+        "寝ます (ねます)",
+        "働きます (はたらきます)",
+        "休みます (やすみます)",
+        "終わります (おわります)"
+      ],
+      "answer": 0,
+      "explanation": "起きます (wake up) ↔ 寝ます (go to bed / sleep)."
+    },
+    {
+      "question": "What is the opposite verb of 働きます (はたらきます)?",
+      "options": [
+        "休みます (やすみます)",
+        "起きます (おきます)",
+        "寝ます (ねます)",
+        "勉強します (べんきょうします)"
+      ],
+      "answer": 0,
+      "explanation": "働きます (to work) ↔ 休みます (to rest / take a break / be off)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I study Japanese every day.'",
+      "options": [
+        "毎日日本語を勉強します。",
+        "毎日に日本語を勉強します。",
+        "毎日日本語を勉強しました。",
+        "毎日は日本語に勉強します。"
+      ],
+      "answer": 0,
+      "explanation": "毎日 is a relative time word and NEVER takes に: 毎日日本語を勉強します."
+    },
+    {
+      "question": "Choose the correct sentence: 'Yesterday I did not work.'",
+      "options": [
+        "昨日は働きませんでした。",
+        "昨日は働きません。",
+        "昨日に働きませんでした。",
+        "昨日が働きました。"
+      ],
+      "answer": 0,
+      "explanation": "昨日 does not take に, and past negative requires 働きませんでした."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "会議は3時___終わります。",
+        "kana": "かいぎは さんじ___ おわります。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Specific time of completion takes に: 3時に終わります."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "美術館は月曜日___休みです。",
+        "kana": "びじゅつかんは げつようび___ やすみです。"
+      },
+      "options": [
+        "が",
+        "に",
+        "で",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "When identifying which specific day is the off-day, が marks the subject: 月曜日が休みです (or topic 月曜日は休みです)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "朝9時___午後5時___働きます。",
+        "kana": "あさ くじ___ ごご ごじ___ はたらきます。"
+      },
+      "options": [
+        "から、まで",
+        "まで、から",
+        "に、に",
+        "と、と"
+      ],
+      "answer": 0,
+      "explanation": "From 9:00 to 5:00 = 9時から5時まで."
+    },
+    {
+      "question": "How do you read 12:30?",
+      "options": [
+        "じゅうにじはん",
+        "じゅうにじさんじゅっぷん",
+        "Both じゅうにじはん and じゅうにじさんじゅっぷん are correct",
+        "Neither is correct"
+      ],
+      "answer": 2,
+      "explanation": "12:30 can be read either as 12時半 (じゅうにじはん) or 12時30分 (じゅうにじさんじゅっぷん)."
+    },
+    {
+      "question": "Choose the correct word for 'art museum'.",
+      "options": [
+        "美術館 (びじゅつかん)",
+        "図書館 (としょかん)",
+        "映画館 (えいがかん)",
+        "郵便局 (ゆうびんきょく)"
+      ],
+      "answer": 0,
+      "explanation": "美術館 (びじゅつかん) = art museum; 図書館 = library; 映画館 = cinema."
+    },
+    {
+      "question": "Choose the correct word for 'post office'.",
+      "options": [
+        "郵便局 (ゆうびんきょく)",
+        "銀行 (ぎんこう)",
+        "役所 (やくしょ)",
+        "事務所 (じむしょ)"
+      ],
+      "answer": 0,
+      "explanation": "郵便局 (ゆうびんきょく) = post office."
+    },
+    {
+      "question": "Read the time: 10:45 a.m.",
+      "options": [
+        "午前10時45分 (ごぜん じゅうじ よんじゅうごふん)",
+        "午後10時45分 (ごご じゅうじ よんじゅうごふん)",
+        "午前10時45分 (ごぜん じゅうじ よんじゅうごぷん)",
+        "午後10時45分 (ごご とおじ よんじゅうごふん)"
+      ],
+      "answer": 0,
+      "explanation": "a.m. = 午前 (ごぜん), 10:00 = じゅうじ, 45分 = よんじゅうごふん (5 ends in ふん)."
+    },
+    {
+      "question": "Which time word CAN take particle に optionally?",
+      "options": [
+        "日曜日 (Sunday)",
+        "今日 (Today)",
+        "明日 (Tomorrow)",
+        "毎日 (Every day)"
+      ],
+      "answer": 0,
+      "explanation": "Days of the week can either take or omit に (日曜日 / 日曜日に). Relative words like 今日, 明日, and 毎日 cannot take に."
+    },
+    {
+      "question": "Translate: 'The test ends at 4:00.'",
+      "options": [
+        "テストは4時に終わります。",
+        "テストは4時で終わります。",
+        "4時はテストが終わります。",
+        "テストは4時を終わります。"
+      ],
+      "answer": 0,
+      "explanation": "Time of ending takes に: 4時に終わります (よじに おわります)."
+    }
+  ],
+  "writing": {
+    "title": "My Daily Routine and Weekly Schedule",
+    "prompt": "Write 6–8 sentences in Japanese describing your daily routine and work/study schedule. (1) State what time you wake up in the morning and what time you go to bed at night using 『～時に起きます / 寝ます』. (2) State your working or studying hours from start to finish using 『～時から ～時まで 働きます / 勉強します』. (3) State which days of the week are your days off using 『休みは ～曜日と ～曜日です』. (4) Describe what you did or did not do yesterday using past tense (～ました / ～ませんでした) and use 『大変ですね』 or a confirmation with 『ね』.",
+    "placeholder": "私は毎朝 ______ 時に起きます。そして、夜 ______ 時に寝ます。\n毎日 ______ 時から ______ 時まで ______ ます。\n休みは ______ 曜日と ______ 曜日です。\n昨日は ______ ませんでした。______ でした。\n友達は毎日夜遅くまで働きます。______ ですね。",
+    "modelAnswer": "私は毎朝6時半に起きます。夜は11時半に寝ます。月曜日から金曜日まで、午前9時から午後5時まで働きます。昼休みは12時から1時までです。私の休みは土曜日と日曜日です。昨日は日曜日でしたから、働きませんでした。家で日本語を勉強しました。山田さんは土曜日も夜10時まで働きます。本当に大変ですね。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "It is 4 o'clock now.",
+        "chunks": [
+          "今は",
+          "4時",
+          "です。"
+        ]
+      },
+      {
+        "en": "I wake up at 6:30 every morning.",
+        "chunks": [
+          "毎朝",
+          "6時半に",
+          "起きます。"
+        ]
+      },
+      {
+        "en": "I study from 9:00 to 5:00.",
+        "chunks": [
+          "9時から",
+          "5時まで",
+          "勉強します。"
+        ]
+      },
+      {
+        "en": "Yesterday I did not work.",
+        "chunks": [
+          "昨日は",
+          "働きません",
+          "でした。"
+        ]
+      },
+      {
+        "en": "What time does the bank close?",
+        "chunks": [
+          "銀行は",
+          "何時に",
+          "終わりますか。"
+        ]
+      },
+      {
+        "en": "Lunch break is from 12:00.",
+        "chunks": [
+          "昼休みは",
+          "12時から",
+          "です。"
+        ]
+      },
+      {
+        "en": "The days off are Saturday and Sunday.",
+        "chunks": [
+          "休みは",
+          "土曜日と",
+          "日曜日です。"
+        ]
+      },
+      {
+        "en": "I will go to bed at 11:00 tonight.",
+        "chunks": [
+          "今晩",
+          "11時に",
+          "寝ます。"
+        ]
+      },
+      {
+        "en": "You work until 10:00 every night? That must be tough.",
+        "chunks": [
+          "毎晩10時まで働きますか。",
+          "大変",
+          "ですね。"
+        ]
+      },
+      {
+        "en": "What day of the week is today?",
+        "chunks": [
+          "今日は",
+          "何曜日",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "The art museum is open from 9:00 a.m. to 5:00 p.m.",
+        "chunks": [
+          "美術館は午前9時から",
+          "午後5時まで",
+          "です。"
+        ]
+      },
+      {
+        "en": "What is the telephone number for Yamato Museum?",
+        "chunks": [
+          "大和美術館の電話番号は",
+          "何番",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "I did not study the day before yesterday.",
+        "chunks": [
+          "おとといは",
+          "勉強しません",
+          "でした。"
+        ]
+      },
+      {
+        "en": "What are your business hours? (calling a shop)",
+        "chunks": [
+          "そちらは何時から",
+          "何時まで",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "I study Japanese every night.",
+        "chunks": [
+          "毎晩日本語を",
+          "勉強",
+          "します。"
+        ]
+      },
+      {
+        "en": "Tomorrow is a holiday, isn't it? — Yes, it is.",
+        "chunks": [
+          "明日は休みですね。",
+          "はい、",
+          "そうです。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "起きます (Non-past Negative)",
+        "form": "Verb Negative",
+        "answer": "起きません",
+        "options": [
+          "起きません",
+          "起きませんでした",
+          "起きますない"
+        ],
+        "hint": "Replace ～ます with ～ません."
+      },
+      {
+        "prompt": "働きます (Past Affirmative)",
+        "form": "Verb Past",
+        "answer": "働きました",
+        "options": [
+          "働きました",
+          "働きません",
+          "働きでした"
+        ],
+        "hint": "Replace ～ます with ～ました."
+      },
+      {
+        "prompt": "勉強します (Past Negative)",
+        "form": "Verb Past Negative",
+        "answer": "勉強しませんでした",
+        "options": [
+          "勉強しませんでした",
+          "勉強しません",
+          "勉強しましたない"
+        ],
+        "hint": "Replace ～ます with ～ませんでした."
+      },
+      {
+        "prompt": "寝ます (Past Affirmative)",
+        "form": "Verb Past",
+        "answer": "寝ました",
+        "options": [
+          "寝ました",
+          "寝ません",
+          "寝ますでした"
+        ],
+        "hint": "Replace ～ます with ～ました."
+      },
+      {
+        "prompt": "終わります (Non-past Negative)",
+        "form": "Verb Negative",
+        "answer": "終わりません",
+        "options": [
+          "終わりません",
+          "終わりませんでした",
+          "終わらないです"
+        ],
+        "hint": "Replace ～ます with ～ません."
+      },
+      {
+        "prompt": "4:00 (時の変音)",
+        "form": "Hour Reading",
+        "answer": "よじ",
+        "options": [
+          "よじ",
+          "よんじ",
+          "しじ"
+        ],
+        "hint": "4:00 is strictly read as よじ."
+      },
+      {
+        "prompt": "7:00 (時の読み方)",
+        "form": "Hour Reading",
+        "answer": "しちじ",
+        "options": [
+          "しちじ",
+          "ななじ",
+          "しじ"
+        ],
+        "hint": "7:00 is standardly read as しちじ."
+      },
+      {
+        "prompt": "9:00 (時の変音)",
+        "form": "Hour Reading",
+        "answer": "くじ",
+        "options": [
+          "くじ",
+          "きゅうじ",
+          "ここのじ"
+        ],
+        "hint": "9:00 is strictly read as くじ."
+      },
+      {
+        "prompt": "1分 (分の変音)",
+        "form": "Minute Reading",
+        "answer": "いっぷん",
+        "options": [
+          "いっぷん",
+          "いちふん",
+          "いちぷん"
+        ],
+        "hint": "1 minute is pronounced いっぷん."
+      },
+      {
+        "prompt": "3分 (分の変音)",
+        "form": "Minute Reading",
+        "answer": "さんぷん",
+        "options": [
+          "さんぷん",
+          "さんふん",
+          "みっぷん"
+        ],
+        "hint": "3 minutes is pronounced さんぷん."
+      },
+      {
+        "prompt": "4分 (分の読み方)",
+        "form": "Minute Reading",
+        "answer": "よんぷん",
+        "options": [
+          "よんぷん",
+          "よんふん",
+          "しふん"
+        ],
+        "hint": "4 minutes is read as よんぷん."
+      },
+      {
+        "prompt": "6分 (分の変音)",
+        "form": "Minute Reading",
+        "answer": "ろっぷん",
+        "options": [
+          "ろっぷん",
+          "ろくふん",
+          "ろくぷん"
+        ],
+        "hint": "6 minutes is pronounced ろっぷん."
+      },
+      {
+        "prompt": "8分 (分の変音)",
+        "form": "Minute Reading",
+        "answer": "はっぷん",
+        "options": [
+          "はっぷん",
+          "はちふん",
+          "はちぷん"
+        ],
+        "hint": "8 minutes is read as はっぷん."
+      },
+      {
+        "prompt": "10分 (分の変音)",
+        "form": "Minute Reading",
+        "answer": "じゅっぷん",
+        "options": [
+          "じゅっぷん",
+          "じゅうふん",
+          "じふん"
+        ],
+        "hint": "10 minutes is read as じゅっぷん."
+      },
+      {
+        "prompt": "30分 (Half past alternative)",
+        "form": "Time Expression",
+        "answer": "はん",
+        "options": [
+          "はん",
+          "さんじゅう",
+          "なかば"
+        ],
+        "hint": "Half past is expressed with 半 (はん)."
+      },
+      {
+        "prompt": "明日 (Check particle に rule)",
+        "form": "Particle Rule Application",
+        "answer": "に をつけない (No に)",
+        "options": [
+          "に をつけない (No に)",
+          "に をつける (Must use に)",
+          "どちらでもよい"
+        ],
+        "hint": "Takashi's Rule: Relative time words NEVER take に!"
+      },
+      {
+        "prompt": "7時 (Check particle に rule)",
+        "form": "Particle Rule Application",
+        "answer": "に をつける (Must use に)",
+        "options": [
+          "に をつける (Must use に)",
+          "に をつけない (No に)",
+          "どちらでもよい"
+        ],
+        "hint": "Specific clock times with digits MUST take に."
+      },
+      {
+        "prompt": "毎日 (Check particle に rule)",
+        "form": "Particle Rule Application",
+        "answer": "に をつけない (No に)",
+        "options": [
+          "に をつけない (No に)",
+          "に をつける (Must use に)",
+          "どちらでもよい"
+        ],
+        "hint": "Regular recurring time words like 毎日 never take に."
+      },
+      {
+        "prompt": "日曜日 (Check particle に rule)",
+        "form": "Particle Rule Application",
+        "answer": "どちらでもよい (Optional に)",
+        "options": [
+          "どちらでもよい (Optional に)",
+          "絶対に に をつける",
+          "絶対に に をつけない"
+        ],
+        "hint": "Days of the week can take に optionally."
+      },
+      {
+        "prompt": "何曜日 (Asking day of the week)",
+        "form": "Interrogative",
+        "answer": "なんようび",
+        "options": [
+          "なんようび",
+          "なにようび",
+          "なんにち"
+        ],
+        "hint": "What day of the week is read なんようび."
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "毎朝6時 [ ? ] 起きます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "は"
+        ],
+        "hint": "Specific point of time takes particle に."
+      },
+      {
+        "sentence": "明日 [ ? ] 勉強します。",
+        "answer": "（なし / 助詞不要）",
+        "options": [
+          "（なし / 助詞不要）",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Relative time words like 明日 NEVER take に."
+      },
+      {
+        "sentence": "午前9時 [ ? ] 午後5時まで働きます。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "と"
+        ],
+        "hint": "Starting point 'from' is marked by から."
+      },
+      {
+        "sentence": "9時から午後5時 [ ? ] 働きます。",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "と"
+        ],
+        "hint": "Ending point 'until' is marked by まで."
+      },
+      {
+        "sentence": "休みは土曜日 [ ? ] 日曜日です。",
+        "answer": "と",
+        "options": [
+          "と",
+          "に",
+          "から",
+          "も"
+        ],
+        "hint": "Connecting two nouns ('and') uses と."
+      },
+      {
+        "sentence": "夜10時まで働きます。— 大変です [ ? ]。",
+        "answer": "ね",
+        "options": [
+          "ね",
+          "か",
+          "よ",
+          "の"
+        ],
+        "hint": "Sentence-final particle for empathy: 大変ですね."
+      },
+      {
+        "sentence": "昼休みは12時 [ ? ] です。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "と"
+        ],
+        "hint": "Starts from 12:00 = 12時からです."
+      },
+      {
+        "sentence": "郵便局は5時 [ ? ] です。",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "で"
+        ],
+        "hint": "Open until 5:00 = 5時までです."
+      },
+      {
+        "sentence": "毎晩何時 [ ? ] 寝ますか。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "は"
+        ],
+        "hint": "What time (point in time) takes に: 何時に."
+      },
+      {
+        "sentence": "月曜日 [ ? ] 金曜日まで働きます。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "と"
+        ],
+        "hint": "From Monday = 月曜日から."
+      },
+      {
+        "sentence": "今日 [ ? ] 木曜日です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "に",
+          "で",
+          "の"
+        ],
+        "hint": "Topic marker は: 今日は木曜日です."
+      },
+      {
+        "sentence": "昨日は勉強しません [ ? ]。",
+        "answer": "でした",
+        "options": [
+          "でした",
+          "ます",
+          "です",
+          "ました"
+        ],
+        "hint": "Past negative ending: ～ませんでした."
+      },
+      {
+        "sentence": "会議は5時 [ ? ] 終わります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Point in time when action ends takes に."
+      },
+      {
+        "sentence": "大和美術館 [ ? ] 電話番号をお願いします。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "に",
+          "で"
+        ],
+        "hint": "Connecting two nouns: 大和美術館の電話番号."
+      },
+      {
+        "sentence": "土曜日 [ ? ] 日曜日も働きます。",
+        "answer": "も",
+        "options": [
+          "も",
+          "は",
+          "に",
+          "と"
+        ],
+        "hint": "Saturday ALSO, Sunday ALSO = 土曜日も日曜日も."
+      },
+      {
+        "sentence": "今朝7時 [ ? ] 起きました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "は",
+          "から"
+        ],
+        "hint": "7時 is an exact digit time and takes に."
+      },
+      {
+        "sentence": "何時 [ ? ] 何時までですか。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "と"
+        ],
+        "hint": "From what time = 何時から."
+      },
+      {
+        "sentence": "美術館は月曜日 [ ? ] 休みです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "Subject marker が: 月曜日が休みです."
+      },
+      {
+        "sentence": "今晩映画 [ ? ] 見ます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "は"
+        ],
+        "hint": "Object of the verb 見ます takes を."
+      },
+      {
+        "sentence": "明後日は休みです [ ? ]。— はい、休みです。",
+        "answer": "ね",
+        "options": [
+          "ね",
+          "か",
+          "よ",
+          "の"
+        ],
+        "hint": "Confirmation seeking particle: ね."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Calling a museum to ask for hours",
+        "speaker": "観光客",
+        "prompt": "そちらは何時から何時までですか。",
+        "options": [
+          {
+            "text": "午前9時から午後5時まででございます。",
+            "correct": true
+          },
+          {
+            "text": "月曜日と日曜日です。",
+            "correct": false
+          },
+          {
+            "text": "はい、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer 『何時から何時までですか』 with [Start]から [End]までです."
+      },
+      {
+        "situation": "A coworker mentions their crazy work hours",
+        "speaker": "同僚",
+        "prompt": "毎日夜の11時半まで働きます。",
+        "options": [
+          {
+            "text": "大変ですね。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          },
+          {
+            "text": "ほんの気持ちです。",
+            "correct": false
+          }
+        ],
+        "tip": "Show empathy for someone's exhausting routine with 『大変ですね』."
+      },
+      {
+        "situation": "Asking the current time on the street",
+        "speaker": "通行人",
+        "prompt": "すみません、今何時ですか。",
+        "options": [
+          {
+            "text": "ちょうど4時です (よじです)。",
+            "correct": true
+          },
+          {
+            "text": "ちょうど4時です (よんじです)。",
+            "correct": false
+          },
+          {
+            "text": "ちょうど4時です (しじです)。",
+            "correct": false
+          }
+        ],
+        "tip": "Remember Takashi's rule: 4 o'clock is strictly よじ!"
+      },
+      {
+        "situation": "Checking what day a bank is closed",
+        "speaker": "客",
+        "prompt": "銀行の休みは何曜日ですか。",
+        "options": [
+          {
+            "text": "土曜日と日曜日です。",
+            "correct": true
+          },
+          {
+            "text": "午後3時までです。",
+            "correct": false
+          },
+          {
+            "text": "3階でございます。",
+            "correct": false
+          }
+        ],
+        "tip": "何曜日 (なんようび) asks for days of the week, not times or floors."
+      },
+      {
+        "situation": "Asking a colleague about yesterday's study",
+        "speaker": "友達",
+        "prompt": "昨日の晩勉強しましたか。",
+        "options": [
+          {
+            "text": "いいえ、勉強しませんでした。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、勉強しません。",
+            "correct": false
+          },
+          {
+            "text": "はい、勉強します。",
+            "correct": false
+          }
+        ],
+        "tip": "A past question (勉強しましたか) with negative reply requires 勉強しませんでした."
+      },
+      {
+        "situation": "Asking a roommate about morning routine",
+        "speaker": "ルームメイト",
+        "prompt": "毎朝何時に起きますか。",
+        "options": [
+          {
+            "text": "6時半に起きます。",
+            "correct": true
+          },
+          {
+            "text": "明日に起きます。",
+            "correct": false
+          },
+          {
+            "text": "6時半に起きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer habitual routine questions with specific time + に + ます."
+      },
+      {
+        "situation": "Calling 104 directory assistance",
+        "speaker": "オペレーター",
+        "prompt": "はい、104です。何のお問い合わせですか。",
+        "options": [
+          {
+            "text": "大和美術館の電話番号をお願いします。",
+            "correct": true
+          },
+          {
+            "text": "美術館は何時までですか。",
+            "correct": false
+          },
+          {
+            "text": "大和美術館を見せてください。",
+            "correct": false
+          }
+        ],
+        "tip": "When requesting a phone number from directory assistance, use 『[Facility] の電話番号をお願いします』."
+      },
+      {
+        "situation": "Confirming tomorrow is a day off",
+        "speaker": "同僚",
+        "prompt": "明日は休みですね。",
+        "options": [
+          {
+            "text": "ええ、休みです。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。会社です。",
+            "correct": true
+          },
+          {
+            "text": "明日に休みます。",
+            "correct": false
+          }
+        ],
+        "tip": "Confirm with 『ええ、休みです』 or correct with proper grammar."
+      },
+      {
+        "situation": "Checking lunch break time",
+        "speaker": "新人社員",
+        "prompt": "昼休みは何時からですか。",
+        "options": [
+          {
+            "text": "12時からです。",
+            "correct": true
+          },
+          {
+            "text": "12時までです。",
+            "correct": false
+          },
+          {
+            "text": "食堂へ行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "When asked 『何時からですか』, state the starting time with からです."
+      },
+      {
+        "situation": "Asking what time work finishes today",
+        "speaker": "同僚",
+        "prompt": "今日の仕事は何時に終わりますか。",
+        "options": [
+          {
+            "text": "5時半に終わります。",
+            "correct": true
+          },
+          {
+            "text": "5時半が終わります。",
+            "correct": false
+          },
+          {
+            "text": "5時半に終わりました。",
+            "correct": false
+          }
+        ],
+        "tip": "Future completion time takes に followed by 終わります."
+      },
+      {
+        "situation": "Asking about post office closing hours",
+        "speaker": "客",
+        "prompt": "郵便局は何時までですか。",
+        "options": [
+          {
+            "text": "午後5時までです。",
+            "correct": true
+          },
+          {
+            "text": "午前9時からです。",
+            "correct": false
+          },
+          {
+            "text": "郵便局でございます。",
+            "correct": false
+          }
+        ],
+        "tip": "『何時までですか』 asks for the closing limit (open until)."
+      },
+      {
+        "situation": "Confirming the day of the week",
+        "speaker": "友達",
+        "prompt": "今日は金曜日ですか。",
+        "options": [
+          {
+            "text": "いいえ、木曜日ですよ。",
+            "correct": true
+          },
+          {
+            "text": "はい、木曜日です。",
+            "correct": false
+          },
+          {
+            "text": "金曜日にです。",
+            "correct": false
+          }
+        ],
+        "tip": "Deny incorrect days of the week directly and state the true day."
+      }
+    ]
+  }
+}

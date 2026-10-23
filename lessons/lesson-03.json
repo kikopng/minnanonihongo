@@ -1,0 +1,2369 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 3,
+    "title": "Locations, Directions, Origins, and Shopping",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master place demonstratives (ここ・そこ・あそこ・どこ) and their polite directional counterparts (こちら・そちら・あちら・どちら), stating where people and facilities are located (N は Place です), asking for affiliations and countries politely (お国 / 会社はどちらですか), identifying country and manufacturer origins with 『Noun 1 の Noun 2』, building floor counters (～階・地下), counting Japanese currency (百, 千, 万, 円), inquiring about prices with いくら, and conducting department store shopping transactions with professional customer-service phrases (いらっしゃいませ, ～でございます, 見せてください, これをください)."
+  },
+  "vocabulary": [
+    {
+      "id": "koko",
+      "kanji": "ここ",
+      "kana": "ここ",
+      "romaji": "koko",
+      "meaning": "here; this place (near speaker)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "ここは教室です。",
+        "kana": "ここは きょうしつです。",
+        "translation": "Here is the classroom."
+      }
+    },
+    {
+      "id": "soko",
+      "kanji": "そこ",
+      "kana": "そこ",
+      "romaji": "soko",
+      "meaning": "there; that place (near listener)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "そこは食堂ですか。",
+        "kana": "そこは しょくどうですか。",
+        "translation": "Is that place near you the cafeteria?"
+      }
+    },
+    {
+      "id": "asoko",
+      "kanji": "あそこ",
+      "kana": "あそこ",
+      "romaji": "asoko",
+      "meaning": "over there; that place (far from both speaker and listener)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "あそこは事務所です。",
+        "kana": "あそこは じむしょです。",
+        "translation": "That place over there is the office."
+      }
+    },
+    {
+      "id": "doko",
+      "kanji": "どこ",
+      "kana": "どこ",
+      "romaji": "doko",
+      "meaning": "where; what place",
+      "category": "interrogative",
+      "example": {
+        "kanji": "お手洗いはどこですか。",
+        "kana": "おてあらいは どこですか。",
+        "translation": "Where is the restroom?"
+      }
+    },
+    {
+      "id": "kochira",
+      "kanji": "こちら",
+      "kana": "こちら",
+      "romaji": "kochira",
+      "meaning": "this way; this place (polite equivalent of ここ); this person",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "受付はこちらでございます。",
+        "kana": "うけつけは こちらで ございます。",
+        "translation": "The reception counter is this way."
+      }
+    },
+    {
+      "id": "sochira",
+      "kanji": "そちら",
+      "kana": "そちら",
+      "romaji": "sochira",
+      "meaning": "that way; that place (polite equivalent of そこ); your side / household",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "エレベーターはそちらです。",
+        "kana": "エレベーターは そちらです。",
+        "translation": "The elevator is in that direction."
+      }
+    },
+    {
+      "id": "achira",
+      "kanji": "あちら",
+      "kana": "あちら",
+      "romaji": "achira",
+      "meaning": "that way over there; that place (polite equivalent of あそこ)",
+      "category": "demonstrative",
+      "example": {
+        "kanji": "会議室はあちらでございます。",
+        "kana": "かいぎしつは あちらで ございます。",
+        "translation": "The conference room is over that way."
+      }
+    },
+    {
+      "id": "dochira",
+      "kanji": "どちら",
+      "kana": "どちら",
+      "romaji": "dochira",
+      "meaning": "which way; where (polite equivalent of どこ); which one (of two)",
+      "category": "interrogative",
+      "example": {
+        "kanji": "お国はどちらですか。",
+        "kana": "おくには どちらですか。",
+        "translation": "Which country are you from?"
+      }
+    },
+    {
+      "id": "kyoushitsu",
+      "kanji": "教室",
+      "kana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "meaning": "classroom",
+      "category": "place",
+      "example": {
+        "kanji": "3階の教室に行きます。",
+        "kana": "さんかいの きょうしつに いきます。",
+        "translation": "I go to the 3rd floor classroom."
+      }
+    },
+    {
+      "id": "shokudou",
+      "kanji": "食堂",
+      "kana": "しょくどう",
+      "romaji": "shokudou",
+      "meaning": "cafeteria; dining hall; canteen",
+      "category": "place",
+      "example": {
+        "kanji": "食堂は地下1階です。",
+        "kana": "しょくどうは ちかいっかいです。",
+        "translation": "The cafeteria is on basement level 1."
+      }
+    },
+    {
+      "id": "jimusho",
+      "kanji": "事務所",
+      "kana": "じむしょ",
+      "romaji": "jimusho",
+      "meaning": "office",
+      "category": "place",
+      "example": {
+        "kanji": "先生は事務所にいます。",
+        "kana": "せんせいは じむしょに います。",
+        "translation": "The teacher is in the office."
+      }
+    },
+    {
+      "id": "kaigishitsu",
+      "kanji": "会議室",
+      "kana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "meaning": "conference room; meeting room",
+      "category": "place",
+      "example": {
+        "kanji": "会議室はあそこです。",
+        "kana": "かいぎしつは あそこです。",
+        "translation": "The conference room is over there."
+      }
+    },
+    {
+      "id": "uketsuke",
+      "kanji": "受付",
+      "kana": "うけつけ",
+      "romaji": "uketsuke",
+      "meaning": "reception desk; information counter",
+      "category": "place",
+      "example": {
+        "kanji": "受付は1階です。",
+        "kana": "うけつけは いっかいです。",
+        "translation": "Reception is on the 1st floor."
+      }
+    },
+    {
+      "id": "robii",
+      "kanji": "ロビー",
+      "kana": "ロビー",
+      "romaji": "robii",
+      "meaning": "lobby; lounge",
+      "category": "place",
+      "example": {
+        "kanji": "ホテルのロビーで待ちます。",
+        "kana": "ホテルの ロビーで まちます。",
+        "translation": "I will wait in the hotel lobby."
+      }
+    },
+    {
+      "id": "heya",
+      "kanji": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "meaning": "room",
+      "category": "place",
+      "example": {
+        "kanji": "私の部屋は2階です。",
+        "kana": "わたしの へやは にかいです。",
+        "translation": "My room is on the 2nd floor."
+      }
+    },
+    {
+      "id": "toire",
+      "kanji": "トイレ",
+      "kana": "トイレ",
+      "romaji": "toire",
+      "meaning": "toilet; restroom (casual/standard)",
+      "category": "place",
+      "example": {
+        "kanji": "トイレはどこですか。",
+        "kana": "トイレは どこですか。",
+        "translation": "Where is the toilet?"
+      }
+    },
+    {
+      "id": "otearai",
+      "kanji": "お手洗い",
+      "kana": "おてあらい",
+      "romaji": "otearai",
+      "meaning": "restroom; washroom (polite)",
+      "category": "place",
+      "example": {
+        "kanji": "お手洗いはあちらでございます。",
+        "kana": "おてあらいは あちらで ございます。",
+        "translation": "The restroom is over that way."
+      }
+    },
+    {
+      "id": "kaidan",
+      "kanji": "階段",
+      "kana": "かいだん",
+      "romaji": "kaidan",
+      "meaning": "stairs; staircase",
+      "category": "facility",
+      "example": {
+        "kanji": "階段はあそこです。",
+        "kana": "かいだんは あそこです。",
+        "translation": "The stairs are over there."
+      }
+    },
+    {
+      "id": "erebeetaa",
+      "kanji": "エレベーター",
+      "kana": "エレベーター",
+      "romaji": "erebeetaa",
+      "meaning": "elevator; lift",
+      "category": "facility",
+      "example": {
+        "kanji": "エレベーターで5階へ行きます。",
+        "kana": "エレベーターで ごかいへ いきます。",
+        "translation": "I go to the 5th floor by elevator."
+      }
+    },
+    {
+      "id": "esukareetaa",
+      "kanji": "エスカレーター",
+      "kana": "エスカレーター",
+      "romaji": "esukareetaa",
+      "meaning": "escalator",
+      "category": "facility",
+      "example": {
+        "kanji": "エスカレーターはあちらです。",
+        "kana": "エスカレーターは あちらです。",
+        "translation": "The escalator is that way."
+      }
+    },
+    {
+      "id": "jidouhanbaiki",
+      "kanji": "自動販売機",
+      "kana": "じどうはんばいき",
+      "romaji": "jidouhanbaiki",
+      "meaning": "vending machine",
+      "category": "facility",
+      "example": {
+        "kanji": "自動販売機は2階にあります。",
+        "kana": "じどうはんばいきは にかいに あります。",
+        "translation": "The vending machine is on the 2nd floor."
+      }
+    },
+    {
+      "id": "denwa",
+      "kanji": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "meaning": "telephone; phone call",
+      "category": "noun",
+      "example": {
+        "kanji": "電話はロビーにあります。",
+        "kana": "でんわは ロビーに あります。",
+        "translation": "The public phone is in the lobby."
+      }
+    },
+    {
+      "id": "okuni",
+      "kanji": "お国",
+      "kana": "おくに",
+      "romaji": "okuni",
+      "meaning": "country; home country (with polite prefix お～)",
+      "category": "noun",
+      "example": {
+        "kanji": "お国はどちらですか。",
+        "kana": "おくには どちらですか。",
+        "translation": "Where are you from? (lit. Which is your honorable country?)"
+      }
+    },
+    {
+      "id": "kaisha",
+      "kanji": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "meaning": "company; workplace",
+      "category": "noun",
+      "example": {
+        "kanji": "会社は東京です。",
+        "kana": "かいしゃは とうきょうです。",
+        "translation": "My company is in Tokyo."
+      }
+    },
+    {
+      "id": "uchi",
+      "kanji": "うち",
+      "kana": "うち",
+      "romaji": "uchi",
+      "meaning": "home; house",
+      "category": "noun",
+      "example": {
+        "kanji": "うちは大阪です。",
+        "kana": "うちは おおさかです。",
+        "translation": "My home is in Osaka."
+      }
+    },
+    {
+      "id": "kutsu",
+      "kanji": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "meaning": "shoes",
+      "category": "item",
+      "example": {
+        "kanji": "これはイタリアの靴です。",
+        "kana": "これは イタリアの くつです。",
+        "translation": "These are Italian shoes."
+      }
+    },
+    {
+      "id": "nekutai",
+      "kanji": "ネクタイ",
+      "kana": "ネクタイ",
+      "romaji": "nekutai",
+      "meaning": "necktie",
+      "category": "item",
+      "example": {
+        "kanji": "このネクタイはフランスのネクタイです。",
+        "kana": "この ネクタイは フランスの ネクタイです。",
+        "translation": "This necktie is from France."
+      }
+    },
+    {
+      "id": "wain",
+      "kanji": "ワイン",
+      "kana": "ワイン",
+      "romaji": "wain",
+      "meaning": "wine",
+      "category": "food",
+      "example": {
+        "kanji": "ワイン売り場は地下1階です。",
+        "kana": "ワインうりばは ちかいっかいです。",
+        "translation": "The wine section is on basement level 1."
+      }
+    },
+    {
+      "id": "tabako",
+      "kanji": "たばこ",
+      "kana": "たばこ",
+      "romaji": "tabako",
+      "meaning": "tobacco; cigarettes",
+      "category": "item",
+      "example": {
+        "kanji": "たばこ売り場はどこですか。",
+        "kana": "たばこうりばは どこですか。",
+        "translation": "Where is the tobacco counter?"
+      }
+    },
+    {
+      "id": "uriba",
+      "kanji": "売り場",
+      "kana": "うりば",
+      "romaji": "uriba",
+      "meaning": "sales counter; sales section; department (in a store)",
+      "category": "place",
+      "example": {
+        "kanji": "靴売り場は2階です。",
+        "kana": "くつうりばは にかいです。",
+        "translation": "The shoe department is on the 2nd floor."
+      }
+    },
+    {
+      "id": "chika",
+      "kanji": "地下",
+      "kana": "ちか",
+      "romaji": "chika",
+      "meaning": "basement; underground",
+      "category": "place",
+      "example": {
+        "kanji": "食品売り場は地下にあります。",
+        "kana": "しょくひんうりばは ちかに あります。",
+        "translation": "The grocery floor is in the basement."
+      }
+    },
+    {
+      "id": "kai",
+      "kanji": "～階",
+      "kana": "～かい / ～がい",
+      "romaji": "~kai / ~gai",
+      "meaning": "~th floor (counter for building storeys)",
+      "category": "counter",
+      "example": {
+        "kanji": "事務所は7階です。",
+        "kana": "じむしょは ななかいです。",
+        "translation": "The office is on the 7th floor."
+      }
+    },
+    {
+      "id": "nangai",
+      "kanji": "何階",
+      "kana": "なんがい",
+      "romaji": "nangai",
+      "meaning": "what floor; which floor",
+      "category": "interrogative",
+      "example": {
+        "kanji": "会議室は何階ですか。",
+        "kana": "かいぎしつは なんがいですか。",
+        "translation": "What floor is the meeting room on?"
+      }
+    },
+    {
+      "id": "en",
+      "kanji": "～円",
+      "kana": "～えん",
+      "romaji": "~en",
+      "meaning": "~ yen (Japanese currency counter)",
+      "category": "counter",
+      "example": {
+        "kanji": "この本は1,500円です。",
+        "kana": "この ほんは せんごひゃくえんです。",
+        "translation": "This book is 1,500 yen."
+      }
+    },
+    {
+      "id": "ikura",
+      "kanji": "いくら",
+      "kana": "いくら",
+      "romaji": "ikura",
+      "meaning": "how much (price)",
+      "category": "interrogative",
+      "example": {
+        "kanji": "この傘はいくらですか。",
+        "kana": "この かさは いくらですか。",
+        "translation": "How much is this umbrella?"
+      }
+    },
+    {
+      "id": "hyaku",
+      "kanji": "百",
+      "kana": "ひゃく",
+      "romaji": "hyaku",
+      "meaning": "hundred (100)",
+      "category": "number",
+      "example": {
+        "kanji": "このノートは300円です。",
+        "kana": "この ノートは さんびゃくえんです。",
+        "translation": "This notebook is 300 yen."
+      }
+    },
+    {
+      "id": "sen",
+      "kanji": "千",
+      "kana": "せん",
+      "romaji": "sen",
+      "meaning": "thousand (1,000)",
+      "category": "number",
+      "example": {
+        "kanji": "これは8,000円です。",
+        "kana": "これは はっせんえんです。",
+        "translation": "This is 8,000 yen."
+      }
+    },
+    {
+      "id": "man",
+      "kanji": "万",
+      "kana": "まん",
+      "romaji": "man",
+      "meaning": "ten thousand (10,000)",
+      "category": "number",
+      "example": {
+        "kanji": "このカメラは1万円です。",
+        "kana": "この カメラは いちまんえんです。",
+        "translation": "This camera is 10,000 yen."
+      }
+    },
+    {
+      "id": "sumimasen",
+      "kanji": "すみません",
+      "kana": "すみません",
+      "romaji": "sumimasen",
+      "meaning": "excuse me; pardon me; I am sorry",
+      "category": "expression",
+      "example": {
+        "kanji": "すみません、ワイン売り場はどこですか。",
+        "kana": "すみません、ワインうりばは どこですか。",
+        "translation": "Excuse me, where is the wine counter?"
+      }
+    },
+    {
+      "id": "degozaimasu",
+      "kanji": "でございます",
+      "kana": "でございます",
+      "romaji": "de gozaimasu",
+      "meaning": "to be (polite / formal equivalent of です used by store staff)",
+      "category": "expression",
+      "example": {
+        "kanji": "地下1階でございます。",
+        "kana": "ちかいっかいで ございます。",
+        "translation": "It is on basement level 1, ma'am/sir."
+      }
+    },
+    {
+      "id": "misetekudasai",
+      "kanji": "見せてください",
+      "kana": "みせてください",
+      "romaji": "misete kudasai",
+      "meaning": "please show me [~]",
+      "category": "expression",
+      "example": {
+        "kanji": "その時計を見せてください。",
+        "kana": "その とけいを みせて ください。",
+        "translation": "Please show me that watch."
+      }
+    },
+    {
+      "id": "ja",
+      "kanji": "じゃ",
+      "kana": "じゃ",
+      "romaji": "ja",
+      "meaning": "well then; in that case",
+      "category": "expression",
+      "example": {
+        "kanji": "じゃ、これをください。",
+        "kana": "じゃ、これを ください。",
+        "translation": "Well then, please give me this one."
+      }
+    },
+    {
+      "id": "kudasai",
+      "kanji": "ください",
+      "kana": "ください",
+      "romaji": "kudasai",
+      "meaning": "please give me [~]; I'll take [~]",
+      "category": "expression",
+      "example": {
+        "kanji": "このワインをください。",
+        "kana": "この ワインを ください。",
+        "translation": "Please give me this wine."
+      }
+    },
+    {
+      "id": "irasshaimase",
+      "kanji": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "meaning": "welcome; May I help you? (store greeting to customers)",
+      "category": "expression",
+      "example": {
+        "kanji": "いらっしゃいませ。何をお探しですか。",
+        "kana": "いらっしゃいませ。なにを おさがしですか。",
+        "translation": "Welcome! What are you looking for today?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "ここ / そこ / あそこ / どこ [Place Demonstratives]",
+      "explanation": "These demonstratives point to physical locations and spaces (場所). Relative Spatial Rules (Takashi's Logic): (1) ここ refers to the location where the speaker is standing or the immediate area around them ('here'). (2) そこ refers to the location where the listener is standing ('there'). (3) あそこ refers to a place distant from both the speaker and listener ('over there'). (4) どこ is the interrogative pronoun meaning 'where'. CONVERSATIONAL DYNAMIC: When Speaker A and Speaker B are in separate locations, A calls their own area ここ and B's area そこ. However, when A and B share the same room, building, or space together, they both treat their mutual shared area as ここ, nearby external areas as そこ, and distant external areas as あそこ.",
+      "examples": [
+        {
+          "kanji": "ここは教室です。",
+          "kana": "ここは きょうしつです。",
+          "translation": "Here is the classroom."
+        },
+        {
+          "kanji": "そこは事務所ですか。— はい、事務所です。",
+          "kana": "そこは じむしょですか。— はい、じむしょです。",
+          "translation": "Is that place near you the office? — Yes, it is the office."
+        },
+        {
+          "kanji": "あそこは食堂です。",
+          "kana": "あそこは しょくどうです。",
+          "translation": "That place over there is the cafeteria."
+        },
+        {
+          "kanji": "お手洗いはどこですか。— あそこです。",
+          "kana": "おてあらいは どこですか。— あそこです。",
+          "translation": "Where is the restroom? — It is over there."
+        },
+        {
+          "kanji": "ここは新大阪ですか。— はい、そうです。",
+          "kana": "ここは しんおおさかですか。— はい、そうです。",
+          "translation": "Is here Shin-Osaka Station? — Yes, that's right."
+        }
+      ]
+    },
+    {
+      "pattern": "こちら / そちら / あちら / どちら [Direction & Polite Place Demonstratives]",
+      "explanation": "This series has two distinct roles: (1) Direction (方向): points toward a compass or relative direction ('this way', 'that way', 'that way over there', 'which way'). (2) Polite equivalent of ここ・そこ・あそこ・どこ: In formal situations, retail environments, or when speaking to superiors, native speakers substitute the 'Ko-So-A-Do' place words with the 'Chira' series to show politeness and distance. (3) どちら is the polite interrogative used for 'where', 'which direction', and asking for someone's country, school, or company.",
+      "examples": [
+        {
+          "kanji": "受付はこちらでございます。",
+          "kana": "うけつけは こちらで ございます。",
+          "translation": "The reception counter is this way (polite)."
+        },
+        {
+          "kanji": "エレベーターはそちらです。",
+          "kana": "エレベーターは そちらです。",
+          "translation": "The elevator is in that direction."
+        },
+        {
+          "kanji": "階段はあちらでございます。",
+          "kana": "かいだんは あちらで ございます。",
+          "translation": "The stairs are over that way (polite)."
+        },
+        {
+          "kanji": "電話はどちらですか。— あちらです。",
+          "kana": "でんわは どちらですか。— あちらです。",
+          "translation": "Where is the telephone? (polite) — It is over that way."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun は Place です [Stating Location of Facilities, Objects, and People]",
+      "explanation": "In Lesson 1 and Lesson 2, you learned 『Noun 1 は Noun 2 です』 to identify what someone or something is. In Lesson 3, when Noun 2 is a place word (ここ, そこ, あそこ, 事務所, 2階, etc.), the pattern means '[Topic] is at / in [Place]'. You can use this pattern for facilities (会議室はあそこです), objects (電話は1階です), and people (山田さんは事務所です = Mr. Yamada is in the office).",
+      "examples": [
+        {
+          "kanji": "お手洗いはあそこです。",
+          "kana": "おてあらいは あそこです。",
+          "translation": "The restroom is over there."
+        },
+        {
+          "kanji": "事務所は1階です。",
+          "kana": "じむしょは いっかいです。",
+          "translation": "The office is on the 1st floor."
+        },
+        {
+          "kanji": "山田さんは会議室です。",
+          "kana": "やまださんは かいぎしつです。",
+          "translation": "Mr. Yamada is in the meeting room."
+        },
+        {
+          "kanji": "ワイン売り場は地下1階です。",
+          "kana": "ワインうりばは ちかいっかいです。",
+          "translation": "The wine department is on basement level 1."
+        },
+        {
+          "kanji": "ミラーさんはロビーです。",
+          "kana": "ミラーさんは ロビーです。",
+          "translation": "Mr. Miller is in the lobby."
+        }
+      ]
+    },
+    {
+      "pattern": "[Topic] は どこ / どちら ですか [Asking Where Something or Someone Is]",
+      "explanation": "To locate a person, item, or facility, replace the place predicate with どこ (standard/neutral) or どちら (polite/formal). Structure: 『[Topic] は どこですか』 / 『[Topic] は どちらですか』. When asked, answer directly with the location: 『あそこです』, 『2階です』, or 『あちらでございます』. Takashi's tip: When speaking to a customer, guest, or interviewer, ALWAYS prefer どちらですか over どこですか.",
+      "examples": [
+        {
+          "kanji": "トイレはどこですか。— あそこです。",
+          "kana": "トイレは どこですか。— あそこです。",
+          "translation": "Where is the toilet? — It is over there."
+        },
+        {
+          "kanji": "会議室はどちらですか。— 3階でございます。",
+          "kana": "かいぎしつは どちらですか。— さんかいで ございます。",
+          "translation": "Where is the conference room? (polite) — It is on the 3rd floor."
+        },
+        {
+          "kanji": "サントスさんはどこですか。— 食堂です。",
+          "kana": "サントスさんは どこですか。— しょくどうです。",
+          "translation": "Where is Mr. Santos? — He is in the cafeteria."
+        },
+        {
+          "kanji": "エスカレーターはどちらですか。— そちらです。",
+          "kana": "エスカレーターは どちらですか。— そちらです。",
+          "translation": "Which way is the escalator? — It is that way."
+        }
+      ]
+    },
+    {
+      "pattern": "お国 / 会社 / 大学 は どちらですか [Inquiring About Affiliations and Countries Politely]",
+      "explanation": "When inquiring about someone's country, company, or school, Japanese speakers use どちら (or どこ) rather than asking 'what' (何). (1) 『お国はどちらですか』 means 'Which country are you from? / Where is your home country?' (2) 『会社はどちらですか』 or 『学校はどちらですか』 asks for the name of the company/school they belong to, NOT just their geographical address! Nuance Note: Asking 『お国はどこですか』 is acceptable, but using どちら along with the honorific prefix お～ (お国) sounds far more respectful and mature in adult conversation.",
+      "examples": [
+        {
+          "kanji": "お国はどちらですか。— アメリカです。",
+          "kana": "おくには どちらですか。— アメリカです。",
+          "translation": "Where are you from? — I am from the United States."
+        },
+        {
+          "kanji": "会社はどちらですか。— IMCです。",
+          "kana": "かいしゃは どちらですか。— IMCです。",
+          "translation": "What company do you work for? — I work for IMC."
+        },
+        {
+          "kanji": "大学はどこですか。— さくら大学です。",
+          "kana": "だいがくは どこですか。— さくらだいがくです。",
+          "translation": "What university do you attend? — I attend Sakura University."
+        },
+        {
+          "kanji": "お住まいはどちらですか。— 東京です。",
+          "kana": "おすまいは どちらですか。— とうきょうです。",
+          "translation": "Where do you reside? — In Tokyo."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun 1 の Noun 2 [Country of Origin, Manufacturer, or Brand]",
+      "explanation": "In Lesson 2, の showed content (車の本) and possession (私の本). In Lesson 3, の introduces a third major function: indicating the country of origin, manufacturing company, or brand of a product. In the structure 『Noun 1 の Noun 2』, Noun 1 is the country or company, and Noun 2 is the product. Question form: To ask where an item was made or who produced it, use 『どこの + Noun』: 『これはどこの車ですか』 (Where is this car made? / What brand is this car?). Answer: 『日本の車です』 (It is a Japanese car) or simply 『日本のです』 (It is from Japan - using noun omission).",
+      "examples": [
+        {
+          "kanji": "これはどこのワインですか。— フランスのワインです。",
+          "kana": "これは どこの ワインですか。— フランスの ワインです。",
+          "translation": "Where is this wine from? — It is French wine."
+        },
+        {
+          "kanji": "そのカメラはどこのですか。— 日本のです。",
+          "kana": "その カメラは どこのですか。— にほんのです。",
+          "translation": "Where is that camera made? — It is from Japan."
+        },
+        {
+          "kanji": "これはイタリアの靴です。",
+          "kana": "これは イタリアの くつです。",
+          "translation": "These are Italian shoes."
+        },
+        {
+          "kanji": "あのコンピューターはアメリカのです。",
+          "kana": "あの コンピューターは アメリカのです。",
+          "translation": "That computer over there is from America."
+        }
+      ]
+    },
+    {
+      "pattern": "Building Floors: ～階 (かい / がい) & 地下 (ちか)",
+      "explanation": "Counting building floors in Japanese uses the counter ～階 (かい). PHONETIC SOUND CHANGES (Takashi's Warning): (1) 1階 = いっかい (ik-kai). (2) 3階 = さんがい (san-gai - voiced!). (3) 6階 = ろっかい (rok-kai). (4) 8階 = はっかい (hak-kai). (5) 10階 = じゅっかい / じっかい (juk-kai). (6) Interrogative 'what floor': 何階 = なんがい (nan-gai - voiced!). For basement floors, precede the floor number with 地下 (ちか): B1 = 地下1階 (ちかいっかい); B2 = 地下2階 (ちかにかい).",
+      "examples": [
+        {
+          "kanji": "食堂は地下1階です。",
+          "kana": "しょくどうは ちかいっかいです。",
+          "translation": "The cafeteria is on basement level 1."
+        },
+        {
+          "kanji": "会議室は何階ですか。— 3階です。",
+          "kana": "かいぎしつは なんがいですか。— さんがいです。",
+          "translation": "What floor is the conference room on? — It is on the 3rd floor."
+        },
+        {
+          "kanji": "事務所は8階にあります。",
+          "kana": "じむしょは はっかいに あります。",
+          "translation": "The office is on the 8th floor."
+        },
+        {
+          "kanji": "ネクタイ売り場は1階でございます。",
+          "kana": "ネクタイうりばは いっかいで ございます。",
+          "translation": "The necktie department is on the 1st floor."
+        }
+      ]
+    },
+    {
+      "pattern": "Counting Currency: Japanese Numbers (百, 千, 万) & ～円",
+      "explanation": "Japanese large numbers group by 4 digits (万 / 10,000) rather than 3 (thousands). (1) 百 (ひゃく / 100): Irregulars: 300 = さんびゃく, 600 = ろっぴゃく, 800 = はっぴゃく. (2) 千 (せん / 1,000): Note: for 1,000, say せん (not いちせん). Irregulars: 3,000 = さんぜん, 8,000 = はっせん. (3) 万 (まん / 10,000): CRITICAL RULE: For 10,000, you MUST say いちまん (ichiman)! Never say just 'まん'. 100,000 = じゅうまん; 1,000,000 = ひゃくまん. Attach ～円 (えん) for prices.",
+      "examples": [
+        {
+          "kanji": "この本は1,500円です。",
+          "kana": "この ほんは せんごひゃくえんです。",
+          "translation": "This book is 1,500 yen."
+        },
+        {
+          "kanji": "その靴は3,800円です。",
+          "kana": "その くつは さんぜんはっぴゃくえんです。",
+          "translation": "Those shoes are 3,800 yen."
+        },
+        {
+          "kanji": "あの時計は18,600円です。",
+          "kana": "あの とけいは いちまんはっせんろっぴゃくえんです。",
+          "translation": "That watch over there is 18,600 yen."
+        },
+        {
+          "kanji": "このパソコンは83,000円です。",
+          "kana": "この パソコンは はちまんさんぜんえんです。",
+          "translation": "This computer is 83,000 yen."
+        }
+      ]
+    },
+    {
+      "pattern": "いくら [Asking Prices: ～は いくらですか]",
+      "explanation": "いくら is the interrogative pronoun used to ask the cost or price of an item ('how much?'). Structure: 『[Item] は いくらですか』 (How much is [Item]?). Answer: 『[Amount] 円です』. You can combine this with demonstratives: 『これはいくらですか』 (How much is this?), 『その靴はいくらですか』 (How much are those shoes?).",
+      "examples": [
+        {
+          "kanji": "このワインはいくらですか。— 2,500円です。",
+          "kana": "この ワインは いくらですか。— にせんごひゃくえんです。",
+          "translation": "How much is this wine? — It is 2,500 yen."
+        },
+        {
+          "kanji": "そのネクタイはいくらですか。— 4,200円です。",
+          "kana": "その ネクタイは いくらですか。— よんせんにひゃくえんです。",
+          "translation": "How much is that necktie? — It is 4,200 yen."
+        },
+        {
+          "kanji": "あれはいくらですか。— 10,000円です。",
+          "kana": "あれは いくらですか。— いちまんえんです。",
+          "translation": "How much is that over there? — It is 10,000 yen."
+        }
+      ]
+    },
+    {
+      "pattern": "Department Store Shopping Etiquette: いらっしゃいませ, ～でございます, 見せてください, これをください",
+      "explanation": "Lesson 3 introduces the classic Japanese shopping script used in department stores (デパート): (1) Staff Greeting: 『いらっしゃいませ』 (Welcome / May I help you?). Customers usually give a gentle nod or proceed directly to their inquiry. (2) Polite Copula: Staff replace です with 『～でございます』 (e.g. 『2階でございます』, 『イタリアのでございます』). (3) Requesting to see an item: 『[Item を] 見せてください』 (Please show me [~]). (4) Final Purchase Decision: 『じゃ、[Item を] ください』 or 『これをください』 (Well then, please give me this / I'll take this).",
+      "examples": [
+        {
+          "kanji": "店員：いらっしゃいませ。— 客：すみません、靴売り場はどこですか。",
+          "kana": "てんいん：いらっしゃいませ。— きゃく：すみません、くつうりばは どこですか。",
+          "translation": "Clerk: Welcome! — Customer: Excuse me, where is the shoe department?"
+        },
+        {
+          "kanji": "店員：2階でございます。",
+          "kana": "てんいん：にかいで ございます。",
+          "translation": "Clerk: It is on the 2nd floor, ma'am/sir."
+        },
+        {
+          "kanji": "客：そのワインを見せてください。",
+          "kana": "きゃく：その ワインを みせて ください。",
+          "translation": "Customer: Please show me that wine."
+        },
+        {
+          "kanji": "客：じゃ、これをください。",
+          "kana": "きゃく：じゃ、これを ください。",
+          "translation": "Customer: Well then, I will take this one."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "デパートでワインを買います (Buying Wine at the Department Store)",
+    "lines": [
+      {
+        "speaker": "マリア",
+        "kanji": "すみません。ワイン売り場はどこですか。",
+        "kana": "すみません。ワインうりばは どこですか。"
+      },
+      {
+        "speaker": "店員A",
+        "kanji": "いらっしゃいませ。ワイン売り場は地下1階でございます。",
+        "kana": "いらっしゃいませ。ワインうりばは ちかいっかいで ございます。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "どうも。エレベーターはどちらですか。",
+        "kana": "どうも。エレベーターは どちらですか。"
+      },
+      {
+        "speaker": "店員A",
+        "kanji": "あちらでございます。",
+        "kana": "あちらで ございます。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "ありがとうございます。",
+        "kana": "ありがとう ございます。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "（地下1階で）すみません。その赤ワインを見せてください。",
+        "kana": "（ちかいっかいで）すみません。その あかワインを みせて ください。"
+      },
+      {
+        "speaker": "店員B",
+        "kanji": "はい、どうぞ。",
+        "kana": "はい、どうぞ。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "これはフランスのワインですか。",
+        "kana": "これは フランスの ワインですか。"
+      },
+      {
+        "speaker": "店員B",
+        "kanji": "いいえ、違います。イタリアのでございます。",
+        "kana": "いいえ、ちがいます。イタリアので ございます。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "そうですか。いくらですか。",
+        "kana": "そうですか。いくらですか。"
+      },
+      {
+        "speaker": "店員B",
+        "kanji": "2,800円でございます。",
+        "kana": "にせんはっぴゃくえんで ございます。"
+      },
+      {
+        "speaker": "マリア",
+        "kanji": "じゃ、これをください。",
+        "kana": "じゃ、これを ください。"
+      },
+      {
+        "speaker": "店員B",
+        "kanji": "毎度ありがとうございます。",
+        "kana": "まいど ありがとう ございます。"
+      }
+    ],
+    "translation": "Maria visits a department store to purchase wine. She asks Clerk A on the main floor where the wine section is located. Clerk A warmly welcomes her and informs her that the wine department is on basement level 1 (地下1階でございます). Maria thanks her and asks for the direction to the elevator (どちらですか), which Clerk A points out (あちらでございます). After taking the elevator down to the basement, Maria approaches Clerk B and asks to see a bottle of red wine ('その赤ワインを見せてください'). Clerk B hands it to her with 'はい、どうぞ'. Maria asks if the wine is from France, but the clerk politely corrects her, stating that it is from Italy ('イタリアのでございます'). Maria acknowledges this with 'そうですか' and asks for the price. The clerk states it is 2,800 yen. Maria decides on the purchase and says 'じゃ、これをください' (Well then, I'll take this). The clerk thanks her warmly.",
+    "questions": [
+      {
+        "question": "On which floor is the wine sales department located?",
+        "options": [
+          "1st floor",
+          "Basement level 1 (地下1階)",
+          "3rd floor",
+          "2nd floor"
+        ],
+        "answer": 1,
+        "explanation": "Clerk A answers: ワイン売り場は地下1階でございます (Basement Level 1)."
+      },
+      {
+        "question": "Which polite word did Maria use to ask for the direction of the elevator?",
+        "options": [
+          "どこ",
+          "どれ",
+          "どちら",
+          "どうやって"
+        ],
+        "answer": 2,
+        "explanation": "Maria asks politely: エレベーターはどちらですか."
+      },
+      {
+        "question": "How did Clerk A point out the elevator over there?",
+        "options": [
+          "あそこです",
+          "あちらでございます",
+          "そちらです",
+          "ここです"
+        ],
+        "answer": 1,
+        "explanation": "Clerk A uses the respectful directional phrase: あちらでございます."
+      },
+      {
+        "question": "What phrase did Maria use to ask the clerk to show her the red wine?",
+        "options": [
+          "その赤ワインを見せてください",
+          "その赤ワインをください",
+          "その赤ワインはいくらですか",
+          "その赤ワインを開けてください"
+        ],
+        "answer": 0,
+        "explanation": "『[Item を] 見せてください』 means 'Please show me [item]'."
+      },
+      {
+        "question": "Where was the bottle of red wine produced?",
+        "options": [
+          "France",
+          "Japan",
+          "Italy",
+          "Switzerland"
+        ],
+        "answer": 2,
+        "explanation": "Clerk B clarifies: いいえ、違います。イタリアのでございます (No, it isn't. It is from Italy)."
+      },
+      {
+        "question": "How much does the wine cost?",
+        "options": [
+          "1,800 yen",
+          "2,500 yen",
+          "2,800 yen",
+          "3,800 yen"
+        ],
+        "answer": 2,
+        "explanation": "Clerk B states: 2,800円でございます (にせんはっぴゃくえんでございます)."
+      },
+      {
+        "question": "What phrase does Maria say to confirm she will purchase the wine?",
+        "options": [
+          "じゃ、これをください",
+          "これをどうぞ",
+          "これはいくらですか",
+          "これは私のです"
+        ],
+        "answer": 0,
+        "explanation": "『じゃ、これをください』 is the standard Japanese shopping expression for 'I will take this'."
+      },
+      {
+        "question": "Why does Clerk B say 『イタリアのでございます』 instead of repeating 『ワイン』?",
+        "options": [
+          "Because Italian wine is cheap",
+          "Because the noun 'wine' was already established and can be omitted after の",
+          "Because 'wine' cannot be used with の",
+          "Because the clerk forgot the word wine"
+        ],
+        "answer": 1,
+        "explanation": "As learned in Lesson 2 and Lesson 3, known inanimate nouns can be omitted after the particle の (イタリアの[ワイン]です)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "You and your colleague are talking together in your classroom. You want to refer to this very room. Which word do you use?",
+      "prompt": {
+        "kanji": "___は教室です。",
+        "kana": "___は きょうしつです。"
+      },
+      "options": [
+        "ここ",
+        "そこ",
+        "あそこ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "When speaker and listener are inside the same physical space, they refer to that current shared room as ここ (here)."
+    },
+    {
+      "question": "You are on a phone call with your coworker who is currently at their desk across the office. You want to ask about their immediate area. Which word do you use?",
+      "prompt": {
+        "kanji": "___は静かですか。",
+        "kana": "___は しずかですか。"
+      },
+      "options": [
+        "そこ",
+        "ここ",
+        "あそこ",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "そこ refers to the location where the listener is situated."
+    },
+    {
+      "question": "You and a friend are standing outside a tall building and pointing up to a clock tower far away. Which word do you use?",
+      "prompt": {
+        "kanji": "___は時計台です。",
+        "kana": "___は とけいだいです。"
+      },
+      "options": [
+        "あそこ",
+        "ここ",
+        "そこ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "あそこ refers to a place distant from both the speaker and listener."
+    },
+    {
+      "question": "Which of the following is the POLITE equivalent of どこ (where)?",
+      "options": [
+        "どちら",
+        "こちら",
+        "そちら",
+        "あちら"
+      ],
+      "answer": 0,
+      "explanation": "どちら is the polite equivalent of どこ, used in formal situations and customer service."
+    },
+    {
+      "question": "How do you ask a new foreign acquaintance where they are from in a polite and respectful manner?",
+      "options": [
+        "お国はどちらですか。",
+        "お国はどれですか。",
+        "国は誰ですか。",
+        "お国はどうやってですか。"
+      ],
+      "answer": 0,
+      "explanation": "『お国はどちらですか』 is the idiomatic, polite Japanese question for 'Where are you from?'"
+    },
+    {
+      "question": "If someone asks 『会社はどちらですか』, what are they asking for?",
+      "options": [
+        "The name of the company you work for",
+        "The physical building material of your house",
+        "Which bus you take to the office",
+        "How much your salary is"
+      ],
+      "answer": 0,
+      "explanation": "In Japanese, 『会社はどちらですか』 politely inquires about your company affiliation/employer (e.g., 'IMCです')."
+    },
+    {
+      "question": "Choose the correct pronunciation for 300.",
+      "options": [
+        "さんびゃく",
+        "さんひゃく",
+        "さんぴゃく",
+        "さんぜん"
+      ],
+      "answer": 0,
+      "explanation": "300 undergoes a phonetic shift with the voiced consonant: さんびゃく (san-byaku)."
+    },
+    {
+      "question": "Choose the correct pronunciation for 600.",
+      "options": [
+        "ろっぴゃく",
+        "ろくひゃく",
+        "ろくびゃく",
+        "ろっせん"
+      ],
+      "answer": 0,
+      "explanation": "600 takes a small つ (geminate) and a semi-voiced p sound: ろっぴゃく (roppyaku)."
+    },
+    {
+      "question": "Choose the correct pronunciation for 800.",
+      "options": [
+        "はっぴゃく",
+        "はちひゃく",
+        "はちびゃく",
+        "はっせん"
+      ],
+      "answer": 0,
+      "explanation": "800 undergoes sound gemination: はっぴゃく (happyaku)."
+    },
+    {
+      "question": "Choose the correct pronunciation for 3,000.",
+      "options": [
+        "さんぜん",
+        "さんせん",
+        "さんびゃく",
+        "みっせん"
+      ],
+      "answer": 0,
+      "explanation": "3,000 becomes voiced: さんぜん (san-zen)."
+    },
+    {
+      "question": "Choose the correct pronunciation for 8,000.",
+      "options": [
+        "はっせん",
+        "はちせん",
+        "はちぜん",
+        "はっぴゃく"
+      ],
+      "answer": 0,
+      "explanation": "8,000 undergoes gemination: はっせん (hassen)."
+    },
+    {
+      "question": "How do you say 10,000 in Japanese?",
+      "options": [
+        "いちまん",
+        "まん",
+        "じゅうせん",
+        "ひゃくひゃく"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Rule: Unlike 100 (ひゃく) and 1,000 (せん), 10,000 MUST be preceded by いち: 『いちまん』."
+    },
+    {
+      "question": "Choose the correct pronunciation for the 3rd floor (3階).",
+      "options": [
+        "さんがい",
+        "さんかい",
+        "みっかい",
+        "さんかいだん"
+      ],
+      "answer": 0,
+      "explanation": "3階 undergoes voicing to become がい: 『さんがい』."
+    },
+    {
+      "question": "Choose the correct pronunciation for the 1st floor (1階).",
+      "options": [
+        "いっかい",
+        "いちかい",
+        "ひとがい",
+        "いちがい"
+      ],
+      "answer": 0,
+      "explanation": "1階 undergoes gemination: 『いっかい』."
+    },
+    {
+      "question": "How do you ask: 'What floor is the meeting room on?'",
+      "options": [
+        "会議室は何階ですか。",
+        "会議室は何階だんですか。",
+        "会議室はどの階ですか。",
+        "会議室はいくらですか。"
+      ],
+      "answer": 0,
+      "explanation": "何階 (なんがい - voiced!) asks what floor: 会議室は何階ですか."
+    },
+    {
+      "question": "Choose the correct Japanese term for 'basement level 1' (B1).",
+      "options": [
+        "地下1階 (ちかいっかい)",
+        "下1階 (したひとがい)",
+        "地階1 (ちかいいち)",
+        "1地下 (いっちか)"
+      ],
+      "answer": 0,
+      "explanation": "Basement floors use 地下 (ちか) + floor number: 地下1階 (ちかいっかい)."
+    },
+    {
+      "question": "How do you ask: 'Where was this camera made? / What brand is this camera?'",
+      "options": [
+        "これはどこのカメラですか。",
+        "これは何のカメラですか。",
+        "これは誰のカメラですか。",
+        "このカメラはいくらカメラですか。"
+      ],
+      "answer": 0,
+      "explanation": "『どこの + Noun』 asks for the country of origin or manufacturing company."
+    },
+    {
+      "question": "A store clerk politely informs a customer that the reception is on the 2nd floor. Which sentence is most appropriate?",
+      "options": [
+        "受付は2階でございます。",
+        "受付は2階だ。",
+        "受付は2階ではありません。",
+        "受付は2階でした。"
+      ],
+      "answer": 0,
+      "explanation": "Store personnel use the humble/polite copula 『～でございます』."
+    },
+    {
+      "question": "You want to say: 'Please show me that watch.' Which phrase do you use?",
+      "options": [
+        "その時計を見せてください。",
+        "その時計をください。",
+        "その時計をみてください。",
+        "その時計をかいましょう。"
+      ],
+      "answer": 0,
+      "explanation": "『見せてください』 (みせてください) means 'Please show me'."
+    },
+    {
+      "question": "At the cash register, you tell the cashier: 'I will take this one, please.' What do you say?",
+      "options": [
+        "じゃ、これをください。",
+        "これをどうぞ。",
+        "これはどうですか。",
+        "これをおねがいでした。"
+      ],
+      "answer": 0,
+      "explanation": "『じゃ、これをください』 is the idiomatic phrase for 'Well then, I'll take this'."
+    },
+    {
+      "question": "What is the greeting Japanese shop clerks call out when customers enter the store?",
+      "options": [
+        "いらっしゃいませ",
+        "いってらっしゃい",
+        "お世話になります",
+        "かしこまりました"
+      ],
+      "answer": 0,
+      "explanation": "『いらっしゃいませ』 is the ubiquitous Japanese store welcome."
+    },
+    {
+      "question": "Choose the correct meaning of 食堂 (しょくどう).",
+      "prompt": {
+        "kanji": "食堂でお昼ご飯を食べます。",
+        "kana": "しょくどうで おひるごはんを たべます。"
+      },
+      "options": [
+        "Cafeteria / Dining hall",
+        "Classroom",
+        "Conference room",
+        "Restroom"
+      ],
+      "answer": 0,
+      "explanation": "食堂 (しょくどう) = dining hall, cafeteria."
+    },
+    {
+      "question": "Choose the correct meaning of 事務所 (じむしょ).",
+      "prompt": {
+        "kanji": "先生は事務所にいます。",
+        "kana": "せんせいは じむしょに います。"
+      },
+      "options": [
+        "Office",
+        "Living room",
+        "Elevator",
+        "Restroom"
+      ],
+      "answer": 0,
+      "explanation": "事務所 (じむしょ) = office."
+    },
+    {
+      "question": "Choose the correct word for 'stairs / staircase'.",
+      "options": [
+        "階段 (かいだん)",
+        "受付 (うけつけ)",
+        "部屋 (へや)",
+        "教室 (きょうしつ)"
+      ],
+      "answer": 0,
+      "explanation": "階段 (かいだん) = stairs, staircase."
+    },
+    {
+      "question": "Choose the more polite word for トイレ.",
+      "options": [
+        "お手洗い (おてあらい)",
+        "お風呂 (おふろ)",
+        "受付 (うけつけ)",
+        "ロビー"
+      ],
+      "answer": 0,
+      "explanation": "お手洗い (おてあらい) is the polite, refined term for restroom/lavatory."
+    },
+    {
+      "question": "How do you say 25,000 yen in Japanese?",
+      "options": [
+        "にまんごせんえん",
+        "にじゅうごせんえん",
+        "にまんごひゃくえん",
+        "にせんごまんえん"
+      ],
+      "answer": 0,
+      "explanation": "25,000 groups into 2 ten-thousands (にまん) and 5 thousands (ごせん) = にまんごせんえん."
+    },
+    {
+      "question": "How do you say 150,000 yen in Japanese?",
+      "options": [
+        "じゅうごまんえん",
+        "ひゃくごじゅうまんえん",
+        "せんごひゃくえん",
+        "いちまんごせんえん"
+      ],
+      "answer": 0,
+      "explanation": "150,000 contains 15 ten-thousands (じゅうごまん) = じゅうごまんえん."
+    },
+    {
+      "question": "Choose the correct price question: 'How much is this necktie?'",
+      "options": [
+        "このネクタイはいくらですか。",
+        "このネクタイはどこですか。",
+        "このネクタイは何円ですか。",
+        "このネクタイはどちらですか。"
+      ],
+      "answer": 0,
+      "explanation": "『いくらですか』 is the natural, universal question for asking prices."
+    },
+    {
+      "question": "What is the meaning of 売り場 (うりば)?",
+      "options": [
+        "Sales counter / Department in a store",
+        "Parking lot",
+        "Ticket gate",
+        "Rest area"
+      ],
+      "answer": 0,
+      "explanation": "売り場 (うりば) is a dedicated sales counter or section in a shop or department store."
+    },
+    {
+      "question": "Translate: 'Mr. Miller is in the conference room.'",
+      "options": [
+        "ミラーさんは会議室です。",
+        "ミラーさんは会議室があります。",
+        "会議室はミラーさんです。",
+        "ミラーさんの会議室です。"
+      ],
+      "answer": 0,
+      "explanation": "『[Person] は [Place] です』 states the location where someone is currently located."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "会議室___あそこです。",
+        "kana": "かいぎしつ___ あそこです。"
+      },
+      "options": [
+        "は",
+        "の",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Topic marker は marks 会議室 as the topic: 会議室はあそこです."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "これはドイツ___車です。",
+        "kana": "これは ドイツ___ くるまです。"
+      },
+      "options": [
+        "の",
+        "は",
+        "と",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Country of manufacture uses の: ドイツの車 (German car)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "その靴___見せてください。",
+        "kana": "その くつ___ みせて ください。"
+      },
+      "options": [
+        "を",
+        "は",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "The direct object of 見せてください takes the particle を."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "これ___ください。",
+        "kana": "これ___ ください。"
+      },
+      "options": [
+        "を",
+        "は",
+        "に",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "When asking for an item to purchase, the object takes を: これをください."
+    },
+    {
+      "question": "Which of the following refers to 'escalator'?",
+      "options": [
+        "エスカレーター",
+        "エレベーター",
+        "階段",
+        "ロビー"
+      ],
+      "answer": 0,
+      "explanation": "エスカレーター = escalator; エレベーター = elevator."
+    },
+    {
+      "question": "How do you ask: 'Which way is the stairs?' politely?",
+      "options": [
+        "階段はどちらですか。",
+        "階段はどれですか。",
+        "階段はどうやってですか。",
+        "階段はだれですか。"
+      ],
+      "answer": 0,
+      "explanation": "どちら asks for direction/location in a polite manner."
+    },
+    {
+      "question": "What is the polite form of ここ (here)?",
+      "options": [
+        "こちら",
+        "そちら",
+        "あちら",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "こちら corresponds politely to ここ."
+    },
+    {
+      "question": "What is the polite form of そこ (there)?",
+      "options": [
+        "そちら",
+        "こちら",
+        "あちら",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "そちら corresponds politely to そこ."
+    },
+    {
+      "question": "What is the polite form of あそこ (over there)?",
+      "options": [
+        "あちら",
+        "そちら",
+        "こちら",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "あちら corresponds politely to あそこ."
+    },
+    {
+      "question": "Read the price: ¥7,400.",
+      "options": [
+        "ななせんよんひゃくえん",
+        "しちせんよんひゃくえん",
+        "ななひゃくよんじゅうえん",
+        "ななまんよんせんえん"
+      ],
+      "answer": 0,
+      "explanation": "7,400 is read ななせんよんひゃくえん."
+    },
+    {
+      "question": "Read the price: ¥58,000.",
+      "options": [
+        "ごまんはっせんえん",
+        "ごじゅうはちまんえん",
+        "ごせんはっぴゃくえん",
+        "ごまんはちせんえん"
+      ],
+      "answer": 0,
+      "explanation": "58,000 = 5 ten-thousands (ごまん) + 8 thousands (はっせん) = ごまんはっせんえん."
+    },
+    {
+      "question": "Read the price: ¥320,000.",
+      "options": [
+        "さんじゅうにまんえん",
+        "さんびゃくにじゅうまんえん",
+        "さんまんにせんえん",
+        "さんぜんにひゃくえん"
+      ],
+      "answer": 0,
+      "explanation": "320,000 is 32 ten-thousands: さんじゅうにまんえん."
+    },
+    {
+      "question": "A: 『そのワインはフランスのワインですか』 — B: 『いいえ、スイスの___です』. Choose the omitted form.",
+      "options": [
+        "の",
+        "は",
+        "が",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "スイスのです = Swiss one (noun omission of ワイン after の)."
+    },
+    {
+      "question": "Translate: 'Reception is on the 1st floor.'",
+      "options": [
+        "受付は1階です。",
+        "受付は1階だんです。",
+        "1階は受付ではありません。",
+        "受付が1階階です。"
+      ],
+      "answer": 0,
+      "explanation": "受付は1階 (いっかい) です."
+    },
+    {
+      "question": "Translate: 'The cafeteria is in that direction over there (polite).' ",
+      "options": [
+        "食堂はあちらでございます。",
+        "食堂はあそこです。",
+        "食堂はどちらですか。",
+        "食堂はこちらです。"
+      ],
+      "answer": 0,
+      "explanation": "あちらでございます is the polite expression for 'is in that direction over there'."
+    }
+  ],
+  "writing": {
+    "title": "Asking for Directions in a Department Store and Making a Purchase",
+    "prompt": "Write 6–8 sentences in Japanese describing a shopping visit to a department store. (1) State where you are (e.g. デパート) and ask a clerk where a specific sales department is located using 『～売り場はどこ / どちらですか』. (2) Have the clerk answer with a floor level using 『～階 / 地下～階でございます』. (3) Ask for the direction to the escalator or elevator using 『～はどちらですか』. (4) Look at an item, ask to see it with 『～を見せてください』, ask its country of origin with 『これはどこの～ですか』, inquire about the price with 『いくらですか』, and complete the purchase using 『じゃ、これをください』.",
+    "placeholder": "すみません、______ 売り場は ______ ですか。\n店員：______ 階でございます。\nエレベーターは ______ ですか。\n店員：______ でございます。\nすみません、その ______ を見せてください。\nこれは ______ の ______ ですか。\n店員：はい、______ のです。______ 円でございます。\nじゃ、______ をください。",
+    "modelAnswer": "すみません、靴売り場はどちらですか。店員：靴売り場は3階でございます。エレベーターはどちらですか。店員：あちらでございます。どうも。（3階で）すみません、その黒い靴を見せてください。これはどこの靴ですか。店員：イタリアの靴でございます。いくらですか。店員：18,000円でございます。じゃ、これをください。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Here is the classroom.",
+        "chunks": [
+          "ここは",
+          "教室",
+          "です。"
+        ]
+      },
+      {
+        "en": "Where is the restroom?",
+        "chunks": [
+          "お手洗いは",
+          "どこ",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "The reception counter is this way (polite).",
+        "chunks": [
+          "受付は",
+          "こちらで",
+          "ございます。"
+        ]
+      },
+      {
+        "en": "Which country are you from?",
+        "chunks": [
+          "お国は",
+          "どちら",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Mr. Yamada is in the conference room.",
+        "chunks": [
+          "山田さんは",
+          "会議室",
+          "です。"
+        ]
+      },
+      {
+        "en": "The wine section is on basement level 1.",
+        "chunks": [
+          "ワイン売り場は",
+          "地下1階",
+          "です。"
+        ]
+      },
+      {
+        "en": "Where was this camera made?",
+        "chunks": [
+          "これは",
+          "どこのカメラ",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "This is a German car.",
+        "chunks": [
+          "これは",
+          "ドイツの",
+          "車です。"
+        ]
+      },
+      {
+        "en": "What floor is the office on?",
+        "chunks": [
+          "事務所は",
+          "何階",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "How much is this necktie?",
+        "chunks": [
+          "このネクタイは",
+          "いくら",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Please show me that watch.",
+        "chunks": [
+          "その時計を",
+          "見せて",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Well then, please give me this one.",
+        "chunks": [
+          "じゃ、",
+          "これを",
+          "ください。"
+        ]
+      },
+      {
+        "en": "The stairs are over that way (polite).",
+        "chunks": [
+          "階段は",
+          "あちらで",
+          "ございます。"
+        ]
+      },
+      {
+        "en": "What company do you work for? — It is IMC.",
+        "chunks": [
+          "会社はどちらですか。",
+          "IMC",
+          "です。"
+        ]
+      },
+      {
+        "en": "That computer is 85,000 yen.",
+        "chunks": [
+          "あのパソコンは",
+          "85,000円",
+          "です。"
+        ]
+      },
+      {
+        "en": "The elevator is in that direction.",
+        "chunks": [
+          "エレベーターは",
+          "そちら",
+          "です。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "ここ (here) → Polite Directional Equivalent",
+        "form": "Polite Demonstrative",
+        "answer": "こちら",
+        "options": [
+          "こちら",
+          "そちら",
+          "あちら"
+        ],
+        "hint": "The polite form of ここ is こちら."
+      },
+      {
+        "prompt": "そこ (there) → Polite Directional Equivalent",
+        "form": "Polite Demonstrative",
+        "answer": "そちら",
+        "options": [
+          "そちら",
+          "こちら",
+          "あちら"
+        ],
+        "hint": "The polite form of そこ is そちら."
+      },
+      {
+        "prompt": "あそこ (over there) → Polite Directional Equivalent",
+        "form": "Polite Demonstrative",
+        "answer": "あちら",
+        "options": [
+          "あちら",
+          "そちら",
+          "どちら"
+        ],
+        "hint": "The polite form of あそこ is あちら."
+      },
+      {
+        "prompt": "どこ (where) → Polite Directional Equivalent",
+        "form": "Polite Demonstrative",
+        "answer": "どちら",
+        "options": [
+          "どちら",
+          "あちら",
+          "そちら"
+        ],
+        "hint": "The polite form of どこ is どちら."
+      },
+      {
+        "prompt": "です (copula) → Customer-Service Polite Equivalent",
+        "form": "Honorific Copula",
+        "answer": "でございます",
+        "options": [
+          "でございます",
+          "でした",
+          "ではありません"
+        ],
+        "hint": "Store clerks replace です with でございます."
+      },
+      {
+        "prompt": "300 (百の変音 / sound change)",
+        "form": "Number Reading",
+        "answer": "さんびゃく",
+        "options": [
+          "さんびゃく",
+          "さんひゃく",
+          "さんぴゃく"
+        ],
+        "hint": "300 undergoes voicing: さんびゃく."
+      },
+      {
+        "prompt": "600 (百の変音 / sound change)",
+        "form": "Number Reading",
+        "answer": "ろっぴゃく",
+        "options": [
+          "ろっぴゃく",
+          "ろくひゃく",
+          "ろくびゃく"
+        ],
+        "hint": "600 becomes geminated: ろっぴゃく."
+      },
+      {
+        "prompt": "800 (百の変音 / sound change)",
+        "form": "Number Reading",
+        "answer": "はっぴゃく",
+        "options": [
+          "はっぴゃく",
+          "はちひゃく",
+          "はちびゃく"
+        ],
+        "hint": "800 becomes geminated: はっぴゃく."
+      },
+      {
+        "prompt": "3,000 (千の変音 / sound change)",
+        "form": "Number Reading",
+        "answer": "さんぜん",
+        "options": [
+          "さんぜん",
+          "さんせん",
+          "みっせん"
+        ],
+        "hint": "3,000 undergoes voicing: さんぜん."
+      },
+      {
+        "prompt": "8,000 (千の変音 / sound change)",
+        "form": "Number Reading",
+        "answer": "はっせん",
+        "options": [
+          "はっせん",
+          "はちせん",
+          "はちぜん"
+        ],
+        "hint": "8,000 becomes geminated: はっせん."
+      },
+      {
+        "prompt": "10,000 (万の数え方)",
+        "form": "Number Reading",
+        "answer": "いちまん",
+        "options": [
+          "いちまん",
+          "まん",
+          "じゅうせん"
+        ],
+        "hint": "Unlike 100 or 1,000, 10,000 MUST include いち: いちまん."
+      },
+      {
+        "prompt": "1階 (階の変音)",
+        "form": "Floor Counter",
+        "answer": "いっかい",
+        "options": [
+          "いっかい",
+          "いちかい",
+          "いちがい"
+        ],
+        "hint": "1階 is pronounced いっかい."
+      },
+      {
+        "prompt": "3階 (階の変音)",
+        "form": "Floor Counter",
+        "answer": "さんがい",
+        "options": [
+          "さんがい",
+          "さんかい",
+          "さんきょう"
+        ],
+        "hint": "3階 undergoes voicing: さんがい."
+      },
+      {
+        "prompt": "6階 (階の変音)",
+        "form": "Floor Counter",
+        "answer": "ろっかい",
+        "options": [
+          "ろっかい",
+          "ろくかい",
+          "ろくがい"
+        ],
+        "hint": "6階 is pronounced ろっかい."
+      },
+      {
+        "prompt": "8階 (階の変音)",
+        "form": "Floor Counter",
+        "answer": "はっかい",
+        "options": [
+          "はっかい",
+          "はちかい",
+          "はちがい"
+        ],
+        "hint": "8階 is pronounced はっかい."
+      },
+      {
+        "prompt": "10階 (階の変音)",
+        "form": "Floor Counter",
+        "answer": "じゅっかい",
+        "options": [
+          "じゅっかい",
+          "じゅうかい",
+          "じゅうがい"
+        ],
+        "hint": "10階 is pronounced じゅっかい (or じっかい)."
+      },
+      {
+        "prompt": "何階 (何 + 階の読み方)",
+        "form": "Floor Interrogative",
+        "answer": "なんがい",
+        "options": [
+          "なんがい",
+          "なんかい",
+          "なにがい"
+        ],
+        "hint": "何階 is read with a voiced がい: なんがい."
+      },
+      {
+        "prompt": "イタリア (Country) + ワイン (Product origin)",
+        "form": "Country Origin Connection",
+        "answer": "イタリアのワイン",
+        "options": [
+          "イタリアのワイン",
+          "イタリアなワイン",
+          "イタリアとワイン"
+        ],
+        "hint": "Connect country of origin with の."
+      },
+      {
+        "prompt": "日本 (Country) + 車 (Product origin)",
+        "form": "Country Origin Connection",
+        "answer": "日本の車",
+        "options": [
+          "日本の車",
+          "日本な車",
+          "日本で車"
+        ],
+        "hint": "Japanese car = 日本の車."
+      },
+      {
+        "prompt": "どこ (Interrogative) + カメラ (Inquiring origin)",
+        "form": "Origin Interrogative",
+        "answer": "どこのカメラ",
+        "options": [
+          "どこのカメラ",
+          "どこなカメラ",
+          "どこカメラ"
+        ],
+        "hint": "Where is the camera made = どこのカメラ."
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "ここ [ ? ] 食堂です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker は marking ここ as the topic."
+      },
+      {
+        "sentence": "お手洗いはどこ [ ? ] ですか。",
+        "answer": "か",
+        "options": [
+          "か",
+          "よ",
+          "ね",
+          "の"
+        ],
+        "hint": "Question particle か at sentence end."
+      },
+      {
+        "sentence": "ワイン売り場は地下1階 [ ? ] ございます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "は",
+          "を"
+        ],
+        "hint": "Polite copula particle: でございます."
+      },
+      {
+        "sentence": "これはドイツ [ ? ] 車です。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "に",
+          "で"
+        ],
+        "hint": "Country of origin uses particle の."
+      },
+      {
+        "sentence": "その時計 [ ? ] 見せてください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "は",
+          "に",
+          "で"
+        ],
+        "hint": "Object of 見せてください takes particle を."
+      },
+      {
+        "sentence": "これ [ ? ] ください。",
+        "answer": "を",
+        "options": [
+          "を",
+          "は",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of ください takes を."
+      },
+      {
+        "sentence": "山田さん [ ? ] 事務所です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker は."
+      },
+      {
+        "sentence": "この本は1,500円 [ ? ] す。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "は",
+          "を"
+        ],
+        "hint": "Copula ending です."
+      },
+      {
+        "sentence": "お国はどちら [ ? ] すか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "は",
+          "の"
+        ],
+        "hint": "どちらですか = どちら + です + か."
+      },
+      {
+        "sentence": "会議室は3階 [ ? ] あります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "は"
+        ],
+        "hint": "Location of existence with あります takes に."
+      },
+      {
+        "sentence": "それはフランス [ ? ] ワインですか。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "と",
+          "で"
+        ],
+        "hint": "Origin connection: フランスのワイン."
+      },
+      {
+        "sentence": "いいえ、イタリア [ ? ] のです。",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "で",
+          "に"
+        ],
+        "hint": "Noun omission: イタリアの[ワイン]です."
+      },
+      {
+        "sentence": "この靴 [ ? ] いくらですか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "を",
+          "に"
+        ],
+        "hint": "Marking この靴 as topic."
+      },
+      {
+        "sentence": "電話 [ ? ] ロビーです。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: 電話は."
+      },
+      {
+        "sentence": "エレベーター [ ? ] あちらでございます。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: エレベーターは."
+      },
+      {
+        "sentence": "受付 [ ? ] どこですか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "を",
+          "に"
+        ],
+        "hint": "Topic marker: 受付は."
+      },
+      {
+        "sentence": "ネクタイ売り場 [ ? ] 2階です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: ネクタイ売り場は."
+      },
+      {
+        "sentence": "あそこ [ ? ] 会議室です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: あそこは."
+      },
+      {
+        "sentence": "教室 [ ? ] 4階です。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: 教室は."
+      },
+      {
+        "sentence": "階段 [ ? ] そちらです。",
+        "answer": "は",
+        "options": [
+          "は",
+          "の",
+          "に",
+          "で"
+        ],
+        "hint": "Topic marker: 階段は."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Looking for the restroom in a building",
+        "speaker": "マリア",
+        "prompt": "すみません、お手洗いはどこですか。",
+        "options": [
+          {
+            "text": "あちらでございます。",
+            "correct": true
+          },
+          {
+            "text": "2,000円です。",
+            "correct": false
+          },
+          {
+            "text": "はい、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "Staff answer location questions with polite directions: 『あちらでございます』."
+      },
+      {
+        "situation": "Meeting an international guest",
+        "speaker": "会社員",
+        "prompt": "お国はどちらですか。",
+        "options": [
+          {
+            "text": "アメリカです。",
+            "correct": true
+          },
+          {
+            "text": "あそこです。",
+            "correct": false
+          },
+          {
+            "text": "3階です。",
+            "correct": false
+          }
+        ],
+        "tip": "『お国はどちらですか』 asks for the person's home country."
+      },
+      {
+        "situation": "At the department store wine counter",
+        "speaker": "マリア",
+        "prompt": "これはどこのワインですか。",
+        "options": [
+          {
+            "text": "フランスのワインでございます。",
+            "correct": true
+          },
+          {
+            "text": "地下1階です。",
+            "correct": false
+          },
+          {
+            "text": "2,500本です。",
+            "correct": false
+          }
+        ],
+        "tip": "『どこのワイン』 asks for origin/manufacturer; answer with [Country/Brand] の ワイン."
+      },
+      {
+        "situation": "Inquiring about someone's employer",
+        "speaker": "客",
+        "prompt": "ミラーさんの会社はどちらですか。",
+        "options": [
+          {
+            "text": "IMCです。",
+            "correct": true
+          },
+          {
+            "text": "あちらの会社です。",
+            "correct": false
+          },
+          {
+            "text": "アメリカの会社人です。",
+            "correct": false
+          }
+        ],
+        "tip": "『会社はどちらですか』 politely asks for the company's name/affiliation."
+      },
+      {
+        "situation": "Entering a shop",
+        "speaker": "店員",
+        "prompt": "いらっしゃいませ。",
+        "options": [
+          {
+            "text": "すみません、靴売り場は何階ですか。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          },
+          {
+            "text": "どう致しまして。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to a shop clerk's welcome with an inquiry about what you are looking for."
+      },
+      {
+        "situation": "Asking the location of a colleague",
+        "speaker": "同僚",
+        "prompt": "サントスさんはどこですか。",
+        "options": [
+          {
+            "text": "2階の会議室です。",
+            "correct": true
+          },
+          {
+            "text": "ブラジル人です。",
+            "correct": false
+          },
+          {
+            "text": "はい、サントスさんです。",
+            "correct": false
+          }
+        ],
+        "tip": "『[Person] は どこですか』 asks for their current physical location."
+      },
+      {
+        "situation": "Asking to view merchandise closely",
+        "speaker": "客",
+        "prompt": "すみません、そのネクタイを見せてください。",
+        "options": [
+          {
+            "text": "はい、どうぞ。",
+            "correct": true
+          },
+          {
+            "text": "はい、ください。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、ネクタイです。",
+            "correct": false
+          }
+        ],
+        "tip": "When a customer asks 『見せてください』, the clerk presents it with 『はい、どうぞ』."
+      },
+      {
+        "situation": "Inquiring about price",
+        "speaker": "客",
+        "prompt": "このカメラはいくらですか。",
+        "options": [
+          {
+            "text": "38,000円です。",
+            "correct": true
+          },
+          {
+            "text": "日本のカメラです。",
+            "correct": false
+          },
+          {
+            "text": "5階でございます。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer 『いくらですか』 with the numerical price followed by 円 (えん)."
+      },
+      {
+        "situation": "Deciding to purchase an item",
+        "speaker": "客",
+        "prompt": "じゃ、これをください。",
+        "options": [
+          {
+            "text": "ありがとうございます。毎度ありがとうございます。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、違います。",
+            "correct": false
+          },
+          {
+            "text": "こちらこそお世話になります。",
+            "correct": false
+          }
+        ],
+        "tip": "When a customer buys with 『これをください』, the cashier thanks them."
+      },
+      {
+        "situation": "Inquiring about which floor an office is located",
+        "speaker": "訪問者",
+        "prompt": "事務所は何階ですか。",
+        "options": [
+          {
+            "text": "7階です。",
+            "correct": true
+          },
+          {
+            "text": "7回です。",
+            "correct": false
+          },
+          {
+            "text": "7円です。",
+            "correct": false
+          }
+        ],
+        "tip": "Floor questions (何階) are answered using the floor counter ～階 (かい / がい)."
+      },
+      {
+        "situation": "Asking for directions to the elevator",
+        "speaker": "客",
+        "prompt": "エレベーターはどちらですか。",
+        "options": [
+          {
+            "text": "そちらでございます。",
+            "correct": true
+          },
+          {
+            "text": "これです。",
+            "correct": false
+          },
+          {
+            "text": "エレベーターのです。",
+            "correct": false
+          }
+        ],
+        "tip": "Directional questions with どちら are answered politely with そちら / あちら でございます."
+      },
+      {
+        "situation": "Checking where a computer was manufactured",
+        "speaker": "客",
+        "prompt": "これは日本のコンピューターですか。",
+        "options": [
+          {
+            "text": "いいえ、アメリカのです。",
+            "correct": true
+          },
+          {
+            "text": "はい、アメリカのです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、そうです。",
+            "correct": false
+          }
+        ],
+        "tip": "Deny an incorrect assumption with 『いいえ』 and state the true origin with noun omission: 『アメリカのです』."
+      }
+    ]
+  }
+}

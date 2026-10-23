@@ -1,0 +1,2475 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 9,
+    "title": "Preferences, Abilities, Possession, and Causes",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master expressing preferences (好き/嫌い), abilities and skills (上手/下手), comprehension (わかります), and possession (あります) using the particle が; calibrate degrees and quantities with adverbs (よく, だいたい, たくさん, 少し, あまり, 全然); state causes and reasons with ～から; inquire about reasons with どうして; and navigate polite invitations and indirect refusals (残念ですが…また今度)."
+  },
+  "vocabulary": [
+    {
+      "id": "wakarimasu",
+      "kanji": "分かります",
+      "kana": "わかります",
+      "romaji": "wakarimasu",
+      "meaning": "to understand; to comprehend",
+      "category": "verb",
+      "example": {
+        "kanji": "日本語が少し分かります。",
+        "kana": "にほんごが すこし わかります。",
+        "translation": "I understand a little Japanese."
+      }
+    },
+    {
+      "id": "arimasu",
+      "kanji": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "meaning": "to have; to possess [inanimate objects, time, appointments]",
+      "category": "verb",
+      "example": {
+        "kanji": "今日はお金と時間がありません。",
+        "kana": "きょうは おかねと じかんが ありません。",
+        "translation": "Today I have neither money nor time."
+      }
+    },
+    {
+      "id": "suki",
+      "kanji": "好き",
+      "kana": "すき",
+      "romaji": "suki",
+      "meaning": "like; fond of",
+      "category": "adjective",
+      "example": {
+        "kanji": "私はイタリア料理が好きです。",
+        "kana": "わたしは イタリアりょうりが すきです。",
+        "translation": "I like Italian food."
+      }
+    },
+    {
+      "id": "kirai",
+      "kanji": "嫌い",
+      "kana": "きらい",
+      "romaji": "kirai",
+      "meaning": "dislike; hate",
+      "category": "adjective",
+      "example": {
+        "kanji": "納豆が嫌いですか。",
+        "kana": "なっとうが きらいですか。",
+        "translation": "Do you dislike natto?"
+      }
+    },
+    {
+      "id": "jouzu",
+      "kanji": "上手",
+      "kana": "じょうず",
+      "romaji": "jouzu",
+      "meaning": "good at; skillful (used for others, not oneself)",
+      "category": "adjective",
+      "example": {
+        "kanji": "ミラーさんはテニスが上手です。",
+        "kana": "ミラーさんは テニスが じょうずです。",
+        "translation": "Mr. Miller is good at tennis."
+      }
+    },
+    {
+      "id": "heta",
+      "kanji": "下手",
+      "kana": "へた",
+      "romaji": "heta",
+      "meaning": "poor at; unskillful",
+      "category": "adjective",
+      "example": {
+        "kanji": "私は歌が下手です。",
+        "kana": "わたしは うたが へたです。",
+        "translation": "I am poor at singing."
+      }
+    },
+    {
+      "id": "ryouri",
+      "kanji": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "meaning": "cooking; cuisine; dish",
+      "category": "noun",
+      "example": {
+        "kanji": "日本料理はおいしいです。",
+        "kana": "にほんりょうりは おいしいです。",
+        "translation": "Japanese cuisine is delicious."
+      }
+    },
+    {
+      "id": "nomimono",
+      "kanji": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "meaning": "beverage; drink",
+      "category": "noun",
+      "example": {
+        "kanji": "どんな飲み物が好きですか。",
+        "kana": "どんな のみものが すきですか。",
+        "translation": "What kind of drinks do you like?"
+      }
+    },
+    {
+      "id": "supootsu",
+      "kanji": "スポーツ",
+      "kana": "スポーツ",
+      "romaji": "supootsu",
+      "meaning": "sports",
+      "category": "noun",
+      "example": {
+        "kanji": "毎週末スポーツをします。",
+        "kana": "まいしゅうまつ スポーツを します。",
+        "translation": "I play sports every weekend."
+      }
+    },
+    {
+      "id": "yakyuu",
+      "kanji": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "meaning": "baseball",
+      "category": "noun",
+      "example": {
+        "kanji": "日本人は野球が好きです。",
+        "kana": "にほんじんは やきゅうが すきです。",
+        "translation": "Japanese people like baseball."
+      }
+    },
+    {
+      "id": "dansu",
+      "kanji": "ダンス",
+      "kana": "ダンス",
+      "romaji": "dansu",
+      "meaning": "dance; dancing",
+      "category": "noun",
+      "example": {
+        "kanji": "彼女はダンスがとても上手です。",
+        "kana": "かのじょは ダンスが とても じょうずです。",
+        "translation": "She is very good at dancing."
+      }
+    },
+    {
+      "id": "ryokou",
+      "kanji": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "meaning": "trip; travel",
+      "category": "noun",
+      "example": {
+        "kanji": "来月京都へ旅行に行きます。",
+        "kana": "らいげつ きょうとへ りょこうに いきます。",
+        "translation": "Next month I will go on a trip to Kyoto."
+      }
+    },
+    {
+      "id": "ongaku",
+      "kanji": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "meaning": "music",
+      "category": "noun",
+      "example": {
+        "kanji": "どんな音楽を聞きますか。",
+        "kana": "どんな おんがくを ききますか。",
+        "translation": "What kind of music do you listen to?"
+      }
+    },
+    {
+      "id": "uta",
+      "kanji": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "meaning": "song",
+      "category": "noun",
+      "example": {
+        "kanji": "日本の歌を歌います。",
+        "kana": "にほんの うたを うたいます。",
+        "translation": "I sing Japanese songs."
+      }
+    },
+    {
+      "id": "kurashikku",
+      "kanji": "クラシック",
+      "kana": "クラシック",
+      "romaji": "kurashikku",
+      "meaning": "classical music",
+      "category": "noun",
+      "example": {
+        "kanji": "父はクラシックが好きです。",
+        "kana": "ちちは クラシックが すきです。",
+        "translation": "My father likes classical music."
+      }
+    },
+    {
+      "id": "jazu",
+      "kanji": "ジャズ",
+      "kana": "ジャズ",
+      "romaji": "jazu",
+      "meaning": "jazz",
+      "category": "noun",
+      "example": {
+        "kanji": "ジャズのコンサートに行きました。",
+        "kana": "ジャズの コンサートに いきました。",
+        "translation": "I went to a jazz concert."
+      }
+    },
+    {
+      "id": "konsaato",
+      "kanji": "コンサート",
+      "kana": "コンサート",
+      "romaji": "konsaato",
+      "meaning": "concert",
+      "category": "noun",
+      "example": {
+        "kanji": "日曜日にコンサートがあります。",
+        "kana": "にちようびに コンサートが あります。",
+        "translation": "There is a concert on Sunday."
+      }
+    },
+    {
+      "id": "karaoke",
+      "kanji": "カラオケ",
+      "kana": "カラオケ",
+      "romaji": "karaoke",
+      "meaning": "karaoke",
+      "category": "noun",
+      "example": {
+        "kanji": "友達とカラオケに行きました。",
+        "kana": "ともだちと カラオケに いきました。",
+        "translation": "I went to karaoke with my friend."
+      }
+    },
+    {
+      "id": "kabuki",
+      "kanji": "歌舞伎",
+      "kana": "かぶき",
+      "romaji": "kabuki",
+      "meaning": "Kabuki (traditional Japanese musical drama)",
+      "category": "noun",
+      "example": {
+        "kanji": "歌舞伎を見たことがありますか。",
+        "kana": "かぶきを みた ことが ありますか。",
+        "translation": "Have you ever seen Kabuki?"
+      }
+    },
+    {
+      "id": "e",
+      "kanji": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "meaning": "picture; painting; drawing",
+      "category": "noun",
+      "example": {
+        "kanji": "兄は絵を描くのが上手です。",
+        "kana": "あには えを かくのが じょうずです。",
+        "translation": "My older brother is good at painting pictures."
+      }
+    },
+    {
+      "id": "ji",
+      "kanji": "字",
+      "kana": "じ",
+      "romaji": "ji",
+      "meaning": "letter; character; handwriting",
+      "category": "noun",
+      "example": {
+        "kanji": "山田さんは字がきれいです。",
+        "kana": "やまださんは じが きれいです。",
+        "translation": "Ms. Yamada has beautiful handwriting."
+      }
+    },
+    {
+      "id": "kanji",
+      "kanji": "漢字",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "meaning": "kanji; Chinese characters",
+      "category": "noun",
+      "example": {
+        "kanji": "漢字は難しくて、あまり分かりません。",
+        "kana": "かんじは むずかしくて、あまり わかりません。",
+        "translation": "Kanji is difficult, so I don't understand it very well."
+      }
+    },
+    {
+      "id": "hiragana",
+      "kanji": "ひらがな",
+      "kana": "ひらがな",
+      "romaji": "hiragana",
+      "meaning": "hiragana script",
+      "category": "noun",
+      "example": {
+        "kanji": "ひらがなが全部書けますか。",
+        "kana": "ひらがなが ぜんぶ かけますか。",
+        "translation": "Can you write all hiragana?"
+      }
+    },
+    {
+      "id": "katakana",
+      "kanji": "かたかな",
+      "kana": "かたかな",
+      "romaji": "katakana",
+      "meaning": "katakana script",
+      "category": "noun",
+      "example": {
+        "kanji": "外来語はかたかなで書きます。",
+        "kana": "がいらいごは かたかなで かきます。",
+        "translation": "Loanwords are written in katakana."
+      }
+    },
+    {
+      "id": "roomaji",
+      "kanji": "ローマ字",
+      "kana": "ローマじ",
+      "romaji": "roomaji",
+      "meaning": "Roman alphabet; romaji",
+      "category": "noun",
+      "example": {
+        "kanji": "パスポートの名前はローマ字で書きます。",
+        "kana": "パスポートの なまえは ローマじで かきます。",
+        "translation": "Passport names are written in the Roman alphabet."
+      }
+    },
+    {
+      "id": "komakai-okane",
+      "kanji": "細かいお金",
+      "kana": "こまかいおかね",
+      "romaji": "komakai okane",
+      "meaning": "small change; coins",
+      "category": "noun",
+      "example": {
+        "kanji": "バスに乗りますから、細かいお金がありますか。",
+        "kana": "バスに のりますから、こまかい おかねが ありますか。",
+        "translation": "I will ride the bus, so do you have small change?"
+      }
+    },
+    {
+      "id": "chiketto",
+      "kanji": "チケット",
+      "kana": "チケット",
+      "romaji": "chiketto",
+      "meaning": "ticket",
+      "category": "noun",
+      "example": {
+        "kanji": "野球のチケットが2枚あります。",
+        "kana": "やきゅうの チケットが にまい あります。",
+        "translation": "I have two baseball tickets."
+      }
+    },
+    {
+      "id": "jikan",
+      "kanji": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "meaning": "time; hours",
+      "category": "noun",
+      "example": {
+        "kanji": "忙しいですから、時間が全然ありません。",
+        "kana": "いそがしいですから、じかんが ぜんぜん ありません。",
+        "translation": "Because I am busy, I have no time at all."
+      }
+    },
+    {
+      "id": "youji",
+      "kanji": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "meaning": "something to do; errand; business",
+      "category": "noun",
+      "example": {
+        "kanji": "明日は市役所で用事があります。",
+        "kana": "あすは しやくしょで ようじが あります。",
+        "translation": "Tomorrow I have an errand at the city hall."
+      }
+    },
+    {
+      "id": "yakusoku",
+      "kanji": "約束",
+      "kana": "やくそく",
+      "romaji": "yakusoku",
+      "meaning": "appointment; promise; plans",
+      "category": "noun",
+      "example": {
+        "kanji": "今夜友達と約束があります。",
+        "kana": "こんや ともだちと やくそくが あります。",
+        "translation": "I have plans with a friend tonight."
+      }
+    },
+    {
+      "id": "goshujin",
+      "kanji": "ご主人",
+      "kana": "ごしゅじん",
+      "romaji": "goshujin",
+      "meaning": "(someone else's) husband",
+      "category": "noun",
+      "example": {
+        "kanji": "奥さん、ご主人は会社員ですか。",
+        "kana": "おくさん、ごしゅじんは かいしゃいんですか。",
+        "translation": "Ma'am, is your husband an office worker?"
+      }
+    },
+    {
+      "id": "otto-shujin",
+      "kanji": "夫 / 主人",
+      "kana": "おっと / しゅじん",
+      "romaji": "otto / shujin",
+      "meaning": "(my) husband",
+      "category": "noun",
+      "example": {
+        "kanji": "私の夫は料理があまり上手じゃありません。",
+        "kana": "わたしの おっとは りょうりが あまり じょうずじゃ ありません。",
+        "translation": "My husband is not very good at cooking."
+      }
+    },
+    {
+      "id": "okusan",
+      "kanji": "奥さん",
+      "kana": "おくさん",
+      "romaji": "okusan",
+      "meaning": "(someone else's) wife",
+      "category": "noun",
+      "example": {
+        "kanji": "田中さんの奥さんは優しい人です。",
+        "kana": "たなかさんの おくさんは やさしい ひとです。",
+        "translation": "Mr. Tanaka's wife is a kind person."
+      }
+    },
+    {
+      "id": "tsuma-kanai",
+      "kanji": "妻 / 家内",
+      "kana": "つま / かない",
+      "romaji": "tsuma / kanai",
+      "meaning": "(my) wife",
+      "category": "noun",
+      "example": {
+        "kanji": "妻はお酒が全然飲めません。",
+        "kana": "つまは おさけが ぜんぜん のめません。",
+        "translation": "My wife cannot drink alcohol at all."
+      }
+    },
+    {
+      "id": "kodomo",
+      "kanji": "子ども",
+      "kana": "こども",
+      "romaji": "kodomo",
+      "meaning": "child; children",
+      "category": "noun",
+      "example": {
+        "kanji": "子どもが2人います。",
+        "kana": "こどもが ふたり います。",
+        "translation": "I have two children."
+      }
+    },
+    {
+      "id": "yoku",
+      "kanji": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "meaning": "well; thoroughly (degree); often (frequency)",
+      "category": "adverb",
+      "example": {
+        "kanji": "英語がよく分かります。",
+        "kana": "えいごが よく わかります。",
+        "translation": "I understand English well."
+      }
+    },
+    {
+      "id": "daitai",
+      "kanji": "だいたい",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "meaning": "mostly; roughly; approximately",
+      "category": "adverb",
+      "example": {
+        "kanji": "今日のテストはだいたい分かりました。",
+        "kana": "きょうの テストは だいたい わかりました。",
+        "translation": "I mostly understood today's test."
+      }
+    },
+    {
+      "id": "takusan",
+      "kanji": "たくさん",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "meaning": "a lot; many; much (quantity)",
+      "category": "adverb",
+      "example": {
+        "kanji": "本がたくさんあります。",
+        "kana": "ほんが たくさん あります。",
+        "translation": "I have a lot of books."
+      }
+    },
+    {
+      "id": "sukoshi",
+      "kanji": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "meaning": "a little; a few",
+      "category": "adverb",
+      "example": {
+        "kanji": "お金が少しあります。",
+        "kana": "おかねが すこし あります。",
+        "translation": "I have a little money."
+      }
+    },
+    {
+      "id": "zenzen",
+      "kanji": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "meaning": "not at all (used with negative verb/adjective)",
+      "category": "adverb",
+      "example": {
+        "kanji": "フランス語が全然分かりません。",
+        "kana": "フランスごが ぜんぜん わかりません。",
+        "translation": "I do not understand French at all."
+      }
+    },
+    {
+      "id": "hayaku",
+      "kanji": "早く / 速く",
+      "kana": "はやく",
+      "romaji": "hayaku",
+      "meaning": "early (早く); quickly / fast (速く)",
+      "category": "adverb",
+      "example": {
+        "kanji": "今朝は早く起きました。速く走ります。",
+        "kana": "けさは はやく おきました。はやく はしります。",
+        "translation": "I woke up early this morning. I run fast."
+      }
+    },
+    {
+      "id": "kara",
+      "kanji": "～から",
+      "kana": "～から",
+      "romaji": "~kara",
+      "meaning": "because ~; since ~ (clause conjunction for reasons)",
+      "category": "conjunction",
+      "example": {
+        "kanji": "時間がないですから、タクシーで行きましょう。",
+        "kana": "じかんが ないですから、タクシーで いきましょう。",
+        "translation": "Because we don't have time, let's go by taxi."
+      }
+    },
+    {
+      "id": "doushite",
+      "kanji": "どうして",
+      "kana": "どうして",
+      "romaji": "doushite",
+      "meaning": "why; for what reason",
+      "category": "expression",
+      "example": {
+        "kanji": "どうして昨日休みましたか。",
+        "kana": "どうして きのう やすみましたか。",
+        "translation": "Why were you absent yesterday?"
+      }
+    },
+    {
+      "id": "zannendesu",
+      "kanji": "残念です",
+      "kana": "ざんねんです",
+      "romaji": "zannen desu",
+      "meaning": "it is regrettable; that's too bad",
+      "category": "expression",
+      "example": {
+        "kanji": "一緒に行けませんか。残念ですね。",
+        "kana": "いっしょに いけませんか。ざんねんですね。",
+        "translation": "You can't come along? That's too bad."
+      }
+    },
+    {
+      "id": "moshimoshi",
+      "kanji": "もしもし",
+      "kana": "もしもし",
+      "romaji": "moshimoshi",
+      "meaning": "hello (on the telephone)",
+      "category": "expression",
+      "example": {
+        "kanji": "もしもし、ミラーさんですか。",
+        "kana": "もしもし、ミラーさんですか。",
+        "translation": "Hello, is this Mr. Miller?"
+      }
+    },
+    {
+      "id": "isshoni-ikaga-desuka",
+      "kanji": "一緒にいかがですか",
+      "kana": "いっしょに いかがですか",
+      "romaji": "isshoni ikaga desuka",
+      "meaning": "won't you join me?; how about joining together?",
+      "category": "expression",
+      "example": {
+        "kanji": "コンサートのチケットがあります。一緒にいかがですか。",
+        "kana": "コンサートの チケットが あります。いっしょに いかがですか。",
+        "translation": "I have concert tickets. Won't you join me?"
+      }
+    },
+    {
+      "id": "dame-desuka",
+      "kanji": "だめですか",
+      "kana": "だめですか",
+      "romaji": "dame desuka",
+      "meaning": "is it no good?; so you cannot make it?",
+      "category": "expression",
+      "example": {
+        "kanji": "日曜日はだめですか。— ええ、用事がありますから。",
+        "kana": "にちようびは だめですか。— ええ、ようじが ありますから。",
+        "translation": "Is Sunday no good? — Yes, because I have an errand."
+      }
+    },
+    {
+      "id": "mata-kondo-onegaishimasu",
+      "kanji": "また今度お願いします",
+      "kana": "またこんど おねがいします",
+      "romaji": "mata kondo onegaishimasu",
+      "meaning": "please ask me again next time (polite refusal / softening phrase)",
+      "category": "expression",
+      "example": {
+        "kanji": "土曜日はちょっと…。また今度お願いします。",
+        "kana": "どようびは ちょっと…。また こんど おねがいします。",
+        "translation": "Saturday is a bit difficult... Please ask me again next time."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun が 好きです / 嫌いです [Preferences & Emotional Attitudes]",
+      "explanation": "In Japanese, words expressing preference like 好き (suki - like) and 嫌い (kirai - dislike) are NOT transitive verbs; they are な-adjectives. Because an adjective simply describes the condition or nature of a noun, the item you like or dislike is marked by が (the subject of the emotional quality), NOT the direct object particle を. Literally, 『イタリア料理が好きです』 means 'Italian food is likable / pleasing (to me)'. To intensify, use 大好き (だいすき - love) or 大嫌い (だいきらい - detest). To inquire about preferences within an open category, pair どんな with a category noun: 『どんなスポーツが好きですか』 (What kind of sports do you like?).",
+      "examples": [
+        {
+          "kanji": "私はイタリア料理が好きです。",
+          "kana": "わたしは イタリアりょうりが すきです。",
+          "translation": "I like Italian food."
+        },
+        {
+          "kanji": "たかしさんは野菜が嫌いじゃありません。",
+          "kana": "たかしさんは やさいが きらいじゃ ありません。",
+          "translation": "Takashi does not dislike vegetables."
+        },
+        {
+          "kanji": "どんな飲み物が好きですか。— ビールが好きです。",
+          "kana": "どんな のみものが すきですか。— ビールが すきです。",
+          "translation": "What kind of drinks do you like? — I like beer."
+        },
+        {
+          "kanji": "私はスポーツが大好きです。",
+          "kana": "わたしは スポーツが だいすきです。",
+          "translation": "I love sports."
+        },
+        {
+          "kanji": "彼女はカラオケがあまり好きじゃありません。",
+          "kana": "かのじょは カラオケが あまり すきじゃ ありません。",
+          "translation": "She does not like karaoke very much."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun が 上手です / 下手です [Skills, Abilities & Modesty Rules]",
+      "explanation": "上手 (じょうず - skillful / good at) and 下手 (へた - unskillful / poor at) are also な-adjectives and require the particle が to mark the target skill or activity (テニスが上手です). CRITICAL CULTURAL RULE (highlighted by Takashi Sensei): Japanese culture places extreme value on humility (謙遜 - kenson). NEVER praise your own ability with 『私は～が上手です』—doing so sounds arrogant and unnatural to native speakers. Instead, say 『私は～が下手です』 (I am poor at it) or 『まだまだです』 (I still have a long way to go). Furthermore, avoid praising superiors, teachers, or bosses with 上手です, as it implies you are judging them from an elevated position; use words like お見事 (impressive) or describe their performance instead.",
+      "examples": [
+        {
+          "kanji": "マリアさんは歌がとても上手です。",
+          "kana": "マリアさんは うたが とても じょうずです。",
+          "translation": "Maria is very good at singing."
+        },
+        {
+          "kanji": "私は絵が下手ですから、あまり描きません。",
+          "kana": "わたしは えが へたですから、あまり かきません。",
+          "translation": "Because I am bad at drawing, I don't draw very much. (Correct self-humbling)"
+        },
+        {
+          "kanji": "日本語がお上手ですね。— いいえ、まだまだです。",
+          "kana": "にほんごが おじょうずですね。— いいえ、まだまだです。",
+          "translation": "Your Japanese is so good! — No, I still have a long way to go."
+        },
+        {
+          "kanji": "ミラーさんはダンスが上手じゃありません。",
+          "kana": "ミラーさんは ダンスが じょうずじゃ ありません。",
+          "translation": "Mr. Miller is not good at dancing."
+        },
+        {
+          "kanji": "兄は野球が上手です。",
+          "kana": "あには やきゅうが じょうずです。",
+          "translation": "My older brother is good at baseball."
+        }
+      ]
+    },
+    {
+      "pattern": "Noun が 分かります / あります [Comprehension & Inanimate Possession]",
+      "explanation": "Action verbs like 食べます, 飲みます, and 買います express an intentional action performed by an agent on an object, thus taking を. However, 分かります (wakarimasu - to comprehend) and あります (arimasu - to possess / exist) represent spontaneous states or conditions, NOT intentional actions. Therefore, the object of comprehension or possession takes the subject particle が: (1) 『日本語が分かります』 = 'Japanese is understood (by me)'. (2) 『時間 / お金 / 車があります』 = 'Time / money / a car exists with me (I have time/money/a car)'. In Lesson 9, あります denotes owning or having non-living things, tickets, time, and commitments (用事, 約束). For living beings like people or pets, います is used (e.g., 子どもが2人います).",
+      "examples": [
+        {
+          "kanji": "私は英語と日本語が分かります。",
+          "kana": "わたしは えいごと にほんごが わかります。",
+          "translation": "I understand English and Japanese."
+        },
+        {
+          "kanji": "細かいお金がありませんから、1万円札を出します。",
+          "kana": "こまかい おかねが ありませんから、いちまんえんさつを だします。",
+          "translation": "Because I don't have small change, I will pay with a 10,000-yen bill."
+        },
+        {
+          "kanji": "明日友達と約束があります。",
+          "kana": "あす ともだちと やくそくが あります。",
+          "translation": "I have plans (an appointment) with a friend tomorrow."
+        },
+        {
+          "kanji": "漢字が全然分かりません。",
+          "kana": "かんじが ぜんぜん わかりません。",
+          "translation": "I do not understand kanji at all."
+        },
+        {
+          "kanji": "コンサートのチケットがありますから、一緒に行きませんか。",
+          "kana": "コンサートの チケットが ありますから、いっしょに いきませんか。",
+          "translation": "I have concert tickets, so won't you go with me?"
+        }
+      ]
+    },
+    {
+      "pattern": "Topic は vs. Identifier / Object が [Takashi's Core Distinction]",
+      "explanation": "Takashi Sensei highlights this crucial distinction in Lesson 9: (1) は sets the broad topic or theme of the sentence ('Speaking of X...'). What follows は is the new information or predicate. (2) が specifies the grammatical subject, identifier, or target of condition predicates (好き, 嫌い, 上手, 下手, 分かる, ある). In the double-particle sentence 『私はイタリア料理が好きです』, 私は marks the topic ('As for me...'), while イタリア料理が specifies the precise target that possesses the quality of being liked. Crucially, when an interrogative pronoun (誰, 何, どの人) is the subject of a sentence, it MUST take が, never は: 『誰が来ますか』 (Who is coming?) → 『たかしさんが来ます』 (Takashi is coming).",
+      "examples": [
+        {
+          "kanji": "私はジャズが好きですが、夫はクラシックが好きです。",
+          "kana": "わたしは ジャズが すきですが、おっとは クラシックが すきです。",
+          "translation": "As for me, I like jazz, but as for my husband, he likes classical music."
+        },
+        {
+          "kanji": "誰がフランス語が分かりますか。— サントスさんが分かります。",
+          "kana": "だれが フランスごが わかりますか。— サントスさんが わかります。",
+          "translation": "Who understands French? — Mr. Santos understands."
+        },
+        {
+          "kanji": "山田さんは字がきれいです。",
+          "kana": "やまださんは じが きれいです。",
+          "translation": "Speaking of Ms. Yamada, her handwriting is beautiful."
+        },
+        {
+          "kanji": "今日は用事がありますから、早く帰ります。",
+          "kana": "きょうは ようじが ありますから、はやく かえります。",
+          "translation": "Because I have an errand today, I will go home early."
+        }
+      ]
+    },
+    {
+      "pattern": "Adverbs of Degree & Quantity [The Spectrum Scale]",
+      "explanation": "Adverbs are placed directly before the predicate they modify without any particle. Takashi outlines two distinct spectrums: (A) DEGREE SPECTRUM (used with 分かります and qualitative adjectives like 好き/上手): 100% よく (well / thoroughly) → 80% だいたい (mostly / roughly) → 20% 少し / すこし (a little) → [-] 10% あまり～ない (not very much / not really) → [-] 0% 全然～ない (not at all). (B) QUANTITY SPECTRUM (used with あります and countable/mass nouns): たくさん (a lot / plenty) → 少し (a little / a few) → [-] あまり～ない (not much) → [-] 全然～ない (none at all). WARNING: あまり and 全然 MUST pair strictly with negative verb endings (分かりません / ありません / 好きじゃありません). NOTE: よく means 'well' or 'often', but CANNOT express physical quantity (✕ お金がよくあります → ○ お金がたくさんあります).",
+      "examples": [
+        {
+          "kanji": "英語がよく分かります。",
+          "kana": "えいごが よく わかります。",
+          "translation": "I understand English well (100% degree)."
+        },
+        {
+          "kanji": "ひらがながだいたい分かります。",
+          "kana": "ひらがなが だいたい わかります。",
+          "translation": "I mostly understand hiragana (80% degree)."
+        },
+        {
+          "kanji": "お金がたくさんあります。",
+          "kana": "おかねが たくさん あります。",
+          "translation": "I have a lot of money (High quantity)."
+        },
+        {
+          "kanji": "時間が少しありますから、お茶を飲みましょう。",
+          "kana": "じかんが すこし ありますから、おちゃを のみましょう。",
+          "translation": "We have a little time, so let's have some tea (Low quantity)."
+        },
+        {
+          "kanji": "漢字があまり分かりません。",
+          "kana": "かんじが あまり わかりません。",
+          "translation": "I don't understand kanji very well (Negative polarity)."
+        },
+        {
+          "kanji": "時間が全然ありません。",
+          "kana": "じかんが ぜんぜん ありません。",
+          "translation": "I have no time at all (Absolute zero negative polarity)."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence 1 から、Sentence 2 [Stating Reasons & Logical Causes]",
+      "explanation": "から attaches to the end of Sentence 1 to state a reason or cause ('because / since S1, S2'). Unlike English, which commonly places the main result first followed by 'because' ('I didn't buy it because it was expensive'), JAPANESE WORD ORDER IS STRICTLY CAUSE-FIRST: [Reason / Cause] から、[Result / Main Action]. Sentence 1 retains its full sentence structure before から (e.g. 忙しいですから、… or 時間がありませんから、…). The trailing clause (Sentence 2) can be an action, statement of state, or invitation (～ませんか / ～ましょう).",
+      "examples": [
+        {
+          "kanji": "時間がありませんから、タクシーで行きます。",
+          "kana": "じかんが ありませんから、タクシーで いきます。",
+          "translation": "Because I don't have time, I will go by taxi."
+        },
+        {
+          "kanji": "日本語が分かりませんから、英語で話してください。",
+          "kana": "にほんごが わかりませんから、えいごで はなして ください。",
+          "translation": "Because I don't understand Japanese, please speak in English."
+        },
+        {
+          "kanji": "今日は妻の誕生日ですから、早く帰ります。",
+          "kana": "きょうは つまの たんじょうびですから、はやく かえります。",
+          "translation": "Because today is my wife's birthday, I will go home early."
+        },
+        {
+          "kanji": "クラシックが好きですから、CDをたくさん買いました。",
+          "kana": "クラシックが すきですから、CDを たくさん かいました。",
+          "translation": "Since I like classical music, I bought a lot of CDs."
+        },
+        {
+          "kanji": "歌舞伎はおもしろいですから、ぜひ見ましょう。",
+          "kana": "かぶきは おもしろいですから、ぜひ みましょう。",
+          "translation": "Kabuki is interesting, so let's definitely watch it."
+        }
+      ]
+    },
+    {
+      "pattern": "どうして ～か。— ～から [です]。 [Asking & Answering 'Why']",
+      "explanation": "どうして asks for a reason or explanation ('Why?'). There are two ways to frame the answer: (1) State the reason followed by からです (e.g., 時間がありませんでしたから[です] - 'Because I had no time'). (2) Re-state both the reason and result: 『どうして新聞を読みませんか。— 時間がありませんから、読みません。』. When asked a standalone question 『どうしてですか』 ('Why is that?'), always end your explanation with から or からです.",
+      "examples": [
+        {
+          "kanji": "どうして昨日会社を休みましたか。— 熱がありましたから。",
+          "kana": "どうして きのう かいしゃを やすみましたか。— ねつが ありましたから。",
+          "translation": "Why were you absent from work yesterday? — Because I had a fever."
+        },
+        {
+          "kanji": "毎朝新聞を読みますか。— いいえ、時間がありませんから、読みません。",
+          "kana": "まいあさ しんぶんを よみますか。— いいえ、じかんが ありませんから、よみません。",
+          "translation": "Do you read the newspaper every morning? — No, because I don't have time, I don't read it."
+        },
+        {
+          "kanji": "日曜日はどこも行きません。— どうしてですか。— 用事がありますから。",
+          "kana": "にちようびは どこも いきません。— どうしてですか。— ようじが ありますから。",
+          "translation": "I'm not going anywhere on Sunday. — Why is that? — Because I have errands to run."
+        },
+        {
+          "kanji": "どうして朝ご飯を食べませんでしたか。— 忙しかったですから。",
+          "kana": "どうして あさごはんを たべませんでしたか。— いそがしかったですから。",
+          "translation": "Why didn't you eat breakfast? — Because I was busy."
+        }
+      ]
+    },
+    {
+      "pattern": "Polite Indirect Refusal & In-Group vs. Out-Group Family Words",
+      "explanation": "Japanese etiquette strongly avoids direct confrontation and flat refusals like 『行きません』 (I won't go) or 『だめです』 (No). When turning down an invitation, give a vague reason ending in から and trail off with an ellipsis or ちょっと: 『日曜日はちょっと用事がありますから…』. The inviter will immediately recognize the refusal, reply with 『そうですか。残念ですね』 (I see, that's too bad), and the decliner finishes courteously with 『また今度お願いします』 (Please invite me again next time). Additionally, respect in-group (内 - uchi) vs. out-group (外 - soto) terms for family: when referring to someone else's family, use respectful terms (ご主人 - goshujin, 奥さん - okusan, お子さん - okosan); when referring to your own, use humble terms (夫/主人 - otto/shujin, 妻/家内 - tsuma/kanai, 子ども - kodomo).",
+      "examples": [
+        {
+          "kanji": "土曜日に映画を見に行きませんか。— 土曜日はちょっと用事がありますから…。— そうですか。残念ですね。",
+          "kana": "どようびに えいがを みに いきませんか。— どようびは ちょっと ようじが ありますから…。— そうですか。ざんねんですね。",
+          "translation": "Won't you go see a movie on Saturday? — Saturday is a bit inconvenient, because I have an errand... — I see. That's too bad."
+        },
+        {
+          "kanji": "また今度お願いします。",
+          "kana": "また こんど おねがいします。",
+          "translation": "Please ask me again next time."
+        },
+        {
+          "kanji": "田中さんの奥さんはテニスがお上手です。",
+          "kana": "たなかさんの おくさんは テニスが おじょうずです。",
+          "translation": "Mr. Tanaka's wife is good at tennis. (Respectful for someone else's wife)"
+        },
+        {
+          "kanji": "私の妻は料理があまり上手じゃありません。",
+          "kana": "わたしの つまは りょうりが あまり じょうずじゃ ありません。",
+          "translation": "My wife is not very good at cooking. (Humble term for speaker's own wife)"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "歌舞伎のチケットと週末の約束",
+    "lines": [
+      {
+        "speaker": "たかし",
+        "kanji": "もしもし、ミラーさん。たかしです。",
+        "kana": "もしもし、ミラーさん。たかしです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ああ、たかしさん、こんばんは。お元気ですか。",
+        "kana": "ああ、たかしさん、こんばんは。おげんきですか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "ええ、元気です。あのう、ミラーさんは日本の伝統芸能が好きですか。",
+        "kana": "ええ、げんきです。あのう、ミラーさんは にほんの でんとうげいのうが すきですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、とても好きです。特に歌舞伎が好きですね。",
+        "kana": "ええ、とても すきです。とくに かぶきが すきですね。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "そうですか。実は友達から歌舞伎のチケットを2枚もらいました。今週の土曜日に一緒にいかがですか。",
+        "kana": "そうですか。じつは ともだちから かぶきの チケットを にまい もらいました。こんしゅうの どようびに いっしょに いかがですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "土曜日ですか。うーん、土曜日はちょっと…。",
+        "kana": "どようびですか。うーん、どようびは ちょっと…。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "土曜日はだめですか。用事がありますか。",
+        "kana": "どようびは だめですか。ようじが ありますか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ。土曜日は妻の誕生日ですから、家族と食事の約束があります。歌舞伎は大好きですから、本当に残念ですが…。",
+        "kana": "ええ。どようびは つまの たんじょうびですから、かぞくと しょくじの やくそくが あります。かぶきは だいすきですから、ほんとうに ざんねんですが…。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "そうですか。奥さんの誕生日ですか。それはおめでとうございます。じゃあ、また今度お願いします。",
+        "kana": "そうですか。おくさんの たんじょうびですか。それは おめでとうございます。じゃあ、また こんど おねがいします。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "すみません。ぜひまた誘ってください。",
+        "kana": "すみません。ぜひ また さそって ください。"
+      }
+    ],
+    "translation": "Takashi calls Mr. Miller on the phone and asks if he likes traditional Japanese performing arts. Miller replies that he likes them very much, especially Kabuki. Takashi explains that he received two Kabuki tickets from a friend and invites Miller to go together this Saturday. Miller hesitates, explaining that Saturday is a bit difficult because it is his wife's birthday, and he already has dinner plans with his family. Miller loves Kabuki, so he finds it truly regrettable to miss it. Takashi warmly congratulates Miller's wife on her birthday and suggests going together next time, to which Miller gratefully agrees.",
+    "questions": [
+      {
+        "question": "Why did Takashi call Mr. Miller?",
+        "options": [
+          "To invite him to watch Kabuki together this Saturday",
+          "To ask him to teach Italian cooking",
+          "To borrow small change for the bus",
+          "To practice baseball at the park"
+        ],
+        "answer": 0,
+        "explanation": "Takashi received two Kabuki tickets from a friend and invited Miller to join him on Saturday (歌舞伎のチケットを2枚もらいました。今週の土曜日に一緒にいかがですか)."
+      },
+      {
+        "question": "How does Mr. Miller feel about Kabuki?",
+        "options": [
+          "He dislikes it and does not understand it at all",
+          "He loves it very much",
+          "He is poor at it and never watches it",
+          "He only likes classical music"
+        ],
+        "answer": 1,
+        "explanation": "Miller states: ええ、とても好きです。特に歌舞伎が好きですね and later calls it 大好き."
+      },
+      {
+        "question": "Why can't Mr. Miller go to the Kabuki performance with Takashi?",
+        "options": [
+          "Because he has to work overtime at the company",
+          "Because he has no money for the ticket",
+          "Because it is his wife's birthday and he has dinner plans with his family",
+          "Because he has an appointment with the doctor"
+        ],
+        "answer": 2,
+        "explanation": "Miller explains: 土曜日は妻の誕生日ですから、家族と食事の約束があります (Because it is my wife's birthday, I have plans to eat with my family)."
+      },
+      {
+        "question": "Which word did Mr. Miller use to refer to his own wife?",
+        "options": [
+          "奥さん (okusan)",
+          "妻 (tsuma)",
+          "ご主人 (goshujin)",
+          "子ども (kodomo)"
+        ],
+        "answer": 1,
+        "explanation": "When referring humbly to one's own wife, Japanese speakers use 妻 (tsuma) or 家内 (kanai), reserving 奥さん for someone else's wife."
+      },
+      {
+        "question": "Which word did Takashi use when referring to Mr. Miller's wife?",
+        "options": [
+          "奥さん (okusan)",
+          "妻 (tsuma)",
+          "家内 (kanai)",
+          "主人 (shujin)"
+        ],
+        "answer": 0,
+        "explanation": "Takashi politely said 『奥さんの誕生日ですか』 using the respectful term 奥さん for Miller's wife."
+      },
+      {
+        "question": "How does Miller decline the invitation in natural Japanese before stating his full reason?",
+        "options": [
+          "行きません (I won't go)",
+          "嫌いです (I hate it)",
+          "土曜日はちょっと… (Saturday is a bit...)",
+          "全然だめです (It is completely no good)"
+        ],
+        "answer": 2,
+        "explanation": "Japanese speakers soften refusals by saying 『土曜日はちょっと…』 (Saturday is a bit difficult...) to avoid blunt confrontation."
+      },
+      {
+        "question": "In 『妻の誕生日ですから』, what is the grammatical function of から?",
+        "options": [
+          "It marks the starting point in time ('from')",
+          "It marks the cause/reason ('because it is my wife's birthday')",
+          "It means 'after doing' (て-form)",
+          "It marks the direct object of a verb"
+        ],
+        "answer": 1,
+        "explanation": "Attached to a sentence/predicate, から denotes the reason or cause ('because / since')."
+      },
+      {
+        "question": "What standard polite phrase did Takashi use when concluding the declined invitation?",
+        "options": [
+          "また今度お願いします (Please ask/invite me again next time)",
+          "どうやって行きますか",
+          "どちらがいいですか",
+          "もう一度言ってください"
+        ],
+        "answer": 0,
+        "explanation": "『また今度お願いします』 is the standard Japanese polite parting phrase after an invitation cannot be accepted."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct particle for expressing preference: 'I like Italian cuisine.'",
+      "prompt": {
+        "kanji": "私はイタリア料理___好きです。",
+        "kana": "わたしは イタリアりょうり___ すきです。"
+      },
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "好き is a な-adjective expressing emotional preference; its target takes the particle が, not を."
+    },
+    {
+      "question": "Choose the correct particle: 'Mr. Miller is good at tennis.'",
+      "prompt": {
+        "kanji": "ミラーさんはテニス___上手です。",
+        "kana": "ミラーさんは テニス___ じょうずです。"
+      },
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "上手 is an adjective of ability; the skill being evaluated is marked by が."
+    },
+    {
+      "question": "According to Japanese modesty customs, how should you reply when someone compliments: '日本語が上手ですね'?",
+      "options": [
+        "はい、上手です。",
+        "いいえ、まだまだです。",
+        "ええ、日本語が大好きです。",
+        "私は上手じゃありませんでした。"
+      ],
+      "answer": 1,
+      "explanation": "Never praise your own skill with 上手です. The natural humble response is 『いいえ、まだまだです』 (No, I still have a long way to go) or 『下手です』."
+    },
+    {
+      "question": "Choose the correct particle for comprehension: 'I understand English.'",
+      "prompt": {
+        "kanji": "私は英語___分かります。",
+        "kana": "わたしは えいご___ わかります。"
+      },
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "分かります is an intransitive verb of state/comprehension; the language understood is marked by が."
+    },
+    {
+      "question": "Choose the correct particle for possession: 'I have concert tickets.'",
+      "prompt": {
+        "kanji": "コンサートのチケット___あります。",
+        "kana": "コンサートの チケット___ あります。"
+      },
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "あります denotes possession of inanimate objects and takes the particle が."
+    },
+    {
+      "question": "Choose the adverb meaning 'well / thoroughly' to express a high degree of understanding: 'I understand Japanese well.'",
+      "prompt": {
+        "kanji": "日本語が___分かります。",
+        "kana": "にほんごが ___ わかります。"
+      },
+      "options": [
+        "よく",
+        "たくさん",
+        "だいたい",
+        "少し"
+      ],
+      "answer": 0,
+      "explanation": "よく modifies verbs of ability/comprehension to mean 'well' (degree). たくさん is for physical quantity, not degree of understanding."
+    },
+    {
+      "question": "Choose the correct adverb for quantity: 'I have a lot of books.'",
+      "prompt": {
+        "kanji": "本が___あります。",
+        "kana": "ほんが ___ あります。"
+      },
+      "options": [
+        "たくさん",
+        "よく",
+        "だいたい",
+        "全然"
+      ],
+      "answer": 0,
+      "explanation": "たくさん expresses a large quantity of countable or mass nouns. よく cannot be used for physical amount."
+    },
+    {
+      "question": "Choose the adverb that MUST pair with a negative verb ending to mean 'not at all': 'I do not understand kanji at all.'",
+      "prompt": {
+        "kanji": "漢字が___分かりません。",
+        "kana": "かんじが ___ わかりません。"
+      },
+      "options": [
+        "全然",
+        "たくさん",
+        "よく",
+        "だいたい"
+      ],
+      "answer": 0,
+      "explanation": "全然 (ぜんぜん) requires a negative predicate (分かりません) to mean 'not at all'."
+    },
+    {
+      "question": "Choose the correct order to say: 'Because I don't have time, I will take a taxi.'",
+      "options": [
+        "時間がありませんから、タクシーで行きます。",
+        "タクシーで行きますから、時間がありません。",
+        "時間がありません、タクシーで行きますから。",
+        "時間がありますが、タクシーで行きます。"
+      ],
+      "answer": 0,
+      "explanation": "Japanese places the reason clause first followed by から: [Reason] から、[Result]."
+    },
+    {
+      "question": "Choose the appropriate question word to ask for a reason: 'Why were you absent yesterday?'",
+      "prompt": {
+        "kanji": "___昨日休みましたか。",
+        "kana": "___ きのう やすみましたか。"
+      },
+      "options": [
+        "どうして",
+        "どうやって",
+        "どんな",
+        "どちら"
+      ],
+      "answer": 0,
+      "explanation": "どうして asks for a reason ('why'). どうやって asks for a process or route ('how')."
+    },
+    {
+      "question": "Choose the humble term when talking to a neighbor about your own husband.",
+      "options": [
+        "夫 (おっと) / 主人 (しゅじん)",
+        "ご主人 (ごしゅじん)",
+        "奥さん (おくさん)",
+        "お子さん (おこさん)"
+      ],
+      "answer": 0,
+      "explanation": "夫 or 主人 is used for one's own husband. ご主人 is reserved for someone else's husband."
+    },
+    {
+      "question": "Choose the polite term when asking about your boss's wife.",
+      "options": [
+        "奥さん (おくさん)",
+        "妻 (つま)",
+        "家内 (かない)",
+        "主人 (しゅじん)"
+      ],
+      "answer": 0,
+      "explanation": "奥さん is used to respectfully refer to someone else's wife."
+    },
+    {
+      "question": "Choose the meaning of 細かいお金 (こまかいおかね).",
+      "options": [
+        "Small change / coins",
+        "A large sum of money",
+        "Counterfeit money",
+        "Electronic money"
+      ],
+      "answer": 0,
+      "explanation": "細かいお金 refers to small change or small denomination coins/bills."
+    },
+    {
+      "question": "Choose the meaning of 用事 (ようじ).",
+      "options": [
+        "Errand / something to do / business",
+        "Promise / engagement",
+        "Free time",
+        "Hobbies and sports"
+      ],
+      "answer": 0,
+      "explanation": "用事 means an errand, task, or business to attend to."
+    },
+    {
+      "question": "Choose the meaning of 約束 (やくそく).",
+      "options": [
+        "Appointment / promise / arrangement",
+        "Errand",
+        "Accident",
+        "Free time"
+      ],
+      "answer": 0,
+      "explanation": "約束 means an appointment, promise, or scheduled plan with someone."
+    },
+    {
+      "question": "Choose the correct phrase to ask: 'What kind of sports do you like?'",
+      "options": [
+        "どんなスポーツが好きですか。",
+        "どうやってスポーツが好きですか。",
+        "どれスポーツが好きですか。",
+        "どちらスポーツが好きですか。"
+      ],
+      "answer": 0,
+      "explanation": "どんな + Noun asks what kind of item within that broad category someone likes."
+    },
+    {
+      "question": "Choose the correct negative form: 'I do not like fish.'",
+      "prompt": {
+        "kanji": "魚が___。",
+        "kana": "さかなが ___。"
+      },
+      "options": [
+        "好きじゃありません",
+        "好きくないです",
+        "好きくありません",
+        "好きではありませんでした"
+      ],
+      "answer": 0,
+      "explanation": "好き is a な-adjective; its present polite negative is 好きじゃありません (or 好きではありません)."
+    },
+    {
+      "question": "Choose the correct negative form: 'I am not good at singing.'",
+      "prompt": {
+        "kanji": "歌が___。",
+        "kana": "うたが ___。"
+      },
+      "options": [
+        "上手じゃありません",
+        "上手くないです",
+        "上手くありません",
+        "上手でした"
+      ],
+      "answer": 0,
+      "explanation": "上手 is a な-adjective; negative is 上手じゃありません."
+    },
+    {
+      "question": "Which sentence means 'I mostly understand hiragana'?",
+      "options": [
+        "ひらがながだいたい分かります。",
+        "ひらがながたくさん分かります。",
+        "ひらがなが全然分かります。",
+        "ひらがながあまり分かります。"
+      ],
+      "answer": 0,
+      "explanation": "だいたい means 'mostly / roughly' (around 80% degree)."
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "漢字が全然分かりません。",
+        "漢字が全然分かります。",
+        "漢字があまり分かりません。",
+        "漢字がよく分かります。"
+      ],
+      "answer": 1,
+      "explanation": "全然 must be used with a negative predicate in standard Japanese (全然分かりません). Pairing it with affirmative 分かります is ungrammatical here."
+    },
+    {
+      "question": "Choose the correct answer to: 『どうして朝ご飯を食べませんでしたか』.",
+      "options": [
+        "時間がありませんでしたから。",
+        "時間がありませんでしたけど。",
+        "時間がありませんでしたそして。",
+        "時間がありませんでしたからで。"
+      ],
+      "answer": 0,
+      "explanation": "Answers to どうして end in ～から (or ～からです) to express the reason."
+    },
+    {
+      "question": "Choose the natural response when declining an invitation: 'Tomorrow is a bit difficult because I have plans.'",
+      "prompt": {
+        "kanji": "明日はちょっと約束があります___…。",
+        "kana": "あすは ちょっと やくそくが あります___…。"
+      },
+      "options": [
+        "から",
+        "けど",
+        "ので",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "Stating a reason ending with から… subtly and politely conveys that you cannot make the invitation."
+    },
+    {
+      "question": "What is the meaning of 残念です (ざんねんです)?",
+      "options": [
+        "That's too bad / regrettable",
+        "That is wonderful",
+        "I am very happy",
+        "You are welcome"
+      ],
+      "answer": 0,
+      "explanation": "残念です means 'it is regrettable' or 'that's a pity / too bad'."
+    },
+    {
+      "question": "Choose the greeting used when answering the phone in Japanese.",
+      "options": [
+        "もしもし",
+        "こんにちは",
+        "いらっしゃいませ",
+        "いただきます"
+      ],
+      "answer": 0,
+      "explanation": "もしもし is the standard telephone greeting."
+    },
+    {
+      "question": "Choose the expression meaning 'Won't you join me / How about coming along?':",
+      "options": [
+        "一緒にいかがですか",
+        "一緒にどうやってですか",
+        "一緒にどれですか",
+        "一緒に何ですか"
+      ],
+      "answer": 0,
+      "explanation": "一緒にいかがですか is a polite way to invite someone to join an activity."
+    },
+    {
+      "question": "Choose the correct particle: 'Because today is my child's birthday, I will buy a cake.'",
+      "prompt": {
+        "kanji": "今日は子どもの誕生日です___、ケーキを買います。",
+        "kana": "きょうは こどもの たんじょうびです___、ケーキを かいます。"
+      },
+      "options": [
+        "から",
+        "が",
+        "で",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "から links the reason (birthday) to the resulting action (buying cake)."
+    },
+    {
+      "question": "Choose the correct particle: 'I have an errand at the company.'",
+      "prompt": {
+        "kanji": "会社___用事があります。",
+        "kana": "かいしゃ___ ようじが あります。"
+      },
+      "options": [
+        "で",
+        "を",
+        "が",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The location where an event or errand takes place is marked by で."
+    },
+    {
+      "question": "Choose the correct word for traditional Japanese musical theater.",
+      "options": [
+        "歌舞伎 (かぶき)",
+        "カラオケ",
+        "ジャズ",
+        "クラシック"
+      ],
+      "answer": 0,
+      "explanation": "歌舞伎 (Kabuki) is traditional Japanese theater."
+    },
+    {
+      "question": "Choose the word meaning 'trip / travel'.",
+      "options": [
+        "旅行 (りょこう)",
+        "約束 (やくそく)",
+        "用事 (ようじ)",
+        "料理 (りょうり)"
+      ],
+      "answer": 0,
+      "explanation": "旅行 means trip or travel."
+    },
+    {
+      "question": "Choose the word meaning 'song'.",
+      "options": [
+        "歌 (うた)",
+        "絵 (え)",
+        "字 (じ)",
+        "音楽 (おんがく)"
+      ],
+      "answer": 0,
+      "explanation": "歌 = song, 絵 = picture/drawing, 字 = character/letter, 音楽 = music."
+    },
+    {
+      "question": "Choose the word meaning 'handwriting / character / letter'.",
+      "options": [
+        "字 (じ)",
+        "絵 (え)",
+        "歌 (うた)",
+        "券 (けん)"
+      ],
+      "answer": 0,
+      "explanation": "字 refers to letters, characters, or someone's handwriting."
+    },
+    {
+      "question": "Choose the correct particle: 'As for me, I like baseball, but my brother likes soccer.'",
+      "prompt": {
+        "kanji": "私___野球が好きですが、弟___サッカーが好きです。",
+        "kana": "わたし___ やきゅうが すきですが、おとうと___ サッカーが すきです。"
+      },
+      "options": [
+        "は、は",
+        "が、が",
+        "を、を",
+        "に、に"
+      ],
+      "answer": 0,
+      "explanation": "Contrast between two topics requires the topic marker は (私は…弟は…)."
+    },
+    {
+      "question": "Choose the correct sentence to express having a small amount of money.",
+      "options": [
+        "お金が少しあります。",
+        "お金がよくあります。",
+        "お金がだいたいあります。",
+        "お金があまりあります。"
+      ],
+      "answer": 0,
+      "explanation": "少し denotes a small quantity. よく and だいたい modify degree, while あまり requires a negative."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'I don't have much money.'",
+      "options": [
+        "お金があまりありません。",
+        "お金がたくさんありません。",
+        "お金が全然あります。",
+        "お金が少しありません。"
+      ],
+      "answer": 0,
+      "explanation": "あまり + negative verb (ありません) means 'not much / not many'."
+    },
+    {
+      "question": "Choose the opposite of 好き (すき).",
+      "options": [
+        "嫌い (きらい)",
+        "上手 (じょうず)",
+        "下手 (へた)",
+        "きれい"
+      ],
+      "answer": 0,
+      "explanation": "好き (like) ↔ 嫌い (dislike). 上手 ↔ 下手."
+    },
+    {
+      "question": "Choose the opposite of 上手 (じょうず).",
+      "options": [
+        "下手 (へた)",
+        "嫌い (きらい)",
+        "悪い (わるい)",
+        "遠い (とおい)"
+      ],
+      "answer": 0,
+      "explanation": "上手 (skillful) ↔ 下手 (unskillful)."
+    },
+    {
+      "question": "Choose the correct word: 'I wake up early in the morning.'",
+      "prompt": {
+        "kanji": "朝___起きます。",
+        "kana": "あさ ___ おきます。"
+      },
+      "options": [
+        "早く",
+        "速く",
+        "下手",
+        "だいたい"
+      ],
+      "answer": 0,
+      "explanation": "Early in time is 早く. Fast in speed is 速く."
+    },
+    {
+      "question": "Choose the correct word: 'The Shinkansen runs fast.'",
+      "prompt": {
+        "kanji": "新幹線は___走ります。",
+        "kana": "しんかんせんは ___ はしります。"
+      },
+      "options": [
+        "速く",
+        "早く",
+        "よく",
+        "少し"
+      ],
+      "answer": 0,
+      "explanation": "Fast in movement/speed is 速く."
+    },
+    {
+      "question": "In the question 『誰が歌が上手ですか』, why is 誰 marked with が?",
+      "options": [
+        "Interrogative question words like 誰 can never take the topic marker は as a subject",
+        "Because 上手 requires を",
+        "Because 誰 is an object",
+        "It is an error and should be は"
+      ],
+      "answer": 0,
+      "explanation": "Question words (誰, 何, どれ) cannot take the topic marker は when serving as the sentence subject; they MUST take が."
+    },
+    {
+      "question": "Choose the correct translation: 'I don't understand French very well.'",
+      "options": [
+        "フランス語があまり分かりません。",
+        "フランス語が全然分かります。",
+        "フランス語をよく分かりません。",
+        "フランス語が少し分かりません。"
+      ],
+      "answer": 0,
+      "explanation": "フランス語があまり分かりません correctly combines あまり with the negative 分かりません."
+    },
+    {
+      "question": "Choose the correct translation: 'Because I was sick yesterday, I did not go to school.'",
+      "options": [
+        "昨日は病気でしたから、学校へ行きませんでした。",
+        "昨日は病気でした、学校へ行きませんでしたから。",
+        "学校へ行きませんでしたから、昨日は病気でした。",
+        "昨日は病気でしたから、学校へ行きました。"
+      ],
+      "answer": 0,
+      "explanation": "Cause first: 昨日は病気でしたから, followed by result: 学校へ行きませんでした."
+    },
+    {
+      "question": "Choose the sentence that correctly uses the verb あります.",
+      "options": [
+        "新宿で友達と約束があります。",
+        "新宿で友達と約束を行きます。",
+        "新宿で友達と約束をしますから、いません。",
+        "新宿で友達と約束がありますです。"
+      ],
+      "answer": 0,
+      "explanation": "約束があります means 'to have an appointment / plans'."
+    },
+    {
+      "question": "Choose the correct particle: 'Do you have small change for the bus?'",
+      "prompt": {
+        "kanji": "バスの細かいお金___ありますか。",
+        "kana": "バスの こまかい おかね___ ありますか。"
+      },
+      "options": [
+        "が",
+        "を",
+        "で",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Inanimate possession with あります takes が."
+    },
+    {
+      "question": "Choose the best ending to politely decline an invitation and express hope for future occasions.",
+      "options": [
+        "また今度お願いします。",
+        "全然行きません。",
+        "嫌いですから、行きません。",
+        "どうしてですか。"
+      ],
+      "answer": 0,
+      "explanation": "また今度お願いします is the standard polite softening phrase."
+    },
+    {
+      "question": "Choose the correct sentence describing having two children.",
+      "options": [
+        "子どもが2人います。",
+        "子どもが2人あります。",
+        "子どもを2人分かります。",
+        "子どもに2人好きです。"
+      ],
+      "answer": 0,
+      "explanation": "Living beings (children, family, animals) use います, not あります."
+    }
+  ],
+  "writing": {
+    "title": "Hobbies, Skills, Preferences, and Weekend Plans",
+    "prompt": "Write a 6–8 sentence passage in Japanese covering the following: (1) State what sports, music, or food you like and dislike using 『N が 好きです / 嫌いです』. (2) Describe a skill you are good at or poor at using 『N が 上手 / 下手です』, and mention your foreign language ability using 分かります with an adverb of degree (よく, だいたい, 少し, 全然). (3) Explain what commitments or errands you have this weekend using 『N が あります』 (時間, 用事, 約束). (4) Give a reason using ～から explaining why you can or cannot go somewhere, and include a polite refusal or invitation (いかがですか / また今度お願いします).",
+    "placeholder": "私は ______ が好きですが、______ は嫌いです。\n______ が少し分かりますが、______ は全然分かりません。\n今週の土曜日は ______ がありますから、______ へ行きません。\n日曜日に ______ のチケットがあります。一緒に ______ か。",
+    "modelAnswer": "私はスポーツが大好きですが、料理はあまり上手じゃありません。英語がよく分かりますが、漢字はまだ少ししか分かりません。今週の土曜日は市役所で用事がありますから、どこも行きません。日曜日は友達からジャズのチケットをもらいましたから、時間があります。たかしさん、日曜日にジャズのコンサートへ一緒にいかがですか。土曜日がだめでしたら、また今度お願いします。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I understand Japanese a little, but I don't understand kanji at all.",
+        "chunks": [
+          "日本語が少し分かりますが、",
+          "漢字は全然",
+          "分かりません。"
+        ]
+      },
+      {
+        "en": "Because I have no time today, I will go by taxi.",
+        "chunks": [
+          "今日は時間がありませんから、",
+          "タクシーで",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "Mr. Miller is very good at tennis, but poor at singing.",
+        "chunks": [
+          "ミラーさんはテニスがとても上手ですが、",
+          "歌が",
+          "下手です。"
+        ]
+      },
+      {
+        "en": "What kind of drinks do you like?",
+        "chunks": [
+          "どんな飲み物が",
+          "好きですか。"
+        ]
+      },
+      {
+        "en": "Because it is my wife's birthday, I will go home early.",
+        "chunks": [
+          "妻の誕生日ですから、",
+          "早く",
+          "帰ります。"
+        ]
+      },
+      {
+        "en": "I have two baseball tickets. Won't you join me?",
+        "chunks": [
+          "野球のチケットが2枚あります。",
+          "一緒に",
+          "いかがですか。"
+        ]
+      },
+      {
+        "en": "Why were you absent from work yesterday?",
+        "chunks": [
+          "どうして昨日",
+          "会社を",
+          "休みましたか。"
+        ]
+      },
+      {
+        "en": "Because I had a fever yesterday, I went to the hospital.",
+        "chunks": [
+          "昨日は熱がありましたから、",
+          "病院へ",
+          "行きました。"
+        ]
+      },
+      {
+        "en": "I have an errand tomorrow, so Saturday is a bit difficult.",
+        "chunks": [
+          "明日は用事がありますから、",
+          "土曜日は",
+          "ちょっと…。"
+        ]
+      },
+      {
+        "en": "Mr. Tanaka's wife has very beautiful handwriting.",
+        "chunks": [
+          "田中さんの奥さんは",
+          "字がとても",
+          "きれいです。"
+        ]
+      },
+      {
+        "en": "I love Italian cuisine, but I dislike natto.",
+        "chunks": [
+          "イタリア料理が大好きですが、",
+          "納豆は",
+          "嫌いです。"
+        ]
+      },
+      {
+        "en": "Do you have small change for the bus?",
+        "chunks": [
+          "バスの細かいお金が",
+          "ありますか。"
+        ]
+      },
+      {
+        "en": "I mostly understand hiragana and katakana.",
+        "chunks": [
+          "ひらがなとカタカナが",
+          "だいたい",
+          "分かります。"
+        ]
+      },
+      {
+        "en": "I have an appointment with a friend tonight.",
+        "chunks": [
+          "今夜友達と",
+          "約束が",
+          "あります。"
+        ]
+      },
+      {
+        "en": "I don't have much money, so I won't buy expensive clothes.",
+        "chunks": [
+          "お金があまりありませんから、",
+          "高い服は",
+          "買いません。"
+        ]
+      },
+      {
+        "en": "That's too bad. Please invite me again next time.",
+        "chunks": [
+          "残念ですね。",
+          "また今度",
+          "お願いします。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "好き (すき) - Present Negative",
+        "form": "な-adjective negative",
+        "answer": "すきじゃ ありません",
+        "options": [
+          "すきじゃ ありません",
+          "すきくないです",
+          "すきくありません"
+        ],
+        "hint": "な-adjective: add じゃ ありません (or ではありません)"
+      },
+      {
+        "prompt": "嫌い (きらい) - Present Negative",
+        "form": "な-adjective negative",
+        "answer": "きらいじゃ ありません",
+        "options": [
+          "きらいじゃ ありません",
+          "きらいくないです",
+          "きらいないです"
+        ],
+        "hint": "嫌い ends in い phonetically but is a な-adjective!"
+      },
+      {
+        "prompt": "上手 (じょうず) - Present Negative",
+        "form": "な-adjective negative",
+        "answer": "じょうずじゃ ありません",
+        "options": [
+          "じょうずじゃ ありません",
+          "じょうずくないです",
+          "じょうずないです"
+        ],
+        "hint": "な-adjective negative form"
+      },
+      {
+        "prompt": "下手 (へた) - Present Negative",
+        "form": "な-adjective negative",
+        "answer": "へたじゃ ありません",
+        "options": [
+          "へたじゃ ありません",
+          "へたくないです",
+          "へたくありません"
+        ],
+        "hint": "な-adjective negative form"
+      },
+      {
+        "prompt": "分かります (わかります) - Present Negative",
+        "form": "Verb negative",
+        "answer": "わかりません",
+        "options": [
+          "わかりません",
+          "わからありません",
+          "わかりないです"
+        ],
+        "hint": "Replace -ます with -ません"
+      },
+      {
+        "prompt": "分かります (わかります) - Past Affirmative",
+        "form": "Verb past",
+        "answer": "わかりました",
+        "options": [
+          "わかりました",
+          "わかりますた",
+          "わかったでした"
+        ],
+        "hint": "Replace -ます with -ました"
+      },
+      {
+        "prompt": "分かります (わかります) - Past Negative",
+        "form": "Verb past negative",
+        "answer": "わかりませんでした",
+        "options": [
+          "わかりませんでした",
+          "わかりませんでしたた",
+          "わからなかったです"
+        ],
+        "hint": "Replace -ます with -ませんでした"
+      },
+      {
+        "prompt": "あります - Present Negative",
+        "form": "Verb negative",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "ありないです",
+          "あらないです"
+        ],
+        "hint": "あります becomes ありません"
+      },
+      {
+        "prompt": "あります - Past Affirmative",
+        "form": "Verb past",
+        "answer": "ありました",
+        "options": [
+          "ありました",
+          "ありますた",
+          "あったです"
+        ],
+        "hint": "Replace -ます with -ました"
+      },
+      {
+        "prompt": "あります - Past Negative",
+        "form": "Verb past negative",
+        "answer": "ありませんでした",
+        "options": [
+          "ありませんでした",
+          "ありなかったです",
+          "ありませんでしたた"
+        ],
+        "hint": "Replace -ます with -ませんでした"
+      },
+      {
+        "prompt": "全然 (ぜんぜん) + 分かります",
+        "form": "Negative polarity pairing",
+        "answer": "ぜんぜん わかりません",
+        "options": [
+          "ぜんぜん わかりません",
+          "ぜんぜん わかります",
+          "ぜんぜん わかりました"
+        ],
+        "hint": "全然 MUST pair with a negative ending"
+      },
+      {
+        "prompt": "あまり + あります",
+        "form": "Negative polarity pairing",
+        "answer": "あまり ありません",
+        "options": [
+          "あまり ありません",
+          "あまり あります",
+          "あまり ありました"
+        ],
+        "hint": "あまり MUST pair with a negative predicate"
+      },
+      {
+        "prompt": "よく + 分かります",
+        "form": "Affirmative degree pairing",
+        "answer": "よく わかります",
+        "options": [
+          "よく わかります",
+          "よく わかりません",
+          "よく ないです"
+        ],
+        "hint": "よく pairs with affirmative to mean 'understands well'"
+      },
+      {
+        "prompt": "だいたい + 分かります",
+        "form": "Affirmative degree pairing",
+        "answer": "だいたい わかります",
+        "options": [
+          "だいたい わかります",
+          "だいたい わかりません",
+          "だいたい ないです"
+        ],
+        "hint": "だいたい means 'mostly / roughly'"
+      },
+      {
+        "prompt": "たくさん + あります",
+        "form": "Affirmative quantity pairing",
+        "answer": "たくさん あります",
+        "options": [
+          "たくさん あります",
+          "たくさん ありません",
+          "たくさん ないです"
+        ],
+        "hint": "たくさん means 'a lot / many'"
+      },
+      {
+        "prompt": "少し (すこし) + あります",
+        "form": "Affirmative quantity pairing",
+        "answer": "すこし あります",
+        "options": [
+          "すこし あります",
+          "すこし ありません",
+          "すこし ないです"
+        ],
+        "hint": "少し means 'a little / a few'"
+      },
+      {
+        "prompt": "Someone else's husband (Respectful)",
+        "form": "Family honorific",
+        "answer": "ごしゅじん",
+        "options": [
+          "ごしゅじん",
+          "おっと",
+          "しゅじん"
+        ],
+        "hint": "Add prefix ご- for someone else's husband"
+      },
+      {
+        "prompt": "My own husband (Humble)",
+        "form": "Family humble",
+        "answer": "おっと / しゅじん",
+        "options": [
+          "おっと / しゅじん",
+          "ごしゅじん",
+          "おくさん"
+        ],
+        "hint": "Use 夫 (おっと) or 主人 (しゅじん) for your own husband"
+      },
+      {
+        "prompt": "Someone else's wife (Respectful)",
+        "form": "Family honorific",
+        "answer": "おくさん",
+        "options": [
+          "おくさん",
+          "つま",
+          "かない"
+        ],
+        "hint": "Use 奥さん (おくさん) for another person's wife"
+      },
+      {
+        "prompt": "My own wife (Humble)",
+        "form": "Family humble",
+        "answer": "つま / かない",
+        "options": [
+          "つま / かない",
+          "おくさん",
+          "ごしゅじん"
+        ],
+        "hint": "Use 妻 (つま) or 家内 (かない) for your own wife"
+      },
+      {
+        "prompt": "好き (Past Affirmative)",
+        "form": "な-adjective past",
+        "answer": "すきでした",
+        "options": [
+          "すきでした",
+          "すきかったです",
+          "すきでしたた"
+        ],
+        "hint": "な-adjective past affirmative is でした"
+      },
+      {
+        "prompt": "嫌い (Past Negative)",
+        "form": "な-adjective past negative",
+        "answer": "きらいじゃ ありませんでした",
+        "options": [
+          "きらいじゃ ありませんでした",
+          "きらいくなかったです",
+          "きらいじゃ ないでした"
+        ],
+        "hint": "な-adjective past negative is じゃ ありませんでした"
+      },
+      {
+        "prompt": "上手 (Past Affirmative)",
+        "form": "な-adjective past",
+        "answer": "じょうずでした",
+        "options": [
+          "じょうずでした",
+          "じょうずかったです",
+          "じょうずますた"
+        ],
+        "hint": "な-adjective past affirmative is でした"
+      },
+      {
+        "prompt": "下手 (Past Negative)",
+        "form": "な-adjective past negative",
+        "answer": "へたじゃ ありませんでした",
+        "options": [
+          "へたじゃ ありませんでした",
+          "へたくなかったです",
+          "へたでしたない"
+        ],
+        "hint": "な-adjective past negative is じゃ ありませんでした"
+      },
+      {
+        "prompt": "早い (Adverb form: early)",
+        "form": "い-adjective to adverb",
+        "answer": "はやく",
+        "options": [
+          "はやく",
+          "はやくて",
+          "はやいで"
+        ],
+        "hint": "Replace final い with く"
+      },
+      {
+        "prompt": "速い (Adverb form: fast / quickly)",
+        "form": "い-adjective to adverb",
+        "answer": "はやく",
+        "options": [
+          "はやく",
+          "はやいで",
+          "はやいく"
+        ],
+        "hint": "Replace final い with く"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "私はイタリア料理 [ ? ] 好きです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Preferences with 好き take the particle が."
+      },
+      {
+        "sentence": "田中さんは歌 [ ? ] 上手です。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "hint": "Skill targets with 上手 take particle が."
+      },
+      {
+        "sentence": "私はフランス語 [ ? ] 分かりません。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Comprehension with 分かります takes particle が."
+      },
+      {
+        "sentence": "今日はお金 [ ? ] ありません。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Inanimate possession with あります / ありません takes が."
+      },
+      {
+        "sentence": "時間がありません [ ? ]、タクシーで行きます。",
+        "answer": "から",
+        "options": [
+          "から",
+          "ので",
+          "けど",
+          "が"
+        ],
+        "hint": "Giving a reason or cause uses conjunctive particle から."
+      },
+      {
+        "sentence": "私 [ ? ] スポーツが好きですが、夫は嫌いです。",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "に"
+        ],
+        "hint": "Setting contrasting topics uses particle は."
+      },
+      {
+        "sentence": "誰 [ ? ] 英語が分かりますか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Interrogative subjects (誰, 何) MUST take particle が."
+      },
+      {
+        "sentence": "新宿 [ ? ] 用事があります。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Location where an errand or event takes place uses で."
+      },
+      {
+        "sentence": "友達 [ ? ] 約束があります。",
+        "answer": "と",
+        "options": [
+          "と",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "Having plans 'with' a companion uses particle と."
+      },
+      {
+        "sentence": "コンサートのチケット [ ? ] 2枚あります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Possession of tickets takes が."
+      },
+      {
+        "sentence": "どんな飲み物 [ ? ] 好きですか。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "hint": "Target of 好き takes が."
+      },
+      {
+        "sentence": "子ども [ ? ] 2人います。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Having children uses います with particle が."
+      },
+      {
+        "sentence": "忙しいです [ ? ]、テレビを見ません。",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "より",
+          "と"
+        ],
+        "hint": "Cause/reason connector is から."
+      },
+      {
+        "sentence": "山田さんは字 [ ? ] きれいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Describing an attribute of a person (N1 は N2 が Adj) takes が."
+      },
+      {
+        "sentence": "兄は野球 [ ? ] 下手です。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Skill/ability target takes が."
+      },
+      {
+        "sentence": "細かいお金 [ ? ] ありませんから、両替します。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Target of ありません takes が."
+      },
+      {
+        "sentence": "日本語 [ ? ] 少し分かります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Comprehension takes が."
+      },
+      {
+        "sentence": "日曜日 [ ? ] 友達と会います。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Specific calendar day/time takes particle に."
+      },
+      {
+        "sentence": "タクシー [ ? ] 会社へ行きます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Means of transportation takes で."
+      },
+      {
+        "sentence": "本 [ ? ] たくさんあります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Possession/existence of books takes が."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Inviting a friend to a concert",
+        "speaker": "たかし",
+        "prompt": "ジャズのチケットが2枚あります。土曜日に一緒にいかがですか。",
+        "options": [
+          {
+            "text": "いいですね。ぜひ行きましょう！",
+            "correct": true
+          },
+          {
+            "text": "ジャズは全然分かりますから、行きません。",
+            "correct": false
+          },
+          {
+            "text": "チケットがどうやってあります。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an invitation enthusiastically with 『いいですね。ぜひ行きましょう』."
+      },
+      {
+        "situation": "Politely declining an invitation due to an errand",
+        "speaker": "友達",
+        "prompt": "明日一緒に映画を見に行きませんか。",
+        "options": [
+          {
+            "text": "すみません、明日はちょっと用事がありますから…。",
+            "correct": true
+          },
+          {
+            "text": "映画は嫌いに行きません。",
+            "correct": false
+          },
+          {
+            "text": "全然映画が上手です。",
+            "correct": false
+          }
+        ],
+        "tip": "Decline gently with 『～はちょっと用事がありますから…』."
+      },
+      {
+        "situation": "Responding to someone who had to decline your invite",
+        "speaker": "同僚",
+        "prompt": "日曜日は家族と約束がありますから、行けません。すみません。",
+        "options": [
+          {
+            "text": "そうですか。残念ですね。じゃあ、また今度お願いします。",
+            "correct": true
+          },
+          {
+            "text": "どうして約束がありますか、だめです。",
+            "correct": false
+          },
+          {
+            "text": "どれ約束がいいですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Show empathy with 『残念ですね』 and soften the future with 『また今度お願いします』."
+      },
+      {
+        "situation": "Asking why a colleague was absent yesterday",
+        "speaker": "上司",
+        "prompt": "どうして昨日休みましたか。",
+        "options": [
+          {
+            "text": "風邪をひいて、熱がありましたから。",
+            "correct": true
+          },
+          {
+            "text": "風邪をひいて、熱がありますけど。",
+            "correct": false
+          },
+          {
+            "text": "熱がよくありましたから、休みません。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer どうして questions with past cause + から."
+      },
+      {
+        "situation": "Responding to a compliment about your Japanese skills",
+        "speaker": "先生",
+        "prompt": "ミラーさんは日本語がお上手ですね。",
+        "options": [
+          {
+            "text": "いいえ、まだまだです。",
+            "correct": true
+          },
+          {
+            "text": "はい、とても上手です。",
+            "correct": false
+          },
+          {
+            "text": "ええ、上手じゃありませんでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Always maintain humility in Japanese culture: respond with 『まだまだです』."
+      },
+      {
+        "situation": "Asking about someone's tastes at a dinner table",
+        "speaker": "ホスト",
+        "prompt": "どんな料理が好きですか。",
+        "options": [
+          {
+            "text": "日本料理が好きです。特に寿司が好きです。",
+            "correct": true
+          },
+          {
+            "text": "日本料理を好きです。",
+            "correct": false
+          },
+          {
+            "text": "日本料理がどうやって好きです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer どんな料理 questions with [Genre] が 好きです."
+      },
+      {
+        "situation": "Checking comprehension during a lesson",
+        "speaker": "先生",
+        "prompt": "今日の文法が分かりましたか。",
+        "options": [
+          {
+            "text": "はい、だいたい分かりました。",
+            "correct": true
+          },
+          {
+            "text": "はい、全然分かりません。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、よく分かりました。",
+            "correct": false
+          }
+        ],
+        "tip": "だいたい (mostly) pairs with positive affirmative 分かりました."
+      },
+      {
+        "situation": "Taking the bus without change",
+        "speaker": "乗客",
+        "prompt": "細かいお金がありませんから、1万円札でもいいですか。",
+        "options": [
+          {
+            "text": "すみません、両替機で両替してください。",
+            "correct": true
+          },
+          {
+            "text": "はい、細かいお金がたくさんありません。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、お金がよくあります。",
+            "correct": false
+          }
+        ],
+        "tip": "細かいお金 = small change; answer by directing to the exchange machine."
+      },
+      {
+        "situation": "Asking who understands a language in the office",
+        "speaker": "同僚",
+        "prompt": "誰が中国語が分かりますか。",
+        "options": [
+          {
+            "text": "ワンさんが分かりますよ。",
+            "correct": true
+          },
+          {
+            "text": "ワンさんはどれが分かります。",
+            "correct": false
+          },
+          {
+            "text": "ワンさんが中国語を好きです。",
+            "correct": false
+          }
+        ],
+        "tip": "Answering a 誰が question requires marking the person with が."
+      },
+      {
+        "situation": "Confirming morning habits",
+        "speaker": "友達",
+        "prompt": "毎朝新聞を読みますか。",
+        "options": [
+          {
+            "text": "いいえ、時間がありませんから、読みません。",
+            "correct": true
+          },
+          {
+            "text": "はい、時間が全然ありませんから、読みます。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、新聞がよくありません。",
+            "correct": false
+          }
+        ],
+        "tip": "State lack of time with 時間がありませんから followed by negative action."
+      },
+      {
+        "situation": "Answering the telephone at home",
+        "speaker": "電話の声",
+        "prompt": "もしもし、たかしさんのお宅ですか。",
+        "options": [
+          {
+            "text": "はい、たかしです。いつもお世話になっております。",
+            "correct": true
+          },
+          {
+            "text": "もしもし、どうやってですか。",
+            "correct": false
+          },
+          {
+            "text": "はい、ご主人です。",
+            "correct": false
+          }
+        ],
+        "tip": "Start telephone conversations with 『もしもし』 and state your identity."
+      },
+      {
+        "situation": "Inquiring about another person's spouse politely",
+        "speaker": "友人",
+        "prompt": "田中さんの奥さんはどんなスポーツが好きですか。",
+        "options": [
+          {
+            "text": "妻はテニスが大好きです。",
+            "correct": true
+          },
+          {
+            "text": "奥さんはテニスが大好きです。",
+            "correct": false
+          },
+          {
+            "text": "ご主人はテニスが上手です。",
+            "correct": false
+          }
+        ],
+        "tip": "When asked about your wife (奥さん), refer to her humbly as 妻 (つまと) in your reply."
+      }
+    ]
+  }
+}

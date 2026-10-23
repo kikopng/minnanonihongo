@@ -1,0 +1,2258 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 18,
+    "title": "Ability, Hobbies, and Time Expressions (Dictionary Form)",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master the verb dictionary form (辞書形), verb nominalization with the particle こと, expressing abilities with 『Noun が できます』 and 『Verb-辞書形 ことができます』, stating hobbies with 『趣味は ～ことです』, and expressing temporal sequences with 『～前に』 (before) and time duration 『～前に』 (ago), along with nuanced adverbs (特に, 是非, なかなか)."
+  },
+  "vocabulary": [
+    {
+      "id": "dekimasu",
+      "kanji": "できます",
+      "kana": "できます",
+      "romaji": "dekimasu",
+      "meaning": "can do; be able to do",
+      "category": "verb",
+      "example": {
+        "kanji": "私は日本語ができます。",
+        "kana": "わたしは にほんごが できます。",
+        "translation": "I can speak Japanese (literally: I can do Japanese)."
+      }
+    },
+    {
+      "id": "araimasu",
+      "kanji": "洗います",
+      "kana": "あらいます",
+      "romaji": "araimasu",
+      "meaning": "to wash",
+      "category": "verb",
+      "example": {
+        "kanji": "食事の前に手を洗います。",
+        "kana": "しょくじの まえに てを あらいます。",
+        "translation": "I wash my hands before meals."
+      }
+    },
+    {
+      "id": "hikimasu",
+      "kanji": "弾きます",
+      "kana": "ひきます",
+      "romaji": "hikimasu",
+      "meaning": "to play [a stringed or keyboard instrument]",
+      "category": "verb",
+      "example": {
+        "kanji": "ギターを弾きます。ピアノを弾きます。",
+        "kana": "ギターを ひきます。ピアノを ひきます。",
+        "translation": "I play the guitar. I play the piano."
+      }
+    },
+    {
+      "id": "utaimasu",
+      "kanji": "歌います",
+      "kana": "うたいます",
+      "romaji": "utaimasu",
+      "meaning": "to sing",
+      "category": "verb",
+      "example": {
+        "kanji": "日本の歌を歌います。",
+        "kana": "にほんの うたを うたいます。",
+        "translation": "I sing Japanese songs."
+      }
+    },
+    {
+      "id": "atsumemasu",
+      "kanji": "集めます",
+      "kana": "あつめます",
+      "romaji": "atsumemasu",
+      "meaning": "to collect; to gather",
+      "category": "verb",
+      "example": {
+        "kanji": "ポケモンカードを集めています。",
+        "kana": "ポケモンカードを あつめて います。",
+        "translation": "I collect Pokémon cards."
+      }
+    },
+    {
+      "id": "sutemasu",
+      "kanji": "捨てます",
+      "kana": "すてます",
+      "romaji": "sutemasu",
+      "meaning": "to throw away; to discard",
+      "category": "verb",
+      "example": {
+        "kanji": "ゴミを捨てます。",
+        "kana": "ゴミを すてます。",
+        "translation": "I throw out the trash."
+      }
+    },
+    {
+      "id": "kaemasu",
+      "kanji": "換えます",
+      "kana": "かえます",
+      "romaji": "kaemasu",
+      "meaning": "to exchange; to change [currency, etc.]",
+      "category": "verb",
+      "example": {
+        "kanji": "円をアメリカドルに換えたいです。",
+        "kana": "えんを アメリカドルに かえたいです。",
+        "translation": "I want to exchange yen for US dollars."
+      }
+    },
+    {
+      "id": "untenshimasu",
+      "kanji": "運転します",
+      "kana": "うんてんします",
+      "romaji": "untenshimasu",
+      "meaning": "to drive",
+      "category": "verb",
+      "example": {
+        "kanji": "車を運転することができます。",
+        "kana": "くるまを うんてんする ことが できます。",
+        "translation": "I can drive a car."
+      }
+    },
+    {
+      "id": "yoyakushimasu",
+      "kanji": "予約します",
+      "kana": "よやくします",
+      "romaji": "yoyakushimasu",
+      "meaning": "to reserve; to book",
+      "category": "verb",
+      "example": {
+        "kanji": "ホテルを予約しました。たかしで予約があります。",
+        "kana": "ホテルを よやくしました。たかしで よやくが あります。",
+        "translation": "I booked a hotel. I have a reservation under Takashi."
+      }
+    },
+    {
+      "id": "oinorishimasu",
+      "kanji": "お祈りします",
+      "kana": "おいのりします",
+      "romaji": "oinorishimasu",
+      "meaning": "to pray",
+      "category": "verb",
+      "example": {
+        "kanji": "教会でお祈りします。",
+        "kana": "きょうかいで おいのりします。",
+        "translation": "I pray in the church."
+      }
+    },
+    {
+      "id": "unten",
+      "kanji": "運転",
+      "kana": "うんてん",
+      "romaji": "unten",
+      "meaning": "driving",
+      "category": "noun",
+      "example": {
+        "kanji": "運転が好きです。",
+        "kana": "うんてんが すきです。",
+        "translation": "I like driving."
+      }
+    },
+    {
+      "id": "yoyaku",
+      "kanji": "予約",
+      "kana": "よやく",
+      "romaji": "yoyaku",
+      "meaning": "reservation; booking",
+      "category": "noun",
+      "example": {
+        "kanji": "新幹線の予約をします。",
+        "kana": "しんかんせんの よやくを します。",
+        "translation": "I will make a reservation for the Shinkansen."
+      }
+    },
+    {
+      "id": "oinori",
+      "kanji": "お祈り",
+      "kana": "おいのり",
+      "romaji": "oinori",
+      "meaning": "prayer",
+      "category": "noun",
+      "example": {
+        "kanji": "毎晩お祈りをします。",
+        "kana": "まいばん おいのりを します。",
+        "translation": "I say a prayer every night."
+      }
+    },
+    {
+      "id": "piano",
+      "kanji": "ピアノ",
+      "kana": "ピアノ",
+      "romaji": "piano",
+      "meaning": "piano",
+      "category": "noun",
+      "example": {
+        "kanji": "私の母の趣味はピアノを弾くことです。",
+        "kana": "わたしの ははの しゅみは ピアノを ひく ことです。",
+        "translation": "My mother's hobby is playing the piano."
+      }
+    },
+    {
+      "id": "meetoru",
+      "kanji": "～メートル",
+      "kana": "～メートル",
+      "romaji": "~meetoru",
+      "meaning": "~ meter(s)",
+      "category": "counter",
+      "example": {
+        "kanji": "ここから駅まで200メートルです。",
+        "kana": "ここから えきまで にひゃくメートルです。",
+        "translation": "It is 200 meters from here to the station."
+      }
+    },
+    {
+      "id": "genkin",
+      "kanji": "現金",
+      "kana": "げんきん",
+      "romaji": "genkin",
+      "meaning": "cash",
+      "category": "noun",
+      "example": {
+        "kanji": "現金のみです。",
+        "kana": "げんきん のみです。",
+        "translation": "Cash only."
+      }
+    },
+    {
+      "id": "shumi",
+      "kanji": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "meaning": "hobby; pastime",
+      "category": "noun",
+      "example": {
+        "kanji": "趣味はアニメを見ることです。",
+        "kana": "しゅみは アニメを みる ことです。",
+        "translation": "My hobby is watching anime."
+      }
+    },
+    {
+      "id": "nikki",
+      "kanji": "日記",
+      "kana": "にっき",
+      "romaji": "nikki",
+      "meaning": "diary; journal",
+      "category": "noun",
+      "example": {
+        "kanji": "毎晩日記を書きます。",
+        "kana": "まいばん にっきを かきます。",
+        "translation": "I write in my diary every night."
+      }
+    },
+    {
+      "id": "shachou",
+      "kanji": "社長",
+      "kana": "しゃちょう",
+      "romaji": "shachou",
+      "meaning": "company president; CEO",
+      "category": "noun",
+      "example": {
+        "kanji": "社長と会議をします。",
+        "kana": "しゃちょうと かいぎを します。",
+        "translation": "I have a meeting with the company president."
+      }
+    },
+    {
+      "id": "kachou",
+      "kanji": "課長",
+      "kana": "かちょう",
+      "romaji": "kachou",
+      "meaning": "section chief; section manager",
+      "category": "noun",
+      "example": {
+        "kanji": "課長に報告します。",
+        "kana": "かちょうに ほうこくします。",
+        "translation": "I will report to the section manager."
+      }
+    },
+    {
+      "id": "buchou",
+      "kanji": "部長",
+      "kana": "ぶちょう",
+      "romaji": "buchou",
+      "meaning": "department manager; division head",
+      "category": "noun",
+      "example": {
+        "kanji": "部長はゴルフができます。",
+        "kana": "ぶちょうは ゴルフが できます。",
+        "translation": "The department manager can play golf."
+      }
+    },
+    {
+      "id": "doubutsu",
+      "kanji": "動物",
+      "kana": "どうぶつ",
+      "romaji": "doubutsu",
+      "meaning": "animal",
+      "category": "noun",
+      "example": {
+        "kanji": "どんな動物を飼っていますか？",
+        "kana": "どんな どうぶつを かって いますか？",
+        "translation": "What kind of animal do you keep (as a pet)?"
+      }
+    },
+    {
+      "id": "uma",
+      "kanji": "馬",
+      "kana": "うま",
+      "romaji": "uma",
+      "meaning": "horse",
+      "category": "noun",
+      "example": {
+        "kanji": "今日はどうやってここまで来ましたか？ — 馬で来ました。",
+        "kana": "きょうは どうやって ここまで きましたか？ — うまで きました。",
+        "translation": "How did you get here today? — I came by horse."
+      }
+    },
+    {
+      "id": "intaanetto",
+      "kanji": "インターネット",
+      "kana": "インターネット",
+      "romaji": "intaanetto",
+      "meaning": "the Internet (commonly shortened to ネット)",
+      "category": "noun",
+      "example": {
+        "kanji": "ネットで調べました。",
+        "kana": "ネットで しらべました。",
+        "translation": "I looked it up on the internet."
+      }
+    },
+    {
+      "id": "tokuni",
+      "kanji": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "meaning": "especially; particularly",
+      "category": "adverb",
+      "example": {
+        "kanji": "日本料理の中で特にそばが好きです。今日は特に何もしませんでした。",
+        "kana": "にほんりょうりの なかで とくに そばが すきです。きょうは とくに なにも しませんでした。",
+        "translation": "Among Japanese dishes, I especially like soba. Today I didn't do anything in particular."
+      }
+    },
+    {
+      "id": "zehi",
+      "kanji": "是非",
+      "kana": "ぜひ",
+      "romaji": "zehi",
+      "meaning": "by all means; certainly; definitely (intensifies hope)",
+      "category": "adverb",
+      "example": {
+        "kanji": "また今度、遊びましょう。— はい、是非！",
+        "kana": "また こんど、あそびましょう。— はい、ぜひ！",
+        "translation": "Let's hang out again soon. — Yes, definitely!"
+      }
+    },
+    {
+      "id": "nakanaka",
+      "kanji": "なかなか",
+      "kana": "なかなか",
+      "romaji": "nakanaka",
+      "meaning": "more than expected [affirmative]; not easily / not as expected [negative]",
+      "category": "adverb",
+      "example": {
+        "kanji": "日本ではなかなかメキシコ料理を食べることができません。",
+        "kana": "にほんでは なかなか メキシコりょうりを たべる ことが できません。",
+        "translation": "In Japan, you cannot easily eat Mexican food."
+      }
+    },
+    {
+      "id": "hontou-desu-ka",
+      "kanji": "本当ですか？",
+      "kana": "ほんとうですか？",
+      "romaji": "hontou desu ka?",
+      "meaning": "Really? Is that true?",
+      "category": "expression",
+      "example": {
+        "kanji": "明日テストがありますよ。— 本当ですか？",
+        "kana": "あした テストが ありますよ。— ほんとうですか？",
+        "translation": "We have a test tomorrow. — Really?"
+      }
+    },
+    {
+      "id": "hee",
+      "kanji": "へえ",
+      "kana": "へえ",
+      "romaji": "hee",
+      "meaning": "Really! / Wow! (expression of admiration or mild surprise)",
+      "category": "expression",
+      "example": {
+        "kanji": "馬に乗ることができます。— へえ、すごいですね。",
+        "kana": "うまに のる ことが できます。— へえ、すごいですね。",
+        "translation": "I can ride a horse. — Wow, that's amazing!"
+      }
+    },
+    {
+      "id": "sore-wa-omoshiroi-desu-ne",
+      "kanji": "それは面白いですね",
+      "kana": "それは おもしろいですね",
+      "romaji": "sore wa omoshiroi desu ne",
+      "meaning": "That sounds interesting!",
+      "category": "expression",
+      "example": {
+        "kanji": "趣味は古い切手を集めることです。— それは面白いですね。",
+        "kana": "しゅみは ふるい きってを あつめる ことです。— それは おもしろいですね。",
+        "translation": "My hobby is collecting old stamps. — That sounds interesting!"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Verb Conjugation: Dictionary Form (辞書形 - じしょけい)",
+      "explanation": "The dictionary form (辞書形) is the plain, informal, non-past affirmative form of a verb. It is called the dictionary form because Japanese dictionaries list verbs in this basic form (not in the ます-form). Beyond casual conversation with friends, it serves as an indispensable grammatical building block for complex structures such as ～ことができます (ability), ～ことです (hobbies), and ～前に (before doing).\n\nConjugation Rules by Verb Group:\n1. Group 3 (Irregular Verbs):\n   • します (to do) → する\n   • 来ます (きます, to come) → 来る (くる) (Note the kanji reading changes from き to く!)\n2. Group 2 (る-verbs / vowel-stem verbs):\n   • Replace -ます with -る (ます → る).\n   • Examples: 食べます → 食べる, 見ます → 見る, 教えます → 教える, 集めます → 集める, 捨てます → 捨てる, 換えます → 換える.\n   • Note: できます (can do) is a Group 2 verb despite ending in -i sound → できる.\n3. Group 1 (u-verbs / consonant-stem verbs):\n   • Change the -i vowel syllable right before ます into its corresponding -u vowel syllable (the third row of the Hiragana chart: go one step down from the い-column to the う-column).\n   • い → う (買います → 買う, 洗います → 洗う, 歌います → 歌う)\n   • き → く (行きます → 行く, 書きます → 書く, 弾きます → 弾く)\n   • ぎ → ぐ (泳ぎます → 泳ぐ)\n   • し → す (話します → 話す, 出します → 出す)\n   • ち → つ (待ちます → 待つ, 立ちます → 立つ)\n   • に → ぬ (死にます → 死ぬ)\n   • び → ぶ (呼びます → 呼ぶ, 遊びます → 遊ぶ)\n   • み → む (飲みます → 飲む, 読みます → 読む)\n   • り → る (知ります → 知る, 取ります → 取る, 売ります → 売る, 帰ります → 帰る)",
+      "examples": [
+        {
+          "kanji": "日本語の辞書で言葉を調べるとき、辞書形を使います。",
+          "kana": "にほんごの じしょで ことばを しらべるとき、じしょけいを つかいます。",
+          "translation": "When looking up words in a Japanese dictionary, you use the dictionary form."
+        },
+        {
+          "kanji": "友達と話すとき、辞書形をよく使います。",
+          "kana": "ともだちと はなすとき、じしょけいを よく つかいます。",
+          "translation": "When speaking with friends, the dictionary form is often used."
+        },
+        {
+          "kanji": "食べます → 食べる、行きます → 行く、します → する、来ます → 来る。",
+          "kana": "たべます → たべる、いきます → いく、します → する、きます → くる。",
+          "translation": "tabemasu → taberu, ikimasu → iku, shimasu → suru, kimasu → kuru."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb Nominalization: Verb (辞書形) + こと [The 'Game-Changer']",
+      "explanation": "In Japanese, adjectives and particles like が, を, and に attach directly to nouns, NOT to verbs (you cannot say ✕ 食べるが好きです). To convert an entire verbal action into a noun concept (equivalent to '-ing' or 'to [verb]' in English, e.g., 'eating', 'the act of playing piano'), add the nominalizer こと immediately after the verb in its DICTIONARY FORM:\n\n   Verb (辞書形) + こと ＝ Noun\n\nTakashi calls this a 'game-changer' because once an action is packaged into a noun with こと, you can plug it into any existing noun structure:\n• Noun が 好きです → お寿司を【食べること】が好きです。(I like eating sushi.)\n• Noun が 嫌いです → コーヒーを【飲むこと】が嫌いです。(I hate drinking coffee.)\n• 私の仕事は Noun です → 私の仕事は英語を【教えること】です。(My job is teaching English.)\n• 私の趣味は Noun です → 私の趣味はアニメを【見ること】です。(My hobby is watching anime.)",
+      "examples": [
+        {
+          "kanji": "車を運転することが好きです。",
+          "kana": "くるまを うんてんする ことが すきです。",
+          "translation": "I like driving cars."
+        },
+        {
+          "kanji": "私の趣味は写真を撮ることです。",
+          "kana": "わたしの しゅみは しゃしんを とる ことです。",
+          "translation": "My hobby is taking photographs."
+        },
+        {
+          "kanji": "私の母の趣味はピアノを弾くことです。",
+          "kana": "わたしの ははの しゅみは ピアノを ひく ことです。",
+          "translation": "My mother's hobby is playing the piano."
+        },
+        {
+          "kanji": "私の仕事は家を売ることです。",
+          "kana": "わたしの しごとは いえを うる ことです。",
+          "translation": "My job is selling houses."
+        }
+      ]
+    },
+    {
+      "pattern": "Expressing Ability (1): Noun が できます / できません",
+      "explanation": "できます means 'can do', 'be able to do', or 'be completed'. When used with action nouns (nouns that naturally represent an activity, skill, sport, or language), mark the noun with the particle が:\n\n   Noun が できます (can do [Noun])\n   Noun が できません (cannot do [Noun])\n\nCRITICAL COMMON MISTAKE: Many learners mistakenly use particle を because of English ('I can do Japanese'). In Japanese, できます is an intransitive potential verb; the target of ability MUST ALWAYS be marked by が, NEVER を!\n✕ 私は日本語をできます。\n〇 私は日本語ができます。\n\nExamples of action nouns:\n• Languages: 日本語 (Japanese), 英語 (English)\n• Sports: サッカー (soccer), スキー (skiing), テニス (tennis)\n• Skills: 料理 (cooking), 運転 (driving), ダンス (dancing)",
+      "examples": [
+        {
+          "kanji": "私は日本語ができます。",
+          "kana": "わたしは にほんごが できます。",
+          "translation": "I can speak Japanese (literally: I can do Japanese)."
+        },
+        {
+          "kanji": "料理ができます。",
+          "kana": "りょうりが できます。",
+          "translation": "I can cook."
+        },
+        {
+          "kanji": "ここでサッカーができません。",
+          "kana": "ここで サッカーが できません。",
+          "translation": "You cannot play soccer here."
+        },
+        {
+          "kanji": "田中さんはスキーが上手にできます。",
+          "kana": "たなかさんは スキーが じょうずに できます。",
+          "translation": "Mr. Tanaka can ski very well."
+        }
+      ]
+    },
+    {
+      "pattern": "Expressing Ability (2): Verb (辞書形) + ことが できます",
+      "explanation": "When the ability involves an action verb (like reading, swimming, or playing an instrument), nominalize the verb using the dictionary form + こと, followed by が できます:\n\n   Verb (辞書形) ＋ ことが できます (can / be able to [verb])\n   Verb (辞書形) ＋ ことが できません (cannot / unable to [verb])\n\nQuestions and Answers:\n• 英語を話すことができますか？ (Can you speak English?)\n  — はい、（話すことが）できます。 / はい、できます。(Yes, I can.)\n  — いいえ、（話すことが）できません。 / いいえ、できません。(No, I cannot.)\n• 何語を話すことができますか？ (What languages can you speak?)\n• どこで着物を買うことができますか？ (Where can I buy a kimono?)\n\nTwo Types of Ability Expressed by ～ことができます:\n1. Inherent skill/capability: 泳ぐことができます (I can swim).\n2. Situational possibility/permission: このホテルでインターネットを使うことができます (You can use the internet at this hotel).",
+      "examples": [
+        {
+          "kanji": "泳ぐことができます。",
+          "kana": "およぐ ことが できます。",
+          "translation": "I can swim."
+        },
+        {
+          "kanji": "私は色々な日本料理を作ることができます。",
+          "kana": "わたしは いろいろな にほんりょうりを つくる ことが できます。",
+          "translation": "I can make various kinds of Japanese dishes."
+        },
+        {
+          "kanji": "お酒を飲むことができません。",
+          "kana": "おさけを のむ ことが できません。",
+          "translation": "I cannot drink alcohol."
+        },
+        {
+          "kanji": "カードで払うことができますか？",
+          "kana": "カードで はらう ことが できますか？",
+          "translation": "Can I pay by credit card?"
+        },
+        {
+          "kanji": "ここから富士山を見ることができます。",
+          "kana": "ここから ふじさんを みる ことが できます。",
+          "translation": "You can see Mt. Fuji from here."
+        }
+      ]
+    },
+    {
+      "pattern": "Important Pragmatic Distinctions: What できます CANNOT Do!",
+      "explanation": "Takashi emphasizes two critical distinctions where learners frequently make pragmatic errors by translating English 'can' directly into できます:\n\n1. DO NOT use できます to ask for PERMISSION ('Can I / May I...?'):\n   ✕ 質問することができますか？ does NOT mean 'May I ask a question?'. It literally asks: 'Do I possess the anatomical/intellectual ability to produce a question?'.\n   〇 To ask for permission, use Verb-てもいいですか (Lesson 15):\n      質問してもいいですか？ (May I ask a question? / Can I ask a question?)\n\n2. DO NOT use できます to make a REQUEST ('Can you do something for me?'):\n   ✕ お塩を取ることができますか？ does NOT mean 'Can you pass me the salt?'. It asks: 'Are you physically capable of lifting salt?'.\n   〇 To ask someone to do something, use requests:\n      お塩を取ってください。(Please pass the salt — Lesson 14)\n      お塩を取っていただけませんか？ / 取ってくれませんか？ (Could you pass the salt? — Lesson 26)\n\nNote on できます itself: In Japanese, できます is actually the potential form (可能形) of します! In Lesson 27, you will learn the full potential forms for all verbs (e.g. 食べられます, 話せます), which exist side-by-side with ～ことができます.",
+      "examples": [
+        {
+          "kanji": "ここで写真を撮ってもいいですか？（✕ 撮ることができますか：許可を求めるとき）",
+          "kana": "ここで しゃしんを とっても いいですか？（✕ とる ことが できますか）",
+          "translation": "May I take a photo here? (Asking for permission: use ～てもいいですか)"
+        },
+        {
+          "kanji": "ちょっと手伝ってください。（✕ 手伝うことができますか：依頼するとき）",
+          "kana": "ちょっと てつだって ください。（✕ てつだう ことが できますか）",
+          "translation": "Please help me for a moment. (Requesting help: use ～てください)"
+        },
+        {
+          "kanji": "窓を開けてもいいですか？",
+          "kana": "まどを あけても いいですか？",
+          "translation": "May I open the window?"
+        }
+      ]
+    },
+    {
+      "pattern": "Stating Hobbies: 私の趣味は [Noun / Verb-辞書形 こと] です",
+      "explanation": "To state your hobby in Japanese, you can answer the question 『趣味は何ですか』 (What is your hobby?) in two ways:\n\n1. Simple Noun:\n   私の趣味は【音楽】です。(My hobby is music.)\n   私の趣味は【映画】です。(My hobby is movies.)\n\n2. Specific Action (Verb-辞書形 + こと):\n   Using a verb makes your statement much more descriptive and specific:\n   私の趣味は【音楽を聴くこと】です。(My hobby is listening to music.)\n   私の趣味は【映画を見ること】です。(My hobby is watching movies.)\n   私の趣味は【ポケモンカードを集めること】です。(My hobby is collecting Pokémon cards.)\n\nRULE: You cannot place a raw verb before です (✕ 私の趣味は映画を見ますです / ✕ 映画を見るです). You MUST add こと to turn the verb into a noun predicate.",
+      "examples": [
+        {
+          "kanji": "趣味はアニメを見ることです。",
+          "kana": "しゅみは アニメを みる ことです。",
+          "translation": "My hobby is watching anime."
+        },
+        {
+          "kanji": "趣味は旅行することです。",
+          "kana": "しゅみは りょこうする ことです。",
+          "translation": "My hobby is traveling."
+        },
+        {
+          "kanji": "私の趣味は外国のコインを集めることです。",
+          "kana": "わたしの しゅみは がいこくの コインを あつめる ことです。",
+          "translation": "My hobby is collecting foreign coins."
+        },
+        {
+          "kanji": "趣味は何ですか？ — 料理を作ることです。",
+          "kana": "しゅみは なんですか？ — りょうりを つくる ことです。",
+          "translation": "What is your hobby? — It is cooking food."
+        }
+      ]
+    },
+    {
+      "pattern": "Temporal Sequence: [Noun の / Verb-辞書形] 前に、Sentence 2 [Before...]",
+      "explanation": "前に (まえに) means 'before'. It indicates that Sentence 2 happens prior to the action or noun mentioned:\n\n1. With an Action Noun: Noun ＋ の ＋ 前に\n   • 食事の前に、手を洗います。(I wash my hands before meals.)\n   • 仕事の前に、運動します。(I exercise before work.)\n   • 日本旅行の前に、新しいかばんを買いたいです。(I want to buy a new bag before my trip to Japan.)\n\n2. With a Verb: Verb (辞書形) ＋ 前に\n   • ご飯を食べる前に、手を洗います。(I wash my hands before eating meals.)\n   • 寝る前に、本を読みます。(I read a book before going to bed.)\n\nCRUCIAL TENSE RULE (Takashi's Key Tip):\nThe verb preceding 前に is ALWAYS in the DICTIONARY FORM, REGARDLESS OF THE SENTENCE TENSE!\nEven if the whole sentence is in the PAST TENSE, DO NOT change the verb before 前に to past:\n✕ 晩ご飯を食べた前に、手を洗いました。\n〇 晩ご飯を【食べる】前に、手を洗いました。(I washed my hands before I ate dinner.)\nOnly the main, final verb at the very end of the sentence indicates past tense (洗いました).",
+      "examples": [
+        {
+          "kanji": "寝る前に、この薬を飲んでください。",
+          "kana": "ねる まえに、この くすりを のんで ください。",
+          "translation": "Please take this medicine before going to bed."
+        },
+        {
+          "kanji": "私にキスする前に、歯を磨いてください。",
+          "kana": "わたしに キスする まえに、はを みがいて ください。",
+          "translation": "Please brush your teeth before you kiss me."
+        },
+        {
+          "kanji": "晩ご飯を食べる前に、手を洗いました。",
+          "kana": "ばんごはんを たべる まえに、てを あらいました。",
+          "translation": "I washed my hands before I ate dinner."
+        },
+        {
+          "kanji": "泳ぐ前に、準備運動をしてください。",
+          "kana": "およぐ まえに、じゅんびうんどうを して ください。",
+          "translation": "Please do warm-up exercises before swimming."
+        },
+        {
+          "kanji": "出かける前に、電気を消しました。",
+          "kana": "でかける まえに、でんきを けしました。",
+          "translation": "I turned off the lights before heading out."
+        }
+      ]
+    },
+    {
+      "pattern": "Time Period + 前に [Expressing '... ago']",
+      "explanation": "When 前に follows a specific length of time (duration counter), it means '... ago' in the past (e.g., 10 minutes ago, 3 years ago). Notice that NO particle の is used between the time duration and 前に (✕ 3年の前に):\n\n   [Time Duration] ＋ 前に\n\n• 15分前に (15 minutes ago)\n• 3日前に (3 days ago)\n• 1か月前に (1 month ago)\n• 3年前に (3 years ago)",
+      "examples": [
+        {
+          "kanji": "15分前に手を洗いました。",
+          "kana": "じゅうごふんまえに てを あらいました。",
+          "translation": "I washed my hands 15 minutes ago."
+        },
+        {
+          "kanji": "3年前にこの車を買いました。",
+          "kana": "さんねんまえに この くるまを かいました。",
+          "translation": "I bought this car 3 years ago."
+        },
+        {
+          "kanji": "1か月前に初めて日本に行きました。",
+          "kana": "いっかげつまえに はじめて にほんへ いきました。",
+          "translation": "One month ago, I went to Japan for the first time."
+        },
+        {
+          "kanji": "たかしさんは1時間前に出かけました。",
+          "kana": "たかしさんは いちじかんまえに でかけました。",
+          "translation": "Takashi left one hour ago."
+        }
+      ]
+    },
+    {
+      "pattern": "Conversational Nuances: 特に, 是非, and なかなか",
+      "explanation": "Lesson 18 introduces three expressive adverbs with nuanced rules:\n\n1. 特に (とくに - especially / particularly):\n   • In affirmative sentences, singles out one favorite/distinct item: 日本料理の中で特にそばが好きです。(Among Japanese dishes, I especially like soba.)\n   • In negative sentences, means 'not particularly / nothing in particular': 今日は特に何もしませんでした。(Today I didn't do anything in particular.)\n\n2. 是非 (ぜひ - by all means / definitely):\n   • Used to strongly intensify one's wish, eagerness, or invitation: ぜひ日本へ行きたいです (I definitely want to go to Japan); ぜひ遊びに来てください (Please do come visit!).\n   • When enthusiastically accepting an invitation: また遊びましょう！ — はい、是非！(Let's hang out again! — Yes, definitely!)\n\n3. なかなか (nakanaka - nuanced adverb):\n   • With NEGATIVE predicates: means 'not easily', 'hard to', 'cannot readily': 日本ではなかなかメキシコ料理を食べることができません。(In Japan, you cannot easily eat Mexican food.)\n   • With AFFIRMATIVE predicates: means 'more than expected / surprisingly good': これはなかなかおいしいです。(This is unexpectedly delicious).\n     ⚠️ CULTURAL CAUTION (Takashi's Tip): In the affirmative, なかなか implies your initial expectations were low! If someone personally cooked dinner for you and you say 『なかなかおいしいですね』, it implies 'I thought your cooking would be mediocre, but this is surprisingly okay!' and can sound quite rude!",
+      "examples": [
+        {
+          "kanji": "スポーツの中で特にサッカーが好きです。",
+          "kana": "スポーツの なかで とくに サッカーが すきです。",
+          "translation": "Among sports, I especially like soccer."
+        },
+        {
+          "kanji": "週末はどこかへ行きましたか？ — いいえ、特にどこも行きませんでした。",
+          "kana": "しゅうまつは どこかへ いきましたか？ — いいえ、とくに どこも いきませんでした。",
+          "translation": "Did you go anywhere over the weekend? — No, nowhere in particular."
+        },
+        {
+          "kanji": "一口食べてもいいですか？ — はい、是非どうぞ！",
+          "kana": "ひとくち たべても いいですか？ — はい、ぜひ どうぞ！",
+          "translation": "May I have a bite? — Yes, by all means, go ahead!"
+        },
+        {
+          "kanji": "この漢字はなかなか覚えることができません。",
+          "kana": "この かんじは なかなか おぼえる ことが できません。",
+          "translation": "I cannot easily memorize this kanji."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "趣味と週末の予定 (Hobbies and Weekend Plans)",
+    "lines": [
+      {
+        "speaker": "佐藤",
+        "kanji": "ミラーさんの趣味は何ですか。",
+        "kana": "ミラーさんの しゅみは なんですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "私の趣味は音楽を聴くことです。特にクラシック音楽が好きです。佐藤さんは？",
+        "kana": "わたしの しゅみは おんがくを きく ことです。とくに クラシックおんがくが すきです。さとうさんは？"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "私はピアノを弾くことができますが、最近はあまり弾きません。今の趣味は外国の切手を集めることです。",
+        "kana": "わたしは ピアノを ひく ことが できますが、さいきんは あまり ひきません。いまの しゅみは がいこくの きってを あつめる ことです。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "へえ、それは面白いですね。ピアノも弾くことができるんですか、すごいですね。",
+        "kana": "へえ、それは おもしろいですね。ピアノも ひく ことが できるんですか、すごいですね。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "ところで、ミラーさんは今週の土曜日に何をしますか。",
+        "kana": "ところで、ミラーさんは こんしゅうの どようびに なにを しますか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "友だちと牧場へ行って、馬に乗るつもりです。佐藤さんは馬に乗ることができますか。",
+        "kana": "ともだちと ぼくじょうへ いって、うまに のる つもりです。さとうさんは うまに のる ことが できますか。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいえ、乗ることができません。車を運転することはできますが…。",
+        "kana": "いいえ、のる ことが できません。くるまを うんてんする ことは できますが…。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "じゃあ、一緒に行きませんか。牧場にはおいしいレストランもありますよ。",
+        "kana": "じゃあ、いっしょに いきませんか。ぼくじょうには おいしい レストランも ありますよ。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "いいですね！是非行きたいです。牧場へ行く前に、ネットで予約をしなければなりませんか。",
+        "kana": "いいですね！ぜひ いきたいです。ぼくじょうへ いく まえに、ネットで よやくを しなければ なりませんか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、3日前にネットで予約しましたから、大丈夫です。でも、牧場は現金のみですから、行く前にATMでお金を下ろしてくださいね。",
+        "kana": "ええ、みっかまえに ネットで よやくしましたから、だいじょうぶです。でも、ぼくじょうは げんきん のみですから、いく まえに ATMで おかねを おろして くださいね。"
+      },
+      {
+        "speaker": "佐藤",
+        "kanji": "分かりました。行く前に銀行でお金を下ろします。",
+        "kana": "わかりました。いく まえに ぎんこうで おかねを おろします。"
+      }
+    ],
+    "translation": "Sato asks Miller about his hobbies. Miller says his hobby is listening to music, especially classical music, and asks Sato about hers. Sato says she can play the piano, but rarely does so lately; her current hobby is collecting foreign stamps. Miller finds that interesting and is impressed that she can play the piano. Sato then asks Miller about his plans for Saturday. Miller plans to go to a ranch with a friend to ride horses, and asks if Sato can ride a horse. Sato says she cannot ride horses, although she can drive a car. Miller invites her along, mentioning the ranch also has a delicious restaurant. Sato enthusiastically agrees ('I'd definitely love to go!') and asks if they need to make a reservation on the internet before going. Miller says it is already taken care of since he booked it online 3 days ago, but warns her that the ranch only accepts cash, so she should withdraw money from the ATM beforehand. Sato agrees to withdraw money at the bank before leaving.",
+    "questions": [
+      {
+        "question": "What is Mr. Miller's hobby?",
+        "options": [
+          "Playing the piano",
+          "Listening to music, especially classical",
+          "Collecting foreign stamps",
+          "Riding horses every weekend"
+        ],
+        "answer": 1,
+        "explanation": "Miller says: 私の趣味は音楽を聴くことです。特にクラシック音楽が好きです。"
+      },
+      {
+        "question": "What musical ability does Ms. Sato possess?",
+        "options": [
+          "She can sing opera songs",
+          "She can play the guitar",
+          "She can play the piano",
+          "She cannot play any instrument"
+        ],
+        "answer": 2,
+        "explanation": "Sato says: 私はピアノを弾くことができますが、最近はあまり弾きません。"
+      },
+      {
+        "question": "What is Ms. Sato's current hobby?",
+        "options": [
+          "Collecting Pokémon cards",
+          "Collecting foreign stamps",
+          "Writing diaries in English",
+          "Taking pictures of animals"
+        ],
+        "answer": 1,
+        "explanation": "Sato says: 今の趣味は外国の切手を集めることです。"
+      },
+      {
+        "question": "Can Ms. Sato ride a horse?",
+        "options": [
+          "No, she cannot ride a horse.",
+          "Yes, she rides horses every week.",
+          "Yes, she learned 3 years ago.",
+          "She can only ride on a farm in Hokkaido."
+        ],
+        "answer": 0,
+        "explanation": "When asked if she can ride a horse, Sato answers: いいえ、乗ることができません。"
+      },
+      {
+        "question": "When did Mr. Miller make the reservation for the ranch?",
+        "options": [
+          "15 minutes ago",
+          "Yesterday morning",
+          "3 days ago",
+          "1 month ago"
+        ],
+        "answer": 2,
+        "explanation": "Miller says: 3日前にネットで予約しましたから、大丈夫です。"
+      },
+      {
+        "question": "What must Ms. Sato do before going to the ranch?",
+        "options": [
+          "Exchange US dollars into yen",
+          "Withdraw cash because the ranch only accepts cash",
+          "Practice driving a car",
+          "Book a hotel on the internet"
+        ],
+        "answer": 1,
+        "explanation": "Miller reminds her: 牧場は現金のみですから、行く前にATMでお金を下ろしてくださいね。"
+      },
+      {
+        "question": "Which sentence from the text correctly follows the tense rule with 前に?",
+        "options": [
+          "牧場へ行った前に、予約しました。",
+          "行く前に銀行でお金を下ろします。",
+          "予約した前に、電話しました。",
+          "下ろした前に、食事をしました。"
+        ],
+        "answer": 1,
+        "explanation": "The verb preceding 前に must always remain in the dictionary form (行く前に), never past tense."
+      },
+      {
+        "question": "How does Ms. Sato express her eager desire to join Miller?",
+        "options": [
+          "なかなか行きます。",
+          "特に何もしません。",
+          "ぜひ行きたいです。",
+          "馬で行くことができます。"
+        ],
+        "answer": 2,
+        "explanation": "Sato uses 是非 (ぜひ) to intensify her desire: いいですね！是非行きたいです。"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct dictionary form of the Group 2 verb できます.",
+      "options": [
+        "できる",
+        "でく",
+        "できす",
+        "でかる"
+      ],
+      "answer": 0,
+      "explanation": "できます is a Group 2 verb (ending in the -i sound as an exception). Drop ます and add る → できる."
+    },
+    {
+      "question": "Choose the correct particle: 'I can speak Japanese.'",
+      "prompt": {
+        "kanji": "私は日本語___できます。",
+        "kana": "わたしは にほんご___ できます。"
+      },
+      "options": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "In 『Noun が できます』, the object of potential ability is marked by が, NEVER を (✕ 日本語をできます)."
+    },
+    {
+      "question": "Choose the correct dictionary form of 洗います (あらいます - Group 1).",
+      "options": [
+        "洗う (あらう)",
+        "洗る (あらる)",
+        "洗く (あらく)",
+        "洗す (あらす)"
+      ],
+      "answer": 0,
+      "explanation": "For Group 1 verbs ending in い before ます, change い to う: 洗います → 洗う."
+    },
+    {
+      "question": "Choose the correct verb to say 'to play the piano':",
+      "prompt": {
+        "kanji": "ピアノを___。",
+        "kana": "ピアノを ___。"
+      },
+      "options": [
+        "弾きます (ひきます)",
+        "歌います (うたいます)",
+        "します",
+        "洗います (あらいます)"
+      ],
+      "answer": 0,
+      "explanation": "For stringed and keyboard instruments like piano or guitar, use 弾きます (ひきます). For wind instruments use 吹きます."
+    },
+    {
+      "question": "Choose the correct dictionary form for 来ます (きます - Group 3).",
+      "options": [
+        "くる (来る)",
+        "きる",
+        "こる",
+        "くす"
+      ],
+      "answer": 0,
+      "explanation": "来ます (きます) is irregular Group 3. Its dictionary form is 来る (くる) — notice the vowel shift from ki to ku!"
+    },
+    {
+      "question": "Complete the sentence: 'My hobby is watching anime.'",
+      "prompt": {
+        "kanji": "趣味はアニメを___ことです。",
+        "kana": "しゅみは アニメを ___ ことです。"
+      },
+      "options": [
+        "見る (みる)",
+        "見ます (みます)",
+        "見て (みて)",
+        "見た (みた)"
+      ],
+      "answer": 0,
+      "explanation": "Before the nominalizer こと, the verb MUST be in its dictionary form: 見ること."
+    },
+    {
+      "question": "Choose the correct sentence to express 'I can swim.'",
+      "options": [
+        "泳ぐことができます。",
+        "泳ぎますことができます。",
+        "泳ぐができます。",
+        "泳ぐことをできます。"
+      ],
+      "answer": 0,
+      "explanation": "The pattern is Verb (dictionary form) + ことが できます → 泳ぐことができます."
+    },
+    {
+      "question": "How do you naturally ask a teacher: 'May I ask a question?'",
+      "options": [
+        "質問してもいいですか？",
+        "質問することができますか？",
+        "質問することにしますか？",
+        "質問してくださいませんか？"
+      ],
+      "answer": 0,
+      "explanation": "Takashi emphasizes: DO NOT use できますか to ask for permission. Use Verb-てもいいですか (質問してもいいですか)."
+    },
+    {
+      "question": "How do you ask someone at the dining table: 'Could you please pass me the salt?'",
+      "options": [
+        "お塩を取ってください。",
+        "お塩を取ることができますか？",
+        "お塩を取る前に手を洗います。",
+        "お塩を取るのが上手です。"
+      ],
+      "answer": 0,
+      "explanation": "Takashi emphasizes: DO NOT use できますか to request someone to do something. Use ～てください (or ～てくれませんか)."
+    },
+    {
+      "question": "Choose the correct form: 'I washed my hands before eating dinner.' (Past tense rule)",
+      "prompt": {
+        "kanji": "晩ご飯を___前に、手を洗いました。",
+        "kana": "ばんごはんを ___ まえに、てを あらいました。"
+      },
+      "options": [
+        "食べる",
+        "食べた",
+        "食べます",
+        "食べて"
+      ],
+      "answer": 0,
+      "explanation": "The verb directly preceding 前に is ALWAYS in the dictionary form (食べる), even if the main sentence is past tense!"
+    },
+    {
+      "question": "Choose the correct sentence: 'I exercise before work.'",
+      "options": [
+        "仕事の前に、運動します。",
+        "仕事前に、運動します。",
+        "仕事な前に、運動します。",
+        "仕事に前に、運動します。"
+      ],
+      "answer": 0,
+      "explanation": "With an action noun, insert の between the noun and 前に: 仕事の前に."
+    },
+    {
+      "question": "Choose the correct sentence: 'I bought this car 3 years ago.'",
+      "options": [
+        "3年前にこの車を買いました。",
+        "3年の前にこの車を買いました。",
+        "3年前でこの車を買いました。",
+        "3年前にこの車を買うことができます。"
+      ],
+      "answer": 0,
+      "explanation": "A time duration connects directly to 前に without particle の: 3年前に."
+    },
+    {
+      "question": "What does 『日本ではなかなかメキシコ料理を食べることができません』 mean?",
+      "options": [
+        "In Japan, you cannot easily find or eat Mexican food.",
+        "In Japan, Mexican food is surprisingly delicious.",
+        "In Japan, Mexican food is very cheap.",
+        "Mexican food cannot be eaten before dinner."
+      ],
+      "answer": 0,
+      "explanation": "With negative verbs, なかなか means 'not easily', 'hard to', or 'not readily'."
+    },
+    {
+      "question": "Why can saying 『この料理はなかなか美味しいです』 to a host who cooked for you be rude?",
+      "options": [
+        "Because なかなか implies that your initial expectations were low.",
+        "Because なかなか means the food is too spicy.",
+        "Because なかなか can only be used with negative verbs.",
+        "Because it means the portion is too small."
+      ],
+      "answer": 0,
+      "explanation": "In affirmative sentences, なかなか means 'better than expected', implying you initially expected it to be mediocre."
+    },
+    {
+      "question": "Choose the correct response to an invitation: 'Let's hang out again soon!'",
+      "prompt": {
+        "kanji": "また今度、遊びましょう！ — はい、___！",
+        "kana": "また こんど、あそびましょう！ — はい、___！"
+      },
+      "options": [
+        "是非 (ぜひ)",
+        "特に (とくに)",
+        "なかなか",
+        "本当 (ほんとう)"
+      ],
+      "answer": 0,
+      "explanation": "是非 (ぜひ) means 'by all means / definitely' and expresses eager acceptance of invitations."
+    },
+    {
+      "question": "Choose the correct dictionary form for 歌います (うたいます - Group 1).",
+      "options": [
+        "歌う (うたう)",
+        "歌る (うたる)",
+        "歌く (うたく)",
+        "歌す (うたす)"
+      ],
+      "answer": 0,
+      "explanation": "い before ます changes to う: 歌います → 歌う."
+    },
+    {
+      "question": "Choose the correct dictionary form for 集めます (あつめます - Group 2).",
+      "options": [
+        "集める (あつめる)",
+        "集む (あつむ)",
+        "集まる (あつまる)",
+        "集まう (あつまう)"
+      ],
+      "answer": 0,
+      "explanation": "集めます is Group 2 (ends in -e sound before ます). Drop ます and add る → 集める."
+    },
+    {
+      "question": "Choose the correct dictionary form for 捨てます (すてます - Group 2).",
+      "options": [
+        "捨てる (すてる)",
+        "捨つ (すつ)",
+        "捨てつ (すてつ)",
+        "捨たる (すたる)"
+      ],
+      "answer": 0,
+      "explanation": "捨てます is Group 2. Drop ます and add る → 捨てる."
+    },
+    {
+      "question": "Choose the correct dictionary form for 換えます (かえます - Group 2).",
+      "options": [
+        "換える (かえる)",
+        "換う (かう)",
+        "換る (かる)",
+        "換かす (かかす)"
+      ],
+      "answer": 0,
+      "explanation": "換えます is Group 2. Drop ます and add る → 換える."
+    },
+    {
+      "question": "Choose the correct meaning of 現金のみです (げんきん のみです).",
+      "options": [
+        "Cash only",
+        "Credit cards only",
+        "No reservations needed",
+        "Open 24 hours"
+      ],
+      "answer": 0,
+      "explanation": "現金 (げんきん) = cash; のみ = only."
+    },
+    {
+      "question": "Choose the correct meaning of 日記を書きます (にっきを かきます).",
+      "options": [
+        "To write a diary / journal",
+        "To read a newspaper",
+        "To draw a picture",
+        "To buy a notebook"
+      ],
+      "answer": 0,
+      "explanation": "日記 (にっき) means diary or journal."
+    },
+    {
+      "question": "Which of the following is a Group 3 irregular verb?",
+      "options": [
+        "運転します (うんてんします)",
+        "洗います (あらいます)",
+        "弾きます (ひきます)",
+        "集めます (あつめます)"
+      ],
+      "answer": 0,
+      "explanation": "運転します is a noun + します verb, which belongs to Group 3 (dictionary form: 運転する)."
+    },
+    {
+      "question": "Choose the correct dictionary form for 弾きます (ひきます - Group 1).",
+      "options": [
+        "弾く (ひく)",
+        "弾る (ひる)",
+        "弾す (ひす)",
+        "弾つ (ひつ)"
+      ],
+      "answer": 0,
+      "explanation": "き before ます becomes く: 弾きます → 弾く."
+    },
+    {
+      "question": "Choose the correct dictionary form for 飲みます (のみます - Group 1).",
+      "options": [
+        "飲む (のむ)",
+        "飲る (のる)",
+        "飲ぶ (のぶ)",
+        "飲く (のく)"
+      ],
+      "answer": 0,
+      "explanation": "み before ます becomes む: 飲みます → 飲む."
+    },
+    {
+      "question": "Choose the correct dictionary form for 話します (はなします - Group 1).",
+      "options": [
+        "話す (はなす)",
+        "話く (はなく)",
+        "話る (はなる)",
+        "話つ (はなつ)"
+      ],
+      "answer": 0,
+      "explanation": "し before ます becomes す: 話します → 話す."
+    },
+    {
+      "question": "Choose the correct dictionary form for 待ちます (まちます - Group 1).",
+      "options": [
+        "待つ (まつ)",
+        "待る (まる)",
+        "待く (まく)",
+        "待す (ます)"
+      ],
+      "answer": 0,
+      "explanation": "ち before ます becomes つ: 待ちます → 待つ."
+    },
+    {
+      "question": "Choose the correct dictionary form for 遊びます (あそびます - Group 1).",
+      "options": [
+        "遊ぶ (あそぶ)",
+        "遊む (あそむ)",
+        "遊る (あそる)",
+        "遊ぐ (あそぐ)"
+      ],
+      "answer": 0,
+      "explanation": "び before ます becomes ぶ: 遊びます → 遊ぶ."
+    },
+    {
+      "question": "Choose the correct dictionary form for 泳ぎます (およぎます - Group 1).",
+      "options": [
+        "泳ぐ (およぐ)",
+        "泳く (およく)",
+        "泳る (およる)",
+        "泳ぶ (およぶ)"
+      ],
+      "answer": 0,
+      "explanation": "ぎ before ます becomes ぐ: 泳ぎます → 泳ぐ."
+    },
+    {
+      "question": "Choose the correct dictionary form for 帰ります (かえります - Group 1 exception).",
+      "options": [
+        "帰る (かえる)",
+        "帰す (かえす)",
+        "帰く (かえく)",
+        "帰う (かえう)"
+      ],
+      "answer": 0,
+      "explanation": "帰ります looks like Group 2 but is a Group 1 verb. り changes to る: 帰る."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'Please take this medicine before going to bed.'",
+      "options": [
+        "寝る前に、この薬を飲んでください。",
+        "寝た前に、この薬を飲んでください。",
+        "寝ます前に、この薬を飲んでください。",
+        "寝て前に、この薬を飲んでください。"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + 前に: 寝る前に."
+    },
+    {
+      "question": "Complete the sentence: 'Please brush your teeth before you kiss me.'",
+      "prompt": {
+        "kanji": "私にキスする___、歯を磨いてください。",
+        "kana": "わたしに キスする___、はを みがいて ください。"
+      },
+      "options": [
+        "前に",
+        "後で",
+        "から",
+        "までに"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + 前に = before doing [verb]."
+    },
+    {
+      "question": "What is the meaning of 社長 (しゃちょう)?",
+      "options": [
+        "Company president",
+        "Section manager",
+        "Department head",
+        "New employee"
+      ],
+      "answer": 0,
+      "explanation": "社長 (しゃちょう) = company president / CEO."
+    },
+    {
+      "question": "Choose the correct counter word: 'It is 200 meters from here to the station.'",
+      "prompt": {
+        "kanji": "ここから駅まで200___です。",
+        "kana": "ここから えきまで にひゃく___です。"
+      },
+      "options": [
+        "メートル",
+        "グラム",
+        "キロ",
+        "パーセント"
+      ],
+      "answer": 0,
+      "explanation": "Distance in meters uses メートル."
+    },
+    {
+      "question": "Which sentence means: 'I pray in the church'?",
+      "options": [
+        "教会でお祈りします。",
+        "教会を予約します。",
+        "教会で運転します。",
+        "教会を洗います。"
+      ],
+      "answer": 0,
+      "explanation": "お祈りします (おいのりします) means to pray."
+    },
+    {
+      "question": "Choose the correct phrase: 'I sing Japanese songs.'",
+      "prompt": {
+        "kanji": "日本の歌を___。",
+        "kana": "にほんの うたを ___。"
+      },
+      "options": [
+        "歌います (うたいます)",
+        "弾きます (ひきます)",
+        "集めます (あつめます)",
+        "換えます (かえます)"
+      ],
+      "answer": 0,
+      "explanation": "To sing a song = 歌を歌います."
+    },
+    {
+      "question": "Choose the correct sentence to express: 'I didn't do anything in particular today.'",
+      "options": [
+        "今日は特に何もしませんでした。",
+        "今日はぜひ何もしませんでした。",
+        "今日はなかなか何もしませんでした。",
+        "今日は本当何もしませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "特に (とくに) + negative = nothing in particular."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'I want to exchange yen for US dollars.'",
+      "options": [
+        "円をアメリカドルに換えたいです。",
+        "円をアメリカドルで捨てたいです。",
+        "円をアメリカドルに洗いたいです。",
+        "円をアメリカドルに弾きたいです。"
+      ],
+      "answer": 0,
+      "explanation": "Currency exchange uses 換えます (かえます) with に: 円をアメリカドルに換えます."
+    },
+    {
+      "question": "Choose the correct way to say: 'Can you pay by credit card here?'",
+      "options": [
+        "ここでカードで払うことができますか？",
+        "ここでカードで払うことがありますか？",
+        "ここでカードで払うことがいませんか？",
+        "ここでカードで払う前ですか？"
+      ],
+      "answer": 0,
+      "explanation": "Verb (dictionary form) + ことができますか asks if something is possible."
+    },
+    {
+      "question": "Choose the correct sentence: 'Takashi went out 1 hour ago.'",
+      "options": [
+        "たかしさんは1時間前に出かけました。",
+        "たかしさんは1時間の前に出かけました。",
+        "たかしさんは1時間前を出かけました。",
+        "たかしさんは1時間前へ出かけました。"
+      ],
+      "answer": 0,
+      "explanation": "Time period + 前に does not take の: 1時間前に."
+    },
+    {
+      "question": "Which sentence is INCORRECT?",
+      "options": [
+        "私は英語を話すことができます。",
+        "私は英語ができます。",
+        "私は英語をできます。",
+        "私の趣味は英語を勉強することです。"
+      ],
+      "answer": 2,
+      "explanation": "✕ 私は英語をできます is grammatically incorrect. できます requires particle が (私は英語ができます)."
+    },
+    {
+      "question": "Choose the correct dictionary form for 出します (だします - Group 1).",
+      "options": [
+        "出す (だす)",
+        "出る (でる)",
+        "出つ (だつ)",
+        "出む (だむ)"
+      ],
+      "answer": 0,
+      "explanation": "し before ます changes to す: 出します → 出す. (Note: 出る is the dictionary form of 出ます, a Group 2 verb meaning to leave/exit)."
+    },
+    {
+      "question": "Choose the correct dictionary form for 教えます (おしえます - Group 2).",
+      "options": [
+        "教える (おしえる)",
+        "教う (おしおう)",
+        "教る (おしる)",
+        "教えす (おしえす)"
+      ],
+      "answer": 0,
+      "explanation": "教えます is Group 2. Drop ます and add る → 教える."
+    },
+    {
+      "question": "Choose the correct sentence: 'I turned off the lights before going out.'",
+      "options": [
+        "出かける前に、電気を消しました。",
+        "出かけた前に、電気を消しました。",
+        "出かけます前に、電気を消しました。",
+        "出かけて前に、電気を消しました。"
+      ],
+      "answer": 0,
+      "explanation": "Before 前に, always use the dictionary form: 出かける前に."
+    },
+    {
+      "question": "What is the meaning of 牧場 (ぼくじょう)?",
+      "options": [
+        "Ranch / farm / pasture",
+        "Temple",
+        "Shrine",
+        "Airport"
+      ],
+      "answer": 0,
+      "explanation": "牧場 (ぼくじょう) means ranch, farm, or stock farm."
+    },
+    {
+      "question": "Choose the correct word: 'What kind of animal is that?'",
+      "prompt": {
+        "kanji": "あれはどんな___ですか？",
+        "kana": "あれは どんな ___ですか？"
+      },
+      "options": [
+        "動物 (どうぶつ)",
+        "馬 (うま)",
+        "現金 (げんきん)",
+        "趣味 (しゅみ)"
+      ],
+      "answer": 0,
+      "explanation": "動物 (どうぶつ) = animal."
+    }
+  ],
+  "writing": {
+    "title": "My Hobbies, Skills, and Daily Preparations",
+    "prompt": "Write 6–8 sentences in Japanese using Lesson 18 grammar. (1) State your hobby using 『私の趣味は ～[Verb-辞書形] ことです』. (2) Describe two things you can do using 『～が できます』 and 『～[Verb-辞書形] ことができます』. (3) Describe one thing you cannot do easily using 『なかなか ～ことができません』. (4) Describe what you do before an event using 『[Noun の / Verb-辞書形] 前に』 (e.g. before meals, before sleeping, or before traveling). (5) Mention something that happened in the past using 『[Time duration] 前に』.",
+    "placeholder": "私の趣味は ______ ことです。\n私は ______ ができます。そして、______ ことができます。\nでも、______ はなかなか ______ ことができません。\n毎晩、寝る前に、______ をします。\n______ 前に、______ を買いました。",
+    "modelAnswer": "私の趣味は外国の歌を歌うことです。特に日本のポップスが好きです。私はピアノを弾くことができます。そして、車を運転することもできます。でも、漢字はなかなか覚えることができません。毎晩、寝る前に、日記を書いて、お祈りをします。日本へ旅行に行く前に、新しいかばんを買いたいです。実は、2週間前に飛行機のチケットを予約しました。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I can drive a car.",
+        "chunks": [
+          "車を",
+          "運転する",
+          "ことが",
+          "できます。"
+        ]
+      },
+      {
+        "en": "My hobby is watching anime.",
+        "chunks": [
+          "私の趣味は",
+          "アニメを",
+          "見ることです。"
+        ]
+      },
+      {
+        "en": "I wash my hands before meals.",
+        "chunks": [
+          "食事の前に、",
+          "手を",
+          "洗います。"
+        ]
+      },
+      {
+        "en": "Please take this medicine before going to bed.",
+        "chunks": [
+          "寝る前に、",
+          "この薬を",
+          "飲んでください。"
+        ]
+      },
+      {
+        "en": "I washed my hands before I ate dinner.",
+        "chunks": [
+          "晩ご飯を食べる前に、",
+          "手を",
+          "洗いました。"
+        ]
+      },
+      {
+        "en": "I bought this car three years ago.",
+        "chunks": [
+          "3年前に",
+          "この車を",
+          "買いました。"
+        ]
+      },
+      {
+        "en": "I can speak Japanese.",
+        "chunks": [
+          "私は",
+          "日本語が",
+          "できます。"
+        ]
+      },
+      {
+        "en": "My mother's hobby is playing the piano.",
+        "chunks": [
+          "私の母の趣味は",
+          "ピアノを",
+          "弾くことです。"
+        ]
+      },
+      {
+        "en": "I cannot drink alcohol.",
+        "chunks": [
+          "お酒を",
+          "飲むことが",
+          "できません。"
+        ]
+      },
+      {
+        "en": "Can you speak English?",
+        "chunks": [
+          "英語を",
+          "話すことが",
+          "できますか。"
+        ]
+      },
+      {
+        "en": "In Japan, you cannot easily eat Mexican food.",
+        "chunks": [
+          "日本ではなかなか",
+          "メキシコ料理を",
+          "食べることが",
+          "できません。"
+        ]
+      },
+      {
+        "en": "I want to exchange yen for US dollars.",
+        "chunks": [
+          "円を",
+          "アメリカドルに",
+          "換えたいです。"
+        ]
+      },
+      {
+        "en": "I have been collecting Pokémon cards.",
+        "chunks": [
+          "ポケモンカードを",
+          "集めて",
+          "います。"
+        ]
+      },
+      {
+        "en": "Among Japanese dishes, I especially like soba.",
+        "chunks": [
+          "日本料理の中で",
+          "特にそばが",
+          "好きです。"
+        ]
+      },
+      {
+        "en": "Please brush your teeth before kissing me.",
+        "chunks": [
+          "私にキスする前に、",
+          "歯を",
+          "磨いてください。"
+        ]
+      },
+      {
+        "en": "I made a hotel reservation on the internet.",
+        "chunks": [
+          "ネットで",
+          "ホテルの予約を",
+          "しました。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "できます (can do)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "できる",
+        "options": [
+          "できる",
+          "でく",
+          "できす"
+        ],
+        "hint": "Group 2 verb: drop ます and add る"
+      },
+      {
+        "prompt": "洗います (あらいます - to wash)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "あらう",
+        "options": [
+          "あらう",
+          "あらる",
+          "あらく"
+        ],
+        "hint": "Group 1: い before ます changes to う"
+      },
+      {
+        "prompt": "弾きます (ひきます - to play instrument)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "ひく",
+        "options": [
+          "ひく",
+          "ひる",
+          "ひす"
+        ],
+        "hint": "Group 1: き before ます changes to く"
+      },
+      {
+        "prompt": "歌います (うたいます - to sing)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "うたう",
+        "options": [
+          "うたう",
+          "うたる",
+          "うたく"
+        ],
+        "hint": "Group 1: い before ます changes to う"
+      },
+      {
+        "prompt": "集めます (あつめます - to collect)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "あつめる",
+        "options": [
+          "あつめる",
+          "あつむ",
+          "あつまる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "捨てます (すてます - to throw away)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "すてる",
+        "options": [
+          "すてる",
+          "すつ",
+          "すたる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "換えます (かえます - to exchange)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "かえる",
+        "options": [
+          "かえる",
+          "かう",
+          "かる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "運転します (うんてんします - to drive)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "うんてんする",
+        "options": [
+          "うんてんする",
+          "うんてんす",
+          "うんてんさる"
+        ],
+        "hint": "Group 3: します changes to する"
+      },
+      {
+        "prompt": "予約します (よやくします - to reserve)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "よやくする",
+        "options": [
+          "よやくする",
+          "よやくす",
+          "よやくさる"
+        ],
+        "hint": "Group 3: します changes to する"
+      },
+      {
+        "prompt": "お祈りします (おいのりします - to pray)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "おいのりする",
+        "options": [
+          "おいのりする",
+          "おいのりす",
+          "おいのりる"
+        ],
+        "hint": "Group 3: します changes to する"
+      },
+      {
+        "prompt": "行きます (いきます - to go)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "いく",
+        "options": [
+          "いく",
+          "いきる",
+          "いす"
+        ],
+        "hint": "Group 1: き before ます changes to く"
+      },
+      {
+        "prompt": "飲みます (のみます - to drink)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "のむ",
+        "options": [
+          "のむ",
+          "のる",
+          "のぶ"
+        ],
+        "hint": "Group 1: み before ます changes to む"
+      },
+      {
+        "prompt": "知ります (しります - to know)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "しる",
+        "options": [
+          "しる",
+          "しむ",
+          "しく"
+        ],
+        "hint": "Group 1: り before ます changes to る"
+      },
+      {
+        "prompt": "買います (かいます - to buy)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "かう",
+        "options": [
+          "かう",
+          "かる",
+          "かく"
+        ],
+        "hint": "Group 1: い before ます changes to う"
+      },
+      {
+        "prompt": "食べます (たべます - to eat)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "たべる",
+        "options": [
+          "たべる",
+          "たぶ",
+          "たばる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "教えます (おしえます - to teach)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "おしえる",
+        "options": [
+          "おしえる",
+          "おしおう",
+          "おしる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "あげます (to give)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "あげる",
+        "options": [
+          "あげる",
+          "あぐ",
+          "あがる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "見ます (みます - to watch/see)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "みる",
+        "options": [
+          "みる",
+          "みむ",
+          "みす"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "します (to do)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "する",
+        "options": [
+          "する",
+          "しる",
+          "す"
+        ],
+        "hint": "Group 3 irregular: します becomes する"
+      },
+      {
+        "prompt": "来ます (きます - to come)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "くる",
+        "options": [
+          "くる",
+          "きる",
+          "こる"
+        ],
+        "hint": "Group 3 irregular: 来ます becomes 来る (くる)"
+      },
+      {
+        "prompt": "話します (はなします - to speak)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "はなす",
+        "options": [
+          "はなす",
+          "はなく",
+          "はなる"
+        ],
+        "hint": "Group 1: し before ます changes to す"
+      },
+      {
+        "prompt": "泳ぎます (およぎます - to swim)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "およぐ",
+        "options": [
+          "およぐ",
+          "およく",
+          "およぶ"
+        ],
+        "hint": "Group 1: ぎ before ます changes to ぐ"
+      },
+      {
+        "prompt": "作ります (つくります - to make)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "つくる",
+        "options": [
+          "つくる",
+          "つくす",
+          "つくむ"
+        ],
+        "hint": "Group 1: り before ます changes to る"
+      },
+      {
+        "prompt": "撮ります (とります - to take photo)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "とる",
+        "options": [
+          "とる",
+          "とむ",
+          "とす"
+        ],
+        "hint": "Group 1: り before ます changes to る"
+      },
+      {
+        "prompt": "売ります (うります - to sell)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "うる",
+        "options": [
+          "うる",
+          "うむ",
+          "うす"
+        ],
+        "hint": "Group 1: り before ます changes to る"
+      },
+      {
+        "prompt": "寝ます (ねます - to sleep)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "ねる",
+        "options": [
+          "ねる",
+          "ねむ",
+          "ねす"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "磨きます (みがきます - to brush)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "みがく",
+        "options": [
+          "みがく",
+          "みがる",
+          "みがす"
+        ],
+        "hint": "Group 1: き before ます changes to く"
+      },
+      {
+        "prompt": "出かけます (でかけます - to go out)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "でかける",
+        "options": [
+          "でかける",
+          "でかく",
+          "でかくる"
+        ],
+        "hint": "Group 2: drop ます and add る"
+      },
+      {
+        "prompt": "降ります (おります - to get off)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "おりる",
+        "options": [
+          "おりる",
+          "おる",
+          "おりく"
+        ],
+        "hint": "Group 2 verb (Lesson 16): drop ます and add る"
+      },
+      {
+        "prompt": "乗ります (のります - to ride)",
+        "form": "辞書形 (Dictionary form)",
+        "answer": "のる",
+        "options": [
+          "のる",
+          "のむ",
+          "のす"
+        ],
+        "hint": "Group 1: り before ます changes to る"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "私は日本語 [ ? ] できます。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Target of ability with できます takes が, never を."
+      },
+      {
+        "sentence": "車を運転する [ ? ] ができます。",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "の",
+          "とき"
+        ],
+        "hint": "The nominalizer that turns verbs into noun concepts is こと."
+      },
+      {
+        "sentence": "食事 [ ? ] 前に、手を洗います。",
+        "answer": "の",
+        "options": [
+          "の",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "An action noun connects to 前に with の."
+      },
+      {
+        "sentence": "晩ご飯を食べる前 [ ? ]、手を洗いました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The time point marker with 前 is に (前に)."
+      },
+      {
+        "sentence": "3年 [ ? ] この車を買いました。",
+        "answer": "前に",
+        "options": [
+          "前に",
+          "の前に",
+          "前で",
+          "前を"
+        ],
+        "hint": "Time duration attaches directly to 前に ('... ago') without の."
+      },
+      {
+        "sentence": "ピアノ [ ? ] 弾くことができます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "The instrument is the direct object of 弾きます (ピアノを弾く)."
+      },
+      {
+        "sentence": "日本料理のなか [ ? ] 特にそばが好きです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Scope or category of comparison ('among...') takes で."
+      },
+      {
+        "sentence": "円をアメリカドル [ ? ] 換えたいです。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The target currency of an exchange takes に."
+      },
+      {
+        "sentence": "教会 [ ? ] お祈りします。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Place where an active event occurs takes で."
+      },
+      {
+        "sentence": "ここから駅まで200メートル [ ? ]。",
+        "answer": "です",
+        "options": [
+          "です",
+          "にです",
+          "でです",
+          "を行きます"
+        ],
+        "hint": "Distance description ends straightforwardly with counter + です."
+      },
+      {
+        "sentence": "馬 [ ? ] 乗ることができますか。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The animal or vehicle you ride takes に (馬に乗る)."
+      },
+      {
+        "sentence": "ネット [ ? ] ホテルを予約しました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Means or tool used (the internet) takes で."
+      },
+      {
+        "sentence": "私の趣味は写真 [ ? ] 撮ることです。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Direct object of 撮ります takes を."
+      },
+      {
+        "sentence": "ここでサッカー [ ? ] できません。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Target of ability (positive or negative) takes が."
+      },
+      {
+        "sentence": "出かける前 [ ? ]、電気を消しました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Verb (辞書形) + 前に."
+      },
+      {
+        "sentence": "カード [ ? ] 払うことができますか。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Method of payment takes で (カードで払う)."
+      },
+      {
+        "sentence": "毎晩日記 [ ? ] 書きます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Direct object of 書きます takes を."
+      },
+      {
+        "sentence": "たかしさん [ ? ] 予約があります。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "Name under which a reservation is held takes で (たかしで予約があります)."
+      },
+      {
+        "sentence": "今日はどうやって来ましたか？ — 馬 [ ? ] 来ました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Means of transportation takes で (馬で来ました)."
+      },
+      {
+        "sentence": "英語 [ ? ] 話すことができます。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "Inside the clause, the object of 話す takes を."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Asking someone about their hobbies",
+        "speaker": "佐藤",
+        "prompt": "ミラーさんの趣味は何ですか？",
+        "options": [
+          {
+            "text": "音楽を聴くことです。特にクラシックが好きです。",
+            "correct": true
+          },
+          {
+            "text": "音楽を聴きますことです。",
+            "correct": false
+          },
+          {
+            "text": "音楽を聴くができます。",
+            "correct": false
+          }
+        ],
+        "tip": "Use Verb (dictionary form) + ことです to state a hobby."
+      },
+      {
+        "situation": "Asking about language ability",
+        "speaker": "同僚",
+        "prompt": "ミラーさんは日本語ができますか？",
+        "options": [
+          {
+            "text": "はい、少し話すことができます。",
+            "correct": true
+          },
+          {
+            "text": "はい、日本語をできます。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、話すことがいいです。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond with [Verb-辞書形] ことができます."
+      },
+      {
+        "situation": "Inviting a friend to hang out",
+        "speaker": "たかし",
+        "prompt": "今度の週末、一緒に牧場へ行きませんか？",
+        "options": [
+          {
+            "text": "いいですね！是非行きましょう。",
+            "correct": true
+          },
+          {
+            "text": "特に何もしませんでした。",
+            "correct": false
+          },
+          {
+            "text": "なかなか行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 是非 (ぜひ) to enthusiastically accept an invitation."
+      },
+      {
+        "situation": "Asking for permission in a museum",
+        "speaker": "観光客",
+        "prompt": "ここで写真を撮りたいですが…",
+        "options": [
+          {
+            "text": "すみません、ここで写真を撮ってもいいですか？",
+            "correct": true
+          },
+          {
+            "text": "すみません、ここで写真を撮ることができますか？",
+            "correct": false
+          },
+          {
+            "text": "すみません、写真を撮る前に何ですか？",
+            "correct": false
+          }
+        ],
+        "tip": "Asking for permission uses ～てもいいですか, NOT ～ことができますか."
+      },
+      {
+        "situation": "Asking the pharmacist about medicine instructions",
+        "speaker": "薬剤師",
+        "prompt": "この薬はいつ飲みますか？",
+        "options": [
+          {
+            "text": "寝る前に、水で飲んでください。",
+            "correct": true
+          },
+          {
+            "text": "寝た前に、水で飲んでください。",
+            "correct": false
+          },
+          {
+            "text": "寝ます前に、水で飲んでください。",
+            "correct": false
+          }
+        ],
+        "tip": "The verb before 前に must remain in the dictionary form (寝る前に)."
+      },
+      {
+        "situation": "At a restaurant without a card reader",
+        "speaker": "客",
+        "prompt": "カードで払うことができますか？",
+        "options": [
+          {
+            "text": "すみません、現金のみです。",
+            "correct": true
+          },
+          {
+            "text": "はい、現金ができます。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、カードを払うことです。",
+            "correct": false
+          }
+        ],
+        "tip": "現金のみ (げんきん のみ) means 'cash only'."
+      },
+      {
+        "situation": "Talking about a past action with before",
+        "speaker": "母",
+        "prompt": "ご飯を食べましたか？ 手は洗いましたか？",
+        "options": [
+          {
+            "text": "はい、食べる前に洗いましたよ。",
+            "correct": true
+          },
+          {
+            "text": "はい、食べた前に洗いましたよ。",
+            "correct": false
+          },
+          {
+            "text": "はい、洗う前に食べましたよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Even in past tense sentences, keep the dictionary form before 前に (食べる前に)."
+      },
+      {
+        "situation": "Asking about internet banking",
+        "speaker": "友達",
+        "prompt": "ネットでホテルを予約することができますか？",
+        "options": [
+          {
+            "text": "ええ、スマホで簡単にできますよ。",
+            "correct": true
+          },
+          {
+            "text": "ええ、ホテルを予約する前です。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、特に予約しました。",
+            "correct": false
+          }
+        ],
+        "tip": "できます indicates possibility or situational capability."
+      },
+      {
+        "situation": "Asking someone when they arrived in Japan",
+        "speaker": "田中",
+        "prompt": "いつ日本に来ましたか？",
+        "options": [
+          {
+            "text": "半年前（6か月前）に来ました。",
+            "correct": true
+          },
+          {
+            "text": "半年のお前に来ました。",
+            "correct": false
+          },
+          {
+            "text": "来る前に来ました。",
+            "correct": false
+          }
+        ],
+        "tip": "Duration + 前に indicates how long ago an action took place."
+      },
+      {
+        "situation": "Discussing sports preference",
+        "speaker": "同僚",
+        "prompt": "どんなスポーツが好きですか？",
+        "options": [
+          {
+            "text": "スポーツの中で特にテニスが好きです。",
+            "correct": true
+          },
+          {
+            "text": "スポーツの中でなかなかテニスが好きです。",
+            "correct": false
+          },
+          {
+            "text": "テニスを弾くことができます。",
+            "correct": false
+          }
+        ],
+        "tip": "Use 特に to single out an item; sports use します/できます, not 弾きます."
+      },
+      {
+        "situation": "Asking someone for a favour",
+        "speaker": "同僚",
+        "prompt": "コピーの使い方が分からないんですが…",
+        "options": [
+          {
+            "text": "ちょっと手伝ってくださいませんか？",
+            "correct": true
+          },
+          {
+            "text": "手伝うことができますか？",
+            "correct": false
+          },
+          {
+            "text": "コピーする前に手伝うことです。",
+            "correct": false
+          }
+        ],
+        "tip": "Requests use ください / ていただけませんか, never できますか."
+      },
+      {
+        "situation": "Talking about food accessibility in Japan",
+        "speaker": "留学生",
+        "prompt": "母国の料理は日本で食べられますか？",
+        "options": [
+          {
+            "text": "日本ではなかなか食べることができません。",
+            "correct": true
+          },
+          {
+            "text": "日本では特に食べることができます。",
+            "correct": false
+          },
+          {
+            "text": "ぜひ食べることができません。",
+            "correct": false
+          }
+        ],
+        "tip": "Use なかなか + negative to express that something cannot easily be done."
+      }
+    ]
+  }
+}

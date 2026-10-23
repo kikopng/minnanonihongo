@@ -1,0 +1,2394 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 7,
+    "title": "Tools, Giving & Receiving, and 'Already' vs. 'Not Yet'",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master using the particle で to indicate tools, instruments, and language means; asking translations with 『～語で何ですか』; understanding the directional verbs of giving and receiving (にあげます, に/からもらいます, にかします, に/からかります, におしえます, に/からならいます); mastering Takashi Sensei's critical rule that あげます cannot be used when the receiver is 'me'; answering already (もう～ました) vs. not yet (いいえ、まだです); distinguishing humble in-group family terms (父, 母) from polite out-group family terms (お父さん, お母さん); and learning home-visiting etiquette phrases (ごめんください, お上がりください, いかがですか, いただきます, ごちそうさまでした)."
+  },
+  "vocabulary": [
+    {
+      "id": "kirimasu",
+      "kanji": "切ります",
+      "kana": "きります",
+      "romaji": "kirimasu",
+      "meaning": "to cut; to slice",
+      "category": "verb",
+      "example": {
+        "kanji": "ナイフでパンを切ります。",
+        "kana": "ナイフで パンを きります。",
+        "translation": "I cut the bread with a knife."
+      }
+    },
+    {
+      "id": "okurimasu",
+      "kanji": "送ります",
+      "kana": "おくります",
+      "romaji": "okurimasu",
+      "meaning": "to send; to ship",
+      "category": "verb",
+      "example": {
+        "kanji": "国へ荷物を送りました。",
+        "kana": "くにへ にもつを おくりました。",
+        "translation": "I sent a parcel to my home country."
+      }
+    },
+    {
+      "id": "agemasu",
+      "kanji": "あげます",
+      "kana": "あげます",
+      "romaji": "agemasu",
+      "meaning": "to give [to someone else]",
+      "category": "verb",
+      "example": {
+        "kanji": "母に花をあげました。",
+        "kana": "ははに はなを あげました。",
+        "translation": "I gave flowers to my mother."
+      }
+    },
+    {
+      "id": "moraimasu",
+      "kanji": "もらいます",
+      "kana": "もらいます",
+      "romaji": "moraimasu",
+      "meaning": "to receive; to get",
+      "category": "verb",
+      "example": {
+        "kanji": "誕生日に父に時計をもらいました。",
+        "kana": "たんじょうびに ちちに とけいを もらいました。",
+        "translation": "I received a watch from my father on my birthday."
+      }
+    },
+    {
+      "id": "kashimasu",
+      "kanji": "貸します",
+      "kana": "かします",
+      "romaji": "kashimasu",
+      "meaning": "to lend; to loan",
+      "category": "verb",
+      "example": {
+        "kanji": "友達に傘を貸しました。",
+        "kana": "ともだちに かさを かしました。",
+        "translation": "I lent an umbrella to my friend."
+      }
+    },
+    {
+      "id": "karimasu",
+      "kanji": "借ります",
+      "kana": "かります",
+      "romaji": "karimasu",
+      "meaning": "to borrow; to rent",
+      "category": "verb",
+      "example": {
+        "kanji": "図書館で本を借りました。",
+        "kana": "としょかんで ほんを かりました。",
+        "translation": "I borrowed books from the library."
+      }
+    },
+    {
+      "id": "oshiemasu",
+      "kanji": "教えます",
+      "kana": "おしえます",
+      "romaji": "oshiemasu",
+      "meaning": "to teach; to tell; to show",
+      "category": "verb",
+      "example": {
+        "kanji": "サントスさんに日本語を教えます。",
+        "kana": "サントスさんに にほんごを おしえます。",
+        "translation": "I teach Japanese to Mr. Santos."
+      }
+    },
+    {
+      "id": "naraimasu",
+      "kanji": "習います",
+      "kana": "ならいます",
+      "romaji": "naraimasu",
+      "meaning": "to learn; to take lessons in",
+      "category": "verb",
+      "example": {
+        "kanji": "ワンさんに中国語を習います。",
+        "kana": "ワンさんに ちゅうごくごを ならいます。",
+        "translation": "I learn Chinese from Mr. Wang."
+      }
+    },
+    {
+      "id": "kakemasu",
+      "kanji": "かけます",
+      "kana": "かけます",
+      "romaji": "kakemasu",
+      "meaning": "to make [a phone call]",
+      "category": "verb",
+      "example": {
+        "kanji": "友達に電話をかけます。",
+        "kana": "ともだちに でんわを かけます。",
+        "translation": "I make a phone call to a friend."
+      }
+    },
+    {
+      "id": "te",
+      "kanji": "手",
+      "kana": "て",
+      "romaji": "te",
+      "meaning": "hand; arm",
+      "category": "tool",
+      "example": {
+        "kanji": "手でご飯を食べます。",
+        "kana": "てで ごはんを たべます。",
+        "translation": "I eat meals with my hands."
+      }
+    },
+    {
+      "id": "hashi",
+      "kanji": "はし",
+      "kana": "はし",
+      "romaji": "hashi",
+      "meaning": "chopsticks",
+      "category": "tool",
+      "example": {
+        "kanji": "はしで魚を食べます。",
+        "kana": "はしで さかなを たべます。",
+        "translation": "I eat fish with chopsticks."
+      }
+    },
+    {
+      "id": "supuun",
+      "kanji": "スプーン",
+      "kana": "スプーン",
+      "romaji": "supuun",
+      "meaning": "spoon",
+      "category": "tool",
+      "example": {
+        "kanji": "スプーンでカレーを食べます。",
+        "kana": "スプーンで カレーを たべます。",
+        "translation": "I eat curry with a spoon."
+      }
+    },
+    {
+      "id": "naifu",
+      "kanji": "ナイフ",
+      "kana": "ナイフ",
+      "romaji": "naifu",
+      "meaning": "knife",
+      "category": "tool",
+      "example": {
+        "kanji": "ナイフでお肉を切ります。",
+        "kana": "ナイフで おにくを きります。",
+        "translation": "I cut meat with a knife."
+      }
+    },
+    {
+      "id": "fooku",
+      "kanji": "フォーク",
+      "kana": "フォーク",
+      "romaji": "fooku",
+      "meaning": "fork",
+      "category": "tool",
+      "example": {
+        "kanji": "フォークでパスタを食べます。",
+        "kana": "フォークで パスタを たべます。",
+        "translation": "I eat pasta with a fork."
+      }
+    },
+    {
+      "id": "hasami",
+      "kanji": "はさみ",
+      "kana": "はさみ",
+      "romaji": "hasami",
+      "meaning": "scissors",
+      "category": "tool",
+      "example": {
+        "kanji": "はさみで紙を切ります。",
+        "kana": "はさみで かみを きります。",
+        "translation": "I cut paper with scissors."
+      }
+    },
+    {
+      "id": "pasokon",
+      "kanji": "パソコン",
+      "kana": "パソコン",
+      "romaji": "pasokon",
+      "meaning": "personal computer; PC",
+      "category": "tool",
+      "example": {
+        "kanji": "パソコンでレポートを書きます。",
+        "kana": "パソコンで レポートを かきます。",
+        "translation": "I write a report on a PC."
+      }
+    },
+    {
+      "id": "ketaidenwa",
+      "kanji": "ケータイ / 携帯電話",
+      "kana": "ケータイ / けいたいでんわ",
+      "romaji": "keetai / keitaidenwa",
+      "meaning": "cell phone; smartphone",
+      "category": "tool",
+      "example": {
+        "kanji": "ケータイで写真を撮ります。",
+        "kana": "ケータイで しゃしんを とります。",
+        "translation": "I take photos with my cell phone."
+      }
+    },
+    {
+      "id": "panchi",
+      "kanji": "パンチ",
+      "kana": "パンチ",
+      "romaji": "panchi",
+      "meaning": "hole puncher",
+      "category": "tool",
+      "example": {
+        "kanji": "パンチで紙に穴を開けます。",
+        "kana": "パンチで かみに あなを あけます。",
+        "translation": "I punch holes in paper with a hole punch."
+      }
+    },
+    {
+      "id": "hotchikisu",
+      "kanji": "ホッチキス",
+      "kana": "ホッチキス",
+      "romaji": "hotchikisu",
+      "meaning": "stapler",
+      "category": "tool",
+      "example": {
+        "kanji": "ホッチキスで書類をとじます。",
+        "kana": "ホッチキスで しょるいを とじます。",
+        "translation": "I staple the documents with a stapler."
+      }
+    },
+    {
+      "id": "seroteepu",
+      "kanji": "セロテープ",
+      "kana": "セロテープ",
+      "romaji": "seroteepu",
+      "meaning": "Scotch tape; adhesive tape",
+      "category": "tool",
+      "example": {
+        "kanji": "セロテープでポスターを貼ります。",
+        "kana": "セロテープで ポスターを はります。",
+        "translation": "I stick up a poster with adhesive tape."
+      }
+    },
+    {
+      "id": "keshigomu",
+      "kanji": "消しゴム",
+      "kana": "けしゴム",
+      "romaji": "keshigomu",
+      "meaning": "eraser; rubber",
+      "category": "tool",
+      "example": {
+        "kanji": "消しゴムで字を消します。",
+        "kana": "けしゴムで じを けします。",
+        "translation": "I erase letters with an eraser."
+      }
+    },
+    {
+      "id": "kami",
+      "kanji": "紙",
+      "kana": "かみ",
+      "romaji": "kami",
+      "meaning": "paper",
+      "category": "object",
+      "example": {
+        "kanji": "紙に名前を書いてください。",
+        "kana": "かみに なまえを かいて ください。",
+        "translation": "Please write your name on the paper."
+      }
+    },
+    {
+      "id": "hana",
+      "kanji": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "meaning": "flower; blossom",
+      "category": "object",
+      "example": {
+        "kanji": "彼女にきれいな花をあげました。",
+        "kana": "かのじょに きれいな はなを あげました。",
+        "translation": "I gave pretty flowers to my girlfriend."
+      }
+    },
+    {
+      "id": "shatsu",
+      "kanji": "シャツ",
+      "kana": "シャツ",
+      "romaji": "shatsu",
+      "meaning": "shirt",
+      "category": "object",
+      "example": {
+        "kanji": "父に青いシャツをあげました。",
+        "kana": "ちちに あおい シャツを あげました。",
+        "translation": "I gave my father a blue shirt."
+      }
+    },
+    {
+      "id": "purezento",
+      "kanji": "プレゼント",
+      "kana": "プレゼント",
+      "romaji": "purezento",
+      "meaning": "present; gift",
+      "category": "object",
+      "example": {
+        "kanji": "素敵なプレゼントをもらいました。",
+        "kana": "すてきな プレゼントを もらいました。",
+        "translation": "I received a wonderful gift."
+      }
+    },
+    {
+      "id": "nimotsu",
+      "kanji": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "meaning": "luggage; baggage; parcel",
+      "category": "object",
+      "example": {
+        "kanji": "郵便局から荷物を送ります。",
+        "kana": "ゆうびんきょくから にもつを おくります。",
+        "translation": "I send a parcel from the post office."
+      }
+    },
+    {
+      "id": "okane",
+      "kanji": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "category": "object",
+      "example": {
+        "kanji": "銀行でお金を借ります。",
+        "kana": "ぎんこうで おかねを かります。",
+        "translation": "I borrow money from a bank."
+      }
+    },
+    {
+      "id": "kippu",
+      "kanji": "切符",
+      "kana": "きっぷ",
+      "romaji": "kippu",
+      "meaning": "ticket [train, bus, concert]",
+      "category": "object",
+      "example": {
+        "kanji": "新幹線の切符を買いました。",
+        "kana": "しんかんせんの きっぷを かいました。",
+        "translation": "I bought a bullet train ticket."
+      }
+    },
+    {
+      "id": "kurisumasu",
+      "kanji": "クリスマス",
+      "kana": "クリスマス",
+      "romaji": "kurisumasu",
+      "meaning": "Christmas",
+      "category": "object",
+      "example": {
+        "kanji": "クリスマスにプレゼントをあげます。",
+        "kana": "クリスマスに プレゼントを あげます。",
+        "translation": "I give presents on Christmas."
+      }
+    },
+    {
+      "id": "chichi",
+      "kanji": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "meaning": "(my) father [humble, used with outsiders]",
+      "category": "family",
+      "example": {
+        "kanji": "父は会社員です。",
+        "kana": "ちちは かいしゃいんです。",
+        "translation": "My father is a company employee."
+      }
+    },
+    {
+      "id": "haha",
+      "kanji": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "meaning": "(my) mother [humble, used with outsiders]",
+      "category": "family",
+      "example": {
+        "kanji": "母に電話をかけました。",
+        "kana": "ははに でんわを かけました。",
+        "translation": "I made a phone call to my mother."
+      }
+    },
+    {
+      "id": "otousan",
+      "kanji": "お父さん",
+      "kana": "おとうさん",
+      "romaji": "otousan",
+      "meaning": "(someone else's) father; dad [direct address]",
+      "category": "family",
+      "example": {
+        "kanji": "ミラーさんのお父さんはお元気ですか。",
+        "kana": "ミラーさんの おとうさんは おげんきですか。",
+        "translation": "Is Mr. Miller's father doing well?"
+      }
+    },
+    {
+      "id": "okaasan",
+      "kanji": "お母さん",
+      "kana": "おかあさん",
+      "romaji": "okaasan",
+      "meaning": "(someone else's) mother; mom [direct address]",
+      "category": "family",
+      "example": {
+        "kanji": "田中さんのお母さんは優しいです。",
+        "kana": "たなかさんの おかあさんは やさしいです。",
+        "translation": "Mr. Tanaka's mother is kind."
+      }
+    },
+    {
+      "id": "mou",
+      "kanji": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "meaning": "already; yet",
+      "category": "adverb",
+      "example": {
+        "kanji": "もう昼ご飯を食べましたか。",
+        "kana": "もう ひるごはんを たべましたか。",
+        "translation": "Have you already eaten lunch?"
+      }
+    },
+    {
+      "id": "mada",
+      "kanji": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "meaning": "not yet; still",
+      "category": "adverb",
+      "example": {
+        "kanji": "いいえ、まだです。これから食べます。",
+        "kana": "いいえ、まだです。これから たべます。",
+        "translation": "No, not yet. I am going to eat from now."
+      }
+    },
+    {
+      "id": "korekara",
+      "kanji": "これから",
+      "kana": "これから",
+      "romaji": "korekara",
+      "meaning": "from now on; soon; right now",
+      "category": "adverb",
+      "example": {
+        "kanji": "これから宿題をします。",
+        "kana": "これから しゅくだいを します。",
+        "translation": "I will do my homework right now."
+      }
+    },
+    {
+      "id": "suteki-desu-ne",
+      "kanji": "素敵ですね",
+      "kana": "すてきですね",
+      "romaji": "suteki desu ne",
+      "meaning": "What a lovely [~]! / How nice!",
+      "category": "expression",
+      "example": {
+        "kanji": "素敵なネクタイですね。",
+        "kana": "すてきな ネクタイですね。",
+        "translation": "What a lovely necktie you have!"
+      }
+    },
+    {
+      "id": "gomen-kudasai",
+      "kanji": "ごめんください",
+      "kana": "ごめんください",
+      "romaji": "gomen kudasai",
+      "meaning": "Excuse me / Is anyone home? [said when visiting someone's home]",
+      "category": "expression",
+      "example": {
+        "kanji": "ごめんください。山田さん、いらっしゃいますか。",
+        "kana": "ごめんください。やまださん、いらっしゃいますか。",
+        "translation": "Excuse me, anyone home? Is Mr. Yamada here?"
+      }
+    },
+    {
+      "id": "irasshai",
+      "kanji": "いらっしゃい",
+      "kana": "いらっしゃい",
+      "romaji": "irasshai",
+      "meaning": "Welcome! [informal/home welcoming]",
+      "category": "expression",
+      "example": {
+        "kanji": "いらっしゃい。どうぞ入ってください。",
+        "kana": "いらっしゃい。どうぞ はいって ください。",
+        "translation": "Welcome! Please come in."
+      }
+    },
+    {
+      "id": "oagari-kudasai",
+      "kanji": "どうぞお上がりください",
+      "kana": "どうぞ おあがりください",
+      "romaji": "douzo oagari kudasai",
+      "meaning": "Please do come in / Please step up [into the Japanese raised home entrance]",
+      "category": "expression",
+      "example": {
+        "kanji": "寒いですから、どうぞお上がりください。",
+        "kana": "さむいですから、どうぞ おあがりください。",
+        "translation": "It is cold outside, so please do come right in."
+      }
+    },
+    {
+      "id": "shitsurei-shimasu",
+      "kanji": "失礼します",
+      "kana": "しつれいします",
+      "romaji": "shitsurei shimasu",
+      "meaning": "Excuse me; pardon me [said when entering someone's home or office]",
+      "category": "expression",
+      "example": {
+        "kanji": "お邪魔します。失礼します。",
+        "kana": "おじゃまします。しつれいします。",
+        "translation": "Excuse me for intruding. Pardon me."
+      }
+    },
+    {
+      "id": "ikaga-desu-ka",
+      "kanji": "[～は] いかがですか",
+      "kana": "[～は] いかがですか",
+      "romaji": "[~ wa] ikaga desu ka",
+      "meaning": "Won't you have [~]? / How about [~]? [polite offer]",
+      "category": "expression",
+      "example": {
+        "kanji": "温かいお茶はいかがですか。",
+        "kana": "あたたかい おちゃは いかがですか。",
+        "translation": "How about some warm green tea?"
+      }
+    },
+    {
+      "id": "itadakimasu",
+      "kanji": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "meaning": "Thank you; I humbly partake [said before eating or drinking]",
+      "category": "expression",
+      "example": {
+        "kanji": "じゃあ、いただきます。",
+        "kana": "じゃあ、いただきます。",
+        "translation": "Well then, thank you for the food."
+      }
+    },
+    {
+      "id": "gochisousama",
+      "kanji": "ごちそうさま [でした]",
+      "kana": "ごちそうさま [でした]",
+      "romaji": "gochisousama [deshita]",
+      "meaning": "Thank you for the meal / hospitality [said after eating or drinking]",
+      "category": "expression",
+      "example": {
+        "kanji": "とてもおいしかったです。ごちそうさまでした。",
+        "kana": "とても おいしかったです。ごちそうさまでした。",
+        "translation": "It was truly delicious. Thank you for the wonderful meal."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun (Tool / Means) で Verb [Tools, Instruments, and Methods]",
+      "explanation": "In Lesson 5, you learned で for means of transportation (電車で行きます). In Lesson 6, you learned で for location of dynamic action (図書館で勉強します). Here in Lesson 7, で takes on its third major role: marking the TOOL, INSTRUMENT, or MEANS used to perform an action. Formula: 『Noun (Tool/Instrument) + で + Verb』. Typical tools include eating utensils (はしで食べます, スプーンで食べます), cutting tools (はさみで切ります, ナイフで切ります), communication/writing media (パソコンでレポートを書きます), and even physical body parts (手で食べます - eat with hands). Takashi Sensei reminds students: To ask what tool someone uses, say: 『何で [Verb] ますか』 (なん で... — What do you do it with?).",
+      "examples": [
+        {
+          "kanji": "はしでご飯を食べます。",
+          "kana": "はしで ごはんを たべます。",
+          "translation": "I eat meals with chopsticks."
+        },
+        {
+          "kanji": "スプーンでアイスクリームを食べます。",
+          "kana": "スプーンで アイスクリームを たべます。",
+          "translation": "I eat ice cream with a spoon."
+        },
+        {
+          "kanji": "はさみで紙を切ります。",
+          "kana": "はさみで かみを きります。",
+          "translation": "I cut paper with scissors."
+        },
+        {
+          "kanji": "パソコンでレポートを書きます。",
+          "kana": "パソコンで レポートを かきます。",
+          "translation": "I write my report on a personal computer."
+        },
+        {
+          "kanji": "何で写真を撮りますか。— スマホで撮ります。",
+          "kana": "なんで しゃしんを とりますか。— スマホで とります。",
+          "translation": "What do you take photos with? — I take them with my smartphone."
+        }
+      ]
+    },
+    {
+      "pattern": "Language で Verb & 「Word / Sentence」は ～語で 何ですか [Languages & Translations]",
+      "explanation": "Because a spoken or written language is also an instrument or medium of communication, it is marked by the instrument particle で: 『日本語で話します』 (speak in Japanese), 『英語で手紙を書きます』 (write a letter in English). To ask how to say a particular word or phrase in another language, use the set formula: 『「Word / Sentence」は [Language] 語で 何ですか』 (What is '...' in [Language]?). Answer formula: 『「...」です』. Takashi Sensei emphasizes pronouncing 何 as なん before です (なんですか) and remembering to quote the word with quotation brackets 「 」.",
+      "examples": [
+        {
+          "kanji": "日本語でレポートを書きました。",
+          "kana": "にほんごで レポートを かきました。",
+          "translation": "I wrote the report in Japanese."
+        },
+        {
+          "kanji": "「ありがとう」は英語で何ですか。— 「Thank you」です。",
+          "kana": "「ありがとう」は えいごで なんですか。— 「Thank you」です。",
+          "translation": "What is 'Arigatou' in English? — It is 'Thank you'."
+        },
+        {
+          "kanji": "「Good bye」は日本語で何ですか。— 「さようなら」です。",
+          "kana": "「Good bye」は にほんごで なんですか。— 「さようなら」です。",
+          "translation": "What is 'Good bye' in Japanese? — It is 'Sayounara'."
+        },
+        {
+          "kanji": "英語で話してください。",
+          "kana": "えいごで はなして ください。",
+          "translation": "Please speak in English."
+        }
+      ]
+    },
+    {
+      "pattern": "Person に Noun を あげます [Giving to Others] & The 'Never あげます to Me' Rule",
+      "explanation": "The verb あげます means 'to give'. The receiver of the gift is marked by the target particle に: 『[Giver は] Receiver に Object を あげます』. CRITICAL RULE HIGHLIGHTED BY TAKASHI SENSEI: In standard Japanese, あげます can ONLY be used when the giver gives outward to someone else (I give to person B, or Person A gives to Person B). It is a major grammatical violation to use あげます when the receiver is 'ME' (私): ✕「田中さんは私にプレゼントをあげました」 is WRONG! When someone gives something to YOU, you must view the transaction from your perspective using もらいました (私は田中さんにプレゼントをもらいました), or use the special verb くれます (taught in Lesson 24). Never use あげます when the recipient is 私 (watashi)!",
+      "examples": [
+        {
+          "kanji": "私は母に花をあげました。",
+          "kana": "わたしは ははに はなを あげました。",
+          "translation": "I gave flowers to my mother."
+        },
+        {
+          "kanji": "太郎君にチョコレートをあげました。",
+          "kana": "たろうくんに チョコレートを あげました。",
+          "translation": "I gave chocolate to Taro."
+        },
+        {
+          "kanji": "山田さんは木村さんにプレゼントをあげました。",
+          "kana": "やまださんは きむらさんに プレゼントを あげました。",
+          "translation": "Mr. Yamada gave a gift to Ms. Kimura."
+        },
+        {
+          "kanji": "クリスマスに友達に何をあげますか。",
+          "kana": "クリスマスに ともだちに なにを あげますか。",
+          "translation": "What will you give your friend for Christmas?"
+        }
+      ]
+    },
+    {
+      "pattern": "Person に / から Noun を もらいます [Receiving] & Person に vs. Organization から",
+      "explanation": "The verb もらいます means 'to receive'. The giver (the person from whom you receive) is marked by either に or から: 『Receiver は Giver に / から Object を もらいます』. Both に and から are natural when the giver is an individual person: 「先生に本をもらいました」 = 「先生から本をもらいました」. CRITICAL DISTINCTION TAUGHT BY TAKASHI: When receiving an item, money, or parcel from a company, bank, school, or organization (not an individual human being), you CANNOT use に; you MUST use から! Example: 〇「銀行からお金を借りました」 / ✕「銀行に借りました」; 〇「会社からボーナスをもらいました」 / ✕「会社にもらいました」.",
+      "examples": [
+        {
+          "kanji": "私は父に時計をもらいました。",
+          "kana": "わたしは ちちに とけいを もらいました。",
+          "translation": "I received a watch from my father."
+        },
+        {
+          "kanji": "誕生日に友達からプレゼントをもらいました。",
+          "kana": "たんじょうびに ともだちから プレゼントを もらいました。",
+          "translation": "I received a present from my friend on my birthday."
+        },
+        {
+          "kanji": "会社から給料をもらいました。",
+          "kana": "かいしゃから きゅうりょうを もらいました。",
+          "translation": "I received a salary from my company. (Organization: MUST use から, not に!)"
+        },
+        {
+          "kanji": "誰にそのシャツをもらいましたか。— 姉にもらいました。",
+          "kana": "だれに その シャツを もらいましたか。— あねに もらいました。",
+          "translation": "Who did you get that shirt from? — I got it from my older sister."
+        }
+      ]
+    },
+    {
+      "pattern": "貸します (Lend to Person に) vs. 借ります (Borrow from Person に / から)",
+      "explanation": "Keep the directional vectors straight:\n• 貸します (かします): Direction flows OUTWARD from subject to recipient ('to lend'). Recipient is marked by に: 『Person A は Person B に [Item] を 貸します』 (A lends [Item] to B).\n• 借ります (かります): Direction flows INWARD from source to subject ('to borrow'). Source is marked by に or から: 『Person A は Person B に / から [Item] を 借ります』 (A borrows [Item] from B).\nTakashi's memory hook: 貸します (kashimasu) = Cash-out (lending to someone); 借ります (karimasu) = Car-in (borrowing a car into your garage). Organizations must take から: 銀行からお金を借りました.",
+      "examples": [
+        {
+          "kanji": "山田さんに傘を貸しました。",
+          "kana": "やまださんに かさを かしました。",
+          "translation": "I lent an umbrella to Mr. Yamada."
+        },
+        {
+          "kanji": "ミラーさんに辞書を借りました。",
+          "kana": "ミラーさんに じしょを かりました。",
+          "translation": "I borrowed a dictionary from Mr. Miller."
+        },
+        {
+          "kanji": "図書館から本を借りました。",
+          "kana": "としょかんから ほんを かりました。",
+          "translation": "I borrowed books from the library. (Facility/Organization → から)"
+        },
+        {
+          "kanji": "ペンを貸してください。",
+          "kana": "ペンを かして ください。",
+          "translation": "Please lend me a pen."
+        }
+      ]
+    },
+    {
+      "pattern": "教えます (Teach to Person に) vs. 習います (Learn from Person に / から)",
+      "explanation": "Another directional pair governed by the same directional logic:\n• 教えます (おしえます): Knowledge flows OUTWARD from teacher to student ('to teach'). The learner/recipient takes に: 『Teacher は Student に [Subject] を 教えます』.\n• 習います (ならいます): Knowledge flows INWARD from instructor to learner ('to learn'). The instructor takes に or から: 『Student は Teacher に / から [Subject] を 習います』.\nIf you learn from an institution (e.g. school or university), use から: 学校から習いました.",
+      "examples": [
+        {
+          "kanji": "私はマリアさんに英語を教えます。",
+          "kana": "わたしは マリアさんに えいごを おしえます。",
+          "translation": "I teach English to Maria."
+        },
+        {
+          "kanji": "木村先生に生け花を習いました。",
+          "kana": "きむらせんせいに いけばなを ならいました。",
+          "translation": "I learned flower arrangement from Teacher Kimura."
+        },
+        {
+          "kanji": "誰に日本語を習いましたか。— タカシ先生に習いました。",
+          "kana": "だれに にほんごを ならいましたか。— タカシせんせいに ならいました。",
+          "translation": "Who did you learn Japanese from? — I learned it from Takashi Sensei."
+        }
+      ]
+    },
+    {
+      "pattern": "送ります (Send to) & かけます [電話を~] (Phone Call to Person に / Place へ)",
+      "explanation": "When sending physical items or making calls:\n• 送ります (おくります - to send): The recipient person takes に (友達に手紙を送ります), but a destination country or city takes へ or に (アメリカへ荷物を送ります).\n• 電話をかけます (でんわをかけます - to make a phone call): The person you call takes に (母に電話をかけます); an office or building you call can take へ or に (会社へ電話をかけます).",
+      "examples": [
+        {
+          "kanji": "家族にメールを送りました。",
+          "kana": "かぞくに メールを おくりました。",
+          "translation": "I sent an email to my family."
+        },
+        {
+          "kanji": "国へプレゼントを送ります。",
+          "kana": "くにへ プレゼントを おくります。",
+          "translation": "I will send a present to my home country."
+        },
+        {
+          "kanji": "先生に電話をかけました。",
+          "kana": "せんせいに でんわを かけました。",
+          "translation": "I made a phone call to the teacher."
+        },
+        {
+          "kanji": "明日病院へ電話をかけます。",
+          "kana": "あした びょういんへ でんわを かけます。",
+          "translation": "Tomorrow I will call the hospital."
+        }
+      ]
+    },
+    {
+      "pattern": "もう Verb-ました vs. いいえ、まだです [Already Completed vs. Not Yet]",
+      "explanation": "もう means 'already' and indicates that an action is completed at the present moment. It pairs with the past affirmative: 『もう [Verb] ました』. Question: 『もう [Verb] ましたか』 (Have you already done...?).\n• Affirmative answer: 『はい、もう [Verb] ました』 (Yes, I have already done so).\n• Negative answer: 『いいえ、まだです』 (No, not yet).\nTAKASHI SENSEI'S VITAL WARNING: Never answer a 『もう～ましたか』 question with ✕『いいえ、～ませんでした』! Saying 「食べませんでした」 means 'I did not eat (and the opportunity/meal is over; I do not intend to eat)'. Saying 「まだです」 means 'Not yet (I have not eaten yet, but I intend to do so soon)'. Always pair with これから (from now on): 「いいえ、まだです。これから食べます」.",
+      "examples": [
+        {
+          "kanji": "もう昼ご飯を食べましたか。— はい、もう食べました。",
+          "kana": "もう ひるごはんを たべましたか。— はい、もう たべました。",
+          "translation": "Have you already eaten lunch? — Yes, I have already eaten."
+        },
+        {
+          "kanji": "もう荷物を送りましたか。— いいえ、まだです。これから送ります。",
+          "kana": "もう にもつを おくりましたか。— いいえ、まだです。これから おくります。",
+          "translation": "Have you sent the parcel already? — No, not yet. I will send it now."
+        },
+        {
+          "kanji": "もう宿題をしましたか。— いいえ、まだです。",
+          "kana": "もう しゅくだいを しましたか。— いいえ、まだです。",
+          "translation": "Have you done your homework already? — No, not yet."
+        },
+        {
+          "kanji": "新幹線の切符をもう買いましたか。— はい、昨日買いました。",
+          "kana": "しんかんせんの きっぷを もう かいましたか。— はい、きのう かいました。",
+          "translation": "Did you already buy the bullet train tickets? — Yes, I bought them yesterday."
+        }
+      ]
+    },
+    {
+      "pattern": "Family Terms: Humble In-Group (父・母) vs. Polite Out-Group (お父さん・お母さん)",
+      "explanation": "Japanese etiquette requires strict distinction between your own in-group (内 - uchi) and an outside person's out-group (外 - soto):\n• When speaking to an outsider (coworker, client, teacher) about YOUR OWN parents, use the humble terms: 父 (ちち - my father) and 母 (はは - my mother). Never attach さん or お to your own family when speaking to outsiders!\n• When referring to SOMEONE ELSE'S parents, or when directly addressing your own parents at home, use the polite honorific terms: お父さん (おとうさん - your/someone's father; Dad!) and お母さん (おかあさん - your/someone's mother; Mom!).\nTakashi's rule of thumb: Humble yourself and your family to elevate the listener.",
+      "examples": [
+        {
+          "kanji": "私の父は銀行員です。",
+          "kana": "わたしの ちちは ぎんこういんです。",
+          "translation": "My father is a bank employee. (Speaking to outsider → 父)"
+        },
+        {
+          "kanji": "ミラーさんのお父さんはアメリカにいらっしゃいますか。",
+          "kana": "ミラーさんの おとうさんは アメリカに いらっしゃいますか。",
+          "translation": "Is Mr. Miller's father in America? (Outsider's father → お父さん)"
+        },
+        {
+          "kanji": "母にセーターをもらいました。",
+          "kana": "ははに セーターを もらいました。",
+          "translation": "I received a sweater from my mother. (My mother → 母)"
+        },
+        {
+          "kanji": "佐藤さんのお母さんは料理が上手ですね。",
+          "kana": "さとうさんの おかあさんは りょうりが じょうずですね。",
+          "translation": "Ms. Sato's mother is very good at cooking. (Someone else's mother → お母さん)"
+        }
+      ]
+    },
+    {
+      "pattern": "Home Visiting Etiquette & Hospitality Expressions [ごめんください, お上がりください, etc.]",
+      "explanation": "Lesson 7 introduces the classic script for visiting a Japanese home:\n1. Arriving at the entrance (玄関 - genkan): The guest says 『ごめんください』 (Excuse me, is anyone home?).\n2. Greeting the guest: The host opens the door and replies 『いらっしゃい』 (Welcome!).\n3. Inviting inside: The host invites the guest onto the raised tatami/wooden floor with 『どうぞ お上がりください』 (Please step up and come in).\n4. Stepping inside: The guest steps out of their shoes, faces them toward the door, and says 『失礼します』 (しつれいします - Pardon the intrusion).\n5. Offering refreshment: The host serves tea or snacks: 『[お茶/コーヒーは] いかがですか』 (How about some tea/coffee?).\n6. Partaking: The guest accepts politely: 『いただきます』 (I humbly receive).\n7. Complimenting a gift or decoration: 『素敵ですね』 (すてきですね - How lovely!).\n8. Finishing: After consuming, the guest thanks the host: 『ごちそうさまでした』 (Thank you for the wonderful treat).",
+      "examples": [
+        {
+          "kanji": "ごめんください。— いらっしゃい。どうぞお上がりください。",
+          "kana": "ごめんください。— いらっしゃい。どうぞ おあがりください。",
+          "translation": "Excuse me, anyone home? — Welcome! Please do come in."
+        },
+        {
+          "kanji": "失礼します。これ、おみやげです。どうぞ。",
+          "kana": "しつれいします。これ、おみやげです。どうぞ。",
+          "translation": "Pardon me. Here is a souvenir for you. Please take it."
+        },
+        {
+          "kanji": "コーヒーはいかがですか。— ありがとうございます。いただきます。",
+          "kana": "コーヒーは いかがですか。— ありがとうございます。いただきます。",
+          "translation": "How about some coffee? — Thank you very much. I will gladly partake."
+        },
+        {
+          "kanji": "とてもおいしかったです。ごちそうさまでした。",
+          "kana": "とても おいしかったです。ごちそうさまでした。",
+          "translation": "It was very delicious. Thank you for the treat."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "山田さんの家への訪問とプレゼント (Visiting Yamada's Home and a Special Gift)",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "kanji": "ごめんください。",
+        "kana": "ごめんください。"
+      },
+      {
+        "speaker": "山田の妻",
+        "kanji": "はーい。あ、ミラーさん、いらっしゃい。どうぞお上がりください。",
+        "kana": "はーい。あ、ミラーさん、いらっしゃい。どうぞ おあがりください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "失礼します。これ、庭の花です。どうぞ。",
+        "kana": "しつれいします。これ、にわの はなです。どうぞ。"
+      },
+      {
+        "speaker": "山田の妻",
+        "kanji": "まあ、きれいな花ですね。どうもありがとうございます。",
+        "kana": "まあ、きれいな はなですね。どうも ありがとうございます。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "ミラーさん、こんにちは。よく来ましたね。コーヒーはいかがですか。",
+        "kana": "ミラーさん、こんにちは。よく きましたね。コーヒーは いかがですか。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ええ、いただきます。",
+        "kana": "ええ、いただきます。"
+      },
+      {
+        "speaker": "山田の妻",
+        "kanji": "どうぞ。このスプーンを使ってください。",
+        "kana": "どうぞ。この スプーンを つかって ください。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "素敵なスプーンですね。どこで買いましたか。",
+        "kana": "すてきな スプーンですね。どこで かいましたか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "これですか。先月、会社の出張でタイへ行きました。会社の人にもらいました。",
+        "kana": "これですか。せんげつ、かいしゃの しゅっちょうで タイへ いきました。かいしゃの ひとに もらいました。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "そうですか。ところで、山田さん、新幹線の切符はもう買いましたか。",
+        "kana": "そうですか。ところで、やまださん、しんかんせんの きっぷは もう かいましたか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "いいえ、まだです。これからネットで買います。スマホで買えますよ。",
+        "kana": "いいえ、まだです。これから ネットで かいます。スマホで かえますよ。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "スマホですか。便利ですね。あ、このケーキはおいしいですね。何で食べますか。",
+        "kana": "スマホですか。べんりですね。あ、この ケーキは おいしいですね。なんで たべますか。"
+      },
+      {
+        "speaker": "山田",
+        "kanji": "小さなフォークで食べます。どうぞ。",
+        "kana": "ちいさな フォークで たべます。どうぞ。"
+      },
+      {
+        "speaker": "ミラー",
+        "kanji": "ありがとうございます。ごちそうさまでした。",
+        "kana": "ありがとうございます。ごちそうさまでした。"
+      }
+    ],
+    "translation": "Mr. Miller visits Mr. Yamada's house and calls out 'Gomen kudasai' at the entrance. Yamada's wife warmly welcomes him with 'Irasshai. Douzo oagari kudasai.' Miller says 'Shitsurei shimasu' as he steps inside and gives her flowers from his garden. She thanks him for the lovely gift. Mr. Yamada greets Miller and offers him some coffee ('Koohii wa ikaga desu ka?'). Miller gratefully accepts ('Itadakimasu'). Yamada's wife hands him a spoon, which Miller compliments ('Suteki na supuun desu ne'). Yamada explains that he received it from a colleague in Thailand during last month's business trip. Miller then asks if Yamada has already purchased the bullet train tickets. Yamada replies that he hasn't yet ('Iie, mada desu'), but will buy them online with his smartphone now. Finally, Miller enjoys the cake with a small fork and expresses gratitude after eating with 'Gochisousama deshita'.",
+    "questions": [
+      {
+        "question": "What phrase does Miller use when announcing his arrival at Yamada's house door?",
+        "options": [
+          "ごめんください",
+          "いらっしゃい",
+          "失礼しました",
+          "いただきます"
+        ],
+        "answer": 0,
+        "explanation": "When visiting someone's home and arriving at the entrance, a guest calls out 『ごめんください』."
+      },
+      {
+        "question": "How does Yamada's wife invite Miller to step up and enter the house?",
+        "options": [
+          "どうぞお上がりください",
+          "ごちそうさまでした",
+          "いただきます",
+          "失礼します"
+        ],
+        "answer": 0,
+        "explanation": "The traditional host phrase to invite someone up into the home is 『どうぞお上がりください』."
+      },
+      {
+        "question": "What present did Miller give to Yamada's wife?",
+        "options": [
+          "Flowers from his garden",
+          "A tie from America",
+          "A silver spoon from Thailand",
+          "A bullet train ticket"
+        ],
+        "answer": 0,
+        "explanation": "Miller says: これ、庭の花です。どうぞ (Here are flowers from my garden; please take them)."
+      },
+      {
+        "question": "Where did Mr. Yamada get the lovely spoon from?",
+        "options": [
+          "He received it from a coworker in Thailand",
+          "He bought it at a department store in Osaka",
+          "He borrowed it from Mr. Miller",
+          "His father gave it to him for Christmas"
+        ],
+        "answer": 0,
+        "explanation": "Yamada states: タイへ行きました。会社の人にもらいました (I went to Thailand; I received it from someone at the company)."
+      },
+      {
+        "question": "Has Mr. Yamada already bought the bullet train ticket?",
+        "options": [
+          "No, not yet; he will buy it now on his smartphone",
+          "Yes, he bought it at the station yesterday",
+          "No, he will never buy it",
+          "Yes, Miller bought it for him"
+        ],
+        "answer": 0,
+        "explanation": "Yamada answers: いいえ、まだです。これからネットで買います (No, not yet. I will buy it online now)."
+      },
+      {
+        "question": "Which tool does Miller use to eat the cake?",
+        "options": [
+          "A small fork (小さなフォーク)",
+          "Wooden chopsticks (はし)",
+          "A large knife (ナイフ)",
+          "His bare hands (手)"
+        ],
+        "answer": 0,
+        "explanation": "Yamada offers: 小さなフォークで食べます (Eat it with a small fork)."
+      },
+      {
+        "question": "What phrase does Miller say before drinking the coffee?",
+        "options": [
+          "いただきます",
+          "ごちそうさまでした",
+          "失礼します",
+          "ごめんください"
+        ],
+        "answer": 0,
+        "explanation": "Before partaking in food or drink offered to you, say 『いただきます』."
+      },
+      {
+        "question": "Why does Yamada say 『会社の人にもらいました』 instead of 『あげました』?",
+        "options": [
+          "Because Yamada is the recipient receiving the spoon into his possession",
+          "Because Yamada gave the spoon away to his company",
+          "Because あげます cannot be used for spoons",
+          "Because もらいました means to lend"
+        ],
+        "answer": 0,
+        "explanation": "もらいました means 'received from'; Yamada received the spoon from his coworker."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct particle for the tool used: 'I eat meals with chopsticks.'",
+      "prompt": {
+        "kanji": "はし___ご飯を食べます。",
+        "kana": "はし___ ごはんを たべます。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The particle で indicates the tool or instrument used to perform an action (はしで食べます)."
+    },
+    {
+      "question": "Choose the correct question to ask what language/means is used: 'What is \"Thank you\" in Japanese?'",
+      "prompt": {
+        "kanji": "「Thank you」は日本語___何ですか。",
+        "kana": "「Thank you」は にほんご___ なんですか。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Language as a medium of communication takes the particle で: 日本語で何ですか."
+    },
+    {
+      "question": "Choose the correct verb for giving a present to a friend: 'I gave a watch to my friend.'",
+      "prompt": {
+        "kanji": "私は友達に時計を___。",
+        "kana": "わたしは ともだちに とけいを ___。"
+      },
+      "options": [
+        "あげました",
+        "もらいました",
+        "借りました",
+        "習いました"
+      ],
+      "answer": 0,
+      "explanation": "Action directed outward to someone else ('give') uses あげました."
+    },
+    {
+      "question": "Which sentence is a serious grammatical error according to Takashi's 'Never あげます to Me' rule?",
+      "options": [
+        "田中さんは私に本をあげました。",
+        "私は田中さんに本をあげました。",
+        "田中さんは山田さんに本をあげました。",
+        "私は田中さんに本をもらいました。"
+      ],
+      "answer": 0,
+      "explanation": "You can NEVER use あげます when the recipient is 'me' (私). Say: 私は田中さんに本をもらいました."
+    },
+    {
+      "question": "Choose the correct particle: 'I received a present from my mother.'",
+      "prompt": {
+        "kanji": "母___プレゼントをもらいました。",
+        "kana": "はは___ プレゼントを もらいました。"
+      },
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "The person from whom you receive takes に (or から): 母にもらいました."
+    },
+    {
+      "question": "When receiving from an institution/organization, which particle is REQUIRED?",
+      "prompt": {
+        "kanji": "銀行___お金を借りました。",
+        "kana": "ぎんこう___ おかねを かりました。"
+      },
+      "options": [
+        "から",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "When borrowing or receiving from an organization (bank, company, school), you must use から, not に."
+    },
+    {
+      "question": "Choose the correct verb: 'I lent an umbrella to Mr. Miller.'",
+      "prompt": {
+        "kanji": "ミラーさんに傘を___。",
+        "kana": "ミラーさんに かさを ___。"
+      },
+      "options": [
+        "貸しました",
+        "借りました",
+        "もらいました",
+        "習いました"
+      ],
+      "answer": 0,
+      "explanation": "Lending outward to another person uses 貸しました (かしました)."
+    },
+    {
+      "question": "Choose the correct verb: 'I borrowed a pen from Ms. Sato.'",
+      "prompt": {
+        "kanji": "佐藤さんにペンを___。",
+        "kana": "さとうさんに ペンを ___。"
+      },
+      "options": [
+        "借りました",
+        "貸しました",
+        "あげました",
+        "教えました"
+      ],
+      "answer": 0,
+      "explanation": "Borrowing inward into your possession uses 借りました (かりました)."
+    },
+    {
+      "question": "Choose the correct verb: 'I teach English to Japanese children.'",
+      "prompt": {
+        "kanji": "日本人の子供に英語を___。",
+        "kana": "にほんじんの こどもに えいごを ___。"
+      },
+      "options": [
+        "教えます",
+        "習います",
+        "借ります",
+        "もらいます"
+      ],
+      "answer": 0,
+      "explanation": "Imparting knowledge to someone uses 教えます (おしえます)."
+    },
+    {
+      "question": "Choose the correct verb: 'I learn Chinese from Mr. Wang.'",
+      "prompt": {
+        "kanji": "ワンさんに中国語を___。",
+        "kana": "ワンさんに ちゅうごくごを ___。"
+      },
+      "options": [
+        "習います",
+        "教えます",
+        "貸します",
+        "あげます"
+      ],
+      "answer": 0,
+      "explanation": "Receiving instruction from someone uses 習います (ならいます)."
+    },
+    {
+      "question": "How should you correctly answer: 『もう昼ご飯を食べましたか』 when you have NOT yet eaten?",
+      "options": [
+        "いいえ、まだです。",
+        "いいえ、食べませんでした。",
+        "いいえ、食べませんでしたか。",
+        "いいえ、もう食べます。"
+      ],
+      "answer": 0,
+      "explanation": "Never answer with 食べませんでした (which means the opportunity passed). Use 『いいえ、まだです』 (Not yet)."
+    },
+    {
+      "question": "Choose the correct expression: 'I will write the report from now on / right now.'",
+      "prompt": {
+        "kanji": "___レポートを書きます。",
+        "kana": "___ レポートを かきます。"
+      },
+      "options": [
+        "これから",
+        "もう",
+        "まだ",
+        "いつも"
+      ],
+      "answer": 0,
+      "explanation": "これから means 'from now on' / 'right now'."
+    },
+    {
+      "question": "When speaking to your teacher or boss, which word should you use to refer to YOUR OWN father?",
+      "options": [
+        "父 (ちち)",
+        "お父さん (おとうさん)",
+        "父さん (とうさん)",
+        "ご主人 (ごしゅじん)"
+      ],
+      "answer": 0,
+      "explanation": "When speaking to an outsider about your own family, use the humble term 父 (ちち)."
+    },
+    {
+      "question": "When asking a friend about THEIR mother, which word must you use?",
+      "options": [
+        "お母さん (おかあさん)",
+        "母 (はは)",
+        "奥さん (おくさん)",
+        "家内 (かない)"
+      ],
+      "answer": 0,
+      "explanation": "To refer politely to someone else's mother, use お母さん (おかあさん)."
+    },
+    {
+      "question": "What does a guest say when entering someone's house at the door?",
+      "options": [
+        "ごめんください",
+        "いらっしゃい",
+        "お上がりください",
+        "ごちそうさまでした"
+      ],
+      "answer": 0,
+      "explanation": "A visiting guest announces arrival at the entrance with 『ごめんください』."
+    },
+    {
+      "question": "What does the host say to invite the guest onto the raised floor of the home?",
+      "options": [
+        "どうぞお上がりください",
+        "ごめんください",
+        "失礼します",
+        "いただきます"
+      ],
+      "answer": 0,
+      "explanation": "Hosts invite visitors inside using 『どうぞお上がりください』."
+    },
+    {
+      "question": "What does the guest say when stepping into someone's home?",
+      "options": [
+        "失礼します (しつれいします)",
+        "いらっしゃい",
+        "お上がりください",
+        "ごちそうさま"
+      ],
+      "answer": 0,
+      "explanation": "A guest apologizes for the intrusion when stepping inside by saying 『失礼します』."
+    },
+    {
+      "question": "What is the polite phrase a host uses to offer tea or snacks?",
+      "options": [
+        "お茶はいかがですか",
+        "お茶はどうやってですか",
+        "お茶は何ですか",
+        "お茶を飲みましたか"
+      ],
+      "answer": 0,
+      "explanation": "Polite offer: 『[Noun] は いかがですか』 (How about [Noun]?)."
+    },
+    {
+      "question": "What should you say immediately before partaking in a meal or beverage?",
+      "options": [
+        "いただきます",
+        "ごちそうさまでした",
+        "失礼します",
+        "いらっしゃい"
+      ],
+      "answer": 0,
+      "explanation": "Say 『いただきます』 (literally 'I humbly receive') before eating or drinking."
+    },
+    {
+      "question": "What should you say after finishing a meal offered by a host?",
+      "options": [
+        "ごちそうさまでした",
+        "いただきます",
+        "失礼します",
+        "いかがですか"
+      ],
+      "answer": 0,
+      "explanation": "Say 『ごちそうさまでした』 after finishing food or drink to thank the provider."
+    },
+    {
+      "question": "Choose the correct tool: 'I cut paper with scissors.'",
+      "prompt": {
+        "kanji": "___で紙を切ります。",
+        "kana": "___で かみを きります。"
+      },
+      "options": [
+        "はさみ",
+        "ホッチキス",
+        "パンチ",
+        "消しゴム"
+      ],
+      "answer": 0,
+      "explanation": "はさみ (hasami) = scissors."
+    },
+    {
+      "question": "Choose the correct tool: 'I staple documents with a stapler.'",
+      "prompt": {
+        "kanji": "___で書類をとじます。",
+        "kana": "___で しょるいを とじます。"
+      },
+      "options": [
+        "ホッチキス",
+        "セロテープ",
+        "パンチ",
+        "スプーン"
+      ],
+      "answer": 0,
+      "explanation": "ホッチキス (hotchikisu) = stapler."
+    },
+    {
+      "question": "Choose the correct tool: 'I punch holes in paper with a hole punch.'",
+      "prompt": {
+        "kanji": "___で穴を開けます。",
+        "kana": "___で あなを あけます。"
+      },
+      "options": [
+        "パンチ",
+        "フォーク",
+        "ナイフ",
+        "はさみ"
+      ],
+      "answer": 0,
+      "explanation": "パンチ (panchi) = paper hole punch."
+    },
+    {
+      "question": "Choose the correct meaning of 『消しゴム』 (けしゴム).",
+      "options": [
+        "Eraser / rubber",
+        "Scissors",
+        "Stapler",
+        "Scotch tape"
+      ],
+      "answer": 0,
+      "explanation": "消しゴム (keshigomu) = eraser."
+    },
+    {
+      "question": "Choose the correct verb collocation: 'to make a phone call'.",
+      "options": [
+        "電話をかけます",
+        "電話を切ります",
+        "電話をあげます",
+        "電話をもらいます"
+      ],
+      "answer": 0,
+      "explanation": "電話をかけます (でんわをかけます) = to make a phone call."
+    },
+    {
+      "question": "Choose the correct particle: 'I made a phone call to my teacher.'",
+      "prompt": {
+        "kanji": "先生___電話をかけました。",
+        "kana": "せんせい___ でんわを かけました。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The person you call takes に: 先生に電話をかけました."
+    },
+    {
+      "question": "Choose the correct particle: 'I sent a parcel to America.'",
+      "prompt": {
+        "kanji": "アメリカ___荷物を送りました。",
+        "kana": "アメリカ___ にもつを おくりました。"
+      },
+      "options": [
+        "へ",
+        "で",
+        "を",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Destination country takes へ (or に): アメリカへ荷物を送りました."
+    },
+    {
+      "question": "Choose the correct sentence: 'I already did my homework.'",
+      "options": [
+        "もう宿題をしました。",
+        "まだ宿題をしました。",
+        "もう宿題をしませんでした。",
+        "これから宿題をしました。"
+      ],
+      "answer": 0,
+      "explanation": "もう + past affirmative = already completed: もう宿題をしました."
+    },
+    {
+      "question": "What does 『すてきですね』 mean?",
+      "options": [
+        "How lovely! / What a nice [~]!",
+        "Excuse me",
+        "I'm sorry",
+        "You're welcome"
+      ],
+      "answer": 0,
+      "explanation": "すてきですね means 'How lovely / wonderful!'."
+    },
+    {
+      "question": "Choose the correct particle: 'I wrote a letter in Spanish.'",
+      "prompt": {
+        "kanji": "スペイン語___手紙を書きました。",
+        "kana": "スペインご___ てがみを かきました。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Language as an instrument/medium takes で: スペイン語で."
+    },
+    {
+      "question": "Choose the correct sentence: 'Mr. Yamada gave a present to Ms. Kimura.'",
+      "options": [
+        "山田さんは木村さんにプレゼントをあげました。",
+        "山田さんは木村さんにプレゼントをもらいました。",
+        "木村さんは山田さんにプレゼントをあげました。",
+        "山田さんは木村さんでプレゼントをあげました。"
+      ],
+      "answer": 0,
+      "explanation": "Yamada is the giver, Kimura is the recipient: 山田さんは木村さんにプレゼントをあげました."
+    },
+    {
+      "question": "Choose the correct sentence: 'Maria received flowers from Mr. Miller.'",
+      "options": [
+        "マリアさんはミラーさんに花をもらいました。",
+        "ミラーさんはマリアさんに花をもらいました。",
+        "マリアさんはミラーさんに花をあげました。",
+        "マリアさんはミラーさんで花をもらいました。"
+      ],
+      "answer": 0,
+      "explanation": "Maria is the recipient receiving from Miller: マリアさんはミラーさんに花をもらいました."
+    },
+    {
+      "question": "Choose the correct question: 'Who did you learn Japanese from?'",
+      "options": [
+        "誰に日本語を習いましたか。",
+        "誰を日本語に教えましたか。",
+        "どこで日本語をあげましたか。",
+        "何に日本語をもらいましたか。"
+      ],
+      "answer": 0,
+      "explanation": "Who did you learn from → 誰に (だれに) 日本語を習いましたか."
+    },
+    {
+      "question": "Choose the correct response: 'Have you already bought the tickets?' — 'Yes, I bought them yesterday.'",
+      "prompt": {
+        "kanji": "もう切符を買いましたか。— はい、___。",
+        "kana": "もう きっぷを かいましたか。— はい、___。"
+      },
+      "options": [
+        "昨日買いました",
+        "まだです",
+        "買いませんでした",
+        "これから買いました"
+      ],
+      "answer": 0,
+      "explanation": "Affirmative answer confirming past purchase: はい、昨日買いました."
+    },
+    {
+      "question": "Which verb means 'to cut'?",
+      "options": [
+        "切ります (きります)",
+        "送ります (おくります)",
+        "貸します (かします)",
+        "借ります (かります)"
+      ],
+      "answer": 0,
+      "explanation": "切ります (きります) = to cut / slice."
+    },
+    {
+      "question": "Which verb means 'to send'?",
+      "options": [
+        "送ります (おくります)",
+        "切ります (きります)",
+        "あげます",
+        "習います (ならいます)"
+      ],
+      "answer": 0,
+      "explanation": "送ります (おくります) = to send."
+    },
+    {
+      "question": "Choose the correct pair of opposites for borrowing and lending:",
+      "options": [
+        "借ります (borrow) ↔ 貸します (lend)",
+        "教えます (teach) ↔ あげます (give)",
+        "切ります (cut) ↔ 送ります (send)",
+        "もらいます (receive) ↔ 習います (learn)"
+      ],
+      "answer": 0,
+      "explanation": "借ります (borrow inward) ↔ 貸します (lend outward)."
+    },
+    {
+      "question": "Choose the correct pair of opposites for teaching and learning:",
+      "options": [
+        "教えます (teach) ↔ 習います (learn)",
+        "貸します (lend) ↔ 借ります (borrow)",
+        "あげます (give) ↔ もらいます (receive)",
+        "切ります (cut) ↔ 送ります (send)"
+      ],
+      "answer": 0,
+      "explanation": "教えます (impart outward) ↔ 習います (acquire inward)."
+    },
+    {
+      "question": "Choose the correct particle: 'I eat curry with a spoon.'",
+      "prompt": {
+        "kanji": "スプーン___カレーを食べます。",
+        "kana": "スプーン___ カレーを たべます。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Utensil tool takes で: スプーンで."
+    },
+    {
+      "question": "Choose the correct particle: 'I cut the paper with a knife.'",
+      "prompt": {
+        "kanji": "ナイフ___紙を切りました。",
+        "kana": "ナイフ___ かみを きりました。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Tool takes で: ナイフで."
+    },
+    {
+      "question": "What is the meaning of 『荷物』 (にもつ)?",
+      "options": [
+        "Luggage / parcel / baggage",
+        "Money",
+        "Ticket",
+        "Present"
+      ],
+      "answer": 0,
+      "explanation": "荷物 (にもつ) = luggage, parcel, baggage."
+    },
+    {
+      "question": "What is the meaning of 『切符』 (きっぷ)?",
+      "options": [
+        "Ticket",
+        "Stamp",
+        "Money",
+        "Paper"
+      ],
+      "answer": 0,
+      "explanation": "切符 (きっぷ) = ticket."
+    },
+    {
+      "question": "Choose the correct particle: 'I received a bonus from the company.'",
+      "prompt": {
+        "kanji": "会社___ボーナスをもらいました。",
+        "kana": "かいしゃ___ ボーナスを もらいました。"
+      },
+      "options": [
+        "から",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Organizations/companies as a source MUST take から."
+    },
+    {
+      "question": "Choose the correct sentence: 'What is \"Arigatou\" in English?'",
+      "options": [
+        "「ありがとう」は英語で何ですか。",
+        "「ありがとう」は英語に何ですか。",
+        "「ありがとう」を英語で何ですか。",
+        "「ありがとう」は英語で何にですか。"
+      ],
+      "answer": 0,
+      "explanation": "「Word」は [Language]語で 何ですか."
+    },
+    {
+      "question": "Choose the correct particle: 'I will write on paper with a pen.'",
+      "prompt": {
+        "kanji": "ペン___紙に書きます。",
+        "kana": "ペン___ かみに かきます。"
+      },
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Pen is the writing tool → ペンで."
+    }
+  ],
+  "writing": {
+    "title": "Giving and Receiving Gifts, Daily Tools, and Learning Japanese",
+    "prompt": "Write 6–8 sentences in Japanese applying Lesson 7 grammar. (1) Describe what tools or utensils you use to eat, write, or work (use で). (2) Explain how to say one of your favorite words in Japanese using 『「...」は日本語で「...」です』. (3) Describe a gift you gave to a family member or friend using 『[Person] に [Gift] を あげました』. (4) Describe a gift you received from someone or borrowed from an institution using 『[Person] に/から もらいました』 or 『[Place] から 借りました』. (5) State an action you have already finished (もう～ました) and an action you have not yet finished (まだです).",
+    "placeholder": "私はいつも ______ でご飯を食べます。パソコンで ______ を書きます。\n「______」は日本語で「______」です。\n誕生日に ______ に ______ をあげました。\nそして、______ に ______ をもらいました。\nもう ______ を ______ ました。でも、______ はまだです。これから ______ ます。",
+    "modelAnswer": "私はいつもはしでご飯を食べます。そして、スマホで写真を撮ります。「Thank you」は日本語で「ありがとう」です。先月、母の誕生日にきれいな花をあげました。そして、クリスマスに父に新しい時計をもらいました。今週の宿題はもうしました。でも、部屋の掃除はまだです。これから掃除をします。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I eat meals with chopsticks.",
+        "chunks": [
+          "はしで",
+          "ご飯を",
+          "食べます。"
+        ]
+      },
+      {
+        "en": "I cut paper with scissors.",
+        "chunks": [
+          "はさみで",
+          "紙を",
+          "切ります。"
+        ]
+      },
+      {
+        "en": "I write reports on a personal computer.",
+        "chunks": [
+          "パソコンで",
+          "レポートを",
+          "書きます。"
+        ]
+      },
+      {
+        "en": "What is 'Thank you' in Japanese?",
+        "chunks": [
+          "「Thank you」は",
+          "日本語で",
+          "何ですか。"
+        ]
+      },
+      {
+        "en": "I gave flowers to my mother.",
+        "chunks": [
+          "母に",
+          "花を",
+          "あげました。"
+        ]
+      },
+      {
+        "en": "I received a watch from my father.",
+        "chunks": [
+          "父に",
+          "時計を",
+          "もらいました。"
+        ]
+      },
+      {
+        "en": "I lent an umbrella to Mr. Yamada.",
+        "chunks": [
+          "山田さんに",
+          "傘を",
+          "貸しました。"
+        ]
+      },
+      {
+        "en": "I borrowed books from the library.",
+        "chunks": [
+          "図書館から",
+          "本を",
+          "借りました。"
+        ]
+      },
+      {
+        "en": "I teach English to Ms. Maria.",
+        "chunks": [
+          "マリアさんに",
+          "英語を",
+          "教えます。"
+        ]
+      },
+      {
+        "en": "I learned Chinese from Mr. Wang.",
+        "chunks": [
+          "ワンさんに",
+          "中国語を",
+          "習いました。"
+        ]
+      },
+      {
+        "en": "Have you already eaten lunch? — No, not yet.",
+        "chunks": [
+          "もう昼ご飯を",
+          "食べましたか。",
+          "いいえ、まだです。"
+        ]
+      },
+      {
+        "en": "I will send the luggage right now.",
+        "chunks": [
+          "これから",
+          "荷物を",
+          "送ります。"
+        ]
+      },
+      {
+        "en": "Welcome! Please do come inside.",
+        "chunks": [
+          "いらっしゃい。",
+          "どうぞ",
+          "お上がりください。"
+        ]
+      },
+      {
+        "en": "How about some warm green tea?",
+        "chunks": [
+          "温かいお茶は",
+          "いかがですか。"
+        ]
+      },
+      {
+        "en": "I made a phone call to the hospital.",
+        "chunks": [
+          "病院へ",
+          "電話を",
+          "かけました。"
+        ]
+      },
+      {
+        "en": "I received a salary from the company.",
+        "chunks": [
+          "会社から",
+          "給料を",
+          "もらいました。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "切ります (Cut)",
+        "form": "Past Affirmative (Cut)",
+        "answer": "きりました",
+        "options": [
+          "きりました",
+          "きりませんでした",
+          "きりましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "送ります (Send)",
+        "form": "Past Affirmative (Sent)",
+        "answer": "おくりました",
+        "options": [
+          "おくりました",
+          "おくりません",
+          "おくりましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "あげます (Give)",
+        "form": "Past Affirmative (Gave)",
+        "answer": "あげました",
+        "options": [
+          "あげました",
+          "あげません",
+          "あげましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "もらいます (Receive)",
+        "form": "Past Affirmative (Received)",
+        "answer": "もらいました",
+        "options": [
+          "もらいました",
+          "もらいません",
+          "もらいましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "貸します (Lend)",
+        "form": "Past Affirmative (Lent)",
+        "answer": "かしました",
+        "options": [
+          "かしました",
+          "かりました",
+          "かしましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "借ります (Borrow)",
+        "form": "Past Affirmative (Borrowed)",
+        "answer": "かりました",
+        "options": [
+          "かりました",
+          "かしました",
+          "かりません"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "教えます (Teach)",
+        "form": "Past Affirmative (Taught)",
+        "answer": "おしえました",
+        "options": [
+          "おしえました",
+          "ならいました",
+          "おしえません"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "習います (Learn)",
+        "form": "Past Affirmative (Learned)",
+        "answer": "ならいました",
+        "options": [
+          "ならいました",
+          "おしえました",
+          "ならいません"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "かけます (Make call)",
+        "form": "Past Affirmative (Called)",
+        "answer": "かけました",
+        "options": [
+          "かけました",
+          "かけません",
+          "かけましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "書きます (Write)",
+        "form": "Past Affirmative (Wrote)",
+        "answer": "かきました",
+        "options": [
+          "かきました",
+          "かきません",
+          "かきましょう"
+        ],
+        "hint": "Replace ます with ました"
+      },
+      {
+        "prompt": "食べます (Eat)",
+        "form": "Question: Have you already eaten?",
+        "answer": "もうたべましたか",
+        "options": [
+          "もうたべましたか",
+          "まだたべましたか",
+          "これからたべましたか"
+        ],
+        "hint": "Prefix with もう + past question"
+      },
+      {
+        "prompt": "送ります (Send)",
+        "form": "Question: Have you already sent it?",
+        "answer": "もうおくりましたか",
+        "options": [
+          "もうおくりましたか",
+          "まだおくりましたか",
+          "これからおくりましたか"
+        ],
+        "hint": "もう + 送りましたか"
+      },
+      {
+        "prompt": "あげます (Give)",
+        "form": "Negative (Don't give)",
+        "answer": "あげません",
+        "options": [
+          "あげません",
+          "あげませんでした",
+          "あげないでした"
+        ],
+        "hint": "Replace ます with ません"
+      },
+      {
+        "prompt": "もらいます (Receive)",
+        "form": "Past Negative (Didn't receive)",
+        "answer": "もらいませんでした",
+        "options": [
+          "もらいませんでした",
+          "もらいません",
+          "もらわないでした"
+        ],
+        "hint": "Replace ます with ませんでした"
+      },
+      {
+        "prompt": "貸します (Lend)",
+        "form": "Negative (Don't lend)",
+        "answer": "かしません",
+        "options": [
+          "かしません",
+          "かりません",
+          "かしませんでした"
+        ],
+        "hint": "Replace ます with ません"
+      },
+      {
+        "prompt": "借ります (Borrow)",
+        "form": "Negative (Don't borrow)",
+        "answer": "かりません",
+        "options": [
+          "かりません",
+          "かしません",
+          "かりませんでした"
+        ],
+        "hint": "Replace ます with ません"
+      },
+      {
+        "prompt": "教えます (Teach)",
+        "form": "Suggestion (Let's teach!)",
+        "answer": "おしえましょう",
+        "options": [
+          "おしえましょう",
+          "おしえませんか",
+          "おしえました"
+        ],
+        "hint": "Replace ます with ましょう"
+      },
+      {
+        "prompt": "習います (Learn)",
+        "form": "Invitation (Won't you learn?)",
+        "answer": "ならいませんか",
+        "options": [
+          "ならいませんか",
+          "ならいましょう",
+          "ならいました"
+        ],
+        "hint": "Replace ます with ませんか"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "スプーン [ ? ] カレーを食べます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Utensil/tool used to eat takes で."
+      },
+      {
+        "sentence": "ナイフ [ ? ] パンを切ります。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "hint": "Cutting tool takes で."
+      },
+      {
+        "sentence": "日本語 [ ? ] 手紙を書きます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Language as a medium of communication takes で."
+      },
+      {
+        "sentence": "「ありがとう」は英語 [ ? ] 「Thank you」です。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "In [Language] takes で: 英語で."
+      },
+      {
+        "sentence": "母 [ ? ] 花をあげました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The recipient of a gift takes に."
+      },
+      {
+        "sentence": "父 [ ? ] 時計をもらいました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The giver from whom you receive takes に (or から)."
+      },
+      {
+        "sentence": "友達 [ ? ] 傘を貸しました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The person you lend to takes に."
+      },
+      {
+        "sentence": "山田さん [ ? ] 辞書を借りました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The person you borrow from takes に (or から)."
+      },
+      {
+        "sentence": "銀行 [ ? ] お金を借りました。",
+        "answer": "から",
+        "options": [
+          "から",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Organizations as a source MUST take から."
+      },
+      {
+        "sentence": "先生 [ ? ] 日本語を習いました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "The teacher you learn from takes に."
+      },
+      {
+        "sentence": "サントスさん [ ? ] 英語を教えます。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The student you teach takes に."
+      },
+      {
+        "sentence": "母 [ ? ] 電話をかけました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "The person you phone takes に."
+      },
+      {
+        "sentence": "会社 [ ? ] 電話をかけました。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination facility/office takes へ (or に)."
+      },
+      {
+        "sentence": "アメリカ [ ? ] 荷物を送ります。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "から"
+        ],
+        "hint": "Destination country of shipping takes へ (or に)."
+      },
+      {
+        "sentence": "お茶 [ ? ] いかがですか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "を",
+          "で",
+          "が"
+        ],
+        "hint": "Polite offer: [Noun] は いかがですか."
+      },
+      {
+        "sentence": "何 [ ? ] 写真を撮りますか。— スマホです。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Asking for the tool: 何で (nande)."
+      },
+      {
+        "sentence": "消しゴム [ ? ] 字を消します。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "hint": "Tool used to erase takes で."
+      },
+      {
+        "sentence": "紙 [ ? ] はさみで切ります。",
+        "answer": "を",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "hint": "Direct object of 切ります takes を."
+      },
+      {
+        "sentence": "誰 [ ? ] そのプレゼントをもらいましたか。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Who did you get it from → 誰に."
+      },
+      {
+        "sentence": "会社 [ ? ] ボーナスをもらいました。",
+        "answer": "から",
+        "options": [
+          "から",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Organization as source takes から."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Visiting someone's home (Doorstep)",
+        "speaker": "訪問者",
+        "prompt": "ごめんください。",
+        "options": [
+          {
+            "text": "いらっしゃい。どうぞお上がりください。",
+            "correct": true
+          },
+          {
+            "text": "いただきます。",
+            "correct": false
+          },
+          {
+            "text": "ごちそうさまでした。",
+            "correct": false
+          }
+        ],
+        "tip": "Host responds to ごめんください with いらっしゃい and お上がりください."
+      },
+      {
+        "situation": "Stepping inside the house",
+        "speaker": "家主",
+        "prompt": "どうぞお上がりください。",
+        "options": [
+          {
+            "text": "失礼します。",
+            "correct": true
+          },
+          {
+            "text": "ごめんください。",
+            "correct": false
+          },
+          {
+            "text": "いかがですか。",
+            "correct": false
+          }
+        ],
+        "tip": "Say 失礼します (しつれいします) when stepping into a home or room."
+      },
+      {
+        "situation": "Host offering refreshments",
+        "speaker": "家主",
+        "prompt": "コーヒーはいかがですか。",
+        "options": [
+          {
+            "text": "ありがとうございます。いただきます。",
+            "correct": true
+          },
+          {
+            "text": "ごちそうさまでした。",
+            "correct": false
+          },
+          {
+            "text": "失礼します。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an offered drink or meal with いただきます."
+      },
+      {
+        "situation": "Asking if lunch has been eaten",
+        "speaker": "同僚",
+        "prompt": "もう昼ご飯を食べましたか。",
+        "options": [
+          {
+            "text": "いいえ、まだです。これから食べます。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、食べませんでした。",
+            "correct": false
+          },
+          {
+            "text": "はい、食べません。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer 'not yet' with いいえ、まだです (never 食べませんでした)."
+      },
+      {
+        "situation": "Asking where a gift came from",
+        "speaker": "友達",
+        "prompt": "素敵なネクタイですね。誰にもらいましたか。",
+        "options": [
+          {
+            "text": "誕生日に父にもらいました。",
+            "correct": true
+          },
+          {
+            "text": "父にあげました。",
+            "correct": false
+          },
+          {
+            "text": "父がもらいました。",
+            "correct": false
+          }
+        ],
+        "tip": "To say you received it from your father: 父にもらいました."
+      },
+      {
+        "situation": "Asking for Japanese translation",
+        "speaker": "留学生",
+        "prompt": "「Goodbye」は日本語で何ですか。",
+        "options": [
+          {
+            "text": "「さようなら」です。",
+            "correct": true
+          },
+          {
+            "text": "「さようなら」を言います。",
+            "correct": false
+          },
+          {
+            "text": "英語で話します。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer a translation question simply with: 『「Word」です』."
+      },
+      {
+        "situation": "Borrowing stationary",
+        "speaker": "同僚",
+        "prompt": "すみません、そのはさみをちょっと貸してください。",
+        "options": [
+          {
+            "text": "はい、どうぞ。",
+            "correct": true
+          },
+          {
+            "text": "はい、借ります。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、もらいました。",
+            "correct": false
+          }
+        ],
+        "tip": "Respond to a request to lend with: はい、どうぞ (Yes, here you go)."
+      },
+      {
+        "situation": "Asking about Christmas plans",
+        "speaker": "友達",
+        "prompt": "クリスマスに友達に何をあげますか。",
+        "options": [
+          {
+            "text": "マフラーをあげます。",
+            "correct": true
+          },
+          {
+            "text": "マフラーをもらいますか。",
+            "correct": false
+          },
+          {
+            "text": "マフラーを借ります。",
+            "correct": false
+          }
+        ],
+        "tip": "You give outward to a friend: [Item] を あげます."
+      },
+      {
+        "situation": "Finishing tea and dessert",
+        "speaker": "訪問者",
+        "prompt": "とてもおいしかったです。",
+        "options": [
+          {
+            "text": "ごちそうさまでした。",
+            "correct": true
+          },
+          {
+            "text": "いただきます。",
+            "correct": false
+          },
+          {
+            "text": "お上がりください。",
+            "correct": false
+          }
+        ],
+        "tip": "Express gratitude after eating with ごちそうさまでした."
+      },
+      {
+        "situation": "Asking who teaches a language",
+        "speaker": "友達",
+        "prompt": "誰に日本語を習いましたか。",
+        "options": [
+          {
+            "text": "タカシ先生に習いました。",
+            "correct": true
+          },
+          {
+            "text": "タカシ先生に教えました。",
+            "correct": false
+          },
+          {
+            "text": "タカシ先生から教えました。",
+            "correct": false
+          }
+        ],
+        "tip": "I learned from Teacher Takashi: タカシ先生に習いました."
+      },
+      {
+        "situation": "Checking package shipment",
+        "speaker": "母",
+        "prompt": "もう荷物を送りましたか。",
+        "options": [
+          {
+            "text": "はい、もう送りましたよ。",
+            "correct": true
+          },
+          {
+            "text": "はい、まだです。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、もう送りました。",
+            "correct": false
+          }
+        ],
+        "tip": "Confirming completion: はい、もう [Verb] ました."
+      },
+      {
+        "situation": "Talking about an outside person's parent",
+        "speaker": "同僚",
+        "prompt": "佐藤さんの___はお元気ですか。",
+        "options": [
+          {
+            "text": "お父さん",
+            "correct": true
+          },
+          {
+            "text": "父",
+            "correct": false
+          },
+          {
+            "text": "主人",
+            "correct": false
+          }
+        ],
+        "tip": "Use お父さん (polite) when speaking of someone else's father."
+      }
+    ]
+  }
+}

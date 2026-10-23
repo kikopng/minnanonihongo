@@ -1,0 +1,1729 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 24,
+    "title": "Giving and Receiving Favors: あげます, くれます, and もらいます",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master expressions of giving and receiving goods and favors (授受表現: あげます, くれます, もらいます), chaining actions with ～てあげます, ～てくれます, and ～てもらいます, navigating the Japanese psychological perspective of in-group (うち) vs. out-group (そと), applying the critical particle preservation rule (Minna no Nihongo p. 153), and understanding cultural politeness nuances."
+  },
+  "vocabulary": [
+    {
+      "id": "kuremasu",
+      "kanji": "くれます",
+      "kana": "くれます",
+      "romaji": "kuremasu",
+      "meaning": "to give [to me or someone in my in-group]",
+      "category": "verb",
+      "example": {
+        "kanji": "誕生日に友達がハンカチをくれました。",
+        "kana": "たんじょうびに ともだちが ハンカチを くれました。",
+        "translation": "My friend gave me a handkerchief on my birthday."
+      }
+    },
+    {
+      "id": "naoshimasu",
+      "kanji": "直します",
+      "kana": "なおします",
+      "romaji": "naoshimasu",
+      "meaning": "to fix; to repair; to correct",
+      "category": "verb",
+      "example": {
+        "kanji": "鈴木さんは私の日本語をいつも直してくれます。",
+        "kana": "すずきさんは わたしの にほんごを いつも なおして くれます。",
+        "translation": "Suzuki-san always corrects my Japanese (for me)."
+      }
+    },
+    {
+      "id": "tsurete-ikimasu",
+      "kanji": "連れて行きます",
+      "kana": "つれていきます",
+      "romaji": "tsurete ikimasu",
+      "meaning": "to take [someone to a place]",
+      "category": "verb",
+      "example": {
+        "kanji": "AさんはBさんを渋谷に連れて行きます。",
+        "kana": "Aさんは Bさんを しぶやに つれて いきます。",
+        "translation": "A-san will take B-san to Shibuya."
+      }
+    },
+    {
+      "id": "tsurete-kimasu",
+      "kanji": "連れて来ます",
+      "kana": "つれてきます",
+      "romaji": "tsurete kimasu",
+      "meaning": "to bring [someone to a place]",
+      "category": "verb",
+      "example": {
+        "kanji": "AさんはBさんを私の家に連れて来ます。",
+        "kana": "Aさんは Bさんを わたしの いえに つれて きます。",
+        "translation": "A-san will bring B-san to my house."
+      }
+    },
+    {
+      "id": "okurimasu",
+      "kanji": "送ります",
+      "kana": "おくります",
+      "romaji": "okurimasu",
+      "meaning": "to send; to see [someone] off; to escort; to drive [someone somewhere]",
+      "category": "verb",
+      "example": {
+        "kanji": "姉を駅まで車で送りました。",
+        "kana": "あねを えきまで くるまで おくりました。",
+        "translation": "I drove my older sister to the station."
+      }
+    },
+    {
+      "id": "shoukai-shimasu",
+      "kanji": "紹介します",
+      "kana": "しょうかいします",
+      "romaji": "shoukai shimasu",
+      "meaning": "to introduce",
+      "category": "verb",
+      "example": {
+        "kanji": "AさんをBさんに紹介します。",
+        "kana": "Aさんを Bさんに しょうかいします。",
+        "translation": "I will introduce A-san to B-san."
+      }
+    },
+    {
+      "id": "annai-shimasu",
+      "kanji": "案内します",
+      "kana": "あんないします",
+      "romaji": "annai shimasu",
+      "meaning": "to show around; to show the way; to guide",
+      "category": "verb",
+      "example": {
+        "kanji": "Aさんに東京を案内します。",
+        "kana": "Aさんに とうきょうを あんないします。",
+        "translation": "I will show A-san around Tokyo."
+      }
+    },
+    {
+      "id": "setsumei",
+      "kanji": "説明",
+      "kana": "せつめい",
+      "romaji": "setsumei",
+      "meaning": "explanation",
+      "category": "noun",
+      "example": {
+        "kanji": "先生の説明はとても分かりやすいです。",
+        "kana": "せんせいの せつめいは とても わかりやすいです。",
+        "translation": "The teacher's explanation is very easy to understand."
+      }
+    },
+    {
+      "id": "setsumei-shimasu",
+      "kanji": "説明します",
+      "kana": "せつめいします",
+      "romaji": "setsumei shimasu",
+      "meaning": "to explain",
+      "category": "verb",
+      "example": {
+        "kanji": "ルールを説明します。",
+        "kana": "ルールを せつめいします。",
+        "translation": "I will explain the rules."
+      }
+    },
+    {
+      "id": "junbi",
+      "kanji": "準備",
+      "kana": "じゅんび",
+      "romaji": "junbi",
+      "meaning": "preparation",
+      "category": "noun",
+      "example": {
+        "kanji": "準備はいいですか？",
+        "kana": "じゅんびは いいですか？",
+        "translation": "Are you ready? (Are preparations okay?)"
+      }
+    },
+    {
+      "id": "junbi-shimasu",
+      "kanji": "準備します",
+      "kana": "じゅんびします",
+      "romaji": "junbi shimasu",
+      "meaning": "to prepare",
+      "category": "verb",
+      "example": {
+        "kanji": "プレゼンの準備をします。",
+        "kana": "プレゼンの じゅんびを します。",
+        "translation": "I prepare for the presentation."
+      }
+    },
+    {
+      "id": "hikkoshi",
+      "kanji": "引っ越し",
+      "kana": "ひっこし",
+      "romaji": "hikkoshi",
+      "meaning": "moving [residence]",
+      "category": "noun",
+      "example": {
+        "kanji": "明日引っ越しがあります。",
+        "kana": "あした ひっこしが あります。",
+        "translation": "I have a move tomorrow."
+      }
+    },
+    {
+      "id": "hikkoshimasu",
+      "kanji": "引っ越します / 引っ越しします",
+      "kana": "ひっこします / ひっこしします",
+      "romaji": "hikkoshimasu / hikkoshi shimasu",
+      "meaning": "to move [to a new home]",
+      "category": "verb",
+      "example": {
+        "kanji": "いつか日本に引っ越したいです。",
+        "kana": "いつか にほんに ひっこしたいです。",
+        "translation": "I want to move to Japan someday."
+      }
+    },
+    {
+      "id": "ojiisan",
+      "kanji": "おじいさん / おじいちゃん",
+      "kana": "おじいさん / おじいちゃん",
+      "romaji": "ojiisan / ojiichan",
+      "meaning": "grandfather; old man",
+      "category": "noun",
+      "example": {
+        "kanji": "私のおじいちゃんは80歳です。",
+        "kana": "わたしの おじいちゃんは はちじゅっさいです。",
+        "translation": "My grandfather is 80 years old."
+      }
+    },
+    {
+      "id": "obaasan",
+      "kanji": "おばあさん / おばあちゃん",
+      "kana": "おばあさん / おばあちゃん",
+      "romaji": "obaasan / obaachan",
+      "meaning": "grandmother; old woman",
+      "category": "noun",
+      "example": {
+        "kanji": "おばあさんは親切でおもしろい人です。",
+        "kana": "おばあさんは しんせつで おもしろい ひとです。",
+        "translation": "My grandmother is a kind and interesting person."
+      }
+    },
+    {
+      "id": "okashi",
+      "kanji": "お菓子",
+      "kana": "おかし",
+      "romaji": "okashi",
+      "meaning": "sweets; snacks; confectionery",
+      "category": "noun",
+      "example": {
+        "kanji": "お菓子を食べながらテレビを見ます。",
+        "kana": "おかしを たべながら テレビを みます。",
+        "translation": "I eat snacks while watching television."
+      }
+    },
+    {
+      "id": "zenbu",
+      "kanji": "全部",
+      "kana": "ぜんぶ",
+      "romaji": "zenbu",
+      "meaning": "all; everything",
+      "category": "noun",
+      "example": {
+        "kanji": "このお店のものは全部100円です。",
+        "kana": "この おみせの ものは ぜんぶ ひゃくえんです。",
+        "translation": "Everything in this store is 100 yen."
+      }
+    },
+    {
+      "id": "zenbude",
+      "kanji": "全部で",
+      "kana": "ぜんぶで",
+      "romaji": "zenbude",
+      "meaning": "in total; all together",
+      "category": "expression",
+      "example": {
+        "kanji": "全部で1,200円です。",
+        "kana": "ぜんぶで せんにひゃくえんです。",
+        "translation": "It is 1,200 yen in total."
+      }
+    },
+    {
+      "id": "jibun",
+      "kanji": "自分",
+      "kana": "じぶん",
+      "romaji": "jibun",
+      "meaning": "oneself",
+      "category": "noun",
+      "example": {
+        "kanji": "自分の部屋を掃除しました。",
+        "kana": "じぶんの へやを そうじしました。",
+        "translation": "I cleaned my own room."
+      }
+    },
+    {
+      "id": "jibunde",
+      "kanji": "自分で",
+      "kana": "じぶんで",
+      "romaji": "jibunde",
+      "meaning": "by oneself; on one's own",
+      "category": "expression",
+      "example": {
+        "kanji": "自分で日本語を勉強しました。",
+        "kana": "じぶんで にほんごを べんきょうしました。",
+        "translation": "I studied Japanese by myself."
+      }
+    },
+    {
+      "id": "hoka",
+      "kanji": "他",
+      "kana": "ほか",
+      "romaji": "hoka",
+      "meaning": "another; other",
+      "category": "noun",
+      "example": {
+        "kanji": "今日は雨だから、他の日に行きましょう。",
+        "kana": "きょうは あめだから、ほかの ひに いきましょう。",
+        "translation": "Because it's raining today, let's go another day."
+      }
+    },
+    {
+      "id": "hokani",
+      "kanji": "他に",
+      "kana": "ほかに",
+      "romaji": "hokani",
+      "meaning": "besides; else; in addition",
+      "category": "expression",
+      "example": {
+        "kanji": "他に何をしましたか？",
+        "kana": "ほかに なにを しましたか？",
+        "translation": "What else did you do?"
+      }
+    },
+    {
+      "id": "haha-no-hi",
+      "kanji": "母の日",
+      "kana": "ははのひ",
+      "romaji": "haha no hi",
+      "meaning": "Mother's Day",
+      "category": "noun",
+      "example": {
+        "kanji": "母の日に花をあげました。",
+        "kana": "ははのひに はなを あげました。",
+        "translation": "I gave flowers on Mother's Day."
+      }
+    },
+    {
+      "id": "chichi-no-hi",
+      "kanji": "父の日",
+      "kana": "ちちのひ",
+      "romaji": "chichi no hi",
+      "meaning": "Father's Day",
+      "category": "noun",
+      "example": {
+        "kanji": "父の日にネクタイをあげます。",
+        "kana": "ちちのひに ネクタイを あげます。",
+        "translation": "I will give a necktie on Father's Day."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Noun 1 は Noun 2 に [Thing] を あげます / くれます / もらいます",
+      "explanation": "Lesson 7 introduced あげます (to give) and もらいます (to receive). Lesson 24 introduces くれます, which also means 'to give', but strictly when someone gives something to ME (the speaker) or to someone in my in-group (うち). Rules of direction: (1) When YOU give to someone else: use あげます (私は佐藤さんにペンをあげました). (2) When someone else gives to YOU: use くれます (佐藤さんは私にペンをくれました). (3) When YOU receive from someone: use もらいます (私は佐藤さんに/からペンをもらいました). IMPORTANT NATURALNESS NOTE: While 『佐藤さんは私にペンをもらいました』 is grammatically decipherable, native speakers DO NOT say it because you should not describe someone else receiving from yourself—always say 『私は佐藤さんにペンをあげました』.",
+      "examples": [
+        {
+          "kanji": "佐藤さんは私にペンをくれました。",
+          "kana": "さとうさんは わたしに ペンを くれました。",
+          "translation": "Sato-san gave a pen to me."
+        },
+        {
+          "kanji": "私は佐藤さんにペンをもらいました。",
+          "kana": "わたしは さとうさんに ペンを もらいました。",
+          "translation": "I received a pen from Sato-san."
+        },
+        {
+          "kanji": "私は佐藤さんからペンをもらいました。",
+          "kana": "わたしは さとうさんから ペンを もらいました。",
+          "translation": "I received a pen from Sato-san (から is also common for people and organizations)."
+        },
+        {
+          "kanji": "私は佐藤さんにペンをあげました。",
+          "kana": "わたしは さとうさんに ペンを あげました。",
+          "translation": "I gave a pen to Sato-san."
+        },
+        {
+          "kanji": "佐藤さんが私にペンをくれました。",
+          "kana": "さとうさんが わたしに ペンを くれました。",
+          "translation": "Sato-san gave me a pen. (Using が emphasizes who gave it)."
+        },
+        {
+          "kanji": "佐藤さんはペンをくれました。",
+          "kana": "さとうさんは ペンを くれました。",
+          "translation": "Sato-san gave [me] a pen. (私に is naturally omitted when obvious from context)."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-て くれます [Receiving a Favor / Someone Did Something for My Benefit]",
+      "explanation": "Attached to the て-form of a verb, くれます expresses that another person performed an action specifically for the BENEFIT of the speaker (or the speaker's in-group). Nuance comparison: (1) 『佐藤さんは私に日本語を教えました』 is a neutral statement of fact. (2) 『佐藤さんは私に日本語を教えてくれました』 carries emotional warmth, meaning Sato-san kindly taught me Japanese for my benefit, and I feel deeply grateful for it.",
+      "examples": [
+        {
+          "kanji": "佐藤さんは私に日本語を教えてくれました。",
+          "kana": "さとうさんは わたしに にほんごを おしえて くれませんでした / おしえて くれました。",
+          "translation": "Sato-san kindly taught me Japanese (for my benefit)."
+        },
+        {
+          "kanji": "鈴木さんは私の日本語をいつも直してくれます。",
+          "kana": "すずきさんは わたしの にほんごを いつも なおして くれます。",
+          "translation": "Suzuki-san always corrects my Japanese for me."
+        },
+        {
+          "kanji": "山田さんが引っ越しを手伝ってくれました。",
+          "kana": "やまださんが ひっこしを てつだって くれました。",
+          "translation": "Mr. Yamada kindly helped me with moving."
+        },
+        {
+          "kanji": "友達がおいしいお菓子を作ってくれました。",
+          "kana": "ともだちが おいしい おかしを つくって くれました。",
+          "translation": "My friend kindly baked delicious sweets for me."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-て もらいます [Having Someone Do Something / Receiving a Favor]",
+      "explanation": "Structure: [Receiver] は [Doer] に Verb-て もらいます. Meaning: The receiver has someone perform an action for them or receives the benefit of that action with gratitude. Comparison: 『佐藤さんは私に日本語を教えてくれました』 centers Sato-san as the active giver of kindness. 『私は佐藤さんに日本語を教えてもらいました』 centers the speaker as the grateful recipient who had Sato-san teach them.",
+      "examples": [
+        {
+          "kanji": "私は佐藤さんに日本語を教えてもらいました。",
+          "kana": "わたしは さとうさんに にほんごを おしえて もらいました。",
+          "translation": "I had Sato-san teach me Japanese (I received the favor of Sato-san teaching me)."
+        },
+        {
+          "kanji": "私は田中さんに東京を案内してもらいました。",
+          "kana": "わたしは たなかさんに とうきょうを あんないして もらいました。",
+          "translation": "I had Tanaka-san show me around Tokyo."
+        },
+        {
+          "kanji": "私は先生に作文を直してもらいました。",
+          "kana": "わたしは せんせいに さくぶんを なおして もらいました。",
+          "translation": "I had my teacher correct my essay."
+        },
+        {
+          "kanji": "私は友達に引っ越しを手伝ってもらいました。",
+          "kana": "わたしは ともだちに ひっこしを てつだって もらいました。",
+          "translation": "I had my friend help me with moving."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb-て あげます [Doing a Favor for Someone] & Crucial Politeness Warning",
+      "explanation": "Structure: [Doer] は [Receiver] に Verb-て あげます. It indicates that the speaker performs an action for the benefit of another person (私は佐藤さんに英語を教えてあげました). SOCIOLINGUISTIC WARNING (Takashi's Caution): Because ～てあげます explicitly emphasizes that YOU did an act of kindness/charity for someone, it can easily sound patronizing, arrogant, or condescending ('look what a favor I did for you!'). IN JAPANESE SOCIETY: NEVER use ～てあげます directly to superiors, elders, clients, or teachers. Instead, use polite offers (e.g., お手伝いしましょうか) or neutral phrasing (手伝いました). Use ～てあげます primarily when talking about helping children, pets, close peers, or in third-person descriptions.",
+      "examples": [
+        {
+          "kanji": "私は佐藤さんに英語を教えてあげました。",
+          "kana": "わたしは さとうさんに えいごを おしえて あげました。",
+          "translation": "I taught Sato-san English (for her benefit)."
+        },
+        {
+          "kanji": "私は妹に宿題を教えてあげました。",
+          "kana": "わたしは いもうとに しゅくだいを おしえて あげました。",
+          "translation": "I helped my younger sister with her homework."
+        },
+        {
+          "kanji": "私はおじいちゃんの荷物を持ってあげました。",
+          "kana": "わたしは おじいちゃんの にもつを もって あげました。",
+          "translation": "I carried grandfather's luggage for him."
+        },
+        {
+          "kanji": "犬を散歩に連れて行ってあげます。",
+          "kana": "いぬを さんぽに つれて いって あげます。",
+          "translation": "I take my dog out for a walk."
+        }
+      ]
+    },
+    {
+      "pattern": "The Particle Preservation Rule for ～てあげます / ～てくれます [Minna no Nihongo p. 153 Note]",
+      "explanation": "CRITICAL RULE (Minna no Nihongo Lesson 24, p. 153 note): In a sentence using ～てあげます or ～てくれます, the particle that marks the person receiving the benefit is THE SAME as in the equivalent sentence that does not use them! (1) 連れて行きます takes を for the person escorted: 佐藤さんは「私を」新宿へ連れて行きました → Therefore, with てくれました, it remains: 佐藤さんは「私を」新宿へ連れて行ってくれました (✕ 佐藤さんは私に新宿へ連れて行ってくれました is WRONG!). (2) 送ります takes を: 姉を車で送りました → 姉を車で送ってあげました. (3) But in ～てもらいます sentences, the doer is ALWAYS marked by に: 私は佐藤さん「に」新宿へ連れて行ってもらいました.",
+      "examples": [
+        {
+          "kanji": "佐藤さんは私を新宿へ連れて行ってくれました。",
+          "kana": "さとうさんは わたしを しんじゅくへ つれて いって くれました。",
+          "translation": "Sato-san took me to Shinjuku (私を is retained from 私を連れて行きました!)."
+        },
+        {
+          "kanji": "私は佐藤さんに新宿へ連れて行ってもらいました。",
+          "kana": "わたしは さとうさんに しんじゅくへ つれて いって もらいました。",
+          "translation": "I had Sato-san take me to Shinjuku (doer takes に in the もらいます pattern)."
+        },
+        {
+          "kanji": "佐藤さんは私を車で駅まで送ってくれました。",
+          "kana": "さとうさんは わたしを くるまで えきまで おくって くれました。",
+          "translation": "Sato-san drove me to the station (送る takes を for the passenger)."
+        },
+        {
+          "kanji": "佐藤さんは私に日本語を教えてくれました。",
+          "kana": "さとうさんは わたしに にほんごを おしえて くれました。",
+          "translation": "Sato-san taught me Japanese (教える already takes に for the recipient)."
+        }
+      ]
+    },
+    {
+      "pattern": "The Concept of Uchi (うち / Inside) and Soto (そと / Outside)",
+      "explanation": "In Japanese communication, social perspective revolves around Uchi (inside) and Soto (outside). Imagine a boundary around yourself: anyone inside that boundary (your family, coworkers in your company, club members) shares your in-group identity. RULE: When someone from Soto does a favor or gives something to anyone in your Uchi, the whole Uchi shares the benefit! Therefore, you MUST use くれます / てくれます, NOT あげます. (Example: 'A client gave my sister a present' → 妹にプレゼントをくれました; 'Tanaka-san taught my mother Japanese' → 母に日本語を教えてくれました).",
+      "examples": [
+        {
+          "kanji": "社長は妹にプレゼントをくれました。",
+          "kana": "しゃちょうは いもうとに プレゼントを くれました。",
+          "translation": "The company president gave my younger sister a present (Sister is in my Uchi → use くれます!)."
+        },
+        {
+          "kanji": "鈴木さんは母を病院まで車で送ってくれました。",
+          "kana": "すずきさんは ははを びょういんまで くるまで おくって くれました。",
+          "translation": "Suzuki-san drove my mother to the hospital."
+        },
+        {
+          "kanji": "田中さんは私の同僚に仕事を教えてくれました。",
+          "kana": "たなかさんは わたしの どうりょうに しごとを おしえて くれました。",
+          "translation": "Tanaka-san taught my colleague how to do the job."
+        }
+      ]
+    },
+    {
+      "pattern": "Temporary Uchi (Fluid Community) in Conversation",
+      "explanation": "Uchi is not strictly fixed; it is fluid. When you are engaged in a direct conversation with someone (such as talking with Sato-san on the street), the two of you temporarily form a shared conversational 'Uchi'. If you ask how Sato-san got a bouquet of flowers from an outside third party, you view Sato-san as inside your immediate circle: (1) 『誰がその花をくれましたか？』 (Who gave that flower to you? - natural). (2) 『誰にその花をもらいましたか？』 (Who did you receive that flower from? - natural). Saying 『誰がその花をあげましたか？』 sounds completely unnatural because it pushes your conversational partner outside your shared space.",
+      "examples": [
+        {
+          "kanji": "誰がその花をくれましたか？",
+          "kana": "だれが その はなを くれませんでした / くれませんでしたか？ / だれが その はなを くれましたか？",
+          "translation": "Who gave you those flowers? (Natural: conversational partner is in temporary Uchi)."
+        },
+        {
+          "kanji": "誰にその花をもらいましたか？",
+          "kana": "だれに その はなを もらいましたか？",
+          "translation": "From whom did you receive those flowers?"
+        },
+        {
+          "kanji": "誰がその本を貸してくれましたか？",
+          "kana": "だれが その ほんを かして くれましたか？",
+          "translation": "Who kindly lent you that book?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "引越しの日と親切な友達",
+    "lines": [
+      {
+        "speaker": "マルコ",
+        "kanji": "さくらさん、今週の日曜日に新しいアパートへ引っ越しします。",
+        "kana": "さくらさん、こんしゅうの にちようびに あたらしい アパートへ ひっこしします。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "そうですか！ 引っ越しの準備はもう全部終わりましたか。",
+        "kana": "そうですか！ ひっこしの じゅんびは もう ぜんぶ おわりましたか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "いいえ、まだです。一人で荷物を全部準備するのは大変ですね。",
+        "kana": "いいえ、まだです。ひとりで にもつを ぜんぶ じゅんびするのは たいへんですね。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "じゃあ、土曜日に私が手伝いに行きましょうか。車もありますよ。",
+        "kana": "じゃあ、どようびに わたしが てつだいに いきましょうか。くるまも ありますよ。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "本当ですか。ありがとうございます！ 実は、田中さんも車を出して、駅まで私を送ってくれると言いました。",
+        "kana": "ほんとうですか。ありがとうございます！ じつは、たなかさんも くるまを だして、えきまで わたしを おくって くれると いいました。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "田中さんは本当に親切ですね。新しいアパートの周りはどうですか。",
+        "kana": "たなかさんは ほんとうに しんせつですね。あたらしい アパートの まわりは どうですか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "大家さんのおじいさんがとても優しくて、近くのスーパーや郵便局を案内してくれました。",
+        "kana": "おおやさんの おじいさんが とても やさしくて、ちかくの スーパーや ゆうびんきょくを あんないして くれました。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "いいですね。他に何か手伝うことがありますか。",
+        "kana": "いいですね。ほかに なにか てつだう ことが ありますか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "アパートのゴミの出し方の紙をもらったんですが、日本語が難しくて…。説明してもらえませんか。",
+        "kana": "アパートの ゴミの だしかたの かみを もらったんですが、にほんごが むずかしくて…。せつめいして もらえませんか。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "ええ、いいですよ。土曜日に私が全部説明してあげますね。",
+        "kana": "ええ、いいですよ。どようびに わたしが ぜんぶ せつめいして あげますね。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "助かります！ じゃあ、土曜日に母が送ってくれたおいしいお菓子を食べましょう。",
+        "kana": "たすかります！ じゃあ、どようびに ははが おくって くれた おいしい おかしを たべましょう。"
+      },
+      {
+        "speaker": "さくら",
+        "kanji": "わあ、楽しみです！ 土曜日の10時にマルコさんの家に行きますね。",
+        "kana": "わあ、たのしみです！ どようびの じゅうじに マルコさんの いえに いきますね。"
+      }
+    ],
+    "translation": "Marco tells Sakura that he is moving to a new apartment this Sunday. Sakura asks if all the moving preparations are finished, and Marco admits that preparing everything alone is very difficult. Sakura offers to come help on Saturday with her car. Marco thanks her and mentions that Tanaka-san also offered to bring his car and drive Marco to the station. Sakura remarks on Tanaka-san's kindness and asks about the new apartment's surroundings. Marco explains that the elderly landlord is very gentle and kindly showed him around the nearby supermarket and post office. When Sakura asks if there is anything else she can help with, Marco asks if she could explain the complex Japanese instructions on garbage disposal that he received. Sakura warmly promises to explain everything on Saturday. Marco is relieved and invites her to enjoy the delicious sweets his mother sent him, and Sakura agrees to meet him at 10:00 AM on Saturday.",
+    "questions": [
+      {
+        "question": "When is Marco moving to his new apartment?",
+        "options": [
+          "This Saturday",
+          "This Sunday",
+          "Next month",
+          "Next Monday"
+        ],
+        "answer": 1,
+        "explanation": "Marco says: 今週の日曜日に新しいアパートへ引っ越しします (This Sunday)."
+      },
+      {
+        "question": "What did Tanaka-san offer to do for Marco?",
+        "options": [
+          "Cook dinner for him",
+          "Drive Marco to the station in his car",
+          "Clean the old apartment",
+          "Buy snacks at the convenience store"
+        ],
+        "answer": 1,
+        "explanation": "Marco says: 田中さんも車を出して、駅まで私を送ってくれると言いました (Tanaka-san said he would bring his car and drive me to the station)."
+      },
+      {
+        "question": "In the sentence 『駅まで私を送ってくれる』, why is 私 marked with を instead of に?",
+        "options": [
+          "Because 送ります takes を for the person being escorted/transported (Particle Preservation Rule)",
+          "Because に can never be used with くれる",
+          "Because Marco is the person performing the action",
+          "Because 車 takes を"
+        ],
+        "answer": 0,
+        "explanation": "Per the Minna no Nihongo p. 153 rule explained in Takashi's lesson, the recipient particle follows the base verb (人を送る → 私を送ってくれる)."
+      },
+      {
+        "question": "What did the elderly landlord do for Marco?",
+        "options": [
+          "He paid for Marco's moving expenses",
+          "He kindly showed Marco around the nearby supermarket and post office",
+          "He helped Marco pack boxes",
+          "He corrected Marco's Japanese resume"
+        ],
+        "answer": 1,
+        "explanation": "Marco says: 近くのスーパーや郵便局を案内してくれました (He showed me around the nearby supermarket and post office)."
+      },
+      {
+        "question": "What favor does Marco ask Sakura to do regarding the garbage disposal sheet?",
+        "options": [
+          "To throw away the garbage for him",
+          "To explain the difficult Japanese instructions to him (説明してもらえませんか)",
+          "To mail it back to the landlord",
+          "To translate it into English on the computer"
+        ],
+        "answer": 1,
+        "explanation": "Marco asks: 説明してもらえませんか (Could you please explain it for me?)."
+      },
+      {
+        "question": "How does Sakura respond to Marco's request for an explanation?",
+        "options": [
+          "She refuses because she is too busy",
+          "She says she will explain everything for him on Saturday (説明してあげますね)",
+          "She asks the landlord to explain it instead",
+          "She tells him to read it by himself"
+        ],
+        "answer": 1,
+        "explanation": "Sakura replies: 土曜日に私が全部説明してあげますね (I will explain everything for you on Saturday)."
+      },
+      {
+        "question": "Where did the sweets Marco mentions come from?",
+        "options": [
+          "Sakura bought them at the supermarket",
+          "His mother kindly sent them to him (母が送ってくれたおいしいお菓子)",
+          "The landlord baked them for him",
+          "Tanaka-san bought them as a moving gift"
+        ],
+        "answer": 1,
+        "explanation": "Marco says: 母が送ってくれたおいしいお菓子 (delicious sweets that my mother sent to me)."
+      },
+      {
+        "question": "Which verb form pattern expresses gratitude for receiving an action initiated or appreciated by the speaker?",
+        "options": [
+          "Verb-て もらいます",
+          "Verb-て あげます",
+          "Verb-ないで ください",
+          "Verb-たり Verb-たり します"
+        ],
+        "answer": 0,
+        "explanation": "Verb-て もらいます expresses receiving an action/favor from another person with gratitude (e.g., 説明してもらえませんか)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct verb: 'My friend gave a handkerchief to me on my birthday.'",
+      "prompt": {
+        "kanji": "誕生日に友達が私にハンカチを___。",
+        "kana": "たんじょうびに ともだちが わたしに ハンカチを ___。"
+      },
+      "options": [
+        "くれました",
+        "あげました",
+        "もらいました",
+        "送りました"
+      ],
+      "answer": 0,
+      "explanation": "When someone else gives something to ME, you must use くれます (past: くれました). あげました is used when I give to someone else."
+    },
+    {
+      "question": "Choose the natural verb: 'I gave flowers to Sato-san.'",
+      "prompt": {
+        "kanji": "私は佐藤さんに花を___。",
+        "kana": "わたしは さとうさんに はなを ___。"
+      },
+      "options": [
+        "あげました",
+        "くれました",
+        "案内しました",
+        "連れて来ました"
+      ],
+      "answer": 0,
+      "explanation": "When the speaker gives something to another person, use あげます (あげました)."
+    },
+    {
+      "question": "Choose the correct sentence to express: 'I received a pen from Sato-san.'",
+      "options": [
+        "私は佐藤さんにペンをもらいました。",
+        "佐藤さんは私にペンをあげました。",
+        "私は佐藤さんにペンをくれました。",
+        "佐藤さんは私にペンをもらいました。"
+      ],
+      "answer": 0,
+      "explanation": "Receiver は Giver に [Thing] を もらいました. (Option 3 is incorrect because くれます requires Sato-san as the giver/subject; Option 4 is unnatural in Japanese)."
+    },
+    {
+      "question": "Why is 『佐藤さんは私に英語を教えてもらいました』 unnatural when YOU taught Sato-san?",
+      "options": [
+        "Because Japanese speakers do not speak from another person's perspective receiving a favor from oneself",
+        "Because もらいます can never take a verb in the て-form",
+        "Because 英語 requires particle が instead of を",
+        "Because 佐藤さん is a proper noun"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi explains in the lesson video, it is unnatural to place another person as the subject receiving an action from yourself; use 『私は佐藤さんに英語を教えてあげました』 instead."
+    },
+    {
+      "question": "Choose the correct form: 'Suzuki-san always corrects my Japanese for me.'",
+      "prompt": {
+        "kanji": "鈴木さんは私の日本語をいつも___くれます。",
+        "kana": "すずきさんは わたしの にほんごを いつも ___ くれます。"
+      },
+      "options": [
+        "直して",
+        "直した",
+        "直すで",
+        "直し"
+      ],
+      "answer": 0,
+      "explanation": "The auxiliary verb くれます connects to the verb's て-form: 直します (Group 1) → 直してくれます."
+    },
+    {
+      "question": "Choose the correct particle according to the Particle Preservation Rule (Minna no Nihongo p. 153): 'Sato-san kindly took me to Shinjuku.'",
+      "prompt": {
+        "kanji": "佐藤さんは私___新宿へ連れて行ってくれました。",
+        "kana": "さとうさんは わたし___ しんじゅくへ つれて いって くれました。"
+      },
+      "options": [
+        "を",
+        "に",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "The base verb 連れて行きます marks the person being escorted with を (私を連れて行きます). Under the particle preservation rule, it remains 私を when adding てくれました."
+    },
+    {
+      "question": "Choose the correct particle: 'I had Sato-san take me to Shinjuku.'",
+      "prompt": {
+        "kanji": "私は佐藤さん___新宿へ連れて行ってもらいました。",
+        "kana": "わたしは さとうさん___ しんじゅくへ つれて いって もらいました。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "In the ～てもらいます construction, the person who performs the favor is marked with に: 私は佐藤さんに…連れて行ってもらいました."
+    },
+    {
+      "question": "Choose the meaning of 連れて行きます vs. 連れて来ます.",
+      "options": [
+        "連れて行きます is to take someone away; 連れて来ます is to bring someone towards the speaker",
+        "連れて行きます is for inanimate objects; 連れて来ます is for people",
+        "連れて行きます is past tense; 連れて来ます is future tense",
+        "There is no difference in meaning"
+      ],
+      "answer": 0,
+      "explanation": "連れて行きます means to take someone to a place away from the current location; 連れて来ます means to bring someone toward where the speaker is."
+    },
+    {
+      "question": "Why should you avoid saying 『先生、手伝ってあげます』 to your teacher?",
+      "options": [
+        "Because ～てあげます emphasizes doing a favor and sounds patronizing or condescending to superiors",
+        "Because 手伝います has no て-form",
+        "Because teachers cannot accept help under any circumstances",
+        "Because あげます is only used for giving physical books"
+      ],
+      "answer": 0,
+      "explanation": "As Takashi warns, ～てあげます can sound condescending. To a superior or teacher, offer politely with 『お手伝いしましょうか』 instead."
+    },
+    {
+      "question": "A business client from another company gave a souvenir to your younger sister. Choose the correct verb:",
+      "prompt": {
+        "kanji": "社長は私の妹におみやげを___。",
+        "kana": "しゃちょうは わたしの いもうとに おみやげを ___。"
+      },
+      "options": [
+        "くれました",
+        "あげました",
+        "もらいました",
+        "貸しました"
+      ],
+      "answer": 0,
+      "explanation": "Under the Uchi (in-group) and Soto (out-group) principle, someone outside giving to your family member benefits your Uchi, requiring くれます (くれました)."
+    },
+    {
+      "question": "You see your friend holding flowers. Asking naturally who gave them the flowers, which question should you use?",
+      "options": [
+        "誰がその花をくれましたか？",
+        "誰がその花をあげましたか？",
+        "誰をその花がくれましたか？",
+        "誰がその花をもらいましたか？"
+      ],
+      "answer": 0,
+      "explanation": "Because the conversational partner is part of your temporary shared in-group (うち), ask 『誰がその花をくれましたか？』 or 『誰にもらいましたか？』. Saying 誰があげましたか sounds unnatural."
+    },
+    {
+      "question": "Choose the correct phrase: 'I drove my older sister to the station.'",
+      "prompt": {
+        "kanji": "姉を駅まで車で___。",
+        "kana": "あねを えきまで くるまで ___。"
+      },
+      "options": [
+        "送りました",
+        "直しました",
+        "案内しました",
+        "紹介しました"
+      ],
+      "answer": 0,
+      "explanation": "送ります (おくります) means to see someone off, escort, or drive someone to a destination."
+    },
+    {
+      "question": "Choose the correct verb: 'I will introduce A-san to B-san.'",
+      "prompt": {
+        "kanji": "AさんをBさんに___。",
+        "kana": "Aさんを Bさんに ___。"
+      },
+      "options": [
+        "紹介します",
+        "案内します",
+        "説明します",
+        "準備します"
+      ],
+      "answer": 0,
+      "explanation": "紹介します (しょうかいします) = to introduce."
+    },
+    {
+      "question": "Choose the correct verb: 'I will show A-san around Tokyo.'",
+      "prompt": {
+        "kanji": "Aさんに東京を___。",
+        "kana": "Aさんに とうきょうを ___。"
+      },
+      "options": [
+        "案内します",
+        "紹介します",
+        "引っ越します",
+        "直します"
+      ],
+      "answer": 0,
+      "explanation": "案内します (あんないします) = to show around, to guide."
+    },
+    {
+      "question": "Choose the correct meaning of 説明します.",
+      "prompt": {
+        "kanji": "ルールを説明します。",
+        "kana": "ルールを せつめいします。"
+      },
+      "options": [
+        "to explain",
+        "to prepare",
+        "to move house",
+        "to fix"
+      ],
+      "answer": 0,
+      "explanation": "説明します (せつめいします) means to explain (noun: 説明 = explanation)."
+    },
+    {
+      "question": "Choose the correct phrase: 'Are preparations ready?'",
+      "prompt": {
+        "kanji": "___はいいですか？",
+        "kana": "___は いいですか？"
+      },
+      "options": [
+        "準備",
+        "説明",
+        "案内",
+        "引っ越し"
+      ],
+      "answer": 0,
+      "explanation": "準備 (じゅんび) = preparation. 『準備はいいですか？』 means 'Are you ready?'"
+    },
+    {
+      "question": "Choose the correct meaning of 引っ越し.",
+      "prompt": {
+        "kanji": "いつか日本に引っ越したいです。",
+        "kana": "いつか にほんに ひっこしたいです。"
+      },
+      "options": [
+        "moving [residence]",
+        "preparing a meal",
+        "explaining rules",
+        "seeing someone off"
+      ],
+      "answer": 0,
+      "explanation": "引っ越し (ひっこし) means moving residence (verb: 引っ越します / 引っ越しします)."
+    },
+    {
+      "question": "What is お菓子 (おかし)?",
+      "options": [
+        "Sweets, snacks, or confectionery consumed outside regular meals",
+        "A formal main course at a banquet",
+        "A hot beverage served with breakfast",
+        "A traditional kitchen knife"
+      ],
+      "answer": 0,
+      "explanation": "お菓子 refers to sweets, snacks, and confectionery enjoyed between or after meals."
+    },
+    {
+      "question": "Choose the correct word: 'Everything in this shop is 100 yen.'",
+      "prompt": {
+        "kanji": "このお店のものは___100円です。",
+        "kana": "この おみせの ものは ___ ひゃくえんです。"
+      },
+      "options": [
+        "全部",
+        "全部で",
+        "自分で",
+        "他に"
+      ],
+      "answer": 0,
+      "explanation": "全部 (ぜんぶ) means all/everything as a noun/adverb. 全部で means 'in total'."
+    },
+    {
+      "question": "Choose the correct expression: 'It is 1,200 yen in total.'",
+      "prompt": {
+        "kanji": "___1,200円です。",
+        "kana": "___ せんにひゃくえんです。"
+      },
+      "options": [
+        "全部で",
+        "全部",
+        "自分で",
+        "他の"
+      ],
+      "answer": 0,
+      "explanation": "全部で (ぜんぶで) = in total, all together."
+    },
+    {
+      "question": "Choose the correct expression: 'I studied Japanese by myself.'",
+      "prompt": {
+        "kanji": "___日本語を勉強しました。",
+        "kana": "___ にほんごを べんきょうしました。"
+      },
+      "options": [
+        "自分で",
+        "自分",
+        "全部で",
+        "他に"
+      ],
+      "answer": 0,
+      "explanation": "自分で (じぶんで) means 'by oneself' or 'on one's own'."
+    },
+    {
+      "question": "Choose the correct word: 'Because it's raining today, let's go another day.'",
+      "prompt": {
+        "kanji": "今日は雨だから、___の日に行きましょう。",
+        "kana": "きょうは あめだから、___の ひに いきましょう。"
+      },
+      "options": [
+        "他",
+        "他に",
+        "全部",
+        "自分"
+      ],
+      "answer": 0,
+      "explanation": "他の～ (ほかの～) means 'other ~' or 'another ~'."
+    },
+    {
+      "question": "Choose the correct phrase: 'What else did you do?'",
+      "prompt": {
+        "kanji": "___何をしましたか？",
+        "kana": "___ なにを しましたか？"
+      },
+      "options": [
+        "他に",
+        "他",
+        "自分で",
+        "全部で"
+      ],
+      "answer": 0,
+      "explanation": "他に (ほかに) means 'besides', 'else', or 'in addition'."
+    },
+    {
+      "question": "Which sentence correctly uses ～てくれました to express gratitude?",
+      "options": [
+        "山田さんが傘を貸してくれました。",
+        "私は山田さんに傘を貸してくれました。",
+        "山田さんは私に傘を貸してもらいました。",
+        "私が山田さんに傘を貸してくれました。"
+      ],
+      "answer": 0,
+      "explanation": "山田さんが傘を貸してくれました = Yamada-san kindly lent me an umbrella. (Person doing the favor for me is the subject with くれました)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I had my friend help with moving.'",
+      "options": [
+        "私は友達に引っ越しを手伝ってもらいました。",
+        "私は友達を引っ越しを手伝ってくれました。",
+        "友達は私に引っ越しを手伝ってもらいました。",
+        "私は友達に引っ越しを手伝ってあげました。"
+      ],
+      "answer": 0,
+      "explanation": "私は友達に引っ越しを手伝ってもらいました = I received the help of my friend with moving."
+    },
+    {
+      "question": "Choose the correct sentence: 'I helped my younger brother with his homework.'",
+      "options": [
+        "私は弟に宿題を教えてあげました。",
+        "私は弟に宿題を教えてくれました。",
+        "弟は私に宿題を教えてあげました。",
+        "私は弟を宿題を教えてもらいました。"
+      ],
+      "answer": 0,
+      "explanation": "When doing a favor for a family member or younger person, use ～てあげました."
+    },
+    {
+      "question": "Fill in the blank: 'Tanaka-san kindly explained the rules to me.'",
+      "prompt": {
+        "kanji": "田中さんは私にルールを説明して___。",
+        "kana": "たなかさんは わたしに ルールを せつめいして ___。"
+      },
+      "options": [
+        "くれました",
+        "あげました",
+        "直しました",
+        "送りました"
+      ],
+      "answer": 0,
+      "explanation": "Action done by Tanaka-san for my benefit → 説明してくれました."
+    },
+    {
+      "question": "Choose the sentence where particle を is preserved correctly in accordance with Lesson 24's particle rule:",
+      "options": [
+        "山田さんは私を駅まで車で送ってくれました。",
+        "山田さんは私に駅まで車で送ってくれました。",
+        "山田さんは私で駅まで車で送ってくれました。",
+        "山田さんは私から駅まで車で送ってくれました。"
+      ],
+      "answer": 0,
+      "explanation": "送ります marks the passenger with を (私を送る). It remains 私を送ってくれました."
+    },
+    {
+      "question": "Which word refers to grandfather or an elderly man?",
+      "options": [
+        "おじいさん",
+        "おばあさん",
+        "おじさん",
+        "おばさん"
+      ],
+      "answer": 0,
+      "explanation": "おじいさん (with long い) = grandfather / old man. (おじさん with short い = uncle / middle-aged man)."
+    },
+    {
+      "question": "Which word refers to grandmother or an elderly woman?",
+      "options": [
+        "おばあさん",
+        "おばさん",
+        "おじいさん",
+        "お母さん"
+      ],
+      "answer": 0,
+      "explanation": "おばあさん (with long あ) = grandmother / elderly woman. (おばさん with short あ = aunt / middle-aged woman)."
+    }
+  ],
+  "writing": {
+    "title": "A Day of Helping and Giving Thanks (親切な友達とお礼)",
+    "prompt": "Write 6–8 sentences in Japanese describing an experience where you helped someone or someone helped you (e.g. moving, studying, or showing you around a city). (1) State an occasion where you needed assistance (引っ越し, 勉強, 旅行). (2) Use ～てくれました to describe what someone kindly did for you (e.g., 車で送ってくれました, 日本語を直してくれました, 案内してくれました). (3) Use ～てもらいました to state a favor you received from a teacher or friend. (4) Mention something you did in return (～てあげました) or snacks/gifts shared (お菓子, プレゼント). (5) Use at least two vocabulary words from Lesson 24 (準備, 自分で, 全部で, 他に, etc.).",
+    "placeholder": "先週、新しいアパートへ ______ しました。\n荷物の準備が大変でしたが、友達が ______ てくれました。\n友達は車で駅まで私を ______ てくれました。\nまた、先生に難しい日本語を ______ てもらいました。\nお礼に、友達においしい ______ を買ってあげました。\n引っ越しは大変でしたが、______ て本当によかったです。",
+    "modelAnswer": "先週、新しい町へ引っ越しをしました。一人で準備をするのは大変でしたが、友達の田中さんが手伝ってくれました。田中さんは車で私を新しいアパートまで送ってくれました。そして、近くのスーパーや郵便局を案内してくれました。また、アパートのルールが難しかったので、大家さんに親切に説明してもらいました。私はお礼に、田中さんにおいしいお菓子をあげました。周りの人がいろいろ親切にしてくれて、とても感謝しています。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "Sato-san gave a pen to me.",
+        "chunks": [
+          "佐藤さんは",
+          "私に",
+          "ペンを",
+          "くれました。"
+        ]
+      },
+      {
+        "en": "I received a pen from Sato-san.",
+        "chunks": [
+          "私は",
+          "佐藤さんに",
+          "ペンを",
+          "もらいました。"
+        ]
+      },
+      {
+        "en": "I gave a pen to Sato-san.",
+        "chunks": [
+          "私は",
+          "佐藤さんに",
+          "ペンを",
+          "あげました。"
+        ]
+      },
+      {
+        "en": "Sato-san taught me Japanese.",
+        "chunks": [
+          "佐藤さんは",
+          "私に",
+          "日本語を",
+          "教えてくれました。"
+        ]
+      },
+      {
+        "en": "I had Sato-san teach me Japanese.",
+        "chunks": [
+          "私は",
+          "佐藤さんに",
+          "日本語を",
+          "教えてもらいました。"
+        ]
+      },
+      {
+        "en": "I taught English to Sato-san.",
+        "chunks": [
+          "私は",
+          "佐藤さんに",
+          "英語を",
+          "教えてあげました。"
+        ]
+      },
+      {
+        "en": "Sato-san kindly took me to Shinjuku.",
+        "chunks": [
+          "佐藤さんは",
+          "私を",
+          "新宿へ",
+          "連れて行ってくれました。"
+        ]
+      },
+      {
+        "en": "I had Sato-san take me to Shinjuku.",
+        "chunks": [
+          "私は",
+          "佐藤さんに",
+          "新宿へ",
+          "連れて行ってもらいました。"
+        ]
+      },
+      {
+        "en": "Suzuki-san always corrects my Japanese for me.",
+        "chunks": [
+          "鈴木さんは",
+          "私の日本語を",
+          "いつも",
+          "直してくれます。"
+        ]
+      },
+      {
+        "en": "I drove my older sister to the station.",
+        "chunks": [
+          "姉を",
+          "駅まで",
+          "車で",
+          "送りました。"
+        ]
+      },
+      {
+        "en": "I will introduce A-san to B-san.",
+        "chunks": [
+          "Aさんを",
+          "Bさんに",
+          "紹介します。"
+        ]
+      },
+      {
+        "en": "I will show A-san around Tokyo.",
+        "chunks": [
+          "Aさんに",
+          "東京を",
+          "案内します。"
+        ]
+      },
+      {
+        "en": "I will explain the rules.",
+        "chunks": [
+          "ルールを",
+          "説明します。"
+        ]
+      },
+      {
+        "en": "I studied Japanese by myself.",
+        "chunks": [
+          "自分で",
+          "日本語を",
+          "勉強しました。"
+        ]
+      },
+      {
+        "en": "Everything in this store is 100 yen.",
+        "chunks": [
+          "このお店のものは",
+          "全部",
+          "100円です。"
+        ]
+      },
+      {
+        "en": "It is 1,200 yen in total.",
+        "chunks": [
+          "全部で",
+          "1,200円です。"
+        ]
+      },
+      {
+        "en": "Who gave those flowers to you?",
+        "chunks": [
+          "誰が",
+          "その花を",
+          "くれましたか。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "くれます",
+        "form": "て-form",
+        "answer": "くれて",
+        "options": [
+          "くれて",
+          "くって",
+          "くれいで"
+        ],
+        "hint": "Group 2 verb: drop ます and add て"
+      },
+      {
+        "prompt": "直します (なおします)",
+        "form": "て-form",
+        "answer": "なおして",
+        "options": [
+          "なおして",
+          "なおって",
+          "なおいで"
+        ],
+        "hint": "Group 1 verb ending in し: change し to して"
+      },
+      {
+        "prompt": "連れて行きます (つれていきます)",
+        "form": "て-form",
+        "answer": "つれていって",
+        "options": [
+          "つれていって",
+          "つれていきいて",
+          "つれていきて"
+        ],
+        "hint": "Irregular Group 1: 行きます becomes 行って (連れて行って)"
+      },
+      {
+        "prompt": "連れて来ます (つれてきます)",
+        "form": "て-form",
+        "answer": "つれてきて",
+        "options": [
+          "つれてきて",
+          "つれてこて",
+          "つれてきって"
+        ],
+        "hint": "Group 3 verb: 来ます becomes 来て (連れて来て)"
+      },
+      {
+        "prompt": "送ります (おくります)",
+        "form": "て-form",
+        "answer": "おくって",
+        "options": [
+          "おくって",
+          "おくりて",
+          "おくりいで"
+        ],
+        "hint": "Group 1 verb ending in り: changes to って (送って)"
+      },
+      {
+        "prompt": "紹介します (しょうかいします)",
+        "form": "て-form",
+        "answer": "しょうかいして",
+        "options": [
+          "しょうかいして",
+          "しょうかいって",
+          "しょうかいしいて"
+        ],
+        "hint": "Group 3 compound verb: します becomes して"
+      },
+      {
+        "prompt": "案内します (あんないします)",
+        "form": "て-form",
+        "answer": "あんないして",
+        "options": [
+          "あんないして",
+          "あんないって",
+          "あんないしいて"
+        ],
+        "hint": "Group 3 compound verb: します becomes して"
+      },
+      {
+        "prompt": "説明します (せつめいします)",
+        "form": "て-form",
+        "answer": "せつめいして",
+        "options": [
+          "せつめいして",
+          "せつめいって",
+          "せつめいしいて"
+        ],
+        "hint": "Group 3 compound verb: します becomes して"
+      },
+      {
+        "prompt": "準備します (じゅんびします)",
+        "form": "て-form",
+        "answer": "じゅんびして",
+        "options": [
+          "じゅんびして",
+          "じゅんびって",
+          "じゅんびしいて"
+        ],
+        "hint": "Group 3 compound verb: します becomes して"
+      },
+      {
+        "prompt": "引っ越します (ひっこします)",
+        "form": "て-form",
+        "answer": "ひっこして",
+        "options": [
+          "ひっこして",
+          "ひっこって",
+          "ひっこしいて"
+        ],
+        "hint": "Group 1 verb ending in し: change し to して"
+      },
+      {
+        "prompt": "教えます (おしえます)",
+        "form": "て-form",
+        "answer": "おしえて",
+        "options": [
+          "おしえて",
+          "おしえって",
+          "おしえんで"
+        ],
+        "hint": "Group 2 verb: replace ます with て"
+      },
+      {
+        "prompt": "手伝います (てつだいます)",
+        "form": "て-form",
+        "answer": "てつだって",
+        "options": [
+          "てつだって",
+          "てつだいて",
+          "てつだんで"
+        ],
+        "hint": "Group 1 verb ending in い: changes to って"
+      },
+      {
+        "prompt": "貸します (かします)",
+        "form": "て-form",
+        "answer": "かして",
+        "options": [
+          "かして",
+          "かって",
+          "かしいて"
+        ],
+        "hint": "Group 1 verb ending in し: changes to して"
+      },
+      {
+        "prompt": "作ります (つくります)",
+        "form": "て-form",
+        "answer": "つくって",
+        "options": [
+          "つくって",
+          "つくりて",
+          "つくりんで"
+        ],
+        "hint": "Group 1 verb ending in り: changes to って"
+      },
+      {
+        "prompt": "見せます (みせます)",
+        "form": "て-form",
+        "answer": "みせて",
+        "options": [
+          "みせて",
+          "みせって",
+          "みせいで"
+        ],
+        "hint": "Group 2 verb: replace ます with て"
+      },
+      {
+        "prompt": "持ちます (もちます)",
+        "form": "て-form",
+        "answer": "もって",
+        "options": [
+          "もって",
+          "もちて",
+          "もいで"
+        ],
+        "hint": "Group 1 verb ending in ち: changes to って"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "佐藤さんは私 [ ? ] ペンをくれました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "The recipient of the physical item takes に."
+      },
+      {
+        "sentence": "佐藤さんは私 [ ? ] 新宿へ連れて行ってくれました。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
+        "hint": "Rule p. 153: 連れて行きます takes particle を for the person taken!"
+      },
+      {
+        "sentence": "私は佐藤さん [ ? ] 新宿へ連れて行ってもらいました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "In ～てもらいました, the person performing the favor takes に."
+      },
+      {
+        "sentence": "姉 [ ? ] 駅まで車で送りました。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "から"
+        ],
+        "hint": "送ります takes を for the person being driven or escorted."
+      },
+      {
+        "sentence": "佐藤さんは私 [ ? ] 日本語を教えてくれました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "教えます takes に for the recipient of the instruction."
+      },
+      {
+        "sentence": "Aさん [ ? ] Bさんに紹介します。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The person being introduced takes を."
+      },
+      {
+        "sentence": "Aさん [ ? ] 東京を案内します。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "The person being shown around takes に."
+      },
+      {
+        "sentence": "佐藤さん [ ? ] 私にペンをくれました。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Use particle が when specifically emphasizing the person who gave it."
+      },
+      {
+        "sentence": "自分 [ ? ] 日本語を勉強しました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "Doing an action 'by oneself' takes で (自分で)."
+      },
+      {
+        "sentence": "全部 [ ? ] 1,200円です。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "Expressing 'in total' uses 全部で."
+      },
+      {
+        "sentence": "他 [ ? ] 何をしましたか？",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Asking 'besides / in addition' uses 他に."
+      },
+      {
+        "sentence": "誰 [ ? ] その花をくれましたか？",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "An unknown question word as the subject takes が (誰が)."
+      },
+      {
+        "sentence": "私は佐藤さん [ ? ] ペンをもらいました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "が"
+        ],
+        "hint": "In the もらいます pattern, the giver takes に (or から)."
+      },
+      {
+        "sentence": "社長は妹 [ ? ] プレゼントをくれました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Giving to an in-group (うち) member uses に with くれます."
+      },
+      {
+        "sentence": "母の日 [ ? ] カーネーションをあげました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Specific occasions and holidays take に."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Talking about a birthday gift",
+        "speaker": "同僚",
+        "prompt": "その素敵なネクタイ、どうしたんですか？",
+        "options": [
+          {
+            "text": "誕生日に友達がくれました。",
+            "correct": true
+          },
+          {
+            "text": "誕生日に友達があげました。",
+            "correct": false
+          },
+          {
+            "text": "誕生日に友達をもらいました。",
+            "correct": false
+          }
+        ],
+        "tip": "Someone gave it to ME → use くれます (友達がくれました)."
+      },
+      {
+        "situation": "Discussing moving preparations",
+        "speaker": "友達",
+        "prompt": "日曜日の引っ越し、一人で全部準備しますか？",
+        "options": [
+          {
+            "text": "いいえ、田中さんが手伝ってくれます。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、田中さんを手伝ってあげます。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、田中さんが手伝ってもらいます。",
+            "correct": false
+          }
+        ],
+        "tip": "Another person helping for my benefit → 田中さんが手伝ってくれます."
+      },
+      {
+        "situation": "Seeing a friend holding a bouquet",
+        "speaker": "同僚",
+        "prompt": "きれいな花ですね！",
+        "options": [
+          {
+            "text": "誰がその花をくれましたか？",
+            "correct": true
+          },
+          {
+            "text": "誰がその花をあげましたか？",
+            "correct": false
+          },
+          {
+            "text": "誰をその花がくれましたか？",
+            "correct": false
+          }
+        ],
+        "tip": "In conversational temporary in-group (うち), ask 『誰がくれましたか？』."
+      },
+      {
+        "situation": "Reporting how you got home last night",
+        "speaker": "友達",
+        "prompt": "昨日の夜は雨でしたが、どうやって帰りましたか？",
+        "options": [
+          {
+            "text": "鈴木さんが車で私を送ってくれました。",
+            "correct": true
+          },
+          {
+            "text": "鈴木さんが車で私に送ってくれました。",
+            "correct": false
+          },
+          {
+            "text": "鈴木さんが車で私を送ってもらいました。",
+            "correct": false
+          }
+        ],
+        "tip": "Remember Minna p. 153: 送る takes を for the passenger (私を送ってくれました)."
+      },
+      {
+        "situation": "Talking about learning Japanese",
+        "speaker": "先生",
+        "prompt": "発音がとてもきれいですね。",
+        "options": [
+          {
+            "text": "日本人の友達に直してもらいました。",
+            "correct": true
+          },
+          {
+            "text": "日本人の友達に直してくれました。",
+            "correct": false
+          },
+          {
+            "text": "日本人の友達を直してあげました。",
+            "correct": false
+          }
+        ],
+        "tip": "Having someone do an action for oneself → [Person] に V-て もらいました."
+      },
+      {
+        "situation": "Asking a colleague for assistance",
+        "speaker": "マルコ",
+        "prompt": "この機械の使い方がよく分からないんですが…。",
+        "options": [
+          {
+            "text": "じゃあ、私が説明してあげましょうか。",
+            "correct": true
+          },
+          {
+            "text": "じゃあ、私が説明してもらいましょうか。",
+            "correct": false
+          },
+          {
+            "text": "じゃあ、私が説明してくれますよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Offering to do an action for a close peer/colleague → ～てあげましょうか."
+      },
+      {
+        "situation": "Paying at the register",
+        "speaker": "店員",
+        "prompt": "こちらのお菓子とコーヒーですね。",
+        "options": [
+          {
+            "text": "全部でいくらですか？",
+            "correct": true
+          },
+          {
+            "text": "自分でいくらですか？",
+            "correct": false
+          },
+          {
+            "text": "他にはいくらですか？",
+            "correct": false
+          }
+        ],
+        "tip": "Ask for the sum total with 全部で (ぜんぶで)."
+      },
+      {
+        "situation": "Talking about an outside gift to family",
+        "speaker": "友達",
+        "prompt": "その人形、どこで買ったんですか？",
+        "options": [
+          {
+            "text": "社長が妹にくれました。",
+            "correct": true
+          },
+          {
+            "text": "社長が妹にあげました。",
+            "correct": false
+          },
+          {
+            "text": "妹が社長にくれました。",
+            "correct": false
+          }
+        ],
+        "tip": "Uchi rule: someone from outside giving to your family member requires くれます."
+      }
+    ]
+  }
+}

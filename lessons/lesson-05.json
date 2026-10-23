@@ -1,0 +1,2348 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 5,
+    "title": "Movement, Transportation, Companions, and Calendar Dates",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master movement verbs (行きます・来ます・帰ります) with the directional destination particle へ, absolute negation using どこ[へ]も, means of transportation marked by particle で along with the 'on foot' exception (歩いて), companions marked by particle と versus the adverbial state 一人で, inquiring about temporal points with いつ, reading the full Japanese calendar (months, days of the month, and historical phonetic irregulars), asserting new information with sentence-final よ, and navigating train platforms and transit lines."
+  },
+  "vocabulary": [
+    {
+      "id": "ikimasu",
+      "kanji": "行きます",
+      "kana": "いきます",
+      "romaji": "ikimasu",
+      "meaning": "to go",
+      "category": "verb",
+      "example": {
+        "kanji": "明日東京へ行きます。",
+        "kana": "あした とうきょうへ いきます。",
+        "translation": "I will go to Tokyo tomorrow."
+      }
+    },
+    {
+      "id": "kimasu",
+      "kanji": "来ます",
+      "kana": "きます",
+      "romaji": "kimasu",
+      "meaning": "to come",
+      "category": "verb",
+      "example": {
+        "kanji": "先月日本へ来ました。",
+        "kana": "せんげつ にほんへ きました。",
+        "translation": "I came to Japan last month."
+      }
+    },
+    {
+      "id": "kaerimasu",
+      "kanji": "帰ります",
+      "kana": "かえります",
+      "romaji": "kaerimasu",
+      "meaning": "to return; to go home",
+      "category": "verb",
+      "example": {
+        "kanji": "6時にうちへ帰ります。",
+        "kana": "ろくじに うちへ かえります。",
+        "translation": "I return home at 6:00."
+      }
+    },
+    {
+      "id": "hikouki",
+      "kanji": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "meaning": "airplane",
+      "category": "transport",
+      "example": {
+        "kanji": "飛行機で九州へ行きます。",
+        "kana": "ひこうきで きゅうしゅうへ いきます。",
+        "translation": "I will go to Kyushu by airplane."
+      }
+    },
+    {
+      "id": "fune",
+      "kanji": "船",
+      "kana": "ふね",
+      "romaji": "fune",
+      "meaning": "ship; boat",
+      "category": "transport",
+      "example": {
+        "kanji": "船で旅行します。",
+        "kana": "ふねで りょこうします。",
+        "translation": "I travel by ship."
+      }
+    },
+    {
+      "id": "densha",
+      "kanji": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "meaning": "electric train",
+      "category": "transport",
+      "example": {
+        "kanji": "電車で会社へ行きます。",
+        "kana": "でんしゃで かいしゃへ いきます。",
+        "translation": "I go to work by train."
+      }
+    },
+    {
+      "id": "chikatetsu",
+      "kanji": "地下鉄",
+      "kana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "meaning": "subway; metro",
+      "category": "transport",
+      "example": {
+        "kanji": "地下鉄に乗ります。",
+        "kana": "ちかてつに のります。",
+        "translation": "I ride the subway."
+      }
+    },
+    {
+      "id": "shinkansen",
+      "kanji": "新幹線",
+      "kana": "しんかんせん",
+      "romaji": "shinkansen",
+      "meaning": "bullet train; Shinkansen",
+      "category": "transport",
+      "example": {
+        "kanji": "新幹線で京都へ行きました。",
+        "kana": "しんかんせんで きょうとへ いきました。",
+        "translation": "I went to Kyoto by Shinkansen."
+      }
+    },
+    {
+      "id": "basu",
+      "kanji": "バス",
+      "kana": "バス",
+      "romaji": "basu",
+      "meaning": "bus",
+      "category": "transport",
+      "example": {
+        "kanji": "駅からバスで行きます。",
+        "kana": "えきから バスで いきます。",
+        "translation": "I go by bus from the station."
+      }
+    },
+    {
+      "id": "takushii",
+      "kanji": "タクシー",
+      "kana": "タクシー",
+      "romaji": "takushii",
+      "meaning": "taxi",
+      "category": "transport",
+      "example": {
+        "kanji": "雨ですから、タクシーで帰りました。",
+        "kana": "あめですから、タクシーで かえりました。",
+        "translation": "Because it was raining, I returned by taxi."
+      }
+    },
+    {
+      "id": "jitensha",
+      "kanji": "自転車",
+      "kana": "じてんしゃ",
+      "romaji": "jitensha",
+      "meaning": "bicycle; bike",
+      "category": "transport",
+      "example": {
+        "kanji": "毎日自転車で学校へ行きます。",
+        "kana": "まいにち じてんしゃで がっこうへ いきます。",
+        "translation": "I go to school every day by bicycle."
+      }
+    },
+    {
+      "id": "aruite",
+      "kanji": "歩いて",
+      "kana": "あるいて",
+      "romaji": "aruite",
+      "meaning": "on foot; walking",
+      "category": "expression",
+      "example": {
+        "kanji": "駅からうちまで歩いて帰ります。",
+        "kana": "えきから うちまで あるいて かえります。",
+        "translation": "I walk home on foot from the station."
+      }
+    },
+    {
+      "id": "hito",
+      "kanji": "人",
+      "kana": "ひと",
+      "romaji": "hito",
+      "meaning": "person; people",
+      "category": "noun",
+      "example": {
+        "kanji": "あの人は誰ですか。",
+        "kana": "あの ひとは だれですか。",
+        "translation": "Who is that person?"
+      }
+    },
+    {
+      "id": "tomodachi",
+      "kanji": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "meaning": "friend",
+      "category": "noun",
+      "example": {
+        "kanji": "友達と映画を見ました。",
+        "kana": "ともだちと えいがを みました。",
+        "translation": "I watched a movie with a friend."
+      }
+    },
+    {
+      "id": "kare",
+      "kanji": "彼",
+      "kana": "かれ",
+      "romaji": "kare",
+      "meaning": "he; boyfriend",
+      "category": "noun",
+      "example": {
+        "kanji": "彼は会社員です。",
+        "kana": "かれは かいしゃいんです。",
+        "translation": "He is a company employee."
+      }
+    },
+    {
+      "id": "kanojo",
+      "kanji": "彼女",
+      "kana": "かのじょ",
+      "romaji": "kanojo",
+      "meaning": "she; girlfriend",
+      "category": "noun",
+      "example": {
+        "kanji": "彼女とデパートへ行きました。",
+        "kana": "かのじょと デパートへ いきました。",
+        "translation": "I went to the department store with my girlfriend."
+      }
+    },
+    {
+      "id": "kazoku",
+      "kanji": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "meaning": "family",
+      "category": "noun",
+      "example": {
+        "kanji": "家族と日本へ来ました。",
+        "kana": "かぞくと にほんへ きました。",
+        "translation": "I came to Japan with my family."
+      }
+    },
+    {
+      "id": "hitoride",
+      "kanji": "一人で",
+      "kana": "ひとりで",
+      "romaji": "hitoride",
+      "meaning": "alone; by oneself",
+      "category": "adverb",
+      "example": {
+        "kanji": "一人で旅行に行きます。",
+        "kana": "ひとりで りょこうに いきます。",
+        "translation": "I go on a trip alone."
+      }
+    },
+    {
+      "id": "senshuu",
+      "kanji": "先週",
+      "kana": "せんしゅう",
+      "romaji": "senshuu",
+      "meaning": "last week",
+      "category": "time",
+      "example": {
+        "kanji": "先週京都へ行きました。",
+        "kana": "せんしゅう きょうとへ いきました。",
+        "translation": "I went to Kyoto last week."
+      }
+    },
+    {
+      "id": "konshuu",
+      "kanji": "今週",
+      "kana": "こんしゅう",
+      "romaji": "konshuu",
+      "meaning": "this week",
+      "category": "time",
+      "example": {
+        "kanji": "今週はとても忙しいです。",
+        "kana": "こんしゅうは とても いそがしいです。",
+        "translation": "This week is very busy."
+      }
+    },
+    {
+      "id": "raishuu",
+      "kanji": "来週",
+      "kana": "らいしゅう",
+      "romaji": "raishuu",
+      "meaning": "next week",
+      "category": "time",
+      "example": {
+        "kanji": "来週テストがあります。",
+        "kana": "らいしゅう テストが あります。",
+        "translation": "There is a test next week."
+      }
+    },
+    {
+      "id": "sengetsu",
+      "kanji": "先月",
+      "kana": "せんげつ",
+      "romaji": "sengetsu",
+      "meaning": "last month",
+      "category": "time",
+      "example": {
+        "kanji": "先月カメラを買いました。",
+        "kana": "せんげつ カメラを かいました。",
+        "translation": "I bought a camera last month."
+      }
+    },
+    {
+      "id": "kongetsu",
+      "kanji": "今月",
+      "kana": "こんげつ",
+      "romaji": "kongetsu",
+      "meaning": "this month",
+      "category": "time",
+      "example": {
+        "kanji": "今月誕生日です。",
+        "kana": "こんげつ たんじょうびです。",
+        "translation": "My birthday is this month."
+      }
+    },
+    {
+      "id": "raigetsu",
+      "kanji": "来月",
+      "kana": "らいげつ",
+      "romaji": "raigetsu",
+      "meaning": "next month",
+      "category": "time",
+      "example": {
+        "kanji": "来月アメリカへ帰ります。",
+        "kana": "らいげつ アメリカへ かえります。",
+        "translation": "I will return to America next month."
+      }
+    },
+    {
+      "id": "kyonen",
+      "kanji": "去年",
+      "kana": "きょねん",
+      "romaji": "kyonen",
+      "meaning": "last year",
+      "category": "time",
+      "example": {
+        "kanji": "去年日本へ来ました。",
+        "kana": "きょねん にほんへ きました。",
+        "translation": "I came to Japan last year."
+      }
+    },
+    {
+      "id": "kotoshi",
+      "kanji": "今年",
+      "kana": "ことし",
+      "romaji": "kotoshi",
+      "meaning": "this year",
+      "category": "time",
+      "example": {
+        "kanji": "今年は28歳です。",
+        "kana": "ことしは にじゅうはっさいです。",
+        "translation": "I am 28 years old this year."
+      }
+    },
+    {
+      "id": "rainen",
+      "kanji": "来年",
+      "kana": "らいねん",
+      "romaji": "rainen",
+      "meaning": "next year",
+      "category": "time",
+      "example": {
+        "kanji": "来年国へ帰ります。",
+        "kana": "らいねん くにへ かえります。",
+        "translation": "I will return to my home country next year."
+      }
+    },
+    {
+      "id": "nen",
+      "kanji": "～年",
+      "kana": "～ねん",
+      "romaji": "~nen",
+      "meaning": "year ~",
+      "category": "counter",
+      "example": {
+        "kanji": "2024年に大学を卒業しました。",
+        "kana": "にせんにじゅうよねんに だいがくを そつぎょうしました。",
+        "translation": "I graduated from university in 2024."
+      }
+    },
+    {
+      "id": "nannen",
+      "kanji": "何年",
+      "kana": "なんねん",
+      "romaji": "nannen",
+      "meaning": "what year; how many years",
+      "category": "interrogative",
+      "example": {
+        "kanji": "何年に日本へ来ましたか。",
+        "kana": "なんねんに にほんへ きましたか。",
+        "translation": "In what year did you come to Japan?"
+      }
+    },
+    {
+      "id": "gatsu",
+      "kanji": "～月",
+      "kana": "～がつ",
+      "romaji": "~gatsu",
+      "meaning": "month of the year (~gatsu)",
+      "category": "counter",
+      "example": {
+        "kanji": "桜は4月に咲きます。",
+        "kana": "さくらは しがつに さきます。",
+        "translation": "Cherry blossoms bloom in April."
+      }
+    },
+    {
+      "id": "nangatsu",
+      "kanji": "何月",
+      "kana": "なんがつ",
+      "romaji": "nangatsu",
+      "meaning": "what month",
+      "category": "interrogative",
+      "example": {
+        "kanji": "誕生日は何月ですか。",
+        "kana": "たんじょうびは なんがつですか。",
+        "translation": "What month is your birthday?"
+      }
+    },
+    {
+      "id": "nichi-ka",
+      "kanji": "～日",
+      "kana": "～にち / ～か",
+      "romaji": "~nichi / ~ka",
+      "meaning": "day of the month; ~ days",
+      "category": "counter",
+      "example": {
+        "kanji": "今日は5月5日です。",
+        "kana": "きょうは ごがつ いつかです。",
+        "translation": "Today is May 5th."
+      }
+    },
+    {
+      "id": "nannichi",
+      "kanji": "何日",
+      "kana": "なんにち",
+      "romaji": "nannichi",
+      "meaning": "which day of the month; how many days",
+      "category": "interrogative",
+      "example": {
+        "kanji": "今日は何日ですか。",
+        "kana": "きょうは なんにちですか。",
+        "translation": "What day of the month is today?"
+      }
+    },
+    {
+      "id": "itsu",
+      "kanji": "いつ",
+      "kana": "いつ",
+      "romaji": "itsu",
+      "meaning": "when",
+      "category": "interrogative",
+      "example": {
+        "kanji": "いつ日本へ来ましたか。",
+        "kana": "いつ にほんへ きましたか。",
+        "translation": "When did you come to Japan?"
+      }
+    },
+    {
+      "id": "tanjoubi",
+      "kanji": "誕生日",
+      "kana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "meaning": "birthday",
+      "category": "noun",
+      "example": {
+        "kanji": "私の誕生日は8月14日です。",
+        "kana": "わたしの たんじょうびは はちがつ じゅうよっかです。",
+        "translation": "My birthday is August 14th."
+      }
+    },
+    {
+      "id": "futsuu",
+      "kanji": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "meaning": "local train (stops at every station); ordinary",
+      "category": "transport",
+      "example": {
+        "kanji": "次の普通に乗ってください。",
+        "kana": "つぎの ふつうに のって ください。",
+        "translation": "Please board the next local train."
+      }
+    },
+    {
+      "id": "kyuukou",
+      "kanji": "急行",
+      "kana": "きゅうこう",
+      "romaji": "kyuukou",
+      "meaning": "express train",
+      "category": "transport",
+      "example": {
+        "kanji": "急行は止まりません。",
+        "kana": "きゅうこうは とまりません。",
+        "translation": "The express train does not stop here."
+      }
+    },
+    {
+      "id": "tokkyuu",
+      "kanji": "特急",
+      "kana": "とっきゅう",
+      "romaji": "tokkyuu",
+      "meaning": "limited express train",
+      "category": "transport",
+      "example": {
+        "kanji": "特急で行くと早いです。",
+        "kana": "とっきゅうで いくと はやいです。",
+        "translation": "It is fast if you go by limited express."
+      }
+    },
+    {
+      "id": "tsugino",
+      "kanji": "次の～",
+      "kana": "つぎの～",
+      "romaji": "tsugi no~",
+      "meaning": "next ~",
+      "category": "noun",
+      "example": {
+        "kanji": "次の電車は甲子園へ行きます。",
+        "kana": "つぎの でんしゃは こうしえんへ いきます。",
+        "translation": "The next train goes to Koshien."
+      }
+    },
+    {
+      "id": "bansen",
+      "kanji": "～番線",
+      "kana": "～ばんせん",
+      "romaji": "~bansen",
+      "meaning": "track number ~; platform ~",
+      "category": "counter",
+      "example": {
+        "kanji": "京都行きは5番線です。",
+        "kana": "きょうとゆきは ごばんせんです。",
+        "translation": "The train for Kyoto departs from platform 5."
+      }
+    },
+    {
+      "id": "douitashimashite",
+      "kanji": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "douitashimashite",
+      "meaning": "you are welcome; don't mention it",
+      "category": "expression",
+      "example": {
+        "kanji": "「ありがとう」「いいえ、どういたしまして」",
+        "kana": "「ありがとう」「いいえ、どういたしまして」",
+        "translation": "'Thank you.' 'You are welcome.'"
+      }
+    },
+    {
+      "id": "yo",
+      "kanji": "よ",
+      "kana": "よ",
+      "romaji": "yo",
+      "meaning": "sentence-final particle: assertion, assurance, sharing new information",
+      "category": "particle",
+      "example": {
+        "kanji": "この電車は甲子園へ行きませんよ。",
+        "kana": "この でんしゃは こうしえんへ いきませんよ。",
+        "translation": "This train does not go to Koshien, you know."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Place へ 行きます / 来ます / 帰ります [Destination Particle へ]",
+      "explanation": "When using verbs of physical movement—行きます (to go), 来ます (to come), and 帰ります (to return / go home)—the destination or direction of travel is marked by the particle へ. ORTHOGRAPHY & PHONETICS (Takashi's Rule): Although written with the hiragana character 『へ』 (he), it is ALWAYS pronounced 『え』 (e) when functioning as a directional particle. Nuance with に: The particle に can also mark destinations (東京に行きます), but へ specifically emphasizes heading in the direction of the destination, whereas に highlights the physical arrival point. At the N5 beginner level, both are accepted, but Minna no Nihongo establishes へ as the primary directional marker.",
+      "examples": [
+        {
+          "kanji": "来週京都へ行きます。",
+          "kana": "らいしゅう きょうとへ いきます。",
+          "translation": "I will go to Kyoto next week."
+        },
+        {
+          "kanji": "去年日本へ来ました。",
+          "kana": "きょねん にほんへ きました。",
+          "translation": "I came to Japan last year."
+        },
+        {
+          "kanji": "毎日7時にうちへ帰ります。",
+          "kana": "まいにち しちじに うちへ かえります。",
+          "translation": "I return home at 7:00 every day."
+        },
+        {
+          "kanji": "どこへ行きますか。— 銀行へ行きます。",
+          "kana": "どこへ いきますか。— ぎんこうへ いきます。",
+          "translation": "Where are you going? — I am going to the bank."
+        }
+      ]
+    },
+    {
+      "pattern": "どこ [へ] も 行きません / 行きませんでした [Total Negation with どこも]",
+      "explanation": "When an interrogative word (like どこ) is paired with the particle も and a negative verb form (～ません / ～ませんでした), it indicates absolute, total negation ('not anywhere / nowhere'). With directional movement, the particle へ is optional between どこ and も: both 『どこへも行きません』 and 『どこも行きません』 are correct and natural. Tense Rule: Match the verb to the time frame: (1) Future/Habitual: 『日曜日はどこも行きません』 (I won't go anywhere on Sunday). (2) Past: 『昨日はどこへも行きませんでした』 (I did not go anywhere yesterday).",
+      "examples": [
+        {
+          "kanji": "日曜日はどこへも行きませんでした。",
+          "kana": "にちようびは どこへも いきませんでした。",
+          "translation": "I didn't go anywhere on Sunday."
+        },
+        {
+          "kanji": "明日はどこも行きません。うちで休みます。",
+          "kana": "あしたは どこも いきません。うちで やすみます。",
+          "translation": "I'm not going anywhere tomorrow. I will rest at home."
+        },
+        {
+          "kanji": "先週末どこかへ行きましたか。— いいえ、どこへも行きませんでした。",
+          "kana": "せんしゅうまつ どこかへ いきましたか。— いいえ、どこへも いきませんでした。",
+          "translation": "Did you go somewhere last weekend? — No, I didn't go anywhere."
+        }
+      ]
+    },
+    {
+      "pattern": "Vehicle / Transport で 行きます / 来ます / 帰ります [Means of Movement]",
+      "explanation": "The particle で indicates the tool, method, instrument, or means by which an action is performed. When followed by movement verbs (行きます, 来ます, 帰ります), で marks the vehicle or mode of transportation used to travel: 『電車で行きます』 (go by train), 『タクシーで帰りました』 (returned by taxi), 『飛行機で来ました』 (came by airplane). Question form: Ask how someone travels using 『何で (なんで)』 or 『何で行きますか』 (By what means do you go?).",
+      "examples": [
+        {
+          "kanji": "電車で会社へ行きます。",
+          "kana": "でんしゃで かいしゃへ いきます。",
+          "translation": "I go to work by train."
+        },
+        {
+          "kanji": "新幹線で東京へ行きました。",
+          "kana": "しんかんせんで とうきょうへ いきます。",
+          "translation": "I went to Tokyo by Shinkansen (bullet train)."
+        },
+        {
+          "kanji": "何で大阪へ行きますか。— 飛行機で行きます。",
+          "kana": "なんで おおさかへ いきますか。— ひこうきで いきます。",
+          "translation": "How will you go to Osaka? — I will go by airplane."
+        },
+        {
+          "kanji": "バスで大学へ来ました。",
+          "kana": "バスで だいがくへ きました。",
+          "translation": "I came to the university by bus."
+        }
+      ]
+    },
+    {
+      "pattern": "歩いて 行きます / 帰ります [The 'Walking on Foot' Exception (No で!)]",
+      "explanation": "TAKASHI'S BIGGEST TRAP WARNING: When traveling on foot, NEVER attach the particle で! (✕ 歩いてで行きます, ✕ 歩きで行きます). Why? Because 『歩いて』 (あるいて) is the て-form of the verb 歩きます (to walk), and functions as an adverbial verb phrase meaning 'by walking / on foot'. It already contains the means of action within itself. Therefore, you must connect it directly to the movement verb: 『駅からうちまで歩いて帰ります』 (I walk home on foot from the station).",
+      "examples": [
+        {
+          "kanji": "駅から歩いて行きます。(✕ 歩いてで行きます)",
+          "kana": "えきから あるいて いきます。",
+          "translation": "I go on foot from the station."
+        },
+        {
+          "kanji": "毎日歩いて学校へ来ます。",
+          "kana": "まいにち あるいて がっこうへ きます。",
+          "translation": "I walk to school every day."
+        },
+        {
+          "kanji": "駅まで何で行きますか。— 歩いて行きます。",
+          "kana": "えきまで なんで いきますか。— あるいて いきます。",
+          "translation": "How do you go to the station? — I walk on foot."
+        }
+      ]
+    },
+    {
+      "pattern": "Person と 行きます / 来ます / 帰ります [Companions with Particle と]",
+      "explanation": "In Lesson 4, you learned that と links two nouns together ('apples and oranges'). In Lesson 5, と takes on its second major role: marking a companion or partner with whom you perform an action ('together with [Person]'). Structure: 『[Companion] と [Verb]』. Question form: To ask with whom someone travels or does an action, use 『誰と (だれと)』: 『誰と日本へ来ましたか』 (With whom did you come to Japan?).",
+      "examples": [
+        {
+          "kanji": "家族と日本へ来ました。",
+          "kana": "かぞくと にほんへ きました。",
+          "translation": "I came to Japan with my family."
+        },
+        {
+          "kanji": "友達と京都へ行きます。",
+          "kana": "ともだちと きょうとへ いきます。",
+          "translation": "I will go to Kyoto with a friend."
+        },
+        {
+          "kanji": "誰とデパートへ行きましたか。— 彼女と行きました。",
+          "kana": "だれと デパートへ いきましたか。— かのじょと いきました。",
+          "translation": "Who did you go to the department store with? — I went with my girlfriend."
+        }
+      ]
+    },
+    {
+      "pattern": "一人で 行きます / 帰ります [Doing Actions Alone: The 一人で Rule (No と!)]",
+      "explanation": "TAKASHI'S COMPANION TRAP: When performing an action by yourself without any companions, do NOT use the particle と! Saying 『✕ 一人と行きます』 is completely ungrammatical in Japanese. Instead, use the adverbial expression 『一人で (ひとりで)』, where で indicates the state or condition of being alone. Notice that 一人で does not take any following particle: 『一人で京都へ行きました』 (I went to Kyoto alone).",
+      "examples": [
+        {
+          "kanji": "一人で日本へ来ました。(✕ 一人と来ました)",
+          "kana": "ひとりで にほんへ きました。",
+          "translation": "I came to Japan alone."
+        },
+        {
+          "kanji": "日曜日は一人で映画を見に行きます。",
+          "kana": "にちようびは ひとりで えいがを みに いきます。",
+          "translation": "On Sunday, I will go watch a movie by myself."
+        },
+        {
+          "kanji": "誰と行きますか。— 一人で行きます。",
+          "kana": "だれと いきますか。— ひとりで いきます。",
+          "translation": "Who are you going with? — I am going alone."
+        }
+      ]
+    },
+    {
+      "pattern": "いつ [Asking 'When' — The No-に Rule]",
+      "explanation": "いつ is the interrogative pronoun for time ('when'). CRITICAL GRAMMATICAL CONSTRAINT (Takashi's Rule): The word いつ NEVER takes the particle に! Saying 『✕ いつに日本へ来ましたか』 is an error. Always use いつ by itself or with は: 『いつ日本へ来ましたか』. When answering an いつ question, use the normal particle rules for the specific time provided (e.g. use に for clock times and dates, but do not use に for relative words like 来週 or 明日).",
+      "examples": [
+        {
+          "kanji": "いつ日本へ来ましたか。(✕ いつに)",
+          "kana": "いつ にほんへ きましたか。",
+          "translation": "When did you come to Japan?"
+        },
+        {
+          "kanji": "お誕生日はいつですか。— 6月13日です。",
+          "kana": "おたんじょうびは いつですか。— ろくがつ じゅうさんにちです。",
+          "translation": "When is your birthday? — It is June 13th."
+        },
+        {
+          "kanji": "いつ国へ帰りますか。— 来年の3月に帰ります。",
+          "kana": "いつ くにへ かえりますか。— らいねんの さんがつに かえります。",
+          "translation": "When will you return to your country? — I will return in March next year."
+        }
+      ]
+    },
+    {
+      "pattern": "Japanese Calendar System: ～月 (Months) & ～日 (Days of the Month Irregulars)",
+      "explanation": "Japanese dates follow the order Year → Month → Day. (1) Months (～月 / がつ): Watch the three irregular readings: 4月 = しがつ (never よんがつ), 7月 = しちがつ (never なながつ), 9月 = くがつ (never きゅうがつ). (2) Days of the Month (～日): Days 1 to 10 use traditional native readings: 1日=ついたち, 2日=ふつか, 3日=みっか, 4日=よっか, 5日=いつか, 6日=むいか, 7日=なのか, 8日=ようか, 9日=ここのか, 10日=とおか. Special compound days: 14日=じゅうよっか, 20日=はつか, 24日=にじゅうよっか. All other days use Sino-Japanese number + にち (e.g. 15日=じゅうごにち). Question: 『何月何日ですか』 (What month and day is it?).",
+      "examples": [
+        {
+          "kanji": "私の誕生日は4月4日です。",
+          "kana": "わたしの たんじょうびは しがつ よっかです。",
+          "translation": "My birthday is April 4th (しがつ, not よんがつ; よっか, not よんにち)."
+        },
+        {
+          "kanji": "7月20日にテストがあります。",
+          "kana": "しちがつ はつかに テストが あります。",
+          "translation": "There is a test on July 20th (しちがつ; はつか)."
+        },
+        {
+          "kanji": "9月14日に日本へ来ました。",
+          "kana": "くがつ じゅうよっかに にほんへ きました。",
+          "translation": "I came to Japan on September 14th (くがつ; じゅうよっか)."
+        },
+        {
+          "kanji": "今日は何月何日ですか。— 10月8日です。",
+          "kana": "きょうは なんがつ なんにちですか。— じゅうがつ ようかです。",
+          "translation": "What date is today? — It is October 8th (ようか)."
+        }
+      ]
+    },
+    {
+      "pattern": "Sentence-Final Particle よ [Sharing New Information / Gentle Assertion]",
+      "explanation": "The particle よ is attached to the very end of a sentence when the speaker wants to share new information that the listener is unaware of, or to gently emphasize/assure them of a fact ('you know / I tell you'). Nuance contrast: Sentence-final ね seeks agreement on something both people know ('isn't it?'), whereas よ informs or warns the listener about something only the speaker knows. In Lesson 5's dialogue, it warns a passenger: 『この電車は甲子園へ行きませんよ』 (This train doesn't go to Koshien, you know!).",
+      "examples": [
+        {
+          "kanji": "この電車は甲子園へ行きませんよ。",
+          "kana": "この でんしゃは こうしえんへ いきませんよ。",
+          "translation": "This train doesn't go to Koshien, you know."
+        },
+        {
+          "kanji": "次の普通ですよ。",
+          "kana": "つぎの ふつうですよ。",
+          "translation": "It's the next local train (informing the listener)."
+        },
+        {
+          "kanji": "明日は休みですよ。— あ、本当ですか。ありがとうございます。",
+          "kana": "あしたは やすみですよ。— あ、ほんとうですか。ありがとう ございます。",
+          "translation": "Tomorrow is a day off, you know! — Oh, really? Thank you!"
+        }
+      ]
+    },
+    {
+      "pattern": "Train Transit & Platform Etiquette: ～番線, 普通 / 急行 / 特急, 次の～",
+      "explanation": "Lesson 5 includes essential station communication for traveling on Japanese railways: (1) Platform / Track Number: Counted with ～番線 (ばんせん), e.g. 『5番線』 (Platform 5). (2) Train Categories: 『普通』 (ふつう / local, stops at every station), 『急行』 (きゅうこう / express, skips minor stations), 『特急』 (とっきゅう / limited express, fastest, stops only at major hubs). (3) Inquiring: 『[Destination] へ行きたいですが、何番線ですか』 or 『この電車は [Destination] へ行きますか』. (4) Indicating the next departure: 『次の [Train type] ですよ』 (It is the next local train).",
+      "examples": [
+        {
+          "kanji": "甲子園行きは5番線ですよ。",
+          "kana": "こうしえんゆきは ごばんせんですよ。",
+          "translation": "The train bound for Koshien departs from platform 5."
+        },
+        {
+          "kanji": "すみません。この電車は京都へ行きますか。— いいえ、行きません。",
+          "kana": "すみません。この でんしゃは きょうとへ いきますか。— いいえ、いきません。",
+          "translation": "Excuse me. Does this train go to Kyoto? — No, it does not."
+        },
+        {
+          "kanji": "次の特急に乗ってください。",
+          "kana": "つぎの とっきゅうに のって ください。",
+          "translation": "Please board the next limited express train."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "甲子園への行き方と週末の旅行 (Going to Koshien & Weekend Travel Plans)",
+    "lines": [
+      {
+        "speaker": "サントス",
+        "kanji": "すみません。甲子園までいくらですか。",
+        "kana": "すみません。こうしえんまで いくらですか。"
+      },
+      {
+        "speaker": "駅員",
+        "kanji": "240円です。",
+        "kana": "にひゃくよんじゅうえんです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "240円ですね。ありがとうございます。……すみません、甲子園は何番線ですか。",
+        "kana": "にひゃくよんじゅうえんですね。ありがとう ございます。……すみません、こうしえんは なんばんせんですか。"
+      },
+      {
+        "speaker": "駅員",
+        "kanji": "5番線です。",
+        "kana": "ごばんせんです。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "どうも。",
+        "kana": "どうも。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "（ホームで乗客に）あのう、この電車は甲子園へ行きますか。",
+        "kana": "（ホームで じょうきゃくに）あのう、この でんしゃは こうしえんへ いきますか。"
+      },
+      {
+        "speaker": "乗客",
+        "kanji": "いいえ、行きませんよ。これは特急ですから、止まりません。",
+        "kana": "いいえ、いきませんよ。これは とっきゅうですから、とまりません。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "そうですか。どの電車が行きますか。",
+        "kana": "そうですか。どのでんしゃが いきますか。"
+      },
+      {
+        "speaker": "乗客",
+        "kanji": "次の普通ですよ。",
+        "kana": "つぎの ふつうですよ。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "そうですか。どうもありがとうございます。",
+        "kana": "そうですか。どうも ありがとう ございます。"
+      },
+      {
+        "speaker": "乗客",
+        "kanji": "いいえ、どういたしまして。",
+        "kana": "いいえ、どういたしまして。"
+      },
+      {
+        "speaker": "田中",
+        "kanji": "（甲子園の後で）サントスさん、来週の連休はどこかへ行きますか。",
+        "kana": "（こうしえんの あとで）サントスさん、らいしゅうの れんきゅうは どこかへ いきますか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "はい、家族と新幹線で広島へ行きます。来週の金曜日は私の誕生日ですから。",
+        "kana": "はい、かぞくと しんかんせんで ひろしまへ いきます。らいしゅうの きんようびは わたしの たんじょうびですから。"
+      },
+      {
+        "speaker": "田中",
+        "kanji": "お誕生日は何月何日ですか。",
+        "kana": "おたんじょうびは なんがつ なんにちですか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "10月24日です。",
+        "kana": "じゅうがつ にじゅうよっかです。"
+      },
+      {
+        "speaker": "田中",
+        "kanji": "そうですか。いいですね。新幹線で広島まで何時間かかりますか。",
+        "kana": "そうですか。いいですね。しんかんせんで ひろしままで なんじかん かかりますか。"
+      },
+      {
+        "speaker": "サントス",
+        "kanji": "新大阪から1時間半で行きますよ。",
+        "kana": "しんおおさかから いちじかんはんで いきますよ。"
+      }
+    ],
+    "translation": "Santos is at the train station buying a ticket to Koshien Stadium. He asks the station attendant how much it costs, and the attendant replies that it is 240 yen. Santos confirms the price, thanks him, and asks which platform goes to Koshien ('何番線ですか'). The attendant directs him to platform 5. Up on the platform, Santos asks a fellow commuter if the arriving train goes to Koshien. The passenger informs him with 'よ' that it does not go there because it is a limited express (特急) and does not stop at Koshien. The commuter explains that the next local train (次の普通ですよ) will take him there. Santos thanks the commuter, who replies with 'どういたしまして'. Later, Tanaka asks Santos if he is traveling anywhere during next week's consecutive holidays. Santos replies that he is going to Hiroshima by bullet train with his family because next Friday is his birthday. Tanaka asks for his exact birth date, and Santos answers October 24th (じゅうがつ にじゅうよっか). Tanaka remarks how nice that sounds, and Santos shares that it takes only an hour and a half from Shin-Osaka by bullet train.",
+    "questions": [
+      {
+        "question": "How much is the train ticket from the station to Koshien?",
+        "options": [
+          "200 yen",
+          "240 yen (にひゃくよんじゅうえん)",
+          "340 yen",
+          "140 yen"
+        ],
+        "answer": 1,
+        "explanation": "The station attendant states: 240円です (にひゃくよんじゅうえんです)."
+      },
+      {
+        "question": "Which track/platform number does the train for Koshien depart from?",
+        "options": [
+          "Platform 3",
+          "Platform 4",
+          "Platform 5 (5番線)",
+          "Platform 6"
+        ],
+        "answer": 2,
+        "explanation": "The station attendant answers: 5番線です (ごばんせんです)."
+      },
+      {
+        "question": "Why shouldn't Santos board the first train waiting at the platform?",
+        "options": [
+          "Because it is going to Tokyo",
+          "Because it is a limited express (特急) and does not stop at Koshien",
+          "Because the doors are broken",
+          "Because it is out of service"
+        ],
+        "answer": 1,
+        "explanation": "The passenger explains: これは特急ですから、止まりません (It's a limited express, so it doesn't stop)."
+      },
+      {
+        "question": "Which train should Santos board instead?",
+        "options": [
+          "The next local train (次の普通)",
+          "The express train at platform 2",
+          "A taxi outside the station",
+          "The Shinkansen"
+        ],
+        "answer": 0,
+        "explanation": "The passenger advises him: 次の普通ですよ (The next local train)."
+      },
+      {
+        "question": "Where is Santos going next week for his holiday?",
+        "options": [
+          "Kyoto",
+          "Hiroshima (広島)",
+          "Tokyo",
+          "Fukuoka"
+        ],
+        "answer": 1,
+        "explanation": "Santos tells Tanaka: 家族と新幹線で広島へ行きます."
+      },
+      {
+        "question": "Who is Santos traveling with, and how will they get to Hiroshima?",
+        "options": [
+          "Alone, by airplane",
+          "With Tanaka, by bus",
+          "With his family, by Shinkansen (家族と新幹線で)",
+          "With his girlfriend, on foot"
+        ],
+        "answer": 2,
+        "explanation": "Santos specifies: 家族と (with family) 新幹線で (by Shinkansen)."
+      },
+      {
+        "question": "When is Santos's birthday?",
+        "options": [
+          "October 4th",
+          "October 14th",
+          "October 24th (10月24日 / じゅうがつ にじゅうよっか)",
+          "November 24th"
+        ],
+        "answer": 2,
+        "explanation": "Santos states: 10月24日です (じゅうがつ にじゅうよっか)."
+      },
+      {
+        "question": "What is the function of the particle よ in 『いいえ、行きませんよ』?",
+        "options": [
+          "It asks a question",
+          "It marks the direct object",
+          "It informs the listener of new information they did not know",
+          "It connects two nouns together"
+        ],
+        "answer": 2,
+        "explanation": "Particle よ shares new, important information that the listener is unaware of."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct particle for the destination: 'I will go to Kyoto next week.'",
+      "prompt": {
+        "kanji": "来週京都___行きます。",
+        "kana": "らいしゅう きょうと___ いきます。"
+      },
+      "options": [
+        "へ",
+        "で",
+        "を",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "The directional destination of 行きます, 来ます, and 帰ります is marked by the particle へ (pronounced 'e')."
+    },
+    {
+      "question": "How is the directional destination particle へ pronounced?",
+      "options": [
+        "e (え)",
+        "he (へ)",
+        "wa (わ)",
+        "o (お)"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Rule: Although written with the hiragana character へ, when used as a directional particle it is ALWAYS pronounced 『え』."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'I did not go anywhere yesterday.'",
+      "options": [
+        "昨日はどこへも行きませんでした。",
+        "昨日はどこへも行きません。",
+        "昨日にどこも行きませんでした。",
+        "昨日はどこを行きませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "Total past negation is expressed with どこ[へ]も + past negative verb (行きませんでした). 昨日 does not take に."
+    },
+    {
+      "question": "Choose the correct particle to mark the vehicle: 'I go to the company by subway.'",
+      "prompt": {
+        "kanji": "地下鉄___会社へ行きます。",
+        "kana": "ちかてつ___ かいしゃへ いきます。"
+      },
+      "options": [
+        "で",
+        "へ",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "The particle で indicates the means or tool of transportation (地下鉄で)."
+    },
+    {
+      "question": "Which sentence is grammatically INCORRECT regarding traveling on foot?",
+      "options": [
+        "駅からうちまで歩いて行きます。",
+        "駅からうちまで歩いてで行きます。",
+        "毎日歩いて学校へ来ます。",
+        "歩いて帰りました。"
+      ],
+      "answer": 1,
+      "explanation": "Takashi's Warning: 歩いて is already an adverbial verb phrase meaning 'on foot'. NEVER attach particle で to it (✕ 歩いてで行きます)."
+    },
+    {
+      "question": "Choose the correct sentence: 'I came to Japan with my family.'",
+      "options": [
+        "家族と日本へ来ました。",
+        "家族で日本へ来ました。",
+        "家族に日本へ来ました。",
+        "家族へ日本と来ました。"
+      ],
+      "answer": 0,
+      "explanation": "Companions are marked by the particle と: 家族と."
+    },
+    {
+      "question": "Choose the correct sentence to say: 'I went to Kyoto alone.'",
+      "options": [
+        "一人で京都へ行きました。",
+        "一人と京都へ行きました。",
+        "一人に京都へ行きました。",
+        "一人で京都と行きました。"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Rule: When doing something alone, use the adverb 『一人で』 (ひとりで). NEVER say ✕ 一人と."
+    },
+    {
+      "question": "Which question asks 'When did you come to Japan?' grammatically correctly?",
+      "options": [
+        "いつ日本へ来ましたか。",
+        "いつに日本へ来ましたか。",
+        "何時に日本を来ましたか。",
+        "いつで日本へ来ましたか。"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Rule: The interrogative いつ NEVER takes the particle に (✕ いつに). Always use plain いつ."
+    },
+    {
+      "question": "Choose the correct reading for April (4月).",
+      "options": [
+        "しがつ",
+        "よんがつ",
+        "よがつ",
+        "しちがつ"
+      ],
+      "answer": 0,
+      "explanation": "April is strictly read as 『しがつ』. Saying よんがつ is an error."
+    },
+    {
+      "question": "Choose the correct reading for July (7月).",
+      "options": [
+        "しちがつ",
+        "なながつ",
+        "しがつ",
+        "ひちがつ"
+      ],
+      "answer": 0,
+      "explanation": "July is standardly read as 『しちがつ』. (Saying なながつ is colloquial or avoided)."
+    },
+    {
+      "question": "Choose the correct reading for September (9月).",
+      "options": [
+        "くがつ",
+        "きゅうがつ",
+        "ここのがつ",
+        "くげつ"
+      ],
+      "answer": 0,
+      "explanation": "September is strictly read as 『くがつ』. Saying きゅうがつ is incorrect."
+    },
+    {
+      "question": "Choose the correct reading for the 1st day of the month (1日).",
+      "options": [
+        "ついたち",
+        "いちにち",
+        "ひとひ",
+        "つかたち"
+      ],
+      "answer": 0,
+      "explanation": "The 1st day of the month has the unique historical reading 『ついたち』."
+    },
+    {
+      "question": "Choose the correct reading for the 4th day of the month (4日).",
+      "options": [
+        "よっか",
+        "よんにち",
+        "よか",
+        "しにち"
+      ],
+      "answer": 0,
+      "explanation": "The 4th day of the month is read with a small っ: 『よっか』."
+    },
+    {
+      "question": "Choose the correct reading for the 8th day of the month (8日).",
+      "options": [
+        "ようか",
+        "はちにち",
+        "よっか",
+        "はちか"
+      ],
+      "answer": 0,
+      "explanation": "The 8th day of the month is 『ようか』 (long お sound), distinct from the 4th (よっか)."
+    },
+    {
+      "question": "Choose the correct reading for the 14th day of the month (14日).",
+      "options": [
+        "じゅうよっか",
+        "じゅうよんにち",
+        "じゅうよか",
+        "じゅうしにち"
+      ],
+      "answer": 0,
+      "explanation": "The 14th day retains the native irregular ending: 『じゅうよっか』."
+    },
+    {
+      "question": "Choose the correct reading for the 20th day of the month (20日).",
+      "options": [
+        "はつか",
+        "にじゅうにち",
+        "にじゅうか",
+        "はつひ"
+      ],
+      "answer": 0,
+      "explanation": "The 20th day of the month has the unique reading 『はつか』."
+    },
+    {
+      "question": "Choose the correct reading for the 24th day of the month (24日).",
+      "options": [
+        "にじゅうよっか",
+        "にじゅうよんにち",
+        "にじゅうしにち",
+        "にじゅうよか"
+      ],
+      "answer": 0,
+      "explanation": "The 24th day is read as 『にじゅうよっか』."
+    },
+    {
+      "question": "What is the difference between 普通 (ふつう) and 特急 (とっきゅう)?",
+      "options": [
+        "普通 stops at every station; 特急 is limited express and skips most stations.",
+        "普通 is bullet train; 特急 is city bus.",
+        "普通 is only for Sundays; 特急 is for weekdays.",
+        "普通 is expensive; 特急 is free."
+      ],
+      "answer": 0,
+      "explanation": "普通 is a local train stopping at all stations; 特急 is a limited express stopping only at major stations."
+    },
+    {
+      "question": "How do you ask: 'Which platform / track does the train depart from?'",
+      "options": [
+        "何番線ですか (なんばんせんですか)",
+        "何番ですか (なんばんですか)",
+        "何階ですか (なんがいですか)",
+        "何線ですか (なんせんですか)"
+      ],
+      "answer": 0,
+      "explanation": "Train platforms/tracks are counted with ～番線 (何番線ですか)."
+    },
+    {
+      "question": "When informing someone who does not realize that today is a holiday, what sentence-final particle do you use?",
+      "prompt": {
+        "kanji": "今日は休みです___。",
+        "kana": "きょうは やすみです___。"
+      },
+      "options": [
+        "よ",
+        "ね",
+        "か",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "Use よ to inform the listener of new, unknown facts (今日は休みですよ)."
+    },
+    {
+      "question": "A fellow passenger asks if this train goes to Kyoto. It doesn't. How do you respond naturally and informatively?",
+      "options": [
+        "いいえ、行きませんよ。次の急行ですよ。",
+        "はい、行きませんね。",
+        "いいえ、行きましたよ。",
+        "どこへも行きません。"
+      ],
+      "answer": 0,
+      "explanation": "Deny clearly with 『いいえ、行きませんよ』 and provide helpful new information with 『～ですよ』."
+    },
+    {
+      "question": "Choose the correct response to 『どうもありがとうございます』.",
+      "options": [
+        "どういたしまして。",
+        "こちらこそお世話になります。",
+        "ほんの気持ちです。",
+        "大変ですね。"
+      ],
+      "answer": 0,
+      "explanation": "The standard polite response to thanks is 『どういたしまして』 (You're welcome)."
+    },
+    {
+      "question": "What does 先月 (せんげつ) mean?",
+      "options": [
+        "last month",
+        "this month",
+        "next month",
+        "last week"
+      ],
+      "answer": 0,
+      "explanation": "先月 (せんげつ) = last month. (今月 = this month; 来月 = next month)."
+    },
+    {
+      "question": "What does 去年 (きょねん) mean?",
+      "options": [
+        "last year",
+        "this year",
+        "next year",
+        "last week"
+      ],
+      "answer": 0,
+      "explanation": "去年 (きょねん) = last year. (今年 = this year; 来年 = next year)."
+    },
+    {
+      "question": "What does 来年 (らいねん) mean?",
+      "options": [
+        "next year",
+        "this year",
+        "last year",
+        "next month"
+      ],
+      "answer": 0,
+      "explanation": "来年 (らいねん) = next year."
+    },
+    {
+      "question": "Choose the correct meaning of 帰ります (かえります).",
+      "options": [
+        "to return; to go home",
+        "to buy",
+        "to wake up",
+        "to study"
+      ],
+      "answer": 0,
+      "explanation": "帰ります means to return to one's base, home, or country."
+    },
+    {
+      "question": "Which verb group does 帰ります (かえります) belong to?",
+      "options": [
+        "Group 1 (u-verb ending in -ru)",
+        "Group 2 (ru-verb)",
+        "Group 3 (irregular verb)",
+        "Adjective verb"
+      ],
+      "answer": 0,
+      "explanation": "Takashi's Rule from Lesson 14/16: 帰ります is a famous exception that looks like Group 2 but is strictly Group 1 (かえって)!"
+    },
+    {
+      "question": "Choose the correct sentence: 'Tomorrow I will return home at 6:00 by bicycle.'",
+      "options": [
+        "明日6時に自転車でうちへ帰ります。",
+        "明日に6時で自転車へうちに帰ります。",
+        "明日6時に自転車とうちを帰ります。",
+        "明日は6時自転車にうちで帰ります。"
+      ],
+      "answer": 0,
+      "explanation": "明日 (no に) + 6時に (specific time) + 自転車で (means) + うちへ (destination) + 帰ります."
+    },
+    {
+      "question": "A: 『日曜日どこへ行きましたか』 — B: 『___』. Choose the most natural reply.",
+      "options": [
+        "どこへも行きませんでした。",
+        "どこへも行きません。",
+        "どこへも行きました。",
+        "どこで行きませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "A past question (行きましたか) asking about destination is answered negatively with どこへも行きませんでした."
+    },
+    {
+      "question": "Choose the correct word for 'airplane'.",
+      "options": [
+        "飛行機 (ひこうき)",
+        "新幹線 (しんかんせん)",
+        "自転車 (じてんしゃ)",
+        "地下鉄 (ちかてつ)"
+      ],
+      "answer": 0,
+      "explanation": "飛行機 (ひこうき) = airplane."
+    },
+    {
+      "question": "Choose the correct word for 'ship / boat'.",
+      "options": [
+        "船 (ふね)",
+        "飛行機 (ひこうき)",
+        "電車 (でんしゃ)",
+        "車 (くるま)"
+      ],
+      "answer": 0,
+      "explanation": "船 (ふね) = ship, boat."
+    },
+    {
+      "question": "Choose the correct word for 'birthday'.",
+      "options": [
+        "誕生日 (たんじょうび)",
+        "毎日 (まいにち)",
+        "日曜日 (にちようび)",
+        "記念日 (きねんび)"
+      ],
+      "answer": 0,
+      "explanation": "誕生日 (たんじょうび) = birthday."
+    },
+    {
+      "question": "Read the date: May 5th.",
+      "options": [
+        "ごがつ いつか",
+        "ごがつ ごにち",
+        "ごがつ いつひ",
+        "ごがつ ごか"
+      ],
+      "answer": 0,
+      "explanation": "May 5th is read: 5月 (ごがつ) 5日 (いつか)."
+    },
+    {
+      "question": "Read the date: March 3rd.",
+      "options": [
+        "さんがつ みっか",
+        "さんがつ さんにち",
+        "みつき みっか",
+        "さんがつ みか"
+      ],
+      "answer": 0,
+      "explanation": "March 3rd is read: 3月 (さんがつ) 3日 (みっか)."
+    },
+    {
+      "question": "Read the date: February 2nd.",
+      "options": [
+        "にがつ ふつか",
+        "にがつ ふたにち",
+        "にがつ ににち",
+        "にがつ にか"
+      ],
+      "answer": 0,
+      "explanation": "February 2nd is read: 2月 (にがつ) 2日 (ふつか)."
+    },
+    {
+      "question": "Read the date: June 6th.",
+      "options": [
+        "ろくがつ むいか",
+        "ろくがつ ろくにち",
+        "ろくがつ むっか",
+        "ろくがつ むつか"
+      ],
+      "answer": 0,
+      "explanation": "June 6th is read: 6月 (ろくがつ) 6日 (むいか)."
+    },
+    {
+      "question": "Read the date: July 7th.",
+      "options": [
+        "しちがつ なのか",
+        "なながつ ななにち",
+        "しちがつ ななひ",
+        "しがつ なのか"
+      ],
+      "answer": 0,
+      "explanation": "July 7th is read: 7月 (しちがつ) 7日 (なのか)."
+    },
+    {
+      "question": "Read the date: August 8th.",
+      "options": [
+        "はちがつ ようか",
+        "はちがつ はちにち",
+        "はちがつ よっか",
+        "はちがつ やつか"
+      ],
+      "answer": 0,
+      "explanation": "August 8th is read: 8月 (はちがつ) 8日 (ようか)."
+    },
+    {
+      "question": "Read the date: September 9th.",
+      "options": [
+        "くがつ ここのか",
+        "きゅうがつ ここのにち",
+        "くがつ きゅうにち",
+        "ここのがつ ここのか"
+      ],
+      "answer": 0,
+      "explanation": "September 9th is read: 9月 (くがつ) 9日 (ここのか)."
+    },
+    {
+      "question": "Read the date: October 10th.",
+      "options": [
+        "じゅうがつ とおか",
+        "じゅうがつ じゅうにち",
+        "じゅうがつ とか",
+        "じゅうがつ とうにち"
+      ],
+      "answer": 0,
+      "explanation": "October 10th is read: 10月 (じゅうがつ) 10日 (とおか)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "誰___大阪へ行きますか。— 山田さんと行きます。",
+        "kana": "だれ___ おおさかへ いきますか。— やまださんと いきます。"
+      },
+      "options": [
+        "と",
+        "で",
+        "へ",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Asking for a companion: 誰と (with whom)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "何___東京へ来ましたか。— 新幹線で来ました。",
+        "kana": "なん___ とうきょうへ きましたか。— しんかんせんで きました。"
+      },
+      "options": [
+        "で",
+        "と",
+        "へ",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Asking for means of transportation: 何で (by what means)."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "京都___新幹線で行きます。",
+        "kana": "きょうと___ しんかんせんで いきます。"
+      },
+      "options": [
+        "へ",
+        "で",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Destination takes へ: 京都へ新幹線で行きます."
+    },
+    {
+      "question": "Choose the correct particle.",
+      "prompt": {
+        "kanji": "どこ___も行きませんでした。",
+        "kana": "どこ___も いきませんでした。"
+      },
+      "options": [
+        "へ",
+        "で",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "どこへも行きませんでした (へ is optional, but is the standard directional marker here)."
+    },
+    {
+      "question": "Translate: 'When is your birthday?'",
+      "options": [
+        "お誕生日はいつですか。",
+        "お誕生日は何ですか。",
+        "お誕生日はどこですか。",
+        "お誕生日はいつにですか。"
+      ],
+      "answer": 0,
+      "explanation": "お誕生日はいつですか (notice: NO に after いつ!)."
+    }
+  ],
+  "writing": {
+    "title": "My Commute, Travel History, and Birthday Plans",
+    "prompt": "Write 6–8 sentences in Japanese demonstrating Lesson 5 grammar. (1) State how you commute to work or school daily using a vehicle with で, or on foot with 『歩いて』 (remember: no で!). (2) State whether you go with someone (～と) or by yourself (『一人で』 - no と!). (3) Mention when you came to Japan or when you returned from a trip using 『～年 / ～月 / ～日に [Place] へ 来ました / 行きました』. (4) State when your birthday is using 『私の誕生日は ～月 ～日です』 and mention a future travel plan using 『いつか』, 『来月』, or a specific date with sentence-final 『よ』.",
+    "placeholder": "私は毎日 ______ で ______ へ行きます。______ と行きます。\n駅からは ______ 行きます。\n______ 年 ______ 月に 日本へ来ました。\n私の誕生日は ______ 月 ______ 日です。\n来月の ______ 日に ______ と ______ へ新幹線で行きます______。",
+    "modelAnswer": "私は毎朝電車で会社へ行きます。駅から会社までは歩いて行きます。いつも一人で行きます。私は去年の10月14日に日本へ来ました。私の誕生日は3月3日です。来月の20日に友達と新幹線で京都へ行きますよ。とても楽しみにしています。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I will go to Tokyo next week.",
+        "chunks": [
+          "来週",
+          "東京へ",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "I came to Japan last year with my family.",
+        "chunks": [
+          "去年家族と",
+          "日本へ",
+          "来ました。"
+        ]
+      },
+      {
+        "en": "I walk home on foot from the station.",
+        "chunks": [
+          "駅からうちまで",
+          "歩いて",
+          "帰ります。"
+        ]
+      },
+      {
+        "en": "I didn't go anywhere on Sunday.",
+        "chunks": [
+          "日曜日は",
+          "どこへも",
+          "行きませんでした。"
+        ]
+      },
+      {
+        "en": "How do you go to Osaka? — I go by Shinkansen.",
+        "chunks": [
+          "何で大阪へ行きますか。",
+          "新幹線で",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "I went to Kyoto alone.",
+        "chunks": [
+          "一人で",
+          "京都へ",
+          "行きました。"
+        ]
+      },
+      {
+        "en": "When did you come to Japan?",
+        "chunks": [
+          "いつ",
+          "日本へ",
+          "来ましたか。"
+        ]
+      },
+      {
+        "en": "My birthday is April 4th.",
+        "chunks": [
+          "私の誕生日は",
+          "4月4日",
+          "です。"
+        ]
+      },
+      {
+        "en": "This train does not go to Koshien, you know.",
+        "chunks": [
+          "この電車は",
+          "甲子園へ",
+          "行きませんよ。"
+        ]
+      },
+      {
+        "en": "Please take the next local train.",
+        "chunks": [
+          "次の普通に",
+          "乗って",
+          "ください。"
+        ]
+      },
+      {
+        "en": "Which platform does the train for Kyoto leave from?",
+        "chunks": [
+          "京都行きは",
+          "何番線",
+          "ですか。"
+        ]
+      },
+      {
+        "en": "Tomorrow is a day off, you know!",
+        "chunks": [
+          "明日は",
+          "休み",
+          "ですよ。"
+        ]
+      },
+      {
+        "en": "I go to school by bicycle every day.",
+        "chunks": [
+          "毎日自転車で",
+          "学校へ",
+          "行きます。"
+        ]
+      },
+      {
+        "en": "I will return to my country on August 20th.",
+        "chunks": [
+          "8月20日に",
+          "国へ",
+          "帰ります。"
+        ]
+      },
+      {
+        "en": "Who did you go to the museum with?",
+        "chunks": [
+          "誰と",
+          "美術館へ",
+          "行きましたか。"
+        ]
+      },
+      {
+        "en": "Today is September 14th.",
+        "chunks": [
+          "今日は",
+          "9月14日",
+          "です。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "東京 (Destination) + 行きます",
+        "form": "Directional Particle Phrase",
+        "answer": "東京へ行きます",
+        "options": [
+          "東京へ行きます",
+          "東京で行きます",
+          "東京を行きます"
+        ],
+        "hint": "Destination of movement takes the particle へ."
+      },
+      {
+        "prompt": "電車 (Means of travel) + 行きます",
+        "form": "Transport Particle Phrase",
+        "answer": "電車で行きます",
+        "options": [
+          "電車で行きます",
+          "電車へ行きます",
+          "電車を行きます"
+        ],
+        "hint": "Vehicle of transportation takes the particle で."
+      },
+      {
+        "prompt": "歩いて (Walking on foot) + 帰ります",
+        "form": "Walking Exception Check",
+        "answer": "歩いて帰ります",
+        "options": [
+          "歩いて帰ります",
+          "歩いてで帰ります",
+          "歩きで帰ります"
+        ],
+        "hint": "Takashi's Warning: 歩いて is an adverbial verb form. NEVER add で!"
+      },
+      {
+        "prompt": "友達 (Companion) + 行きます",
+        "form": "Companion Particle Phrase",
+        "answer": "友達と行きます",
+        "options": [
+          "友達と行きます",
+          "友達で行きます",
+          "友達に行きます"
+        ],
+        "hint": "Companions take the particle と."
+      },
+      {
+        "prompt": "一人 (Doing action alone) + 行きます",
+        "form": "Alone Expression Check",
+        "answer": "一人で行きます",
+        "options": [
+          "一人で行きます",
+          "一人と行きます",
+          "一人に行きます"
+        ],
+        "hint": "Takashi's Warning: Alone is 一人で. NEVER say 一人と!"
+      },
+      {
+        "prompt": "どこ (Total past negation) + 行きました",
+        "form": "Total Negation Phrase",
+        "answer": "どこへも行きませんでした",
+        "options": [
+          "どこへも行きませんでした",
+          "どこも行きました",
+          "どこへも行きませんでしたです"
+        ],
+        "hint": "Use どこ[へ]も + negative past verb."
+      },
+      {
+        "prompt": "いつ (Interrogative check with に)",
+        "form": "Interrogative Grammar Check",
+        "answer": "いつ来ましたか (No に)",
+        "options": [
+          "いつ来ましたか (No に)",
+          "いつに来ましたか",
+          "いつで来ましたか"
+        ],
+        "hint": "Takashi's Rule: The word いつ NEVER takes に!"
+      },
+      {
+        "prompt": "4月 (Month reading)",
+        "form": "Calendar Reading",
+        "answer": "しがつ",
+        "options": [
+          "しがつ",
+          "よんがつ",
+          "よがつ"
+        ],
+        "hint": "4月 is strictly しがつ."
+      },
+      {
+        "prompt": "7月 (Month reading)",
+        "form": "Calendar Reading",
+        "answer": "しちがつ",
+        "options": [
+          "しちがつ",
+          "なながつ",
+          "しちげつ"
+        ],
+        "hint": "7月 is standardly しちがつ."
+      },
+      {
+        "prompt": "9月 (Month reading)",
+        "form": "Calendar Reading",
+        "answer": "くがつ",
+        "options": [
+          "くがつ",
+          "きゅうがつ",
+          "ここのがつ"
+        ],
+        "hint": "9月 is strictly くがつ."
+      },
+      {
+        "prompt": "1日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "ついたち",
+        "options": [
+          "ついたち",
+          "いちにち",
+          "ひとひ"
+        ],
+        "hint": "1st day of the month is ついたち."
+      },
+      {
+        "prompt": "2日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "ふつか",
+        "options": [
+          "ふつか",
+          "ふたにち",
+          "ににち"
+        ],
+        "hint": "2nd day is ふつか."
+      },
+      {
+        "prompt": "3日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "みっか",
+        "options": [
+          "みっか",
+          "さんにち",
+          "みか"
+        ],
+        "hint": "3rd day is みっか."
+      },
+      {
+        "prompt": "4日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "よっか",
+        "options": [
+          "よっか",
+          "よんにち",
+          "よか"
+        ],
+        "hint": "4th day is よっか (with small っ)."
+      },
+      {
+        "prompt": "5日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "いつか",
+        "options": [
+          "いつか",
+          "ごにち",
+          "ごか"
+        ],
+        "hint": "5th day is いつか."
+      },
+      {
+        "prompt": "6日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "むいか",
+        "options": [
+          "むいか",
+          "ろくにち",
+          "むっか"
+        ],
+        "hint": "6th day is むいか."
+      },
+      {
+        "prompt": "7日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "なのか",
+        "options": [
+          "なのか",
+          "ななにち",
+          "しちにち"
+        ],
+        "hint": "7th day is なのか."
+      },
+      {
+        "prompt": "8日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "ようか",
+        "options": [
+          "ようか",
+          "よっか",
+          "はちにち"
+        ],
+        "hint": "8th day is ようか (long お sound)."
+      },
+      {
+        "prompt": "9日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "ここのか",
+        "options": [
+          "ここのか",
+          "きゅうにち",
+          "くにち"
+        ],
+        "hint": "9th day is ここのか."
+      },
+      {
+        "prompt": "10日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "とおか",
+        "options": [
+          "とおか",
+          "じゅうにち",
+          "じっか"
+        ],
+        "hint": "10th day is とおか."
+      },
+      {
+        "prompt": "14日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "じゅうよっか",
+        "options": [
+          "じゅうよっか",
+          "じゅうよんにち",
+          "じゅうしにち"
+        ],
+        "hint": "14th day retains よっか: じゅうよっか."
+      },
+      {
+        "prompt": "20日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "はつか",
+        "options": [
+          "はつか",
+          "にじゅうにち",
+          "にじゅうか"
+        ],
+        "hint": "20th day is uniquely read はつか."
+      },
+      {
+        "prompt": "24日 (Day of the month)",
+        "form": "Calendar Reading",
+        "answer": "にじゅうよっか",
+        "options": [
+          "にじゅうよっか",
+          "にじゅうよんにち",
+          "にじゅうしにち"
+        ],
+        "hint": "24th day retains よっか: にじゅうよっか."
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "明日京都 [ ? ] 行きます。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Destination particle is へ (pronounced 'e')."
+      },
+      {
+        "sentence": "新幹線 [ ? ] 行きました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "へ",
+          "に",
+          "を"
+        ],
+        "hint": "Means of transport takes で."
+      },
+      {
+        "sentence": "友達 [ ? ] 映画を見ました。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "へ",
+          "に"
+        ],
+        "hint": "Companion 'with' takes と."
+      },
+      {
+        "sentence": "一人 [ ? ] 日本へ来ました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "と",
+          "に",
+          "へ"
+        ],
+        "hint": "Adverbial state of being alone: 一人で."
+      },
+      {
+        "sentence": "日曜日はどこ [ ? ] も行きませんでした。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "と",
+          "を"
+        ],
+        "hint": "Directional total negation: どこへも."
+      },
+      {
+        "sentence": "この電車は甲子園へ行きません [ ? ]。",
+        "answer": "よ",
+        "options": [
+          "よ",
+          "ね",
+          "か",
+          "の"
+        ],
+        "hint": "Particle for informing/warning the listener: よ."
+      },
+      {
+        "sentence": "駅からうちまで歩いて [ ? ] 行きます。",
+        "answer": "（なし / 助詞不要）",
+        "options": [
+          "（なし / 助詞不要）",
+          "で",
+          "へ",
+          "に"
+        ],
+        "hint": "歩いて NEVER takes で!"
+      },
+      {
+        "sentence": "いつ [ ? ] 日本へ来ましたか。",
+        "answer": "（なし / 助詞不要）",
+        "options": [
+          "（なし / 助詞不要）",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "いつ NEVER takes particle に!"
+      },
+      {
+        "sentence": "4月4日 [ ? ] テストがあります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "へ",
+          "を"
+        ],
+        "hint": "Specific calendar date takes に."
+      },
+      {
+        "sentence": "自転車 [ ? ] 学校へ行きます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "へ",
+          "に",
+          "と"
+        ],
+        "hint": "Means of transportation takes で."
+      },
+      {
+        "sentence": "飛行機 [ ? ] 九州へ行きました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "へ",
+          "に",
+          "を"
+        ],
+        "hint": "Airplane as transport takes で."
+      },
+      {
+        "sentence": "彼女 [ ? ] デパートへ行きます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "へ",
+          "に"
+        ],
+        "hint": "Companion takes と."
+      },
+      {
+        "sentence": "何 [ ? ] 東京へ行きますか。— 電車で行きます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "と",
+          "へ",
+          "に"
+        ],
+        "hint": "By what means = 何で."
+      },
+      {
+        "sentence": "誰 [ ? ] 京都へ行きますか。— 家族と行きます。",
+        "answer": "と",
+        "options": [
+          "と",
+          "で",
+          "へ",
+          "に"
+        ],
+        "hint": "With whom = 誰と."
+      },
+      {
+        "sentence": "次の普通です [ ? ]。",
+        "answer": "よ",
+        "options": [
+          "よ",
+          "ね",
+          "か",
+          "の"
+        ],
+        "hint": "Informing the listener: ですよ."
+      },
+      {
+        "sentence": "先週 [ ? ] どこへも行きませんでした。",
+        "answer": "は",
+        "options": [
+          "は",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Topic marker: 先週は (先週 takes no に)."
+      },
+      {
+        "sentence": "8時 [ ? ] うちへ帰ります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "へ",
+          "で",
+          "を"
+        ],
+        "hint": "Specific clock time takes に."
+      },
+      {
+        "sentence": "タクシー [ ? ] 帰りました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "へ",
+          "に",
+          "と"
+        ],
+        "hint": "Transport vehicle takes で."
+      },
+      {
+        "sentence": "明日 [ ? ] どこへ行きますか。",
+        "answer": "は",
+        "options": [
+          "は",
+          "に",
+          "で",
+          "へ"
+        ],
+        "hint": "Topic marker: 明日は (明日 takes no に)."
+      },
+      {
+        "sentence": "来年国 [ ? ] 帰ります。",
+        "answer": "へ",
+        "options": [
+          "へ",
+          "で",
+          "を",
+          "と"
+        ],
+        "hint": "Destination marker with 帰ります: 国へ."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "At the train platform asking about destinations",
+        "speaker": "サントス",
+        "prompt": "すみません、この電車は甲子園へ行きますか。",
+        "options": [
+          {
+            "text": "いいえ、行きませんよ。次の普通ですよ。",
+            "correct": true
+          },
+          {
+            "text": "はい、甲子園から来ました。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、電車で行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Use よ to inform the lost passenger that this train doesn't stop there."
+      },
+      {
+        "situation": "Inquiring about someone's commute",
+        "speaker": "同僚",
+        "prompt": "毎日何で会社へ来ますか。",
+        "options": [
+          {
+            "text": "地下鉄で来ます。",
+            "correct": true
+          },
+          {
+            "text": "歩いてで来ます。",
+            "correct": false
+          },
+          {
+            "text": "友達に行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Mark vehicle with で; remember walking is 歩いて (NEVER 歩いてで)."
+      },
+      {
+        "situation": "Asking who someone traveled with",
+        "speaker": "友達",
+        "prompt": "誰と京都へ行きましたか。",
+        "options": [
+          {
+            "text": "一人で行きました。",
+            "correct": true
+          },
+          {
+            "text": "一人と行きました。",
+            "correct": false
+          },
+          {
+            "text": "新幹線と行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "When alone, say 『一人で行きました』 (never 一人と)."
+      },
+      {
+        "situation": "Asking about holiday weekend plans",
+        "speaker": "同僚",
+        "prompt": "日曜日はどこかへ行きましたか。",
+        "options": [
+          {
+            "text": "いいえ、どこへも行きませんでした。",
+            "correct": true
+          },
+          {
+            "text": "はい、どこへも行きませんでした。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、どこも行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Total negative reply to destination question: いいえ、どこへも行きませんでした."
+      },
+      {
+        "situation": "Inquiring about date of arrival in Japan",
+        "speaker": "田中",
+        "prompt": "いつ日本へ来ましたか。",
+        "options": [
+          {
+            "text": "去年の9月に来ました。",
+            "correct": true
+          },
+          {
+            "text": "いつに来ました。",
+            "correct": false
+          },
+          {
+            "text": "飛行機で行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer いつ questions with the specific timeframe (e.g. 去年の9月に)."
+      },
+      {
+        "situation": "Asking for someone's birthday",
+        "speaker": "友達",
+        "prompt": "お誕生日はいつですか。",
+        "options": [
+          {
+            "text": "4月4日です (しがつ よっかです)。",
+            "correct": true
+          },
+          {
+            "text": "4月4日です (よんがつ よんにちです)。",
+            "correct": false
+          },
+          {
+            "text": "4月4日です (しがつ よんにちです)。",
+            "correct": false
+          }
+        ],
+        "tip": "Remember calendar irregulars: April is しがつ and the 4th is よっか!"
+      },
+      {
+        "situation": "Asking for train platform direction",
+        "speaker": "観光客",
+        "prompt": "京都行きは何番線ですか。",
+        "options": [
+          {
+            "text": "5番線ですよ。",
+            "correct": true
+          },
+          {
+            "text": "5時ですよ。",
+            "correct": false
+          },
+          {
+            "text": "5階でございます。",
+            "correct": false
+          }
+        ],
+        "tip": "Platform/track inquiries use ～番線 (ばんせん)."
+      },
+      {
+        "situation": "Replying to someone expressing thanks",
+        "speaker": "乗客",
+        "prompt": "教えてくれてどうもありがとうございます。",
+        "options": [
+          {
+            "text": "いいえ、どういたしまして。",
+            "correct": true
+          },
+          {
+            "text": "こちらこそお世話になります。",
+            "correct": false
+          },
+          {
+            "text": "大変ですね。",
+            "correct": false
+          }
+        ],
+        "tip": "The natural reply to gratitude is 『どういたしまして』."
+      },
+      {
+        "situation": "Clarifying how to reach the museum from the station",
+        "speaker": "旅行者",
+        "prompt": "駅から美術館までバスで行きますか。",
+        "options": [
+          {
+            "text": "いいえ、歩いて5分ですよ。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、歩いてで行きます。",
+            "correct": false
+          },
+          {
+            "text": "はい、新幹線で行きます。",
+            "correct": false
+          }
+        ],
+        "tip": "Walking takes no particle で: 『歩いて5分ですよ』."
+      },
+      {
+        "situation": "Inquiring about next train departure type",
+        "speaker": "乗客",
+        "prompt": "次の電車は何ですか。",
+        "options": [
+          {
+            "text": "特急ですよ。",
+            "correct": true
+          },
+          {
+            "text": "飛行機ですよ。",
+            "correct": false
+          },
+          {
+            "text": "自転車ですよ。",
+            "correct": false
+          }
+        ],
+        "tip": "Train speed categories are 普通, 急行, or 特急."
+      },
+      {
+        "situation": "Asking about upcoming travel plans",
+        "speaker": "先生",
+        "prompt": "来週どこへ行きますか。",
+        "options": [
+          {
+            "text": "家族と広島へ行きます。",
+            "correct": true
+          },
+          {
+            "text": "家族で広島と行きます。",
+            "correct": false
+          },
+          {
+            "text": "どこも行きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Companion takes と (家族と), destination takes へ (広島へ)."
+      },
+      {
+        "situation": "Confirming the 20th of the month",
+        "speaker": "同僚",
+        "prompt": "テストは何日ですか。",
+        "options": [
+          {
+            "text": "7月20日 (はつか) ですよ。",
+            "correct": true
+          },
+          {
+            "text": "7月20日 (にじゅうにち) ですよ。",
+            "correct": false
+          },
+          {
+            "text": "7月20日 (にじゅうか) ですよ。",
+            "correct": false
+          }
+        ],
+        "tip": "The 20th day of the month is uniquely pronounced 『はつか』."
+      }
+    ]
+  }
+}

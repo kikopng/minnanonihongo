@@ -1,0 +1,2081 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 19,
+    "title": "Past Plain Form (た-form), Experiences, Representative Actions, and Changes of State",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master forming the verb た-form from the て-form base, expressing past experiences with 『～たことがあります』, listing representative/non-exhaustive actions with 『～たり、～たりします』(contrasting with Lesson 16's chronological て-form), and describing changes of state with 『～くなります / ～になります』, including the irregular conjugation of いい (よい)."
+  },
+  "vocabulary": [
+    {
+      "id": "noborimasu",
+      "kanji": "登ります / 上ります",
+      "kana": "のぼります",
+      "romaji": "noborimasu",
+      "meaning": "to climb; to go up",
+      "category": "verb",
+      "example": {
+        "kanji": "富士山に登ったことがあります。",
+        "kana": "ふじさんに のぼった ことが あります。",
+        "translation": "I have climbed Mt. Fuji before."
+      }
+    },
+    {
+      "id": "tomarimasu",
+      "kanji": "泊まります",
+      "kana": "とまります",
+      "romaji": "tomarimasu",
+      "meaning": "to stay at [e.g. a hotel, a friend's house]",
+      "category": "verb",
+      "example": {
+        "kanji": "友達の家に泊まりました。",
+        "kana": "ともだちの いえに とまりました。",
+        "translation": "I stayed at my friend's house."
+      }
+    },
+    {
+      "id": "souji",
+      "kanji": "掃除",
+      "kana": "そうじ",
+      "romaji": "souji",
+      "meaning": "cleaning",
+      "category": "noun",
+      "example": {
+        "kanji": "部屋を掃除します。",
+        "kana": "へやを そうじします。",
+        "translation": "I clean the room."
+      }
+    },
+    {
+      "id": "sentaku",
+      "kanji": "洗濯",
+      "kana": "せんたく",
+      "romaji": "sentaku",
+      "meaning": "washing (clothes); laundry",
+      "category": "noun",
+      "example": {
+        "kanji": "週に二回、洗濯します。",
+        "kana": "しゅうに にかい、せんたくします。",
+        "translation": "I do laundry twice a week."
+      }
+    },
+    {
+      "id": "gorufu",
+      "kanji": "ゴルフ",
+      "kana": "ゴルフ",
+      "romaji": "gorufu",
+      "meaning": "golf",
+      "category": "noun",
+      "example": {
+        "kanji": "ゴルフをしたことがあります。",
+        "kana": "ゴルフを した ことが あります。",
+        "translation": "I have played golf before."
+      }
+    },
+    {
+      "id": "sumou",
+      "kanji": "相撲",
+      "kana": "すもう",
+      "romaji": "sumou",
+      "meaning": "sumo wrestling",
+      "category": "noun",
+      "example": {
+        "kanji": "相撲を見たことがありません。",
+        "kana": "すもうを みた ことが ありません。",
+        "translation": "I have never watched sumo wrestling before."
+      }
+    },
+    {
+      "id": "renshuu",
+      "kanji": "練習",
+      "kana": "れんしゅう",
+      "romaji": "renshuu",
+      "meaning": "practice",
+      "category": "noun",
+      "example": {
+        "kanji": "ゴルフを練習します。ゴルフの練習をします。",
+        "kana": "ゴルフを れんしゅうします。ゴルフの れんしゅうを します。",
+        "translation": "I practice golf. I do golf practice."
+      }
+    },
+    {
+      "id": "daietto",
+      "kanji": "ダイエット",
+      "kana": "ダイエット",
+      "romaji": "daietto",
+      "meaning": "diet; dieting",
+      "category": "noun",
+      "example": {
+        "kanji": "今ダイエットをしています。",
+        "kana": "いま ダイエットを して います。",
+        "translation": "I am on a diet right now."
+      }
+    },
+    {
+      "id": "narimasu",
+      "kanji": "なります",
+      "kana": "なります",
+      "romaji": "narimasu",
+      "meaning": "to become; to get",
+      "category": "verb",
+      "example": {
+        "kanji": "元気になりました。",
+        "kana": "げんきに なりました。",
+        "translation": "I became fine (= I feel much better now / I'm recovered)."
+      }
+    },
+    {
+      "id": "nemui",
+      "kanji": "眠い",
+      "kana": "ねむい",
+      "romaji": "nemui",
+      "meaning": "sleepy",
+      "category": "adjective",
+      "example": {
+        "kanji": "私はいつも眠いです。",
+        "kana": "わたしは いつも ねむいです。",
+        "translation": "I am always sleepy."
+      }
+    },
+    {
+      "id": "tsuyoi",
+      "kanji": "強い",
+      "kana": "つよい",
+      "romaji": "tsuyoi",
+      "meaning": "strong",
+      "category": "adjective",
+      "example": {
+        "kanji": "今日は風が強いです。",
+        "kana": "きょうは かぜが つよいです。",
+        "translation": "The wind is strong today."
+      }
+    },
+    {
+      "id": "yowai",
+      "kanji": "弱い",
+      "kana": "よわい",
+      "romaji": "yowai",
+      "meaning": "weak",
+      "category": "adjective",
+      "example": {
+        "kanji": "私たちのチームは、正直、弱いです。",
+        "kana": "わたしたちの チームは、しょうじき、よわいです。",
+        "translation": "Our team is weak, to be honest."
+      }
+    },
+    {
+      "id": "muri",
+      "kanji": "無理",
+      "kana": "むり",
+      "romaji": "muri",
+      "meaning": "impossible; unreasonable; excessive",
+      "category": "adjective",
+      "example": {
+        "kanji": "無理です。無理なダイエットをしないでください。",
+        "kana": "むりです。むりな ダイエットを しないで ください。",
+        "translation": "It is impossible. Please don't go on an extreme unhealthy diet."
+      }
+    },
+    {
+      "id": "ocha",
+      "kanji": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "meaning": "tea; green tea",
+      "category": "noun",
+      "example": {
+        "kanji": "お茶はいかがですか？",
+        "kana": "おちゃは いかがですか？",
+        "translation": "Would you like some tea?"
+      }
+    },
+    {
+      "id": "hi",
+      "kanji": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "meaning": "day; date; sunshine",
+      "category": "noun",
+      "example": {
+        "kanji": "その日は忙しいです。冬は日が短くなります。",
+        "kana": "その ひは いそがしいです。ふゆは ひが みじかく なります。",
+        "translation": "I will be busy on that day. In winter, the days get short."
+      }
+    },
+    {
+      "id": "choushi",
+      "kanji": "調子",
+      "kana": "ちょうし",
+      "romaji": "choushi",
+      "meaning": "condition; tone; state of health or machine",
+      "category": "noun",
+      "example": {
+        "kanji": "体の調子がいいです。パソコンの調子が悪いです。",
+        "kana": "からだの ちょうしが いいです。パソコンの ちょうしが わるいです。",
+        "translation": "My body condition is good. The computer is acting up (bad condition)."
+      }
+    },
+    {
+      "id": "ichido",
+      "kanji": "一度",
+      "kana": "いちど",
+      "romaji": "ichido",
+      "meaning": "once; one time",
+      "category": "expression",
+      "example": {
+        "kanji": "一度日本に行ったことがあります。",
+        "kana": "いちど にほんに いった ことが あります。",
+        "translation": "I have been to Japan once before."
+      }
+    },
+    {
+      "id": "ichidomo",
+      "kanji": "一度も",
+      "kana": "いちども",
+      "romaji": "ichidomo",
+      "meaning": "not once; never (used with negative)",
+      "category": "expression",
+      "example": {
+        "kanji": "一度も日本に行ったことがありません。",
+        "kana": "いちども にほんに いった ことが ありません。",
+        "translation": "I have never been to Japan, not even once."
+      }
+    },
+    {
+      "id": "mousugu",
+      "kanji": "もうすぐ",
+      "kana": "もうすぐ",
+      "romaji": "mousugu",
+      "meaning": "soon; before long",
+      "category": "expression",
+      "example": {
+        "kanji": "もうすぐ夏になります。",
+        "kana": "もうすぐ なつに なります。",
+        "translation": "It will be summer soon."
+      }
+    },
+    {
+      "id": "dandan",
+      "kanji": "だんだん",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "meaning": "gradually; little by little",
+      "category": "expression",
+      "example": {
+        "kanji": "だんだん大きくなります。",
+        "kana": "だんだん おおきく なります。",
+        "translation": "It gradually becomes bigger."
+      }
+    },
+    {
+      "id": "okagesamade",
+      "kanji": "おかげさまで",
+      "kana": "おかげさまで",
+      "romaji": "okagesamade",
+      "meaning": "thanks to you; fortunately",
+      "category": "expression",
+      "example": {
+        "kanji": "おかげさまで元気になりました。",
+        "kana": "おかげさまで げんきに なりました。",
+        "translation": "Thanks to you, I feel fine now."
+      }
+    },
+    {
+      "id": "demo",
+      "kanji": "でも",
+      "kana": "でも",
+      "romaji": "demo",
+      "meaning": "but; however",
+      "category": "expression",
+      "example": {
+        "kanji": "とても眠いです。でも、勉強しなければなりません。",
+        "kana": "とても ねむいです。でも、べんきょう しなければ なりません。",
+        "translation": "I am very sleepy. But, I have to study."
+      }
+    },
+    {
+      "id": "kanpai",
+      "kanji": "乾杯",
+      "kana": "かんぱい",
+      "romaji": "kanpai",
+      "meaning": "Cheers! (toast before drinking)",
+      "category": "expression",
+      "example": {
+        "kanji": "ビールで乾杯しましょう！",
+        "kana": "ビールで かんぱい しましょう！",
+        "translation": "Let's toast with beer! Cheers!"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Verb (た-form) [Casual Past Affirmative & Plain Style Base]",
+      "explanation": "The た-form is the plain (casual) past affirmative form of verbs. While polite style uses ～ました (e.g., 行きました), plain style with friends uses the た-form (行った). Crucially, the た-form also serves as the structural foundation for advanced grammar patterns. RULE: Forming the た-form is identical to forming the て-form (Lesson 14): replace て with た, and replace で with だ. Group 1: (1) い・ち・り → った (買いました→買った, 待ちました→待った, 帰りました→帰った [帰ります is Group 1!]). (2) み・び・に → んだ (飲みました→飲んだ, 呼びました→呼んだ, 死にました→死んだ). (3) き → いた (書きました→書いた; EXCEPTION: 行きます→行った). (4) ぎ → いだ (急ぎました→急いだ). (5) し → した (貸しました→貸した). Group 2: drop ます, add た (食べます→食べた, 見ます→見た). Group 3: します→した, 来ます(きます)→来た(きた).",
+      "examples": [
+        {
+          "kanji": "富士山に登った。",
+          "kana": "ふじさんに のぼった。",
+          "translation": "I climbed Mt. Fuji (plain past)."
+        },
+        {
+          "kanji": "昨日友達の家に泊まった。",
+          "kana": "きのう ともだちの いえに とまった。",
+          "translation": "Yesterday I stayed at my friend's house (plain past)."
+        },
+        {
+          "kanji": "部屋を掃除した。",
+          "kana": "へやを そうじした。",
+          "translation": "I cleaned the room (plain past)."
+        },
+        {
+          "kanji": "日本酒を飲んだ。",
+          "kana": "にほんしゅを のんだ。",
+          "translation": "I drank sake (plain past)."
+        },
+        {
+          "kanji": "友達に手紙を書いた。",
+          "kana": "ともだちに てがみを かいた。",
+          "translation": "I wrote a letter to my friend (plain past)."
+        },
+        {
+          "kanji": "去年日本へ行った。",
+          "kana": "きょねん にほんへ いった。",
+          "translation": "I went to Japan last year. (行きます exception → 行った)"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb (た-form) ことがあります / ことがありません [Talking about Experience]",
+      "explanation": "Use 『Verb (た-form) + ことがあります』 to express that you have had the experience of doing something at least once in your life ('I have done V before'). Grammatical breakdown: 『[Noun] が あります』 means 'There is [Noun]' or 'I have [Noun]'. Adding こと nominalizes the verb clause into a noun. As Takashi explains, while こと literally means 'thing/matter', here it is helpful to conceptualize it as 'time' or 'occasion': ゴルフをした (played golf) + こと (occasion) + があります (there is) = 'There is an occasion when I played golf' → 'I have played golf before'. Negative: 『Verb-た ことがありません』 ('I have never done V'). To emphasize 'never, not even once', prepend 一度も (いちども). Questions: 『Verb-た ことがありますか』. Answer affirmatively with 『はい、あります』 or 『はい、[～たことが] あります』; answer negatively with 『いいえ、ありません』 or 『いいえ、[～たことが] ありません』. Do not use this pattern for recent, everyday routines (e.g. eating breakfast this morning).",
+      "examples": [
+        {
+          "kanji": "ゴルフをしたことがあります。",
+          "kana": "ゴルフを した ことが あります。",
+          "translation": "I have played golf before."
+        },
+        {
+          "kanji": "日本に行ったことがあります。",
+          "kana": "にほんに いった ことが あります。",
+          "translation": "I have been to Japan before."
+        },
+        {
+          "kanji": "富士山に一度登ったことがあります。",
+          "kana": "ふじさんに いちど のぼった ことが あります。",
+          "translation": "I have climbed Mt. Fuji once before."
+        },
+        {
+          "kanji": "相撲を見たことがありません。",
+          "kana": "すもうを みた ことが ありません。",
+          "translation": "I have never watched sumo wrestling before."
+        },
+        {
+          "kanji": "日本酒を一度も飲んだことがありません。",
+          "kana": "にほんしゅを いちども のんだ ことが ありません。",
+          "translation": "I have never drunk Japanese sake, not even once."
+        },
+        {
+          "kanji": "この曲を聞いたことがありますか？ — はい、あります。",
+          "kana": "この きょくを きいた ことが ありますか？ — はい、あります。",
+          "translation": "Have you listened to this song before? — Yes, I have."
+        },
+        {
+          "kanji": "この曲を聞いたことがありますか？ — いいえ、ありません。",
+          "kana": "この きょくを きいた ことが ありますか？ — いいえ、ありません。",
+          "translation": "Have you listened to this song before? — No, I haven't."
+        }
+      ]
+    },
+    {
+      "pattern": "Verb1 (た-form) り、Verb2 (た-form) りします [Listing Representative Actions]",
+      "explanation": "Use 『～たり、～たりします』 to list representative actions from a broader set of activities ('doing things like V1, V2, and so on'). KEY RULES: (1) Formed by appending り to the verb's た-form (食べた → 食べたり, 行った → 行ったり). (2) TENSE & MOOD RULE: Only the final verb (します, しました, したいです, しなければなりません) carries the tense, politeness, or auxiliary meaning! Preceding verbs are permanently frozen in the た-form + り. (3) Single Action Usage: As Takashi highlights, you can use たり with just ONE verb to mean 'doing things like [action]' (昨日はテニスをしたりしました = 'Yesterday I did things like playing tennis').",
+      "examples": [
+        {
+          "kanji": "明日は何をしますか？ — 映画を見たり、テニスをしたりします。",
+          "kana": "あしたは なにを しますか？ — えいがを みたり、テニスを したり します。",
+          "translation": "What are you doing tomorrow? — I will do things like watching a movie and playing tennis."
+        },
+        {
+          "kanji": "昨日は映画を見たり、テニスをしたりしました。",
+          "kana": "きのうは えいがを みたり、テニスを したり しました。",
+          "translation": "Yesterday I did things like watching a movie and playing tennis (past tense in しました)."
+        },
+        {
+          "kanji": "今週末は、友達と遊んだり、日本語を勉強したりします。",
+          "kana": "こんしゅうまつは、ともだちと あそんだり、にほんごを べんきょうしたり します。",
+          "translation": "This weekend, I will do things like hanging out with friends and studying Japanese."
+        },
+        {
+          "kanji": "仕事の後に、家を掃除したり、洗濯したり、料理したりします。",
+          "kana": "しごとの あとに、いえを そうじしたり、せんたくしたり、りょうりしたり します。",
+          "translation": "After work, I do things like cleaning the house, doing laundry, and cooking."
+        },
+        {
+          "kanji": "昨日はテニスをしたりしました。",
+          "kana": "きのうは テニスを したり しました。",
+          "translation": "Yesterday I did things like playing tennis (single action usage)."
+        }
+      ]
+    },
+    {
+      "pattern": "Lesson 19 (～たり、～たり) vs. Lesson 16 (～て、～て) [Exhaustive Sequence vs. Representative Actions]",
+      "explanation": "Comparing connecting actions: (1) Lesson 16 て-form (映画を見て、テニスをしました): Lists actions in strict chronological order ('I watched a movie first, and then I played tennis'). It implies a closed, exhaustive sequence of the main events. (2) Lesson 19 たり-form (映画を見たり、テニスをしたりしました): Lists non-exhaustive sample actions. It implies that the speaker also did other activities that are not mentioned, and the actions did not necessarily take place in that exact chronological order. Examine this contrast when expressing routines or recounting a trip.",
+      "examples": [
+        {
+          "kanji": "家を掃除して、洗濯して、料理します。",
+          "kana": "いえを そうじして、せんたくして、りょうりします。",
+          "translation": "I clean the house, do laundry, and cook (in that chronological order — Lesson 16)."
+        },
+        {
+          "kanji": "家を掃除したり、洗濯したり、料理したりします。",
+          "kana": "いえを そうじしたり、せんたくしたり、りょうりしたり します。",
+          "translation": "I do things like cleaning the house, doing laundry, and cooking (among other chores — Lesson 19)."
+        },
+        {
+          "kanji": "先月は、静岡県に行って、富士山に登りました。",
+          "kana": "せんげつは、しずおかけんに いって、ふじさんに のぼりました。",
+          "translation": "Last month, I went to Shizuoka prefecture, and then climbed Mt. Fuji (chronological sequence — Lesson 16)."
+        },
+        {
+          "kanji": "日本でおいしい食べ物を食べたり、温泉に入ったりしたいです。",
+          "kana": "にほんで おいしい たべものを たべたり、おんせんに はいったり したいです。",
+          "translation": "In Japan, I want to do things like eating delicious food and bathing in onsen (representative desires — Lesson 19)."
+        },
+        {
+          "kanji": "日本に行って、温泉に入りたいです。",
+          "kana": "にほんに いって、おんせんに はいりたいです。",
+          "translation": "I want to go to Japan, and then bathe in onsen (chronological desire — Lesson 16)."
+        }
+      ]
+    },
+    {
+      "pattern": "い-adj (～くなります) / な-adj & Noun (～になります) [Change of State: 'To Become']",
+      "explanation": "なります (dictionary form: なる, Group 1) expresses a transition or change of state ('to become; to turn into; to get'). The connection rules vary by word type: (1) い-adjectives: drop the final い and append くなります (寒い → 寒くなります = 'it gets cold'; 暑い → 暑くなりました = 'it became hot'; 短い → 短くなります = 'the days get short'). (2) な-adjectives: drop な and append になります (静か[な] → 静かになります = 'it becomes quiet'; 元気[な] → 元気になりました = 'I got well'; 好き[な] → 好きになりました = 'I have come to like it'). (3) Nouns: directly append になります (夏 → 夏になります = 'it will be summer'; 25歳 → 25歳になりました = 'I turned 25 years old'; 冬 → 冬になります = 'it will be winter').",
+      "examples": [
+        {
+          "kanji": "寒くなります。",
+          "kana": "さむく なります。",
+          "translation": "It will become cold (it will get cold)."
+        },
+        {
+          "kanji": "静かになります。",
+          "kana": "しずかに なります。",
+          "translation": "It will become quiet."
+        },
+        {
+          "kanji": "もうすぐ夏になります。",
+          "kana": "もうすぐ なつに なります。",
+          "translation": "It will be summer soon."
+        },
+        {
+          "kanji": "最近、とても暑くなりました。",
+          "kana": "さいきん、とても あつく なりました。",
+          "translation": "It became very hot recently."
+        },
+        {
+          "kanji": "昨日、25歳になりました。",
+          "kana": "きのう、にじゅうごさいに なりました。",
+          "translation": "Yesterday, I turned 25 years old."
+        },
+        {
+          "kanji": "納豆が好きになりました。",
+          "kana": "なっとうが すきに なりました。",
+          "translation": "I have come to like natto (I've become fond of natto)."
+        },
+        {
+          "kanji": "だんだん暖かくなります。",
+          "kana": "だんだん あたたかく なります。",
+          "translation": "It gradually becomes warmer."
+        }
+      ]
+    },
+    {
+      "pattern": "The Irregular Conjugation of いい (よい → よく なります / よくない / よかった)",
+      "explanation": "CRUCIAL GRAMMAR RULE & COMMON MISTAKE: In modern Japanese, the adjective for 'good' is either いい or よい (いい is standard in affirmative plain form). However, いい is NEVER conjugated directly! Whenever you conjugate (negative, past, or combining with なる), you MUST conjugate its original form, よい: (1) Negative: よく ないです (✕ い＜ないです). (2) Past: よかったです (✕ いかったです). (3) With なります: よく なります / よく なりました (✕ い＜なりました). Example: To say 'my stomach condition became good/recovered', say 『お腹の調子が良くなりました』 (おなかのちょうしがよくなりました), never 『い＜なりました』.",
+      "examples": [
+        {
+          "kanji": "お腹の調子がよくなりました。",
+          "kana": "おなかの ちょうしが よくなりました。",
+          "translation": "My stomach condition became good (recovered). [✕ い＜なりました]"
+        },
+        {
+          "kanji": "天気がよくなりました。",
+          "kana": "てんきが よくなりました。",
+          "translation": "The weather became nice."
+        },
+        {
+          "kanji": "パソコンの調子はあまりよくないです。",
+          "kana": "パソコンの ちょうしは あまり よくないです。",
+          "translation": "The condition of the computer is not very good."
+        },
+        {
+          "kanji": "昨日の映画はとてもよかったです。",
+          "kana": "きのうの えいがは とても よかったです。",
+          "translation": "Yesterday's movie was very good."
+        }
+      ]
+    },
+    {
+      "pattern": "Auxiliary Modifiers with たり: ～たり、～たりしたいです / ～なければなりません",
+      "explanation": "Because the final します in the 『～たり、～たりします』 pattern functions as an ordinary Group 3 verb, you can freely conjugate it into other verb forms to express desires, obligations, or suggestions: (1) Desire: ～たり、～たり したいです ('I want to do things like...'). (2) Obligation: ～たり、～たり しなければなりません ('I must do things like...'). (3) Invitation: ～たり、～たり しませんか ('Shall we do things like...?'). (4) Request: ～たり、～たり してください ('Please do things like...'). Remember that all preceding verbs in the sentence remain untouched in their た-form + り.",
+      "examples": [
+        {
+          "kanji": "日本でおいしい食べ物を食べたり、温泉に入ったりしたいです。",
+          "kana": "にほんで おいしい たべものを たべたり、おんせんに はいったり したいです。",
+          "translation": "In Japan, I want to do things like eating delicious food and bathing in onsen."
+        },
+        {
+          "kanji": "3時までに洗濯したり、お金を下ろしたりしなければなりません。",
+          "kana": "さんじまでに せんたくしたり、おかねを おろしたり しなければ なりません。",
+          "translation": "By 3:00, I have to do things like washing clothes and withdrawing money."
+        },
+        {
+          "kanji": "休みの日は家で本を読んだり、音楽を聞いたりしたいです。",
+          "kana": "やすみの ひは いえで ほんを よんだり、おんがくを きいたり したいです。",
+          "translation": "On days off, I want to do things like reading books and listening to music at home."
+        },
+        {
+          "kanji": "部屋を掃除したり、ゴミを出したりしてください。",
+          "kana": "へやを そうじしたり、ゴミを だしたり して ください。",
+          "translation": "Please do things like cleaning the room and taking out the trash."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "富士山と週末の予定 (Mt. Fuji and Weekend Plans)",
+    "lines": [
+      {
+        "speaker": "マルコ",
+        "kanji": "たかしさん、富士山に登ったことがありますか。",
+        "kana": "たかしさん、ふじさんに のぼった ことが ありますか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "ええ、一度登ったことがありますよ。山の上はとても寒くなりましたが、景色が素晴らしかったです。",
+        "kana": "ええ、いちど のぼった ことが ありますよ。やまの うえは とても さむく なりましたが、けしきが すばらしかったです。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "いいですね。私も一度登りたいです。山小屋に泊まりましたか。",
+        "kana": "いいですね。わたしも いちど のぼりたいです。やまごやに とまりましたか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "はい、山小屋に泊まって、朝早く起きて、日の出を見ました。マルコさんは日本の温泉に入ったことがありますか。",
+        "kana": "はい、やまごやに とまって、あさはやく おきて、ひのでを みました。マルコさんは にほんの おんせんに はいった ことが ありますか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "いいえ、一度も入ったことがありません。でも、一度入ってみたいです。",
+        "kana": "いいえ、いちども はいった ことが ありません。でも、いちど はいって みたいです。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "今週末は何をしますか。",
+        "kana": "こんしゅうまつは なにを しますか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "今週末は、部屋を掃除したり、洗濯したりします。それから、友達とゴルフの練習をしたりしたいです。",
+        "kana": "こんしゅうまつは、へやを そうじしたり、せんたくしたり します。それから、ともだちと ゴルフの れんしゅうを したり したいです。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "ゴルフですか。マルコさんはゴルフをしたことがありますか。",
+        "kana": "ゴルフですか。マルコさんは ゴルフを した ことが ありますか。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "はい、国で何回かしたことがあります。でも、あまり上手じゃありません。",
+        "kana": "はい、くにで なんかいか した ことが あります。でも、あまり じょうずじゃ ありません。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "練習すれば、だんだん上手になりますよ。無理な練習はしないでくださいね。",
+        "kana": "れんしゅう すれば、だんだん じょうずに なりますよ。むりな れんしゅうは しないで くださいね。"
+      },
+      {
+        "speaker": "マルコ",
+        "kanji": "はい、ありがとうございます。たかしさん、お茶はいかがですか。",
+        "kana": "はい、ありがとう ございます。たかしさん、おちゃは いかがですか。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "いただきます。ああ、温かいお茶を飲んで、体の調子が良くなりました。",
+        "kana": "いただきます。ああ、あたたかい おちゃを のんで、からだの ちょうしが よくなりました。"
+      }
+    ],
+    "translation": "Marco asks Takashi if he has ever climbed Mt. Fuji. Takashi answers that he has climbed it once; it got very cold at the top of the mountain, but the scenery was magnificent. Marco says he also wants to climb it once and asks if Takashi stayed at a mountain hut. Takashi explains that he stayed at a mountain hut, woke up early, and watched the sunrise. Takashi then asks Marco if he has ever bathed in a Japanese hot spring (onsen). Marco replies that he has never bathed in one even once, but wants to try it. Takashi asks about his plans for this weekend. Marco shares that he will do chores like cleaning his room and doing laundry, and also wants to do things like practicing golf with a friend. Takashi is surprised and asks if Marco has played golf before. Marco says he played several times back in his home country, though he isn't very good yet. Takashi encourages him, saying he will gradually become skilled with practice, but warns him not to push himself too hard. Marco thanks him and offers some green tea. After drinking the hot tea, Takashi remarks that his body condition has recovered.",
+    "questions": [
+      {
+        "question": "Has Takashi ever climbed Mt. Fuji?",
+        "options": [
+          "No, he has never climbed it even once",
+          "Yes, he has climbed it once before",
+          "Yes, he climbs it every winter",
+          "No, but he plans to climb it tomorrow"
+        ],
+        "answer": 1,
+        "explanation": "Takashi states: ええ、一度登ったことがありますよ (Yes, I have climbed it once)."
+      },
+      {
+        "question": "How did the weather change at the top of Mt. Fuji according to Takashi?",
+        "options": [
+          "It became very hot (暑くなりました)",
+          "It became very cold (寒くなりました)",
+          "It became quiet (静かになりました)",
+          "It became dark (暗くなりました)"
+        ],
+        "answer": 1,
+        "explanation": "Takashi mentions: 山の上はとても寒くなりましたが… (It became very cold at the top of the mountain, but...)."
+      },
+      {
+        "question": "Has Marco ever bathed in a Japanese onsen?",
+        "options": [
+          "Yes, he bathed in onsen many times",
+          "Yes, he stayed at an onsen hotel once",
+          "No, he has never entered one even once (一度も入ったことがありません)",
+          "No, because he doesn't like hot water"
+        ],
+        "answer": 2,
+        "explanation": "Marco states: いいえ、一度も入ったことがありません (No, I have never entered one even once)."
+      },
+      {
+        "question": "What kind of activities does Marco list for this weekend using the たり-form?",
+        "options": [
+          "Cleaning the room, doing laundry, and practicing golf",
+          "Watching a sumo match and climbing Mt. Fuji",
+          "Drinking sake and partying with colleagues",
+          "Going to the bank and withdrawing money"
+        ],
+        "answer": 0,
+        "explanation": "Marco lists: 部屋を掃除したり、洗濯したりします… ゴルフの練習をしたりしたいです."
+      },
+      {
+        "question": "What advice does Takashi give Marco about golf practice?",
+        "options": [
+          "Quit playing golf immediately",
+          "You will gradually become skilled, but don't do excessive practice (無理な練習はしないで)",
+          "You must practice until 3:00 every morning",
+          "Only play golf in the winter"
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: だんだん上手になりますよ。無理な練習はしないでくださいね (You will gradually get better; don't overdo it)."
+      },
+      {
+        "question": "Which sentence from the text demonstrates the irregular conjugation of いい with なります?",
+        "options": [
+          "体の調子がよくなりました。",
+          "体の調子がい＜なりました。",
+          "体の調子がよいてなりました。",
+          "体の調子がいいになりました。"
+        ],
+        "answer": 0,
+        "explanation": "いい is never conjugated directly; it changes from よい to よく + なりました: 体の調子が良くなりました."
+      },
+      {
+        "question": "In the dialogue, which sentence uses the chronological て-form chain from Lesson 16?",
+        "options": [
+          "部屋を掃除したり、洗濯したりします。",
+          "ゴルフの練習をしたりしたいです。",
+          "山小屋に泊まって、朝早く起きて、日の出を見ました。",
+          "温かいお茶を飲んだりします。"
+        ],
+        "answer": 2,
+        "explanation": "泊まって、起きて、見ました chains consecutive actions in chronological sequence using the て-form."
+      },
+      {
+        "question": "What is the function of 一度も in Marco's sentence 『一度も入ったことがありません』?",
+        "options": [
+          "It indicates that he goes once a year",
+          "It emphasizes 'not even once / never' when paired with a negative verb",
+          "It means 'gradually'",
+          "It asks the listener for tea"
+        ],
+        "answer": 1,
+        "explanation": "一度も + negative verb emphasizes that the action has never occurred, not even a single time."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct meaning of 登ります (のぼります).",
+      "prompt": {
+        "kanji": "富士山に登ります。",
+        "kana": "ふじさんに のぼります。"
+      },
+      "options": [
+        "to climb; to go up",
+        "to stay at [hotel]",
+        "to clean",
+        "to become"
+      ],
+      "answer": 0,
+      "explanation": "登ります / 上ります (のぼります) means to climb or go up (e.g. a mountain)."
+    },
+    {
+      "question": "Choose the correct meaning of 泊まります (とまります).",
+      "prompt": {
+        "kanji": "友達の家に泊まりました。",
+        "kana": "ともだちの いえに とまりました。"
+      },
+      "options": [
+        "to stay at [overnight]",
+        "to stop a car",
+        "to climb",
+        "to wash clothes"
+      ],
+      "answer": 0,
+      "explanation": "泊まります (とまります) means to stay at (e.g., hotel, friend's house overnight). Note the kanji 泊."
+    },
+    {
+      "question": "Choose the correct た-form: 買います (Group 1: い → った).",
+      "options": [
+        "買った",
+        "買いた",
+        "買んだ",
+        "買した"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in い・ち・り in Group 1 change to った (買います → 買った)."
+    },
+    {
+      "question": "Choose the correct た-form: 待ちます (Group 1: ち → った).",
+      "options": [
+        "待った",
+        "待いた",
+        "待んだ",
+        "待した"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in ち in Group 1 change to った (待ちます → 待った)."
+    },
+    {
+      "question": "Choose the correct た-form: 帰ります (Group 1: り → った).",
+      "options": [
+        "帰った",
+        "帰た",
+        "帰んだ",
+        "帰した"
+      ],
+      "answer": 0,
+      "explanation": "帰ります looks like Group 2 but is Group 1: 帰った (かえった)."
+    },
+    {
+      "question": "Choose the correct た-form: 飲みます (Group 1: み → んだ).",
+      "options": [
+        "飲んだ",
+        "飲った",
+        "飲いた",
+        "飲みた"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in み・び・に change to んだ (飲みます → 飲んだ)."
+    },
+    {
+      "question": "Choose the correct た-form: 呼びます (Group 1: び → んだ).",
+      "options": [
+        "呼んだ",
+        "呼った",
+        "呼いた",
+        "呼した"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in び change to んだ (呼びます → 呼んだ)."
+    },
+    {
+      "question": "Choose the correct た-form of the irregular exception 行きます (いきます).",
+      "options": [
+        "行った",
+        "行いた",
+        "行ったて",
+        "行いだ"
+      ],
+      "answer": 0,
+      "explanation": "行きます is an exception to the き → いた rule; its た-form is 行った (いった), mirroring 行って."
+    },
+    {
+      "question": "Choose the correct た-form: 書きます (Group 1: き → いた).",
+      "options": [
+        "書いた",
+        "買った",
+        "書いだ",
+        "書した"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in き change to いた (書きます → 書いた)."
+    },
+    {
+      "question": "Choose the correct た-form: 急ぎます (Group 1: ぎ → いだ).",
+      "options": [
+        "急いだ",
+        "急いた",
+        "急った",
+        "急んだ"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in ぎ change to the voiced いだ (急ぎます → 急いだ)."
+    },
+    {
+      "question": "Choose the correct た-form: 貸します (Group 1: し → した).",
+      "options": [
+        "貸した",
+        "貸った",
+        "貸いた",
+        "貸んだ"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in し change to した (貸します → 貸した)."
+    },
+    {
+      "question": "Choose the correct た-form: 食べます (Group 2: ます → た).",
+      "options": [
+        "食べた",
+        "食べった",
+        "食べんだ",
+        "食べいた"
+      ],
+      "answer": 0,
+      "explanation": "Group 2 verbs replace ます with た (食べます → 食べた)."
+    },
+    {
+      "question": "Choose the correct た-form: 見ます (Group 2: ます → た).",
+      "options": [
+        "見た",
+        "見った",
+        "見んだ",
+        "見いた"
+      ],
+      "answer": 0,
+      "explanation": "見ます is Group 2: replace ます with た → 見た (みた)."
+    },
+    {
+      "question": "Choose the correct た-form: 来ます (Group 3 irregular).",
+      "options": [
+        "来た (きた)",
+        "来った (きった)",
+        "来いだ (きいだ)",
+        "来た (こた)"
+      ],
+      "answer": 0,
+      "explanation": "来ます (きます) becomes 来た (きた) in the た-form."
+    },
+    {
+      "question": "Choose the sentence that correctly says: 'I have played golf before.'",
+      "options": [
+        "ゴルフをしたことがあります。",
+        "ゴルフをすることがあります。",
+        "ゴルフをしてことがあります。",
+        "ゴルフをしますことがあります。"
+      ],
+      "answer": 0,
+      "explanation": "Expressing experience requires Verb (た-form) + ことがあります: ゴルフをしたことがあります."
+    },
+    {
+      "question": "Choose the sentence that correctly says: 'I have climbed Mt. Fuji once.'",
+      "options": [
+        "富士山に一度登ったことがあります。",
+        "富士山に一度登ることがあります。",
+        "富士山に一度登てことがあります。",
+        "富士山を一度登ったことがあります。"
+      ],
+      "answer": 0,
+      "explanation": "登ります takes に for the mountain being climbed, followed by た-form + ことがあります."
+    },
+    {
+      "question": "Choose the correct negative sentence: 'I have never watched sumo wrestling before.'",
+      "options": [
+        "相撲を見たことがありません。",
+        "相撲を見るがありません。",
+        "相撲を見ないことがあります。",
+        "相撲を見てがありません。"
+      ],
+      "answer": 0,
+      "explanation": "Negative experience uses Verb (た-form) + ことがありません: 相撲を見たことがありません."
+    },
+    {
+      "question": "Choose the sentence meaning: 'I have never drunk sake, not even once.'",
+      "options": [
+        "日本酒を一度も飲んだことがありません。",
+        "日本酒を一度飲んだことがあります。",
+        "日本酒を一度も飲みませんでしたことがあります。",
+        "日本酒を一度も飲むことがありません。"
+      ],
+      "answer": 0,
+      "explanation": "一度も ('not even once') is followed by Verb-た + ことがありません."
+    },
+    {
+      "question": "How do you answer 'Have you listened to this song before?' in the affirmative?",
+      "prompt": {
+        "kanji": "この曲を聞いたことがありますか？",
+        "kana": "この きょくを きいた ことが ありますか？"
+      },
+      "options": [
+        "はい、あります。",
+        "はい、聞きます。",
+        "はい、そうです。",
+        "はい、ありました。"
+      ],
+      "answer": 0,
+      "explanation": "The standard natural short affirmative response is 『はい、あります』 or 『はい、聞いたことがあります』."
+    },
+    {
+      "question": "How do you answer 'Have you listened to this song before?' in the negative?",
+      "prompt": {
+        "kanji": "この曲を聞いたことがありますか？",
+        "kana": "この きょくを きいた ことが ありますか？"
+      },
+      "options": [
+        "いいえ、ありません。",
+        "いいえ、聞きません。",
+        "いいえ、ちがいます。",
+        "いいえ、ありませんでした。"
+      ],
+      "answer": 0,
+      "explanation": "The standard natural short negative response is 『いいえ、ありません』 or 『いいえ、聞いたことがありません』."
+    },
+    {
+      "question": "Complete the representative listing: 'I will do things like watching a movie and playing tennis.'",
+      "prompt": {
+        "kanji": "映画を___、テニスを___します。",
+        "kana": "えいがを ___、テニスを ___ します。"
+      },
+      "options": [
+        "見たり、したり",
+        "見て、して",
+        "見るたり、するたり",
+        "見た、した"
+      ],
+      "answer": 0,
+      "explanation": "Listing representative actions uses Verb (た-form) + り: 見たり、したりします."
+    },
+    {
+      "question": "Complete the past sentence: 'Yesterday I did things like watching a movie and playing tennis.'",
+      "prompt": {
+        "kanji": "昨日は映画を見たり、テニスをしたり___。",
+        "kana": "きのうは えいがを みたり、テニスを したり ___。"
+      },
+      "options": [
+        "しました",
+        "します",
+        "したでした",
+        "してでした"
+      ],
+      "answer": 0,
+      "explanation": "Only the final verb reflects the tense: 昨日は…テニスをしたりしました."
+    },
+    {
+      "question": "Which sentence means: 'I clean the house, do laundry, and cook (in that chronological sequence)'?",
+      "options": [
+        "家を掃除して、洗濯して、料理します。",
+        "家を掃除したり、洗濯したり、料理したりします。",
+        "家を掃除したと、洗濯したと、料理します。",
+        "家を掃除してから、洗濯したり、料理します。"
+      ],
+      "answer": 0,
+      "explanation": "The て-form chain (Lesson 16) expresses chronological sequence. The たり-form lists non-exhaustive samples in no fixed order."
+    },
+    {
+      "question": "Which sentence expresses a desire to do representative actions in Japan?",
+      "options": [
+        "日本でおいしい食べ物を食べたり、温泉に入ったりしたいです。",
+        "日本でおいしい食べ物を食べて、温泉に入りたいです。",
+        "日本でおいしい食べ物を食べたり、温泉に入ったりしますたいです。",
+        "日本でおいしい食べ物を食べるたり、温泉に入るたりしたいです。"
+      ],
+      "answer": 0,
+      "explanation": "To express desire for representative actions, combine たり with したいです (食べたり、入ったりしたいです)."
+    },
+    {
+      "question": "Choose the correct sentence: 'By 3:00, I have to wash clothes, withdraw money, and so on.'",
+      "options": [
+        "3時までに洗濯したり、お金を下ろしたりしなければなりません。",
+        "3時までに洗濯して、お金を下ろさなければなりません。",
+        "3時までに洗濯したり、お金を下ろしたりしなければありません。",
+        "3時までに洗濯するたり、お金を下ろすたりしなければなりません。"
+      ],
+      "answer": 0,
+      "explanation": "Combine たり with obligation: 洗濯したり、お金を下ろしたりしなければなりません."
+    },
+    {
+      "question": "How does an い-adjective connect to なります ('to become')?",
+      "options": [
+        "Drop い and add くなります (寒くなります)",
+        "Add になります (寒いになります)",
+        "Drop い and add でなります (寒でなります)",
+        "Directly add なります (寒いなります)"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives drop the final い and take くなります (e.g. 寒い → 寒くなります)."
+    },
+    {
+      "question": "How does a な-adjective connect to なります ('to become')?",
+      "options": [
+        "Drop な and add になります (静かになります)",
+        "Drop な and add くなります (静かくなります)",
+        "Add でなります (静かでなります)",
+        "Directly add なります (静かななります)"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives attach になります to the stem (e.g. 静か[な] → 静かになります)."
+    },
+    {
+      "question": "How does a noun connect to なります ('to become')?",
+      "options": [
+        "Directly add になります (夏になります / 25歳になります)",
+        "Add くなります (夏くなります)",
+        "Add でなります (夏でなります)",
+        "Add をなります (夏をなります)"
+      ],
+      "answer": 0,
+      "explanation": "Nouns attach directly to になります (e.g. 夏になります, 25歳になります)."
+    },
+    {
+      "question": "Choose the correct form: 'It became very hot recently.' (暑い)",
+      "prompt": {
+        "kanji": "最近、とても___なりました。",
+        "kana": "さいきん、とても ___ なりました。"
+      },
+      "options": [
+        "暑く",
+        "暑い",
+        "暑に",
+        "暑いで"
+      ],
+      "answer": 0,
+      "explanation": "暑い (い-adj) drops い and adds く → 暑くなりました."
+    },
+    {
+      "question": "Choose the correct form: 'Yesterday I turned 25 years old.' (25歳)",
+      "prompt": {
+        "kanji": "昨日、25歳___なりました。",
+        "kana": "きのう、にじゅうごさい ___ なりました。"
+      },
+      "options": [
+        "に",
+        "く",
+        "で",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "25歳 is a noun, so it takes になります → 25歳になりました."
+    },
+    {
+      "question": "Choose the correct sentence: 'I want to become beautiful.'",
+      "prompt": {
+        "kanji": "___なりたいです。",
+        "kana": "___ なりたいです。"
+      },
+      "options": [
+        "きれいに",
+        "きれい敷く",
+        "きれいく",
+        "きれいなで"
+      ],
+      "answer": 0,
+      "explanation": "きれい[な] is a な-adjective, so it becomes きれいに + なります / なりたいです."
+    },
+    {
+      "question": "Choose the INCORRECT sentence regarding adjective conjugation with なる.",
+      "options": [
+        "お腹の調子がい＜なりました。",
+        "お腹の調子がよくなりました。",
+        "だんだん暖かくなりました。",
+        "部屋が静かになりました。"
+      ],
+      "answer": 0,
+      "explanation": "いい is NEVER conjugated directly (✕ い＜なりました). You must conjugate よい → よくなりました."
+    },
+    {
+      "question": "Choose the correct form: 'My stomach condition recovered / became good.'",
+      "options": [
+        "お腹の調子が良くなりました (よくなりました)。",
+        "お腹の調子がいいになりました。",
+        "お腹の調子がい＜なりました。",
+        "お腹の調子がよいになりました。"
+      ],
+      "answer": 0,
+      "explanation": "The adjective いい must conjugate from its root よい, giving よくなりました."
+    },
+    {
+      "question": "What does 『だんだん』 mean?",
+      "options": [
+        "gradually; little by little",
+        "soon; before long",
+        "not even once",
+        "excessive; impossible"
+      ],
+      "answer": 0,
+      "explanation": "だんだん means gradually or step by step (e.g. だんだん大きくなります)."
+    },
+    {
+      "question": "What does 『もうすぐ』 mean?",
+      "options": [
+        "soon; before long",
+        "gradually",
+        "thanks to you",
+        "not once"
+      ],
+      "answer": 0,
+      "explanation": "もうすぐ means soon / before long (e.g. もうすぐ夏になります)."
+    },
+    {
+      "question": "Choose the correct particle: 'I stay at my friend's house.'",
+      "prompt": {
+        "kanji": "友達の家___泊まりました。",
+        "kana": "ともだちの いえ ___ とまりました。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "泊まります takes に to indicate the place of lodging (友達の家に泊まりました)."
+    },
+    {
+      "question": "Choose the correct particle: 'I have climbed Mt. Fuji.'",
+      "prompt": {
+        "kanji": "富士山___登ったことがあります。",
+        "kana": "ふじさん ___ のぼった ことが あります。"
+      },
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "登ります takes に for the target being climbed: 富士山に登ります."
+    },
+    {
+      "question": "What does 『おかげさまで』 mean?",
+      "options": [
+        "Thanks to you / Fortunately",
+        "Please don't push yourself",
+        "Cheers!",
+        "Impossible"
+      ],
+      "answer": 0,
+      "explanation": "おかげさまで is an expression of gratitude meaning 'Thanks to you / Fortunately' (e.g. おかげさまで元気になりました)."
+    },
+    {
+      "question": "What is Takashi's humorous advice if a partner says 『きれいになりたいです』?",
+      "options": [
+        "Say 『そのままできれいだよ』 to make them fall in love, or 『うん、がんばって！』 to break up on the spot.",
+        "Tell them to go on an extreme diet immediately.",
+        "Tell them to climb Mt. Fuji twice a week.",
+        "Tell them that the wind is strong today."
+      ],
+      "answer": 0,
+      "explanation": "Takashi jokes in the video: saying 『そのままできれいだよ』 ('You are beautiful just the way you are') will make her fall in love again, while 『うん、がんばって！』 will end the relationship immediately!"
+    },
+    {
+      "question": "Choose the correct sentence using 『でも』 (conjunction: 'but').",
+      "options": [
+        "とても眠いです。でも、勉強しなければなりません。",
+        "とても眠いです。でも勉強しなければなりませんでした。",
+        "とても眠いですから、でも勉強します。",
+        "とても眠いでも、勉強します。"
+      ],
+      "answer": 0,
+      "explanation": "でも starts a new sentence to express contrast: とても眠いです。でも、勉強しなければなりません."
+    }
+  ],
+  "writing": {
+    "title": "Experiences, Weekend Routines, and Changes (私の経験と週末)",
+    "prompt": "Write 6–8 sentences in Japanese demonstrating Lesson 19 grammar: (1) Mention at least one unique past experience you have had using 『～たことがあります』 (e.g. climbing a mountain, traveling, playing a sport). (2) Mention something you have never experienced using 『一度も～たことがありません』. (3) Describe what you will do this weekend by listing representative actions using 『～たり、～たりします』 (or what you want to do with 『～たり、～たりしたいです』). (4) Describe at least two changes of state using 『～くなります / ～になります』 (e.g. weather changing, getting older, getting well, or improving at a hobby).",
+    "placeholder": "私は ______ に登ったことがあります / ______ をしたことがあります。\nでも、______ は一度も ______ たことがありません。\n今週末は、______ をしたり、______ をしたりします。\n最近、______ はだんだん ______ くなりました / ______ になりました。\nそして、体の調子が ______ なりました。",
+    "modelAnswer": "私は一度富士山に登ったことがあります。山の上はとても寒くなりましたが、景色が綺麗でした。でも、相撲は一度も見たことがありませんから、一度見たいです。今週末は、部屋を掃除したり、洗濯をしたりします。それから、友達とゴルフの練習をしたりしたいです。最近、だんだん涼しくなりました。おかげさまで体の調子も良くなりました。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I have climbed Mt. Fuji before.",
+        "chunks": [
+          "富士山に",
+          "登ったことが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "I have stayed at my friend's house.",
+        "chunks": [
+          "友達の家に",
+          "泊まったことが",
+          "あります。"
+        ]
+      },
+      {
+        "en": "I have never watched sumo wrestling before.",
+        "chunks": [
+          "相撲を",
+          "見たことが",
+          "ありません。"
+        ]
+      },
+      {
+        "en": "I have never drunk sake, not even once.",
+        "chunks": [
+          "日本酒を",
+          "一度も",
+          "飲んだことがありません。"
+        ]
+      },
+      {
+        "en": "Have you listened to this song before?",
+        "chunks": [
+          "この曲を",
+          "聞いたことが",
+          "ありますか。"
+        ]
+      },
+      {
+        "en": "Tomorrow I will do things like watching a movie and playing tennis.",
+        "chunks": [
+          "明日は",
+          "映画を見たり、",
+          "テニスをしたりします。"
+        ]
+      },
+      {
+        "en": "Yesterday I did things like watching a movie and playing tennis.",
+        "chunks": [
+          "昨日は",
+          "映画を見たり、",
+          "テニスをしたりしました。"
+        ]
+      },
+      {
+        "en": "This weekend I will do things like hanging out with friends and studying Japanese.",
+        "chunks": [
+          "今週末は",
+          "友達と遊んだり、",
+          "日本語を勉強したりします。"
+        ]
+      },
+      {
+        "en": "After work, I clean the house, do laundry, and cook.",
+        "chunks": [
+          "仕事の後に、",
+          "家を掃除したり、",
+          "洗濯したり、料理したりします。"
+        ]
+      },
+      {
+        "en": "In Japan, I want to eat delicious food and bathe in onsen.",
+        "chunks": [
+          "日本で",
+          "おいしい食べ物を食べたり、",
+          "温泉に入ったりしたいです。"
+        ]
+      },
+      {
+        "en": "By 3:00, I have to wash clothes and withdraw money.",
+        "chunks": [
+          "3時までに",
+          "洗濯したり、",
+          "お金を下ろしたりしなければなりません。"
+        ]
+      },
+      {
+        "en": "In the winter, the days get short.",
+        "chunks": [
+          "冬は",
+          "日が",
+          "短くなります。"
+        ]
+      },
+      {
+        "en": "It became very hot recently.",
+        "chunks": [
+          "最近、",
+          "とても",
+          "暑くなりました。"
+        ]
+      },
+      {
+        "en": "Yesterday, I turned 25 years old.",
+        "chunks": [
+          "昨日、",
+          "25歳に",
+          "なりました。"
+        ]
+      },
+      {
+        "en": "I want to become beautiful.",
+        "chunks": [
+          "きれいに",
+          "なりたいです。"
+        ]
+      },
+      {
+        "en": "It is going to be winter soon.",
+        "chunks": [
+          "もうすぐ",
+          "冬に",
+          "なります。"
+        ]
+      },
+      {
+        "en": "I have come to like natto.",
+        "chunks": [
+          "納豆が",
+          "好きに",
+          "なりました。"
+        ]
+      },
+      {
+        "en": "My stomach condition recovered and became good.",
+        "chunks": [
+          "お腹の調子が",
+          "よく",
+          "なりました。"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "登ります (のぼります)",
+        "form": "た-form",
+        "answer": "のぼった",
+        "options": [
+          "のぼった",
+          "のぼいた",
+          "のぼんだ"
+        ],
+        "hint": "Group 1: り → った"
+      },
+      {
+        "prompt": "泊まります (とまります)",
+        "form": "た-form",
+        "answer": "とまった",
+        "options": [
+          "とまった",
+          "とまいた",
+          "とまんだ"
+        ],
+        "hint": "Group 1: り → った"
+      },
+      {
+        "prompt": "買います (かいます)",
+        "form": "た-form",
+        "answer": "かった",
+        "options": [
+          "かった",
+          "かいた",
+          "かんだ"
+        ],
+        "hint": "Group 1: い → った"
+      },
+      {
+        "prompt": "待ちます (まちます)",
+        "form": "た-form",
+        "answer": "まった",
+        "options": [
+          "まった",
+          "まちた",
+          "まんだ"
+        ],
+        "hint": "Group 1: ち → った"
+      },
+      {
+        "prompt": "帰ります (かえります)",
+        "form": "た-form",
+        "answer": "かえった",
+        "options": [
+          "かえった",
+          "かえた",
+          "かえんだ"
+        ],
+        "hint": "Group 1: り → った (looks like G2, but is G1)"
+      },
+      {
+        "prompt": "飲みます (のみます)",
+        "form": "た-form",
+        "answer": "のんだ",
+        "options": [
+          "のんだ",
+          "のった",
+          "のいた"
+        ],
+        "hint": "Group 1: み → んだ"
+      },
+      {
+        "prompt": "呼びます (よびます)",
+        "form": "た-form",
+        "answer": "よんだ",
+        "options": [
+          "よんだ",
+          "よった",
+          "よいた"
+        ],
+        "hint": "Group 1: び → んだ"
+      },
+      {
+        "prompt": "死にます (しにます)",
+        "form": "た-form",
+        "answer": "しんだ",
+        "options": [
+          "しんだ",
+          "しった",
+          "しいた"
+        ],
+        "hint": "Group 1: に → んだ"
+      },
+      {
+        "prompt": "書きます (かきます)",
+        "form": "た-form",
+        "answer": "かいた",
+        "options": [
+          "かいた",
+          "かった",
+          "かいだ"
+        ],
+        "hint": "Group 1: き → いた"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "た-form",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いいた",
+          "いんだ"
+        ],
+        "hint": "Special irregular exception: 行きます becomes 行った"
+      },
+      {
+        "prompt": "急ぎます (いそぎます)",
+        "form": "た-form",
+        "answer": "いそいだ",
+        "options": [
+          "いそいだ",
+          "いそいた",
+          "いそった"
+        ],
+        "hint": "Group 1: ぎ → いだ (voiced)"
+      },
+      {
+        "prompt": "貸します (かします)",
+        "form": "た-form",
+        "answer": "かした",
+        "options": [
+          "かした",
+          "かった",
+          "かいいた"
+        ],
+        "hint": "Group 1: し → した"
+      },
+      {
+        "prompt": "食べます (たべます)",
+        "form": "た-form",
+        "answer": "たべた",
+        "options": [
+          "たべた",
+          "たべった",
+          "たべんだ"
+        ],
+        "hint": "Group 2: replace ます with た"
+      },
+      {
+        "prompt": "教えます (おしえます)",
+        "form": "た-form",
+        "answer": "おしえた",
+        "options": [
+          "おしえた",
+          "おしえった",
+          "おしえんだ"
+        ],
+        "hint": "Group 2: replace ます with た"
+      },
+      {
+        "prompt": "見ます (みます)",
+        "form": "た-form",
+        "answer": "みた",
+        "options": [
+          "みた",
+          "みった",
+          "みんだ"
+        ],
+        "hint": "Group 2: replace ます with た"
+      },
+      {
+        "prompt": "します",
+        "form": "た-form",
+        "answer": "した",
+        "options": [
+          "した",
+          "しった",
+          "しんだ"
+        ],
+        "hint": "Group 3 irregular: します → した"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "た-form",
+        "answer": "きた",
+        "options": [
+          "きた",
+          "きった",
+          "こた"
+        ],
+        "hint": "Group 3 irregular: 来ます → 来た (きた)"
+      },
+      {
+        "prompt": "寒い (さむい)",
+        "form": "Becoming form (～なります)",
+        "answer": "さむく",
+        "options": [
+          "さむく",
+          "さむに",
+          "さむいで"
+        ],
+        "hint": "い-adjective: drop い and add く (寒くなります)"
+      },
+      {
+        "prompt": "暑い (あつい)",
+        "form": "Becoming form (～なります)",
+        "answer": "あつく",
+        "options": [
+          "あつく",
+          "あつに",
+          "あついで"
+        ],
+        "hint": "い-adjective: drop い and add く (暑くなります)"
+      },
+      {
+        "prompt": "短い (みじかい)",
+        "form": "Becoming form (～なります)",
+        "answer": "みじかく",
+        "options": [
+          "みじかく",
+          "みじかに",
+          "みじかいで"
+        ],
+        "hint": "い-adjective: drop い and add く (短くなります)"
+      },
+      {
+        "prompt": "いい (Good)",
+        "form": "Becoming form (～なります)",
+        "answer": "よく",
+        "options": [
+          "よく",
+          "いく",
+          "いいに"
+        ],
+        "hint": "Irregular adjective: いい always conjugates from よい → よく なります"
+      },
+      {
+        "prompt": "静か (しずか)",
+        "form": "Becoming form (～なります)",
+        "answer": "しずかに",
+        "options": [
+          "しずかに",
+          "しずかく",
+          "しずかで"
+        ],
+        "hint": "な-adjective: add に (静かになります)"
+      },
+      {
+        "prompt": "元気 (げんき)",
+        "form": "Becoming form (～なります)",
+        "answer": "げんきに",
+        "options": [
+          "げんきに",
+          "げんきく",
+          "げんきで"
+        ],
+        "hint": "な-adjective: add に (元気になります)"
+      },
+      {
+        "prompt": "きれい (Pretty/Clean)",
+        "form": "Becoming form (～なります)",
+        "answer": "きれいに",
+        "options": [
+          "きれいに",
+          "きれいく",
+          "きれいで"
+        ],
+        "hint": "な-adjective: add に (きれいになります)"
+      },
+      {
+        "prompt": "夏 (なつ)",
+        "form": "Becoming form (～なります)",
+        "answer": "なつに",
+        "options": [
+          "なつに",
+          "なつく",
+          "なつで"
+        ],
+        "hint": "Noun: add に (夏になります)"
+      },
+      {
+        "prompt": "冬 (ふゆ)",
+        "form": "Becoming form (～なります)",
+        "answer": "ふゆに",
+        "options": [
+          "ふゆに",
+          "ふゆく",
+          "ふゆで"
+        ],
+        "hint": "Noun: add に (冬になります)"
+      },
+      {
+        "prompt": "25歳 (にじゅうごさい)",
+        "form": "Becoming form (～なります)",
+        "answer": "にじゅうごさいに",
+        "options": [
+          "にじゅうごさいに",
+          "にじゅうごさいく",
+          "にじゅうごさいで"
+        ],
+        "hint": "Noun: add に (25歳になります)"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "富士山 [ ? ] 登ったことがあります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "Climbing a mountain uses the target particle に (山に登ります)."
+      },
+      {
+        "sentence": "友達の家 [ ? ] 泊まりました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "へ"
+        ],
+        "hint": "Staying overnight at a lodging takes に (ホテルに泊まります)."
+      },
+      {
+        "sentence": "ゴルフをしたこと [ ? ] あります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "The grammatical experience pattern requires が: [Verb-た] ことがあります."
+      },
+      {
+        "sentence": "相撲を見たこと [ ? ] ありません。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "Negative experience uses が ありません (相撲を見たことがありません)."
+      },
+      {
+        "sentence": "日本酒 [ ? ] 一度も飲んだことがありません。",
+        "answer": "を",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "で"
+        ],
+        "hint": "The direct object of the verb 飲みます takes を."
+      },
+      {
+        "sentence": "今日は風 [ ? ] 強いです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Describing natural phenomena / weather features takes が (風が強いです)."
+      },
+      {
+        "sentence": "冬は日 [ ? ] 短くなります。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "The subject undergoing the change takes が (日が短くなります)."
+      },
+      {
+        "sentence": "体の調子 [ ? ] いいです。",
+        "answer": "が",
+        "options": [
+          "が",
+          "は",
+          "を",
+          "に"
+        ],
+        "hint": "Condition description: 体の調子がいいです."
+      },
+      {
+        "sentence": "もうすぐ夏 [ ? ] なります。",
+        "answer": "に",
+        "options": [
+          "に",
+          "が",
+          "を",
+          "で"
+        ],
+        "hint": "A noun undergoing state change attaches to になります."
+      },
+      {
+        "sentence": "昨日25歳 [ ? ] なりました。",
+        "answer": "に",
+        "options": [
+          "に",
+          "が",
+          "を",
+          "で"
+        ],
+        "hint": "Age changes attach to に (25歳になりました)."
+      },
+      {
+        "sentence": "納豆 [ ? ] 好きになりました。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "に"
+        ],
+        "hint": "The object of 好き takes が (納豆が好きになりました)."
+      },
+      {
+        "sentence": "3時 [ ? ] 洗濯したり、お金を下ろしたりしなければなりません。",
+        "answer": "までに",
+        "options": [
+          "までに",
+          "まで",
+          "から",
+          "に"
+        ],
+        "hint": "A deadline by which an action must be completed takes までに."
+      },
+      {
+        "sentence": "日本でおいしい食べ物を食べたり、温泉 [ ? ] 入ったりしたいです。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "hint": "Entering a bath/onsen takes に (温泉に入ります)."
+      },
+      {
+        "sentence": "部屋 [ ? ] 掃除します。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "The direct object of 掃除します takes を."
+      },
+      {
+        "sentence": "週 [ ? ] 2回、洗濯します。",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "hint": "Frequency per time unit takes に (週に2回)."
+      },
+      {
+        "sentence": "友達 [ ? ] ゴルフの練習をします。",
+        "answer": "と",
+        "options": [
+          "と",
+          "に",
+          "で",
+          "を"
+        ],
+        "hint": "Doing an action together with someone takes と."
+      },
+      {
+        "sentence": "ビール [ ? ] 乾杯しましょう！",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "と"
+        ],
+        "hint": "Means/tool for a toast takes で (ビールで乾杯)."
+      },
+      {
+        "sentence": "おかげさま [ ? ] 元気になりました。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "が"
+        ],
+        "hint": "The set expression is おかげさまで."
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Asking about past experiences",
+        "speaker": "友達",
+        "prompt": "富士山に登ったことがありますか？",
+        "options": [
+          {
+            "text": "はい、一度登ったことがあります。",
+            "correct": true
+          },
+          {
+            "text": "はい、一度登りますがあります。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、一度登りました。",
+            "correct": false
+          }
+        ],
+        "tip": "Use Verb (た-form) + ことがあります to confirm past experience."
+      },
+      {
+        "situation": "Asking if you have tried something",
+        "speaker": "同僚",
+        "prompt": "日本酒を飲んだことがありますか？",
+        "options": [
+          {
+            "text": "いいえ、一度も飲んだことがありません。",
+            "correct": true
+          },
+          {
+            "text": "いいえ、一度も飲みませんことがあります。",
+            "correct": false
+          },
+          {
+            "text": "はい、一度も飲みました。",
+            "correct": false
+          }
+        ],
+        "tip": "Combine 一度も with 飲んだことがありません to emphasize 'never, not even once'."
+      },
+      {
+        "situation": "Weekend plans with representative actions",
+        "speaker": "友達",
+        "prompt": "今週末は何をしますか？",
+        "options": [
+          {
+            "text": "友達と遊んだり、日本語を勉強したりします。",
+            "correct": true
+          },
+          {
+            "text": "友達と遊ぶたり、日本語を勉強するたりします。",
+            "correct": false
+          },
+          {
+            "text": "友達と遊んで、日本語を勉強したりします。",
+            "correct": false
+          }
+        ],
+        "tip": "List representative actions by appending り to the た-form: 遊んだり、勉強したりします."
+      },
+      {
+        "situation": "Asking about activities after work",
+        "speaker": "同僚",
+        "prompt": "仕事の後に、何をしたりしますか？",
+        "options": [
+          {
+            "text": "家を掃除したり、洗濯したりします。",
+            "correct": true
+          },
+          {
+            "text": "家を掃除して、洗濯したりします。",
+            "correct": false
+          },
+          {
+            "text": "家を掃除した、洗濯したします。",
+            "correct": false
+          }
+        ],
+        "tip": "When asked with 何をしたりしますか, reply with the ～たり、～たりします pattern."
+      },
+      {
+        "situation": "Asking about song familiarity",
+        "speaker": "友達",
+        "prompt": "この曲を聞いたことがありますか？",
+        "options": [
+          {
+            "text": "はい、あります。",
+            "correct": true
+          },
+          {
+            "text": "はい、聞きます。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、聞きました。",
+            "correct": false
+          }
+        ],
+        "tip": "Short answers to ～たことがありますか are 『はい、あります』 or 『いいえ、ありません』."
+      },
+      {
+        "situation": "Responding to a partner's desire to become beautiful",
+        "speaker": "彼女",
+        "prompt": "私、もっときれいになりたいです。",
+        "options": [
+          {
+            "text": "そのままできれいだよ。",
+            "correct": true
+          },
+          {
+            "text": "うん、がんばって！",
+            "correct": false
+          },
+          {
+            "text": "きれいくなりましたね。",
+            "correct": false
+          }
+        ],
+        "tip": "Takashi's dating tip: 『そのままできれいだよ』 ('You're beautiful just the way you are') will make her fall in love all over again!"
+      },
+      {
+        "situation": "Inquiring about someone's recovery",
+        "speaker": "同僚",
+        "prompt": "お腹の調子はどうですか？",
+        "options": [
+          {
+            "text": "おかげさまで、よくなりました。",
+            "correct": true
+          },
+          {
+            "text": "おかげさまで、い＜なりました。",
+            "correct": false
+          },
+          {
+            "text": "いいになりました。",
+            "correct": false
+          }
+        ],
+        "tip": "Never conjugate いい directly. Always use よい → よくなりました."
+      },
+      {
+        "situation": "Offering tea to a guest",
+        "speaker": "ホスト",
+        "prompt": "お茶はいかがですか？",
+        "options": [
+          {
+            "text": "ありがとうございます。いただきます。",
+            "correct": true
+          },
+          {
+            "text": "お茶になりたいです。",
+            "correct": false
+          },
+          {
+            "text": "お茶をしたことがあります。",
+            "correct": false
+          }
+        ],
+        "tip": "Accept an offer of hospitality politely with 『ありがとうございます。いただきます』."
+      },
+      {
+        "situation": "Talking about the changing weather",
+        "speaker": "友達",
+        "prompt": "最近、天気が変わりましたね。",
+        "options": [
+          {
+            "text": "ええ、だんだん寒くなりましたね。",
+            "correct": true
+          },
+          {
+            "text": "ええ、だんだん寒いになりましたね。",
+            "correct": false
+          },
+          {
+            "text": "ええ、だんだん寒いでなりましたね。",
+            "correct": false
+          }
+        ],
+        "tip": "い-adjective + なります: 寒い → 寒くなります / 寒くなりました."
+      },
+      {
+        "situation": "Discussing sports experience",
+        "speaker": "友達",
+        "prompt": "相撲を見たことがありますか？",
+        "options": [
+          {
+            "text": "いいえ、一度も見たことがありません。",
+            "correct": true
+          },
+          {
+            "text": "はい、一度も見ました。",
+            "correct": false
+          },
+          {
+            "text": "いいえ、見たいことがあります。",
+            "correct": false
+          }
+        ],
+        "tip": "Negative experience: 一度も + 見たことがありません."
+      },
+      {
+        "situation": "Describing yesterday's chores",
+        "speaker": "友達",
+        "prompt": "昨日は何をしましたか？",
+        "options": [
+          {
+            "text": "部屋を掃除したり、洗濯したりしました。",
+            "correct": true
+          },
+          {
+            "text": "部屋を掃除したり、洗濯したりします。",
+            "correct": false
+          },
+          {
+            "text": "部屋を掃除した、洗濯したでした。",
+            "correct": false
+          }
+        ],
+        "tip": "When recounting past representative actions, place the past tense in the final verb: しました."
+      },
+      {
+        "situation": "Expressing desire regarding travel in Japan",
+        "speaker": "旅行者",
+        "prompt": "日本で何がしたいですか？",
+        "options": [
+          {
+            "text": "おいしい料理を食べたり、温泉に入ったりしたいです。",
+            "correct": true
+          },
+          {
+            "text": "おいしい料理を食べて、温泉に入ったりします。",
+            "correct": false
+          },
+          {
+            "text": "おいしい料理を食べたいり、温泉に入りたいりです。",
+            "correct": false
+          }
+        ],
+        "tip": "Express representative desires by attaching したいです to the end: ～たり、～たりしたいです."
+      }
+    ]
+  }
+}

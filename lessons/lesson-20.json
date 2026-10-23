@@ -1,0 +1,2036 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "number": 20,
+    "title": "Plain Style and Casual Speech",
+    "edition": "Minna no Nihongo I · 2nd edition",
+    "level": "Beginner / N5",
+    "objective": "Master the casual/plain style (普通体): conjugating verbs, い-adjectives, な-adjectives, and nouns across non-past and past tenses; asking casual questions using rising intonation without 'か'; omitting 'だ' and particles naturally in conversation; and using informal pronouns and conversational expressions (僕, 君, うん, ううん, ～けど, こっち/そっち/あっち/どっち)."
+  },
+  "vocabulary": [
+    {
+      "id": "irimasu",
+      "kanji": "要ります",
+      "kana": "いります",
+      "romaji": "irimasu",
+      "meaning": "to need; to require",
+      "category": "verb",
+      "example": {
+        "kanji": "チケットが要ります。",
+        "kana": "チケットが いります。",
+        "translation": "You need a ticket."
+      }
+    },
+    {
+      "id": "shirabemasu",
+      "kanji": "調べます",
+      "kana": "しらべます",
+      "romaji": "shirabemasu",
+      "meaning": "to check; to investigate; to look up",
+      "category": "verb",
+      "example": {
+        "kanji": "電話番号を調べます。",
+        "kana": "でんわばんごうを しらべます。",
+        "translation": "I look up a phone number."
+      }
+    },
+    {
+      "id": "shuuri",
+      "kanji": "修理",
+      "kana": "しゅうり",
+      "romaji": "shuuri",
+      "meaning": "repair",
+      "category": "noun",
+      "example": {
+        "kanji": "自転車の修理をします。",
+        "kana": "じてんしゃの しゅうりを します。",
+        "translation": "I will do bicycle repairs."
+      }
+    },
+    {
+      "id": "shuurishimasu",
+      "kanji": "修理します",
+      "kana": "しゅうりします",
+      "romaji": "shuurishimasu",
+      "meaning": "to repair; to fix",
+      "category": "verb",
+      "example": {
+        "kanji": "自転車を修理します。",
+        "kana": "じてんしゃを しゅうりします。",
+        "translation": "I repair a bicycle."
+      }
+    },
+    {
+      "id": "boku",
+      "kanji": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "meaning": "I; me (used mainly by men in formal or casual settings)",
+      "category": "pronoun",
+      "example": {
+        "kanji": "僕は車がない。",
+        "kana": "ぼくは くるまが ない。",
+        "translation": "I don't have a car."
+      }
+    },
+    {
+      "id": "kimi",
+      "kanji": "君",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "meaning": "you (informal equivalent of あなた, used to equals or juniors)",
+      "category": "pronoun",
+      "example": {
+        "kanji": "君も一緒に行く？",
+        "kana": "きみも いっしょに いく？",
+        "translation": "Are you coming along too?"
+      }
+    },
+    {
+      "id": "un",
+      "kanji": "うん",
+      "kana": "うん",
+      "romaji": "un",
+      "meaning": "yes (informal equivalent of はい)",
+      "category": "expression",
+      "example": {
+        "kanji": "うん、行く。",
+        "kana": "うん、いく。",
+        "translation": "Yeah, I'll go."
+      }
+    },
+    {
+      "id": "uun",
+      "kanji": "ううん",
+      "kana": "ううん",
+      "romaji": "uun",
+      "meaning": "no (informal equivalent of いいえ)",
+      "category": "expression",
+      "example": {
+        "kanji": "ううん、行かない。",
+        "kana": "ううん、いかない。",
+        "translation": "No, I'm not going."
+      }
+    },
+    {
+      "id": "kotoba",
+      "kanji": "ことば / 言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "meaning": "word; language",
+      "category": "noun",
+      "example": {
+        "kanji": "このことばの意味が分かりますか？",
+        "kana": "この ことばの いみが わかりますか？",
+        "translation": "Do you understand the meaning of this word?"
+      }
+    },
+    {
+      "id": "kimono",
+      "kanji": "着物",
+      "kana": "きもの",
+      "romaji": "kimono",
+      "meaning": "kimono (traditional Japanese attire)",
+      "category": "noun",
+      "example": {
+        "kanji": "着物を着たことがある？",
+        "kana": "きものを きた ことが ある？",
+        "translation": "Have you worn a kimono before?"
+      }
+    },
+    {
+      "id": "biza",
+      "kanji": "ビザ",
+      "kana": "ビザ",
+      "romaji": "biza",
+      "meaning": "visa",
+      "category": "noun",
+      "example": {
+        "kanji": "日本に行く前にビザを取らなければなりません。",
+        "kana": "にほんに いく まえに ビザを とらなければ なりません。",
+        "translation": "I need to obtain a visa before going to Japan."
+      }
+    },
+    {
+      "id": "hajime",
+      "kanji": "初め",
+      "kana": "はじめ",
+      "romaji": "hajime",
+      "meaning": "the beginning",
+      "category": "noun",
+      "example": {
+        "kanji": "来月の初めに日本へ行きます。",
+        "kana": "らいげつの はじめに にほんへ いきます。",
+        "translation": "I will go to Japan at the beginning of next month."
+      }
+    },
+    {
+      "id": "owari",
+      "kanji": "終わり",
+      "kana": "おわり",
+      "romaji": "owari",
+      "meaning": "the end",
+      "category": "noun",
+      "example": {
+        "kanji": "8月の終わりに家へ帰ります。",
+        "kana": "はちがつの おわりに うちへ かえります。",
+        "translation": "I will go home at the end of August."
+      }
+    },
+    {
+      "id": "kocchi",
+      "kanji": "こっち",
+      "kana": "こっち",
+      "romaji": "kocchi",
+      "meaning": "this way; this place (informal equivalent of こちら)",
+      "category": "expression",
+      "example": {
+        "kanji": "こっちに来て。",
+        "kana": "こっちに きて。",
+        "translation": "Come this way. / Come over here."
+      }
+    },
+    {
+      "id": "socchi",
+      "kanji": "そっち",
+      "kana": "そっち",
+      "romaji": "socchi",
+      "meaning": "that way; that place (informal equivalent of そちら)",
+      "category": "expression",
+      "example": {
+        "kanji": "そっちに行かないで。",
+        "kana": "そっちに いかないで。",
+        "translation": "Don't go that way."
+      }
+    },
+    {
+      "id": "acchi",
+      "kanji": "あっち",
+      "kana": "あっち",
+      "romaji": "acchi",
+      "meaning": "that way; that place over there (informal equivalent of あちら)",
+      "category": "expression",
+      "example": {
+        "kanji": "富士山はあっちだよ。",
+        "kana": "ふじさんは あっちだよ。",
+        "translation": "Mt. Fuji is that way."
+      }
+    },
+    {
+      "id": "docchi",
+      "kanji": "どっち",
+      "kana": "どっち",
+      "romaji": "docchi",
+      "meaning": "which way; which one (informal equivalent of どちら)",
+      "category": "expression",
+      "example": {
+        "kanji": "バスと電車と、どっちが速い？",
+        "kana": "バスと でんしゃと、どっちが はやい？",
+        "translation": "Which is faster, the bus or the train?"
+      }
+    },
+    {
+      "id": "minnade",
+      "kanji": "みんなで",
+      "kana": "みんなで",
+      "romaji": "minnade",
+      "meaning": "all together; with everyone",
+      "category": "expression",
+      "example": {
+        "kanji": "みんなでこのフライドポテトをシェアしない？",
+        "kana": "みんなで この フライドポテトを シェア しない？",
+        "translation": "Why don't we share these french fries with everyone?"
+      }
+    },
+    {
+      "id": "kedo",
+      "kanji": "～けど",
+      "kana": "～けど",
+      "romaji": "~kedo",
+      "meaning": "~, but (informal equivalent of が)",
+      "category": "expression",
+      "example": {
+        "kanji": "旅行に行きたいけど、お金がない。",
+        "kana": "りょこうに いきたいけど、おかねが ない。",
+        "translation": "I want to go on a trip, but I don't have money."
+      }
+    },
+    {
+      "id": "onaka-ga-ippai",
+      "kanji": "お腹がいっぱい",
+      "kana": "おなかが いっぱい",
+      "romaji": "onaka ga ippai",
+      "meaning": "full (stomach)",
+      "category": "expression",
+      "example": {
+        "kanji": "一口いる？ — ううん、お腹がいっぱい。",
+        "kana": "ひとくち いる？ — ううん、おなかが いっぱい。",
+        "translation": "Do you want a bite? — No, I'm full."
+      }
+    },
+    {
+      "id": "yokattara",
+      "kanji": "よかったら",
+      "kana": "よかったら",
+      "romaji": "yokattara",
+      "meaning": "if you like; if it's okay with you",
+      "category": "expression",
+      "example": {
+        "kanji": "よかったら一緒に映画を見ない？",
+        "kana": "よかったら いっしょに えいがを みない？",
+        "translation": "Why don't we watch a movie together if you like?"
+      }
+    },
+    {
+      "id": "iroiro",
+      "kanji": "色々",
+      "kana": "いろいろ",
+      "romaji": "iroiro",
+      "meaning": "various; variously",
+      "category": "adjective",
+      "example": {
+        "kanji": "日本の色々な所へ行きました。",
+        "kana": "にほんの いろいろな ところへ いきました。",
+        "translation": "I went to various places in Japan."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Polite Style (丁寧体) vs. Plain Style (普通体)",
+      "explanation": "Japanese has two fundamental speech styles: (1) Polite Style (丁寧体 / ていねいたい): Sentences end in です or ます. Used when talking to superiors, elders, business clients, strangers, or people you do not know well. (2) Plain Style (普通体 / ふつうたい): Sentences end in the plain form. Used with close friends (same age or younger), family members, small children, and in written publications (diaries, newspaper articles, academic papers). Rule of thumb: If speaking to someone older, stick to the polite style unless you share a very close bond. Crucial note: Even if you always speak politely, you MUST master the plain form because advanced polite grammar structures embed plain forms inside them (e.g., Lesson 21: 『～と思います』).",
+      "examples": [
+        {
+          "kanji": "毎朝5時に起きます。(丁寧体) → 毎朝5時に起きる。(普通体)",
+          "kana": "まいあさ ごじに おきます。 → まいあさ ごじに おきる。",
+          "translation": "I wake up at 5 every morning. (Polite → Plain)"
+        },
+        {
+          "kanji": "カレーはおいしくなかったです。(丁寧体) → カレーはおいしくなかった。(普通体)",
+          "kana": "カレーは おいしくなかったです。 → カレーは おいしくなかった。",
+          "translation": "The curry wasn't delicious. (Polite → Plain)"
+        },
+        {
+          "kanji": "このエリアは静かじゃありません。(丁寧体) → このエリアは静かじゃない。(普通体)",
+          "kana": "この エリアは しずかじゃ ありません。 → この エリアは しずかじゃない。",
+          "translation": "This area is not quiet. (Polite → Plain)"
+        },
+        {
+          "kanji": "私は去年まで大学生でした。(丁寧体) → 私は去年まで大学生だった。(普通体)",
+          "kana": "わたしは きょねんまで だいがくせいでした。 → わたしは きょねんまで だいがくせいだった。",
+          "translation": "I was a college student until last year. (Polite → Plain)"
+        }
+      ]
+    },
+    {
+      "pattern": "Verb Plain Forms (動詞の普通形)",
+      "explanation": "To speak in the plain style, replace ます/ません/ました/ませんでした with the corresponding short form: (1) Non-past Affirmative: Dictionary form (辞書形, Lesson 18) — 行きます → 行く. (2) Non-past Negative: ない-form (Lesson 17) — 行きません → 行かない. (3) Past Affirmative: た-form (Lesson 19) — 行きました → 行った. (4) Past Negative: ない-form with the final い replaced by かった (conjugates like an い-adjective!) — 行きませんでした → 行かなかった (行かない → 行かなかった).",
+      "examples": [
+        {
+          "kanji": "明日東京に行く。(明日東京行く)",
+          "kana": "あした とうきょうに いく。(あした とうきょう いく)",
+          "translation": "I will go to Tokyo tomorrow."
+        },
+        {
+          "kanji": "アニメを全然見ない。(アニメ全然見ない)",
+          "kana": "アニメを ぜんぜん みない。(アニメ ぜんぜん みない)",
+          "translation": "I don't watch anime at all."
+        },
+        {
+          "kanji": "昨日雨が降った。(昨日雨降った)",
+          "kana": "きのう あめが ふった。(きのう あめ ふった)",
+          "translation": "It rained yesterday."
+        },
+        {
+          "kanji": "朝ご飯を食べなかった。(朝ご飯食べなかった)",
+          "kana": "あさごはんを たべなかった。(あさごはん たべなかった)",
+          "translation": "I didn't eat breakfast."
+        }
+      ]
+    },
+    {
+      "pattern": "Special Verb: あります in the Plain Form",
+      "explanation": "The verb あります (to exist / to have, inanimate objects) has unique irregular plain negative forms: (1) Affirmative Non-past: ある. (2) Negative Non-past: ない (WATCH OUT: Never say あらない!). (3) Affirmative Past: あった. (4) Negative Past: なかった (WATCH OUT: Never say あらなかった!). This rule also directly applies to the experience grammar pattern 『～たことがあります』, which becomes 『～たことがある』 (neg: 『～たことがない』, past neg: 『～たことがなかった』).",
+      "examples": [
+        {
+          "kanji": "机の上に本がある。",
+          "kana": "つくえの うえに ほんが ある。",
+          "translation": "There is a book on the desk."
+        },
+        {
+          "kanji": "僕は車がない。/ 私は車がない。",
+          "kana": "ぼくは くるまが ない。/ わたしは くるまが ない。",
+          "translation": "I don't have a car. (Notice ありません becomes ない)"
+        },
+        {
+          "kanji": "冷蔵庫に牛乳があった。",
+          "kana": "れいぞうこに ぎゅうにゅうが あった。",
+          "translation": "There was milk in the fridge."
+        },
+        {
+          "kanji": "ごめん、時間がなかった。",
+          "kana": "ごめん、じかんが なかった。",
+          "translation": "Sorry, I didn't have time. (Notice ありませんでした becomes なかった)"
+        },
+        {
+          "kanji": "テニスをしたことがある。",
+          "kana": "テニスを した ことが ある。",
+          "translation": "I have played tennis before."
+        },
+        {
+          "kanji": "日本に行ったことがない。",
+          "kana": "にほんに いった ことが ない。",
+          "translation": "I have never been to Japan."
+        },
+        {
+          "kanji": "去年まで日本に行ったことがなかった。",
+          "kana": "きょねんまで にほんに いった ことが なかった。",
+          "translation": "I had never been to Japan until last year."
+        }
+      ]
+    },
+    {
+      "pattern": "い-Adjective & Auxiliary (~たい / 欲しい) Plain Forms",
+      "explanation": "To make い-adjectives plain, simply DROP the final です! (1) Non-past Affirmative: 暑いです → 暑い. (2) Non-past Negative: 暑くないです (or 暑くありません) → 暑くない. (3) Past Affirmative: 暑かったです → 暑かった. (4) Past Negative: 暑くなかったです (or 暑くありませんでした) → 暑くなかった. Note: This identical conjugation pattern applies to auxiliary adjective expressions like 『～たい』 (want to do) and 『欲しい』 (want [noun]).",
+      "examples": [
+        {
+          "kanji": "日本語は難しい。(日本語難しい)",
+          "kana": "にほんごは むずかしい。(にほんご むずかしい)",
+          "translation": "Japanese is difficult."
+        },
+        {
+          "kanji": "今日はあまり寒くない。(今日あまり寒くない)",
+          "kana": "きょうは あまり さむくない。(きょう あまり さむくない)",
+          "translation": "It's not that cold today."
+        },
+        {
+          "kanji": "AはBよりよかった。(A、Bよりよかった)",
+          "kana": "Aは Bより よかった。(A、Bより よかった)",
+          "translation": "A was better than B."
+        },
+        {
+          "kanji": "映画は面白くなかった。(映画面白くなかった)",
+          "kana": "えいがは おもしろくなかった。(えいが おもしろくなかった)",
+          "translation": "The movie was not interesting."
+        },
+        {
+          "kanji": "車が欲しい。(車欲しい)",
+          "kana": "くるまが ほしい。(くるま ほしい)",
+          "translation": "I want a car."
+        },
+        {
+          "kanji": "彼女が欲しくない。(彼女欲しくない)",
+          "kana": "かのじょが ほしくない。(かのじょ ほしくない)",
+          "translation": "I don't want a girlfriend."
+        },
+        {
+          "kanji": "日本に行きたい。(日本行きたい)",
+          "kana": "にほんに いきたい。(にほん いきたい)",
+          "translation": "I want to go to Japan."
+        },
+        {
+          "kanji": "食べたくなかった。",
+          "kana": "たべたくなかった。",
+          "translation": "I didn't want to eat."
+        }
+      ]
+    },
+    {
+      "pattern": "な-Adjectives & Nouns in Plain Style: The Rule of 『だ』",
+      "explanation": "な-adjectives and Nouns follow the exact same conjugation: (1) Non-past Affirmative: です → だ (静かだ / 雨だ). (2) Non-past Negative: じゃないです → じゃない (静かじゃない / 雨じゃない). (3) Past Affirmative: でした → だった (静かだった / 雨だった). (4) Past Negative: じゃなかったです → じゃなかった (静かじゃなかった / 雨じゃなかった). CRITICAL TIP FROM TAKASHI: In spoken casual conversation, ending a statement with bare 『だ』 sounds overly assertive, forceful, or unnaturally stiff. Native speakers usually: [A] Omit 『だ』 entirely (桜はきれい / 明日雨). [B] Soften with particles like よ or ね (きれいだよ / きれいだね / 明日雨だよ). EXCEPTION: For nouns, bare 『だ』 is natural when you spontaneously notice or discover something on the spot (self-directed speech): 『あ、雨だ！』 ('Oh, it's raining!').",
+      "examples": [
+        {
+          "kanji": "桜はきれい。(桜はきれいだよ / 桜はきれいだね)",
+          "kana": "さくらは きれい。(さくらは きれいだよ / さくらは きれいだね)",
+          "translation": "Cherry blossoms are beautiful. (だ is omitted or followed by よ/ね)"
+        },
+        {
+          "kanji": "辛い食べ物が好きじゃない。(辛い食べ物好きじゃない)",
+          "kana": "からい たべものが すきじゃない。(からい たべもの すきじゃない)",
+          "translation": "I don't like spicy food."
+        },
+        {
+          "kanji": "僕の母は昔きれいだった。(僕のお母さん昔きれいだった)",
+          "kana": "ぼくの ははは むかし きれいだった。(ぼくの おかあさん むかし きれいだった)",
+          "translation": "My mom was beautiful in the past. (Casually, お母さん can refer to one's own mother)"
+        },
+        {
+          "kanji": "昨日は暇じゃなかった。(昨日暇じゃなかった)",
+          "kana": "きのうは ひまじゃなかった。(きのう ひまじゃなかった)",
+          "translation": "I wasn't free yesterday."
+        },
+        {
+          "kanji": "あ、雨だ！",
+          "kana": "あ、あめだ！",
+          "translation": "Oh, it's raining! (Spontaneous discovery uses bare だ naturally)"
+        },
+        {
+          "kanji": "昨日は仕事だった。(昨日仕事だった)",
+          "kana": "きのうは しごとだった。(きのう しごとだった)",
+          "translation": "I worked yesterday (Yesterday was work)."
+        },
+        {
+          "kanji": "今日は木曜日じゃない。(今日木曜日じゃない)",
+          "kana": "きょうは もくようびじゃない。(きょう もくようびじゃない)",
+          "translation": "Today isn't Thursday."
+        },
+        {
+          "kanji": "昨日は仕事じゃなかった。(昨日仕事じゃなかった)",
+          "kana": "きのうは しごとじゃなかった。(きのう しごとじゃなかった)",
+          "translation": "I didn't work yesterday."
+        }
+      ]
+    },
+    {
+      "pattern": "Asking Questions in Plain Style (普通体の質問)",
+      "explanation": "In polite speech, questions are formed with か (行きますか？). In plain style everyday conversation: (1) We almost NEVER use か at the end of a question (e.g., 行くか？ sounds blunt, aggressive, or harsh). (2) Instead, OMIT か and RAISE the pitch at the end with rising intonation (e.g., 行く？↗ / 行かない？↗ / 行った？↗). (3) FOR な-ADJECTIVES AND NOUNS: NEVER say 『だ？』! Always drop 『だ』 and raise the pitch (✕ 元気だ？ → ○ 元気？↗; ✕ 雨だ？ → ○ 雨？↗). (4) To answer: say 『うん』 for yes, 『ううん』 for no.",
+      "examples": [
+        {
+          "kanji": "今日ジムに行く？ — うん、行く。 / ううん、行かない。",
+          "kana": "きょう ジムに いく？ — うん、いく。 / ううん、いかない。",
+          "translation": "Are you going to the gym today? — Yeah, I'll go. / No, I won't go."
+        },
+        {
+          "kanji": "元気？ — うん、元気。 / うん、元気だよ。",
+          "kana": "げんき？ — うん、げんき。 / うん、げんきだよ。",
+          "translation": "Are you well? (How are you doing?) — Yeah, I'm well."
+        },
+        {
+          "kanji": "明日雨？ — うん、雨だよ。 / ううん、雨じゃないよ。",
+          "kana": "あした あめ？ — うん、あめだよ。 / ううん、あめじゃないよ。",
+          "translation": "Will it rain tomorrow? (だ dropped) — Yeah, it will. / No, it won't."
+        },
+        {
+          "kanji": "普段スポーツする？ — うん、よくバスケするよ。",
+          "kana": "ふだん スポーツ する？ — うん、よく バスケ するよ。",
+          "translation": "Do you normally play sports? — Yeah, I often play basketball."
+        },
+        {
+          "kanji": "車の鍵はどこ？ — テーブルの上だよ。",
+          "kana": "くるまの かぎは どこ？ — テーブルの うえだよ。",
+          "translation": "Where is the car key? — It's on the table."
+        },
+        {
+          "kanji": "カレーはどうだった？ — 美味しかったけど、辛かった。",
+          "kana": "カレーは どうだった？ — おいしかったけど、からかった。",
+          "translation": "How was the curry? — It was good, but it was spicy."
+        }
+      ]
+    },
+    {
+      "pattern": "Converting Previous Verb Patterns to Plain Style",
+      "explanation": "Grammar patterns from Lessons 13–19 convert into plain style by replacing their polite endings: (1) ～てください → ～て (食べてください → 食べて). (2) ～ないでください → ～ないで (行かないでください → 行かないで). (3) ～てもいいですか → ～てもいい？ (食べてもいい？). (4) ～なくてもいいです → ～なくてもいい. (5) ～てはいけません → ～てはいけない. (6) ～なければなりません → ～なければならない. (7) ～ています → ～ている (SPOKEN CONTRACTION: the い is almost always dropped in casual speech: 食べている → 食べてる, 寝ていた → 寝てた, 何をしている？ → 何してる？). (8) ～ことができます → ～ことができる. (9) ～たり～たりします → ～たり～たりする.",
+      "examples": [
+        {
+          "kanji": "今何してる？ — 寝てた。(寝ていた)",
+          "kana": "いま なに してる？ — ねてた。(ねていた)",
+          "translation": "What are you doing now? — I was sleeping. (Notice い is dropped)"
+        },
+        {
+          "kanji": "これを食べてもいい？ — うん、いいよ。",
+          "kana": "これを たべても いい？ — うん、いいよ。",
+          "translation": "Can I eat this? — Yeah, you can."
+        },
+        {
+          "kanji": "着物を着たことがある？ — ううん、ない。",
+          "kana": "きものを きた ことが ある？ — ううん、ない。",
+          "translation": "Have you worn a kimono before? — No, I haven't."
+        },
+        {
+          "kanji": "無理をしないでね。",
+          "kana": "むりを しないでね。",
+          "translation": "Don't push yourself too hard. (From ～ないでください)"
+        }
+      ]
+    },
+    {
+      "pattern": "Conversational Nuances: Pronouns, Demonstratives, and Particle Omission",
+      "explanation": "Casual Japanese features frequent omissions and colloquial terms: (1) Pronouns: Men use 私 (formal), 僕 (polite/casual, friendly and approachable), and 俺 (casual, masculine/tough). Women use 私 (universal) or casually あたし/うち. 君 (you) is informal and used toward equals/juniors, but it is far more common in Japanese to omit 'you' or use the listener's name. (2) Demonstratives: こちら/そちら/あちら/どちら become こっち/そっち/あっち/どっち. (3) Particle Omission: Grammatical particles like は, が, and を are routinely omitted when the meaning is obvious (明日東京行く, 車欲しい, カレーどうだった？). (4) Disjunctive ～けど: Replaces が to connect clauses with 'but' or provide background (旅行に行きたいけど、お金がない).",
+      "examples": [
+        {
+          "kanji": "こっちに来て、一緒に食べない？",
+          "kana": "こっちに きて、いっしょに たべない？",
+          "translation": "Come over here, won't you eat with me?"
+        },
+        {
+          "kanji": "そっちの天気はどう？ — こっちは雨だよ。",
+          "kana": "そっちの てんきは どう？ — こっちは あめだよ。",
+          "translation": "How's the weather where you are? — It's raining here."
+        },
+        {
+          "kanji": "富士山はあっちだよ。",
+          "kana": "ふじさんは あっちだよ。",
+          "translation": "Mt. Fuji is over that way."
+        },
+        {
+          "kanji": "肉と魚、どっちが好き？",
+          "kana": "にくと さかな、どっちが すき？",
+          "translation": "Meat and fish, which do you like? (Particles と and が omitted)"
+        },
+        {
+          "kanji": "よかったら、みんなでこのフライドポテトをシェアしない？",
+          "kana": "よかったら、みんなで この フライドポテトを シェア しない？",
+          "translation": "If you like, why don't we share these french fries with everyone?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "週末の予定とビザの話 (Weekend Plans and Visa Chat)",
+    "lines": [
+      {
+        "speaker": "ケン",
+        "kanji": "たかし、今何してる？今週末、暇？",
+        "kana": "たかし、いま なに してる？ こんしゅうまつ、ひま？"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "自転車を修理してるよ。今週末？うん、特に予定はないよ。",
+        "kana": "じてんしゃを しゅうり してるよ。こんしゅうまつ？ うん、とくに よていは ないよ。"
+      },
+      {
+        "speaker": "ケン",
+        "kanji": "よかったら、あっちの新しいカレー屋に行かない？おいしいらしいよ。",
+        "kana": "よかったら、あっちの あたらしい カレーやに いかない？ おいしいらしいよ。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "いいね、行こう！あ、でも来月の初めに日本へ旅行に行くから、ビザについて調べなければならないんだ。",
+        "kana": "いいね、いこう！ あ、でも らいげつの はじめに にほんへ りょこうに いくから、ビザについて しらべなければ ならないんだ。"
+      },
+      {
+        "speaker": "ケン",
+        "kanji": "そうなんだ。日本に行く時、ビザがいる？",
+        "kana": "そうなんだ。にほんに いく とき、ビザが いる？"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "うん、僕の国からはビザが要るよ。インターネットで調べたけど、ちょっと複雑だった。",
+        "kana": "うん、ぼくの くにからは ビザが いるよ。インターネットで しらべたけど、ちょっと ふくざつだった。"
+      },
+      {
+        "speaker": "ケン",
+        "kanji": "僕、去年日本に行ったことがあるよ。分からないことばがあったら、手伝おうか？",
+        "kana": "ぼく、きょねん にほんに いった ことが あるよ。わからない ことばが あったら、てつだおうか？"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "本当？ありがとう！日本で着物を着たり、おいしい物を食べたりしたいんだ。",
+        "kana": "ほんとう？ ありがとう！ にほんで きものを きたり、おいしい ものを たべたり したいんだ。"
+      },
+      {
+        "speaker": "ケン",
+        "kanji": "いいね。じゃあ、カレーを食べた後、みんなで僕のうちに来て、一緒に調べよう。",
+        "kana": "いいね。じゃあ、カレーを たべた あと、みんなで ぼくの うちに きて、いっしょに しらべよう。"
+      },
+      {
+        "speaker": "たかし",
+        "kanji": "うん、分かった。じゃあ、土曜日にね！",
+        "kana": "うん、わかった。じゃあ、どようびにね！"
+      }
+    ],
+    "translation": "Ken calls Takashi and asks what he is doing right now and if he is free this weekend. Takashi is fixing his bicycle and says he has no special plans. Ken suggests going to a new curry shop over there if Takashi likes. Takashi agrees, but mentions he needs to look up visa requirements because he is traveling to Japan at the beginning of next month. Ken asks if a visa is needed for Japan. Takashi replies that from his country a visa is required; he looked it up online, but it was a bit complicated. Ken shares that he has been to Japan last year and offers to help if there are words Takashi doesn't understand. Takashi is grateful and expresses his wish to wear a kimono and eat good food in Japan. Ken suggests they go to his house after eating curry to research it together, and Takashi enthusiastically agrees.",
+    "questions": [
+      {
+        "question": "What is Takashi doing when Ken talks to him?",
+        "options": [
+          "He is eating curry at a new restaurant",
+          "He is repairing his bicycle",
+          "He is studying Japanese at school",
+          "He is sleeping in his room"
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: 自転車を修理してるよ (I'm repairing my bicycle)."
+      },
+      {
+        "question": "How does Ken ask Takashi if he is free this weekend in the plain style?",
+        "options": [
+          "今週末、暇ですか？",
+          "今週末、暇だ？",
+          "今週末、暇？",
+          "今週末、暇か？"
+        ],
+        "answer": 2,
+        "explanation": "For な-adjectives in casual speech, you drop 'だ' and raise the pitch at the end: 今週末、暇？ (Never say 暇だ？)."
+      },
+      {
+        "question": "When does Takashi plan to go on a trip to Japan?",
+        "options": [
+          "At the end of this month",
+          "At the beginning of next month",
+          "At the end of August",
+          "Next year"
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: 来月の初めに日本へ旅行に行く (I will go on a trip to Japan at the beginning of next month)."
+      },
+      {
+        "question": "Does Takashi need a visa to enter Japan?",
+        "options": [
+          "No, he doesn't need a visa",
+          "Yes, a visa is required for people from his country",
+          "He already obtained his visa last year",
+          "Only if he stays for more than one year"
+        ],
+        "answer": 1,
+        "explanation": "Takashi answers: うん、僕の国からはビザが要るよ (Yeah, from my country a visa is needed)."
+      },
+      {
+        "question": "Why does Ken offer to help Takashi with his visa research?",
+        "options": [
+          "Ken works at an embassy",
+          "Ken has been to Japan before and can help with difficult words",
+          "Ken wants Takashi to buy him souvenirs",
+          "Takashi doesn't have an internet connection"
+        ],
+        "answer": 1,
+        "explanation": "Ken says: 僕、去年日本に行ったことがあるよ。分からないことばがあったら、手伝おうか？ (I've been to Japan last year. If there are words you don't understand, shall I help?)."
+      },
+      {
+        "question": "Which plain past form in the dialogue expresses Ken's experience of visiting Japan?",
+        "options": [
+          "日本に行ったことがある",
+          "日本に行きません",
+          "日本に行きたい",
+          "日本に行く"
+        ],
+        "answer": 0,
+        "explanation": "The experience pattern in plain style is ～たことがある (日本に行ったことがある)."
+      },
+      {
+        "question": "What does Takashi want to do in Japan?",
+        "options": [
+          "Buy a new bicycle",
+          "Wear a kimono and eat delicious food",
+          "Work at a company",
+          "Climb Mt. Fuji in August"
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: 日本で着物を着たり、おいしい物を食べたりしたい (I want to wear a kimono, eat delicious food, etc.)."
+      },
+      {
+        "question": "How did Takashi describe the visa information he checked online?",
+        "options": [
+          "It was very simple and quick",
+          "It was a bit complicated",
+          "It was totally wrong",
+          "It was interesting and funny"
+        ],
+        "answer": 1,
+        "explanation": "Takashi says: 調べたけど、ちょっと複雑だった (I looked it up, but it was a bit complicated)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "question": "Choose the correct meaning of 要ります (いります).",
+      "prompt": {
+        "kanji": "チケットが要ります。",
+        "kana": "チケットが いります。"
+      },
+      "options": [
+        "to enter",
+        "to need; to require",
+        "to check",
+        "to repair"
+      ],
+      "answer": 1,
+      "explanation": "要ります (いります) is a Group 1 verb meaning 'to need' or 'to require'. Do not confuse it with 入ります (to enter)."
+    },
+    {
+      "question": "Which verb group does 要ります (dictionary form: 要る) belong to?",
+      "options": [
+        "Group 1 (Godan)",
+        "Group 2 (Ichidan)",
+        "Group 3 (Irregular)",
+        "Adjective"
+      ],
+      "answer": 0,
+      "explanation": "Even though 要る (いる) ends in -iru, it is an exception verb that belongs to Group 1 (consequently: 要らない, 要った)."
+    },
+    {
+      "question": "Choose the plain form of 行きません.",
+      "options": [
+        "行かない",
+        "行くない",
+        "行かないです",
+        "行かなかった"
+      ],
+      "answer": 0,
+      "explanation": "The negative non-past plain form of 行きます is the ない-form: 行かない."
+    },
+    {
+      "question": "Choose the plain form of 行きませんでした.",
+      "options": [
+        "行かなかった",
+        "行かないでした",
+        "行ったない",
+        "行きなかった"
+      ],
+      "answer": 0,
+      "explanation": "The past negative plain form of verbs is formed by changing the final い of the ない-form to かった: 行かない → 行かなかった."
+    },
+    {
+      "question": "Choose the correct plain negative form of あります.",
+      "options": [
+        "ない",
+        "あらない",
+        "ありない",
+        "ないだ"
+      ],
+      "answer": 0,
+      "explanation": "The negative plain form of あります is irregularly just ない (never say あらない)."
+    },
+    {
+      "question": "Choose the correct plain past negative form of あります.",
+      "options": [
+        "なかった",
+        "あらなかった",
+        "なかったでした",
+        "ないだった"
+      ],
+      "answer": 0,
+      "explanation": "The past negative plain form of あります is なかった (never say あらなかった)."
+    },
+    {
+      "question": "Choose the plain form of 寒くないです.",
+      "options": [
+        "寒くない",
+        "寒いじゃない",
+        "寒くないだ",
+        "寒くなかった"
+      ],
+      "answer": 0,
+      "explanation": "For い-adjectives, simply drop です: 寒くないです → 寒くない."
+    },
+    {
+      "question": "Choose the plain form of 暇でした (な-adjective).",
+      "options": [
+        "暇だった",
+        "暇でしただ",
+        "暇かった",
+        "暇だったです"
+      ],
+      "answer": 0,
+      "explanation": "For な-adjectives and nouns, the plain past affirmative ending is だった (暇でした → 暇だった)."
+    },
+    {
+      "question": "Choose the natural way to ask 'Are you well?' in casual conversation.",
+      "options": [
+        "元気？ (with rising pitch)",
+        "元気だ？",
+        "元気か？",
+        "元気だか？"
+      ],
+      "answer": 0,
+      "explanation": "In casual questions with な-adjectives and nouns, drop 'だ' and raise the pitch: 元気？ (Saying 元気だ？ is incorrect Japanese)."
+    },
+    {
+      "question": "How do you casually answer 'Yes' and 'No' to a plain style question?",
+      "options": [
+        "Yes: うん / No: ううん",
+        "Yes: ううん / No: うん",
+        "Yes: ええ / No: いいえ",
+        "Yes: はい / No: だめ"
+      ],
+      "answer": 0,
+      "explanation": "In casual conversation, 'yes' is うん and 'no' is ううん."
+    },
+    {
+      "question": "How is the auxiliary 『車が欲しいです』 expressed in plain style?",
+      "options": [
+        "車が欲しい",
+        "車が欲しいだ",
+        "車が欲しいる",
+        "車を欲しく"
+      ],
+      "answer": 0,
+      "explanation": "欲しい conjugates exactly like an い-adjective; simply drop です: 車が欲しい."
+    },
+    {
+      "question": "How is the contraction of 『今何をしていますか？』 expressed casually?",
+      "options": [
+        "今何してる？",
+        "今何してるか？",
+        "今何しているだ？",
+        "今何する？"
+      ],
+      "answer": 0,
+      "explanation": "In casual speech, the 'い' in -ている is commonly dropped, and 'か' is dropped for rising intonation: 今何してる？"
+    },
+    {
+      "question": "Which situation naturally allows using bare 『だ』 at the end of a noun sentence in conversation?",
+      "options": [
+        "Spontaneous discovery or talking to oneself: 『あ、雨だ！』",
+        "Asking someone a question: 『雨だ？』",
+        "Speaking politely to your company boss",
+        "Greeting an acquaintance in the street"
+      ],
+      "answer": 0,
+      "explanation": "Bare だ on nouns sounds overly blunt to a listener, but is completely natural when exclaiming a spontaneous discovery to oneself (あ、雨だ！)."
+    },
+    {
+      "question": "Choose the correct informal equivalent of こちら.",
+      "options": [
+        "こっち",
+        "そっち",
+        "あっち",
+        "どっち"
+      ],
+      "answer": 0,
+      "explanation": "こちら becomes こっち; そちら → そっち; あちら → あっち; どちら → どっち."
+    },
+    {
+      "question": "Choose the casual connective meaning 'but': 'I want to go on a trip, but I don't have money.'",
+      "prompt": {
+        "kanji": "旅行に行きたい___、お金がない。",
+        "kana": "りょこうに いきたい___、おかねが ない。"
+      },
+      "options": [
+        "けど",
+        "から",
+        "ので",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "～けど is the casual conversational equivalent of が meaning 'but'."
+    },
+    {
+      "question": "What is the plain conversational form of 『食べてください』?",
+      "options": [
+        "食べて",
+        "食べる",
+        "食べた",
+        "食べないで"
+      ],
+      "answer": 0,
+      "explanation": "Drop ください to make a casual request: 食べてください → 食べて."
+    },
+    {
+      "question": "What is the plain conversational form of 『これを見てもいいですか？』?",
+      "options": [
+        "これを見てもいい？",
+        "これを見ていいか？",
+        "これを見てもいいだ？",
+        "これを見るもいい？"
+      ],
+      "answer": 0,
+      "explanation": "Drop ですか and use rising pitch: これを見てもいい？ (or これ見ていい？)."
+    },
+    {
+      "question": "Choose the plain form of 『着物を着たことがあります』.",
+      "options": [
+        "着物を着たことがある",
+        "着物を着ることがある",
+        "着物を着たことがない",
+        "着物を着ただ"
+      ],
+      "answer": 0,
+      "explanation": "あります changes to its dictionary plain form ある: 着物を着たことがある."
+    },
+    {
+      "question": "Which sentence correctly reflects male pronoun usage as explained by Takashi?",
+      "options": [
+        "僕 can be used in both formal and casual settings, making it very versatile.",
+        "俺 is formal and used in business meetings.",
+        "私 is only used by women.",
+        "君 is the polite way to address your boss."
+      ],
+      "answer": 0,
+      "explanation": "僕 is widely used by men in both polite and casual settings; 私 is formal for men, and 俺 is purely casual with close friends."
+    },
+    {
+      "question": "Why is 君 (きみ) rarely used in everyday Japanese conversation?",
+      "options": [
+        "It is more natural to omit 'you' or call the person by their name.",
+        "It can only be used by women.",
+        "It means 'he', not 'you'.",
+        "It is an extremely polite honorific."
+      ],
+      "answer": 0,
+      "explanation": "Just like あなた, native speakers avoid using second-person pronouns by either omitting them or using the listener's name directly."
+    },
+    {
+      "question": "Choose the plain form of 調べます (Group 2 verb).",
+      "options": [
+        "調べる",
+        "調べるだ",
+        "調べす",
+        "調べた"
+      ],
+      "answer": 0,
+      "explanation": "調べます is a Group 2 verb; its dictionary form is 調べる."
+    },
+    {
+      "question": "Choose the plain form of 修理します (Group 3 verb).",
+      "options": [
+        "修理する",
+        "修理す",
+        "修理した",
+        "修理しない"
+      ],
+      "answer": 0,
+      "explanation": "します becomes する: 修理します → 修理する."
+    },
+    {
+      "question": "Choose the plain form of 『昨日は仕事じゃありませんでした』.",
+      "options": [
+        "昨日は仕事じゃなかった",
+        "昨日は仕事じゃないだった",
+        "昨日は仕事なかった",
+        "昨日は仕事だじゃなかった"
+      ],
+      "answer": 0,
+      "explanation": "じゃありませんでした becomes じゃなかった: 昨日は仕事じゃなかった."
+    },
+    {
+      "question": "Choose the correct phrase: 'Do you want a bite? — No, I'm full.'",
+      "prompt": {
+        "kanji": "一口いる？ — ううん、___。",
+        "kana": "ひとくち いる？ — ううん、___。"
+      },
+      "options": [
+        "お腹がいっぱい",
+        "お腹がすいた",
+        "お腹がいたい",
+        "お腹がひま"
+      ],
+      "answer": 0,
+      "explanation": "お腹がいっぱい means 'full (stomach)'."
+    },
+    {
+      "question": "Choose the correct phrase: 'Why don't we share with everyone if you like?'",
+      "prompt": {
+        "kanji": "___、みんなでシェアしない？",
+        "kana": "___、みんなで シェア しない？"
+      },
+      "options": [
+        "よかったら",
+        "どうやって",
+        "どちら",
+        "おわりに"
+      ],
+      "answer": 0,
+      "explanation": "よかったら means 'if you like' or 'if it's okay with you'."
+    },
+    {
+      "question": "What is the opposite of 初め (はじめ)?",
+      "options": [
+        "終わり (おわり)",
+        "修理 (しゅうり)",
+        "言葉 (ことば)",
+        "着物 (きもの)"
+      ],
+      "answer": 0,
+      "explanation": "初め (the beginning) is the opposite of 終わり (the end)."
+    },
+    {
+      "question": "Choose the correct plain form: 'A was better than B.'",
+      "prompt": {
+        "kanji": "AはBより___。",
+        "kana": "Aは Bより ___。"
+      },
+      "options": [
+        "よかった",
+        "いいでした",
+        "いかった",
+        "よいだった"
+      ],
+      "answer": 0,
+      "explanation": "The past form of いい is irregular: よかった (よかった です → よかった)."
+    },
+    {
+      "question": "Choose the correct plain form: 'The curry was not delicious.'",
+      "prompt": {
+        "kanji": "カレーは___。",
+        "kana": "カレーは ___。"
+      },
+      "options": [
+        "おいしくなかった",
+        "おいしいじゃなかった",
+        "おいしくないだった",
+        "おいしくないでした"
+      ],
+      "answer": 0,
+      "explanation": "Past negative of おいしい: drop final い and add くなかった → おいしくなかった."
+    },
+    {
+      "question": "Choose the plain form of 『行かなければなりません』.",
+      "options": [
+        "行かなければならない",
+        "行かなければなる",
+        "行かなければならなかった",
+        "行かないとだめでした"
+      ],
+      "answer": 0,
+      "explanation": "なりません becomes ならない: 行かなければならない."
+    },
+    {
+      "question": "Choose the correct word: 'What languages can you speak?'",
+      "prompt": {
+        "kanji": "どんな___を話せますか？",
+        "kana": "どんな ___を はなせますか？"
+      },
+      "options": [
+        "ことば",
+        "ビザ",
+        "きもの",
+        "しゅうり"
+      ],
+      "answer": 0,
+      "explanation": "ことば (言葉) means 'word' or 'language'."
+    }
+  ],
+  "writing": {
+    "title": "Casual Weekend Chat and Plans in Plain Style",
+    "prompt": "Write 6–8 sentences in Japanese using the plain style (普通体). Include: (1) Asking a friend what they are doing or if they are free using casual rising intonation without 'か'; (2) Answering with 'うん' or 'ううん'; (3) Describing an action, item, or plan using verb, adjective, or noun plain forms (including past or negative); (4) Using the casual connective '～けど' to show a contrast; (5) Using casual vocabulary such as '僕', 'こっち/そっち/あっち', 'よかったら', or 'みんなで'.",
+    "placeholder": "今何してる？今週末 ______？\nうん、特に ______。自転車を ______ してるよ。\nよかったら、あっちの ______ へ行かない？\nあそこはおいしい ______、ちょっと高いよ。\n日曜日にみんなで ______ を見よう。\n着物を ______ ことがある？ — ううん、______。",
+    "modelAnswer": "今何してる？今週末、暇？\nうん、特に予定はないよ。今、部屋でテレビを見てる。\nよかったら、あっちの新しいカレー屋に行かない？\nあの店はおいしかったけど、少し辛かったよ。\nじゃあ、日曜日にみんなで食べに行こう。\nところで、日本へ行ったことがある？ — ううん、ないけど、来月の初めに行く予定だよ。"
+  },
+  "grammarDrills": {
+    "sentences": [
+      {
+        "en": "I will go to Tokyo tomorrow.",
+        "chunks": [
+          "明日",
+          "東京に",
+          "行く。"
+        ]
+      },
+      {
+        "en": "I don't watch anime at all.",
+        "chunks": [
+          "アニメを",
+          "全然",
+          "見ない。"
+        ]
+      },
+      {
+        "en": "It rained yesterday.",
+        "chunks": [
+          "昨日",
+          "雨が",
+          "降った。"
+        ]
+      },
+      {
+        "en": "I didn't eat breakfast.",
+        "chunks": [
+          "朝ご飯を",
+          "食べなかった。"
+        ]
+      },
+      {
+        "en": "There is a book on the desk.",
+        "chunks": [
+          "机の上に",
+          "本が",
+          "ある。"
+        ]
+      },
+      {
+        "en": "I don't have a car.",
+        "chunks": [
+          "僕は",
+          "車が",
+          "ない。"
+        ]
+      },
+      {
+        "en": "Sorry, I didn't have time.",
+        "chunks": [
+          "ごめん、",
+          "時間が",
+          "なかった。"
+        ]
+      },
+      {
+        "en": "Japanese is difficult.",
+        "chunks": [
+          "日本語は",
+          "難しい。"
+        ]
+      },
+      {
+        "en": "It's not that cold today.",
+        "chunks": [
+          "今日は",
+          "あまり",
+          "寒くない。"
+        ]
+      },
+      {
+        "en": "The movie was not interesting.",
+        "chunks": [
+          "映画は",
+          "面白くなかった。"
+        ]
+      },
+      {
+        "en": "I want a car.",
+        "chunks": [
+          "車が",
+          "欲しい。"
+        ]
+      },
+      {
+        "en": "I didn't want to eat.",
+        "chunks": [
+          "食べたくなかった。"
+        ]
+      },
+      {
+        "en": "Cherry blossoms are beautiful.",
+        "chunks": [
+          "桜は",
+          "きれいだよ。"
+        ]
+      },
+      {
+        "en": "I don't like spicy food.",
+        "chunks": [
+          "辛い食べ物が",
+          "好きじゃない。"
+        ]
+      },
+      {
+        "en": "Oh, it's raining!",
+        "chunks": [
+          "あ、",
+          "雨だ！"
+        ]
+      },
+      {
+        "en": "Are you well?",
+        "chunks": [
+          "元気？"
+        ]
+      },
+      {
+        "en": "Where is the car key?",
+        "chunks": [
+          "車の鍵は",
+          "どこ？"
+        ]
+      },
+      {
+        "en": "The curry was good, but it was spicy.",
+        "chunks": [
+          "カレーは",
+          "美味しかったけど、",
+          "辛かった。"
+        ]
+      },
+      {
+        "en": "What are you doing now?",
+        "chunks": [
+          "今",
+          "何してる？"
+        ]
+      },
+      {
+        "en": "Can I eat this?",
+        "chunks": [
+          "これを",
+          "食べてもいい？"
+        ]
+      }
+    ],
+    "conjugations": [
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "いく",
+        "options": [
+          "いく",
+          "いかない",
+          "いった"
+        ],
+        "hint": "Dictionary form: 行きます → 行く"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain Non-past Negative",
+        "answer": "いかない",
+        "options": [
+          "いかない",
+          "いくない",
+          "いかなかった"
+        ],
+        "hint": "ない-form: 行きません → 行かない"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain Past Affirmative",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いいた",
+          "いくだった"
+        ],
+        "hint": "た-form: 行きました → 行った"
+      },
+      {
+        "prompt": "行きます (いきます)",
+        "form": "Plain Past Negative",
+        "answer": "いかなかった",
+        "options": [
+          "いかなかった",
+          "いかないだった",
+          "いかないでした"
+        ],
+        "hint": "ない-form drops い and adds かった: 行かなかった"
+      },
+      {
+        "prompt": "あります",
+        "form": "Plain Non-past Negative",
+        "answer": "ない",
+        "options": [
+          "ない",
+          "あらない",
+          "ありない"
+        ],
+        "hint": "Irregular short form: ありません → ない"
+      },
+      {
+        "prompt": "あります",
+        "form": "Plain Past Negative",
+        "answer": "なかった",
+        "options": [
+          "なかった",
+          "あらなかった",
+          "ないだった"
+        ],
+        "hint": "ありませんでした → なかった"
+      },
+      {
+        "prompt": "食べます (たべます)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "たべる",
+        "options": [
+          "たべる",
+          "たべない",
+          "たべた"
+        ],
+        "hint": "Group 2 dictionary form: 食べる"
+      },
+      {
+        "prompt": "食べます (たべます)",
+        "form": "Plain Past Negative",
+        "answer": "たべなかった",
+        "options": [
+          "たべなかった",
+          "たべないだった",
+          "たべないでした"
+        ],
+        "hint": "食べない → 食べなかった"
+      },
+      {
+        "prompt": "見ます (みます)",
+        "form": "Plain Non-past Negative",
+        "answer": "みない",
+        "options": [
+          "みない",
+          "みらない",
+          "みなかった"
+        ],
+        "hint": "Group 2 verb: 見ない"
+      },
+      {
+        "prompt": "します",
+        "form": "Plain Non-past Affirmative",
+        "answer": "する",
+        "options": [
+          "する",
+          "しない",
+          "した"
+        ],
+        "hint": "Group 3 verb: します → する"
+      },
+      {
+        "prompt": "します",
+        "form": "Plain Past Negative",
+        "answer": "しなかった",
+        "options": [
+          "しなかった",
+          "しないだった",
+          "すらなかった"
+        ],
+        "hint": "しない → しなかった"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "くる",
+        "options": [
+          "くる",
+          "こない",
+          "きた"
+        ],
+        "hint": "Group 3 dictionary form: 来る (くる)"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "Plain Non-past Negative",
+        "answer": "こない",
+        "options": [
+          "こない",
+          "きない",
+          "くらない"
+        ],
+        "hint": "Pronounced こない: 来ない"
+      },
+      {
+        "prompt": "来ます (きます)",
+        "form": "Plain Past Affirmative",
+        "answer": "きた",
+        "options": [
+          "きた",
+          "こた",
+          "くった"
+        ],
+        "hint": "Pronounced きた: 来た"
+      },
+      {
+        "prompt": "暑いです (あついです)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "あつい",
+        "options": [
+          "あつい",
+          "あつくだ",
+          "あついだ"
+        ],
+        "hint": "い-adjective: just drop です (暑い)"
+      },
+      {
+        "prompt": "暑いです (あついです)",
+        "form": "Plain Non-past Negative",
+        "answer": "あつくない",
+        "options": [
+          "あつくない",
+          "あついじゃない",
+          "あつくないだ"
+        ],
+        "hint": "暑くないです → 暑くない"
+      },
+      {
+        "prompt": "暑いです (あついです)",
+        "form": "Plain Past Affirmative",
+        "answer": "あつかった",
+        "options": [
+          "あつかった",
+          "あつかっただ",
+          "あついだった"
+        ],
+        "hint": "暑かったです → 暑かった"
+      },
+      {
+        "prompt": "暑いです (あついです)",
+        "form": "Plain Past Negative",
+        "answer": "あつくなかった",
+        "options": [
+          "あつくなかった",
+          "あつくないだった",
+          "あついじゃなかった"
+        ],
+        "hint": "暑くなかったです → 暑くなかった"
+      },
+      {
+        "prompt": "いいです",
+        "form": "Plain Past Affirmative",
+        "answer": "よかった",
+        "options": [
+          "よかった",
+          "いかった",
+          "いいだった"
+        ],
+        "hint": "Irregular adjective: よかった"
+      },
+      {
+        "prompt": "いいです",
+        "form": "Plain Non-past Negative",
+        "answer": "よくない",
+        "options": [
+          "よくない",
+          "いくない",
+          "いいじゃない"
+        ],
+        "hint": "Conjugates from よい: よくない"
+      },
+      {
+        "prompt": "静かです (しずかです)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "しずかだ",
+        "options": [
+          "しずかだ",
+          "しずかい",
+          "しずか"
+        ],
+        "hint": "な-adjective plain form ends in だ (静かだ)"
+      },
+      {
+        "prompt": "静かです (しずかです)",
+        "form": "Plain Non-past Negative",
+        "answer": "しずかじゃない",
+        "options": [
+          "しずかじゃない",
+          "しずかなくない",
+          "しずかでないだ"
+        ],
+        "hint": "静かじゃないです → 静かじゃない"
+      },
+      {
+        "prompt": "静かです (しずかです)",
+        "form": "Plain Past Affirmative",
+        "answer": "しずかだった",
+        "options": [
+          "しずかだった",
+          "しずかかった",
+          "しずかでしただ"
+        ],
+        "hint": "静かでした → 静かだった"
+      },
+      {
+        "prompt": "静かです (しずかです)",
+        "form": "Plain Past Negative",
+        "answer": "しずかじゃなかった",
+        "options": [
+          "しずかじゃなかった",
+          "しずかなくなかった",
+          "しずかじゃないだった"
+        ],
+        "hint": "静かじゃなかったです → 静かじゃなかった"
+      },
+      {
+        "prompt": "雨です (あめです)",
+        "form": "Plain Non-past Affirmative",
+        "answer": "あめだ",
+        "options": [
+          "あめだ",
+          "あめ",
+          "あめい"
+        ],
+        "hint": "Noun plain affirmative: 雨だ"
+      },
+      {
+        "prompt": "雨です (あめです)",
+        "form": "Plain Non-past Negative",
+        "answer": "あめじゃない",
+        "options": [
+          "あめじゃない",
+          "あめくない",
+          "あめじゃないだ"
+        ],
+        "hint": "雨じゃないです → 雨じゃない"
+      },
+      {
+        "prompt": "雨です (あめです)",
+        "form": "Plain Past Affirmative",
+        "answer": "あめだった",
+        "options": [
+          "あめだった",
+          "あめかった",
+          "あめでしただ"
+        ],
+        "hint": "雨でした → 雨だった"
+      },
+      {
+        "prompt": "雨です (あめです)",
+        "form": "Plain Past Negative",
+        "answer": "あめじゃなかった",
+        "options": [
+          "あめじゃなかった",
+          "あめじゃないだった",
+          "あめくなかった"
+        ],
+        "hint": "雨じゃなかったです → 雨じゃなかった"
+      },
+      {
+        "prompt": "要ります (いります)",
+        "form": "Plain Non-past Negative",
+        "answer": "いらない",
+        "options": [
+          "いらない",
+          "いりない",
+          "いらかった"
+        ],
+        "hint": "Group 1 exception verb: 要らない"
+      },
+      {
+        "prompt": "要ります (いります)",
+        "form": "Plain Past Affirmative",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いりた",
+          "いいた"
+        ],
+        "hint": "Group 1: -り changes to -った → 要った"
+      }
+    ],
+    "particles": [
+      {
+        "sentence": "明日東京 [ ? ] 行く？",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Destination particle: 東京に行く (or omitted in casual speech)."
+      },
+      {
+        "sentence": "昨日雨 [ ? ] 降った。",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Natural subject of 降る takes が."
+      },
+      {
+        "sentence": "旅行に行きたい [ ? ]、お金がない。",
+        "answer": "けど",
+        "options": [
+          "けど",
+          "から",
+          "ので",
+          "と"
+        ],
+        "hint": "Casual conjunction for 'but' is けど."
+      },
+      {
+        "sentence": "桜はきれい [ ? ] よ。",
+        "answer": "だ",
+        "options": [
+          "だ",
+          "です",
+          "で",
+          "な"
+        ],
+        "hint": "Followed by particle よ, な-adjectives take だ (きれいだよ)."
+      },
+      {
+        "sentence": "あ、外を見たら、雨 [ ? ]！",
+        "answer": "だ",
+        "options": [
+          "だ",
+          "です",
+          "で",
+          "な"
+        ],
+        "hint": "Spontaneous discovery on the spot uses bare だ (雨だ！)."
+      },
+      {
+        "sentence": "今週末、暇 [ ? ]？",
+        "answer": "(drop だ)",
+        "options": [
+          "(drop だ)",
+          "だ",
+          "か",
+          "である"
+        ],
+        "hint": "In casual questions, drop だ and use rising intonation: 暇？"
+      },
+      {
+        "sentence": "明日ジムに [ ? ]？",
+        "answer": "行く",
+        "options": [
+          "行く",
+          "行くか",
+          "行くだ",
+          "行くです"
+        ],
+        "hint": "Casual question: verb plain form with rising intonation (行く？)."
+      },
+      {
+        "sentence": "一口いる？ — [ ? ]、お腹がいっぱい。",
+        "answer": "ううん",
+        "options": [
+          "ううん",
+          "うん",
+          "いいえ",
+          "はい"
+        ],
+        "hint": "Casual 'no' is ううん."
+      },
+      {
+        "sentence": "今ジムに行く？ — [ ? ]、行くよ。",
+        "answer": "うん",
+        "options": [
+          "うん",
+          "ううん",
+          "いいえ",
+          "だめ"
+        ],
+        "hint": "Casual 'yes' is うん."
+      },
+      {
+        "sentence": "こっち [ ? ] 来て。",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "から"
+        ],
+        "hint": "Direction toward a location takes に (こっちに来て)."
+      },
+      {
+        "sentence": "富士山はあっち [ ? ] よ。",
+        "answer": "だ",
+        "options": [
+          "だ",
+          "です",
+          "で",
+          "な"
+        ],
+        "hint": "Demonstrative followed by sentence particle よ: あっちだよ."
+      },
+      {
+        "sentence": "フライドポテトをみんな [ ? ] シェアしない？",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "と"
+        ],
+        "hint": "Doing something all together takes で: みんなで."
+      },
+      {
+        "sentence": "日本に行く前にビザ [ ? ] 取らなければならない。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "Direct object of 取る takes を."
+      },
+      {
+        "sentence": "カレーはおいしかった [ ? ]、辛かった。",
+        "answer": "けど",
+        "options": [
+          "けど",
+          "から",
+          "ので",
+          "と"
+        ],
+        "hint": "Contrast: 'delicious, but spicy' uses けど."
+      },
+      {
+        "sentence": "着物 [ ? ] 着たことがある？",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "Direct object of 着る takes を."
+      },
+      {
+        "sentence": "君 [ ? ] 一緒に行く？",
+        "answer": "も",
+        "options": [
+          "も",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Meaning 'you also': 君も."
+      },
+      {
+        "sentence": "車の鍵はどこ [ ? ]？",
+        "answer": "(drop だ)",
+        "options": [
+          "(drop だ)",
+          "だ",
+          "か",
+          "です"
+        ],
+        "hint": "In casual questions, never say どこだ？ or どこか？; just use rising pitch."
+      },
+      {
+        "sentence": "テーブルの上 [ ? ] よ。",
+        "answer": "だ",
+        "options": [
+          "だ",
+          "です",
+          "で",
+          "な"
+        ],
+        "hint": "Casual noun predicate before よ takes だ: テーブルの上だよ."
+      },
+      {
+        "sentence": "アニメ [ ? ] 全然見ない。",
+        "answer": "を",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "hint": "Direct object of 見る takes を (often omitted casually)."
+      },
+      {
+        "sentence": "肉と魚、どっち [ ? ] 好き？",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "hint": "Subject of comparison with 好き takes が: どっちが好き？"
+      }
+    ],
+    "dialogues": [
+      {
+        "situation": "Greeting a close friend",
+        "speaker": "友達",
+        "prompt": "元気？",
+        "options": [
+          {
+            "text": "うん、元気だよ。",
+            "correct": true
+          },
+          {
+            "text": "うん、元気だ？",
+            "correct": false
+          },
+          {
+            "text": "ううん、元気だ。",
+            "correct": false
+          }
+        ],
+        "tip": "Answer casual questions with うん / ううん and plain forms (元気だよ)."
+      },
+      {
+        "situation": "Offering food to a friend",
+        "speaker": "友達",
+        "prompt": "一口いる？",
+        "options": [
+          {
+            "text": "ううん、お腹がいっぱい。",
+            "correct": true
+          },
+          {
+            "text": "ううん、要ります。",
+            "correct": false
+          },
+          {
+            "text": "はい、お腹がいっぱいだ？",
+            "correct": false
+          }
+        ],
+        "tip": "Casual decline: ううん + plain explanation (お腹がいっぱい)."
+      },
+      {
+        "situation": "Asking what someone is doing right now",
+        "speaker": "友達",
+        "prompt": "今何してる？",
+        "options": [
+          {
+            "text": "テレビを見てるよ。",
+            "correct": true
+          },
+          {
+            "text": "テレビを見るでした。",
+            "correct": false
+          },
+          {
+            "text": "テレビを見ていますか。",
+            "correct": false
+          }
+        ],
+        "tip": "In conversational Japanese, -ている drops 'い' to become -てる (見てるよ)."
+      },
+      {
+        "situation": "Inviting a friend to a movie",
+        "speaker": "友達",
+        "prompt": "よかったら一緒に映画を見ない？",
+        "options": [
+          {
+            "text": "いいね、見よう！",
+            "correct": true
+          },
+          {
+            "text": "ううん、見ます。",
+            "correct": false
+          },
+          {
+            "text": "映画は見ないだった。",
+            "correct": false
+          }
+        ],
+        "tip": "Casual acceptance: いいね (sounds good) or 行こう / 見よう."
+      },
+      {
+        "situation": "Asking where the car key is",
+        "speaker": "友達",
+        "prompt": "車の鍵はどこ？",
+        "options": [
+          {
+            "text": "テーブルの上だよ。",
+            "correct": true
+          },
+          {
+            "text": "テーブルの上だ？",
+            "correct": false
+          },
+          {
+            "text": "テーブルの上ですかい。",
+            "correct": false
+          }
+        ],
+        "tip": "Casual statement with a noun + よ takes だ: テーブルの上だよ."
+      },
+      {
+        "situation": "Asking for an impression of food",
+        "speaker": "友達",
+        "prompt": "カレーはどうだった？",
+        "options": [
+          {
+            "text": "美味しかったけど、辛かった。",
+            "correct": true
+          },
+          {
+            "text": "美味しいでしたけど、辛いだった。",
+            "correct": false
+          },
+          {
+            "text": "美味しかったが、辛かったです。",
+            "correct": false
+          }
+        ],
+        "tip": "Use plain past い-adjectives with the casual connective けど."
+      },
+      {
+        "situation": "Asking permission casually",
+        "speaker": "友達",
+        "prompt": "これ、食べてもいい？",
+        "options": [
+          {
+            "text": "うん、いいよ。",
+            "correct": true
+          },
+          {
+            "text": "うん、いいだ。",
+            "correct": false
+          },
+          {
+            "text": "ううん、いいよ。",
+            "correct": false
+          }
+        ],
+        "tip": "To grant casual permission, say: うん、いいよ."
+      },
+      {
+        "situation": "Asking about experience",
+        "speaker": "友達",
+        "prompt": "着物を着たことがある？",
+        "options": [
+          {
+            "text": "ううん、ない。",
+            "correct": true
+          },
+          {
+            "text": "ううん、あらない。",
+            "correct": false
+          },
+          {
+            "text": "うん、着たことがありません。",
+            "correct": false
+          }
+        ],
+        "tip": "The negative plain form of あります is ない (never あらない!)."
+      },
+      {
+        "situation": "Asking about gym habits",
+        "speaker": "友達",
+        "prompt": "今日ジムに行く？",
+        "options": [
+          {
+            "text": "うん、行く。",
+            "correct": true
+          },
+          {
+            "text": "うん、行くだ。",
+            "correct": false
+          },
+          {
+            "text": "ううん、行く。",
+            "correct": false
+          }
+        ],
+        "tip": "Verbs end in dictionary form for non-past affirmative (行く), never 行くだ."
+      },
+      {
+        "situation": "Asking about the weather where the listener is",
+        "speaker": "友達",
+        "prompt": "そっちの天気はどう？",
+        "options": [
+          {
+            "text": "こっちは寒くて、雨が降ってるよ。",
+            "correct": true
+          },
+          {
+            "text": "そっちは寒いです。",
+            "correct": false
+          },
+          {
+            "text": "こっちは雨だ？",
+            "correct": false
+          }
+        ],
+        "tip": "Contrasting locations: そっち (your end) ↔ こっち (my end)."
+      },
+      {
+        "situation": "Asking about sports habits",
+        "speaker": "友達",
+        "prompt": "普段スポーツする？",
+        "options": [
+          {
+            "text": "うん、よくバスケするよ。",
+            "correct": true
+          },
+          {
+            "text": "ううん、バスケするよ。",
+            "correct": false
+          },
+          {
+            "text": "うん、スポーツしない。",
+            "correct": false
+          }
+        ],
+        "tip": "Match affirmative response (うん) with positive verb (するよ)."
+      },
+      {
+        "situation": "Asking if a ticket is necessary",
+        "speaker": "友達",
+        "prompt": "チケット、いる？",
+        "options": [
+          {
+            "text": "うん、要るよ。",
+            "correct": true
+          },
+          {
+            "text": "ううん、要る。",
+            "correct": false
+          },
+          {
+            "text": "うん、要らない。",
+            "correct": false
+          }
+        ],
+        "tip": "要る (to need) is a Group 1 verb; casual affirmative is 要るよ."
+      }
+    ]
+  }
+}
