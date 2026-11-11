@@ -1,5 +1,3 @@
-like this?
-
 # 🌸 Minna no Nihongo Interactive Learning
 
 A lightweight, client-side web application designed to help beginners master Japanese vocabulary, alphabets, and grammar through interactive game-based exercises.
